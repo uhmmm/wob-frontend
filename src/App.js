@@ -3,13 +3,13 @@ import { Provider } from 'react-redux'
 import { BrowserRouter } from 'react-router-dom'
 import { store } from './configureStore'
 
-import { LayoutRouter } from './components/Layout/LayoutRouter'
+import { Layout } from './components/Layout'
 
 const App = () => {
   return (
     <Provider store={store}>
       <BrowserRouter>
-        <LayoutRouter />
+        <Layout />
       </BrowserRouter>
     </Provider>
   )
