@@ -1,8 +1,13 @@
 import React from 'react'
 import styled from '@emotion/styled'
+import { withRouter } from 'react-router-dom'
 
 const FormImagesContainer = styled.main({})
 
-const Images = () => <FormImagesContainer></FormImagesContainer>
+const Images = props => {
+  return <FormImagesContainer></FormImagesContainer>
+}
 
-export { Images }
+const ImagesRouted = withRouter(Images)
+
+export { ImagesRouted }
