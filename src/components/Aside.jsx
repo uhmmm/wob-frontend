@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from '@emotion/styled'
-import { withRouter } from 'react-router-dom'
+import { Switch, Route } from 'react-router-dom'
 
 import { type } from '../styles'
 
@@ -12,11 +12,17 @@ const Aside = ({ match }) => {
   console.log(match)
   return (
     <AsideContainer>
-      <Title>Aside Title</Title>
+      <Title>Aside: {match.params.asideSlug}</Title>
     </AsideContainer>
   )
 }
 
-const AsideRouter = withRouter(Aside)
+const AsideRouter = () => {
+  return (
+    <Switch>
+      <Route path="/form/:formStep/aside/:asideSlug" component={Aside}></Route>
+    </Switch>
+  )
+}
 
 export { Aside, AsideRouter }
