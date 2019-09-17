@@ -9,7 +9,7 @@ let colors = {
   darkestGrey: '#4a4a4a',
   black: '#151515',
 
-  blackestTransparent15: '#00000026',
+  blackestTransparent16: '#00000026',
 
   yellow: '#ffe384',
   darkYellow: '#edc849',

@@ -1,38 +1,25 @@
 import React from 'react'
-import styled from '@emotion/styled'
 import { Switch, Route } from 'react-router-dom'
 
 import { Start } from './Start'
-
-import logo from './logo.svg'
-
-const MainLayoutContainer = styled.section({})
-const Logo = styled.img({})
-
-const MainLayout = ({ children }) => (
-  <MainLayoutContainer>
-    <Logo src={logo} />
-    {children}
-  </MainLayoutContainer>
-)
 
 const MainRouter = () => {
   return (
     <Switch>
       <Route path="/form/start" component={Start} />
-      <Route path="/form/role" component={MainLayout} />
-      <Route path="/form/institute" component={MainLayout} />
-      <Route path="/form/subject" component={MainLayout} />
-      <Route path="/form/quantity" component={MainLayout} />
-      <Route path="/form/specific" component={MainLayout} />
-      <Route path="/form/specific-types" component={MainLayout} />
-      <Route path="/form/everything" component={MainLayout} />
-      <Route path="/form/everything-types" component={MainLayout} />
-      <Route path="/form/finish" component={MainLayout} />
-      <Route path="/form/extras" component={MainLayout} />
-      <Route path="/form/not-found" component={MainLayout} />
+      <Route path="/form/role" component={Start} />
+      <Route path="/form/institute" component={Start} />
+      <Route path="/form/subject" component={Start} />
+      <Route path="/form/quantity" component={Start} />
+      <Route path="/form/specific" component={Start} />
+      <Route path="/form/specific-types" component={Start} />
+      <Route path="/form/everything" component={Start} />
+      <Route path="/form/everything-types" component={Start} />
+      <Route path="/form/finish" component={Start} />
+      <Route path="/form/extras" component={Start} />
+      <Route path="/form/not-found" component={Start} />
     </Switch>
   )
 }
 
-export { MainLayout, MainRouter }
+export { MainRouter }

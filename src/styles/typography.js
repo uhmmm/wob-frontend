@@ -5,7 +5,7 @@ let type = {
   fonts: [
     fontFace({
       fontFamily: 'SourceSansPro',
-      fontFilePath: '/public/fonts/SourceSansPro/SourceSansPro-regular',
+      fontFilePath: '/fonts/SourceSansPro/SourceSansPro-regular',
       fileFormats: ['ttf'],
       formatHint: true,
       fontWeight: 'normal',
@@ -13,7 +13,7 @@ let type = {
     }),
     fontFace({
       fontFamily: 'SourceSansPro',
-      fontFilePath: '/public/fonts/SourceSansPro/SourceSansPro-regularItalic',
+      fontFilePath: '/fonts/SourceSansPro/SourceSansPro-regularItalic',
       fileFormats: ['ttf'],
       formatHint: true,
       fontWeight: 'normal',
@@ -21,7 +21,7 @@ let type = {
     }),
     fontFace({
       fontFamily: 'SourceSansPro',
-      fontFilePath: '/public/fonts/SourceSansPro/SourceSansPro-Bold',
+      fontFilePath: '/fonts/SourceSansPro/SourceSansPro-Bold',
       fileFormats: ['ttf'],
       formatHint: true,
       fontWeight: 'bold',
@@ -29,7 +29,7 @@ let type = {
     }),
     fontFace({
       fontFamily: 'Inconsolata',
-      fontFilePath: '/public/fonts/Inconsolata/Inconsolata-Regular',
+      fontFilePath: '/fonts/Inconsolata/Inconsolata-Regular',
       fileFormats: ['ttf'],
       formatHint: true,
       fontWeight: 'normal',

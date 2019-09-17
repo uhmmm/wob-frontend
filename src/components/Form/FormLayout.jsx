@@ -9,16 +9,44 @@ import { MainRouter } from './Main/Main'
 import { ImagesRouter } from './Images/Images'
 import { AsideRouter } from './Aside/Aside'
 
-const FormLayoutContainer = styled.main({ width: '100vw', height: '100vh' })
+import logo from './logo.svg'
+import { colors } from '../../styles'
+
+const Logo = styled.img({})
+const FormLayoutContainer = styled.main({
+  width: '100vw',
+  height: '100vh',
+  display: 'flex'
+})
+const LeftContainer = styled.section({
+  width: '50%',
+  height: '100%',
+  padding: '4rem',
+  background: colors.yellow
+})
+const RightContainer = styled.section({ width: '50%', height: '100%' })
+const SectionHeader = styled.div({
+  display: 'flex',
+  justifyContent: 'flex-end',
+  width: '100%',
+  padding: '8rem'
+})
 
 const FormLayout = () => (
   <FormLayoutContainer>
-    <MainRouter />
-    <ImagesRouter />
-    <LetterOverlay />
-    <ToggleBar />
-    <AsideRouter />
-    <Pagination />
+    <LeftContainer>
+      <Logo src={logo} />
+      <MainRouter />
+    </LeftContainer>
+    <RightContainer>
+      <SectionHeader>
+        <ToggleBar />
+      </SectionHeader>
+      <ImagesRouter />
+      <AsideRouter />
+      <LetterOverlay />
+      <Pagination />
+    </RightContainer>
   </FormLayoutContainer>
 )
 
