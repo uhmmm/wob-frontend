@@ -15,7 +15,7 @@ const ToggleBarContainer = styled.div({
 })
 
 const Label = styled.label({
-  padding: '1rem',
+  padding: '0 0 0 1rem',
   ...type.content.medium
 })
 

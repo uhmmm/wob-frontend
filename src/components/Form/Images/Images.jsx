@@ -7,7 +7,7 @@ import man from './right.svg'
 const FormImagesContainer = styled.main({
   display: 'flex',
   flexDirection: 'column',
-  justifyContent: 'flex-end',
+  justifyContent: 'center',
   height: '100%'
 })
 const Img = styled.img({ width: '100%' })
