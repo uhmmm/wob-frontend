@@ -14,7 +14,7 @@ const StyledLink = styled(Link)({
 const Header = () => (
   <HeaderContainer>
     <Title>Header</Title>
-    <StyledLink to="/form/start">Start je Wob-verzoek</StyledLink>
+    <StyledLink to="/form/start">Start je Wob-verzoek!</StyledLink>
   </HeaderContainer>
 )
 
