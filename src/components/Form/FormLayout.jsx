@@ -12,7 +12,7 @@ import { AsideRouter } from './Aside/Aside'
 import logo from './logo.svg'
 import { colors } from '../../styles'
 
-const Logo = styled.img({})
+const Logo = styled.img({ height: '4rem' })
 const FormLayoutContainer = styled.main({
   width: '100vw',
   height: '100vh',
@@ -21,27 +21,38 @@ const FormLayoutContainer = styled.main({
 const LeftContainer = styled.section({
   width: '50%',
   height: '100%',
-  padding: '4rem',
+  padding: '8rem 8rem 12rem 8rem',
   background: colors.yellow
 })
-const RightContainer = styled.section({ width: '50%', height: '100%' })
-const SectionHeader = styled.div({
+const LeftSectionHeader = styled.div({
+  display: 'flex',
+  width: '100%',
+  padding: '0 0 4rem 0'
+})
+
+const RightContainer = styled.section({
+  width: '50%',
+  height: '100%',
+  padding: '8rem 8rem 12rem 8rem'
+})
+const RightSectionHeader = styled.div({
   display: 'flex',
   justifyContent: 'flex-end',
-  width: '100%',
-  padding: '8rem'
+  width: '100%'
 })
 
 const FormLayout = () => (
   <FormLayoutContainer>
     <LeftContainer>
-      <Logo src={logo} />
+      <LeftSectionHeader>
+        <Logo src={logo} />
+      </LeftSectionHeader>
       <MainRouter />
     </LeftContainer>
     <RightContainer>
-      <SectionHeader>
+      <RightSectionHeader>
         <ToggleBar />
-      </SectionHeader>
+      </RightSectionHeader>
       <ImagesRouter />
       <AsideRouter />
       <LetterOverlay />

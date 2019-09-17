@@ -21,7 +21,7 @@ let type = {
     }),
     fontFace({
       fontFamily: 'SourceSansPro',
-      fontFilePath: '/fonts/SourceSansPro/SourceSansPro-Bold',
+      fontFilePath: '/fonts/SourceSansPro/SourceSansPro-SemiBold',
       fileFormats: ['ttf'],
       formatHint: true,
       fontWeight: 'bold',

@@ -4,13 +4,17 @@ import { Switch, Route } from 'react-router-dom'
 
 import man from './right.svg'
 
-const FormImagesContainer = styled.main({})
-const Text = styled.p({})
+const FormImagesContainer = styled.main({
+  display: 'flex',
+  flexDirection: 'column',
+  justifyContent: 'flex-end',
+  height: '100%'
+})
+const Img = styled.img({ width: '100%' })
 
-const Image = ({ text }) => (
+const Image = ({ source }) => (
   <FormImagesContainer>
-    <Text>{text}</Text>
-    <img src={man} alt="" />
+    <Img src={source} alt="" />
   </FormImagesContainer>
 )
 
