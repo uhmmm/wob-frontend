@@ -6,7 +6,7 @@ import { Start } from './Start'
 
 import logo from './logo.svg'
 
-const MainLayoutContainer = styled.main({})
+const MainLayoutContainer = styled.section({})
 const Logo = styled.img({})
 
 const MainLayout = ({ children }) => (

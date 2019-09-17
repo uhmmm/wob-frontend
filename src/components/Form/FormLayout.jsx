@@ -2,14 +2,14 @@ import React from 'react'
 import styled from '@emotion/styled'
 import { Switch, Route, Redirect } from 'react-router-dom'
 
-import { LetterOverlay } from '../Letter/LetterOverlay'
+import { LetterOverlay } from './LetterOverlay'
 import { ToggleBar } from './ToggleBar'
 import { Pagination } from './Pagination'
-import { MainRouter } from './Main'
+import { MainRouter } from './Main/Main'
 import { ImagesRouter } from './Images/Images'
 import { AsideRouter } from './Aside/Aside'
 
-const FormLayoutContainer = styled.div({})
+const FormLayoutContainer = styled.main({ width: '100vw', height: '100vh' })
 
 const FormLayout = () => (
   <FormLayoutContainer>
