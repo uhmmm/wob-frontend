@@ -1,11 +1,11 @@
 import React from 'react'
 import styled from '@emotion/styled'
 
-import { LetterMetaList } from './Page/LetterMetaList'
-import { Header } from './Page/Header'
-import { Footer } from './Page/Footer'
-import { CallToAction } from './Page/CallToAction'
-import { Markdown } from './Markdown'
+import { LetterMetaList } from './LetterMetaList'
+import { Header } from './Header'
+import { Footer } from './Footer'
+import { CallToAction } from './CallToAction'
+import { Markdown } from '../Markdown'
 
 const PageLayoutContainer = styled.main({})
 const ContentContainer = styled.section({})

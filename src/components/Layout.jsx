@@ -5,8 +5,8 @@ import { Route, Switch } from 'react-router-dom'
 
 import { globalStyles } from '../styles'
 
-import { FormLayout } from './FormLayout'
-import { PageLayout } from './PageLayout'
+import { FormLayout } from './Form/FormLayout'
+import { PageLayout } from './Page/PageLayout'
 
 const LayoutContainer = styled.div({})
 
