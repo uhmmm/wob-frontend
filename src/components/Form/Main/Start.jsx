@@ -4,7 +4,6 @@ import styled from '@emotion/styled'
 import { type } from '../../../styles'
 
 const StartContainer = styled.main({})
-
 const Title = styled.h1({ ...type.title.medium })
 const Text = styled.h1({ paddingTop: '2rem', ...type.content.medium })
 const List = styled.ul({ padding: '1rem 0' })
