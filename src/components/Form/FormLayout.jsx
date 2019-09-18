@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from '@emotion/styled'
+import { Helmet } from 'react-helmet'
 
 import { LetterOverlay } from './LetterOverlay'
 import { ToggleBar } from './ToggleBar'
@@ -10,6 +11,7 @@ import { AsideRouter } from './Aside/Aside'
 import { Logo } from '../Logo/Logo'
 
 import { colors } from '../../styles'
+import { formRoutes } from './FormRouter'
 
 const FormLayoutContainer = styled.main({
   position: 'relative',
@@ -44,8 +46,15 @@ const RightSectionHeader = styled.div({
   width: '100%'
 })
 
-const FormLayout = () => (
+const FormLayout = ({ match }) => (
   <FormLayoutContainer>
+    <Helmet>
+      <title>
+        {`WtW - ${
+          formRoutes.find(route => route.path === match.path).displayName
+        }`}
+      </title>
+    </Helmet>
     <LeftContainer>
       <LeftSectionHeader>
         <Logo />

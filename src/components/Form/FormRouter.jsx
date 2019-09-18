@@ -23,14 +23,13 @@ let formSteps = [
 formSteps = formSteps.map(route => ({
   ...route,
   kebabCaseName: kebabCase(route.name),
-  upperCamelCaseName: upperFirst(camelCase(route.name))
+  upperCamelCaseName: upperFirst(camelCase(route.name)),
+  displayName: route.name
 }))
 
 const formRoutes = formSteps.map(route => {
   return { ...route, path: `/form/${route.kebabCaseName}` }
 })
-
-console.log(formRoutes)
 
 const FormRouter = () => (
   <Switch>
