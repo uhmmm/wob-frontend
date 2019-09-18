@@ -1,10 +1,10 @@
 import React from 'react'
 import { Switch, Route, Redirect } from 'react-router-dom'
-import { upperFirst, camelCase, kebabCase } from 'lodash'
+import { kebabCase } from 'lodash'
 
 import { FormLayout } from './FormLayout'
 
-let formSteps = [
+const formSteps = [
   { name: 'Start' },
   { name: 'Contact Details' },
   { name: 'Role' },
@@ -20,14 +20,8 @@ let formSteps = [
   { name: 'Not Found' }
 ]
 
-formSteps = formSteps.map(route => ({
-  ...route,
-  kebabCaseName: kebabCase(route.name),
-  upperCamelCaseName: upperFirst(camelCase(route.name))
-}))
-
 const formRoutes = formSteps.map(route => {
-  return { ...route, path: `/form/${route.kebabCaseName}` }
+  return { ...route, path: `/form/${kebabCase(route.name)}` }
 })
 
 const FormRouter = () => (

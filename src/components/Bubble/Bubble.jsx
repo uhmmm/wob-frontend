@@ -3,6 +3,8 @@ import styled from '@emotion/styled'
 
 import { type, colors } from '../../styles'
 
+import infoIcon from './icon-info.svg'
+
 const BubbleContainer = styled.div(({ size }) => ({
   flex: `0 0 auto`,
   position: 'relative',
@@ -64,4 +66,20 @@ const Bubble = ({
   </BubbleContainer>
 )
 
-export { Bubble }
+const InfoBubble = ({
+  size = 2,
+  bgInversed = true,
+  vOrient = 'positive',
+  hOrient = 'positive',
+  icon = infoIcon
+}) => (
+  <Bubble
+    size={size}
+    inversed={bgInversed}
+    vOrient={vOrient}
+    hOrient={hOrient}
+    icon={icon}
+  />
+)
+
+export { Bubble, InfoBubble }

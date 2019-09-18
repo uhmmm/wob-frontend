@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from '@emotion/styled'
 
-import { type } from '../../../../styles'
+import { type } from '../../../styles'
 
 const ContactContainer = styled.main({})
 const Title = styled.h1({ ...type.title.medium, margin: '0 0 2rem' })
