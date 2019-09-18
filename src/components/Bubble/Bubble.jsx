@@ -3,35 +3,33 @@ import styled from '@emotion/styled'
 
 import { type, colors } from '../../styles'
 
-const BubbleContainer = styled.div({
-  flex: '2rem 0 0 ',
+const BubbleContainer = styled.div(({ size }) => ({
+  flex: `0 0 auto`,
   position: 'relative',
   display: 'flex',
+  width: size || '2rem',
+  height: size || '2rem',
   justifyContent: 'center',
-  alignItems: 'center',
-  width: '2rem',
-  height: '2rem'
-})
+  alignItems: 'center'
+}))
 
-const Background = styled.div({
-  flex: '2rem 0 0',
+const Background = styled.div(({ size }) => ({
   position: 'absolute',
+  width: size || '100%',
+  height: size || '100%',
   left: '0.15rem',
   top: '0.15rem',
-  width: '100%',
-  height: '100%',
   background: colors.darkerYellow,
   borderRadius: '100%'
-})
+}))
 
-const Border = styled.div({
-  flex: '2rem 0 0',
+const Border = styled.div(({ size }) => ({
   position: 'absolute',
-  width: '100%',
-  height: '100%',
+  width: size || '100%',
+  height: size || '100%',
   border: `1px solid ${colors.darkestYellow}`,
   borderRadius: '100%'
-})
+}))
 
 const Label = styled.div({
   ...type.navigation.medium,
@@ -39,10 +37,10 @@ const Label = styled.div({
   color: colors.darkestYellow
 })
 
-const Bubble = ({ number }) => (
-  <BubbleContainer>
-    <Background />
-    <Border />
+const Bubble = ({ size, number }) => (
+  <BubbleContainer size={size}>
+    <Background size={size} />
+    <Border size={size} />
     <Label>{number}</Label>
   </BubbleContainer>
 )
