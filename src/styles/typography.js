@@ -164,4 +164,13 @@ type.contentMono.small = {
   textAlign: 'left'
 }
 
+type.navigation = {}
+type.navigation.medium = {
+  fontFamily: 'SourceSansPro',
+  fontSize: '1.25rem',
+  fontWeight: 'normal',
+  fontStyle: 'italic',
+  lineHeight: '1.5rem'
+}
+
 export default type

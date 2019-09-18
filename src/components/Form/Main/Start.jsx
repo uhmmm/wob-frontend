@@ -1,27 +1,25 @@
 import React from 'react'
 import styled from '@emotion/styled'
 
+import { Bubble } from '../../Bubble/Bubble'
+
 import { type } from '../../../styles'
 
 const StartContainer = styled.main({})
-const Title = styled.h1({ ...type.title.medium })
-const Text = styled.h1({ paddingTop: '2rem', ...type.content.medium })
-const List = styled.ul({ padding: '1rem 0' })
-const ListItemContainer = styled.li({ ...type.content.medium, display: 'flex' })
-const BubbleContainer = styled.div({ position: 'relative' })
-const Background = styled.div({})
-
-const Bubble = ({ number }) => (
-  <BubbleContainer>
-    <Background />
-    {number}
-  </BubbleContainer>
-)
+const Title = styled.h1({ ...type.title.medium, margin: '0 0 2rem' })
+const Text = styled.h1({ ...type.content.medium, margin: '0 0 2rem' })
+const List = styled.ul({ margin: '0 0 2rem' })
+const ListItemContainer = styled.li({
+  ...type.content.medium,
+  display: 'flex',
+  margin: '0 0 1rem'
+})
+const Label = styled.label({ margin: '0 0 0 1rem', ...type.content.medium })
 
 const ListItem = ({ children, number }) => (
   <ListItemContainer>
     <Bubble number={number} />
-    {children}
+    <Label>{children}</Label>
   </ListItemContainer>
 )
 

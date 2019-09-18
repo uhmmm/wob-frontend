@@ -5,7 +5,7 @@ import { Switch, Route, Redirect } from 'react-router-dom'
 import { LetterOverlay } from './LetterOverlay'
 import { ToggleBar } from './ToggleBar'
 import { Pagination } from './Pagination'
-import { MainRouter } from './Main/Main'
+import { MainRouter } from './Main/MainRouter'
 import { ImagesRouter } from './Images/Images'
 import { AsideRouter } from './Aside/Aside'
 import { Logo } from '../Logo/Logo'
@@ -17,16 +17,18 @@ const FormLayoutContainer = styled.main({
   height: '100vh',
   display: 'flex'
 })
+
 const LeftContainer = styled.section({
   width: '50%',
   height: '100%',
   padding: '8rem 8rem 12rem 8rem',
   background: colors.yellow
 })
+
 const LeftSectionHeader = styled.div({
   display: 'flex',
   width: '100%',
-  padding: '0 0 4rem 0'
+  margin: '0 0 4rem 0'
 })
 
 const RightContainer = styled.section({
@@ -34,6 +36,7 @@ const RightContainer = styled.section({
   height: '100%',
   padding: '8rem 8rem 12rem 8rem'
 })
+
 const RightSectionHeader = styled.div({
   display: 'flex',
   justifyContent: 'flex-end',
