@@ -8,11 +8,10 @@ import { Pagination } from './Pagination'
 import { MainRouter } from './Main/Main'
 import { ImagesRouter } from './Images/Images'
 import { AsideRouter } from './Aside/Aside'
+import { Logo } from '../Logo/Logo'
 
-import logo from './logo.svg'
 import { colors } from '../../styles'
 
-const Logo = styled.img({ height: '4rem' })
 const FormLayoutContainer = styled.main({
   width: '100vw',
   height: '100vh',
@@ -45,7 +44,7 @@ const FormLayout = () => (
   <FormLayoutContainer>
     <LeftContainer>
       <LeftSectionHeader>
-        <Logo src={logo} />
+        <Logo />
       </LeftSectionHeader>
       <MainRouter />
     </LeftContainer>
