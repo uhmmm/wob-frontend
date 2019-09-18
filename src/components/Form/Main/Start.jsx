@@ -1,13 +1,15 @@
 import React from 'react'
 import styled from '@emotion/styled'
 
-import { Bubble } from '../../Bubble/Bubble'
+import { InfoBubble, Bubble } from '../../Bubble/Bubble'
 
 import { type } from '../../../styles'
 
 const StartContainer = styled.main({})
 const Title = styled.h1({ ...type.title.medium, margin: '0 0 2rem' })
-const Text = styled.h1({ ...type.content.medium, margin: '0 0 2rem' })
+const TextContainer = styled.div({ margin: '0 0 2rem' })
+const Text = styled.p({ ...type.content.medium })
+const TextSpan = styled.span({ margin: '0 1rem 0 0' })
 const List = styled.ul({ margin: '0 0 2rem' })
 const ListItemContainer = styled.li({
   ...type.content.medium,
@@ -26,10 +28,17 @@ const ListItem = ({ children, number }) => (
 const Start = () => (
   <StartContainer>
     <Title>In drie stappen naar je Wob-verzoek</Title>
-    <Text>
-      Kun je de documenten op een andere manier in handen krijgen, bijvoorbeeld
-      door het gewoon te vragen of door ze ergens anders te zoeken?
-    </Text>
+    <TextContainer>
+      <Text>
+        <TextSpan>
+          Kun je de documenten op een andere manier in handen krijgen,
+          bijvoorbeeld door het gewoon te vragen of door ze ergens anders te
+          zoeken?
+        </TextSpan>
+        <InfoBubble />
+      </Text>
+    </TextContainer>
+
     <List>
       <ListItem number="1">
         Je vult een aantal (contact)gegevens over jezelf in.

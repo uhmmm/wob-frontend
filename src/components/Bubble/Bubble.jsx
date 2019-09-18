@@ -5,17 +5,17 @@ import { type, colors } from '../../styles'
 
 import infoIcon from './icon-info.svg'
 
-const BubbleContainer = styled.div(({ size }) => ({
+const BubbleContainer = styled.span(({ size }) => ({
   flex: `0 0 auto`,
   position: 'relative',
-  display: 'flex',
+  display: 'inline-flex',
   width: `${size}rem`,
   height: `${size}rem`,
   justifyContent: 'center',
   alignItems: 'center'
 }))
 
-const Background = styled.div(({ size, inversed, hOrient, vOrient }) => ({
+const Background = styled.span(({ size, inversed, hOrient, vOrient }) => ({
   position: 'absolute',
   width: `${size}rem`,
   height: `${size}rem`,
@@ -25,7 +25,7 @@ const Background = styled.div(({ size, inversed, hOrient, vOrient }) => ({
   borderRadius: '100%'
 }))
 
-const Border = styled.div(({ size }) => ({
+const Border = styled.span(({ size }) => ({
   position: 'absolute',
   width: `${size}rem`,
   height: `${size}rem`,
@@ -33,7 +33,7 @@ const Border = styled.div(({ size }) => ({
   borderRadius: '100%'
 }))
 
-const Label = styled.div({
+const Label = styled.span({
   ...type.navigation.mediumEmphasis,
   position: 'relative',
   color: colors.darkestYellow
@@ -75,7 +75,7 @@ const InfoBubble = ({
 }) => (
   <Bubble
     size={size}
-    inversed={bgInversed}
+    bgInversed={bgInversed}
     vOrient={vOrient}
     hOrient={hOrient}
     icon={icon}
