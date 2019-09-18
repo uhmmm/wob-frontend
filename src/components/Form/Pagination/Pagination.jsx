@@ -23,7 +23,7 @@ const Pagination = ({ match }) => {
   let currStepIndex = formRoutes.findIndex(route => route.path === match.path)
   let prevStep = currStepIndex > 0 ? formRoutes[currStepIndex - 1].path : '/'
   let nextStep =
-    currStepIndex < 10 ? formRoutes[currStepIndex + 1].path : '/review'
+    currStepIndex < 11 ? formRoutes[currStepIndex + 1].path : '/review'
   return (
     <PaginationContainer>
       <Link to={prevStep}>

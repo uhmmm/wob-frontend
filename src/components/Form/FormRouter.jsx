@@ -1,26 +1,36 @@
 import React from 'react'
 import { Switch, Route, Redirect } from 'react-router-dom'
+import { upperFirst, camelCase, kebabCase } from 'lodash'
 
 import { FormLayout } from './FormLayout'
 
-const formSteps = [
-  { name: 'start' },
-  { name: 'contact-details' },
-  { name: 'role' },
-  { name: 'institute' },
-  { name: 'subject' },
-  { name: 'quantity' },
-  { name: 'specific' },
-  { name: 'specific-types' },
-  { name: 'everything' },
-  { name: 'everything-types' },
-  { name: 'finish' },
-  { name: 'extras' }
+let formSteps = [
+  { name: 'Start' },
+  { name: 'Contact Details' },
+  { name: 'Role' },
+  { name: 'Institute' },
+  { name: 'Subject' },
+  { name: 'Quantity' },
+  { name: 'Specific' },
+  { name: 'Specific Types' },
+  { name: 'Everything' },
+  { name: 'Everything Types' },
+  { name: 'Finish' },
+  { name: 'Extras' },
+  { name: 'Not Found' }
 ]
 
+formSteps = formSteps.map(route => ({
+  ...route,
+  kebabCaseName: kebabCase(route.name),
+  upperCamelCaseName: upperFirst(camelCase(route.name))
+}))
+
 const formRoutes = formSteps.map(route => {
-  return { ...route, path: `/form/${route.name}` }
+  return { ...route, path: `/form/${route.kebabCaseName}` }
 })
+
+console.log(formRoutes)
 
 const FormRouter = () => (
   <Switch>
