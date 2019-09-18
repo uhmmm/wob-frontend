@@ -23,8 +23,7 @@ let formSteps = [
 formSteps = formSteps.map(route => ({
   ...route,
   kebabCaseName: kebabCase(route.name),
-  upperCamelCaseName: upperFirst(camelCase(route.name)),
-  displayName: route.name
+  upperCamelCaseName: upperFirst(camelCase(route.name))
 }))
 
 const formRoutes = formSteps.map(route => {

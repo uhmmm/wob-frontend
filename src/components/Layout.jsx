@@ -2,7 +2,7 @@ import React from 'react'
 import { css, Global } from '@emotion/core'
 import styled from '@emotion/styled'
 import { Route, Switch } from 'react-router-dom'
-import { Helmet } from 'react-helmet'
+import { Helmet } from 'react-helmet-async'
 
 import { globalStyles } from '../styles'
 

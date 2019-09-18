@@ -2,7 +2,23 @@ import React from 'react'
 import styled from '@emotion/styled'
 import { Switch, Route } from 'react-router-dom'
 
-import man from './right.svg'
+import man from './man.svg'
+
+const imageRoutes = [
+  { path: '/form/start', source: man },
+  { path: '/form/contact-details', source: man },
+  { path: '/form/role', source: man },
+  { path: '/form/institute', source: man },
+  { path: '/form/subject', source: man },
+  { path: '/form/quantity', source: man },
+  { path: '/form/specific', source: man },
+  { path: '/form/specific-types', source: man },
+  { path: '/form/everything', source: man },
+  { path: '/form/everything-types', source: man },
+  { path: '/form/finish', source: man },
+  { path: '/form/extras', source: man },
+  { path: '/form/not-found', source: man }
+]
 
 const FormImagesContainer = styled.main({
   display: 'flex',
@@ -10,6 +26,7 @@ const FormImagesContainer = styled.main({
   justifyContent: 'center',
   height: '100%'
 })
+
 const Img = styled.img({ width: '100%' })
 
 const Image = ({ source }) => (
@@ -18,39 +35,16 @@ const Image = ({ source }) => (
   </FormImagesContainer>
 )
 
-const FrontalJournalist = () => (
-  <Image source={man} animated="false" text="frontal" />
-)
-const TypingJournalist = () => (
-  <Image source={man} animated="false" text="typing" />
-)
-const FormalInstitute = () => (
-  <Image source={man} animated="false" text="institute" />
-)
-const Subject = () => <Image source={man} animated="false" text="subject" />
-const SpecificDocs = () => (
-  <Image source={man} animated="false" text="specific" />
-)
-const GeneralDocs = () => <Image source={man} animated="false" text="general" />
-const Finish = () => <Image source={man} animated="false" text="finish" />
-const Extra = () => <Image source={man} animated="false" text="extras" />
-
 const ImagesRouter = () => {
   return (
     <Switch>
-      <Route path="/form/start" component={FrontalJournalist} />
-      <Route path="/form/contact-details" component={TypingJournalist} />
-      <Route path="/form/role" component={TypingJournalist} />
-      <Route path="/form/institute" component={FormalInstitute} />
-      <Route path="/form/subject" component={Subject} />
-      <Route path="/form/quantity" component={Subject} />
-      <Route path="/form/specific" component={SpecificDocs} />
-      <Route path="/form/specific-types" component={SpecificDocs} />
-      <Route path="/form/everything" component={GeneralDocs} />
-      <Route path="/form/everything-types" component={GeneralDocs} />
-      <Route path="/form/finish" component={Finish} />
-      <Route path="/form/extras" component={Extra} />
-      <Route path="/form/not-found" component={Extra} />
+      {imageRoutes.map(route => (
+        <Route
+          key={route.path}
+          path="/form/start"
+          component={() => <Image source={route.source} />}
+        />
+      ))}
     </Switch>
   )
 }

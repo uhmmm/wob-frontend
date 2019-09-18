@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from '@emotion/styled'
-import { Helmet } from 'react-helmet'
+import { Helmet } from 'react-helmet-async'
 
 import { LetterOverlay } from './LetterOverlay'
 import { ToggleBar } from './ToggleBar'
@@ -50,9 +50,7 @@ const FormLayout = ({ match }) => (
   <FormLayoutContainer>
     <Helmet>
       <title>
-        {`WtW - ${
-          formRoutes.find(route => route.path === match.path).displayName
-        }`}
+        {`WtW - ${formRoutes.find(route => route.path === match.path).name}`}
       </title>
     </Helmet>
     <LeftContainer>
