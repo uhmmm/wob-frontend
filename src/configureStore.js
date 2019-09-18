@@ -15,7 +15,7 @@ const composeEnhancers = composeWithDevTools({ trace: true })
 const middleware =
   process.env.NODE_ENV === 'development'
     ? composeEnhancers(applyMiddleware(logger))
-    : null
+    : {}
 
 const store = createStore(reducers, middleware)
 
