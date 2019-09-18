@@ -13,6 +13,7 @@ import { Logo } from '../Logo/Logo'
 import { colors } from '../../styles'
 
 const FormLayoutContainer = styled.main({
+  position: 'relative',
   width: '100vw',
   height: '100vh',
   display: 'flex'
@@ -59,8 +60,8 @@ const FormLayout = () => (
       <ImagesRouter />
       <AsideRouter />
       <LetterOverlay />
-      <Pagination />
     </RightContainer>
+    <Pagination />
   </FormLayoutContainer>
 )
 
