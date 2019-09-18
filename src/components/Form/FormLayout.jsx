@@ -22,7 +22,8 @@ const LeftContainer = styled.section({
   width: '50%',
   height: '100%',
   padding: '8rem 8rem 12rem 8rem',
-  background: colors.yellow
+  background: colors.yellow,
+  overflow: 'scroll'
 })
 
 const LeftSectionHeader = styled.div({

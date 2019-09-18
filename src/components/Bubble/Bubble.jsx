@@ -32,7 +32,7 @@ const Border = styled.div(({ size }) => ({
 }))
 
 const Label = styled.div({
-  ...type.navigation.medium,
+  ...type.navigation.mediumEmphasis,
   position: 'relative',
   color: colors.darkestYellow
 })

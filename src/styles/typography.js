@@ -130,7 +130,15 @@ type.content.medium = {
   lineHeight: '2rem'
 }
 
-type.content.smallHead = {
+type.content.small = {
+  fontFamily: 'SourceSansPro',
+  fontSize: '1.25rem',
+  fontWeight: 'normal',
+  fontStyle: 'normal',
+  lineHeight: '2rem'
+}
+
+type.content.xsmallHead = {
   fontFamily: 'SourceSansPro',
   fontSize: '1rem',
   fontWeight: 'bold',
@@ -138,7 +146,7 @@ type.content.smallHead = {
   lineHeight: '2rem'
 }
 
-type.content.small = {
+type.content.xsmall = {
   fontFamily: 'SourceSansPro',
   fontSize: '1rem',
   fontWeight: 'normal',
@@ -165,7 +173,7 @@ type.contentMono.small = {
 }
 
 type.navigation = {}
-type.navigation.medium = {
+type.navigation.mediumEmphasis = {
   fontFamily: 'SourceSansPro',
   fontSize: '1.25rem',
   fontWeight: 'normal',

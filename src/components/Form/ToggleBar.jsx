@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styled from '@emotion/styled'
 
 import { colors, type } from '../../styles'
@@ -16,7 +16,7 @@ const ToggleBarContainer = styled.div({
 
 const Label = styled.label({
   padding: '0 0 0 1rem',
-  ...type.content.medium
+  ...type.content.small
 })
 
 const ToggleContainer = styled.div({
@@ -24,32 +24,45 @@ const ToggleContainer = styled.div({
   display: 'flex',
   alignItems: 'center'
 })
-const Background = styled.div({
-  width: '3rem',
-  height: '1rem',
-  background: colors.darkerYellow,
-  borderRadius: '10px'
+const Background = styled.div(({ active }) => {
+  return {
+    width: '3rem',
+    height: '1rem',
+    background: active ? colors.white : colors.darkerYellow,
+    borderRadius: '10px'
+  }
 })
-const Knob = styled.div({
+
+const Knob = styled.div(({ active }) => ({
   position: 'absolute',
   width: '1.5rem',
   height: '1.5rem',
+  left: active ? '1.5rem' : '0',
   background: colors.white,
-  borderRadius: '100%'
-})
+  borderRadius: '100%',
+  transition: 'left 0.1s ease'
+}))
 
-const Toggle = ({ active }) => (
-  <ToggleContainer>
-    <Background />
-    <Knob />
-  </ToggleContainer>
-)
+const Toggle = ({ handler, active }) => {
+  return (
+    <ToggleContainer onClick={handler}>
+      <Background active={active} />
+      <Knob active={active} />
+    </ToggleContainer>
+  )
+}
 
-const ToggleBar = () => (
-  <ToggleBarContainer>
-    <Toggle />
-    <Label>Toon Brief</Label>
-  </ToggleBarContainer>
-)
+const ToggleBar = () => {
+  const [active, setActive] = useState(false)
+  const handler = () => {
+    setActive(!active)
+  }
+  return (
+    <ToggleBarContainer>
+      <Toggle handler={handler} active={active} />
+      <Label>Toon Brief</Label>
+    </ToggleBarContainer>
+  )
+}
 
 export { ToggleBar }
