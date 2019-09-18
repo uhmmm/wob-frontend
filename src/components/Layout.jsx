@@ -5,19 +5,16 @@ import { Route, Switch } from 'react-router-dom'
 
 import { globalStyles } from '../styles'
 
-import { FormLayout } from './Form/FormLayout'
+import { FormRouter } from './Form/FormRouter'
 import { PageLayout } from './Page/PageLayout'
-
-// import { Grid } from './Grid'
 
 const LayoutContainer = styled.div({})
 
 const Layout = () => (
   <LayoutContainer>
     <Global styles={css(globalStyles)} />
-    {/* <Grid></Grid> */}
     <Switch>
-      <Route path="/form" component={FormLayout} />
+      <Route path="/form" component={FormRouter} />
       <Route path="/" component={PageLayout} />
     </Switch>
   </LayoutContainer>
