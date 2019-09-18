@@ -4,6 +4,7 @@ import styled from '@emotion/styled'
 import { type, colors } from '../../styles'
 
 const BubbleContainer = styled.div({
+  flex: '2rem 0 0 ',
   position: 'relative',
   display: 'flex',
   justifyContent: 'center',
@@ -13,6 +14,7 @@ const BubbleContainer = styled.div({
 })
 
 const Background = styled.div({
+  flex: '2rem 0 0',
   position: 'absolute',
   left: '0.15rem',
   top: '0.15rem',
@@ -23,6 +25,7 @@ const Background = styled.div({
 })
 
 const Border = styled.div({
+  flex: '2rem 0 0',
   position: 'absolute',
   width: '100%',
   height: '100%',
