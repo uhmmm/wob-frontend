@@ -37,12 +37,19 @@ const Label = styled.div({
   color: colors.darkestYellow
 })
 
+const Img = styled.img(({ size }) => ({
+  position: 'relative',
+  width: `${size - 0.5 * size}rem`,
+  height: `${size - 0.5 * size}rem`
+}))
+
 const Bubble = ({
   size = 2,
-  number,
   bgInversed,
   vOrient = 'positive',
-  hOrient = 'positive'
+  hOrient = 'positive',
+  number,
+  icon
 }) => (
   <BubbleContainer size={size}>
     <Background
@@ -52,7 +59,8 @@ const Bubble = ({
       hOrient={hOrient}
     />
     <Border size={size} />
-    <Label>{number}</Label>
+    {number && <Label>{number}</Label>}
+    {icon && <Img src={icon} size={size} />}
   </BubbleContainer>
 )
 

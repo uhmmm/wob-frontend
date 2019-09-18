@@ -1,7 +1,10 @@
 import React from 'react'
 import styled from '@emotion/styled'
 
-import { Bubble } from '../Bubble/Bubble'
+import { Bubble } from '../../Bubble/Bubble'
+
+import iconLeft from './icon-left.svg'
+import iconRight from './icon-right.svg'
 
 const PaginationContainer = styled.div({
   position: 'absolute',
@@ -16,13 +19,14 @@ const PaginationContainer = styled.div({
 
 const Pagination = () => (
   <PaginationContainer>
-    <Bubble size="3" vOrient="negative"></Bubble>
+    <Bubble size="3" vOrient="negative" icon={iconLeft} />
     <Bubble
       size="4"
       hOrient="negative"
       vOrient="negative"
       bgInversed="true"
-    ></Bubble>
+      icon={iconRight}
+    />
   </PaginationContainer>
 )
 

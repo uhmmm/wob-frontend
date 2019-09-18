@@ -4,7 +4,7 @@ import { Switch, Route, Redirect } from 'react-router-dom'
 
 import { LetterOverlay } from './LetterOverlay'
 import { ToggleBar } from './ToggleBar'
-import { Pagination } from './Pagination'
+import { Pagination } from './Pagination/Pagination'
 import { MainRouter } from './Main/MainRouter'
 import { ImagesRouter } from './Images/Images'
 import { AsideRouter } from './Aside/Aside'
