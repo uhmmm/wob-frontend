@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from '@emotion/styled'
 
-import { Bubble } from '../../Bubble/Bubble'
+import { Bubble } from '../../../Bubble/Bubble'
 
-import { type } from '../../../styles'
+import { type } from '../../../../styles'
 
 const StartContainer = styled.main({})
 const Title = styled.h1({ ...type.title.medium, margin: '0 0 2rem' })

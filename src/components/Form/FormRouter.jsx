@@ -15,7 +15,7 @@ const formSteps = [
   { name: 'everything' },
   { name: 'everything-types' },
   { name: 'finish' },
-  { name: 'extras}' }
+  { name: 'extras' }
 ]
 
 const formRoutes = formSteps.map(route => {
