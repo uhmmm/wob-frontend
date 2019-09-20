@@ -30,7 +30,7 @@ const Background = styled.div(({ active }) => {
     width: '3rem',
     height: '1rem',
     backgroundColor: active ? colors.white : colors.darkerYellow,
-    transition: 'background-color 0.4s ease 0.2s',
+    transition: 'background-color 0.2s ease 0.2s',
     borderRadius: '10px'
   }
 })
