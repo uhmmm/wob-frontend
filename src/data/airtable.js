@@ -6,7 +6,7 @@ var base = new Airtable({ apiKey: APIKEY }).base('appe4s599Wi0qoxtJ')
 
 let infoAsides = []
 
-base('infoAsides')
+base('Asides')
   .select({
     view: 'Table'
   })
@@ -20,7 +20,7 @@ base('infoAsides')
     },
     function done(err) {
       fs.writeFileSync(
-        './data.json',
+        './src/data/asides.json',
         JSON.stringify(infoAsides, null, 2),
         'utf-8'
       )
