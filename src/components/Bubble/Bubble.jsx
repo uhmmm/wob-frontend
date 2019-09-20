@@ -72,6 +72,11 @@ const Bubble = ({
   </BubbleContainer>
 )
 
+const InfoBubbleContainer = styled.span({
+  padding: '0.5rem 0 0 0',
+  display: 'inline-flex'
+})
+
 const InfoBubble = ({
   size = 2,
   bgInversed = true,
@@ -79,13 +84,15 @@ const InfoBubble = ({
   hOrient = 'positive',
   icon = infoIcon
 }) => (
-  <Bubble
-    size={size}
-    bgInversed={bgInversed}
-    vOrient={vOrient}
-    hOrient={hOrient}
-    icon={icon}
-  />
+  <InfoBubbleContainer>
+    <Bubble
+      size={size}
+      bgInversed={bgInversed}
+      vOrient={vOrient}
+      hOrient={hOrient}
+      icon={icon}
+    />
+  </InfoBubbleContainer>
 )
 
 export { Bubble, InfoBubble }
