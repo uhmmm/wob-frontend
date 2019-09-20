@@ -2,22 +2,23 @@ import React from 'react'
 import styled from '@emotion/styled'
 import { Switch, Route } from 'react-router-dom'
 
+import { formRoutes } from '../FormRouter'
 import man from './man.svg'
 
 const imageRoutes = [
-  { path: '/form/start', source: man },
-  { path: '/form/contact-details', source: man },
-  { path: '/form/role', source: man },
-  { path: '/form/institute', source: man },
-  { path: '/form/subject', source: man },
-  { path: '/form/quantity', source: man },
-  { path: '/form/specific', source: man },
-  { path: '/form/specific-types', source: man },
-  { path: '/form/everything', source: man },
-  { path: '/form/everything-types', source: man },
-  { path: '/form/finish', source: man },
-  { path: '/form/extras', source: man },
-  { path: '/form/not-found', source: man }
+  { routeId: 1, source: man },
+  { routeId: 2, source: man },
+  { routeId: 3, source: man },
+  { routeId: 4, source: man },
+  { routeId: 5, source: man },
+  { routeId: 6, source: man },
+  { routeId: 7, source: man },
+  { routeId: 8, source: man },
+  { routeId: 9, source: man },
+  { routeId: 10, source: man },
+  { routeId: 11, source: man },
+  { routeId: 12, source: man },
+  { routeId: 13, source: man }
 ]
 
 const FormImagesContainer = styled.main({
@@ -38,11 +39,15 @@ const Image = ({ source }) => (
 const ImagesRouter = () => {
   return (
     <Switch>
-      {imageRoutes.map(route => (
+      {imageRoutes.map(imageRoute => (
         <Route
-          key={route.path}
-          path="/form/start"
-          component={() => <Image source={route.source} />}
+          key={imageRoute.routeId}
+          path={
+            formRoutes.find(
+              formRoute => formRoute.routeId === imageRoute.routeId
+            ).path
+          }
+          component={() => <Image source={imageRoute.source} />}
         />
       ))}
     </Switch>

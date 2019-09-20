@@ -5,19 +5,19 @@ import { kebabCase } from 'lodash'
 import { FormLayout } from './FormLayout'
 
 const formSteps = [
-  { name: 'Start' },
-  { name: 'Contact Details' },
-  { name: 'Role' },
-  { name: 'Institute' },
-  { name: 'Subject' },
-  { name: 'Quantity' },
-  { name: 'Specific' },
-  { name: 'Specific Types' },
-  { name: 'Everything' },
-  { name: 'Everything Types' },
-  { name: 'Finish' },
-  { name: 'Extras' },
-  { name: 'Not Found' }
+  { routeId: 1, name: 'Start' },
+  { routeId: 2, name: 'Contact Gegevens' },
+  { routeId: 3, name: 'Rol' },
+  { routeId: 4, name: 'Instituut' },
+  { routeId: 5, name: 'Onderwerp' },
+  { routeId: 6, name: 'Kwantiteit' },
+  { routeId: 7, name: 'Specifieke documenten' },
+  { routeId: 8, name: 'Specifieke documenttypen' },
+  { routeId: 9, name: 'Alles over onderwerp' },
+  { routeId: 10, name: 'Alles over documenttypen' },
+  { routeId: 11, name: 'Finish' },
+  { routeId: 12, name: 'Extras' },
+  { routeId: 13, name: 'Niet gevonden' }
 ]
 
 const formRoutes = formSteps.map(route => {
