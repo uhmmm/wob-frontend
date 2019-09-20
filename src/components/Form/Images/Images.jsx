@@ -47,7 +47,7 @@ const ImagesRouter = () => {
               formRoute => formRoute.routeId === imageRoute.routeId
             ).path
           }
-          component={() => <Image source={imageRoute.source} />}
+          render={() => <Image source={imageRoute.source} />}
         />
       ))}
     </Switch>

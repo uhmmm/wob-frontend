@@ -1,7 +1,8 @@
 ---
-name: "privacy"
+name: "Infomatieverzoek"
+slug: "infomatieverzoek"
 type: "info"
-buttonText: "Privacy Verklaring"
+buttonText: "Ga naar de VVOJ-site"
 ---
 
 # Privacy

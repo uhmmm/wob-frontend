@@ -17,7 +17,7 @@ const formSteps = [
   { routeId: 10, name: 'Alles over documenttypen' },
   { routeId: 11, name: 'Finish' },
   { routeId: 12, name: 'Extras' },
-  { routeId: 13, name: 'Niet gevonden' }
+  { routeId: 13, name: '404 Niet gevonden' }
 ]
 
 const formRoutes = formSteps.map(route => {

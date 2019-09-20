@@ -5,24 +5,30 @@ import { type, colors } from '../../styles'
 
 import infoIcon from './icon-info.svg'
 
-const BubbleContainer = styled.span(({ size }) => ({
+const Background = styled.span(({ size, bgInversed, hOrient, vOrient }) => ({
+  position: 'absolute',
+  width: `${size}rem`,
+  height: `${size}rem`,
+  left: hOrient === 'positive' ? `${0.08 * size}rem` : `-${0.08 * size}rem`,
+  top: vOrient === 'positive' ? `${0.08 * size}rem` : `-${0.08 * size}rem`,
+  background: !bgInversed ? colors.darkerYellow : colors.white,
+  borderRadius: '100%'
+}))
+
+const BubbleContainer = styled.span(({ size, bgInversed }) => ({
   flex: `0 0 auto`,
   position: 'relative',
   display: 'inline-flex',
   width: `${size}rem`,
   height: `${size}rem`,
   justifyContent: 'center',
-  alignItems: 'center'
-}))
-
-const Background = styled.span(({ size, inversed, hOrient, vOrient }) => ({
-  position: 'absolute',
-  width: `${size}rem`,
-  height: `${size}rem`,
-  left: hOrient === 'positive' ? `${0.08 * size}rem` : `-${0.08 * size}rem`,
-  top: vOrient === 'positive' ? `${0.08 * size}rem` : `-${0.08 * size}rem`,
-  background: !inversed ? colors.darkerYellow : colors.white,
-  borderRadius: '100%'
+  alignItems: 'center',
+  cursor: 'pointer',
+  '&:hover': {
+    [Background]: {
+      background: bgInversed ? colors.darkerYellow : colors.white
+    }
+  }
 }))
 
 const Border = styled.span(({ size }) => ({
@@ -53,10 +59,10 @@ const Bubble = ({
   number,
   icon
 }) => (
-  <BubbleContainer size={size}>
+  <BubbleContainer size={size} bgInversed={bgInversed}>
     <Background
       size={size}
-      inversed={bgInversed}
+      bgInversed={bgInversed}
       vOrient={vOrient}
       hOrient={hOrient}
     />
