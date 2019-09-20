@@ -3,120 +3,163 @@
     "asideId": 1,
     "content": "Hoe handig een Wob-verzoek ook is, het is natuurlijk niet slim om te gaan wobben als de stukken al ergens online staan of in stapels bij persvoorlichting liggen.\n\nEr zijn tal van opties van normale verzoeken, we hebben er een blogpost over geschreven op de VVOJ-site:",
     "button": "Ga naar de VVOJ site",
-    "title": "Informatieverzoek"
+    "title": "Informatieverzoeken",
+    "type": "info",
+    "slug": "informatieverzoeken"
   },
   {
     "asideId": 2,
     "content": "Voor personen en organisaties gelden verschillende tarieven, mocht je later bij de rechter in beroep gaan tegen het besluit van de overheid op jouw verzoek. Als persoon procedeer je goedkoper dan als organisatie. \n\nLees hier meer over op ons blog:",
     "button": "Tarieven van de Wob",
-    "title": "Mediaorganisatie?"
+    "title": "Mediaorganisatie?",
+    "type": "info",
+    "slug": "mediaorganisatie"
   },
   {
     "asideId": 3,
     "content": "Je hoeft geen journalist te zijn om een Wob-verzoek te doen. Maar als je het met een journalistiek doel doet is het nuttig om dit te benoemen. Daarmee verwijs je naar een publiek belang en dat kan je verzoek versterken. Bovendien is het wel zo eerlijk om je Wob-verzoek vanaf het begin met open vizier te doen.",
-    "title": "Ben je journalist?"
+    "title": "Ben je journalist?",
+    "type": "info",
+    "slug": "journalist"
   },
   {
     "asideId": 4,
     "content": "Dat hoeft niet, maar het kan de overheidsinstantie helpen om beter te begrijpen welke documenten je zoekt. Overigens kan het in sommige gevallen verstandig zijn om juist níet te vertellen welk nieuws je op het spoor denkt te zijn. Weeg af wat slim is.",
-    "title": "Journalistieke doel?"
+    "title": "Journalistieke doel?",
+    "type": "info",
+    "slug": "journalistiek-doel"
   },
   {
     "asideId": 5,
     "content": "De Wob-verzoeken worden lokaal in je browser opgeslagen. Waarschijnlijk ken je het begrip “cookies”,  wij gebruiken een iets geavanceerdere variant van deze techniek. De applicatie heeft alleen simpele server die geen data kan ontvangen.\n\nDe opslag functionaliteit is bedoeld om het sluiten van een tabblad op te vangen. Het zou jammer zijn als je je Wob-verzoek onbedoeld wist. Vertrouw alleen niet teveel op deze opslagmethode. Als je de lokale data in je browser wist, wis je al je verzoeken! ",
-    "title": "Privacy & opslag"
+    "title": "Privacy & opslag",
+    "type": "info",
+    "slug": "privacy"
   },
   {
     "asideId": 6,
     "content": "Gemeenten, provincies, ministeries, waterschappen, de politie, inspectiediensten en tal van zelfstandige bestuursorganen (ZBO’s) die een overheidstaak uitvoeren.  ",
-    "title": "Overheidsinstanties"
+    "title": "Overheidsinstanties",
+    "type": "info",
+    "slug": "overheidsinstanties"
   },
   {
     "asideId": 7,
     "content": "Zo kies je de juiste overheidsinstantie:\n\nLocatie -  Vraag je af welke instantie over het onderwerp gaat? Is het een lokale, een provinciale of rijkskwestie? Bij wie kunnen documenten over het onderwerp zijn opgeslagen?\n\nGoogle - Als je er niet uitkomt, Google dan je onderwerp en kijk bij welke overheidsinstanties je uit komt.\nMeerdere instanties Als er meerdere overheidsinstanties over het onderwerp gaan, dan kun je meerdere verzoeken indienen. Probeer te vermijden dat het precies hetzelfde document op meerdere plekken vraagt.\n\nWob hoog - Als de ene instantie onder de verantwoordelijkheid van de andere instantie valt, dien je verzoek dan in bij de hoogste instantie. Denk bijvoorbeeld aan de Immigratie en Naturalisatiedienst (IND). Deze dienst valt onder het ministerie van Justitie en Veiligheid. Weet je niet zeker of de documenten bij de IND of het Ministerie liggen, wob dan het Ministerie.\n\nWel overheidstaak, geen Wob - Let op: er zijn organisaties die wel een wettelijke taak hebben, maar toch niet onder de Wob vallen en daarom niet in de lijst staan. Dat komt omdat ze ondanks hun wettelijke taak private bedrijven zijn.\n\nDoorgeleiding - Wees gerust: als je toch de verkeerde instantie hebt gekozen, is die instantie verplicht om je verzoek naar de juiste instantie door te sturen. Uiteraard gaat daar wel wat tijd overheen. \n\nNaamsverandering - Let op: overheidsinstanties veranderen regelmatig van naam. Denk aan het Ministerie van Veiligheid & Justitie dat veranderd is in Justitie & Veiligheid. We proberen dit up to date te houden maar laat het ons vooral weten als onze lijst is verouderd.",
-    "title": "Juiste overheid?"
+    "title": "Juiste overheid?",
+    "type": "info",
+    "slug": "juiste-overheid"
   },
   {
     "asideId": 8,
     "content": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor",
-    "title": "Specifieke Docs"
+    "title": "Specifieke Docs",
+    "type": "info",
+    "slug": "specifieke-documenten"
   },
   {
     "asideId": 9,
     "content": "Je kunt alleen informatie opvragen die voortkomt uit een overheidstaak, in de Wob wordt dat een ‘bestuurlijke aangelegenheid’ genoemd. De Wob werkt niet als je informatie zoekt over bijvoorbeeld de privé-aangelegenheden van een ambtenaar. Of informatie over jou zelf.",
-    "title": "Overheidstaak"
+    "title": "Overheidstaak",
+    "type": "info",
+    "slug": "overheidstaken"
   },
   {
     "asideId": 10,
     "content": "Als je Wob-verzoek betrekking heeft op milieu-informatie moet een overheidsinstantie daar binnen twee weken een besluit over nemen. Met dit vinkje wijs je daar extra op en vraag je om een snel besluit.",
-    "title": "Milieu?"
+    "title": "Milieu?",
+    "type": "info",
+    "slug": "milieu"
   },
   {
     "asideId": 11,
     "content": "Zelfs als je precies weet welk document je wil hebben, kan het nuttig zijn om ook andere documenten te vragen. Zo krijg je inzicht in de totstandkoming van het document, de personen of organisaties die daarbij betrokken zijn geweest, koerswijzigingen, enzovoort.",
-    "title": "Aanvullende docs"
+    "title": "Aanvullende docs",
+    "type": "info",
+    "slug": "aanvullende-documenten"
   },
   {
     "asideId": 12,
     "content": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor",
-    "title": "Datasets"
+    "title": "Datasets",
+    "type": "info",
+    "slug": "datasets"
   },
   {
     "asideId": 13,
     "content": "Hier kun je de periode waarop je verzoek betrekking heeft begrenzen (van datum X tot datum Y). Het is niet verplicht, maar zo voorkom je dat je documenten ontvangt over een periode waar je niet in geïnteresseerd bent. Dat scheelt jou werk en het scheelt de overheid werk.",
-    "title": "Periode"
+    "title": "Periode",
+    "type": "info",
+    "slug": "periode"
   },
   {
     "asideId": 14,
     "content": "De overheid hoeft alleen informatie openbaar te maken die in documenten of andere gegevensdragers is vastgelegd. ‘Documenten’ zijn gelukkig wel breder dan geschreven stukken alleen. Excelsheets, databestanden, audio-opnames, sms’jes en WhatsAppjes verstuurd van een werktelefoon vallen er bijvoorbeeld ook onder. \n\nNatuurlijk kun je de overheid ook om informatie vragen die niet al op een gegevensdrager staat, bijvoorbeeld wat de gemeente vindt van een bepaalde ontwikkeling of wat de gemeente van plan is daaraan te doen. Dat is dan geen Wob-verzoek, maar een gewoon informatieverzoek. Hiervoor is de Wob-generator niet bedoeld.",
-    "title": "Documenten"
+    "title": "Documenten",
+    "type": "info",
+    "slug": "documenten"
   },
   {
     "asideId": 15,
     "content": "Als je vermoedt dat je Wob-verzoek misschien wordt afgewezen omdat er (te) veel persoonlijke beleidsopvattingen van ambtenaren in staan, kun je aangeven dat je eventueel genoegen neemt met een samenvatting van de informatie.",
-    "title": "Samenvatting"
+    "title": "Samenvatting",
+    "type": "info",
+    "slug": "samenvatting"
   },
   {
     "asideId": 16,
     "content": "Hiermee geef je aan dat je open staat voor een gesprek. Het is meestal nuttig om nog eens mondeling toe te lichten welke informatie je zoekt. Dat helpt de Wob-ambtenaar en leidt hopelijk tot sneller succes van je verzoek.",
-    "title": "Mondelinge toelichting"
+    "title": "Mondelinge toelichting",
+    "type": "info",
+    "slug": "mondelinge-toelichting"
   },
   {
     "asideId": 17,
     "content": "De wet verplicht overheidsinstanties een Wob-verzoek door te geleiden naar een andere instantie als de betreffende documenten niet bij haar maar bij de collega-instantie liggen. Het kan geen kwaad daar in de brief nog eens om te vragen.",
-    "title": "Doorgeleiding"
+    "title": "Doorgeleiding",
+    "type": "info",
+    "slug": "doorgeleiding"
   },
   {
     "asideId": 18,
     "content": "Sommige instanties maken papieren kopieën van de documenten. Dat is slecht voor het milieu en kost je mogelijk ook geld. Je kunt aangeven dat je de documenten liefst digitaal ontvangt en dat je wilt dat de overheid met jou overlegt voor ze allerlei kopieerkosten maken en aan jou doorberekenen.",
-    "title": "Digitaal of niet?"
+    "title": "Digitaal of niet?",
+    "type": "info",
+    "slug": "digitaal-of-niet"
   },
   {
     "asideId": 19,
     "content": "Waarschijnlijk gaat het je meer om de interessante informatie dan om de exacte documenten zelf. Zeker als je Wob-verzoek omvangrijk is, kun je de overheidsinstantie aanbieden om gezamenlijk te kijken of ze je op een minder arbeidsintensieve manier ",
-    "title": "Informatie of documenten?"
+    "title": "Informatie of documenten?",
+    "type": "info",
+    "slug": "informatie-of-documenten"
   },
   {
     "asideId": 20,
     "content": "Als je vermoedt dat je Wob-verzoek misschien wordt afgewezen omdat er (te) veel persoonsgegevens in voorkomen, kun je aangeven dat je eventueel genoegen neemt met een geanonimiseerde versie van de documenten.",
-    "title": "Anonimisering"
+    "title": "Anonimisering",
+    "type": "info",
+    "slug": "anonimisering"
   },
   {
     "asideId": 21,
     "content": "Een formele afsluiting van je verzoek: je vraagt om te bevestigen dat het Wob-verzoek is ontvangen en geeft aan graag op de hoogte te worden gehouden van de voortgang. Je wijst op de wettelijke termijn waarbinnen de overheid een beslissing dient te nemen.",
-    "title": "Bevestiging  & beslistermijn"
+    "title": "Bevestiging  & beslistermijn",
+    "type": "info",
+    "slug": "bevestiging-en-beslistermijn"
   },
   {
     "asideId": 22,
     "content": "Het kan geen kwaad om er op te wijzen dat je met ‘documenten’ niet alleen klassieke papieren documenten bedoelt, maar bijvoorbeeld ook digitale (data-)bestanden, audiofiles en whatsapp-berichten.",
-    "title": "Insluiting alle formaten"
+    "title": "Insluiting alle formaten",
+    "type": "info",
+    "slug": "insluiting-alle-formaten"
   },
   {
     "asideId": 23,
     "content": "Door dit aan te vinken verzoek je de overheidsinstantie goed te motiveren waarom ze je Wob-verzoek niet binnen de wettelijke termijn afhandelen.",
-    "title": "Motivering bij verdaging"
-  },
-  {
-    "asideId": 24
+    "title": "Motivering bij verdaging",
+    "type": "info",
+    "slug": "motivering-bij-verdaging"
   }
 ]

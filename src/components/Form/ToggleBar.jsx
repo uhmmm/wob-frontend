@@ -24,11 +24,13 @@ const ToggleContainer = styled.div({
   display: 'flex',
   alignItems: 'center'
 })
+
 const Background = styled.div(({ active }) => {
   return {
     width: '3rem',
     height: '1rem',
-    background: active ? colors.white : colors.darkerYellow,
+    backgroundColor: active ? colors.white : colors.darkerYellow,
+    transition: 'background-color 0.4s ease 0.2s',
     borderRadius: '10px'
   }
 })
@@ -40,7 +42,7 @@ const Knob = styled.div(({ active }) => ({
   left: active ? '1.5rem' : '0',
   background: colors.white,
   borderRadius: '100%',
-  transition: 'left 0.1s ease'
+  transition: 'left 0.4s ease'
 }))
 
 const Toggle = ({ handler, active }) => {

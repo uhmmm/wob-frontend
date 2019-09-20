@@ -35,9 +35,11 @@ const LeftSectionHeader = styled.div({
 })
 
 const RightContainer = styled.section({
+  position: 'relative',
   width: '50%',
   height: '100%',
-  padding: '8rem 8rem 12rem 8rem'
+  padding: '8rem 8rem 12rem 8rem',
+  overflow: 'hidden'
 })
 
 const RightSectionHeader = styled.div({
