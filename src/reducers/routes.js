@@ -1,9 +1,10 @@
 import { combineReducers } from 'redux'
 import { normalize, schema } from 'normalizr'
+import { find } from 'lodash'
 
 import routeData from '../data/routes'
 
-const routeSchema = new schema.Entity('routes', {}, { idAttribute: 'routeId' })
+const routeSchema = new schema.Entity('routes', {}, { idAttribute: 'recordId' })
 const routesSchema = [routeSchema]
 
 const normRouteData = normalize(routeData, routesSchema)
@@ -20,3 +21,7 @@ export const routes = combineReducers({
   byId: routesById,
   allIds: allRoutes
 })
+
+export const getRouteBySlug = ({ state, slug }) => {
+  return find(state.routes.byId, { routeSlug: slug })
+}

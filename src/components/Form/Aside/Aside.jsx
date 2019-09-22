@@ -1,15 +1,10 @@
 import React from 'react'
 import styled from '@emotion/styled'
 import { Switch, Route } from 'react-router-dom'
+import { connect } from 'react-redux'
 
 import { colors, type } from '../../../styles'
-
-// import contentData from '../../../data/content'
-// console.log(contentData)
-// let currItems = contentData.find(
-//   content => content.routeSlug[0] === match.params.asideSlug
-// )
-// console.log(currItems)
+import { getContentsBySlug } from '../../../reducers/contents'
 
 const AsideContainer = styled.aside({
   position: 'absolute',
@@ -29,19 +24,43 @@ const Title = styled.h1({
 })
 const Content = styled.p({ ...type.content.medium })
 
-const Aside = ({ match }) => {
+const Aside = ({ contents }) => {
   return (
     <AsideContainer>
-      <Title>title</Title>
-      <Content>content</Content>
+      {contents.map(contentItem => {
+        switch (contentItem.type) {
+          case 'title':
+            return <Title key={contentItem.recordId}>{contentItem.text}</Title>
+          case 'content':
+            return (
+              <Content key={contentItem.recordId}>{contentItem.text}</Content>
+            )
+          default:
+            return null
+        }
+      })}
     </AsideContainer>
   )
 }
 
+const mapStateToProps = (state, { match }) => {
+  return {
+    contents: getContentsBySlug({ state, slug: match.params.asideSlug })
+  }
+}
+
+const AsideConnected = connect(
+  mapStateToProps,
+  {}
+)(Aside)
+
 const AsideRouter = () => {
   return (
     <Switch>
-      <Route path="/form/:formStep/aside/:asideSlug" component={Aside}></Route>
+      <Route
+        path="/form/:formStep/aside/:asideSlug"
+        component={AsideConnected}
+      ></Route>
     </Switch>
   )
 }

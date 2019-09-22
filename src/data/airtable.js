@@ -10,7 +10,7 @@ base('contents')
   .eachPage(
     (records, fetchNextPage) => {
       records.forEach(function(record) {
-        content.push(record.fields)
+        content.push({ recordId: record.id, ...record.fields })
       })
       fetchNextPage()
     },
@@ -33,7 +33,7 @@ base('routes')
   .eachPage(
     function page(records, fetchNextPage) {
       records.forEach(function(record) {
-        routes.push(record.fields)
+        routes.push({ recordId: record.id, ...record.fields })
       })
 
       fetchNextPage()

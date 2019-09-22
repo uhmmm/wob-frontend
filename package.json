@@ -28,7 +28,8 @@
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
     "eject": "react-app-rewired eject",
-    "data": "node src/data/airtable.js"
+    "data": "node src/data/airtable.js",
+    "data-test": "node src/data/airtable-test.js"
   },
   "eslintConfig": {
     "extends": "react-app"

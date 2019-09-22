@@ -1,12 +1,14 @@
 import { combineReducers } from 'redux'
 import { normalize, schema } from 'normalizr'
 
+import { getRouteBySlug } from './routes'
+
 import contentData from '../data/contents'
 
 const contentSchema = new schema.Entity(
   'contents',
   {},
-  { idAttribute: 'contentId' }
+  { idAttribute: 'recordId' }
 )
 const contentsSchema = [contentSchema]
 
@@ -27,3 +29,11 @@ export const contents = combineReducers({
   byId: contentsById,
   allIds: allContents
 })
+
+export const getContentsBySlug = ({ state, slug }) => {
+  const route = getRouteBySlug({ state, slug })
+  const contents = route.renderedContent.map(recordId => {
+    return state.contents.byId[recordId]
+  })
+  return contents
+}
