@@ -8,7 +8,7 @@ import contentData from '../data/contents'
 const contentSchema = new schema.Entity(
   'contents',
   {},
-  { idAttribute: 'recordId' }
+  { idAttribute: 'contentId' }
 )
 const contentsSchema = [contentSchema]
 

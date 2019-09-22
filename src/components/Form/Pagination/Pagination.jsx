@@ -3,7 +3,6 @@ import styled from '@emotion/styled'
 import { withRouter, Link } from 'react-router-dom'
 
 import { Bubble } from '../../Bubble/Bubble'
-import { formRoutes } from '../FormRouter'
 
 import iconLeft from './icon-left.svg'
 import iconRight from './icon-right.svg'
@@ -20,10 +19,8 @@ const PaginationContainer = styled.div({
 })
 
 const Pagination = ({ match }) => {
-  let currStepIndex = formRoutes.findIndex(route => route.path === match.path)
-  let prevStep = currStepIndex > 0 ? formRoutes[currStepIndex - 1].path : '/'
-  let nextStep =
-    currStepIndex < 11 ? formRoutes[currStepIndex + 1].path : '/review'
+  const prevStep = 'start'
+  const nextStep = 'contact-gegevens'
   return (
     <PaginationContainer>
       <Link to={prevStep}>

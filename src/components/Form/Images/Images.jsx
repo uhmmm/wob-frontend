@@ -1,25 +1,10 @@
 import React from 'react'
 import styled from '@emotion/styled'
-import { Switch, Route } from 'react-router-dom'
+import { withRouter } from 'react-router-dom'
+import { connect } from 'react-redux'
 
-import { formRoutes } from '../FormRouter'
 import man from './man.svg'
-
-const imageRoutes = [
-  { routeId: 1, source: man },
-  { routeId: 2, source: man },
-  { routeId: 3, source: man },
-  { routeId: 4, source: man },
-  { routeId: 5, source: man },
-  { routeId: 6, source: man },
-  { routeId: 7, source: man },
-  { routeId: 8, source: man },
-  { routeId: 9, source: man },
-  { routeId: 10, source: man },
-  { routeId: 11, source: man },
-  { routeId: 12, source: man },
-  { routeId: 13, source: man }
-]
+import { getRouteBySlug } from '../../../reducers/routes'
 
 const FormImagesContainer = styled.main({
   display: 'flex',
@@ -30,28 +15,23 @@ const FormImagesContainer = styled.main({
 
 const Img = styled.img({ width: '100%' })
 
-const Image = ({ source }) => (
+const Image = ({ route }) => (
   <FormImagesContainer>
-    <Img src={source} alt="" />
+    <Img src={man} alt="" />
   </FormImagesContainer>
 )
 
-const ImagesRouter = () => {
-  return (
-    <Switch>
-      {imageRoutes.map(imageRoute => (
-        <Route
-          key={imageRoute.routeId}
-          path={
-            formRoutes.find(
-              formRoute => formRoute.routeId === imageRoute.routeId
-            ).path
-          }
-          render={() => <Image source={imageRoute.source} />}
-        />
-      ))}
-    </Switch>
-  )
+const mapStateToProps = (state, { match }) => {
+  return {
+    route: getRouteBySlug({ state, slug: match.params.formSlug })
+  }
 }
 
-export { Image, ImagesRouter }
+const ImageConnected = connect(
+  mapStateToProps,
+  {}
+)(Image)
+
+const ImagesRouted = withRouter(ImageConnected)
+
+export { ImagesRouted }

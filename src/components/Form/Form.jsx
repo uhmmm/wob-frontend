@@ -1,17 +1,19 @@
 import React from 'react'
 import styled from '@emotion/styled'
 import { Helmet } from 'react-helmet-async'
+import { connect } from 'react-redux'
+import { Switch, Route } from 'react-router-dom'
 
 import { LetterOverlay } from './LetterOverlay'
 import { ToggleBar } from './ToggleBar'
 import { PaginationRouted } from './Pagination/Pagination'
 import { MainRouter } from './Main/Main'
-import { ImagesRouter } from './Images/Images'
+import { ImagesRouted } from './Images/Images'
 import { AsideRouter } from './Aside/Aside'
 import { Logo } from '../Logo/Logo'
 
 import { colors } from '../../styles'
-import { formRoutes } from './FormRouter'
+import { getRouteBySlug } from '../../reducers/routes'
 
 const FormLayoutContainer = styled.main({
   position: 'relative',
@@ -48,12 +50,10 @@ const RightSectionHeader = styled.div({
   width: '100%'
 })
 
-const FormLayout = ({ match }) => (
+const FormLayout = ({ route }) => (
   <FormLayoutContainer>
     <Helmet>
-      <title>
-        {`WtW - ${formRoutes.find(route => route.path === match.path).name}`}
-      </title>
+      <title>{`WtW - ${route && route.title}`}</title>
     </Helmet>
     <LeftContainer>
       <LeftSectionHeader>
@@ -65,7 +65,7 @@ const FormLayout = ({ match }) => (
       <RightSectionHeader>
         <ToggleBar />
       </RightSectionHeader>
-      <ImagesRouter />
+      <ImagesRouted />
       <AsideRouter />
       <LetterOverlay />
     </RightContainer>
@@ -73,4 +73,21 @@ const FormLayout = ({ match }) => (
   </FormLayoutContainer>
 )
 
-export { FormLayout }
+const mapStateToProps = (state, { match }) => {
+  return {
+    route: getRouteBySlug({ state, slug: match.params.formSlug })
+  }
+}
+
+const FormLayoutConnected = connect(
+  mapStateToProps,
+  {}
+)(FormLayout)
+
+const FormRouter = () => (
+  <Switch>
+    <Route path="/form/:formSlug" component={FormLayoutConnected} />
+  </Switch>
+)
+
+export { FormRouter }

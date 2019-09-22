@@ -10,7 +10,7 @@ base('contents')
   .eachPage(
     (records, fetchNextPage) => {
       records.forEach(function(record) {
-        content.push({ recordId: record.id, ...record.fields })
+        content.push(record.fields)
       })
       fetchNextPage()
     },
@@ -33,7 +33,7 @@ base('routes')
   .eachPage(
     function page(records, fetchNextPage) {
       records.forEach(function(record) {
-        routes.push({ recordId: record.id, ...record.fields })
+        routes.push(record.fields)
       })
 
       fetchNextPage()
@@ -42,6 +42,30 @@ base('routes')
       fs.writeFileSync(
         './src/data/routes.json',
         JSON.stringify(routes, null, 2),
+        'utf-8'
+      )
+      if (err) {
+        console.error(err)
+        return
+      }
+    }
+  )
+
+let images = []
+base('images')
+  .select()
+  .eachPage(
+    function page(records, fetchNextPage) {
+      records.forEach(function(record) {
+        images.push(record.fields)
+      })
+
+      fetchNextPage()
+    },
+    function done(err) {
+      fs.writeFileSync(
+        './src/data/images.json',
+        JSON.stringify(images, null, 2),
         'utf-8'
       )
       if (err) {

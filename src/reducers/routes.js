@@ -4,7 +4,7 @@ import { find } from 'lodash'
 
 import routeData from '../data/routes'
 
-const routeSchema = new schema.Entity('routes', {}, { idAttribute: 'recordId' })
+const routeSchema = new schema.Entity('routes', {}, { idAttribute: 'routeId' })
 const routesSchema = [routeSchema]
 
 const normRouteData = normalize(routeData, routesSchema)

@@ -49,28 +49,31 @@ const TextBlock = ({ text, linkSlug }) => {
 const Main = ({ contents }) => {
   return (
     <MainContainer>
-      {contents.map(contentItem => {
-        switch (contentItem.type) {
-          case 'title':
-            return <Title key={contentItem.recordId}>{contentItem.text}</Title>
-          case 'content':
-            return (
-              <TextBlock
-                key={contentItem.recordId}
-                text={contentItem.text}
-                linkSlug={contentItem.linkSlug}
-              />
-            )
-          case 'listItem/bubble':
-            return (
-              <ListItemBubble key={contentItem.recordId} number="1">
-                {contentItem.text}
-              </ListItemBubble>
-            )
-          default:
-            return null
-        }
-      })}
+      {contents &&
+        contents.map(contentItem => {
+          switch (contentItem.type) {
+            case 'title':
+              return (
+                <Title key={contentItem.recordId}>{contentItem.text}</Title>
+              )
+            case 'content':
+              return (
+                <TextBlock
+                  key={contentItem.recordId}
+                  text={contentItem.text}
+                  linkSlug={contentItem.linkSlug}
+                />
+              )
+            case 'listItem/bubble':
+              return (
+                <ListItemBubble key={contentItem.recordId} number="1">
+                  {contentItem.text}
+                </ListItemBubble>
+              )
+            default:
+              return null
+          }
+        })}
     </MainContainer>
   )
 }
