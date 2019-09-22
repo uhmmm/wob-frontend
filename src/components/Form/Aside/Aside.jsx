@@ -22,7 +22,7 @@ const Title = styled.h1({
   ...type.title.small,
   padding: '0 0 2rem'
 })
-const Content = styled.p({ ...type.content.medium })
+const Text = styled.p({ ...type.content.medium })
 
 const Aside = ({ contents }) => {
   return (
@@ -32,9 +32,7 @@ const Aside = ({ contents }) => {
           case 'title':
             return <Title key={contentItem.recordId}>{contentItem.text}</Title>
           case 'content':
-            return (
-              <Content key={contentItem.recordId}>{contentItem.text}</Content>
-            )
+            return <Text key={contentItem.recordId}>{contentItem.text}</Text>
           default:
             return null
         }
