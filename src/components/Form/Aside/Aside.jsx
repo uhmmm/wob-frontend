@@ -3,7 +3,13 @@ import styled from '@emotion/styled'
 import { Switch, Route } from 'react-router-dom'
 
 import { colors, type } from '../../../styles'
-import asideData from '../../../data/asides'
+
+// import contentData from '../../../data/content'
+// console.log(contentData)
+// let currItems = contentData.find(
+//   content => content.routeSlug[0] === match.params.asideSlug
+// )
+// console.log(currItems)
 
 const AsideContainer = styled.aside({
   position: 'absolute',
@@ -24,11 +30,10 @@ const Title = styled.h1({
 const Content = styled.p({ ...type.content.medium })
 
 const Aside = ({ match }) => {
-  let currAside = asideData.find(aside => aside.slug === match.params.asideSlug)
   return (
     <AsideContainer>
-      <Title>{currAside.title}</Title>
-      <Content>{currAside.content}</Content>
+      <Title>title</Title>
+      <Content>content</Content>
     </AsideContainer>
   )
 }

@@ -1,0 +1,3024 @@
+[
+  {
+    "contentId": 89,
+    "content": "Aanvullende docs",
+    "contentType": "title",
+    "routeId": [
+      "recJn1Ksk3OZIFFSK"
+    ],
+    "routeSlug": [
+      "aanvullende-documenten"
+    ],
+    "routeType": [
+      "aside-info"
+    ]
+  },
+  {
+    "contentId": 145,
+    "content": "Andere documenten",
+    "contentType": "title",
+    "routeId": [
+      "reczR2gc10ApJFFBE"
+    ],
+    "routeSlug": [
+      "anders"
+    ],
+    "routeType": [
+      "aside-document-type"
+    ]
+  },
+  {
+    "contentId": 66,
+    "content": "Hoe kies ik de juiste overheidsinstantie?",
+    "contentType": "listItem/info",
+    "routeId": [
+      "recv6iVTRTh27ylhL"
+    ],
+    "linkRouteId": [
+      "recv02YYylO77PUOI"
+    ],
+    "routeSlug": [
+      "instituut"
+    ],
+    "routeType": [
+      "form"
+    ],
+    "LinkRouteType": [
+      "aside-info"
+    ],
+    "LinkRouteSlug": [
+      "juiste-overheid"
+    ]
+  },
+  {
+    "contentId": 71,
+    "content": "Begin met het kort en bondig omschrijven van het onderwerp waarover je informatie vraagt. Let op: je kunt alleen informatie over overheidstaken opvragen.",
+    "contentType": "content",
+    "routeId": [
+      "rechhv82awVzZNu2c"
+    ],
+    "linkRouteId": [
+      "recj307J0TzHpdEMT"
+    ],
+    "routeSlug": [
+      "onderwerp"
+    ],
+    "routeType": [
+      "form"
+    ],
+    "LinkRouteType": [
+      "aside-info"
+    ],
+    "LinkRouteSlug": [
+      "onderwerp"
+    ]
+  },
+  {
+    "contentId": 152,
+    "content": "Waarom niet alles?",
+    "contentType": "listItem/info",
+    "routeId": [
+      "recIkzk83HjjxfJKT"
+    ],
+    "linkRouteId": [
+      "recc3iR8FvflhqhhB"
+    ],
+    "routeSlug": [
+      "alles-over-periode"
+    ],
+    "routeType": [
+      "form"
+    ],
+    "LinkRouteType": [
+      "aside-info"
+    ],
+    "LinkRouteSlug": [
+      "alles-opvragen-is-niet-handig"
+    ]
+  },
+  {
+    "contentId": 33,
+    "content": "Hier kun je de periode waarop je verzoek betrekking heeft begrenzen (van datum X tot datum Y). Het is niet verplicht, maar zo voorkom je dat je documenten ontvangt over een periode waar je niet in geïnteresseerd bent. Dat scheelt jou werk en het scheelt de overheid werk.",
+    "contentType": "content",
+    "routeId": [
+      "recVp99Blj0rjwYov"
+    ],
+    "routeSlug": [
+      "periode"
+    ],
+    "routeType": [
+      "aside-info"
+    ]
+  },
+  {
+    "contentId": 153,
+    "content": "Alles opvragen is niet handig",
+    "contentType": "title",
+    "routeId": [
+      "recc3iR8FvflhqhhB"
+    ],
+    "routeSlug": [
+      "alles-opvragen-is-niet-handig"
+    ],
+    "routeType": [
+      "aside-info"
+    ]
+  },
+  {
+    "contentId": 72,
+    "content": "Hoofdonderwerp",
+    "contentType": "input/large",
+    "routeId": [
+      "rechhv82awVzZNu2c"
+    ],
+    "routeSlug": [
+      "onderwerp"
+    ],
+    "routeType": [
+      "form"
+    ]
+  },
+  {
+    "contentId": 189,
+    "content": "Bedankt",
+    "contentType": "title",
+    "routeId": [
+      "recvBgzyf1d88SkiI"
+    ],
+    "specialType": "page/header",
+    "routeSlug": [
+      "afsluiting"
+    ],
+    "routeType": [
+      "page"
+    ]
+  },
+  {
+    "contentId": 19,
+    "content": "Informatie of documenten?",
+    "contentType": "title",
+    "routeId": [
+      "rec5o7VxmQtRZf5ZD"
+    ],
+    "routeSlug": [
+      "informatie-of-documenten"
+    ],
+    "routeType": [
+      "aside-info"
+    ]
+  },
+  {
+    "contentId": 94,
+    "content": "Correspondentie",
+    "contentType": "check/yellow/base",
+    "routeId": [
+      "recWdvbbSPgPUWkSc"
+    ],
+    "specialType": "form/document-types",
+    "routeSlug": [
+      "specifieke-documenttypes"
+    ],
+    "routeType": [
+      "form"
+    ]
+  },
+  {
+    "contentId": 161,
+    "content": "LEES & VERSTUUR",
+    "contentType": "button/medium",
+    "routeId": [
+      "recb4PQRUH0aoXD6X"
+    ],
+    "routeSlug": [
+      "mijlpaal"
+    ],
+    "routeType": [
+      "form"
+    ]
+  },
+  {
+    "contentId": 184,
+    "content": "JA, KLINKT GOED",
+    "contentType": "button/small",
+    "routeId": [
+      "recwSLma6YuAxO7Pt"
+    ],
+    "routeSlug": [
+      "review"
+    ],
+    "routeType": [
+      "review"
+    ]
+  },
+  {
+    "contentId": 170,
+    "contentType": "form/document-types",
+    "routeId": [
+      "recWdvbbSPgPUWkSc"
+    ],
+    "routeSlug": [
+      "specifieke-documenttypes"
+    ],
+    "routeType": [
+      "form"
+    ]
+  },
+  {
+    "contentId": 149,
+    "content": "Alles over je onderwerp",
+    "contentType": "title",
+    "routeId": [
+      "recIkzk83HjjxfJKT"
+    ],
+    "routeSlug": [
+      "alles-over-periode"
+    ],
+    "routeType": [
+      "form"
+    ]
+  },
+  {
+    "contentId": 108,
+    "content": "Besluitenlijsten",
+    "contentType": "check/white/base",
+    "routeId": [
+      "recR3xSpTuROzmcXP"
+    ],
+    "routeSlug": [
+      "vergaderstukken-en-gespreksverslage"
+    ],
+    "routeType": [
+      "aside-document-type"
+    ]
+  },
+  {
+    "contentId": 159,
+    "content": "Phew! Je  Wob-verzoek is af. Je moet hem alleen nog even nalezen en verzenden.\n\nWe voegen nu nog een aantal alinea’s toe die altijd in een verzoek moeten zitten. Als je deze wilt selecteren, heb je die optie, maar we snappen het helemaal als je het wel goed vind zo. ",
+    "contentType": "content",
+    "routeId": [
+      "recb4PQRUH0aoXD6X"
+    ],
+    "routeSlug": [
+      "mijlpaal"
+    ],
+    "routeType": [
+      "form"
+    ]
+  },
+  {
+    "contentId": 160,
+    "content": "EXTRA OPTIES",
+    "contentType": "button/medium",
+    "routeId": [
+      "recb4PQRUH0aoXD6X"
+    ],
+    "routeSlug": [
+      "mijlpaal"
+    ],
+    "routeType": [
+      "form"
+    ]
+  },
+  {
+    "contentId": 162,
+    "content": "Extra opties",
+    "contentType": "title",
+    "routeId": [
+      "recmkybjDd9Wkf5hg"
+    ],
+    "routeSlug": [
+      "aanvullende-opties"
+    ],
+    "routeType": [
+      "form"
+    ]
+  },
+  {
+    "contentId": 10,
+    "content": "Milieu?",
+    "contentType": "title",
+    "routeId": [
+      "recNnmOiLS8wDcp6c"
+    ],
+    "routeSlug": [
+      "milieu"
+    ],
+    "routeType": [
+      "aside-info"
+    ]
+  },
+  {
+    "contentId": 116,
+    "content": "Voortgangsrapportages en evaluaties",
+    "contentType": "check/white/base",
+    "routeId": [
+      "recS1bPIRb1IMyqRJ"
+    ],
+    "routeSlug": [
+      "rapporten-en-presentaties"
+    ],
+    "routeType": [
+      "aside-document-type"
+    ]
+  },
+  {
+    "contentId": 115,
+    "content": "Onderzoeksrapporten en \nauditrapportages",
+    "contentType": "check/white/base",
+    "routeId": [
+      "recS1bPIRb1IMyqRJ"
+    ],
+    "routeSlug": [
+      "rapporten-en-presentaties"
+    ],
+    "routeType": [
+      "aside-document-type"
+    ]
+  },
+  {
+    "contentId": 166,
+    "content": "Samenvattingen van documenten",
+    "contentType": "check/yellow/base",
+    "routeId": [
+      "recmkybjDd9Wkf5hg"
+    ],
+    "linkRouteId": [
+      "rectXaEyBdDcOyeGa"
+    ],
+    "routeSlug": [
+      "aanvullende-opties"
+    ],
+    "routeType": [
+      "form"
+    ],
+    "LinkRouteType": [
+      "aside-info"
+    ],
+    "LinkRouteSlug": [
+      "samenvatting"
+    ]
+  },
+  {
+    "contentId": 73,
+    "content": "Dit onderwerp gaat over het milieu",
+    "contentType": "check/yellow/base",
+    "routeId": [
+      "rechhv82awVzZNu2c"
+    ],
+    "linkRouteId": [
+      "recNnmOiLS8wDcp6c"
+    ],
+    "routeSlug": [
+      "onderwerp"
+    ],
+    "routeType": [
+      "form"
+    ],
+    "LinkRouteType": [
+      "aside-info"
+    ],
+    "LinkRouteSlug": [
+      "milieu"
+    ]
+  },
+  {
+    "contentId": 142,
+    "content": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
+    "contentType": "content",
+    "routeId": [
+      "recb0ga4MXJN4XP0N"
+    ],
+    "routeSlug": [
+      "datasets"
+    ],
+    "routeType": [
+      "aside-document-type"
+    ]
+  },
+  {
+    "contentId": 151,
+    "contentType": "form/timepicker",
+    "routeId": [
+      "recIkzk83HjjxfJKT"
+    ],
+    "routeSlug": [
+      "alles-over-periode"
+    ],
+    "routeType": [
+      "form"
+    ]
+  },
+  {
+    "contentId": 77,
+    "content": "Alles of specifiek?",
+    "contentType": "title",
+    "routeId": [
+      "recsXVE7yH4Go2Jds"
+    ],
+    "routeSlug": [
+      "alles-of-specifiek"
+    ],
+    "routeType": [
+      "form"
+    ]
+  },
+  {
+    "contentId": 144,
+    "content": "Overzicht",
+    "contentType": "check/white/base",
+    "routeId": [
+      "recb0ga4MXJN4XP0N"
+    ],
+    "routeSlug": [
+      "datasets"
+    ],
+    "routeType": [
+      "aside-document-type"
+    ]
+  },
+  {
+    "contentId": 165,
+    "content": "Geanonimiseerde documenten",
+    "contentType": "check/yellow/base",
+    "routeId": [
+      "recmkybjDd9Wkf5hg"
+    ],
+    "linkRouteId": [
+      "recLKYD9zDdom9Bbe"
+    ],
+    "routeSlug": [
+      "aanvullende-opties"
+    ],
+    "routeType": [
+      "form"
+    ],
+    "LinkRouteType": [
+      "aside-info"
+    ],
+    "LinkRouteSlug": [
+      "anonimisering"
+    ]
+  },
+  {
+    "contentId": 167,
+    "content": "Digitaal toezenden heeft mijn voorkeur",
+    "contentType": "check/yellow/base",
+    "routeId": [
+      "recmkybjDd9Wkf5hg"
+    ],
+    "linkRouteId": [
+      "recMuOYmIyWDTyzQU"
+    ],
+    "routeSlug": [
+      "aanvullende-opties"
+    ],
+    "routeType": [
+      "form"
+    ],
+    "LinkRouteType": [
+      "aside-info"
+    ],
+    "LinkRouteSlug": [
+      "digitaal-of-niet"
+    ]
+  },
+  {
+    "contentId": 137,
+    "content": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
+    "contentType": "content",
+    "routeId": [
+      "recrzse37LenTq7dY"
+    ],
+    "routeSlug": [
+      "begrotingen-en-financieel"
+    ],
+    "routeType": [
+      "aside-document-type"
+    ]
+  },
+  {
+    "contentId": 100,
+    "content": "Wat is allemaal een “document”?",
+    "contentType": "listItem/info",
+    "routeId": [
+      "recWdvbbSPgPUWkSc"
+    ],
+    "linkRouteId": [
+      "recPILpzPpOxU5PuR"
+    ],
+    "routeSlug": [
+      "specifieke-documenttypes"
+    ],
+    "routeType": [
+      "form"
+    ],
+    "LinkRouteType": [
+      "aside-info"
+    ],
+    "LinkRouteSlug": [
+      "documenten"
+    ]
+  },
+  {
+    "contentId": 103,
+    "content": "Uitnodigingen",
+    "contentType": "check/white/base",
+    "routeId": [
+      "recR3xSpTuROzmcXP"
+    ],
+    "routeSlug": [
+      "vergaderstukken-en-gespreksverslage"
+    ],
+    "routeType": [
+      "aside-document-type"
+    ]
+  },
+  {
+    "contentId": 105,
+    "content": "Ingekomen stukken",
+    "contentType": "check/white/base",
+    "routeId": [
+      "recR3xSpTuROzmcXP"
+    ],
+    "routeSlug": [
+      "vergaderstukken-en-gespreksverslage"
+    ],
+    "routeType": [
+      "aside-document-type"
+    ]
+  },
+  {
+    "contentId": 158,
+    "content": "Je bent klaar!",
+    "contentType": "title",
+    "routeId": [
+      "recb4PQRUH0aoXD6X"
+    ],
+    "routeSlug": [
+      "mijlpaal"
+    ],
+    "routeType": [
+      "form"
+    ]
+  },
+  {
+    "contentId": 127,
+    "content": "Externe Correspondentie",
+    "contentType": "title",
+    "routeId": [
+      "rec9Dw2AnuF75GNl2"
+    ],
+    "routeSlug": [
+      "correspondentie-tussen"
+    ],
+    "routeType": [
+      "aside-document-type"
+    ]
+  },
+  {
+    "contentId": 74,
+    "content": "Wat is allemaal een overheidstaak?",
+    "contentType": "listItem/info",
+    "routeId": [
+      "rechhv82awVzZNu2c"
+    ],
+    "linkRouteId": [
+      "recF44AQShm3vLYVT"
+    ],
+    "routeSlug": [
+      "onderwerp"
+    ],
+    "routeType": [
+      "form"
+    ],
+    "LinkRouteType": [
+      "aside-info"
+    ],
+    "LinkRouteSlug": [
+      "overheidstaken"
+    ]
+  },
+  {
+    "contentId": 135,
+    "content": "VOEG PERSOON TOE",
+    "contentType": "button/medium",
+    "routeId": [
+      "rec9Dw2AnuF75GNl2"
+    ],
+    "specialType": "form/people-extern",
+    "routeSlug": [
+      "correspondentie-tussen"
+    ],
+    "routeType": [
+      "aside-document-type"
+    ]
+  },
+  {
+    "contentId": 17,
+    "content": "Doorgeleiding",
+    "contentType": "title",
+    "routeId": [
+      "reclTWVdtOxtGFAlR"
+    ],
+    "routeSlug": [
+      "doorgeleiding"
+    ],
+    "routeType": [
+      "aside-info"
+    ]
+  },
+  {
+    "contentId": 56,
+    "content": "Rol en doel",
+    "contentType": "title",
+    "routeId": [
+      "recfvKGrVYxw2Y6Zl"
+    ],
+    "routeSlug": [
+      "rol-en-doel"
+    ],
+    "routeType": [
+      "form"
+    ]
+  },
+  {
+    "contentId": 176,
+    "content": "Mondelinge toelichting",
+    "contentType": "check/yellow/base",
+    "routeId": [
+      "recmkybjDd9Wkf5hg"
+    ],
+    "linkRouteId": [
+      "recY5qsUjwzu2FKa4"
+    ],
+    "routeSlug": [
+      "aanvullende-opties"
+    ],
+    "routeType": [
+      "form"
+    ],
+    "LinkRouteType": [
+      "aside-info"
+    ],
+    "LinkRouteSlug": [
+      "mondelinge-toelichting"
+    ]
+  },
+  {
+    "contentId": 133,
+    "content": "Je kan ook vragen naar correspondentie met specifieke personen, selecteer hier met wie:",
+    "contentType": "content",
+    "routeId": [
+      "rec9Dw2AnuF75GNl2"
+    ],
+    "routeSlug": [
+      "correspondentie-tussen"
+    ],
+    "routeType": [
+      "aside-document-type"
+    ]
+  },
+  {
+    "contentId": 55,
+    "content": "Hoe gaat deze app om met mijn gegevens?",
+    "contentType": "listItem/info",
+    "routeId": [
+      "recXFPF4VRj3yvCLg"
+    ],
+    "linkRouteId": [
+      "rec2ShlT3krqr1pVj"
+    ],
+    "routeSlug": [
+      "contact-gegevens"
+    ],
+    "routeType": [
+      "form"
+    ],
+    "LinkRouteType": [
+      "aside-info"
+    ],
+    "LinkRouteSlug": [
+      "privacy"
+    ]
+  },
+  {
+    "contentId": 126,
+    "content": "VOEG PERSOON TOE",
+    "contentType": "button/medium",
+    "routeId": [
+      "rec8daE4lrLHstC6u"
+    ],
+    "specialType": "form/people-intern",
+    "routeSlug": [
+      "correspondentie-binnen"
+    ],
+    "routeType": [
+      "aside-document-type"
+    ]
+  },
+  {
+    "contentId": 78,
+    "content": "Wil je alles over je onderwerp of weet je al precies wat je wil hebben? Selecteer hier en weeg af. Je kan bij specifieke documenten altijd nog selecteren dat je aanvullende documenten wilt.",
+    "contentType": "content",
+    "routeId": [
+      "recsXVE7yH4Go2Jds"
+    ],
+    "routeSlug": [
+      "alles-of-specifiek"
+    ],
+    "routeType": [
+      "form"
+    ]
+  },
+  {
+    "contentId": 13,
+    "content": "Periode",
+    "contentType": "title",
+    "routeId": [
+      "recVp99Blj0rjwYov"
+    ],
+    "routeSlug": [
+      "periode"
+    ],
+    "routeType": [
+      "aside-info"
+    ]
+  },
+  {
+    "contentId": 63,
+    "content": "Welke overheidsinstantie\nwil je om informatie vragen?",
+    "contentType": "title",
+    "routeId": [
+      "recv6iVTRTh27ylhL"
+    ],
+    "routeSlug": [
+      "instituut"
+    ],
+    "routeType": [
+      "form"
+    ]
+  },
+  {
+    "contentId": 174,
+    "content": "Doorgeleiding",
+    "contentType": "check/yellow/base",
+    "routeId": [
+      "recmkybjDd9Wkf5hg"
+    ],
+    "linkRouteId": [
+      "reclTWVdtOxtGFAlR"
+    ],
+    "routeSlug": [
+      "aanvullende-opties"
+    ],
+    "routeType": [
+      "form"
+    ],
+    "LinkRouteType": [
+      "aside-info"
+    ],
+    "LinkRouteSlug": [
+      "doorgeleiding"
+    ]
+  },
+  {
+    "contentId": 112,
+    "content": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
+    "contentType": "content",
+    "routeId": [
+      "recS1bPIRb1IMyqRJ"
+    ],
+    "routeSlug": [
+      "rapporten-en-presentaties"
+    ],
+    "routeType": [
+      "aside-document-type"
+    ]
+  },
+  {
+    "contentId": 58,
+    "content": "Ik ben een journalist",
+    "contentType": "check/yellow/base",
+    "routeId": [
+      "recfvKGrVYxw2Y6Zl"
+    ],
+    "linkRouteId": [
+      "recvllEn1RtSYTtuH"
+    ],
+    "routeSlug": [
+      "rol-en-doel"
+    ],
+    "routeType": [
+      "form"
+    ],
+    "LinkRouteType": [
+      "aside-info"
+    ],
+    "LinkRouteSlug": [
+      "journalist"
+    ]
+  },
+  {
+    "contentId": 173,
+    "contentType": "form/specific-documents",
+    "routeId": [
+      "recsW8iUGWbySdl1T"
+    ],
+    "routeSlug": [
+      "specifieke-documenten"
+    ],
+    "routeType": [
+      "form"
+    ]
+  },
+  {
+    "contentId": 18,
+    "content": "Digitaal of niet?",
+    "contentType": "title",
+    "routeId": [
+      "recMuOYmIyWDTyzQU"
+    ],
+    "routeSlug": [
+      "digitaal-of-niet"
+    ],
+    "routeType": [
+      "aside-info"
+    ]
+  },
+  {
+    "contentId": 45,
+    "content": "Hiermee geef je aan dat je open staat voor een gesprek. Het is meestal nuttig om nog eens mondeling toe te lichten welke informatie je zoekt. Dat helpt de Wob-ambtenaar en leidt hopelijk tot sneller succes van je verzoek.",
+    "contentType": "content",
+    "routeId": [
+      "recY5qsUjwzu2FKa4"
+    ],
+    "routeSlug": [
+      "mondelinge-toelichting"
+    ],
+    "routeType": [
+      "aside-info"
+    ]
+  },
+  {
+    "contentId": 99,
+    "content": "Anders",
+    "contentType": "check/yellow/base",
+    "routeId": [
+      "recWdvbbSPgPUWkSc"
+    ],
+    "linkRouteId": [
+      "reczR2gc10ApJFFBE"
+    ],
+    "specialType": "form/document-types",
+    "routeSlug": [
+      "specifieke-documenttypes"
+    ],
+    "routeType": [
+      "form"
+    ],
+    "LinkRouteType": [
+      "aside-document-type"
+    ],
+    "LinkRouteSlug": [
+      "anders"
+    ]
+  },
+  {
+    "contentId": 46,
+    "content": "Zo kies je de juiste overheidsinstantie:\n\nLocatie -  Vraag je af welke instantie over het onderwerp gaat? Is het een lokale, een provinciale of rijkskwestie? Bij wie kunnen documenten over het onderwerp zijn opgeslagen?\n\nGoogle - Als je er niet uitkomt, Google dan je onderwerp en kijk bij welke overheidsinstanties je uit komt.\nMeerdere instanties Als er meerdere overheidsinstanties over het onderwerp gaan, dan kun je meerdere verzoeken indienen. Probeer te vermijden dat het precies hetzelfde document op meerdere plekken vraagt.\n\nWob hoog - Als de ene instantie onder de verantwoordelijkheid van de andere instantie valt, dien je verzoek dan in bij de hoogste instantie. Denk bijvoorbeeld aan de Immigratie en Naturalisatiedienst (IND). Deze dienst valt onder het ministerie van Justitie en Veiligheid. Weet je niet zeker of de documenten bij de IND of het Ministerie liggen, wob dan het Ministerie.\n\nWel overheidstaak, geen Wob - Let op: er zijn organisaties die wel een wettelijke taak hebben, maar toch niet onder de Wob vallen en daarom niet in de lijst staan. Dat komt omdat ze ondanks hun wettelijke taak private bedrijven zijn.\n\nDoorgeleiding - Wees gerust: als je toch de verkeerde instantie hebt gekozen, is die instantie verplicht om je verzoek naar de juiste instantie door te sturen. Uiteraard gaat daar wel wat tijd overheen. \n\nNaamsverandering - Let op: overheidsinstanties veranderen regelmatig van naam. Denk aan het Ministerie van Veiligheid & Justitie dat veranderd is in Justitie & Veiligheid. We proberen dit up to date te houden maar laat het ons vooral weten als onze lijst is verouderd.",
+    "contentType": "content",
+    "routeId": [
+      "recv02YYylO77PUOI"
+    ],
+    "routeSlug": [
+      "juiste-overheid"
+    ],
+    "routeType": [
+      "aside-info"
+    ]
+  },
+  {
+    "contentId": 54,
+    "content": "Als je een Wob-verzoek verstuurt, moet de overheid weten van wie het verzoek komt en waar hun besluit op je verzoek naartoe moet worden gestuurd. Vul daarom hier je contactgegevens in. ",
+    "contentType": "content",
+    "routeId": [
+      "recXFPF4VRj3yvCLg"
+    ],
+    "routeSlug": [
+      "contact-gegevens"
+    ],
+    "routeType": [
+      "form"
+    ]
+  },
+  {
+    "contentId": 51,
+    "content": "Kun je de documenten op een andere manier in handen krijgen, bijvoorbeeld door het gewoon te vragen of door ze ergens anders te zoeken? ",
+    "contentType": "content",
+    "routeId": [
+      "recLM00uQGCtyoAHn"
+    ],
+    "linkRouteId": [
+      "recIuYOcPfLmamsMF"
+    ],
+    "routeSlug": [
+      "start"
+    ],
+    "routeType": [
+      "form"
+    ],
+    "LinkRouteType": [
+      "aside-info"
+    ],
+    "LinkRouteSlug": [
+      "informatieverzoeken"
+    ]
+  },
+  {
+    "contentId": 192,
+    "content": "Start een ander Wob-verzoek!",
+    "contentType": "button/large",
+    "routeId": [
+      "recvBgzyf1d88SkiI"
+    ],
+    "specialType": "page/header",
+    "routeSlug": [
+      "afsluiting"
+    ],
+    "routeType": [
+      "page"
+    ]
+  },
+  {
+    "contentId": 60,
+    "content": "Ik wil mijn (journalistieke) doel toelichten",
+    "contentType": "check/yellow/base",
+    "routeId": [
+      "recfvKGrVYxw2Y6Zl"
+    ],
+    "linkRouteId": [
+      "rec0wsNO24WV79OwJ"
+    ],
+    "routeSlug": [
+      "rol-en-doel"
+    ],
+    "routeType": [
+      "form"
+    ],
+    "LinkRouteType": [
+      "aside-info"
+    ],
+    "LinkRouteSlug": [
+      "journalistiek-doel"
+    ]
+  },
+  {
+    "contentId": 179,
+    "content": "Lees de brief nog een keer goed door en exporteer hem",
+    "contentType": "content",
+    "routeId": [
+      "recwSLma6YuAxO7Pt"
+    ],
+    "routeSlug": [
+      "review"
+    ],
+    "routeType": [
+      "review"
+    ]
+  },
+  {
+    "contentId": 106,
+    "content": "Adviezen",
+    "contentType": "check/white/base",
+    "routeId": [
+      "recR3xSpTuROzmcXP"
+    ],
+    "routeSlug": [
+      "vergaderstukken-en-gespreksverslage"
+    ],
+    "routeType": [
+      "aside-document-type"
+    ]
+  },
+  {
+    "contentId": 136,
+    "content": "Begrotingen en andere \nfinanciële documenten",
+    "contentType": "title",
+    "routeId": [
+      "recrzse37LenTq7dY"
+    ],
+    "routeSlug": [
+      "begrotingen-en-financieel"
+    ],
+    "routeType": [
+      "aside-document-type"
+    ]
+  },
+  {
+    "contentId": 119,
+    "content": "E-mails kunnen veel inzicht geven in het besluitvormingsproces, de toon waarin tussen bepaalde personen gecommuniceerd wordt en de frequentie van het contact. Maar e-mails kunnen ook over volstrekt irrelevante zaken gaan, zoals de hoeveelheid broodjes die bij de vergadering zijn besteld. Bedenk dus of e-mails in het geval van jouw verzoek relevant zijn.",
+    "contentType": "content",
+    "routeId": [
+      "rec8daE4lrLHstC6u"
+    ],
+    "routeSlug": [
+      "correspondentie-binnen"
+    ],
+    "routeType": [
+      "aside-document-type"
+    ]
+  },
+  {
+    "contentId": 62,
+    "contentType": "form/contact-details",
+    "routeId": [
+      "recXFPF4VRj3yvCLg"
+    ],
+    "routeSlug": [
+      "contact-gegevens"
+    ],
+    "routeType": [
+      "form"
+    ]
+  },
+  {
+    "contentId": 84,
+    "content": "Ik wil ook de aanvullende stukken",
+    "contentType": "check/yellow/base",
+    "routeId": [
+      "recsW8iUGWbySdl1T"
+    ],
+    "linkRouteId": [
+      "recJn1Ksk3OZIFFSK"
+    ],
+    "specialType": "form/specific-documents",
+    "routeSlug": [
+      "specifieke-documenten"
+    ],
+    "routeType": [
+      "form"
+    ],
+    "LinkRouteType": [
+      "aside-info"
+    ],
+    "LinkRouteSlug": [
+      "aanvullende-documenten"
+    ]
+  },
+  {
+    "contentId": 191,
+    "content": "Ga terug",
+    "contentType": "button/large",
+    "routeId": [
+      "recvBgzyf1d88SkiI"
+    ],
+    "specialType": "page/header",
+    "routeSlug": [
+      "afsluiting"
+    ],
+    "routeType": [
+      "page"
+    ]
+  },
+  {
+    "contentId": 181,
+    "content": "OPSLAAN ALS PDF",
+    "contentType": "button/small",
+    "routeId": [
+      "recwSLma6YuAxO7Pt"
+    ],
+    "routeSlug": [
+      "review"
+    ],
+    "routeType": [
+      "review"
+    ]
+  },
+  {
+    "contentId": 117,
+    "content": "Pesentaties",
+    "contentType": "check/white/base",
+    "routeId": [
+      "recS1bPIRb1IMyqRJ"
+    ],
+    "routeSlug": [
+      "rapporten-en-presentaties"
+    ],
+    "routeType": [
+      "aside-document-type"
+    ]
+  },
+  {
+    "contentId": 138,
+    "content": "Begrotingen",
+    "contentType": "check/white/base",
+    "routeId": [
+      "recrzse37LenTq7dY"
+    ],
+    "routeSlug": [
+      "begrotingen-en-financieel"
+    ],
+    "routeType": [
+      "aside-document-type"
+    ]
+  },
+  {
+    "contentId": 118,
+    "content": "Interne Correspondentie",
+    "contentType": "title",
+    "routeId": [
+      "rec8daE4lrLHstC6u"
+    ],
+    "routeSlug": [
+      "correspondentie-binnen"
+    ],
+    "routeType": [
+      "aside-document-type"
+    ]
+  },
+  {
+    "contentId": 8,
+    "content": "Specifieke Docs",
+    "contentType": "title",
+    "routeId": [
+      "rec1eWCNlmdQUL8bW"
+    ],
+    "routeSlug": [
+      "specifieke-documenten"
+    ],
+    "routeType": [
+      "aside-info"
+    ]
+  },
+  {
+    "contentId": 16,
+    "content": "Mondelinge toelichting",
+    "contentType": "title",
+    "routeId": [
+      "recY5qsUjwzu2FKa4"
+    ],
+    "routeSlug": [
+      "mondelinge-toelichting"
+    ],
+    "routeType": [
+      "aside-info"
+    ]
+  },
+  {
+    "contentId": 70,
+    "content": "Welke informatie zoek je?",
+    "contentType": "title",
+    "routeId": [
+      "rechhv82awVzZNu2c"
+    ],
+    "routeSlug": [
+      "onderwerp"
+    ],
+    "routeType": [
+      "form"
+    ]
+  },
+  {
+    "contentId": 110,
+    "content": "Gespreksverslagen",
+    "contentType": "check/white/base",
+    "routeId": [
+      "recR3xSpTuROzmcXP"
+    ],
+    "routeSlug": [
+      "vergaderstukken-en-gespreksverslage"
+    ],
+    "routeType": [
+      "aside-document-type"
+    ]
+  },
+  {
+    "contentId": 1,
+    "content": "Ben je journalist?",
+    "contentType": "title",
+    "routeId": [
+      "recvllEn1RtSYTtuH"
+    ],
+    "routeSlug": [
+      "journalist"
+    ],
+    "routeType": [
+      "aside-info"
+    ]
+  },
+  {
+    "contentId": 163,
+    "content": "De kern van je Wob-verzoek is nu af. Er zijn nog een paar opties die je aan of uit kunt zetten.",
+    "contentType": "content",
+    "routeId": [
+      "recmkybjDd9Wkf5hg"
+    ],
+    "routeSlug": [
+      "aanvullende-opties"
+    ],
+    "routeType": [
+      "form"
+    ]
+  },
+  {
+    "contentId": 31,
+    "content": "De wet verplicht overheidsinstanties een Wob-verzoek door te geleiden naar een andere instantie als de betreffende documenten niet bij haar maar bij de collega-instantie liggen. Het kan geen kwaad daar in de brief nog eens om te vragen.",
+    "contentType": "content",
+    "routeId": [
+      "reclTWVdtOxtGFAlR"
+    ],
+    "routeSlug": [
+      "doorgeleiding"
+    ],
+    "routeType": [
+      "aside-info"
+    ]
+  },
+  {
+    "contentId": 2,
+    "content": "Informatieverzoeken",
+    "contentType": "title",
+    "routeId": [
+      "recIuYOcPfLmamsMF"
+    ],
+    "routeSlug": [
+      "informatieverzoeken"
+    ],
+    "routeType": [
+      "aside-info"
+    ]
+  },
+  {
+    "contentId": 169,
+    "content": "Insluiting alle formaten",
+    "contentType": "check/yellow/base",
+    "routeId": [
+      "recmkybjDd9Wkf5hg"
+    ],
+    "linkRouteId": [
+      "recieD9WELmtn0ZQt"
+    ],
+    "routeSlug": [
+      "aanvullende-opties"
+    ],
+    "routeType": [
+      "form"
+    ],
+    "LinkRouteType": [
+      "aside-info"
+    ],
+    "LinkRouteSlug": [
+      "insluiting-alle-formaten"
+    ]
+  },
+  {
+    "contentId": 22,
+    "content": "Insluiting alle formaten",
+    "contentType": "title",
+    "routeId": [
+      "recieD9WELmtn0ZQt"
+    ],
+    "routeSlug": [
+      "insluiting-alle-formaten"
+    ],
+    "routeType": [
+      "aside-info"
+    ]
+  },
+  {
+    "contentId": 3,
+    "content": "Mediaorganisatie?",
+    "contentType": "title",
+    "routeId": [
+      "recpS5ubR52aN9sRF"
+    ],
+    "routeSlug": [
+      "mediaorganisatie"
+    ],
+    "routeType": [
+      "aside-info"
+    ]
+  },
+  {
+    "contentId": 80,
+    "content": "Ik wil alles over het onderwerp",
+    "contentType": "check/yellow/base",
+    "routeId": [
+      "recsXVE7yH4Go2Jds"
+    ],
+    "linkRouteId": [
+      "recnVLQCE4Z3gfeQN"
+    ],
+    "routeSlug": [
+      "alles-of-specifiek"
+    ],
+    "routeType": [
+      "form"
+    ],
+    "LinkRouteType": [
+      "aside-info"
+    ],
+    "LinkRouteSlug": [
+      "alles-over-onderwerp"
+    ]
+  },
+  {
+    "contentId": 86,
+    "content": "Ik weet de datum van dit document",
+    "contentType": "check/yellow/base",
+    "routeId": [
+      "recsW8iUGWbySdl1T"
+    ],
+    "linkRouteId": [
+      "recVp99Blj0rjwYov"
+    ],
+    "specialType": "form/specific-documents",
+    "routeSlug": [
+      "specifieke-documenten"
+    ],
+    "routeType": [
+      "form"
+    ],
+    "LinkRouteType": [
+      "aside-info"
+    ],
+    "LinkRouteSlug": [
+      "periode"
+    ]
+  },
+  {
+    "contentId": 14,
+    "content": "Documenten",
+    "contentType": "title",
+    "routeId": [
+      "recPILpzPpOxU5PuR"
+    ],
+    "routeSlug": [
+      "documenten"
+    ],
+    "routeType": [
+      "aside-info"
+    ]
+  },
+  {
+    "contentId": 76,
+    "content": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet",
+    "contentType": "content",
+    "routeId": [
+      "recj307J0TzHpdEMT"
+    ],
+    "routeSlug": [
+      "onderwerp"
+    ],
+    "routeType": [
+      "aside-info"
+    ]
+  },
+  {
+    "contentId": 187,
+    "content": "Je bent hier omdat je informatie wilt opvragen bij een overheidsinstantie. Dat noemen we een Wob-verzoek. Met de Wob-generator is dat een koud kunstje.",
+    "contentType": "content",
+    "routeId": [
+      "recSx2NzrOTdbxZR5"
+    ],
+    "specialType": "page/header",
+    "routeType": [
+      "page"
+    ]
+  },
+  {
+    "contentId": 15,
+    "content": "Samenvatting",
+    "contentType": "title",
+    "routeId": [
+      "rectXaEyBdDcOyeGa"
+    ],
+    "routeSlug": [
+      "samenvatting"
+    ],
+    "routeType": [
+      "aside-info"
+    ]
+  },
+  {
+    "contentId": 134,
+    "content": "Typ hier de naam van de externe",
+    "contentType": "input/small/cancellable",
+    "routeId": [
+      "rec9Dw2AnuF75GNl2"
+    ],
+    "specialType": "form/people-extern",
+    "routeSlug": [
+      "correspondentie-tussen"
+    ],
+    "routeType": [
+      "aside-document-type"
+    ]
+  },
+  {
+    "contentId": 12,
+    "content": "Datasets",
+    "contentType": "title",
+    "routeId": [
+      "recB4QxrYPlOnqBTB"
+    ],
+    "routeSlug": [
+      "datasets"
+    ],
+    "routeType": [
+      "aside-info"
+    ]
+  },
+  {
+    "contentId": 32,
+    "content": "Waarschijnlijk gaat het je meer om de interessante informatie dan om de exacte documenten zelf. Zeker als je Wob-verzoek omvangrijk is, kun je de overheidsinstantie aanbieden om gezamenlijk te kijken of ze je op een minder arbeidsintensieve manier ",
+    "contentType": "content",
+    "routeId": [
+      "rec5o7VxmQtRZf5ZD"
+    ],
+    "routeSlug": [
+      "informatie-of-documenten"
+    ],
+    "routeType": [
+      "aside-info"
+    ]
+  },
+  {
+    "contentId": 122,
+    "content": "SMS-jes en WhatsApp-berichten",
+    "contentType": "check/white/base",
+    "routeId": [
+      "rec8daE4lrLHstC6u"
+    ],
+    "routeSlug": [
+      "correspondentie-binnen"
+    ],
+    "routeType": [
+      "aside-document-type"
+    ]
+  },
+  {
+    "contentId": 111,
+    "content": "Rapporten & \nPresentaties",
+    "contentType": "title",
+    "routeId": [
+      "recS1bPIRb1IMyqRJ"
+    ],
+    "routeSlug": [
+      "rapporten-en-presentaties"
+    ],
+    "routeType": [
+      "aside-document-type"
+    ]
+  },
+  {
+    "contentId": 128,
+    "content": "E-mails kunnen veel inzicht geven in het besluitvormingsproces, de toon waarin tussen bepaalde personen gecommuniceerd wordt en de frequentie van het contact. Maar e-mails kunnen ook over volstrekt irrelevante zaken gaan, zoals de hoeveelheid broodjes die bij de vergadering zijn besteld. Bedenk dus of e-mails in het geval van jouw verzoek relevant zijn.",
+    "contentType": "content",
+    "routeId": [
+      "rec9Dw2AnuF75GNl2"
+    ],
+    "routeSlug": [
+      "correspondentie-tussen"
+    ],
+    "routeType": [
+      "aside-document-type"
+    ]
+  },
+  {
+    "contentId": 172,
+    "contentType": "form/people-extern",
+    "routeId": [
+      "rec9Dw2AnuF75GNl2"
+    ],
+    "routeSlug": [
+      "correspondentie-tussen"
+    ],
+    "routeType": [
+      "aside-document-type"
+    ]
+  },
+  {
+    "contentId": 171,
+    "contentType": "form/people-intern",
+    "routeId": [
+      "rec8daE4lrLHstC6u"
+    ],
+    "routeSlug": [
+      "correspondentie-binnen"
+    ],
+    "routeType": [
+      "aside-document-type"
+    ]
+  },
+  {
+    "contentId": 75,
+    "content": "Onderwerp",
+    "contentType": "title",
+    "routeId": [
+      "recj307J0TzHpdEMT"
+    ],
+    "routeSlug": [
+      "onderwerp"
+    ],
+    "routeType": [
+      "aside-info"
+    ]
+  },
+  {
+    "contentId": 67,
+    "content": "Beleefdheidsconventie van de geadresseerde",
+    "contentType": "listItem/info",
+    "routeId": [
+      "recv6iVTRTh27ylhL"
+    ],
+    "linkRouteId": [
+      "rechNu7XVT6G3ByRy"
+    ],
+    "routeSlug": [
+      "instituut"
+    ],
+    "routeType": [
+      "form"
+    ],
+    "LinkRouteType": [
+      "aside-info"
+    ],
+    "LinkRouteSlug": [
+      "geadresseerde"
+    ]
+  },
+  {
+    "contentId": 148,
+    "content": "VOEG DOCUMENT TOE",
+    "contentType": "button/medium",
+    "routeId": [
+      "reczR2gc10ApJFFBE"
+    ],
+    "routeSlug": [
+      "anders"
+    ],
+    "routeType": [
+      "aside-document-type"
+    ],
+    "specialType": "form/speciale-documenten"
+  },
+  {
+    "contentId": 59,
+    "content": "Ik Wob namens een (media-) organisatie",
+    "contentType": "check/yellow/base",
+    "routeId": [
+      "recfvKGrVYxw2Y6Zl"
+    ],
+    "linkRouteId": [
+      "recpS5ubR52aN9sRF"
+    ],
+    "routeSlug": [
+      "rol-en-doel"
+    ],
+    "routeType": [
+      "form"
+    ],
+    "LinkRouteType": [
+      "aside-info"
+    ],
+    "LinkRouteSlug": [
+      "mediaorganisatie"
+    ]
+  },
+  {
+    "contentId": 185,
+    "content": "NEE, LIEVER NIET",
+    "contentType": "button/small",
+    "routeId": [
+      "recwSLma6YuAxO7Pt"
+    ],
+    "routeSlug": [
+      "review"
+    ],
+    "routeType": [
+      "review"
+    ]
+  },
+  {
+    "contentId": 155,
+    "content": "Welke documenttypes?",
+    "contentType": "title",
+    "routeId": [
+      "recwdo8dQw6g3RqYT"
+    ],
+    "routeSlug": [
+      "alles-over-documenttypen"
+    ],
+    "routeType": [
+      "form"
+    ]
+  },
+  {
+    "contentId": 11,
+    "content": "Aanvullende docs",
+    "contentType": "title",
+    "routeId": [
+      "recnVLQCE4Z3gfeQN"
+    ],
+    "routeSlug": [
+      "alles-over-onderwerp"
+    ],
+    "routeType": [
+      "aside-info"
+    ]
+  },
+  {
+    "contentId": 35,
+    "content": "Door dit aan te vinken verzoek je de overheidsinstantie goed te motiveren waarom ze je Wob-verzoek niet binnen de wettelijke termijn afhandelen.",
+    "contentType": "content",
+    "routeId": [
+      "reciRZMWtGbWkqveO"
+    ],
+    "routeSlug": [
+      "motivering-bij-verdaging"
+    ],
+    "routeType": [
+      "aside-info"
+    ]
+  },
+  {
+    "contentId": 34,
+    "content": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor",
+    "contentType": "content",
+    "routeId": [
+      "recB4QxrYPlOnqBTB"
+    ],
+    "routeSlug": [
+      "datasets"
+    ],
+    "routeType": [
+      "aside-info"
+    ]
+  },
+  {
+    "contentId": 175,
+    "content": "Motivering bij verdaging",
+    "contentType": "check/yellow/base",
+    "routeId": [
+      "recmkybjDd9Wkf5hg"
+    ],
+    "linkRouteId": [
+      "reciRZMWtGbWkqveO"
+    ],
+    "routeSlug": [
+      "aanvullende-opties"
+    ],
+    "routeType": [
+      "form"
+    ],
+    "LinkRouteType": [
+      "aside-info"
+    ],
+    "LinkRouteSlug": [
+      "motivering-bij-verdaging"
+    ]
+  },
+  {
+    "contentId": 21,
+    "content": "Bevestiging  & beslistermijn",
+    "contentType": "title",
+    "routeId": [
+      "recemOBeTquFD8Vdd"
+    ],
+    "routeSlug": [
+      "bevestiging-en-beslistermijn"
+    ],
+    "routeType": [
+      "aside-info"
+    ]
+  },
+  {
+    "contentId": 91,
+    "content": "Aanvullende documenten?",
+    "contentType": "title",
+    "routeId": [
+      "recWdvbbSPgPUWkSc"
+    ],
+    "routeSlug": [
+      "specifieke-documenttypes"
+    ],
+    "routeType": [
+      "form"
+    ]
+  },
+  {
+    "contentId": 120,
+    "content": "Brieven",
+    "contentType": "check/white/base",
+    "routeId": [
+      "rec8daE4lrLHstC6u"
+    ],
+    "routeSlug": [
+      "correspondentie-binnen"
+    ],
+    "routeType": [
+      "aside-document-type"
+    ]
+  },
+  {
+    "contentId": 178,
+    "content": "Exporteren!",
+    "contentType": "title",
+    "routeId": [
+      "recwSLma6YuAxO7Pt"
+    ],
+    "routeSlug": [
+      "review"
+    ],
+    "routeType": [
+      "review"
+    ]
+  },
+  {
+    "contentId": 7,
+    "content": "Juiste overheid?",
+    "contentType": "title",
+    "routeId": [
+      "recv02YYylO77PUOI"
+    ],
+    "routeSlug": [
+      "juiste-overheid"
+    ],
+    "routeType": [
+      "aside-info"
+    ]
+  },
+  {
+    "contentId": 164,
+    "content": "HERSTEL STANDAARD",
+    "contentType": "button/medium",
+    "routeId": [
+      "recmkybjDd9Wkf5hg"
+    ],
+    "routeSlug": [
+      "aanvullende-opties"
+    ],
+    "routeType": [
+      "form"
+    ]
+  },
+  {
+    "contentId": 36,
+    "content": "Gemeenten, provincies, ministeries, waterschappen, de politie, inspectiediensten en tal van zelfstandige bestuursorganen (ZBO’s) die een overheidstaak uitvoeren.  ",
+    "contentType": "content",
+    "routeId": [
+      "recWxAXxUfDlJS7q4"
+    ],
+    "routeSlug": [
+      "overheidsinstanties"
+    ],
+    "routeType": [
+      "aside-info"
+    ]
+  },
+  {
+    "contentId": 61,
+    "content": "Je kiest wat voor documenten of informatie je zoekt.",
+    "contentType": "listItem/bubble",
+    "routeId": [
+      "recLM00uQGCtyoAHn"
+    ],
+    "routeSlug": [
+      "start"
+    ],
+    "routeType": [
+      "form"
+    ]
+  },
+  {
+    "contentId": 109,
+    "content": "Notulen",
+    "contentType": "check/white/base",
+    "routeId": [
+      "recR3xSpTuROzmcXP"
+    ],
+    "routeSlug": [
+      "vergaderstukken-en-gespreksverslage"
+    ],
+    "routeType": [
+      "aside-document-type"
+    ]
+  },
+  {
+    "contentId": 97,
+    "content": "Begrotingen en financiële documenten",
+    "contentType": "check/yellow/base",
+    "routeId": [
+      "recWdvbbSPgPUWkSc"
+    ],
+    "linkRouteId": [
+      "recrzse37LenTq7dY"
+    ],
+    "specialType": "form/document-types",
+    "routeSlug": [
+      "specifieke-documenttypes"
+    ],
+    "routeType": [
+      "form"
+    ],
+    "LinkRouteType": [
+      "aside-document-type"
+    ],
+    "LinkRouteSlug": [
+      "begrotingen-en-financieel"
+    ]
+  },
+  {
+    "contentId": 85,
+    "content": "Dit is een dataset",
+    "contentType": "check/yellow/base",
+    "routeId": [
+      "recsW8iUGWbySdl1T"
+    ],
+    "linkRouteId": [
+      "recB4QxrYPlOnqBTB"
+    ],
+    "specialType": "form/specific-documents",
+    "routeSlug": [
+      "specifieke-documenten"
+    ],
+    "routeType": [
+      "form"
+    ],
+    "LinkRouteType": [
+      "aside-info"
+    ],
+    "LinkRouteSlug": [
+      "datasets"
+    ]
+  },
+  {
+    "contentId": 146,
+    "content": "De organisatie waarbij jij wilt wobben gebruikt een bijzonder documenttype die wij niet voorzien hebben, vul hem dan hier in:",
+    "contentType": "content",
+    "routeId": [
+      "reczR2gc10ApJFFBE"
+    ],
+    "routeSlug": [
+      "anders"
+    ],
+    "routeType": [
+      "aside-document-type"
+    ]
+  },
+  {
+    "contentId": 147,
+    "content": "Vul hier de documentnaam in",
+    "contentType": "input/small/cancellable",
+    "routeId": [
+      "reczR2gc10ApJFFBE"
+    ],
+    "routeSlug": [
+      "anders"
+    ],
+    "routeType": [
+      "aside-document-type"
+    ],
+    "specialType": "form/speciale-documenten"
+  },
+  {
+    "contentId": 25,
+    "content": "Sommige instanties maken papieren kopieën van de documenten. Dat is slecht voor het milieu en kost je mogelijk ook geld. Je kunt aangeven dat je de documenten liefst digitaal ontvangt en dat je wilt dat de overheid met jou overlegt voor ze allerlei kopieerkosten maken en aan jou doorberekenen.",
+    "contentType": "content",
+    "routeId": [
+      "recMuOYmIyWDTyzQU"
+    ],
+    "routeSlug": [
+      "digitaal-of-niet"
+    ],
+    "routeType": [
+      "aside-info"
+    ]
+  },
+  {
+    "contentId": 26,
+    "content": "Je hoeft geen journalist te zijn om een Wob-verzoek te doen. Maar als je het met een journalistiek doel doet is het nuttig om dit te benoemen. Daarmee verwijs je naar een publiek belang en dat kan je verzoek versterken. Bovendien is het wel zo eerlijk om je Wob-verzoek vanaf het begin met open vizier te doen.",
+    "contentType": "content",
+    "routeId": [
+      "recvllEn1RtSYTtuH"
+    ],
+    "routeSlug": [
+      "journalist"
+    ],
+    "routeType": [
+      "aside-info"
+    ]
+  },
+  {
+    "contentId": 188,
+    "content": "Start je Wob-verzoek!",
+    "contentType": "button/large",
+    "routeId": [
+      "recSx2NzrOTdbxZR5"
+    ],
+    "specialType": "page/header",
+    "routeType": [
+      "page"
+    ]
+  },
+  {
+    "contentId": 27,
+    "content": "Dat hoeft niet, maar het kan de overheidsinstantie helpen om beter te begrijpen welke documenten je zoekt. Overigens kan het in sommige gevallen verstandig zijn om juist níet te vertellen welk nieuws je op het spoor denkt te zijn. Weeg af wat slim is.",
+    "contentType": "content",
+    "routeId": [
+      "rec0wsNO24WV79OwJ"
+    ],
+    "routeSlug": [
+      "journalistiek-doel"
+    ],
+    "routeType": [
+      "aside-info"
+    ]
+  },
+  {
+    "contentId": 123,
+    "content": "Memo’s en notities",
+    "contentType": "check/white/base",
+    "routeId": [
+      "rec8daE4lrLHstC6u"
+    ],
+    "routeSlug": [
+      "correspondentie-binnen"
+    ],
+    "routeType": [
+      "aside-document-type"
+    ]
+  },
+  {
+    "contentId": 82,
+    "content": "Je weet precies wat je wilt hebben! Schrijf hier kort de documentnaam en benoem of je aanvullende stukken wilt. Als je document een dataset is, geef dat dan ook aan. Daarvoor gelden namelijk net iets andere regels. ",
+    "contentType": "content",
+    "routeId": [
+      "recsW8iUGWbySdl1T"
+    ],
+    "linkRouteId": [
+      "rec1eWCNlmdQUL8bW"
+    ],
+    "routeSlug": [
+      "specifieke-documenten"
+    ],
+    "routeType": [
+      "form"
+    ],
+    "LinkRouteType": [
+      "aside-info"
+    ],
+    "LinkRouteSlug": [
+      "specifieke-documenten"
+    ]
+  },
+  {
+    "contentId": 141,
+    "content": "Datasets",
+    "contentType": "title",
+    "routeId": [
+      "recb0ga4MXJN4XP0N"
+    ],
+    "routeSlug": [
+      "datasets"
+    ],
+    "routeType": [
+      "aside-document-type"
+    ]
+  },
+  {
+    "contentId": 50,
+    "content": "Contactgegevens",
+    "contentType": "title",
+    "routeId": [
+      "recXFPF4VRj3yvCLg"
+    ],
+    "routeSlug": [
+      "contact-gegevens"
+    ],
+    "routeType": [
+      "form"
+    ]
+  },
+  {
+    "contentId": 23,
+    "content": "Motivering bij verdaging",
+    "contentType": "title",
+    "routeId": [
+      "reciRZMWtGbWkqveO"
+    ],
+    "routeSlug": [
+      "motivering-bij-verdaging"
+    ],
+    "routeType": [
+      "aside-info"
+    ]
+  },
+  {
+    "contentId": 139,
+    "content": "Jaarverslagen",
+    "contentType": "check/white/base",
+    "routeId": [
+      "recrzse37LenTq7dY"
+    ],
+    "routeSlug": [
+      "begrotingen-en-financieel"
+    ],
+    "routeType": [
+      "aside-document-type"
+    ]
+  },
+  {
+    "contentId": 20,
+    "content": "Anonimisering",
+    "contentType": "title",
+    "routeId": [
+      "recLKYD9zDdom9Bbe"
+    ],
+    "routeSlug": [
+      "anonimisering"
+    ],
+    "routeType": [
+      "aside-info"
+    ]
+  },
+  {
+    "contentId": 88,
+    "content": "VOEG DOCUMENT TOE",
+    "contentType": "button/medium",
+    "routeId": [
+      "recsW8iUGWbySdl1T"
+    ],
+    "specialType": "form/specific-documents",
+    "routeSlug": [
+      "specifieke-documenten"
+    ],
+    "routeType": [
+      "form"
+    ]
+  },
+  {
+    "contentId": 132,
+    "content": "Memo’s en notities",
+    "contentType": "check/white/base",
+    "routeId": [
+      "rec9Dw2AnuF75GNl2"
+    ],
+    "routeSlug": [
+      "correspondentie-tussen"
+    ],
+    "routeType": [
+      "aside-document-type"
+    ]
+  },
+  {
+    "contentId": 92,
+    "content": "Vergaderstukken & gespreksverslagen",
+    "contentType": "check/yellow/base",
+    "routeId": [
+      "recWdvbbSPgPUWkSc"
+    ],
+    "linkRouteId": [
+      "recR3xSpTuROzmcXP"
+    ],
+    "specialType": "form/document-types",
+    "routeSlug": [
+      "specifieke-documenttypes"
+    ],
+    "routeType": [
+      "form"
+    ],
+    "LinkRouteType": [
+      "aside-document-type"
+    ],
+    "LinkRouteSlug": [
+      "vergaderstukken-en-gespreksverslage"
+    ]
+  },
+  {
+    "contentId": 24,
+    "content": "Hoe handig een Wob-verzoek ook is, het is natuurlijk niet slim om te gaan wobben als de stukken al ergens online staan of in stapels bij persvoorlichting liggen.\n\nEr zijn tal van opties van normale verzoeken, we hebben er een blogpost over geschreven op de VVOJ-site:",
+    "contentType": "content",
+    "routeId": [
+      "recIuYOcPfLmamsMF"
+    ],
+    "routeSlug": [
+      "informatieverzoeken"
+    ],
+    "routeType": [
+      "aside-info"
+    ]
+  },
+  {
+    "contentId": 79,
+    "content": "Ik wil specifieke documenten opvragen",
+    "contentType": "check/yellow/base",
+    "routeId": [
+      "recsXVE7yH4Go2Jds"
+    ],
+    "linkRouteId": [
+      "rec1eWCNlmdQUL8bW"
+    ],
+    "routeSlug": [
+      "alles-of-specifiek"
+    ],
+    "routeType": [
+      "form"
+    ],
+    "LinkRouteType": [
+      "aside-info"
+    ],
+    "LinkRouteSlug": [
+      "specifieke-documenten"
+    ]
+  },
+  {
+    "contentId": 28,
+    "content": "Als je vermoedt dat je Wob-verzoek misschien wordt afgewezen omdat er (te) veel persoonlijke beleidsopvattingen van ambtenaren in staan, kun je aangeven dat je eventueel genoegen neemt met een samenvatting van de informatie.",
+    "contentType": "content",
+    "routeId": [
+      "rectXaEyBdDcOyeGa"
+    ],
+    "routeSlug": [
+      "samenvatting"
+    ],
+    "routeType": [
+      "aside-info"
+    ]
+  },
+  {
+    "contentId": 131,
+    "content": "SMS-jes en WhatsApp-berichten",
+    "contentType": "check/white/base",
+    "routeId": [
+      "rec9Dw2AnuF75GNl2"
+    ],
+    "routeSlug": [
+      "correspondentie-tussen"
+    ],
+    "routeType": [
+      "aside-document-type"
+    ]
+  },
+  {
+    "contentId": 121,
+    "content": "E-mails en brieven, inclusief bijlagen",
+    "contentType": "check/white/base",
+    "routeId": [
+      "rec8daE4lrLHstC6u"
+    ],
+    "routeSlug": [
+      "correspondentie-binnen"
+    ],
+    "routeType": [
+      "aside-document-type"
+    ]
+  },
+  {
+    "contentId": 81,
+    "content": "Welk document zoek je?",
+    "contentType": "title",
+    "routeId": [
+      "recsW8iUGWbySdl1T"
+    ],
+    "routeSlug": [
+      "specifieke-documenten"
+    ],
+    "routeType": [
+      "form"
+    ]
+  },
+  {
+    "contentId": 47,
+    "content": "Ga naar de VVOJ site",
+    "contentType": "button/medium",
+    "routeId": [
+      "recIuYOcPfLmamsMF"
+    ],
+    "routeSlug": [
+      "informatieverzoeken"
+    ],
+    "routeType": [
+      "aside-info"
+    ]
+  },
+  {
+    "contentId": 29,
+    "content": "Een formele afsluiting van je verzoek: je vraagt om te bevestigen dat het Wob-verzoek is ontvangen en geeft aan graag op de hoogte te worden gehouden van de voortgang. Je wijst op de wettelijke termijn waarbinnen de overheid een beslissing dient te nemen.",
+    "contentType": "content",
+    "routeId": [
+      "recemOBeTquFD8Vdd"
+    ],
+    "routeSlug": [
+      "bevestiging-en-beslistermijn"
+    ],
+    "routeType": [
+      "aside-info"
+    ]
+  },
+  {
+    "contentId": 190,
+    "content": "Je Wob-verzoek is verzonden, je zal de bestanden ook in je download map moeten kunnen vinden!",
+    "contentType": "content",
+    "routeId": [
+      "recvBgzyf1d88SkiI"
+    ],
+    "specialType": "page/header",
+    "routeSlug": [
+      "afsluiting"
+    ],
+    "routeType": [
+      "page"
+    ]
+  },
+  {
+    "contentId": 65,
+    "contentType": "button/medium",
+    "routeId": [
+      "recv6iVTRTh27ylhL"
+    ],
+    "routeSlug": [
+      "instituut"
+    ],
+    "routeType": [
+      "form"
+    ]
+  },
+  {
+    "contentId": 30,
+    "content": "Als je Wob-verzoek betrekking heeft op milieu-informatie moet een overheidsinstantie daar binnen twee weken een besluit over nemen. Met dit vinkje wijs je daar extra op en vraag je om een snel besluit.",
+    "contentType": "content",
+    "routeId": [
+      "recNnmOiLS8wDcp6c"
+    ],
+    "routeSlug": [
+      "milieu"
+    ],
+    "routeType": [
+      "aside-info"
+    ]
+  },
+  {
+    "contentId": 186,
+    "content": "Wob-generator",
+    "contentType": "title",
+    "routeId": [
+      "recSx2NzrOTdbxZR5"
+    ],
+    "specialType": "page/header",
+    "routeType": [
+      "page"
+    ]
+  },
+  {
+    "contentId": 177,
+    "content": "Bevestiging beslistermijn",
+    "contentType": "check/yellow/base",
+    "routeId": [
+      "recmkybjDd9Wkf5hg"
+    ],
+    "linkRouteId": [
+      "recemOBeTquFD8Vdd"
+    ],
+    "routeSlug": [
+      "aanvullende-opties"
+    ],
+    "routeType": [
+      "form"
+    ],
+    "LinkRouteType": [
+      "aside-info"
+    ],
+    "LinkRouteSlug": [
+      "bevestiging-en-beslistermijn"
+    ]
+  },
+  {
+    "contentId": 102,
+    "content": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
+    "contentType": "content",
+    "routeId": [
+      "recR3xSpTuROzmcXP"
+    ],
+    "routeSlug": [
+      "vergaderstukken-en-gespreksverslage"
+    ],
+    "routeType": [
+      "aside-document-type"
+    ]
+  },
+  {
+    "contentId": 96,
+    "content": "Tussen overheidsorganen",
+    "contentType": "check/yellow/indent",
+    "routeId": [
+      "recWdvbbSPgPUWkSc"
+    ],
+    "linkRouteId": [
+      "rec9Dw2AnuF75GNl2"
+    ],
+    "specialType": "form/document-types",
+    "routeSlug": [
+      "specifieke-documenttypes"
+    ],
+    "routeType": [
+      "form"
+    ],
+    "LinkRouteType": [
+      "aside-document-type"
+    ],
+    "LinkRouteSlug": [
+      "correspondentie-tussen"
+    ]
+  },
+  {
+    "contentId": 90,
+    "content": "Zelfs als je precies weet welk document je wil hebben, kan het nuttig zijn om ook andere documenten te vragen. Zo krijg je inzicht in de totstandkoming van het document, de personen of organisaties die daarbij betrokken zijn geweest, koerswijzigingen, enzovoort.",
+    "contentType": "content",
+    "routeId": [
+      "recJn1Ksk3OZIFFSK"
+    ],
+    "routeSlug": [
+      "aanvullende-documenten"
+    ],
+    "routeType": [
+      "aside-info"
+    ]
+  },
+  {
+    "contentId": 37,
+    "content": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor",
+    "contentType": "content",
+    "routeId": [
+      "rec1eWCNlmdQUL8bW"
+    ],
+    "routeSlug": [
+      "specifieke-documenten"
+    ],
+    "routeType": [
+      "aside-info"
+    ]
+  },
+  {
+    "contentId": 124,
+    "content": "Je kan ook vragen naar correspondentie met specifieke personen, selecteer hier met wie:",
+    "contentType": "content",
+    "routeId": [
+      "rec8daE4lrLHstC6u"
+    ],
+    "routeSlug": [
+      "correspondentie-binnen"
+    ],
+    "routeType": [
+      "aside-document-type"
+    ]
+  },
+  {
+    "contentId": 182,
+    "content": "Versturen!",
+    "contentType": "title",
+    "routeId": [
+      "recwSLma6YuAxO7Pt"
+    ],
+    "routeSlug": [
+      "review"
+    ],
+    "routeType": [
+      "review"
+    ]
+  },
+  {
+    "contentId": 49,
+    "content": "In 3 stappen naar je Wob-verzoek",
+    "contentType": "title",
+    "routeId": [
+      "recLM00uQGCtyoAHn"
+    ],
+    "routeSlug": [
+      "start"
+    ],
+    "routeType": [
+      "form"
+    ]
+  },
+  {
+    "contentId": 107,
+    "content": "Besluiten",
+    "contentType": "check/white/base",
+    "routeId": [
+      "recR3xSpTuROzmcXP"
+    ],
+    "routeSlug": [
+      "vergaderstukken-en-gespreksverslage"
+    ],
+    "routeType": [
+      "aside-document-type"
+    ]
+  },
+  {
+    "contentId": 143,
+    "content": "Ruwe data",
+    "contentType": "check/white/base",
+    "routeId": [
+      "recb0ga4MXJN4XP0N"
+    ],
+    "routeSlug": [
+      "datasets"
+    ],
+    "routeType": [
+      "aside-document-type"
+    ]
+  },
+  {
+    "contentId": 157,
+    "content": "Wat is allemaal een “document”?",
+    "contentType": "listItem/info",
+    "routeId": [
+      "recwdo8dQw6g3RqYT"
+    ],
+    "linkRouteId": [
+      "recPILpzPpOxU5PuR"
+    ],
+    "routeSlug": [
+      "alles-over-documenttypen"
+    ],
+    "routeType": [
+      "form"
+    ],
+    "LinkRouteType": [
+      "aside-info"
+    ],
+    "LinkRouteSlug": [
+      "documenten"
+    ]
+  },
+  {
+    "contentId": 38,
+    "content": "Zelfs als je precies weet welk document je wil hebben, kan het nuttig zijn om ook andere documenten te vragen. Zo krijg je inzicht in de totstandkoming van het document, de personen of organisaties die daarbij betrokken zijn geweest, koerswijzigingen, enzovoort.",
+    "contentType": "content",
+    "routeId": [
+      "recnVLQCE4Z3gfeQN"
+    ],
+    "routeSlug": [
+      "alles-over-onderwerp"
+    ],
+    "routeType": [
+      "aside-info"
+    ]
+  },
+  {
+    "contentId": 168,
+    "content": "Informatie i.p.v. documenten",
+    "contentType": "check/yellow/base",
+    "routeId": [
+      "recmkybjDd9Wkf5hg"
+    ],
+    "linkRouteId": [
+      "rec5o7VxmQtRZf5ZD"
+    ],
+    "routeSlug": [
+      "aanvullende-opties"
+    ],
+    "routeType": [
+      "form"
+    ],
+    "LinkRouteType": [
+      "aside-info"
+    ],
+    "LinkRouteSlug": [
+      "informatie-of-documenten"
+    ]
+  },
+  {
+    "contentId": 52,
+    "content": "Je selecteert een overheidsinstantie.",
+    "contentType": "listItem/bubble",
+    "routeId": [
+      "recLM00uQGCtyoAHn"
+    ],
+    "routeSlug": [
+      "start"
+    ],
+    "routeType": [
+      "form"
+    ]
+  },
+  {
+    "contentId": 93,
+    "content": "Rapporten & presentaties",
+    "contentType": "check/yellow/base",
+    "routeId": [
+      "recWdvbbSPgPUWkSc"
+    ],
+    "linkRouteId": [
+      "recS1bPIRb1IMyqRJ"
+    ],
+    "specialType": "form/document-types",
+    "routeSlug": [
+      "specifieke-documenttypes"
+    ],
+    "routeType": [
+      "form"
+    ],
+    "LinkRouteType": [
+      "aside-document-type"
+    ],
+    "LinkRouteSlug": [
+      "rapporten-en-presentaties"
+    ]
+  },
+  {
+    "contentId": 101,
+    "content": "Vergaderstukken & \ngespreksverslagen",
+    "contentType": "title",
+    "routeId": [
+      "recR3xSpTuROzmcXP"
+    ],
+    "routeSlug": [
+      "vergaderstukken-en-gespreksverslage"
+    ],
+    "routeType": [
+      "aside-document-type"
+    ]
+  },
+  {
+    "contentId": 9,
+    "content": "Overheidstaak",
+    "contentType": "title",
+    "routeId": [
+      "recF44AQShm3vLYVT"
+    ],
+    "routeSlug": [
+      "overheidstaken"
+    ],
+    "routeType": [
+      "aside-info"
+    ]
+  },
+  {
+    "contentId": 183,
+    "content": "Verstuur je brief met de Wob-knop en hou de voortgang van je verzoek bij",
+    "contentType": "content",
+    "routeId": [
+      "recwSLma6YuAxO7Pt"
+    ],
+    "routeSlug": [
+      "review"
+    ],
+    "routeType": [
+      "review"
+    ]
+  },
+  {
+    "contentId": 39,
+    "content": "Voor personen en organisaties gelden verschillende tarieven, mocht je later bij de rechter in beroep gaan tegen het besluit van de overheid op jouw verzoek. Als persoon procedeer je goedkoper dan als organisatie. \n\nLees hier meer over op ons blog:",
+    "contentType": "content",
+    "routeId": [
+      "recpS5ubR52aN9sRF"
+    ],
+    "routeSlug": [
+      "mediaorganisatie"
+    ],
+    "routeType": [
+      "aside-info"
+    ]
+  },
+  {
+    "contentId": 48,
+    "content": "Tarieven van de Wob",
+    "contentType": "button/medium",
+    "routeId": [
+      "recpS5ubR52aN9sRF"
+    ],
+    "routeSlug": [
+      "mediaorganisatie"
+    ],
+    "routeType": [
+      "aside-info"
+    ]
+  },
+  {
+    "contentId": 150,
+    "content": "Selecteer hier de periode waarbinnen je denkt dat er voor jou interessante informatie beschikbaar is.",
+    "contentType": "content",
+    "routeId": [
+      "recIkzk83HjjxfJKT"
+    ],
+    "routeSlug": [
+      "alles-over-periode"
+    ],
+    "routeType": [
+      "form"
+    ]
+  },
+  {
+    "contentId": 125,
+    "content": "Typ hier de naam van de ambtenaar",
+    "contentType": "input/small/cancellable",
+    "routeId": [
+      "rec8daE4lrLHstC6u"
+    ],
+    "specialType": "form/people-intern",
+    "routeSlug": [
+      "correspondentie-binnen"
+    ],
+    "routeType": [
+      "aside-document-type"
+    ]
+  },
+  {
+    "contentId": 104,
+    "content": "Presentatielijsten",
+    "contentType": "check/white/base",
+    "routeId": [
+      "recR3xSpTuROzmcXP"
+    ],
+    "routeSlug": [
+      "vergaderstukken-en-gespreksverslage"
+    ],
+    "routeType": [
+      "aside-document-type"
+    ]
+  },
+  {
+    "contentId": 69,
+    "content": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet",
+    "contentType": "content",
+    "routeId": [
+      "rechNu7XVT6G3ByRy"
+    ],
+    "routeSlug": [
+      "geadresseerde"
+    ],
+    "routeType": [
+      "aside-info"
+    ]
+  },
+  {
+    "contentId": 40,
+    "content": "Het kan geen kwaad om er op te wijzen dat je met ‘documenten’ niet alleen klassieke papieren documenten bedoelt, maar bijvoorbeeld ook digitale (data-)bestanden, audiofiles en whatsapp-berichten.",
+    "contentType": "content",
+    "routeId": [
+      "recieD9WELmtn0ZQt"
+    ],
+    "routeSlug": [
+      "insluiting-alle-formaten"
+    ],
+    "routeType": [
+      "aside-info"
+    ]
+  },
+  {
+    "contentId": 129,
+    "content": "Brieven",
+    "contentType": "check/white/base",
+    "routeId": [
+      "rec9Dw2AnuF75GNl2"
+    ],
+    "routeSlug": [
+      "correspondentie-tussen"
+    ],
+    "routeType": [
+      "aside-document-type"
+    ]
+  },
+  {
+    "contentId": 113,
+    "content": "Project- en programmaplannen",
+    "contentType": "check/white/base",
+    "routeId": [
+      "recS1bPIRb1IMyqRJ"
+    ],
+    "routeSlug": [
+      "rapporten-en-presentaties"
+    ],
+    "routeType": [
+      "aside-document-type"
+    ]
+  },
+  {
+    "contentId": 42,
+    "content": "Als je vermoedt dat je Wob-verzoek misschien wordt afgewezen omdat er (te) veel persoonsgegevens in voorkomen, kun je aangeven dat je eventueel genoegen neemt met een geanonimiseerde versie van de documenten.",
+    "contentType": "content",
+    "routeId": [
+      "recLKYD9zDdom9Bbe"
+    ],
+    "routeSlug": [
+      "anonimisering"
+    ],
+    "routeType": [
+      "aside-info"
+    ]
+  },
+  {
+    "contentId": 41,
+    "content": "Je kunt alleen informatie opvragen die voortkomt uit een overheidstaak, in de Wob wordt dat een ‘bestuurlijke aangelegenheid’ genoemd. De Wob werkt niet als je informatie zoekt over bijvoorbeeld de privé-aangelegenheden van een ambtenaar. Of informatie over jou zelf.",
+    "contentType": "content",
+    "routeId": [
+      "recF44AQShm3vLYVT"
+    ],
+    "routeSlug": [
+      "overheidstaken"
+    ],
+    "routeType": [
+      "aside-info"
+    ]
+  },
+  {
+    "contentId": 156,
+    "contentType": "form/document-types",
+    "routeId": [
+      "recwdo8dQw6g3RqYT"
+    ],
+    "routeSlug": [
+      "alles-over-documenttypen"
+    ],
+    "routeType": [
+      "form"
+    ]
+  },
+  {
+    "contentId": 43,
+    "content": "De Wob-verzoeken worden lokaal in je browser opgeslagen. Waarschijnlijk ken je het begrip “cookies”,  wij gebruiken een iets geavanceerdere variant van deze techniek. De applicatie heeft alleen simpele server die geen data kan ontvangen.\n\nDe opslag functionaliteit is bedoeld om het sluiten van een tabblad op te vangen. Het zou jammer zijn als je je Wob-verzoek onbedoeld wist. Vertrouw alleen niet teveel op deze opslagmethode. Als je de lokale data in je browser wist, wis je al je verzoeken! ",
+    "contentType": "content",
+    "routeId": [
+      "rec2ShlT3krqr1pVj"
+    ],
+    "routeSlug": [
+      "privacy"
+    ],
+    "routeType": [
+      "aside-info"
+    ]
+  },
+  {
+    "contentId": 57,
+    "content": "Je hoeft geen journalist te zijn om te wobben. Je hoeft ook het (journalistieke) doel van je verzoek toe te lichten. Klik op de i’tjes voor meer informatie.",
+    "contentType": "content",
+    "routeId": [
+      "recfvKGrVYxw2Y6Zl"
+    ],
+    "routeSlug": [
+      "rol-en-doel"
+    ],
+    "routeType": [
+      "form"
+    ]
+  },
+  {
+    "contentId": 53,
+    "content": "Je vult een aantal (contact)gegevens over jezelf in.",
+    "contentType": "listItem/bubble",
+    "routeId": [
+      "recLM00uQGCtyoAHn"
+    ],
+    "routeSlug": [
+      "start"
+    ],
+    "routeType": [
+      "form"
+    ]
+  },
+  {
+    "contentId": 44,
+    "content": "De overheid hoeft alleen informatie openbaar te maken die in documenten of andere gegevensdragers is vastgelegd. ‘Documenten’ zijn gelukkig wel breder dan geschreven stukken alleen. Excelsheets, databestanden, audio-opnames, sms’jes en WhatsAppjes verstuurd van een werktelefoon vallen er bijvoorbeeld ook onder. \n\nNatuurlijk kun je de overheid ook om informatie vragen die niet al op een gegevensdrager staat, bijvoorbeeld wat de gemeente vindt van een bepaalde ontwikkeling of wat de gemeente van plan is daaraan te doen. Dat is dan geen Wob-verzoek, maar een gewoon informatieverzoek. Hiervoor is de Wob-generator niet bedoeld.",
+    "contentType": "content",
+    "routeId": [
+      "recPILpzPpOxU5PuR"
+    ],
+    "routeSlug": [
+      "documenten"
+    ],
+    "routeType": [
+      "aside-info"
+    ]
+  },
+  {
+    "contentId": 114,
+    "content": "Adviezen, zowel extern als intern",
+    "contentType": "check/white/base",
+    "routeId": [
+      "recS1bPIRb1IMyqRJ"
+    ],
+    "routeSlug": [
+      "rapporten-en-presentaties"
+    ],
+    "routeType": [
+      "aside-document-type"
+    ]
+  },
+  {
+    "contentId": 4,
+    "content": "Journalistieke doel?",
+    "contentType": "title",
+    "routeId": [
+      "rec0wsNO24WV79OwJ"
+    ],
+    "routeSlug": [
+      "journalistiek-doel"
+    ],
+    "routeType": [
+      "aside-info"
+    ]
+  },
+  {
+    "contentId": 64,
+    "content": "Wob-verzoeken kunnen alleen bij overheidsinstanties worden ingediend. Dat zijn er vermoedelijk meer dan je denkt. ",
+    "contentType": "content",
+    "routeId": [
+      "recv6iVTRTh27ylhL"
+    ],
+    "linkRouteId": [
+      "recWxAXxUfDlJS7q4"
+    ],
+    "routeSlug": [
+      "instituut"
+    ],
+    "routeType": [
+      "form"
+    ],
+    "LinkRouteType": [
+      "aside-info"
+    ],
+    "LinkRouteSlug": [
+      "overheidsinstanties"
+    ]
+  },
+  {
+    "contentId": 87,
+    "content": "VERWIJDER DOCUMENT",
+    "contentType": "button/medium",
+    "routeId": [
+      "recsW8iUGWbySdl1T"
+    ],
+    "specialType": "form/specific-documents",
+    "routeSlug": [
+      "specifieke-documenten"
+    ],
+    "routeType": [
+      "form"
+    ]
+  },
+  {
+    "contentId": 130,
+    "content": "E-mails en brieven,\ninclusief bijlagen",
+    "contentType": "check/white/base",
+    "routeId": [
+      "rec9Dw2AnuF75GNl2"
+    ],
+    "routeSlug": [
+      "correspondentie-tussen"
+    ],
+    "routeType": [
+      "aside-document-type"
+    ]
+  },
+  {
+    "contentId": 6,
+    "content": "Overheidsinstanties",
+    "contentType": "title",
+    "routeId": [
+      "recWxAXxUfDlJS7q4"
+    ],
+    "routeSlug": [
+      "overheidsinstanties"
+    ],
+    "routeType": [
+      "aside-info"
+    ]
+  },
+  {
+    "contentId": 98,
+    "content": "Dataset",
+    "contentType": "check/yellow/base",
+    "routeId": [
+      "recWdvbbSPgPUWkSc"
+    ],
+    "linkRouteId": [
+      "recb0ga4MXJN4XP0N"
+    ],
+    "specialType": "form/document-types",
+    "routeSlug": [
+      "specifieke-documenttypes"
+    ],
+    "routeType": [
+      "form"
+    ],
+    "LinkRouteType": [
+      "aside-document-type"
+    ],
+    "LinkRouteSlug": [
+      "datasets"
+    ]
+  },
+  {
+    "contentId": 140,
+    "content": "Banktransacties",
+    "contentType": "check/white/base",
+    "routeId": [
+      "recrzse37LenTq7dY"
+    ],
+    "routeSlug": [
+      "begrotingen-en-financieel"
+    ],
+    "routeType": [
+      "aside-document-type"
+    ]
+  },
+  {
+    "contentId": 5,
+    "content": "Privacy & opslag",
+    "contentType": "title",
+    "routeId": [
+      "rec2ShlT3krqr1pVj"
+    ],
+    "routeSlug": [
+      "privacy"
+    ],
+    "routeType": [
+      "aside-info"
+    ]
+  },
+  {
+    "contentId": 68,
+    "content": "Geadresseerde",
+    "contentType": "title",
+    "routeId": [
+      "rechNu7XVT6G3ByRy"
+    ],
+    "routeSlug": [
+      "geadresseerde"
+    ],
+    "routeType": [
+      "aside-info"
+    ]
+  },
+  {
+    "contentId": 154,
+    "content": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
+    "contentType": "content",
+    "routeId": [
+      "recc3iR8FvflhqhhB"
+    ],
+    "routeSlug": [
+      "alles-opvragen-is-niet-handig"
+    ],
+    "routeType": [
+      "aside-info"
+    ]
+  },
+  {
+    "contentId": 180,
+    "content": "OPSLAAN ALS DOC",
+    "contentType": "button/small",
+    "routeId": [
+      "recwSLma6YuAxO7Pt"
+    ],
+    "routeSlug": [
+      "review"
+    ],
+    "routeType": [
+      "review"
+    ]
+  },
+  {
+    "contentId": 83,
+    "content": "Typ hier de documentnaam",
+    "contentType": "input/small",
+    "routeId": [
+      "recsW8iUGWbySdl1T"
+    ],
+    "specialType": "form/specific-documents",
+    "routeSlug": [
+      "specifieke-documenten"
+    ],
+    "routeType": [
+      "form"
+    ]
+  },
+  {
+    "contentId": 95,
+    "content": "Binnen overheidsorgaan",
+    "contentType": "check/yellow/indent",
+    "routeId": [
+      "recWdvbbSPgPUWkSc"
+    ],
+    "linkRouteId": [
+      "rec8daE4lrLHstC6u"
+    ],
+    "specialType": "form/document-types",
+    "routeSlug": [
+      "specifieke-documenttypes"
+    ],
+    "routeType": [
+      "form"
+    ],
+    "LinkRouteType": [
+      "aside-document-type"
+    ],
+    "LinkRouteSlug": [
+      "correspondentie-binnen"
+    ]
+  }
+]
