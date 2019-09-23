@@ -3,8 +3,8 @@ import { Switch, Route } from 'react-router-dom'
 import styled from '@emotion/styled'
 import { connect } from 'react-redux'
 
-import { Bubble } from '../../Bubble/Bubble'
 import { InfoLinkRouted } from './InfoLink'
+import { ListBubble } from '../List/ListBubble'
 
 import { type } from '../../../styles'
 import { getGroupedElementsBySlug } from '../../../reducers/elements'
@@ -14,23 +14,6 @@ const MainContainer = styled.main({})
 const Title = styled.h1({ ...type.title.medium, margin: '0 0 2rem' })
 const Text = styled.p({ ...type.content.medium, margin: '0 0 2rem' })
 const TextSpan = styled.span({ margin: '0 1rem 0 0' })
-const ListBubble = styled.ul({ margin: '0 0 2rem' })
-const ListItemContainer = styled.li({
-  ...type.content.medium,
-  display: 'flex',
-  margin: '0 0 1rem',
-  '&:last-of-type': {
-    margin: '0 0 1rem'
-  }
-})
-const Label = styled.label({ margin: '0 0 0 1rem', ...type.content.medium })
-
-const ListItemBubble = ({ children, number }) => (
-  <ListItemContainer>
-    <Bubble number={number} />
-    <Label>{children}</Label>
-  </ListItemContainer>
-)
 
 const TextBlock = ({ text, linkSlug }) => {
   return (
@@ -66,35 +49,17 @@ const Main = ({ groupedElements }) => {
               )
             case 'listBubble':
               return (
-                <ListBubble key={el.elementId}>
-                  {groupedElements.listBubble.map((el, key) => {
-                    return (
-                      <ListItemBubble
-                        key={el.elementId}
-                        number={key + 1}
-                        linkRouteId={el.linkRouteId}
-                      >
-                        {el.text}
-                      </ListItemBubble>
-                    )
-                  })}
-                </ListBubble>
+                <ListBubble
+                  key={el.elementId}
+                  elements={groupedElements.listBubble}
+                />
               )
             case 'listInfo':
               return (
-                <ListBubble key={el.elementId}>
-                  {groupedElements.listInfo.map((el, key) => {
-                    return (
-                      <ListItemBubble
-                        key={el.elementId}
-                        number={key + 1}
-                        linkRouteId={el.linkRouteId}
-                      >
-                        {el.text}
-                      </ListItemBubble>
-                    )
-                  })}
-                </ListBubble>
+                <ListBubble
+                  key={el.elementId}
+                  elements={groupedElements.listInfo}
+                />
               )
             default:
               return null
