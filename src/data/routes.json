@@ -79,8 +79,6 @@
       "recl4cDE5FuDWLSFc",
       "recjHmkjQvCkM2gta",
       "recEf4vGmb2VUn8wP",
-      "recVeICwUxXMzmxvL",
-      "recDjIkPhiBjEORdO",
       "recXDaR2z38KLxVnk"
     ],
     "linkedByContentIds": [
@@ -722,7 +720,7 @@
     "routeId": "recvllEn1RtSYTtuH"
   },
   {
-    "slug": "review",
+    "slug": "large",
     "title": "Afgeronde brief",
     "type": "review",
     "contentIds": [
@@ -756,6 +754,10 @@
       "recSSK62WGbK6XDJ2"
     ],
     "routeId": "recwdo8dQw6g3RqYT"
+  },
+  {
+    "type": "aside-institute",
+    "routeId": "recwje8QXI69G900p"
   },
   {
     "slug": "privacy",

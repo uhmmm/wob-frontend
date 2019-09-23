@@ -1,8 +1,10 @@
 import React from 'react'
 import styled from '@emotion/styled'
 import { withRouter, Link } from 'react-router-dom'
+import { connect } from 'react-redux'
 
 import { Bubble } from '../../Bubble/Bubble'
+import { getRouteById, getRouteBySlug } from '../../../reducers/routes'
 
 import iconLeft from './icon-left.svg'
 import iconRight from './icon-right.svg'
@@ -18,15 +20,14 @@ const PaginationContainer = styled.div({
   height: '8rem'
 })
 
-const Pagination = ({ match }) => {
-  const prevStep = 'start'
-  const nextStep = 'contact-gegevens'
+const Pagination = ({ prevRoute, nextRoute }) => {
+  console.log(prevRoute)
   return (
     <PaginationContainer>
-      <Link to={prevStep}>
+      <Link to={prevRoute.slug ? `/${prevRoute.type}/${prevRoute.slug}` : '/'}>
         <Bubble size="3" vOrient="negative" icon={iconLeft} />
       </Link>
-      <Link to={nextStep}>
+      <Link to={`/${nextRoute.type}/${nextRoute.slug}`}>
         <Bubble
           size="4"
           hOrient="negative"
@@ -39,6 +40,19 @@ const Pagination = ({ match }) => {
   )
 }
 
-const PaginationRouted = withRouter(Pagination)
+const mapStateToProps = (state, { match }) => {
+  const route = getRouteBySlug({ state, slug: match.params.formSlug })
+  return {
+    prevRoute: getRouteById({ state, routeId: route.prevRouteId }),
+    nextRoute: getRouteById({ state, routeId: route.nextRouteId })
+  }
+}
+
+const PaginationConnected = connect(
+  mapStateToProps,
+  {}
+)(Pagination)
+
+const PaginationRouted = withRouter(PaginationConnected)
 
 export { Pagination, PaginationRouted }

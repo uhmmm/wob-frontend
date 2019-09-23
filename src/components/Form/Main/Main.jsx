@@ -35,7 +35,7 @@ const TextBlock = ({ text, linkSlug }) => {
   return (
     <Text>
       <TextSpan>{text}</TextSpan>
-      <InfoLinkRouted to={linkSlug} />
+      {linkSlug && <InfoLinkRouted to={linkSlug} />}
     </Text>
   )
 }
