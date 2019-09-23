@@ -140,7 +140,7 @@
   },
   {
     "text": "Correspondentie",
-    "type": "checkYellow",
+    "type": "listItemCheckYellow",
     "routeId": [
       "recWdvbbSPgPUWkSc"
     ],
@@ -216,7 +216,7 @@
   },
   {
     "text": "Besluitenlijsten",
-    "type": "checkWhite",
+    "type": "listItemCheckWhite",
     "routeId": [
       "recR3xSpTuROzmcXP"
     ],
@@ -281,7 +281,7 @@
   },
   {
     "text": "Voortgangsrapportages en evaluaties",
-    "type": "checkWhite",
+    "type": "listItemCheckWhite",
     "routeId": [
       "recS1bPIRb1IMyqRJ"
     ],
@@ -294,7 +294,7 @@
   },
   {
     "text": "Onderzoeksrapporten en \nauditrapportages",
-    "type": "checkWhite",
+    "type": "listItemCheckWhite",
     "routeId": [
       "recS1bPIRb1IMyqRJ"
     ],
@@ -307,14 +307,14 @@
   },
   {
     "text": "Samenvattingen van documenten",
-    "type": "checkYellow",
+    "type": "listItemCheckYellow",
     "routeId": [
       "recmkybjDd9Wkf5hg"
     ],
     "linkRouteId": [
       "rectXaEyBdDcOyeGa"
     ],
-    "partOf": "base",
+    "partOf": "listCheck",
     "order": 164,
     "elementId": "rec5hz2p6HMPnqlGs",
     "routeType": [
@@ -323,14 +323,14 @@
   },
   {
     "text": "Dit onderwerp gaat over het milieu",
-    "type": "checkYellow",
+    "type": "listItemCheckYellow",
     "routeId": [
       "rechhv82awVzZNu2c"
     ],
     "linkRouteId": [
       "recNnmOiLS8wDcp6c"
     ],
-    "partOf": "base",
+    "partOf": "listCheck",
     "order": 73,
     "elementId": "rec5ra3ua4vhEd7EB",
     "routeType": [
@@ -345,6 +345,18 @@
     "partOf": "base",
     "order": 198,
     "elementId": "rec5xIAU7YSqaarPX",
+    "routeType": [
+      "form"
+    ]
+  },
+  {
+    "type": "listCheck",
+    "order": 208,
+    "elementId": "rec6KJBxDDIJSXqHg",
+    "partOf": "base",
+    "routeId": [
+      "recfvKGrVYxw2Y6Zl"
+    ],
     "routeType": [
       "form"
     ]
@@ -389,7 +401,7 @@
   },
   {
     "text": "Overzicht",
-    "type": "checkWhite",
+    "type": "listItemCheckWhite",
     "routeId": [
       "recb0ga4MXJN4XP0N"
     ],
@@ -402,14 +414,14 @@
   },
   {
     "text": "Geanonimiseerde documenten",
-    "type": "checkYellow",
+    "type": "listItemCheckYellow",
     "routeId": [
       "recmkybjDd9Wkf5hg"
     ],
     "linkRouteId": [
       "recLKYD9zDdom9Bbe"
     ],
-    "partOf": "base",
+    "partOf": "listCheck",
     "order": 163,
     "elementId": "recAq6PLfRb1fjwLy",
     "routeType": [
@@ -418,14 +430,14 @@
   },
   {
     "text": "Digitaal toezenden heeft mijn voorkeur",
-    "type": "checkYellow",
+    "type": "listItemCheckYellow",
     "routeId": [
       "recmkybjDd9Wkf5hg"
     ],
     "linkRouteId": [
       "recMuOYmIyWDTyzQU"
     ],
-    "partOf": "base",
+    "partOf": "listCheck",
     "order": 165,
     "elementId": "recBe4rSZuSTzuVlx",
     "routeType": [
@@ -463,7 +475,7 @@
   },
   {
     "text": "Uitnodigingen",
-    "type": "checkWhite",
+    "type": "listItemCheckWhite",
     "routeId": [
       "recR3xSpTuROzmcXP"
     ],
@@ -489,7 +501,7 @@
   },
   {
     "text": "Ingekomen stukken",
-    "type": "checkWhite",
+    "type": "listItemCheckWhite",
     "routeId": [
       "recR3xSpTuROzmcXP"
     ],
@@ -570,14 +582,14 @@
   },
   {
     "text": "Mondelinge toelichting",
-    "type": "checkYellow",
+    "type": "listItemCheckYellow",
     "routeId": [
       "recmkybjDd9Wkf5hg"
     ],
     "linkRouteId": [
       "recY5qsUjwzu2FKa4"
     ],
-    "partOf": "base",
+    "partOf": "listCheck",
     "order": 174,
     "elementId": "recEJoJ2Scp6OXXNJ",
     "routeType": [
@@ -627,6 +639,18 @@
     ]
   },
   {
+    "type": "listCheck",
+    "order": 210,
+    "elementId": "recFhMBExrdvFTKay",
+    "routeId": [
+      "recsXVE7yH4Go2Jds"
+    ],
+    "routeType": [
+      "form"
+    ],
+    "partOf": "base"
+  },
+  {
     "text": "Wil je alles over je onderwerp of weet je al precies wat je wil hebben? Selecteer hier en weeg af. Je kan bij specifieke documenten altijd nog selecteren dat je aanvullende documenten wilt.",
     "type": "content",
     "routeId": [
@@ -667,14 +691,14 @@
   },
   {
     "text": "Doorgeleiding",
-    "type": "checkYellow",
+    "type": "listItemCheckYellow",
     "routeId": [
       "recmkybjDd9Wkf5hg"
     ],
     "linkRouteId": [
       "reclTWVdtOxtGFAlR"
     ],
-    "partOf": "base",
+    "partOf": "listCheck",
     "order": 172,
     "elementId": "recH5nH9yTVb5ZHSY",
     "routeType": [
@@ -696,14 +720,14 @@
   },
   {
     "text": "Ik ben een journalist",
-    "type": "checkYellow",
+    "type": "listItemCheckYellow",
     "routeId": [
       "recfvKGrVYxw2Y6Zl"
     ],
     "linkRouteId": [
       "recvllEn1RtSYTtuH"
     ],
-    "partOf": "base",
+    "partOf": "listCheck",
     "order": 58,
     "elementId": "recHPwQPFyvuhSN7D",
     "routeType": [
@@ -750,7 +774,7 @@
   },
   {
     "text": "Anders",
-    "type": "checkYellow",
+    "type": "listItemCheckYellow",
     "routeId": [
       "recWdvbbSPgPUWkSc"
     ],
@@ -821,14 +845,14 @@
   },
   {
     "text": "Ik wil mijn (journalistieke) doel toelichten",
-    "type": "checkYellow",
+    "type": "listItemCheckYellow",
     "routeId": [
       "recfvKGrVYxw2Y6Zl"
     ],
     "linkRouteId": [
       "rec0wsNO24WV79OwJ"
     ],
-    "partOf": "base",
+    "partOf": "listCheck",
     "order": 60,
     "elementId": "recJhS0LioudP6Rwl",
     "routeType": [
@@ -850,7 +874,7 @@
   },
   {
     "text": "Adviezen",
-    "type": "checkWhite",
+    "type": "listItemCheckWhite",
     "routeId": [
       "recR3xSpTuROzmcXP"
     ],
@@ -901,7 +925,7 @@
   },
   {
     "text": "Ik wil ook de aanvullende stukken",
-    "type": "checkYellow",
+    "type": "listItemCheckYellow",
     "routeId": [
       "recsW8iUGWbySdl1T"
     ],
@@ -968,7 +992,7 @@
   },
   {
     "text": "Pesentaties",
-    "type": "checkWhite",
+    "type": "listItemCheckWhite",
     "routeId": [
       "recS1bPIRb1IMyqRJ"
     ],
@@ -980,8 +1004,20 @@
     ]
   },
   {
+    "type": "listCheck",
+    "order": 209,
+    "elementId": "recNrjUOpW02Khnjq",
+    "routeId": [
+      "rechhv82awVzZNu2c"
+    ],
+    "routeType": [
+      "form"
+    ],
+    "partOf": "base"
+  },
+  {
     "text": "Begrotingen",
-    "type": "checkWhite",
+    "type": "listItemCheckWhite",
     "routeId": [
       "recrzse37LenTq7dY"
     ],
@@ -1046,7 +1082,7 @@
   },
   {
     "text": "Gespreksverslagen",
-    "type": "checkWhite",
+    "type": "listItemCheckWhite",
     "routeId": [
       "recR3xSpTuROzmcXP"
     ],
@@ -1111,14 +1147,14 @@
   },
   {
     "text": "Insluiting alle formaten",
-    "type": "checkYellow",
+    "type": "listItemCheckYellow",
     "routeId": [
       "recmkybjDd9Wkf5hg"
     ],
     "linkRouteId": [
       "recieD9WELmtn0ZQt"
     ],
-    "partOf": "base",
+    "partOf": "listCheck",
     "order": 167,
     "elementId": "recRtqJLnPK3Ds67C",
     "routeType": [
@@ -1153,14 +1189,14 @@
   },
   {
     "text": "Ik wil alles over het onderwerp",
-    "type": "checkYellow",
+    "type": "listItemCheckYellow",
     "routeId": [
       "recsXVE7yH4Go2Jds"
     ],
     "linkRouteId": [
       "recnVLQCE4Z3gfeQN"
     ],
-    "partOf": "base",
+    "partOf": "listCheck",
     "order": 80,
     "elementId": "recSYdmoT7ViIZadZ",
     "routeType": [
@@ -1169,7 +1205,7 @@
   },
   {
     "text": "Ik weet de datum van dit document",
-    "type": "checkYellow",
+    "type": "listItemCheckYellow",
     "routeId": [
       "recsW8iUGWbySdl1T"
     ],
@@ -1263,7 +1299,7 @@
   },
   {
     "text": "SMS-jes en WhatsApp-berichten",
-    "type": "checkWhite",
+    "type": "listItemCheckWhite",
     "routeId": [
       "rec8daE4lrLHstC6u"
     ],
@@ -1380,14 +1416,14 @@
   },
   {
     "text": "Ik Wob namens een (media-) organisatie",
-    "type": "checkYellow",
+    "type": "listItemCheckYellow",
     "routeId": [
       "recfvKGrVYxw2Y6Zl"
     ],
     "linkRouteId": [
       "recpS5ubR52aN9sRF"
     ],
-    "partOf": "base",
+    "partOf": "listCheck",
     "order": 59,
     "elementId": "recZuJsos4ZyxOFHL",
     "routeType": [
@@ -1473,14 +1509,14 @@
   },
   {
     "text": "Motivering bij verdaging",
-    "type": "checkYellow",
+    "type": "listItemCheckYellow",
     "routeId": [
       "recmkybjDd9Wkf5hg"
     ],
     "linkRouteId": [
       "reciRZMWtGbWkqveO"
     ],
-    "partOf": "base",
+    "partOf": "listCheck",
     "order": 173,
     "elementId": "reccCfNt7kL6VgCpZ",
     "routeType": [
@@ -1515,7 +1551,7 @@
   },
   {
     "text": "Brieven",
-    "type": "checkWhite",
+    "type": "listItemCheckWhite",
     "routeId": [
       "rec8daE4lrLHstC6u"
     ],
@@ -1593,7 +1629,7 @@
   },
   {
     "text": "Notulen",
-    "type": "checkWhite",
+    "type": "listItemCheckWhite",
     "routeId": [
       "recR3xSpTuROzmcXP"
     ],
@@ -1606,7 +1642,7 @@
   },
   {
     "text": "Begrotingen en financiële documenten",
-    "type": "checkYellow",
+    "type": "listItemCheckYellow",
     "routeId": [
       "recWdvbbSPgPUWkSc"
     ],
@@ -1622,7 +1658,7 @@
   },
   {
     "text": "Dit is een dataset",
-    "type": "checkYellow",
+    "type": "listItemCheckYellow",
     "routeId": [
       "recsW8iUGWbySdl1T"
     ],
@@ -1716,7 +1752,7 @@
   },
   {
     "text": "Memo’s en notities",
-    "type": "checkWhite",
+    "type": "listItemCheckWhite",
     "routeId": [
       "rec8daE4lrLHstC6u"
     ],
@@ -1784,7 +1820,7 @@
   },
   {
     "text": "Jaarverslagen",
-    "type": "checkWhite",
+    "type": "listItemCheckWhite",
     "routeId": [
       "recrzse37LenTq7dY"
     ],
@@ -1836,7 +1872,7 @@
   },
   {
     "text": "Memo’s en notities",
-    "type": "checkWhite",
+    "type": "listItemCheckWhite",
     "routeId": [
       "rec9Dw2AnuF75GNl2"
     ],
@@ -1862,7 +1898,7 @@
   },
   {
     "text": "Vergaderstukken & gespreksverslagen",
-    "type": "checkYellow",
+    "type": "listItemCheckYellow",
     "routeId": [
       "recWdvbbSPgPUWkSc"
     ],
@@ -1890,15 +1926,27 @@
     ]
   },
   {
+    "type": "listCheck",
+    "order": 211,
+    "elementId": "recjuuK9F9arT25YM",
+    "routeId": [
+      "recmkybjDd9Wkf5hg"
+    ],
+    "routeType": [
+      "form"
+    ],
+    "partOf": "base"
+  },
+  {
     "text": "Ik wil specifieke documenten opvragen",
-    "type": "checkYellow",
+    "type": "listItemCheckYellow",
     "routeId": [
       "recsXVE7yH4Go2Jds"
     ],
     "linkRouteId": [
       "rec1eWCNlmdQUL8bW"
     ],
-    "partOf": "base",
+    "partOf": "listCheck",
     "order": 79,
     "elementId": "recjyFQuVW1NPSiwp",
     "routeType": [
@@ -1932,7 +1980,7 @@
   },
   {
     "text": "SMS-jes en WhatsApp-berichten",
-    "type": "checkWhite",
+    "type": "listItemCheckWhite",
     "routeId": [
       "rec9Dw2AnuF75GNl2"
     ],
@@ -1945,7 +1993,7 @@
   },
   {
     "text": "E-mails en brieven, inclusief bijlagen",
-    "type": "checkWhite",
+    "type": "listItemCheckWhite",
     "routeId": [
       "rec8daE4lrLHstC6u"
     ],
@@ -2048,14 +2096,14 @@
   },
   {
     "text": "Bevestiging beslistermijn",
-    "type": "checkYellow",
+    "type": "listItemCheckYellow",
     "routeId": [
       "recmkybjDd9Wkf5hg"
     ],
     "linkRouteId": [
       "recemOBeTquFD8Vdd"
     ],
-    "partOf": "base",
+    "partOf": "listCheck",
     "order": 175,
     "elementId": "recnEShKAfuXRJmY8",
     "routeType": [
@@ -2090,7 +2138,7 @@
   },
   {
     "text": "Tussen overheidsorganen",
-    "type": "checkYellowIndent",
+    "type": "listItemCheckYellowIndent",
     "routeId": [
       "recWdvbbSPgPUWkSc"
     ],
@@ -2184,7 +2232,7 @@
   },
   {
     "text": "Besluiten",
-    "type": "checkWhite",
+    "type": "listItemCheckWhite",
     "routeId": [
       "recR3xSpTuROzmcXP"
     ],
@@ -2197,7 +2245,7 @@
   },
   {
     "text": "Ruwe data",
-    "type": "checkWhite",
+    "type": "listItemCheckWhite",
     "routeId": [
       "recb0ga4MXJN4XP0N"
     ],
@@ -2239,14 +2287,14 @@
   },
   {
     "text": "Informatie i.p.v. documenten",
-    "type": "checkYellow",
+    "type": "listItemCheckYellow",
     "routeId": [
       "recmkybjDd9Wkf5hg"
     ],
     "linkRouteId": [
       "rec5o7VxmQtRZf5ZD"
     ],
-    "partOf": "base",
+    "partOf": "listCheck",
     "order": 166,
     "elementId": "recrRkeg2O4BHhewp",
     "routeType": [
@@ -2268,7 +2316,7 @@
   },
   {
     "text": "Rapporten & presentaties",
-    "type": "checkYellow",
+    "type": "listItemCheckYellow",
     "routeId": [
       "recWdvbbSPgPUWkSc"
     ],
@@ -2375,7 +2423,7 @@
   },
   {
     "text": "Presentatielijsten",
-    "type": "checkWhite",
+    "type": "listItemCheckWhite",
     "routeId": [
       "recR3xSpTuROzmcXP"
     ],
@@ -2427,7 +2475,7 @@
   },
   {
     "text": "Brieven",
-    "type": "checkWhite",
+    "type": "listItemCheckWhite",
     "routeId": [
       "rec9Dw2AnuF75GNl2"
     ],
@@ -2440,7 +2488,7 @@
   },
   {
     "text": "Project- en programmaplannen",
-    "type": "checkWhite",
+    "type": "listItemCheckWhite",
     "routeId": [
       "recS1bPIRb1IMyqRJ"
     ],
@@ -2555,7 +2603,7 @@
   },
   {
     "text": "Adviezen, zowel extern als intern",
-    "type": "checkWhite",
+    "type": "listItemCheckWhite",
     "routeId": [
       "recS1bPIRb1IMyqRJ"
     ],
@@ -2610,7 +2658,7 @@
   },
   {
     "text": "E-mails en brieven,\ninclusief bijlagen",
-    "type": "checkWhite",
+    "type": "listItemCheckWhite",
     "routeId": [
       "rec9Dw2AnuF75GNl2"
     ],
@@ -2636,7 +2684,7 @@
   },
   {
     "text": "Dataset",
-    "type": "checkYellow",
+    "type": "listItemCheckYellow",
     "routeId": [
       "recWdvbbSPgPUWkSc"
     ],
@@ -2652,7 +2700,7 @@
   },
   {
     "text": "Banktransacties",
-    "type": "checkWhite",
+    "type": "listItemCheckWhite",
     "routeId": [
       "recrzse37LenTq7dY"
     ],
@@ -2743,7 +2791,7 @@
   },
   {
     "text": "Binnen overheidsorgaan",
-    "type": "checkYellowIndent",
+    "type": "listItemCheckYellowIndent",
     "routeId": [
       "recWdvbbSPgPUWkSc"
     ],

@@ -6,7 +6,7 @@ import { connect } from 'react-redux'
 import { InfoLinkRouted } from '../InfoLink'
 import { ListBubble } from '../List/ListBubble'
 import { ListInfo } from '../List/ListInfo'
-import { ListItemCheckbox } from '../List/ListCheckbox'
+import { ListCheckbox } from '../List/ListCheckbox'
 
 import { type } from '../../../styles'
 import { getGroupedElementsBySlug } from '../../../reducers/elements'
@@ -56,12 +56,11 @@ const Main = ({ groupedElements }) => {
                   elements={groupedElements.listInfo}
                 />
               )
-            case 'checkYellow':
+            case 'listCheck':
               return (
-                <ListItemCheckbox
+                <ListCheckbox
                   key={el.elementId}
-                  text={el.text}
-                  linkRouteId={el.linkRouteId}
+                  elements={groupedElements.listCheck}
                 />
               )
             default:
