@@ -25,15 +25,16 @@ const Title = styled.h1({
 const Text = styled.p({ ...type.content.medium })
 
 const Aside = ({ elements }) => {
+  // console.log(elements)
   return (
     <AsideContainer>
       {elements &&
         elements.map(el => {
           switch (el.type) {
             case 'title':
-              return <Title key={el.contentId}>{el.text}</Title>
+              return <Title key={el.elementId}>{el.text}</Title>
             case 'content':
-              return <Text key={el.contentId}>{el.text}</Text>
+              return <Text key={el.elementId}>{el.text}</Text>
             default:
               return null
           }
@@ -44,7 +45,7 @@ const Aside = ({ elements }) => {
 
 const mapStateToProps = (state, { match }) => {
   return {
-    contents: getElementsBySlug({ state, slug: match.params.asideSlug })
+    elements: getElementsBySlug({ state, slug: match.params.asideSlug })
   }
 }
 
