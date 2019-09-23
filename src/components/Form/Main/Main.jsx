@@ -6,6 +6,7 @@ import { connect } from 'react-redux'
 import { InfoLinkRouted } from '../InfoLink'
 import { ListBubble } from '../List/ListBubble'
 import { ListInfo } from '../List/ListInfo'
+import { Checkbox } from '../../Checkbox/checkbox'
 
 import { type } from '../../../styles'
 import { getGroupedElementsBySlug } from '../../../reducers/elements'
@@ -59,6 +60,7 @@ const Main = ({ groupedElements }) => {
               return null
           }
         })}
+      <Checkbox></Checkbox>
     </MainContainer>
   )
 }
