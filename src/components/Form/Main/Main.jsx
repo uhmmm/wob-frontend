@@ -7,7 +7,7 @@ import { Bubble } from '../../Bubble/Bubble'
 import { InfoLinkRouted } from './InfoLink'
 
 import { type } from '../../../styles'
-import { getGroupedContentsBySlug } from '../../../reducers/contents'
+import { getGroupedElementsBySlug } from '../../../reducers/elements'
 import { getRouteById } from '../../../reducers/routes'
 
 const MainContainer = styled.main({})
@@ -47,38 +47,50 @@ const TextBlockConnected = connect((state, { linkRouteId }) => {
   }
 })(TextBlock)
 
-const Main = ({ groupedContents }) => {
-  console.log(groupedContents)
+const Main = ({ groupedElements }) => {
+  console.log(groupedElements)
   return (
     <MainContainer>
-      {groupedContents &&
-        groupedContents.base.map(contentItem => {
-          switch (contentItem.type) {
+      {groupedElements &&
+        groupedElements.base.map(el => {
+          switch (el.type) {
             case 'title':
-              return (
-                <Title key={contentItem.contentId}>{contentItem.text}</Title>
-              )
+              return <Title key={el.elementId}>{el.text}</Title>
             case 'content':
               return (
                 <TextBlockConnected
-                  key={contentItem.contentId}
-                  text={contentItem.text}
-                  linkRouteId={
-                    contentItem.linkRouteId && contentItem.linkRouteId[0]
-                  }
+                  key={el.elementId}
+                  text={el.text}
+                  linkRouteId={el.linkRouteId && el.linkRouteId[0]}
                 />
               )
-            case 'list/bubble':
+            case 'listBubble':
               return (
-                <ListBubble key={contentItem.contentId}>
-                  {groupedContents['list/bubble'].map((contentItem, key) => {
+                <ListBubble key={el.elementId}>
+                  {groupedElements.listBubble.map((el, key) => {
                     return (
                       <ListItemBubble
-                        key={contentItem.contentId}
+                        key={el.elementId}
                         number={key + 1}
-                        linkRouteId={contentItem.linkRouteId}
+                        linkRouteId={el.linkRouteId}
                       >
-                        {contentItem.text}
+                        {el.text}
+                      </ListItemBubble>
+                    )
+                  })}
+                </ListBubble>
+              )
+            case 'listInfo':
+              return (
+                <ListBubble key={el.elementId}>
+                  {groupedElements.listInfo.map((el, key) => {
+                    return (
+                      <ListItemBubble
+                        key={el.elementId}
+                        number={key + 1}
+                        linkRouteId={el.linkRouteId}
+                      >
+                        {el.text}
                       </ListItemBubble>
                     )
                   })}
@@ -94,7 +106,7 @@ const Main = ({ groupedContents }) => {
 
 const mapStateToProps = (state, { match }) => {
   return {
-    groupedContents: getGroupedContentsBySlug({
+    groupedElements: getGroupedElementsBySlug({
       state,
       slug: match.params.formSlug
     })

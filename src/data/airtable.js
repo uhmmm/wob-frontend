@@ -4,20 +4,20 @@ var fs = require('fs')
 var APIKEY = process.env.AIRTABLE_KEY
 var base = new Airtable({ apiKey: APIKEY }).base('appe4s599Wi0qoxtJ')
 
-let content = []
-base('contents')
+let elements = []
+base('elements')
   .select()
   .eachPage(
     (records, fetchNextPage) => {
       records.forEach(function(record) {
-        content.push(record.fields)
+        elements.push(record.fields)
       })
       fetchNextPage()
     },
     err => {
       fs.writeFileSync(
-        './src/data/contents.json',
-        JSON.stringify(content, null, 2),
+        './src/data/elements.json',
+        JSON.stringify(elements, null, 2),
         'utf-8'
       )
       if (err) {

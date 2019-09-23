@@ -4,7 +4,7 @@ import { Switch, Route } from 'react-router-dom'
 import { connect } from 'react-redux'
 
 import { colors, type } from '../../../styles'
-import { getContentsBySlug } from '../../../reducers/contents'
+import { getElementsBySlug } from '../../../reducers/elements'
 
 const AsideContainer = styled.aside({
   position: 'absolute',
@@ -24,18 +24,16 @@ const Title = styled.h1({
 })
 const Text = styled.p({ ...type.content.medium })
 
-const Aside = ({ contents }) => {
+const Aside = ({ elements }) => {
   return (
     <AsideContainer>
-      {contents &&
-        contents.map(contentItem => {
-          switch (contentItem.type) {
+      {elements &&
+        elements.map(el => {
+          switch (el.type) {
             case 'title':
-              return (
-                <Title key={contentItem.contentId}>{contentItem.text}</Title>
-              )
+              return <Title key={el.contentId}>{el.text}</Title>
             case 'content':
-              return <Text key={contentItem.contentId}>{contentItem.text}</Text>
+              return <Text key={el.contentId}>{el.text}</Text>
             default:
               return null
           }
@@ -46,7 +44,7 @@ const Aside = ({ contents }) => {
 
 const mapStateToProps = (state, { match }) => {
   return {
-    contents: getContentsBySlug({ state, slug: match.params.asideSlug })
+    contents: getElementsBySlug({ state, slug: match.params.asideSlug })
   }
 }
 

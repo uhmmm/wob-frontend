@@ -5,12 +5,12 @@
     "routeId": [
       "recJn1Ksk3OZIFFSK"
     ],
+    "partOf": "base",
     "order": 89,
-    "contentId": "rec0ExWBoWLuHkGfj",
+    "elementId": "rec0ExWBoWLuHkGfj",
     "routeType": [
       "aside-info"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Andere documenten",
@@ -18,28 +18,28 @@
     "routeId": [
       "reczR2gc10ApJFFBE"
     ],
+    "partOf": "base",
     "order": 143,
-    "contentId": "rec0dIWiLykRcEZJQ",
+    "elementId": "rec0dIWiLykRcEZJQ",
     "routeType": [
       "aside-document-type"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Hoe kies ik de juiste overheidsinstantie?",
-    "type": "listItem/info",
+    "type": "listItemInfo",
     "routeId": [
       "recv6iVTRTh27ylhL"
     ],
     "linkRouteId": [
       "recv02YYylO77PUOI"
     ],
+    "partOf": "listInfo",
     "order": 66,
-    "contentId": "rec0eJ8ro96nm3QWC",
+    "elementId": "rec0eJ8ro96nm3QWC",
     "routeType": [
       "form"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Begin met het kort en bondig omschrijven van het onderwerp waarover je informatie vraagt. Let op: je kunt alleen informatie over overheidstaken opvragen.",
@@ -50,28 +50,28 @@
     "linkRouteId": [
       "recj307J0TzHpdEMT"
     ],
+    "partOf": "base",
     "order": 71,
-    "contentId": "rec0tMoPiwNKVtkXT",
+    "elementId": "rec0tMoPiwNKVtkXT",
     "routeType": [
       "form"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Waarom niet alles?",
-    "type": "listItem/info",
+    "type": "listItemInfo",
     "routeId": [
       "recIkzk83HjjxfJKT"
     ],
     "linkRouteId": [
       "recc3iR8FvflhqhhB"
     ],
+    "partOf": "listInfo",
     "order": 150,
-    "contentId": "rec138n01NQ9fh31R",
+    "elementId": "rec138n01NQ9fh31R",
     "routeType": [
       "form"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Hier kun je de periode waarop je verzoek betrekking heeft begrenzen (van datum X tot datum Y). Het is niet verplicht, maar zo voorkom je dat je documenten ontvangt over een periode waar je niet in geïnteresseerd bent. Dat scheelt jou werk en het scheelt de overheid werk.",
@@ -79,12 +79,12 @@
     "routeId": [
       "recVp99Blj0rjwYov"
     ],
+    "partOf": "base",
     "order": 33,
-    "contentId": "rec1Foyd0JQWGJyZU",
+    "elementId": "rec1Foyd0JQWGJyZU",
     "routeType": [
       "aside-info"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Alles opvragen is niet handig",
@@ -92,25 +92,25 @@
     "routeId": [
       "recc3iR8FvflhqhhB"
     ],
+    "partOf": "base",
     "order": 151,
-    "contentId": "rec1HQVQ9FYaRvzmn",
+    "elementId": "rec1HQVQ9FYaRvzmn",
     "routeType": [
       "aside-info"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Hoofdonderwerp",
-    "type": "input/large",
+    "type": "inputLarge",
     "routeId": [
       "rechhv82awVzZNu2c"
     ],
+    "partOf": "base",
     "order": 72,
-    "contentId": "rec1YhxCT4tdUROGG",
+    "elementId": "rec1YhxCT4tdUROGG",
     "routeType": [
       "form"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Bedankt",
@@ -118,9 +118,9 @@
     "routeId": [
       "recvBgzyf1d88SkiI"
     ],
-    "partOf": "page/header",
+    "partOf": "pageHeader",
     "order": 187,
-    "contentId": "rec1dE18cqjjk5ObN",
+    "elementId": "rec1dE18cqjjk5ObN",
     "routeType": [
       "page"
     ]
@@ -131,75 +131,75 @@
     "routeId": [
       "rec5o7VxmQtRZf5ZD"
     ],
+    "partOf": "base",
     "order": 19,
-    "contentId": "rec1fIZ0VFJNp28WS",
+    "elementId": "rec1fIZ0VFJNp28WS",
     "routeType": [
       "aside-info"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Correspondentie",
-    "type": "check/yellow",
+    "type": "checkYellow",
     "routeId": [
       "recWdvbbSPgPUWkSc"
     ],
-    "partOf": "form/document-types",
+    "partOf": "formDocumentTypes",
     "order": 94,
-    "contentId": "rec2CWNnWuqdes3l9",
+    "elementId": "rec2CWNnWuqdes3l9",
     "routeType": [
       "form"
     ]
   },
   {
     "text": "LEES & VERSTUUR",
-    "type": "button/medium",
+    "type": "buttonMedium",
     "routeId": [
       "recb4PQRUH0aoXD6X"
     ],
+    "partOf": "base",
     "order": 159,
-    "contentId": "rec2UciFBciH75aWT",
+    "elementId": "rec2UciFBciH75aWT",
     "routeType": [
       "form"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "JA, KLINKT GOED",
-    "type": "button/small",
+    "type": "buttonSmall",
     "routeId": [
       "recwSLma6YuAxO7Pt"
     ],
+    "partOf": "base",
     "order": 182,
-    "contentId": "rec2n1K49XXOamDpq",
+    "elementId": "rec2n1K49XXOamDpq",
     "routeType": [
       "review"
-    ],
-    "partOf": "base"
+    ]
   },
   {
-    "type": "form/document-types",
+    "type": "formDocumentTypes",
     "routeId": [
       "recWdvbbSPgPUWkSc"
     ],
+    "partOf": "base",
     "order": 168,
-    "contentId": "rec2sqmTYU1eTyYNf",
+    "elementId": "rec2sqmTYU1eTyYNf",
     "routeType": [
       "form"
-    ],
-    "partOf": "base"
+    ]
   },
   {
-    "contentId": "rec2wh9Fdofd7oMbb",
+    "type": "listBubble",
     "routeId": [
       "recLM00uQGCtyoAHn"
     ],
+    "partOf": "base",
+    "order": 191,
+    "elementId": "rec2wh9Fdofd7oMbb",
     "routeType": [
       "form"
-    ],
-    "type": "list/bubble",
-    "order": 191,
-    "partOf": "base"
+    ]
   },
   {
     "text": "Alles over je onderwerp",
@@ -207,25 +207,25 @@
     "routeId": [
       "recIkzk83HjjxfJKT"
     ],
+    "partOf": "base",
     "order": 147,
-    "contentId": "rec3UCgOMwowIzdzI",
+    "elementId": "rec3UCgOMwowIzdzI",
     "routeType": [
       "form"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Besluitenlijsten",
-    "type": "check/white",
+    "type": "checkWhite",
     "routeId": [
       "recR3xSpTuROzmcXP"
     ],
+    "partOf": "base",
     "order": 108,
-    "contentId": "rec3d0CW6ORDaoiqR",
+    "elementId": "rec3d0CW6ORDaoiqR",
     "routeType": [
       "aside-document-type"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Phew! Je  Wob-verzoek is af. Je moet hem alleen nog even nalezen en verzenden.\n\nWe voegen nu nog een aantal alinea’s toe die altijd in een verzoek moeten zitten. Als je deze wilt selecteren, heb je die optie, maar we snappen het helemaal als je het wel goed vind zo. ",
@@ -233,25 +233,25 @@
     "routeId": [
       "recb4PQRUH0aoXD6X"
     ],
+    "partOf": "base",
     "order": 157,
-    "contentId": "rec3hk8uoZfhxRRw5",
+    "elementId": "rec3hk8uoZfhxRRw5",
     "routeType": [
       "form"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "EXTRA OPTIES",
-    "type": "button/medium",
+    "type": "buttonMedium",
     "routeId": [
       "recb4PQRUH0aoXD6X"
     ],
+    "partOf": "base",
     "order": 158,
-    "contentId": "rec4PQtcBtAiC5aVq",
+    "elementId": "rec4PQtcBtAiC5aVq",
     "routeType": [
       "form"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Extra opties",
@@ -259,12 +259,12 @@
     "routeId": [
       "recmkybjDd9Wkf5hg"
     ],
+    "partOf": "base",
     "order": 160,
-    "contentId": "rec4QqRQH4skCqh9L",
+    "elementId": "rec4QqRQH4skCqh9L",
     "routeType": [
       "form"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Milieu?",
@@ -272,66 +272,78 @@
     "routeId": [
       "recNnmOiLS8wDcp6c"
     ],
+    "partOf": "base",
     "order": 10,
-    "contentId": "rec4ttx1ZgNHUUBKJ",
+    "elementId": "rec4ttx1ZgNHUUBKJ",
     "routeType": [
       "aside-info"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Voortgangsrapportages en evaluaties",
-    "type": "check/white",
+    "type": "checkWhite",
     "routeId": [
       "recS1bPIRb1IMyqRJ"
     ],
+    "partOf": "base",
     "order": 116,
-    "contentId": "rec4zBalyaZM5MUqC",
+    "elementId": "rec4zBalyaZM5MUqC",
     "routeType": [
       "aside-document-type"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Onderzoeksrapporten en \nauditrapportages",
-    "type": "check/white",
+    "type": "checkWhite",
     "routeId": [
       "recS1bPIRb1IMyqRJ"
     ],
+    "partOf": "base",
     "order": 115,
-    "contentId": "rec5PzIMsMJhyWSj7",
+    "elementId": "rec5PzIMsMJhyWSj7",
     "routeType": [
       "aside-document-type"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Samenvattingen van documenten",
-    "type": "check/yellow",
+    "type": "checkYellow",
     "routeId": [
       "recmkybjDd9Wkf5hg"
     ],
     "linkRouteId": [
       "rectXaEyBdDcOyeGa"
     ],
+    "partOf": "base",
     "order": 164,
-    "contentId": "rec5hz2p6HMPnqlGs",
+    "elementId": "rec5hz2p6HMPnqlGs",
     "routeType": [
       "form"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Dit onderwerp gaat over het milieu",
-    "type": "check/yellow",
+    "type": "checkYellow",
     "routeId": [
       "rechhv82awVzZNu2c"
     ],
     "linkRouteId": [
       "recNnmOiLS8wDcp6c"
     ],
+    "partOf": "base",
     "order": 73,
-    "contentId": "rec5ra3ua4vhEd7EB",
+    "elementId": "rec5ra3ua4vhEd7EB",
+    "routeType": [
+      "form"
+    ]
+  },
+  {
+    "type": "listInfo",
+    "order": 198,
+    "elementId": "rec5xIAU7YSqaarPX",
+    "routeId": [
+      "recWdvbbSPgPUWkSc"
+    ],
     "routeType": [
       "form"
     ],
@@ -343,24 +355,24 @@
     "routeId": [
       "recb0ga4MXJN4XP0N"
     ],
+    "partOf": "base",
     "order": 140,
-    "contentId": "rec8ZLUFszgk1jEMw",
+    "elementId": "rec8ZLUFszgk1jEMw",
     "routeType": [
       "aside-document-type"
-    ],
-    "partOf": "base"
+    ]
   },
   {
-    "type": "form/date-time-picker",
+    "type": "formDateTimePicker",
     "routeId": [
       "recIkzk83HjjxfJKT"
     ],
+    "partOf": "base",
     "order": 149,
-    "contentId": "rec8f8OiEuJ0ivmtd",
+    "elementId": "rec8f8OiEuJ0ivmtd",
     "routeType": [
       "form"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Alles of specifiek?",
@@ -368,57 +380,57 @@
     "routeId": [
       "recsXVE7yH4Go2Jds"
     ],
+    "partOf": "base",
     "order": 77,
-    "contentId": "recAklG1ZcF4bZsne",
+    "elementId": "recAklG1ZcF4bZsne",
     "routeType": [
       "form"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Overzicht",
-    "type": "check/white",
+    "type": "checkWhite",
     "routeId": [
       "recb0ga4MXJN4XP0N"
     ],
+    "partOf": "base",
     "order": 142,
-    "contentId": "recAnb7JAg4u4zbl4",
+    "elementId": "recAnb7JAg4u4zbl4",
     "routeType": [
       "aside-document-type"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Geanonimiseerde documenten",
-    "type": "check/yellow",
+    "type": "checkYellow",
     "routeId": [
       "recmkybjDd9Wkf5hg"
     ],
     "linkRouteId": [
       "recLKYD9zDdom9Bbe"
     ],
+    "partOf": "base",
     "order": 163,
-    "contentId": "recAq6PLfRb1fjwLy",
+    "elementId": "recAq6PLfRb1fjwLy",
     "routeType": [
       "form"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Digitaal toezenden heeft mijn voorkeur",
-    "type": "check/yellow",
+    "type": "checkYellow",
     "routeId": [
       "recmkybjDd9Wkf5hg"
     ],
     "linkRouteId": [
       "recMuOYmIyWDTyzQU"
     ],
+    "partOf": "base",
     "order": 165,
-    "contentId": "recBe4rSZuSTzuVlx",
+    "elementId": "recBe4rSZuSTzuVlx",
     "routeType": [
       "form"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
@@ -426,54 +438,67 @@
     "routeId": [
       "recrzse37LenTq7dY"
     ],
+    "partOf": "base",
     "order": 135,
-    "contentId": "recBwFRLuEuE9uU6C",
+    "elementId": "recBwFRLuEuE9uU6C",
     "routeType": [
       "aside-document-type"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Wat is allemaal een “document”?",
-    "type": "listItem/info",
+    "type": "listItemInfo",
     "routeId": [
       "recWdvbbSPgPUWkSc"
     ],
     "linkRouteId": [
       "recPILpzPpOxU5PuR"
     ],
+    "partOf": "listInfo",
     "order": 100,
-    "contentId": "recCK9BacPd0yLQfh",
+    "elementId": "recCK9BacPd0yLQfh",
     "routeType": [
       "form"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Uitnodigingen",
-    "type": "check/white",
+    "type": "checkWhite",
     "routeId": [
       "recR3xSpTuROzmcXP"
     ],
+    "partOf": "base",
     "order": 103,
-    "contentId": "recD3h2tLdENttC9F",
+    "elementId": "recD3h2tLdENttC9F",
     "routeType": [
       "aside-document-type"
+    ]
+  },
+  {
+    "type": "inputSmall",
+    "routeId": [
+      "recXFPF4VRj3yvCLg"
     ],
-    "partOf": "base"
+    "partOf": "formContactDetails",
+    "order": 202,
+    "routeType": [
+      "form"
+    ],
+    "elementId": "recDFos2u6RQmpxWX",
+    "text": "Nr."
   },
   {
     "text": "Ingekomen stukken",
-    "type": "check/white",
+    "type": "checkWhite",
     "routeId": [
       "recR3xSpTuROzmcXP"
     ],
+    "partOf": "base",
     "order": 105,
-    "contentId": "recDJUzaibjJk1Q0Z",
+    "elementId": "recDJUzaibjJk1Q0Z",
     "routeType": [
       "aside-document-type"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Je bent klaar!",
@@ -481,12 +506,12 @@
     "routeId": [
       "recb4PQRUH0aoXD6X"
     ],
+    "partOf": "base",
     "order": 156,
-    "contentId": "recDMcEhYi0uJCdub",
+    "elementId": "recDMcEhYi0uJCdub",
     "routeType": [
       "form"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Externe Correspondentie",
@@ -494,28 +519,28 @@
     "routeId": [
       "rec9Dw2AnuF75GNl2"
     ],
+    "partOf": "base",
     "order": 127,
-    "contentId": "recDPIjq5jAJfoMP5",
+    "elementId": "recDPIjq5jAJfoMP5",
     "routeType": [
       "aside-document-type"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Wat is allemaal een overheidstaak?",
-    "type": "listItem/info",
+    "type": "listItemInfo",
     "routeId": [
       "rechhv82awVzZNu2c"
     ],
     "linkRouteId": [
       "recF44AQShm3vLYVT"
     ],
+    "partOf": "listInfo",
     "order": 74,
-    "contentId": "recDaSEc0a5VN3dJc",
+    "elementId": "recDaSEc0a5VN3dJc",
     "routeType": [
       "form"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Doorgeleiding",
@@ -523,12 +548,12 @@
     "routeId": [
       "reclTWVdtOxtGFAlR"
     ],
+    "partOf": "base",
     "order": 17,
-    "contentId": "recDwVXLLLcObMGgB",
+    "elementId": "recDwVXLLLcObMGgB",
     "routeType": [
       "aside-info"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Rol en doel",
@@ -536,28 +561,28 @@
     "routeId": [
       "recfvKGrVYxw2Y6Zl"
     ],
+    "partOf": "base",
     "order": 56,
-    "contentId": "recE2EzvkMlVnUSvW",
+    "elementId": "recE2EzvkMlVnUSvW",
     "routeType": [
       "form"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Mondelinge toelichting",
-    "type": "check/yellow",
+    "type": "checkYellow",
     "routeId": [
       "recmkybjDd9Wkf5hg"
     ],
     "linkRouteId": [
       "recY5qsUjwzu2FKa4"
     ],
+    "partOf": "base",
     "order": 174,
-    "contentId": "recEJoJ2Scp6OXXNJ",
+    "elementId": "recEJoJ2Scp6OXXNJ",
     "routeType": [
       "form"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Je kan ook vragen naar correspondentie met specifieke personen, selecteer hier met wie:",
@@ -565,38 +590,38 @@
     "routeId": [
       "rec9Dw2AnuF75GNl2"
     ],
+    "partOf": "base",
     "order": 133,
-    "contentId": "recEf4vGmb2VUn8wP",
+    "elementId": "recEf4vGmb2VUn8wP",
     "routeType": [
       "aside-document-type"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Hoe gaat deze app om met mijn gegevens?",
-    "type": "listItem/info",
+    "type": "listItemInfo",
     "routeId": [
       "recXFPF4VRj3yvCLg"
     ],
     "linkRouteId": [
       "rec2ShlT3krqr1pVj"
     ],
+    "partOf": "listInfo",
     "order": 55,
-    "contentId": "recEhIE7WgfBtFJ9l",
+    "elementId": "recEhIE7WgfBtFJ9l",
     "routeType": [
       "form"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "VOEG PERSOON TOE",
-    "type": "button/medium",
+    "type": "buttonMedium",
     "routeId": [
       "rec8daE4lrLHstC6u"
     ],
-    "partOf": "form/people",
+    "partOf": "formPeople",
     "order": 126,
-    "contentId": "recF7fpJjYTE6D2xR",
+    "elementId": "recF7fpJjYTE6D2xR",
     "routeType": [
       "aside-document-type"
     ]
@@ -607,12 +632,12 @@
     "routeId": [
       "recsXVE7yH4Go2Jds"
     ],
+    "partOf": "base",
     "order": 78,
-    "contentId": "recFizYOd0uVuX7ox",
+    "elementId": "recFizYOd0uVuX7ox",
     "routeType": [
       "form"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Periode",
@@ -620,12 +645,12 @@
     "routeId": [
       "recVp99Blj0rjwYov"
     ],
+    "partOf": "base",
     "order": 13,
-    "contentId": "recG0tAtjt14kvtLu",
+    "elementId": "recG0tAtjt14kvtLu",
     "routeType": [
       "aside-info"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Welke overheidsinstantie\nwil je om informatie vragen?",
@@ -633,28 +658,28 @@
     "routeId": [
       "recv6iVTRTh27ylhL"
     ],
+    "partOf": "base",
     "order": 63,
-    "contentId": "recGOiiZ4IqEouKbK",
+    "elementId": "recGOiiZ4IqEouKbK",
     "routeType": [
       "form"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Doorgeleiding",
-    "type": "check/yellow",
+    "type": "checkYellow",
     "routeId": [
       "recmkybjDd9Wkf5hg"
     ],
     "linkRouteId": [
       "reclTWVdtOxtGFAlR"
     ],
+    "partOf": "base",
     "order": 172,
-    "contentId": "recH5nH9yTVb5ZHSY",
+    "elementId": "recH5nH9yTVb5ZHSY",
     "routeType": [
       "form"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
@@ -662,40 +687,40 @@
     "routeId": [
       "recS1bPIRb1IMyqRJ"
     ],
+    "partOf": "base",
     "order": 112,
-    "contentId": "recH9C20mHWHgQxhI",
+    "elementId": "recH9C20mHWHgQxhI",
     "routeType": [
       "aside-document-type"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Ik ben een journalist",
-    "type": "check/yellow",
+    "type": "checkYellow",
     "routeId": [
       "recfvKGrVYxw2Y6Zl"
     ],
     "linkRouteId": [
       "recvllEn1RtSYTtuH"
     ],
+    "partOf": "base",
     "order": 58,
-    "contentId": "recHPwQPFyvuhSN7D",
+    "elementId": "recHPwQPFyvuhSN7D",
     "routeType": [
       "form"
-    ],
-    "partOf": "base"
+    ]
   },
   {
-    "type": "form/specific-documents",
+    "type": "formSpecificDocuments",
     "routeId": [
       "recsW8iUGWbySdl1T"
     ],
+    "partOf": "base",
     "order": 171,
-    "contentId": "recHTRDKG6kBsj8Qp",
+    "elementId": "recHTRDKG6kBsj8Qp",
     "routeType": [
       "form"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Digitaal of niet?",
@@ -703,12 +728,12 @@
     "routeId": [
       "recMuOYmIyWDTyzQU"
     ],
+    "partOf": "base",
     "order": 18,
-    "contentId": "recHTtLjH0X1bJPnE",
+    "elementId": "recHTtLjH0X1bJPnE",
     "routeType": [
       "aside-info"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Hiermee geef je aan dat je open staat voor een gesprek. Het is meestal nuttig om nog eens mondeling toe te lichten welke informatie je zoekt. Dat helpt de Wob-ambtenaar en leidt hopelijk tot sneller succes van je verzoek.",
@@ -716,25 +741,25 @@
     "routeId": [
       "recY5qsUjwzu2FKa4"
     ],
+    "partOf": "base",
     "order": 45,
-    "contentId": "recHzVNarMIZanGnh",
+    "elementId": "recHzVNarMIZanGnh",
     "routeType": [
       "aside-info"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Anders",
-    "type": "check/yellow",
+    "type": "checkYellow",
     "routeId": [
       "recWdvbbSPgPUWkSc"
     ],
     "linkRouteId": [
       "reczR2gc10ApJFFBE"
     ],
-    "partOf": "form/document-types",
+    "partOf": "formDocumentTypes",
     "order": 99,
-    "contentId": "recHzYcXvYImJiLJv",
+    "elementId": "recHzYcXvYImJiLJv",
     "routeType": [
       "form"
     ]
@@ -745,12 +770,12 @@
     "routeId": [
       "recv02YYylO77PUOI"
     ],
+    "partOf": "base",
     "order": 46,
-    "contentId": "recISsJXWInsdXKPA",
+    "elementId": "recISsJXWInsdXKPA",
     "routeType": [
       "aside-info"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Als je een Wob-verzoek verstuurt, moet de overheid weten van wie het verzoek komt en waar hun besluit op je verzoek naartoe moet worden gestuurd. Vul daarom hier je contactgegevens in. ",
@@ -758,12 +783,12 @@
     "routeId": [
       "recXFPF4VRj3yvCLg"
     ],
+    "partOf": "base",
     "order": 54,
-    "contentId": "recIk4nnJVf8jaF1d",
+    "elementId": "recIk4nnJVf8jaF1d",
     "routeType": [
       "form"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Kun je de documenten op een andere manier in handen krijgen, bijvoorbeeld door het gewoon te vragen of door ze ergens anders te zoeken? ",
@@ -774,41 +799,41 @@
     "linkRouteId": [
       "recIuYOcPfLmamsMF"
     ],
+    "partOf": "base",
     "order": 51,
-    "contentId": "recJMFiPIBtkx5Ro5",
+    "elementId": "recJMFiPIBtkx5Ro5",
     "routeType": [
       "form"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Start een ander Wob-verzoek!",
-    "type": "button/large",
+    "type": "buttonLarge",
     "routeId": [
       "recvBgzyf1d88SkiI"
     ],
-    "partOf": "page/header",
+    "partOf": "pageHeader",
     "order": 190,
-    "contentId": "recJemAjiQBIQR9Pt",
+    "elementId": "recJemAjiQBIQR9Pt",
     "routeType": [
       "page"
     ]
   },
   {
     "text": "Ik wil mijn (journalistieke) doel toelichten",
-    "type": "check/yellow",
+    "type": "checkYellow",
     "routeId": [
       "recfvKGrVYxw2Y6Zl"
     ],
     "linkRouteId": [
       "rec0wsNO24WV79OwJ"
     ],
+    "partOf": "base",
     "order": 60,
-    "contentId": "recJhS0LioudP6Rwl",
+    "elementId": "recJhS0LioudP6Rwl",
     "routeType": [
       "form"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Lees de brief nog een keer goed door en exporteer hem",
@@ -816,25 +841,25 @@
     "routeId": [
       "recwSLma6YuAxO7Pt"
     ],
+    "partOf": "base",
     "order": 177,
-    "contentId": "recJxg4mw8rxSLwJU",
+    "elementId": "recJxg4mw8rxSLwJU",
     "routeType": [
       "review"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Adviezen",
-    "type": "check/white",
+    "type": "checkWhite",
     "routeId": [
       "recR3xSpTuROzmcXP"
     ],
+    "partOf": "base",
     "order": 106,
-    "contentId": "recKE3Nr6VcImBoTk",
+    "elementId": "recKE3Nr6VcImBoTk",
     "routeType": [
       "aside-document-type"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Begrotingen en andere \nfinanciële documenten",
@@ -842,12 +867,12 @@
     "routeId": [
       "recrzse37LenTq7dY"
     ],
+    "partOf": "base",
     "order": 134,
-    "contentId": "recKi9S1MYQv9iF9c",
+    "elementId": "recKi9S1MYQv9iF9c",
     "routeType": [
       "aside-document-type"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "E-mails kunnen veel inzicht geven in het besluitvormingsproces, de toon waarin tussen bepaalde personen gecommuniceerd wordt en de frequentie van het contact. Maar e-mails kunnen ook over volstrekt irrelevante zaken gaan, zoals de hoeveelheid broodjes die bij de vergadering zijn besteld. Bedenk dus of e-mails in het geval van jouw verzoek relevant zijn.",
@@ -855,92 +880,117 @@
     "routeId": [
       "rec8daE4lrLHstC6u"
     ],
+    "partOf": "base",
     "order": 119,
-    "contentId": "recLIShbCfLyZpU6j",
+    "elementId": "recLIShbCfLyZpU6j",
     "routeType": [
       "aside-document-type"
-    ],
-    "partOf": "base"
+    ]
   },
   {
-    "type": "form/contact-details",
+    "type": "formContactDetails",
     "routeId": [
       "recXFPF4VRj3yvCLg"
     ],
+    "partOf": "base",
     "order": 62,
-    "contentId": "recLXKmdr5Nty5gH6",
+    "elementId": "recLXKmdr5Nty5gH6",
     "routeType": [
       "form"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Ik wil ook de aanvullende stukken",
-    "type": "check/yellow",
+    "type": "checkYellow",
     "routeId": [
       "recsW8iUGWbySdl1T"
     ],
     "linkRouteId": [
       "recJn1Ksk3OZIFFSK"
     ],
-    "partOf": "form/specific-documents",
+    "partOf": "formSpecificDocuments",
     "order": 84,
-    "contentId": "recM6OBiPPogQ6x85",
+    "elementId": "recM6OBiPPogQ6x85",
     "routeType": [
       "form"
     ]
   },
   {
+    "type": "listInfo",
+    "order": 197,
+    "elementId": "recMAu2ygO4PpKxYy",
+    "routeId": [
+      "rechhv82awVzZNu2c"
+    ],
+    "routeType": [
+      "form"
+    ],
+    "partOf": "base"
+  },
+  {
     "text": "Ga terug",
-    "type": "button/large",
+    "type": "buttonLarge",
     "routeId": [
       "recvBgzyf1d88SkiI"
     ],
-    "partOf": "page/header",
+    "partOf": "pageHeader",
     "order": 189,
-    "contentId": "recMQW9i6XFDzBeKe",
+    "elementId": "recMQW9i6XFDzBeKe",
     "routeType": [
       "page"
     ]
   },
   {
     "text": "OPSLAAN ALS PDF",
-    "type": "button/small",
+    "type": "buttonSmall",
     "routeId": [
       "recwSLma6YuAxO7Pt"
     ],
+    "partOf": "base",
     "order": 179,
-    "contentId": "recMQnhMZ7CgJtKhn",
+    "elementId": "recMQnhMZ7CgJtKhn",
     "routeType": [
       "review"
+    ]
+  },
+  {
+    "type": "inputSmall",
+    "routeId": [
+      "recXFPF4VRj3yvCLg"
     ],
-    "partOf": "base"
+    "partOf": "formContactDetails",
+    "order": 204,
+    "routeType": [
+      "form"
+    ],
+    "elementId": "recMep7bTlJ0idWpL",
+    "text": "Woonplaats"
   },
   {
     "text": "Pesentaties",
-    "type": "check/white",
+    "type": "checkWhite",
     "routeId": [
       "recS1bPIRb1IMyqRJ"
     ],
+    "partOf": "base",
     "order": 117,
-    "contentId": "recNUbSmKvq8omWEK",
+    "elementId": "recNUbSmKvq8omWEK",
     "routeType": [
       "aside-document-type"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Begrotingen",
-    "type": "check/white",
+    "type": "checkWhite",
     "routeId": [
       "recrzse37LenTq7dY"
     ],
+    "partOf": "base",
     "order": 136,
-    "contentId": "recODhJCVre31aegr",
+    "elementId": "recODhJCVre31aegr",
     "routeType": [
       "aside-document-type"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Interne Correspondentie",
@@ -948,12 +998,12 @@
     "routeId": [
       "rec8daE4lrLHstC6u"
     ],
+    "partOf": "base",
     "order": 118,
-    "contentId": "recOUKno83Z2AjMzo",
+    "elementId": "recOUKno83Z2AjMzo",
     "routeType": [
       "aside-document-type"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Specifieke Docs",
@@ -961,12 +1011,12 @@
     "routeId": [
       "rec1eWCNlmdQUL8bW"
     ],
+    "partOf": "base",
     "order": 8,
-    "contentId": "recP30ie4eTXRE6Ej",
+    "elementId": "recP30ie4eTXRE6Ej",
     "routeType": [
       "aside-info"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Mondelinge toelichting",
@@ -974,12 +1024,12 @@
     "routeId": [
       "recY5qsUjwzu2FKa4"
     ],
+    "partOf": "base",
     "order": 16,
-    "contentId": "recPEPcO5ci6FvuHB",
+    "elementId": "recPEPcO5ci6FvuHB",
     "routeType": [
       "aside-info"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Welke informatie zoek je?",
@@ -987,25 +1037,25 @@
     "routeId": [
       "rechhv82awVzZNu2c"
     ],
+    "partOf": "base",
     "order": 70,
-    "contentId": "recPYQ3m6s9PrrqiX",
+    "elementId": "recPYQ3m6s9PrrqiX",
     "routeType": [
       "form"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Gespreksverslagen",
-    "type": "check/white",
+    "type": "checkWhite",
     "routeId": [
       "recR3xSpTuROzmcXP"
     ],
+    "partOf": "base",
     "order": 110,
-    "contentId": "recPhsQOZnvnSVaGJ",
+    "elementId": "recPhsQOZnvnSVaGJ",
     "routeType": [
       "aside-document-type"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Ben je journalist?",
@@ -1013,12 +1063,12 @@
     "routeId": [
       "recvllEn1RtSYTtuH"
     ],
+    "partOf": "base",
     "order": 1,
-    "contentId": "recQK7hU3XyS1pBrc",
+    "elementId": "recQK7hU3XyS1pBrc",
     "routeType": [
       "aside-info"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "De kern van je Wob-verzoek is nu af. Er zijn nog een paar opties die je aan of uit kunt zetten.",
@@ -1026,12 +1076,12 @@
     "routeId": [
       "recmkybjDd9Wkf5hg"
     ],
+    "partOf": "base",
     "order": 161,
-    "contentId": "recR7Dwpyu8nHsc68",
+    "elementId": "recR7Dwpyu8nHsc68",
     "routeType": [
       "form"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "De wet verplicht overheidsinstanties een Wob-verzoek door te geleiden naar een andere instantie als de betreffende documenten niet bij haar maar bij de collega-instantie liggen. Het kan geen kwaad daar in de brief nog eens om te vragen.",
@@ -1039,12 +1089,12 @@
     "routeId": [
       "reclTWVdtOxtGFAlR"
     ],
+    "partOf": "base",
     "order": 31,
-    "contentId": "recRCISLfMgTYpKW9",
+    "elementId": "recRCISLfMgTYpKW9",
     "routeType": [
       "aside-info"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Informatieverzoeken",
@@ -1052,28 +1102,28 @@
     "routeId": [
       "recIuYOcPfLmamsMF"
     ],
+    "partOf": "base",
     "order": 2,
-    "contentId": "recRdBbNWMUvbyWoj",
+    "elementId": "recRdBbNWMUvbyWoj",
     "routeType": [
       "aside-info"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Insluiting alle formaten",
-    "type": "check/yellow",
+    "type": "checkYellow",
     "routeId": [
       "recmkybjDd9Wkf5hg"
     ],
     "linkRouteId": [
       "recieD9WELmtn0ZQt"
     ],
+    "partOf": "base",
     "order": 167,
-    "contentId": "recRtqJLnPK3Ds67C",
+    "elementId": "recRtqJLnPK3Ds67C",
     "routeType": [
       "form"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Insluiting alle formaten",
@@ -1081,12 +1131,12 @@
     "routeId": [
       "recieD9WELmtn0ZQt"
     ],
+    "partOf": "base",
     "order": 22,
-    "contentId": "recRtxCR2iH9xfnDe",
+    "elementId": "recRtxCR2iH9xfnDe",
     "routeType": [
       "aside-info"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Mediaorganisatie?",
@@ -1094,41 +1144,41 @@
     "routeId": [
       "recpS5ubR52aN9sRF"
     ],
+    "partOf": "base",
     "order": 3,
-    "contentId": "recSSI2Rw6njpCRlL",
+    "elementId": "recSSI2Rw6njpCRlL",
     "routeType": [
       "aside-info"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Ik wil alles over het onderwerp",
-    "type": "check/yellow",
+    "type": "checkYellow",
     "routeId": [
       "recsXVE7yH4Go2Jds"
     ],
     "linkRouteId": [
       "recnVLQCE4Z3gfeQN"
     ],
+    "partOf": "base",
     "order": 80,
-    "contentId": "recSYdmoT7ViIZadZ",
+    "elementId": "recSYdmoT7ViIZadZ",
     "routeType": [
       "form"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Ik weet de datum van dit document",
-    "type": "check/yellow",
+    "type": "checkYellow",
     "routeId": [
       "recsW8iUGWbySdl1T"
     ],
     "linkRouteId": [
       "recVp99Blj0rjwYov"
     ],
-    "partOf": "form/specific-documents",
+    "partOf": "formSpecificDocuments",
     "order": 86,
-    "contentId": "recTGupDyhM1gghh4",
+    "elementId": "recTGupDyhM1gghh4",
     "routeType": [
       "form"
     ]
@@ -1139,12 +1189,12 @@
     "routeId": [
       "recPILpzPpOxU5PuR"
     ],
+    "partOf": "base",
     "order": 14,
-    "contentId": "recTXVjRm8zmKMBEN",
+    "elementId": "recTXVjRm8zmKMBEN",
     "routeType": [
       "aside-info"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet",
@@ -1152,12 +1202,12 @@
     "routeId": [
       "recj307J0TzHpdEMT"
     ],
+    "partOf": "base",
     "order": 76,
-    "contentId": "recTZrAACb9Ii0KQ1",
+    "elementId": "recTZrAACb9Ii0KQ1",
     "routeType": [
       "aside-info"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Je bent hier omdat je informatie wilt opvragen bij een overheidsinstantie. Dat noemen we een Wob-verzoek. Met de Wob-generator is dat een koud kunstje.",
@@ -1165,9 +1215,9 @@
     "routeId": [
       "recSx2NzrOTdbxZR5"
     ],
-    "partOf": "page/header",
+    "partOf": "pageHeader",
     "order": 185,
-    "contentId": "recUcCT0qWsIHa8mq",
+    "elementId": "recUcCT0qWsIHa8mq",
     "routeType": [
       "page"
     ]
@@ -1178,12 +1228,12 @@
     "routeId": [
       "rectXaEyBdDcOyeGa"
     ],
+    "partOf": "base",
     "order": 15,
-    "contentId": "recUp4l9ni3iquTxh",
+    "elementId": "recUp4l9ni3iquTxh",
     "routeType": [
       "aside-info"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Datasets",
@@ -1191,12 +1241,12 @@
     "routeId": [
       "recB4QxrYPlOnqBTB"
     ],
+    "partOf": "base",
     "order": 12,
-    "contentId": "recWLAfhZlfiYmMda",
+    "elementId": "recWLAfhZlfiYmMda",
     "routeType": [
       "aside-info"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Waarschijnlijk gaat het je meer om de interessante informatie dan om de exacte documenten zelf. Zeker als je Wob-verzoek omvangrijk is, kun je de overheidsinstantie aanbieden om gezamenlijk te kijken of ze je op een minder arbeidsintensieve manier ",
@@ -1204,25 +1254,37 @@
     "routeId": [
       "rec5o7VxmQtRZf5ZD"
     ],
+    "partOf": "base",
     "order": 32,
-    "contentId": "recWTySpTyV8zT4y5",
+    "elementId": "recWTySpTyV8zT4y5",
     "routeType": [
       "aside-info"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "SMS-jes en WhatsApp-berichten",
-    "type": "check/white",
+    "type": "checkWhite",
     "routeId": [
       "rec8daE4lrLHstC6u"
     ],
+    "partOf": "base",
     "order": 122,
-    "contentId": "recWVbAgi4WrDRBRX",
+    "elementId": "recWVbAgi4WrDRBRX",
     "routeType": [
       "aside-document-type"
+    ]
+  },
+  {
+    "type": "listInfo",
+    "routeId": [
+      "recwdo8dQw6g3RqYT"
     ],
-    "partOf": "base"
+    "partOf": "base",
+    "order": 193,
+    "elementId": "recWypac9YgPycqlZ",
+    "routeType": [
+      "form"
+    ]
   },
   {
     "text": "Rapporten & \nPresentaties",
@@ -1230,12 +1292,12 @@
     "routeId": [
       "recS1bPIRb1IMyqRJ"
     ],
+    "partOf": "base",
     "order": 111,
-    "contentId": "recX1IezQdvVzJFyA",
+    "elementId": "recX1IezQdvVzJFyA",
     "routeType": [
       "aside-document-type"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "E-mails kunnen veel inzicht geven in het besluitvormingsproces, de toon waarin tussen bepaalde personen gecommuniceerd wordt en de frequentie van het contact. Maar e-mails kunnen ook over volstrekt irrelevante zaken gaan, zoals de hoeveelheid broodjes die bij de vergadering zijn besteld. Bedenk dus of e-mails in het geval van jouw verzoek relevant zijn.",
@@ -1243,36 +1305,36 @@
     "routeId": [
       "rec9Dw2AnuF75GNl2"
     ],
+    "partOf": "base",
     "order": 128,
-    "contentId": "recX9yVVEKhNoxe0Y",
+    "elementId": "recX9yVVEKhNoxe0Y",
     "routeType": [
       "aside-document-type"
-    ],
-    "partOf": "base"
+    ]
   },
   {
-    "type": "form/people",
+    "type": "formPeople",
     "routeId": [
       "rec9Dw2AnuF75GNl2"
     ],
+    "partOf": "base",
     "order": 170,
-    "contentId": "recXDaR2z38KLxVnk",
+    "elementId": "recXDaR2z38KLxVnk",
     "routeType": [
       "aside-document-type"
-    ],
-    "partOf": "base"
+    ]
   },
   {
-    "type": "form/people",
+    "type": "formPeople",
     "routeId": [
       "rec8daE4lrLHstC6u"
     ],
+    "partOf": "base",
     "order": 169,
-    "contentId": "recXtzL17tou3KdUW",
+    "elementId": "recXtzL17tou3KdUW",
     "routeType": [
       "aside-document-type"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Onderwerp",
@@ -1280,70 +1342,70 @@
     "routeId": [
       "recj307J0TzHpdEMT"
     ],
+    "partOf": "base",
     "order": 75,
-    "contentId": "recYzPGw0obqlvv0r",
+    "elementId": "recYzPGw0obqlvv0r",
     "routeType": [
       "aside-info"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Beleefdheidsconventie van de geadresseerde",
-    "type": "listItem/info",
+    "type": "listItemInfo",
     "routeId": [
       "recv6iVTRTh27ylhL"
     ],
     "linkRouteId": [
       "rechNu7XVT6G3ByRy"
     ],
+    "partOf": "listInfo",
     "order": 67,
-    "contentId": "recZX4P9yqUJuOlcl",
+    "elementId": "recZX4P9yqUJuOlcl",
     "routeType": [
       "form"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "VOEG DOCUMENT TOE",
-    "type": "button/medium",
+    "type": "buttonMedium",
     "routeId": [
       "reczR2gc10ApJFFBE"
     ],
-    "partOf": "form/speciale-documenten",
+    "partOf": "formSpecialeDocumenten",
     "order": 146,
-    "contentId": "recZZGDtVDAFtxq6B",
+    "elementId": "recZZGDtVDAFtxq6B",
     "routeType": [
       "aside-document-type"
     ]
   },
   {
     "text": "Ik Wob namens een (media-) organisatie",
-    "type": "check/yellow",
+    "type": "checkYellow",
     "routeId": [
       "recfvKGrVYxw2Y6Zl"
     ],
     "linkRouteId": [
       "recpS5ubR52aN9sRF"
     ],
+    "partOf": "base",
     "order": 59,
-    "contentId": "recZuJsos4ZyxOFHL",
+    "elementId": "recZuJsos4ZyxOFHL",
     "routeType": [
       "form"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "NEE, LIEVER NIET",
-    "type": "button/small",
+    "type": "buttonSmall",
     "routeId": [
       "recwSLma6YuAxO7Pt"
     ],
+    "partOf": "base",
     "order": 183,
-    "contentId": "recahZmnHZdKqCdOs",
+    "elementId": "recahZmnHZdKqCdOs",
     "routeType": [
       "review"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Welke documenttypes?",
@@ -1351,8 +1413,20 @@
     "routeId": [
       "recwdo8dQw6g3RqYT"
     ],
+    "partOf": "base",
     "order": 153,
-    "contentId": "recaxVwUwVScRVfDw",
+    "elementId": "recaxVwUwVScRVfDw",
+    "routeType": [
+      "form"
+    ]
+  },
+  {
+    "type": "listInfo",
+    "order": 194,
+    "elementId": "recb4AG0ARJCuMCYh",
+    "routeId": [
+      "recIkzk83HjjxfJKT"
+    ],
     "routeType": [
       "form"
     ],
@@ -1364,12 +1438,12 @@
     "routeId": [
       "recnVLQCE4Z3gfeQN"
     ],
+    "partOf": "base",
     "order": 11,
-    "contentId": "recbY2h2SRCxNsB5q",
+    "elementId": "recbY2h2SRCxNsB5q",
     "routeType": [
       "aside-info"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Door dit aan te vinken verzoek je de overheidsinstantie goed te motiveren waarom ze je Wob-verzoek niet binnen de wettelijke termijn afhandelen.",
@@ -1377,12 +1451,12 @@
     "routeId": [
       "reciRZMWtGbWkqveO"
     ],
+    "partOf": "base",
     "order": 35,
-    "contentId": "recc0uWhMX2HG7pEL",
+    "elementId": "recc0uWhMX2HG7pEL",
     "routeType": [
       "aside-info"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor",
@@ -1390,28 +1464,28 @@
     "routeId": [
       "recB4QxrYPlOnqBTB"
     ],
+    "partOf": "base",
     "order": 34,
-    "contentId": "recc6AU9IrQRhaAoM",
+    "elementId": "recc6AU9IrQRhaAoM",
     "routeType": [
       "aside-info"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Motivering bij verdaging",
-    "type": "check/yellow",
+    "type": "checkYellow",
     "routeId": [
       "recmkybjDd9Wkf5hg"
     ],
     "linkRouteId": [
       "reciRZMWtGbWkqveO"
     ],
+    "partOf": "base",
     "order": 173,
-    "contentId": "reccCfNt7kL6VgCpZ",
+    "elementId": "reccCfNt7kL6VgCpZ",
     "routeType": [
       "form"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Bevestiging  & beslistermijn",
@@ -1419,12 +1493,12 @@
     "routeId": [
       "recemOBeTquFD8Vdd"
     ],
+    "partOf": "base",
     "order": 21,
-    "contentId": "reccYopqP7Ak5MnbF",
+    "elementId": "reccYopqP7Ak5MnbF",
     "routeType": [
       "aside-info"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Aanvullende documenten?",
@@ -1432,25 +1506,25 @@
     "routeId": [
       "recWdvbbSPgPUWkSc"
     ],
+    "partOf": "base",
     "order": 91,
-    "contentId": "recd1oL1T61n2xfMv",
+    "elementId": "recd1oL1T61n2xfMv",
     "routeType": [
       "form"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Brieven",
-    "type": "check/white",
+    "type": "checkWhite",
     "routeId": [
       "rec8daE4lrLHstC6u"
     ],
+    "partOf": "base",
     "order": 120,
-    "contentId": "recdNd2aJdVPyB3aZ",
+    "elementId": "recdNd2aJdVPyB3aZ",
     "routeType": [
       "aside-document-type"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Exporteren!",
@@ -1458,12 +1532,12 @@
     "routeId": [
       "recwSLma6YuAxO7Pt"
     ],
+    "partOf": "base",
     "order": 176,
-    "contentId": "recdVYLeyDvvFhbfQ",
+    "elementId": "recdVYLeyDvvFhbfQ",
     "routeType": [
       "review"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Juiste overheid?",
@@ -1471,25 +1545,25 @@
     "routeId": [
       "recv02YYylO77PUOI"
     ],
+    "partOf": "base",
     "order": 7,
-    "contentId": "recdcI0RSY0jFwJWV",
+    "elementId": "recdcI0RSY0jFwJWV",
     "routeType": [
       "aside-info"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "HERSTEL STANDAARD",
-    "type": "button/medium",
+    "type": "buttonMedium",
     "routeId": [
       "recmkybjDd9Wkf5hg"
     ],
+    "partOf": "base",
     "order": 162,
-    "contentId": "recdnKqQcUtENMAKl",
+    "elementId": "recdnKqQcUtENMAKl",
     "routeType": [
       "form"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Gemeenten, provincies, ministeries, waterschappen, de politie, inspectiediensten en tal van zelfstandige bestuursorganen (ZBO’s) die een overheidstaak uitvoeren.  ",
@@ -1497,67 +1571,67 @@
     "routeId": [
       "recWxAXxUfDlJS7q4"
     ],
+    "partOf": "base",
     "order": 36,
-    "contentId": "recdvRwRPY5ozgXBT",
+    "elementId": "recdvRwRPY5ozgXBT",
     "routeType": [
       "aside-info"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Je kiest wat voor documenten of informatie je zoekt.",
-    "type": "listItem/bubble",
+    "type": "listItemBubble",
     "routeId": [
       "recLM00uQGCtyoAHn"
     ],
+    "partOf": "listBubble",
     "order": 61,
-    "contentId": "rece59ycDvorbgRIl",
+    "elementId": "rece59ycDvorbgRIl",
     "routeType": [
       "form"
-    ],
-    "partOf": "list/bubble"
+    ]
   },
   {
     "text": "Notulen",
-    "type": "check/white",
+    "type": "checkWhite",
     "routeId": [
       "recR3xSpTuROzmcXP"
     ],
+    "partOf": "base",
     "order": 109,
-    "contentId": "receLULbEUTR4kgaj",
+    "elementId": "receLULbEUTR4kgaj",
     "routeType": [
       "aside-document-type"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Begrotingen en financiële documenten",
-    "type": "check/yellow",
+    "type": "checkYellow",
     "routeId": [
       "recWdvbbSPgPUWkSc"
     ],
     "linkRouteId": [
       "recrzse37LenTq7dY"
     ],
-    "partOf": "form/document-types",
+    "partOf": "formDocumentTypes",
     "order": 97,
-    "contentId": "recePDWL3tuprSaED",
+    "elementId": "recePDWL3tuprSaED",
     "routeType": [
       "form"
     ]
   },
   {
     "text": "Dit is een dataset",
-    "type": "check/yellow",
+    "type": "checkYellow",
     "routeId": [
       "recsW8iUGWbySdl1T"
     ],
     "linkRouteId": [
       "recB4QxrYPlOnqBTB"
     ],
-    "partOf": "form/specific-documents",
+    "partOf": "formSpecificDocuments",
     "order": 85,
-    "contentId": "recebeQELUwxhvotH",
+    "elementId": "recebeQELUwxhvotH",
     "routeType": [
       "form"
     ]
@@ -1568,22 +1642,22 @@
     "routeId": [
       "reczR2gc10ApJFFBE"
     ],
+    "partOf": "base",
     "order": 144,
-    "contentId": "recem3AJHMlanY5eh",
+    "elementId": "recem3AJHMlanY5eh",
     "routeType": [
       "aside-document-type"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Vul hier de documentnaam in",
-    "type": "input/small/cancellable",
+    "type": "inputSmallCancellable",
     "routeId": [
       "reczR2gc10ApJFFBE"
     ],
-    "partOf": "form/speciale-documenten",
+    "partOf": "formSpecialeDocumenten",
     "order": 145,
-    "contentId": "recesRaD0TNJuTnIc",
+    "elementId": "recesRaD0TNJuTnIc",
     "routeType": [
       "aside-document-type"
     ]
@@ -1594,12 +1668,12 @@
     "routeId": [
       "recMuOYmIyWDTyzQU"
     ],
+    "partOf": "base",
     "order": 25,
-    "contentId": "recfSAhUlYrvJ9s6J",
+    "elementId": "recfSAhUlYrvJ9s6J",
     "routeType": [
       "aside-info"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Je hoeft geen journalist te zijn om een Wob-verzoek te doen. Maar als je het met een journalistiek doel doet is het nuttig om dit te benoemen. Daarmee verwijs je naar een publiek belang en dat kan je verzoek versterken. Bovendien is het wel zo eerlijk om je Wob-verzoek vanaf het begin met open vizier te doen.",
@@ -1607,22 +1681,22 @@
     "routeId": [
       "recvllEn1RtSYTtuH"
     ],
+    "partOf": "base",
     "order": 26,
-    "contentId": "recfigDFrYY7kOlTj",
+    "elementId": "recfigDFrYY7kOlTj",
     "routeType": [
       "aside-info"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Start je Wob-verzoek!",
-    "type": "button/large",
+    "type": "buttonLarge",
     "routeId": [
       "recSx2NzrOTdbxZR5"
     ],
-    "partOf": "page/header",
+    "partOf": "pageHeader",
     "order": 186,
-    "contentId": "rech7Yiuh13NcEX06",
+    "elementId": "rech7Yiuh13NcEX06",
     "routeType": [
       "page"
     ]
@@ -1633,25 +1707,25 @@
     "routeId": [
       "rec0wsNO24WV79OwJ"
     ],
+    "partOf": "base",
     "order": 27,
-    "contentId": "rechCBoQ9jeOO0XrY",
+    "elementId": "rechCBoQ9jeOO0XrY",
     "routeType": [
       "aside-info"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Memo’s en notities",
-    "type": "check/white",
+    "type": "checkWhite",
     "routeId": [
       "rec8daE4lrLHstC6u"
     ],
+    "partOf": "base",
     "order": 123,
-    "contentId": "recheedJH6o6PKREQ",
+    "elementId": "recheedJH6o6PKREQ",
     "routeType": [
       "aside-document-type"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Je weet precies wat je wilt hebben! Schrijf hier kort de documentnaam en benoem of je aanvullende stukken wilt. Als je document een dataset is, geef dat dan ook aan. Daarvoor gelden namelijk net iets andere regels. ",
@@ -1662,12 +1736,12 @@
     "linkRouteId": [
       "rec1eWCNlmdQUL8bW"
     ],
+    "partOf": "base",
     "order": 82,
-    "contentId": "rechnOtUYBFQ9FY8z",
+    "elementId": "rechnOtUYBFQ9FY8z",
     "routeType": [
       "form"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Datasets",
@@ -1675,12 +1749,12 @@
     "routeId": [
       "recb0ga4MXJN4XP0N"
     ],
+    "partOf": "base",
     "order": 139,
-    "contentId": "reciFKIlPHgKCgVFd",
+    "elementId": "reciFKIlPHgKCgVFd",
     "routeType": [
       "aside-document-type"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Contactgegevens",
@@ -1688,12 +1762,12 @@
     "routeId": [
       "recXFPF4VRj3yvCLg"
     ],
+    "partOf": "base",
     "order": 50,
-    "contentId": "reciKCyRJyNVYXCAH",
+    "elementId": "reciKCyRJyNVYXCAH",
     "routeType": [
       "form"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Motivering bij verdaging",
@@ -1701,25 +1775,25 @@
     "routeId": [
       "reciRZMWtGbWkqveO"
     ],
+    "partOf": "base",
     "order": 23,
-    "contentId": "recirAx4o2zzM5Za7",
+    "elementId": "recirAx4o2zzM5Za7",
     "routeType": [
       "aside-info"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Jaarverslagen",
-    "type": "check/white",
+    "type": "checkWhite",
     "routeId": [
       "recrzse37LenTq7dY"
     ],
+    "partOf": "base",
     "order": 137,
-    "contentId": "recj2BI6BRtaAJPn2",
+    "elementId": "recj2BI6BRtaAJPn2",
     "routeType": [
       "aside-document-type"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Anonimisering",
@@ -1727,51 +1801,77 @@
     "routeId": [
       "recLKYD9zDdom9Bbe"
     ],
+    "partOf": "base",
     "order": 20,
-    "contentId": "recjD5rTfqazOVTsi",
+    "elementId": "recjD5rTfqazOVTsi",
     "routeType": [
       "aside-info"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "VOEG DOCUMENT TOE",
-    "type": "button/medium",
+    "type": "buttonMedium",
     "routeId": [
       "recsW8iUGWbySdl1T"
     ],
-    "partOf": "form/specific-documents",
+    "partOf": "formSpecificDocuments",
     "order": 88,
-    "contentId": "recjF85gspDT2OQ1j",
+    "elementId": "recjF85gspDT2OQ1j",
     "routeType": [
       "form"
     ]
   },
   {
+    "type": "inputSmall",
+    "routeId": [
+      "recXFPF4VRj3yvCLg"
+    ],
+    "partOf": "formContactDetails",
+    "order": 201,
+    "routeType": [
+      "form"
+    ],
+    "elementId": "recjH5WT5T89a49wu",
+    "text": "Adres"
+  },
+  {
     "text": "Memo’s en notities",
-    "type": "check/white",
+    "type": "checkWhite",
     "routeId": [
       "rec9Dw2AnuF75GNl2"
     ],
+    "partOf": "base",
     "order": 132,
-    "contentId": "recjHmkjQvCkM2gta",
+    "elementId": "recjHmkjQvCkM2gta",
     "routeType": [
       "aside-document-type"
+    ]
+  },
+  {
+    "type": "inputSmall",
+    "order": 200,
+    "elementId": "recjJo4WWB7VHF9lB",
+    "partOf": "formContactDetails",
+    "routeId": [
+      "recXFPF4VRj3yvCLg"
     ],
-    "partOf": "base"
+    "routeType": [
+      "form"
+    ],
+    "text": "Naam"
   },
   {
     "text": "Vergaderstukken & gespreksverslagen",
-    "type": "check/yellow",
+    "type": "checkYellow",
     "routeId": [
       "recWdvbbSPgPUWkSc"
     ],
     "linkRouteId": [
       "recR3xSpTuROzmcXP"
     ],
-    "partOf": "form/document-types",
+    "partOf": "formDocumentTypes",
     "order": 92,
-    "contentId": "recjlgvRsCQAK6jP3",
+    "elementId": "recjlgvRsCQAK6jP3",
     "routeType": [
       "form"
     ]
@@ -1782,28 +1882,28 @@
     "routeId": [
       "recIuYOcPfLmamsMF"
     ],
+    "partOf": "base",
     "order": 24,
-    "contentId": "recjsN1eM43yf2L8c",
+    "elementId": "recjsN1eM43yf2L8c",
     "routeType": [
       "aside-info"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Ik wil specifieke documenten opvragen",
-    "type": "check/yellow",
+    "type": "checkYellow",
     "routeId": [
       "recsXVE7yH4Go2Jds"
     ],
     "linkRouteId": [
       "rec1eWCNlmdQUL8bW"
     ],
+    "partOf": "base",
     "order": 79,
-    "contentId": "recjyFQuVW1NPSiwp",
+    "elementId": "recjyFQuVW1NPSiwp",
     "routeType": [
       "form"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Als je vermoedt dat je Wob-verzoek misschien wordt afgewezen omdat er (te) veel persoonlijke beleidsopvattingen van ambtenaren in staan, kun je aangeven dat je eventueel genoegen neemt met een samenvatting van de informatie.",
@@ -1811,38 +1911,50 @@
     "routeId": [
       "rectXaEyBdDcOyeGa"
     ],
+    "partOf": "base",
     "order": 28,
-    "contentId": "reck9GoWoNsEMFUZX",
+    "elementId": "reck9GoWoNsEMFUZX",
     "routeType": [
       "aside-info"
+    ]
+  },
+  {
+    "type": "listInfo",
+    "order": 195,
+    "elementId": "reckS2JSajAFrMO1e",
+    "routeId": [
+      "recv6iVTRTh27ylhL"
+    ],
+    "routeType": [
+      "form"
     ],
     "partOf": "base"
   },
   {
     "text": "SMS-jes en WhatsApp-berichten",
-    "type": "check/white",
+    "type": "checkWhite",
     "routeId": [
       "rec9Dw2AnuF75GNl2"
     ],
+    "partOf": "base",
     "order": 131,
-    "contentId": "recl4cDE5FuDWLSFc",
+    "elementId": "recl4cDE5FuDWLSFc",
     "routeType": [
       "aside-document-type"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "E-mails en brieven, inclusief bijlagen",
-    "type": "check/white",
+    "type": "checkWhite",
     "routeId": [
       "rec8daE4lrLHstC6u"
     ],
+    "partOf": "base",
     "order": 121,
-    "contentId": "reclf4O9zmHZlXGYy",
+    "elementId": "reclf4O9zmHZlXGYy",
     "routeType": [
       "aside-document-type"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Welk document zoek je?",
@@ -1850,25 +1962,25 @@
     "routeId": [
       "recsW8iUGWbySdl1T"
     ],
+    "partOf": "base",
     "order": 81,
-    "contentId": "recljBLpKsQP0p0Fh",
+    "elementId": "recljBLpKsQP0p0Fh",
     "routeType": [
       "form"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Ga naar de VVOJ site",
-    "type": "button/medium",
+    "type": "buttonMedium",
     "routeId": [
       "recIuYOcPfLmamsMF"
     ],
+    "partOf": "base",
     "order": 47,
-    "contentId": "reclximFAeJ0FQkH2",
+    "elementId": "reclximFAeJ0FQkH2",
     "routeType": [
       "aside-info"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Een formele afsluiting van je verzoek: je vraagt om te bevestigen dat het Wob-verzoek is ontvangen en geeft aan graag op de hoogte te worden gehouden van de voortgang. Je wijst op de wettelijke termijn waarbinnen de overheid een beslissing dient te nemen.",
@@ -1876,12 +1988,12 @@
     "routeId": [
       "recemOBeTquFD8Vdd"
     ],
+    "partOf": "base",
     "order": 29,
-    "contentId": "recmFpOqA0XrgJZCP",
+    "elementId": "recmFpOqA0XrgJZCP",
     "routeType": [
       "aside-info"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Je Wob-verzoek is verzonden, je zal de bestanden ook in je download map moeten kunnen vinden!",
@@ -1889,24 +2001,24 @@
     "routeId": [
       "recvBgzyf1d88SkiI"
     ],
-    "partOf": "page/header",
+    "partOf": "pageHeader",
     "order": 188,
-    "contentId": "recmUNBtGCpwqRPdO",
+    "elementId": "recmUNBtGCpwqRPdO",
     "routeType": [
       "page"
     ]
   },
   {
-    "type": "button/medium",
+    "type": "buttonMedium",
     "routeId": [
       "recv6iVTRTh27ylhL"
     ],
+    "partOf": "base",
     "order": 65,
-    "contentId": "recmeghXlF7vaJRiX",
+    "elementId": "recmeghXlF7vaJRiX",
     "routeType": [
       "form"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Als je Wob-verzoek betrekking heeft op milieu-informatie moet een overheidsinstantie daar binnen twee weken een besluit over nemen. Met dit vinkje wijs je daar extra op en vraag je om een snel besluit.",
@@ -1914,12 +2026,12 @@
     "routeId": [
       "recNnmOiLS8wDcp6c"
     ],
+    "partOf": "base",
     "order": 30,
-    "contentId": "recmfktgBei6JXzzb",
+    "elementId": "recmfktgBei6JXzzb",
     "routeType": [
       "aside-info"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Wob-generator",
@@ -1927,28 +2039,28 @@
     "routeId": [
       "recSx2NzrOTdbxZR5"
     ],
-    "partOf": "page/header",
+    "partOf": "pageHeader",
     "order": 184,
-    "contentId": "recmzCjyrCHqazcJp",
+    "elementId": "recmzCjyrCHqazcJp",
     "routeType": [
       "page"
     ]
   },
   {
     "text": "Bevestiging beslistermijn",
-    "type": "check/yellow",
+    "type": "checkYellow",
     "routeId": [
       "recmkybjDd9Wkf5hg"
     ],
     "linkRouteId": [
       "recemOBeTquFD8Vdd"
     ],
+    "partOf": "base",
     "order": 175,
-    "contentId": "recnEShKAfuXRJmY8",
+    "elementId": "recnEShKAfuXRJmY8",
     "routeType": [
       "form"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
@@ -1956,25 +2068,158 @@
     "routeId": [
       "recR3xSpTuROzmcXP"
     ],
+    "partOf": "base",
     "order": 102,
-    "contentId": "recnOWEt9LXAtSunf",
+    "elementId": "recnOWEt9LXAtSunf",
     "routeType": [
       "aside-document-type"
+    ]
+  },
+  {
+    "type": "inputSmall",
+    "routeId": [
+      "recXFPF4VRj3yvCLg"
     ],
-    "partOf": "base"
+    "partOf": "formContactDetails",
+    "order": 203,
+    "routeType": [
+      "form"
+    ],
+    "elementId": "recnojywrsdvNfG6d",
+    "text": "Postcode"
   },
   {
     "text": "Tussen overheidsorganen",
-    "type": "check/yellow/indent",
+    "type": "checkYellowIndent",
     "routeId": [
       "recWdvbbSPgPUWkSc"
     ],
     "linkRouteId": [
       "rec9Dw2AnuF75GNl2"
     ],
-    "partOf": "form/document-types",
+    "partOf": "formDocumentTypes",
     "order": 96,
-    "contentId": "recoBkVhnfIWsOn4k",
+    "elementId": "recoBkVhnfIWsOn4k",
+    "routeType": [
+      "form"
+    ]
+  },
+  {
+    "type": "inputSmall",
+    "routeId": [
+      "recXFPF4VRj3yvCLg"
+    ],
+    "partOf": "formContactDetails",
+    "order": 205,
+    "routeType": [
+      "form"
+    ],
+    "elementId": "recoKHeB65dXV1vKe",
+    "text": "E-mailadres"
+  },
+  {
+    "text": "Zelfs als je precies weet welk document je wil hebben, kan het nuttig zijn om ook andere documenten te vragen. Zo krijg je inzicht in de totstandkoming van het document, de personen of organisaties die daarbij betrokken zijn geweest, koerswijzigingen, enzovoort.",
+    "type": "content",
+    "routeId": [
+      "recJn1Ksk3OZIFFSK"
+    ],
+    "partOf": "base",
+    "order": 90,
+    "elementId": "recp4zxXYJuBe5jdA",
+    "routeType": [
+      "aside-info"
+    ]
+  },
+  {
+    "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor",
+    "type": "content",
+    "routeId": [
+      "rec1eWCNlmdQUL8bW"
+    ],
+    "partOf": "base",
+    "order": 37,
+    "elementId": "recpAiGuxBRz84IUS",
+    "routeType": [
+      "aside-info"
+    ]
+  },
+  {
+    "text": "Je kan ook vragen naar correspondentie met specifieke personen, selecteer hier met wie:",
+    "type": "content",
+    "routeId": [
+      "rec8daE4lrLHstC6u"
+    ],
+    "partOf": "base",
+    "order": 124,
+    "elementId": "recpEUhf5dlgnskYa",
+    "routeType": [
+      "aside-document-type"
+    ]
+  },
+  {
+    "text": "Versturen!",
+    "type": "title",
+    "routeId": [
+      "recwSLma6YuAxO7Pt"
+    ],
+    "partOf": "base",
+    "order": 180,
+    "elementId": "recpKxaGsFdK4Ryav",
+    "routeType": [
+      "review"
+    ]
+  },
+  {
+    "text": "In 3 stappen naar je Wob-verzoek",
+    "type": "title",
+    "routeId": [
+      "recLM00uQGCtyoAHn"
+    ],
+    "partOf": "base",
+    "order": 49,
+    "elementId": "recpd6lOWY8TiEIEF",
+    "routeType": [
+      "form"
+    ]
+  },
+  {
+    "text": "Besluiten",
+    "type": "checkWhite",
+    "routeId": [
+      "recR3xSpTuROzmcXP"
+    ],
+    "partOf": "base",
+    "order": 107,
+    "elementId": "recqDONXTlFFXtJwz",
+    "routeType": [
+      "aside-document-type"
+    ]
+  },
+  {
+    "text": "Ruwe data",
+    "type": "checkWhite",
+    "routeId": [
+      "recb0ga4MXJN4XP0N"
+    ],
+    "partOf": "base",
+    "order": 141,
+    "elementId": "recqmrw6OhNjnmqNI",
+    "routeType": [
+      "aside-document-type"
+    ]
+  },
+  {
+    "text": "Wat is allemaal een “document”?",
+    "type": "listItemInfo",
+    "routeId": [
+      "recwdo8dQw6g3RqYT"
+    ],
+    "linkRouteId": [
+      "recPILpzPpOxU5PuR"
+    ],
+    "partOf": "listInfo",
+    "order": 155,
+    "elementId": "recrB300nj5Ad26CI",
     "routeType": [
       "form"
     ]
@@ -1983,163 +2228,56 @@
     "text": "Zelfs als je precies weet welk document je wil hebben, kan het nuttig zijn om ook andere documenten te vragen. Zo krijg je inzicht in de totstandkoming van het document, de personen of organisaties die daarbij betrokken zijn geweest, koerswijzigingen, enzovoort.",
     "type": "content",
     "routeId": [
-      "recJn1Ksk3OZIFFSK"
-    ],
-    "order": 90,
-    "contentId": "recp4zxXYJuBe5jdA",
-    "routeType": [
-      "aside-info"
-    ],
-    "partOf": "base"
-  },
-  {
-    "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor",
-    "type": "content",
-    "routeId": [
-      "rec1eWCNlmdQUL8bW"
-    ],
-    "order": 37,
-    "contentId": "recpAiGuxBRz84IUS",
-    "routeType": [
-      "aside-info"
-    ],
-    "partOf": "base"
-  },
-  {
-    "text": "Je kan ook vragen naar correspondentie met specifieke personen, selecteer hier met wie:",
-    "type": "content",
-    "routeId": [
-      "rec8daE4lrLHstC6u"
-    ],
-    "order": 124,
-    "contentId": "recpEUhf5dlgnskYa",
-    "routeType": [
-      "aside-document-type"
-    ],
-    "partOf": "base"
-  },
-  {
-    "text": "Versturen!",
-    "type": "title",
-    "routeId": [
-      "recwSLma6YuAxO7Pt"
-    ],
-    "order": 180,
-    "contentId": "recpKxaGsFdK4Ryav",
-    "routeType": [
-      "review"
-    ],
-    "partOf": "base"
-  },
-  {
-    "text": "In 3 stappen naar je Wob-verzoek",
-    "type": "title",
-    "routeId": [
-      "recLM00uQGCtyoAHn"
-    ],
-    "order": 49,
-    "contentId": "recpd6lOWY8TiEIEF",
-    "routeType": [
-      "form"
-    ],
-    "partOf": "base"
-  },
-  {
-    "text": "Besluiten",
-    "type": "check/white",
-    "routeId": [
-      "recR3xSpTuROzmcXP"
-    ],
-    "order": 107,
-    "contentId": "recqDONXTlFFXtJwz",
-    "routeType": [
-      "aside-document-type"
-    ],
-    "partOf": "base"
-  },
-  {
-    "text": "Ruwe data",
-    "type": "check/white",
-    "routeId": [
-      "recb0ga4MXJN4XP0N"
-    ],
-    "order": 141,
-    "contentId": "recqmrw6OhNjnmqNI",
-    "routeType": [
-      "aside-document-type"
-    ],
-    "partOf": "base"
-  },
-  {
-    "text": "Wat is allemaal een “document”?",
-    "type": "listItem/info",
-    "routeId": [
-      "recwdo8dQw6g3RqYT"
-    ],
-    "linkRouteId": [
-      "recPILpzPpOxU5PuR"
-    ],
-    "order": 155,
-    "contentId": "recrB300nj5Ad26CI",
-    "routeType": [
-      "form"
-    ],
-    "partOf": "base"
-  },
-  {
-    "text": "Zelfs als je precies weet welk document je wil hebben, kan het nuttig zijn om ook andere documenten te vragen. Zo krijg je inzicht in de totstandkoming van het document, de personen of organisaties die daarbij betrokken zijn geweest, koerswijzigingen, enzovoort.",
-    "type": "content",
-    "routeId": [
       "recnVLQCE4Z3gfeQN"
     ],
+    "partOf": "base",
     "order": 38,
-    "contentId": "recrQPnZQRU4FoOlB",
+    "elementId": "recrQPnZQRU4FoOlB",
     "routeType": [
       "aside-info"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Informatie i.p.v. documenten",
-    "type": "check/yellow",
+    "type": "checkYellow",
     "routeId": [
       "recmkybjDd9Wkf5hg"
     ],
     "linkRouteId": [
       "rec5o7VxmQtRZf5ZD"
     ],
+    "partOf": "base",
     "order": 166,
-    "contentId": "recrRkeg2O4BHhewp",
+    "elementId": "recrRkeg2O4BHhewp",
     "routeType": [
       "form"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Je selecteert een overheidsinstantie.",
-    "type": "listItem/bubble",
+    "type": "listItemBubble",
     "routeId": [
       "recLM00uQGCtyoAHn"
     ],
+    "partOf": "listBubble",
     "order": 52,
-    "contentId": "recrmowboz8B03e92",
+    "elementId": "recrmowboz8B03e92",
     "routeType": [
       "form"
-    ],
-    "partOf": "list/bubble"
+    ]
   },
   {
     "text": "Rapporten & presentaties",
-    "type": "check/yellow",
+    "type": "checkYellow",
     "routeId": [
       "recWdvbbSPgPUWkSc"
     ],
     "linkRouteId": [
       "recS1bPIRb1IMyqRJ"
     ],
-    "partOf": "form/document-types",
+    "partOf": "formDocumentTypes",
     "order": 93,
-    "contentId": "recrtGiW1ITkFUIxN",
+    "elementId": "recrtGiW1ITkFUIxN",
     "routeType": [
       "form"
     ]
@@ -2150,12 +2288,12 @@
     "routeId": [
       "recR3xSpTuROzmcXP"
     ],
+    "partOf": "base",
     "order": 101,
-    "contentId": "recrwxByhtYHmsAGH",
+    "elementId": "recrwxByhtYHmsAGH",
     "routeType": [
       "aside-document-type"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Overheidstaak",
@@ -2163,12 +2301,12 @@
     "routeId": [
       "recF44AQShm3vLYVT"
     ],
+    "partOf": "base",
     "order": 9,
-    "contentId": "recrxNdKU967kucj4",
+    "elementId": "recrxNdKU967kucj4",
     "routeType": [
       "aside-info"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Verstuur je brief met de Wob-knop en hou de voortgang van je verzoek bij",
@@ -2176,12 +2314,12 @@
     "routeId": [
       "recwSLma6YuAxO7Pt"
     ],
+    "partOf": "base",
     "order": 181,
-    "contentId": "recs37VyVUQ6xoWfW",
+    "elementId": "recs37VyVUQ6xoWfW",
     "routeType": [
       "review"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Voor personen en organisaties gelden verschillende tarieven, mocht je later bij de rechter in beroep gaan tegen het besluit van de overheid op jouw verzoek. Als persoon procedeer je goedkoper dan als organisatie. \n\nLees hier meer over op ons blog:",
@@ -2189,25 +2327,25 @@
     "routeId": [
       "recpS5ubR52aN9sRF"
     ],
+    "partOf": "base",
     "order": 39,
-    "contentId": "recsBBknithcNoKJL",
+    "elementId": "recsBBknithcNoKJL",
     "routeType": [
       "aside-info"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Tarieven van de Wob",
-    "type": "button/medium",
+    "type": "buttonMedium",
     "routeId": [
       "recpS5ubR52aN9sRF"
     ],
+    "partOf": "base",
     "order": 48,
-    "contentId": "recsTrxD5D5cBMWHv",
+    "elementId": "recsTrxD5D5cBMWHv",
     "routeType": [
       "aside-info"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Selecteer hier de periode waarbinnen je denkt dat er voor jou interessante informatie beschikbaar is.",
@@ -2215,38 +2353,38 @@
     "routeId": [
       "recIkzk83HjjxfJKT"
     ],
+    "partOf": "base",
     "order": 148,
-    "contentId": "recsYCoGTnavfjOXk",
+    "elementId": "recsYCoGTnavfjOXk",
     "routeType": [
       "form"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Typ hier de naam van de ambtenaar",
-    "type": "input/small/cancellable",
+    "type": "inputSmallCancellable",
     "routeId": [
       "rec8daE4lrLHstC6u"
     ],
-    "partOf": "form/people",
+    "partOf": "formPeople",
     "order": 125,
-    "contentId": "recsboy0v5frhFQim",
+    "elementId": "recsboy0v5frhFQim",
     "routeType": [
       "aside-document-type"
     ]
   },
   {
     "text": "Presentatielijsten",
-    "type": "check/white",
+    "type": "checkWhite",
     "routeId": [
       "recR3xSpTuROzmcXP"
     ],
+    "partOf": "base",
     "order": 104,
-    "contentId": "recse7M1ti5r9r9Io",
+    "elementId": "recse7M1ti5r9r9Io",
     "routeType": [
       "aside-document-type"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet",
@@ -2254,12 +2392,12 @@
     "routeId": [
       "rechNu7XVT6G3ByRy"
     ],
+    "partOf": "base",
     "order": 69,
-    "contentId": "rectDkURBjzAKGMSM",
+    "elementId": "rectDkURBjzAKGMSM",
     "routeType": [
       "aside-info"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Het kan geen kwaad om er op te wijzen dat je met ‘documenten’ niet alleen klassieke papieren documenten bedoelt, maar bijvoorbeeld ook digitale (data-)bestanden, audiofiles en whatsapp-berichten.",
@@ -2267,38 +2405,51 @@
     "routeId": [
       "recieD9WELmtn0ZQt"
     ],
+    "partOf": "base",
     "order": 40,
-    "contentId": "rectGIXYiXJcB5p7w",
+    "elementId": "rectGIXYiXJcB5p7w",
     "routeType": [
       "aside-info"
+    ]
+  },
+  {
+    "type": "inputSmall",
+    "order": 207,
+    "elementId": "rectHE1L3ZZdnKYNg",
+    "text": "Telefoonnummer",
+    "partOf": "formContactDetails",
+    "routeId": [
+      "recXFPF4VRj3yvCLg"
     ],
-    "partOf": "base"
+    "routeType": [
+      "form"
+    ]
   },
   {
     "text": "Brieven",
-    "type": "check/white",
+    "type": "checkWhite",
     "routeId": [
       "rec9Dw2AnuF75GNl2"
     ],
+    "partOf": "base",
     "order": 129,
-    "contentId": "rectKPnx7Fs0GwDOp",
+    "elementId": "rectKPnx7Fs0GwDOp",
     "routeType": [
       "aside-document-type"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Project- en programmaplannen",
-    "type": "check/white",
+    "type": "checkWhite",
     "routeId": [
       "recS1bPIRb1IMyqRJ"
     ],
+    "partOf": "base",
     "order": 113,
-    "contentId": "rectQQX41IDw8OfGM",
+    "elementId": "rectQQX41IDw8OfGM",
     "routeType": [
       "aside-document-type"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Als je vermoedt dat je Wob-verzoek misschien wordt afgewezen omdat er (te) veel persoonsgegevens in voorkomen, kun je aangeven dat je eventueel genoegen neemt met een geanonimiseerde versie van de documenten.",
@@ -2306,12 +2457,12 @@
     "routeId": [
       "recLKYD9zDdom9Bbe"
     ],
+    "partOf": "base",
     "order": 42,
-    "contentId": "recuCRq4nZh2SzTsS",
+    "elementId": "recuCRq4nZh2SzTsS",
     "routeType": [
       "aside-info"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Je kunt alleen informatie opvragen die voortkomt uit een overheidstaak, in de Wob wordt dat een ‘bestuurlijke aangelegenheid’ genoemd. De Wob werkt niet als je informatie zoekt over bijvoorbeeld de privé-aangelegenheden van een ambtenaar. Of informatie over jou zelf.",
@@ -2319,20 +2470,32 @@
     "routeId": [
       "recF44AQShm3vLYVT"
     ],
+    "partOf": "base",
     "order": 41,
-    "contentId": "recuZZEUZ7wFEq3nB",
+    "elementId": "recuZZEUZ7wFEq3nB",
     "routeType": [
       "aside-info"
-    ],
-    "partOf": "base"
+    ]
   },
   {
-    "type": "form/document-types",
+    "type": "formDocumentTypes",
     "routeId": [
       "recwdo8dQw6g3RqYT"
     ],
+    "partOf": "base",
     "order": 154,
-    "contentId": "recupS5m6B0JNxOxu",
+    "elementId": "recupS5m6B0JNxOxu",
+    "routeType": [
+      "form"
+    ]
+  },
+  {
+    "type": "listInfo",
+    "order": 196,
+    "elementId": "recuqy9RSPbs7Fhgm",
+    "routeId": [
+      "recXFPF4VRj3yvCLg"
+    ],
     "routeType": [
       "form"
     ],
@@ -2344,12 +2507,12 @@
     "routeId": [
       "rec2ShlT3krqr1pVj"
     ],
+    "partOf": "base",
     "order": 43,
-    "contentId": "recvNWxwA2b4fX0p0",
+    "elementId": "recvNWxwA2b4fX0p0",
     "routeType": [
       "aside-info"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Je hoeft geen journalist te zijn om te wobben. Je hoeft ook het (journalistieke) doel van je verzoek toe te lichten. Klik op de i’tjes voor meer informatie.",
@@ -2357,25 +2520,25 @@
     "routeId": [
       "recfvKGrVYxw2Y6Zl"
     ],
+    "partOf": "base",
     "order": 57,
-    "contentId": "recvjN9rQiwMLu3Ia",
+    "elementId": "recvjN9rQiwMLu3Ia",
     "routeType": [
       "form"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Je vult een aantal (contact)gegevens over jezelf in.",
-    "type": "listItem/bubble",
+    "type": "listItemBubble",
     "routeId": [
       "recLM00uQGCtyoAHn"
     ],
+    "partOf": "listBubble",
     "order": 53,
-    "contentId": "recvragXApWzxw2lo",
+    "elementId": "recvragXApWzxw2lo",
     "routeType": [
       "form"
-    ],
-    "partOf": "list/bubble"
+    ]
   },
   {
     "text": "De overheid hoeft alleen informatie openbaar te maken die in documenten of andere gegevensdragers is vastgelegd. ‘Documenten’ zijn gelukkig wel breder dan geschreven stukken alleen. Excelsheets, databestanden, audio-opnames, sms’jes en WhatsAppjes verstuurd van een werktelefoon vallen er bijvoorbeeld ook onder. \n\nNatuurlijk kun je de overheid ook om informatie vragen die niet al op een gegevensdrager staat, bijvoorbeeld wat de gemeente vindt van een bepaalde ontwikkeling of wat de gemeente van plan is daaraan te doen. Dat is dan geen Wob-verzoek, maar een gewoon informatieverzoek. Hiervoor is de Wob-generator niet bedoeld.",
@@ -2383,25 +2546,25 @@
     "routeId": [
       "recPILpzPpOxU5PuR"
     ],
+    "partOf": "base",
     "order": 44,
-    "contentId": "recvuRYyZ0Ycbvq1y",
+    "elementId": "recvuRYyZ0Ycbvq1y",
     "routeType": [
       "aside-info"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Adviezen, zowel extern als intern",
-    "type": "check/white",
+    "type": "checkWhite",
     "routeId": [
       "recS1bPIRb1IMyqRJ"
     ],
+    "partOf": "base",
     "order": 114,
-    "contentId": "recvw8BaG0XxYOqun",
+    "elementId": "recvw8BaG0XxYOqun",
     "routeType": [
       "aside-document-type"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Journalistieke doel?",
@@ -2409,12 +2572,12 @@
     "routeId": [
       "rec0wsNO24WV79OwJ"
     ],
+    "partOf": "base",
     "order": 4,
-    "contentId": "recw1Tk0xNsbkBK4G",
+    "elementId": "recw1Tk0xNsbkBK4G",
     "routeType": [
       "aside-info"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Wob-verzoeken kunnen alleen bij overheidsinstanties worden ingediend. Dat zijn er vermoedelijk meer dan je denkt. ",
@@ -2425,38 +2588,38 @@
     "linkRouteId": [
       "recWxAXxUfDlJS7q4"
     ],
+    "partOf": "base",
     "order": 64,
-    "contentId": "recwEmruSWFgWHTxX",
+    "elementId": "recwEmruSWFgWHTxX",
     "routeType": [
       "form"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "VERWIJDER DOCUMENT",
-    "type": "button/medium",
+    "type": "buttonMedium",
     "routeId": [
       "recsW8iUGWbySdl1T"
     ],
-    "partOf": "form/specific-documents",
+    "partOf": "formSpecificDocuments",
     "order": 87,
-    "contentId": "recwdhhnXERjYypct",
+    "elementId": "recwdhhnXERjYypct",
     "routeType": [
       "form"
     ]
   },
   {
     "text": "E-mails en brieven,\ninclusief bijlagen",
-    "type": "check/white",
+    "type": "checkWhite",
     "routeId": [
       "rec9Dw2AnuF75GNl2"
     ],
+    "partOf": "base",
     "order": 130,
-    "contentId": "recwlngBryedq8U5O",
+    "elementId": "recwlngBryedq8U5O",
     "routeType": [
       "aside-document-type"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Overheidsinstanties",
@@ -2464,41 +2627,41 @@
     "routeId": [
       "recWxAXxUfDlJS7q4"
     ],
+    "partOf": "base",
     "order": 6,
-    "contentId": "recwok75JQ1K8daGc",
+    "elementId": "recwok75JQ1K8daGc",
     "routeType": [
       "aside-info"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Dataset",
-    "type": "check/yellow",
+    "type": "checkYellow",
     "routeId": [
       "recWdvbbSPgPUWkSc"
     ],
     "linkRouteId": [
       "recb0ga4MXJN4XP0N"
     ],
-    "partOf": "form/document-types",
+    "partOf": "formDocumentTypes",
     "order": 98,
-    "contentId": "recwtjFUq1FShulVw",
+    "elementId": "recwtjFUq1FShulVw",
     "routeType": [
       "form"
     ]
   },
   {
     "text": "Banktransacties",
-    "type": "check/white",
+    "type": "checkWhite",
     "routeId": [
       "recrzse37LenTq7dY"
     ],
+    "partOf": "base",
     "order": 138,
-    "contentId": "recxFnzMGT8kcwLWM",
+    "elementId": "recxFnzMGT8kcwLWM",
     "routeType": [
       "aside-document-type"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Privacy & opslag",
@@ -2506,12 +2669,12 @@
     "routeId": [
       "rec2ShlT3krqr1pVj"
     ],
+    "partOf": "base",
     "order": 5,
-    "contentId": "recxQxmgjjo7Udtw9",
+    "elementId": "recxQxmgjjo7Udtw9",
     "routeType": [
       "aside-info"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Geadresseerde",
@@ -2519,12 +2682,25 @@
     "routeId": [
       "rechNu7XVT6G3ByRy"
     ],
+    "partOf": "base",
     "order": 68,
-    "contentId": "recxSs90uCawEp2Nb",
+    "elementId": "recxSs90uCawEp2Nb",
     "routeType": [
       "aside-info"
+    ]
+  },
+  {
+    "text": "Voila!",
+    "type": "content",
+    "routeId": [
+      "recLM00uQGCtyoAHn"
     ],
-    "partOf": "base"
+    "partOf": "base",
+    "order": 192,
+    "elementId": "recyVqz8aezHKkKqV",
+    "routeType": [
+      "form"
+    ]
   },
   {
     "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
@@ -2532,51 +2708,51 @@
     "routeId": [
       "recc3iR8FvflhqhhB"
     ],
+    "partOf": "base",
     "order": 152,
-    "contentId": "recyXXIfPzu33bOBW",
+    "elementId": "recyXXIfPzu33bOBW",
     "routeType": [
       "aside-info"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "OPSLAAN ALS DOC",
-    "type": "button/small",
+    "type": "buttonSmall",
     "routeId": [
       "recwSLma6YuAxO7Pt"
     ],
+    "partOf": "base",
     "order": 178,
-    "contentId": "reczNKzbVuSXoCPDF",
+    "elementId": "reczNKzbVuSXoCPDF",
     "routeType": [
       "review"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Typ hier de documentnaam",
-    "type": "input/small",
+    "type": "inputSmall",
     "routeId": [
       "recsW8iUGWbySdl1T"
     ],
-    "partOf": "form/specific-documents",
+    "partOf": "formSpecificDocuments",
     "order": 83,
-    "contentId": "reczSFOQss3JOYfBE",
+    "elementId": "reczSFOQss3JOYfBE",
     "routeType": [
       "form"
     ]
   },
   {
     "text": "Binnen overheidsorgaan",
-    "type": "check/yellow/indent",
+    "type": "checkYellowIndent",
     "routeId": [
       "recWdvbbSPgPUWkSc"
     ],
     "linkRouteId": [
       "rec8daE4lrLHstC6u"
     ],
-    "partOf": "form/document-types",
+    "partOf": "formDocumentTypes",
     "order": 95,
-    "contentId": "reczpjM17OFfnyZzK",
+    "elementId": "reczpjM17OFfnyZzK",
     "routeType": [
       "form"
     ]
