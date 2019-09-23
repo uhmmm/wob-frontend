@@ -2,8 +2,7 @@ import React, { useState } from 'react'
 import styled from '@emotion/styled'
 
 import checkMarkIcon from './checkMark.svg'
-
-import { type, colors } from '../../styles'
+import { colors } from '../../styles'
 
 const Background = styled.div({
   position: 'absolute',
@@ -30,11 +29,8 @@ const CheckboxContainer = styled.div({
   position: 'relative',
   width: '2rem',
   height: '2rem',
-  margin: '0 0 1rem',
+  margin: '0.5rem 0 1rem',
   cursor: 'pointer',
-  '&:last-of-type': {
-    margin: '0 0 1rem'
-  },
   '&:hover': {
     [Background]: {
       background: colors.white
@@ -58,14 +54,4 @@ const Checkbox = () => {
     </CheckboxContainer>
   )
 }
-
-const Label = styled.label({ margin: '0 0 0 1rem', ...type.content.medium })
-const CheckboxLineContainer = styled.div({})
-const CheckboxLine = () => (
-  <CheckboxLineContainer>
-    <Checkbox />
-    <Label></Label>
-  </CheckboxLineContainer>
-)
-
-export { Checkbox, CheckboxLine }
+export { Checkbox }
