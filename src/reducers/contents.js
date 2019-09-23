@@ -33,7 +33,7 @@ export const contents = combineReducers({
 export const getContentsBySlug = ({ state, slug }) => {
   const route = getRouteBySlug({ state, slug })
   return route
-    ? route.renderedContent.map(recordId => {
+    ? route.contentIds.map(recordId => {
         return state.contents.byId[recordId]
       })
     : null

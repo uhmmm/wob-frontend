@@ -23,5 +23,9 @@ export const routes = combineReducers({
 })
 
 export const getRouteBySlug = ({ state, slug }) => {
-  return find(state.routes.byId, { routeSlug: slug })
+  return find(state.routes.byId, { slug })
+}
+
+export const getRouteById = ({ state, routeId }) => {
+  return state.routes.byId[routeId]
 }

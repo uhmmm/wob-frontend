@@ -8,11 +8,11 @@ import { InfoLinkRouted } from './InfoLink'
 
 import { type } from '../../../styles'
 import { getContentsBySlug } from '../../../reducers/contents'
+import { getRouteById } from '../../../reducers/routes'
 
 const MainContainer = styled.main({})
 const Title = styled.h1({ ...type.title.medium, margin: '0 0 2rem' })
-const TextContainer = styled.div({ margin: '0 0 2rem' })
-const Text = styled.p({ ...type.content.medium })
+const Text = styled.p({ ...type.content.medium, margin: '0 0 2rem' })
 const TextSpan = styled.span({ margin: '0 1rem 0 0' })
 const ListItemContainer = styled.li({
   ...type.content.medium,
@@ -33,18 +33,18 @@ const ListItemBubble = ({ children, number }) => (
 
 const TextBlock = ({ text, linkSlug }) => {
   return (
-    <TextContainer>
-      <Text>
-        <TextSpan>
-          Kun je de documenten op een andere manier in handen krijgen,
-          bijvoorbeeld door het gewoon te vragen of door ze ergens anders te
-          zoeken?
-        </TextSpan>
-        <InfoLinkRouted to="informatieverzoeken" />
-      </Text>
-    </TextContainer>
+    <Text>
+      <TextSpan>{text}</TextSpan>
+      <InfoLinkRouted to={linkSlug} />
+    </Text>
   )
 }
+
+const TextBlockConnected = connect((state, { linkRouteId }) => {
+  return {
+    linkSlug: linkRouteId && getRouteById({ state, routeId: linkRouteId }).slug
+  }
+})(TextBlock)
 
 const Main = ({ contents }) => {
   return (
@@ -54,19 +54,25 @@ const Main = ({ contents }) => {
           switch (contentItem.type) {
             case 'title':
               return (
-                <Title key={contentItem.recordId}>{contentItem.text}</Title>
+                <Title key={contentItem.contentId}>{contentItem.text}</Title>
               )
             case 'content':
               return (
-                <TextBlock
-                  key={contentItem.recordId}
+                <TextBlockConnected
+                  key={contentItem.contentId}
                   text={contentItem.text}
-                  linkSlug={contentItem.linkSlug}
+                  linkRouteId={
+                    contentItem.linkRouteId && contentItem.linkRouteId[0]
+                  }
                 />
               )
             case 'listItem/bubble':
               return (
-                <ListItemBubble key={contentItem.recordId} number="1">
+                <ListItemBubble
+                  key={contentItem.contentId}
+                  number="1"
+                  linkRouteId={contentItem.linkRouteId}
+                >
                   {contentItem.text}
                 </ListItemBubble>
               )

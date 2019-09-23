@@ -27,16 +27,19 @@ const Text = styled.p({ ...type.content.medium })
 const Aside = ({ contents }) => {
   return (
     <AsideContainer>
-      {contents.map(contentItem => {
-        switch (contentItem.type) {
-          case 'title':
-            return <Title key={contentItem.recordId}>{contentItem.text}</Title>
-          case 'content':
-            return <Text key={contentItem.recordId}>{contentItem.text}</Text>
-          default:
-            return null
-        }
-      })}
+      {contents &&
+        contents.map(contentItem => {
+          switch (contentItem.type) {
+            case 'title':
+              return (
+                <Title key={contentItem.contentId}>{contentItem.text}</Title>
+              )
+            case 'content':
+              return <Text key={contentItem.contentId}>{contentItem.text}</Text>
+            default:
+              return null
+          }
+        })}
     </AsideContainer>
   )
 }
