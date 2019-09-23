@@ -1,5 +1,6 @@
 import { combineReducers } from 'redux'
 import { normalize, schema } from 'normalizr'
+import { groupBy } from 'lodash'
 
 import { getRouteBySlug } from './routes'
 
@@ -37,4 +38,9 @@ export const getContentsBySlug = ({ state, slug }) => {
         return state.contents.byId[recordId]
       })
     : null
+}
+
+export const getGroupedContentsBySlug = ({ state, slug }) => {
+  const contents = getContentsBySlug({ state, slug })
+  return groupBy(contents, 'partOf')
 }

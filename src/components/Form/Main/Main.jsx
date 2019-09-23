@@ -7,19 +7,20 @@ import { Bubble } from '../../Bubble/Bubble'
 import { InfoLinkRouted } from './InfoLink'
 
 import { type } from '../../../styles'
-import { getContentsBySlug } from '../../../reducers/contents'
+import { getGroupedContentsBySlug } from '../../../reducers/contents'
 import { getRouteById } from '../../../reducers/routes'
 
 const MainContainer = styled.main({})
 const Title = styled.h1({ ...type.title.medium, margin: '0 0 2rem' })
 const Text = styled.p({ ...type.content.medium, margin: '0 0 2rem' })
 const TextSpan = styled.span({ margin: '0 1rem 0 0' })
+const ListBubble = styled.ul({ margin: '0 0 2rem' })
 const ListItemContainer = styled.li({
   ...type.content.medium,
   display: 'flex',
   margin: '0 0 1rem',
   '&:last-of-type': {
-    margin: '0 0 2rem'
+    margin: '0 0 1rem'
   }
 })
 const Label = styled.label({ margin: '0 0 0 1rem', ...type.content.medium })
@@ -46,11 +47,12 @@ const TextBlockConnected = connect((state, { linkRouteId }) => {
   }
 })(TextBlock)
 
-const Main = ({ contents }) => {
+const Main = ({ groupedContents }) => {
+  console.log(groupedContents)
   return (
     <MainContainer>
-      {contents &&
-        contents.map(contentItem => {
+      {groupedContents &&
+        groupedContents.base.map(contentItem => {
           switch (contentItem.type) {
             case 'title':
               return (
@@ -66,15 +68,21 @@ const Main = ({ contents }) => {
                   }
                 />
               )
-            case 'listItem/bubble':
+            case 'list/bubble':
               return (
-                <ListItemBubble
-                  key={contentItem.contentId}
-                  number="1"
-                  linkRouteId={contentItem.linkRouteId}
-                >
-                  {contentItem.text}
-                </ListItemBubble>
+                <ListBubble key={contentItem.contentId}>
+                  {groupedContents['list/bubble'].map((contentItem, key) => {
+                    return (
+                      <ListItemBubble
+                        key={contentItem.contentId}
+                        number={key + 1}
+                        linkRouteId={contentItem.linkRouteId}
+                      >
+                        {contentItem.text}
+                      </ListItemBubble>
+                    )
+                  })}
+                </ListBubble>
               )
             default:
               return null
@@ -86,7 +94,10 @@ const Main = ({ contents }) => {
 
 const mapStateToProps = (state, { match }) => {
   return {
-    contents: getContentsBySlug({ state, slug: match.params.formSlug })
+    groupedContents: getGroupedContentsBySlug({
+      state,
+      slug: match.params.formSlug
+    })
   }
 }
 
