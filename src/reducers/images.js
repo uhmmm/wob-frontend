@@ -1,6 +1,5 @@
 import { combineReducers } from 'redux'
 import { normalize, schema } from 'normalizr'
-import { find } from 'lodash'
 
 import imageData from '../data/images'
 
@@ -22,6 +21,6 @@ export const images = combineReducers({
   allIds: allImages
 })
 
-export const getImageBySlug = ({ state, slug }) => {
-  return find(state.images.byId, { imageSlug: slug })
+export const getImageById = ({ state, imageId }) => {
+  return state.images.byId[imageId]
 }

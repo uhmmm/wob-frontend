@@ -339,15 +339,15 @@
   },
   {
     "type": "listInfo",
-    "order": 198,
-    "elementId": "rec5xIAU7YSqaarPX",
     "routeId": [
       "recWdvbbSPgPUWkSc"
     ],
+    "partOf": "base",
+    "order": 198,
+    "elementId": "rec5xIAU7YSqaarPX",
     "routeType": [
       "form"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
@@ -475,17 +475,17 @@
     ]
   },
   {
+    "text": "Nr.",
     "type": "inputSmall",
     "routeId": [
       "recXFPF4VRj3yvCLg"
     ],
     "partOf": "formContactDetails",
     "order": 202,
+    "elementId": "recDFos2u6RQmpxWX",
     "routeType": [
       "form"
-    ],
-    "elementId": "recDFos2u6RQmpxWX",
-    "text": "Nr."
+    ]
   },
   {
     "text": "Ingekomen stukken",
@@ -917,15 +917,15 @@
   },
   {
     "type": "listInfo",
-    "order": 197,
-    "elementId": "recMAu2ygO4PpKxYy",
     "routeId": [
       "rechhv82awVzZNu2c"
     ],
+    "partOf": "base",
+    "order": 197,
+    "elementId": "recMAu2ygO4PpKxYy",
     "routeType": [
       "form"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Ga terug",
@@ -954,17 +954,17 @@
     ]
   },
   {
+    "text": "Woonplaats",
     "type": "inputSmall",
     "routeId": [
       "recXFPF4VRj3yvCLg"
     ],
     "partOf": "formContactDetails",
     "order": 204,
+    "elementId": "recMep7bTlJ0idWpL",
     "routeType": [
       "form"
-    ],
-    "elementId": "recMep7bTlJ0idWpL",
-    "text": "Woonplaats"
+    ]
   },
   {
     "text": "Pesentaties",
@@ -1422,15 +1422,15 @@
   },
   {
     "type": "listInfo",
-    "order": 194,
-    "elementId": "recb4AG0ARJCuMCYh",
     "routeId": [
       "recIkzk83HjjxfJKT"
     ],
+    "partOf": "base",
+    "order": 194,
+    "elementId": "recb4AG0ARJCuMCYh",
     "routeType": [
       "form"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Aanvullende docs",
@@ -1822,17 +1822,17 @@
     ]
   },
   {
+    "text": "Adres",
     "type": "inputSmall",
     "routeId": [
       "recXFPF4VRj3yvCLg"
     ],
     "partOf": "formContactDetails",
     "order": 201,
+    "elementId": "recjH5WT5T89a49wu",
     "routeType": [
       "form"
-    ],
-    "elementId": "recjH5WT5T89a49wu",
-    "text": "Adres"
+    ]
   },
   {
     "text": "Memo’s en notities",
@@ -1848,17 +1848,17 @@
     ]
   },
   {
+    "text": "Naam",
     "type": "inputSmall",
-    "order": 200,
-    "elementId": "recjJo4WWB7VHF9lB",
-    "partOf": "formContactDetails",
     "routeId": [
       "recXFPF4VRj3yvCLg"
     ],
+    "partOf": "formContactDetails",
+    "order": 200,
+    "elementId": "recjJo4WWB7VHF9lB",
     "routeType": [
       "form"
-    ],
-    "text": "Naam"
+    ]
   },
   {
     "text": "Vergaderstukken & gespreksverslagen",
@@ -1920,15 +1920,15 @@
   },
   {
     "type": "listInfo",
-    "order": 195,
-    "elementId": "reckS2JSajAFrMO1e",
     "routeId": [
       "recv6iVTRTh27ylhL"
     ],
+    "partOf": "base",
+    "order": 195,
+    "elementId": "reckS2JSajAFrMO1e",
     "routeType": [
       "form"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "SMS-jes en WhatsApp-berichten",
@@ -2076,17 +2076,17 @@
     ]
   },
   {
+    "text": "Postcode",
     "type": "inputSmall",
     "routeId": [
       "recXFPF4VRj3yvCLg"
     ],
     "partOf": "formContactDetails",
     "order": 203,
+    "elementId": "recnojywrsdvNfG6d",
     "routeType": [
       "form"
-    ],
-    "elementId": "recnojywrsdvNfG6d",
-    "text": "Postcode"
+    ]
   },
   {
     "text": "Tussen overheidsorganen",
@@ -2105,17 +2105,17 @@
     ]
   },
   {
+    "text": "E-mailadres",
     "type": "inputSmall",
     "routeId": [
       "recXFPF4VRj3yvCLg"
     ],
     "partOf": "formContactDetails",
     "order": 205,
+    "elementId": "recoKHeB65dXV1vKe",
     "routeType": [
       "form"
-    ],
-    "elementId": "recoKHeB65dXV1vKe",
-    "text": "E-mailadres"
+    ]
   },
   {
     "text": "Zelfs als je precies weet welk document je wil hebben, kan het nuttig zijn om ook andere documenten te vragen. Zo krijg je inzicht in de totstandkoming van het document, de personen of organisaties die daarbij betrokken zijn geweest, koerswijzigingen, enzovoort.",
@@ -2413,14 +2413,14 @@
     ]
   },
   {
-    "type": "inputSmall",
-    "order": 207,
-    "elementId": "rectHE1L3ZZdnKYNg",
     "text": "Telefoonnummer",
-    "partOf": "formContactDetails",
+    "type": "inputSmall",
     "routeId": [
       "recXFPF4VRj3yvCLg"
     ],
+    "partOf": "formContactDetails",
+    "order": 207,
+    "elementId": "rectHE1L3ZZdnKYNg",
     "routeType": [
       "form"
     ]
@@ -2491,15 +2491,15 @@
   },
   {
     "type": "listInfo",
-    "order": 196,
-    "elementId": "recuqy9RSPbs7Fhgm",
     "routeId": [
       "recXFPF4VRj3yvCLg"
     ],
+    "partOf": "base",
+    "order": 196,
+    "elementId": "recuqy9RSPbs7Fhgm",
     "routeType": [
       "form"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "De Wob-verzoeken worden lokaal in je browser opgeslagen. Waarschijnlijk ken je het begrip “cookies”,  wij gebruiken een iets geavanceerdere variant van deze techniek. De applicatie heeft alleen simpele server die geen data kan ontvangen.\n\nDe opslag functionaliteit is bedoeld om het sluiten van een tabblad op te vangen. Het zou jammer zijn als je je Wob-verzoek onbedoeld wist. Vertrouw alleen niet teveel op deze opslagmethode. Als je de lokale data in je browser wist, wis je al je verzoeken! ",

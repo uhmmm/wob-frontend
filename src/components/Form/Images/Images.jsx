@@ -5,6 +5,11 @@ import { connect } from 'react-redux'
 
 import man from './man.svg'
 import { getRouteBySlug } from '../../../reducers/routes'
+import { getImageById } from '../../../reducers/images'
+
+const images = {
+  man
+}
 
 const FormImagesContainer = styled.main({
   display: 'flex',
@@ -15,22 +20,22 @@ const FormImagesContainer = styled.main({
 
 const Img = styled.img({ width: '100%' })
 
-const Image = ({ route }) => (
-  <FormImagesContainer>
-    <Img src={man} alt="" />
-  </FormImagesContainer>
-)
+const Image = ({ image }) => {
+  return (
+    <FormImagesContainer>
+      <Img src={images[image.imageRef]} alt="" />
+    </FormImagesContainer>
+  )
+}
 
 const mapStateToProps = (state, { match }) => {
+  let route = getRouteBySlug({ state, slug: match.params.formSlug })
   return {
-    route: getRouteBySlug({ state, slug: match.params.formSlug })
+    image: getImageById({ state, imageId: route.linkedImageId[0] })
   }
 }
 
-const ImageConnected = connect(
-  mapStateToProps,
-  {}
-)(Image)
+const ImageConnected = connect(mapStateToProps)(Image)
 
 const ImagesRouted = withRouter(ImageConnected)
 
