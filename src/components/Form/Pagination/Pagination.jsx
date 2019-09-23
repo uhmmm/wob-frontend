@@ -21,21 +21,26 @@ const PaginationContainer = styled.div({
 })
 
 const Pagination = ({ prevRoute, nextRoute }) => {
-  console.log(prevRoute)
   return (
     <PaginationContainer>
-      <Link to={prevRoute.slug ? `/${prevRoute.type}/${prevRoute.slug}` : '/'}>
-        <Bubble size="3" vOrient="negative" icon={iconLeft} />
-      </Link>
-      <Link to={`/${nextRoute.type}/${nextRoute.slug}`}>
-        <Bubble
-          size="4"
-          hOrient="negative"
-          vOrient="negative"
-          bgInversed="true"
-          icon={iconRight}
-        />
-      </Link>
+      {prevRoute && (
+        <Link
+          to={prevRoute.slug ? `/${prevRoute.type}/${prevRoute.slug}` : '/'}
+        >
+          <Bubble size="3" vOrient="negative" icon={iconLeft} />
+        </Link>
+      )}
+      {nextRoute && (
+        <Link to={`/${nextRoute.type}/${nextRoute.slug}`}>
+          <Bubble
+            size="4"
+            hOrient="negative"
+            vOrient="negative"
+            bgInversed="true"
+            icon={iconRight}
+          />
+        </Link>
+      )}
     </PaginationContainer>
   )
 }

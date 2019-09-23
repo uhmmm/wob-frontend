@@ -12,7 +12,7 @@
     "routeId": "rec0wsNO24WV79OwJ"
   },
   {
-    "slug": "specifieke-documenten",
+    "slug": "welke-specifieke-documenten",
     "type": "aside-info",
     "contentIds": [
       "recP30ie4eTXRE6Ej",
@@ -25,7 +25,7 @@
     "routeId": "rec1eWCNlmdQUL8bW"
   },
   {
-    "slug": "privacy",
+    "slug": "hoe-gaat-deze-app-om-met-mijn-privacy",
     "type": "aside-info",
     "contentIds": [
       "recxQxmgjjo7Udtw9",
@@ -87,7 +87,7 @@
     "routeId": "rec9Dw2AnuF75GNl2"
   },
   {
-    "slug": "datasets",
+    "slug": "hoe-en-wat-van-datasets",
     "type": "aside-info",
     "contentIds": [
       "recWLAfhZlfiYmMda",
@@ -228,7 +228,7 @@
     "routeId": "recPILpzPpOxU5PuR"
   },
   {
-    "slug": "vergaderstukken-en-gespreksverslage",
+    "slug": "vergaderstukken-en-gespreksverslagen",
     "type": "aside-document-type",
     "contentIds": [
       "recrwxByhtYHmsAGH",
@@ -504,7 +504,7 @@
     "routeId": "recieD9WELmtn0ZQt"
   },
   {
-    "slug": "onderwerp",
+    "slug": "wat-is-een-goed-onderwerp",
     "type": "aside-info",
     "contentIds": [
       "recYzPGw0obqlvv0r",
@@ -720,7 +720,7 @@
     "routeId": "recvllEn1RtSYTtuH"
   },
   {
-    "slug": "large",
+    "slug": "groot",
     "title": "Afgeronde brief",
     "type": "review",
     "contentIds": [
@@ -756,11 +756,7 @@
     "routeId": "recwdo8dQw6g3RqYT"
   },
   {
-    "type": "aside-institute",
-    "routeId": "recwje8QXI69G900p"
-  },
-  {
-    "slug": "privacy",
+    "slug": "privacy-verklaring",
     "title": "Privacyverklaring",
     "type": "page",
     "routeId": "recyYZiWGCb3POOvk"
