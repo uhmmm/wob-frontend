@@ -6,7 +6,7 @@ import { connect } from 'react-redux'
 import { InfoLinkRouted } from '../InfoLink'
 import { ListBubble } from '../List/ListBubble'
 import { ListInfo } from '../List/ListInfo'
-import { ListItemCheckbox } from '../List/linkCheckbox'
+import { ListItemCheckbox } from '../List/listCheckbox'
 
 import { type } from '../../../styles'
 import { getGroupedElementsBySlug } from '../../../reducers/elements'
