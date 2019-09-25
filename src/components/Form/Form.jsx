@@ -10,7 +10,6 @@ import { PaginationRouted } from './Pagination/Pagination'
 import { MainRouter } from './Main'
 import { ImagesRouted } from './Images/Images'
 import { AsideRouter } from './Aside'
-import { Logo } from '../Logo/Logo'
 
 import { colors } from '../../styles'
 import { getRouteBySlug } from '../../reducers/routes'
@@ -28,12 +27,6 @@ const LeftContainer = styled.section({
   padding: '8rem 8rem 12rem 8rem',
   background: colors.yellow,
   overflow: 'scroll'
-})
-
-const LeftSectionHeader = styled.div({
-  display: 'flex',
-  width: '100%',
-  margin: '0 0 4rem 0'
 })
 
 const RightContainer = styled.section({
@@ -56,9 +49,6 @@ const FormLayout = ({ route }) => (
       <title>{`WtW - ${route && route.title}`}</title>
     </Helmet>
     <LeftContainer>
-      <LeftSectionHeader>
-        <Logo />
-      </LeftSectionHeader>
       <MainRouter />
     </LeftContainer>
     <RightContainer>

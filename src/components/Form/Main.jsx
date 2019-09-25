@@ -3,6 +3,7 @@ import { Switch, Route } from 'react-router-dom'
 import styled from '@emotion/styled'
 import { connect } from 'react-redux'
 
+import { Logo } from '../Logo/Logo'
 import { ListBubble } from './List/ListBubble'
 import { ListInfo } from './List/ListInfo'
 import { ListCheckbox } from './List/ListCheckbox'
@@ -18,7 +19,15 @@ import { FilledLinkRouted } from '../FilledLink'
 import { type, colors } from '../../styles'
 import { getGroupedElementsBySlug } from '../../reducers/elements'
 
-const MainContainer = styled.main({})
+const MainContainer = styled.main({
+  display: 'flex',
+  flexDirection: 'column',
+  height: '100%'
+})
+const LogoContainer = styled.div({
+  margin: '0 0 4rem 0'
+})
+
 const Title = styled.h1({ ...type.title.medium, margin: '0 0 2rem' })
 const Text = styled.p({
   ...type.content.medium,
@@ -37,9 +46,11 @@ const TextBlock = ({ text, linkRouteId }) => {
 }
 
 const Main = ({ groupedElements }) => {
-  console.log(groupedElements)
   return (
     <MainContainer>
+      <LogoContainer>
+        <Logo />
+      </LogoContainer>
       {groupedElements &&
         groupedElements.base.map(el => {
           switch (el.type) {

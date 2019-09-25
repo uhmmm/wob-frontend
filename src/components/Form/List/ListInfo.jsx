@@ -5,12 +5,13 @@ import { InfoLinkRouted } from '../InfoLink'
 
 import { colors, type } from '../../../styles'
 
-const ListBubbleContainer = styled.ul({ margin: '0 0 2rem' })
+const ListInfoContainer = styled.ul({
+  justifySelf: 'flex-end'
+})
 
 const ListItemContainer = styled.li({
   ...type.content.medium,
   display: 'flex',
-  margin: '0 0 1rem',
   '&:last-of-type': {
     margin: '0 0 1rem'
   }
@@ -36,7 +37,7 @@ const ListItemInfo = ({ linkRouteId, text }) => (
 )
 
 const ListInfo = ({ elements }) => (
-  <ListBubbleContainer>
+  <ListInfoContainer>
     {elements.map((el, key) => {
       return (
         <ListItemInfo
@@ -46,7 +47,7 @@ const ListInfo = ({ elements }) => (
         />
       )
     })}
-  </ListBubbleContainer>
+  </ListInfoContainer>
 )
 
 export { ListInfo }
