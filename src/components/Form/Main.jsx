@@ -31,7 +31,6 @@ const TextBlock = ({ text, linkRouteId }) => {
 }
 
 const Main = ({ groupedElements }) => {
-  console.log(groupedElements)
   return (
     <MainContainer>
       {groupedElements &&
