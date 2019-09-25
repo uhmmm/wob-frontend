@@ -3,7 +3,6 @@ import { Switch, Route } from 'react-router-dom'
 import styled from '@emotion/styled'
 import { connect } from 'react-redux'
 
-import { InfoLinkRouted } from './InfoLink'
 import { ListBubble } from './List/ListBubble'
 import { ListInfo } from './List/ListInfo'
 import { ListCheckbox } from './List/ListCheckbox'
@@ -13,7 +12,8 @@ import { ContactDetails } from './ContactDetails'
 import { DateTimePicker } from './DateTimePicker'
 import { DocumentTypes } from './DocumentTypes'
 import { ButtonMedium } from '../Button'
-
+import { InfoLinkRouted } from './InfoLink'
+import { FilledLinkRouted } from '../FilledLink'
 import { type } from '../../styles'
 import { getGroupedElementsBySlug } from '../../reducers/elements'
 
@@ -104,7 +104,16 @@ const Main = ({ groupedElements }) => {
                 />
               )
             case 'buttonMedium':
-              return <ButtonMedium key={el.elementId}>{el.text}</ButtonMedium>
+              return el.linkRouteId ? (
+                <FilledLinkRouted
+                  key={el.elementId}
+                  linkRouteId={el.linkRouteId[0]}
+                >
+                  <ButtonMedium>{el.text}</ButtonMedium>
+                </FilledLinkRouted>
+              ) : (
+                <ButtonMedium key={el.elementId}>{el.text}</ButtonMedium>
+              )
             default:
               return null
           }

@@ -29,7 +29,6 @@ const Text = styled.p({ ...type.content.medium })
 const ButtonGroup = styled.div({ padding: '4rem 0' })
 
 const Aside = ({ elements }) => {
-  console.log(elements)
   return (
     <AsideContainer>
       {elements &&

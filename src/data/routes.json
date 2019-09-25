@@ -570,7 +570,10 @@
     "linkedImageId": [
       "recZ0gFCFJEwJJ9rN"
     ],
-    "routeId": "recmkybjDd9Wkf5hg"
+    "routeId": "recmkybjDd9Wkf5hg",
+    "linkedByElementIds": [
+      "rec4PQtcBtAiC5aVq"
+    ]
   },
   {
     "slug": "alles-over-onderwerp",
@@ -751,7 +754,10 @@
       "rec2n1K49XXOamDpq",
       "recahZmnHZdKqCdOs"
     ],
-    "routeId": "recwSLma6YuAxO7Pt"
+    "routeId": "recwSLma6YuAxO7Pt",
+    "linkedByElementIds": [
+      "rec2UciFBciH75aWT"
+    ]
   },
   {
     "slug": "alles-over-documenttypen",
