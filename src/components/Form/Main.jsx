@@ -14,12 +14,17 @@ import { DocumentTypes } from './DocumentTypes'
 import { ButtonMedium } from '../Button'
 import { InfoLinkRouted } from './InfoLink'
 import { FilledLinkRouted } from '../FilledLink'
-import { type } from '../../styles'
+
+import { type, colors } from '../../styles'
 import { getGroupedElementsBySlug } from '../../reducers/elements'
 
 const MainContainer = styled.main({})
 const Title = styled.h1({ ...type.title.medium, margin: '0 0 2rem' })
-const Text = styled.p({ ...type.content.medium, margin: '0 0 2rem' })
+const Text = styled.p({
+  ...type.content.medium,
+  margin: '0 0 2rem',
+  color: colors.darkestGrey
+})
 const TextSpan = styled.span({ margin: '0 1rem 0 0' })
 
 const TextBlock = ({ text, linkRouteId }) => {
@@ -32,6 +37,7 @@ const TextBlock = ({ text, linkRouteId }) => {
 }
 
 const Main = ({ groupedElements }) => {
+  console.log(groupedElements)
   return (
     <MainContainer>
       {groupedElements &&

@@ -17,7 +17,8 @@ const ListItemContainer = styled.li({
 })
 
 const Label = styled.label({
-  ...type.content.medium
+  ...type.content.medium,
+  color: colors.darkestGrey
 })
 
 const TextSpan = styled.span({

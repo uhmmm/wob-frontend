@@ -5,7 +5,9 @@
     "routeId": [
       "recJn1Ksk3OZIFFSK"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 89,
     "elementId": "rec0ExWBoWLuHkGfj",
     "routeType": [
@@ -18,7 +20,9 @@
     "routeId": [
       "reczR2gc10ApJFFBE"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 143,
     "elementId": "rec0dIWiLykRcEZJQ",
     "routeType": [
@@ -34,7 +38,9 @@
     "linkRouteId": [
       "recv02YYylO77PUOI"
     ],
-    "partOf": "listInfo",
+    "partOf": [
+      "listInfo"
+    ],
     "order": 66,
     "elementId": "rec0eJ8ro96nm3QWC",
     "routeType": [
@@ -50,7 +56,9 @@
     "linkRouteId": [
       "recj307J0TzHpdEMT"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 71,
     "elementId": "rec0tMoPiwNKVtkXT",
     "routeType": [
@@ -66,7 +74,9 @@
     "linkRouteId": [
       "recc3iR8FvflhqhhB"
     ],
-    "partOf": "listInfo",
+    "partOf": [
+      "listInfo"
+    ],
     "order": 150,
     "elementId": "rec138n01NQ9fh31R",
     "routeType": [
@@ -79,7 +89,9 @@
     "routeId": [
       "recVp99Blj0rjwYov"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 33,
     "elementId": "rec1Foyd0JQWGJyZU",
     "routeType": [
@@ -92,7 +104,9 @@
     "routeId": [
       "recc3iR8FvflhqhhB"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 151,
     "elementId": "rec1HQVQ9FYaRvzmn",
     "routeType": [
@@ -105,7 +119,9 @@
     "routeId": [
       "rechhv82awVzZNu2c"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 72,
     "elementId": "rec1YhxCT4tdUROGG",
     "routeType": [
@@ -118,7 +134,9 @@
     "routeId": [
       "recvBgzyf1d88SkiI"
     ],
-    "partOf": "pageHeader",
+    "partOf": [
+      "pageHeader"
+    ],
     "order": 187,
     "elementId": "rec1dE18cqjjk5ObN",
     "routeType": [
@@ -131,7 +149,9 @@
     "routeId": [
       "rec5o7VxmQtRZf5ZD"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 19,
     "elementId": "rec1fIZ0VFJNp28WS",
     "routeType": [
@@ -144,7 +164,9 @@
     "routeId": [
       "recWdvbbSPgPUWkSc"
     ],
-    "partOf": "formDocumentTypes",
+    "partOf": [
+      "formDocumentTypes"
+    ],
     "order": 94,
     "elementId": "rec2CWNnWuqdes3l9",
     "routeType": [
@@ -157,14 +179,16 @@
     "routeId": [
       "recb4PQRUH0aoXD6X"
     ],
-    "partOf": "base",
+    "linkRouteId": [
+      "recwSLma6YuAxO7Pt"
+    ],
+    "partOf": [
+      "base"
+    ],
     "order": 159,
     "elementId": "rec2UciFBciH75aWT",
     "routeType": [
       "form"
-    ],
-    "linkRouteId": [
-      "recwSLma6YuAxO7Pt"
     ]
   },
   {
@@ -173,7 +197,9 @@
     "routeId": [
       "recwSLma6YuAxO7Pt"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 182,
     "elementId": "rec2n1K49XXOamDpq",
     "routeType": [
@@ -185,7 +211,9 @@
     "routeId": [
       "recWdvbbSPgPUWkSc"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 168,
     "elementId": "rec2sqmTYU1eTyYNf",
     "routeType": [
@@ -197,7 +225,9 @@
     "routeId": [
       "recLM00uQGCtyoAHn"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 191,
     "elementId": "rec2wh9Fdofd7oMbb",
     "routeType": [
@@ -210,7 +240,9 @@
     "routeId": [
       "recIkzk83HjjxfJKT"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 147,
     "elementId": "rec3UCgOMwowIzdzI",
     "routeType": [
@@ -223,7 +255,9 @@
     "routeId": [
       "recR3xSpTuROzmcXP"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 108,
     "elementId": "rec3d0CW6ORDaoiqR",
     "routeType": [
@@ -236,7 +270,9 @@
     "routeId": [
       "recb4PQRUH0aoXD6X"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 157,
     "elementId": "rec3hk8uoZfhxRRw5",
     "routeType": [
@@ -244,19 +280,37 @@
     ]
   },
   {
+    "type": "label",
+    "order": 216,
+    "elementId": "rec3l9cWCPsjprOX4",
+    "partOf": [
+      "formContactDetails",
+      "formContactDetails/plaatsnaam"
+    ],
+    "routeId": [
+      "recXFPF4VRj3yvCLg"
+    ],
+    "routeType": [
+      "form"
+    ],
+    "text": "Woonplaats"
+  },
+  {
     "text": "EXTRA OPTIES",
     "type": "buttonMedium",
     "routeId": [
       "recb4PQRUH0aoXD6X"
     ],
-    "partOf": "base",
+    "linkRouteId": [
+      "recmkybjDd9Wkf5hg"
+    ],
+    "partOf": [
+      "base"
+    ],
     "order": 158,
     "elementId": "rec4PQtcBtAiC5aVq",
     "routeType": [
       "form"
-    ],
-    "linkRouteId": [
-      "recmkybjDd9Wkf5hg"
     ]
   },
   {
@@ -265,7 +319,9 @@
     "routeId": [
       "recmkybjDd9Wkf5hg"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 160,
     "elementId": "rec4QqRQH4skCqh9L",
     "routeType": [
@@ -278,7 +334,9 @@
     "routeId": [
       "recNnmOiLS8wDcp6c"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 10,
     "elementId": "rec4ttx1ZgNHUUBKJ",
     "routeType": [
@@ -291,7 +349,9 @@
     "routeId": [
       "recS1bPIRb1IMyqRJ"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 116,
     "elementId": "rec4zBalyaZM5MUqC",
     "routeType": [
@@ -304,7 +364,9 @@
     "routeId": [
       "recS1bPIRb1IMyqRJ"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 115,
     "elementId": "rec5PzIMsMJhyWSj7",
     "routeType": [
@@ -320,7 +382,9 @@
     "linkRouteId": [
       "rectXaEyBdDcOyeGa"
     ],
-    "partOf": "listCheck",
+    "partOf": [
+      "listCheck"
+    ],
     "order": 164,
     "elementId": "rec5hz2p6HMPnqlGs",
     "routeType": [
@@ -336,7 +400,9 @@
     "linkRouteId": [
       "recNnmOiLS8wDcp6c"
     ],
-    "partOf": "listCheck",
+    "partOf": [
+      "listCheck"
+    ],
     "order": 73,
     "elementId": "rec5ra3ua4vhEd7EB",
     "routeType": [
@@ -348,7 +414,9 @@
     "routeId": [
       "recWdvbbSPgPUWkSc"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 198,
     "elementId": "rec5xIAU7YSqaarPX",
     "routeType": [
@@ -360,7 +428,9 @@
     "routeId": [
       "recfvKGrVYxw2Y6Zl"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 208,
     "elementId": "rec6KJBxDDIJSXqHg",
     "routeType": [
@@ -373,7 +443,9 @@
     "routeId": [
       "recb0ga4MXJN4XP0N"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 140,
     "elementId": "rec8ZLUFszgk1jEMw",
     "routeType": [
@@ -385,7 +457,9 @@
     "routeId": [
       "recIkzk83HjjxfJKT"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 149,
     "elementId": "rec8f8OiEuJ0ivmtd",
     "routeType": [
@@ -393,12 +467,30 @@
     ]
   },
   {
+    "type": "label",
+    "order": 214,
+    "elementId": "rec8q2SSdu07C61l0",
+    "partOf": [
+      "formContactDetails",
+      "formContactDetails/huisnummer"
+    ],
+    "routeId": [
+      "recXFPF4VRj3yvCLg"
+    ],
+    "routeType": [
+      "form"
+    ],
+    "text": "Nr."
+  },
+  {
     "text": "Alles of specifiek?",
     "type": "title",
     "routeId": [
       "recsXVE7yH4Go2Jds"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 77,
     "elementId": "recAklG1ZcF4bZsne",
     "routeType": [
@@ -411,7 +503,9 @@
     "routeId": [
       "recb0ga4MXJN4XP0N"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 142,
     "elementId": "recAnb7JAg4u4zbl4",
     "routeType": [
@@ -427,7 +521,9 @@
     "linkRouteId": [
       "recLKYD9zDdom9Bbe"
     ],
-    "partOf": "listCheck",
+    "partOf": [
+      "listCheck"
+    ],
     "order": 163,
     "elementId": "recAq6PLfRb1fjwLy",
     "routeType": [
@@ -443,7 +539,9 @@
     "linkRouteId": [
       "recMuOYmIyWDTyzQU"
     ],
-    "partOf": "listCheck",
+    "partOf": [
+      "listCheck"
+    ],
     "order": 165,
     "elementId": "recBe4rSZuSTzuVlx",
     "routeType": [
@@ -451,12 +549,30 @@
     ]
   },
   {
+    "text": "verplicht",
+    "type": "error",
+    "routeId": [
+      "recXFPF4VRj3yvCLg"
+    ],
+    "partOf": [
+      "formContactDetails",
+      "formContactDetails/huisnummer"
+    ],
+    "order": 221,
+    "routeType": [
+      "form"
+    ],
+    "elementId": "recBw9RxZt7SgygcB"
+  },
+  {
     "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
     "type": "content",
     "routeId": [
       "recrzse37LenTq7dY"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 135,
     "elementId": "recBwFRLuEuE9uU6C",
     "routeType": [
@@ -472,7 +588,9 @@
     "linkRouteId": [
       "recPILpzPpOxU5PuR"
     ],
-    "partOf": "listInfo",
+    "partOf": [
+      "listInfo"
+    ],
     "order": 100,
     "elementId": "recCK9BacPd0yLQfh",
     "routeType": [
@@ -480,12 +598,46 @@
     ]
   },
   {
+    "text": "verplicht",
+    "type": "error",
+    "routeId": [
+      "recXFPF4VRj3yvCLg"
+    ],
+    "partOf": [
+      "formContactDetails",
+      "formContactDetails/telefoonnummer"
+    ],
+    "order": 225,
+    "routeType": [
+      "form"
+    ],
+    "elementId": "recCrGBwRU3xUOr35"
+  },
+  {
+    "text": "verplicht",
+    "type": "error",
+    "routeId": [
+      "recXFPF4VRj3yvCLg"
+    ],
+    "partOf": [
+      "formContactDetails",
+      "formContactDetails/plaatsnaam"
+    ],
+    "order": 223,
+    "routeType": [
+      "form"
+    ],
+    "elementId": "recD0oBdMB5qQE1Jg"
+  },
+  {
     "text": "Uitnodigingen",
     "type": "listItemCheckWhite",
     "routeId": [
       "recR3xSpTuROzmcXP"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 103,
     "elementId": "recD3h2tLdENttC9F",
     "routeType": [
@@ -493,17 +645,23 @@
     ]
   },
   {
-    "text": "Nr.",
     "type": "inputSmall",
     "routeId": [
       "recXFPF4VRj3yvCLg"
     ],
-    "partOf": "formContactDetails",
+    "partOf": [
+      "formContactDetails",
+      "formContactDetails/huisnummer"
+    ],
     "order": 202,
     "elementId": "recDFos2u6RQmpxWX",
     "routeType": [
       "form"
-    ]
+    ],
+    "details": [
+      "size25"
+    ],
+    "text": "7"
   },
   {
     "text": "Ingekomen stukken",
@@ -511,7 +669,9 @@
     "routeId": [
       "recR3xSpTuROzmcXP"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 105,
     "elementId": "recDJUzaibjJk1Q0Z",
     "routeType": [
@@ -524,7 +684,9 @@
     "routeId": [
       "recb4PQRUH0aoXD6X"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 156,
     "elementId": "recDMcEhYi0uJCdub",
     "routeType": [
@@ -537,7 +699,9 @@
     "routeId": [
       "rec9Dw2AnuF75GNl2"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 127,
     "elementId": "recDPIjq5jAJfoMP5",
     "routeType": [
@@ -553,7 +717,9 @@
     "linkRouteId": [
       "recF44AQShm3vLYVT"
     ],
-    "partOf": "listInfo",
+    "partOf": [
+      "listInfo"
+    ],
     "order": 74,
     "elementId": "recDaSEc0a5VN3dJc",
     "routeType": [
@@ -566,7 +732,9 @@
     "routeId": [
       "reclTWVdtOxtGFAlR"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 17,
     "elementId": "recDwVXLLLcObMGgB",
     "routeType": [
@@ -579,7 +747,9 @@
     "routeId": [
       "recfvKGrVYxw2Y6Zl"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 56,
     "elementId": "recE2EzvkMlVnUSvW",
     "routeType": [
@@ -595,7 +765,9 @@
     "linkRouteId": [
       "recY5qsUjwzu2FKa4"
     ],
-    "partOf": "listCheck",
+    "partOf": [
+      "listCheck"
+    ],
     "order": 174,
     "elementId": "recEJoJ2Scp6OXXNJ",
     "routeType": [
@@ -608,7 +780,9 @@
     "routeId": [
       "rec9Dw2AnuF75GNl2"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 133,
     "elementId": "recEf4vGmb2VUn8wP",
     "routeType": [
@@ -624,7 +798,9 @@
     "linkRouteId": [
       "rec2ShlT3krqr1pVj"
     ],
-    "partOf": "listInfo",
+    "partOf": [
+      "listInfo"
+    ],
     "order": 55,
     "elementId": "recEhIE7WgfBtFJ9l",
     "routeType": [
@@ -637,7 +813,9 @@
     "routeId": [
       "rec8daE4lrLHstC6u"
     ],
-    "partOf": "formPeople",
+    "partOf": [
+      "formPeople"
+    ],
     "order": 126,
     "elementId": "recF7fpJjYTE6D2xR",
     "routeType": [
@@ -649,7 +827,9 @@
     "routeId": [
       "recsXVE7yH4Go2Jds"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 210,
     "elementId": "recFhMBExrdvFTKay",
     "routeType": [
@@ -662,7 +842,9 @@
     "routeId": [
       "recsXVE7yH4Go2Jds"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 78,
     "elementId": "recFizYOd0uVuX7ox",
     "routeType": [
@@ -675,7 +857,9 @@
     "routeId": [
       "recVp99Blj0rjwYov"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 13,
     "elementId": "recG0tAtjt14kvtLu",
     "routeType": [
@@ -688,7 +872,9 @@
     "routeId": [
       "recv6iVTRTh27ylhL"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 63,
     "elementId": "recGOiiZ4IqEouKbK",
     "routeType": [
@@ -704,7 +890,9 @@
     "linkRouteId": [
       "reclTWVdtOxtGFAlR"
     ],
-    "partOf": "listCheck",
+    "partOf": [
+      "listCheck"
+    ],
     "order": 172,
     "elementId": "recH5nH9yTVb5ZHSY",
     "routeType": [
@@ -717,7 +905,9 @@
     "routeId": [
       "recS1bPIRb1IMyqRJ"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 112,
     "elementId": "recH9C20mHWHgQxhI",
     "routeType": [
@@ -733,7 +923,9 @@
     "linkRouteId": [
       "recvllEn1RtSYTtuH"
     ],
-    "partOf": "listCheck",
+    "partOf": [
+      "listCheck"
+    ],
     "order": 58,
     "elementId": "recHPwQPFyvuhSN7D",
     "routeType": [
@@ -745,7 +937,9 @@
     "routeId": [
       "recsW8iUGWbySdl1T"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 171,
     "elementId": "recHTRDKG6kBsj8Qp",
     "routeType": [
@@ -758,7 +952,9 @@
     "routeId": [
       "recMuOYmIyWDTyzQU"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 18,
     "elementId": "recHTtLjH0X1bJPnE",
     "routeType": [
@@ -771,7 +967,9 @@
     "routeId": [
       "recY5qsUjwzu2FKa4"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 45,
     "elementId": "recHzVNarMIZanGnh",
     "routeType": [
@@ -787,7 +985,9 @@
     "linkRouteId": [
       "reczR2gc10ApJFFBE"
     ],
-    "partOf": "formDocumentTypes",
+    "partOf": [
+      "formDocumentTypes"
+    ],
     "order": 99,
     "elementId": "recHzYcXvYImJiLJv",
     "routeType": [
@@ -800,7 +1000,9 @@
     "routeId": [
       "recv02YYylO77PUOI"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 46,
     "elementId": "recISsJXWInsdXKPA",
     "routeType": [
@@ -813,7 +1015,9 @@
     "routeId": [
       "recXFPF4VRj3yvCLg"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 54,
     "elementId": "recIk4nnJVf8jaF1d",
     "routeType": [
@@ -829,7 +1033,9 @@
     "linkRouteId": [
       "recIuYOcPfLmamsMF"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 51,
     "elementId": "recJMFiPIBtkx5Ro5",
     "routeType": [
@@ -842,7 +1048,9 @@
     "routeId": [
       "recvBgzyf1d88SkiI"
     ],
-    "partOf": "pageHeader",
+    "partOf": [
+      "pageHeader"
+    ],
     "order": 190,
     "elementId": "recJemAjiQBIQR9Pt",
     "routeType": [
@@ -858,7 +1066,9 @@
     "linkRouteId": [
       "rec0wsNO24WV79OwJ"
     ],
-    "partOf": "listCheck",
+    "partOf": [
+      "listCheck"
+    ],
     "order": 60,
     "elementId": "recJhS0LioudP6Rwl",
     "routeType": [
@@ -871,7 +1081,9 @@
     "routeId": [
       "recwSLma6YuAxO7Pt"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 177,
     "elementId": "recJxg4mw8rxSLwJU",
     "routeType": [
@@ -884,7 +1096,9 @@
     "routeId": [
       "recR3xSpTuROzmcXP"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 106,
     "elementId": "recKE3Nr6VcImBoTk",
     "routeType": [
@@ -897,7 +1111,9 @@
     "routeId": [
       "recrzse37LenTq7dY"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 134,
     "elementId": "recKi9S1MYQv9iF9c",
     "routeType": [
@@ -905,12 +1121,30 @@
     ]
   },
   {
+    "type": "label",
+    "order": 218,
+    "elementId": "recL7SNmfGbWfjx8Z",
+    "partOf": [
+      "formContactDetails",
+      "formContactDetails/telefoonnummer"
+    ],
+    "routeId": [
+      "recXFPF4VRj3yvCLg"
+    ],
+    "routeType": [
+      "form"
+    ],
+    "text": "Telefoonnummer"
+  },
+  {
     "text": "E-mails kunnen veel inzicht geven in het besluitvormingsproces, de toon waarin tussen bepaalde personen gecommuniceerd wordt en de frequentie van het contact. Maar e-mails kunnen ook over volstrekt irrelevante zaken gaan, zoals de hoeveelheid broodjes die bij de vergadering zijn besteld. Bedenk dus of e-mails in het geval van jouw verzoek relevant zijn.",
     "type": "content",
     "routeId": [
       "rec8daE4lrLHstC6u"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 119,
     "elementId": "recLIShbCfLyZpU6j",
     "routeType": [
@@ -922,7 +1156,9 @@
     "routeId": [
       "recXFPF4VRj3yvCLg"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 62,
     "elementId": "recLXKmdr5Nty5gH6",
     "routeType": [
@@ -938,7 +1174,9 @@
     "linkRouteId": [
       "recJn1Ksk3OZIFFSK"
     ],
-    "partOf": "formSpecificDocuments",
+    "partOf": [
+      "formSpecificDocuments"
+    ],
     "order": 84,
     "elementId": "recM6OBiPPogQ6x85",
     "routeType": [
@@ -950,7 +1188,9 @@
     "routeId": [
       "rechhv82awVzZNu2c"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 197,
     "elementId": "recMAu2ygO4PpKxYy",
     "routeType": [
@@ -963,7 +1203,9 @@
     "routeId": [
       "recvBgzyf1d88SkiI"
     ],
-    "partOf": "pageHeader",
+    "partOf": [
+      "pageHeader"
+    ],
     "order": 189,
     "elementId": "recMQW9i6XFDzBeKe",
     "routeType": [
@@ -976,7 +1218,9 @@
     "routeId": [
       "recwSLma6YuAxO7Pt"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 179,
     "elementId": "recMQnhMZ7CgJtKhn",
     "routeType": [
@@ -984,17 +1228,39 @@
     ]
   },
   {
-    "text": "Woonplaats",
+    "text": "Amsterdam",
     "type": "inputSmall",
     "routeId": [
       "recXFPF4VRj3yvCLg"
     ],
-    "partOf": "formContactDetails",
+    "partOf": [
+      "formContactDetails",
+      "formContactDetails/plaatsnaam"
+    ],
     "order": 204,
     "elementId": "recMep7bTlJ0idWpL",
     "routeType": [
       "form"
+    ],
+    "details": [
+      "size50"
     ]
+  },
+  {
+    "text": "verplicht",
+    "type": "error",
+    "routeId": [
+      "recXFPF4VRj3yvCLg"
+    ],
+    "partOf": [
+      "formContactDetails",
+      "formContactDetails/email"
+    ],
+    "order": 224,
+    "routeType": [
+      "form"
+    ],
+    "elementId": "recNIdhmFrjVlt8l9"
   },
   {
     "text": "Pesentaties",
@@ -1002,7 +1268,9 @@
     "routeId": [
       "recS1bPIRb1IMyqRJ"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 117,
     "elementId": "recNUbSmKvq8omWEK",
     "routeType": [
@@ -1014,7 +1282,9 @@
     "routeId": [
       "rechhv82awVzZNu2c"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 209,
     "elementId": "recNrjUOpW02Khnjq",
     "routeType": [
@@ -1027,7 +1297,9 @@
     "routeId": [
       "recrzse37LenTq7dY"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 136,
     "elementId": "recODhJCVre31aegr",
     "routeType": [
@@ -1040,7 +1312,9 @@
     "routeId": [
       "rec8daE4lrLHstC6u"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 118,
     "elementId": "recOUKno83Z2AjMzo",
     "routeType": [
@@ -1053,7 +1327,9 @@
     "routeId": [
       "rec1eWCNlmdQUL8bW"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 8,
     "elementId": "recP30ie4eTXRE6Ej",
     "routeType": [
@@ -1066,7 +1342,9 @@
     "routeId": [
       "recY5qsUjwzu2FKa4"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 16,
     "elementId": "recPEPcO5ci6FvuHB",
     "routeType": [
@@ -1079,7 +1357,9 @@
     "routeId": [
       "rechhv82awVzZNu2c"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 70,
     "elementId": "recPYQ3m6s9PrrqiX",
     "routeType": [
@@ -1092,7 +1372,9 @@
     "routeId": [
       "recR3xSpTuROzmcXP"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 110,
     "elementId": "recPhsQOZnvnSVaGJ",
     "routeType": [
@@ -1105,7 +1387,9 @@
     "routeId": [
       "recvllEn1RtSYTtuH"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 1,
     "elementId": "recQK7hU3XyS1pBrc",
     "routeType": [
@@ -1118,7 +1402,9 @@
     "routeId": [
       "recmkybjDd9Wkf5hg"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 161,
     "elementId": "recR7Dwpyu8nHsc68",
     "routeType": [
@@ -1131,7 +1417,9 @@
     "routeId": [
       "reclTWVdtOxtGFAlR"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 31,
     "elementId": "recRCISLfMgTYpKW9",
     "routeType": [
@@ -1144,7 +1432,9 @@
     "routeId": [
       "recIuYOcPfLmamsMF"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 2,
     "elementId": "recRdBbNWMUvbyWoj",
     "routeType": [
@@ -1160,7 +1450,9 @@
     "linkRouteId": [
       "recieD9WELmtn0ZQt"
     ],
-    "partOf": "listCheck",
+    "partOf": [
+      "listCheck"
+    ],
     "order": 167,
     "elementId": "recRtqJLnPK3Ds67C",
     "routeType": [
@@ -1173,7 +1465,9 @@
     "routeId": [
       "recieD9WELmtn0ZQt"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 22,
     "elementId": "recRtxCR2iH9xfnDe",
     "routeType": [
@@ -1186,7 +1480,9 @@
     "routeId": [
       "recpS5ubR52aN9sRF"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 3,
     "elementId": "recSSI2Rw6njpCRlL",
     "routeType": [
@@ -1202,7 +1498,9 @@
     "linkRouteId": [
       "recnVLQCE4Z3gfeQN"
     ],
-    "partOf": "listCheck",
+    "partOf": [
+      "listCheck"
+    ],
     "order": 80,
     "elementId": "recSYdmoT7ViIZadZ",
     "routeType": [
@@ -1218,7 +1516,9 @@
     "linkRouteId": [
       "recVp99Blj0rjwYov"
     ],
-    "partOf": "formSpecificDocuments",
+    "partOf": [
+      "formSpecificDocuments"
+    ],
     "order": 86,
     "elementId": "recTGupDyhM1gghh4",
     "routeType": [
@@ -1231,7 +1531,9 @@
     "routeId": [
       "recPILpzPpOxU5PuR"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 14,
     "elementId": "recTXVjRm8zmKMBEN",
     "routeType": [
@@ -1244,7 +1546,9 @@
     "routeId": [
       "recj307J0TzHpdEMT"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 76,
     "elementId": "recTZrAACb9Ii0KQ1",
     "routeType": [
@@ -1257,7 +1561,9 @@
     "routeId": [
       "recSx2NzrOTdbxZR5"
     ],
-    "partOf": "pageHeader",
+    "partOf": [
+      "pageHeader"
+    ],
     "order": 185,
     "elementId": "recUcCT0qWsIHa8mq",
     "routeType": [
@@ -1270,7 +1576,9 @@
     "routeId": [
       "rectXaEyBdDcOyeGa"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 15,
     "elementId": "recUp4l9ni3iquTxh",
     "routeType": [
@@ -1283,7 +1591,9 @@
     "routeId": [
       "recB4QxrYPlOnqBTB"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 12,
     "elementId": "recWLAfhZlfiYmMda",
     "routeType": [
@@ -1296,7 +1606,9 @@
     "routeId": [
       "rec5o7VxmQtRZf5ZD"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 32,
     "elementId": "recWTySpTyV8zT4y5",
     "routeType": [
@@ -1309,7 +1621,9 @@
     "routeId": [
       "rec8daE4lrLHstC6u"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 122,
     "elementId": "recWVbAgi4WrDRBRX",
     "routeType": [
@@ -1321,7 +1635,9 @@
     "routeId": [
       "recwdo8dQw6g3RqYT"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 193,
     "elementId": "recWypac9YgPycqlZ",
     "routeType": [
@@ -1334,7 +1650,9 @@
     "routeId": [
       "recS1bPIRb1IMyqRJ"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 111,
     "elementId": "recX1IezQdvVzJFyA",
     "routeType": [
@@ -1347,7 +1665,9 @@
     "routeId": [
       "rec9Dw2AnuF75GNl2"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 128,
     "elementId": "recX9yVVEKhNoxe0Y",
     "routeType": [
@@ -1359,7 +1679,9 @@
     "routeId": [
       "rec9Dw2AnuF75GNl2"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 170,
     "elementId": "recXDaR2z38KLxVnk",
     "routeType": [
@@ -1371,7 +1693,9 @@
     "routeId": [
       "rec8daE4lrLHstC6u"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 169,
     "elementId": "recXtzL17tou3KdUW",
     "routeType": [
@@ -1379,17 +1703,51 @@
     ]
   },
   {
+    "type": "label",
+    "order": 217,
+    "elementId": "recYrExKlXaZgnUzU",
+    "partOf": [
+      "formContactDetails",
+      "formContactDetails/email"
+    ],
+    "routeId": [
+      "recXFPF4VRj3yvCLg"
+    ],
+    "routeType": [
+      "form"
+    ],
+    "text": "E-mailadres"
+  },
+  {
     "text": "Onderwerp",
     "type": "title",
     "routeId": [
       "recj307J0TzHpdEMT"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 75,
     "elementId": "recYzPGw0obqlvv0r",
     "routeType": [
       "aside-info"
     ]
+  },
+  {
+    "type": "label",
+    "order": 213,
+    "elementId": "recZQ5ABHdhZpjGMB",
+    "partOf": [
+      "formContactDetails",
+      "formContactDetails/adres"
+    ],
+    "routeId": [
+      "recXFPF4VRj3yvCLg"
+    ],
+    "routeType": [
+      "form"
+    ],
+    "text": "Adres"
   },
   {
     "text": "Beleefdheidsconventie van de geadresseerde",
@@ -1400,7 +1758,9 @@
     "linkRouteId": [
       "rechNu7XVT6G3ByRy"
     ],
-    "partOf": "listInfo",
+    "partOf": [
+      "listInfo"
+    ],
     "order": 67,
     "elementId": "recZX4P9yqUJuOlcl",
     "routeType": [
@@ -1413,7 +1773,9 @@
     "routeId": [
       "reczR2gc10ApJFFBE"
     ],
-    "partOf": "formSpecialeDocumenten",
+    "partOf": [
+      "formSpecialeDocumenten"
+    ],
     "order": 146,
     "elementId": "recZZGDtVDAFtxq6B",
     "routeType": [
@@ -1429,7 +1791,9 @@
     "linkRouteId": [
       "recpS5ubR52aN9sRF"
     ],
-    "partOf": "listCheck",
+    "partOf": [
+      "listCheck"
+    ],
     "order": 59,
     "elementId": "recZuJsos4ZyxOFHL",
     "routeType": [
@@ -1437,12 +1801,30 @@
     ]
   },
   {
+    "type": "label",
+    "order": 215,
+    "elementId": "recaB2vvGtwgOzxAy",
+    "partOf": [
+      "formContactDetails",
+      "formContactDetails/postcode"
+    ],
+    "routeId": [
+      "recXFPF4VRj3yvCLg"
+    ],
+    "routeType": [
+      "form"
+    ],
+    "text": "Postcode"
+  },
+  {
     "text": "NEE, LIEVER NIET",
     "type": "buttonSmall",
     "routeId": [
       "recwSLma6YuAxO7Pt"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 183,
     "elementId": "recahZmnHZdKqCdOs",
     "routeType": [
@@ -1455,7 +1837,9 @@
     "routeId": [
       "recwdo8dQw6g3RqYT"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 153,
     "elementId": "recaxVwUwVScRVfDw",
     "routeType": [
@@ -1467,7 +1851,9 @@
     "routeId": [
       "recIkzk83HjjxfJKT"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 194,
     "elementId": "recb4AG0ARJCuMCYh",
     "routeType": [
@@ -1480,7 +1866,9 @@
     "routeId": [
       "recnVLQCE4Z3gfeQN"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 11,
     "elementId": "recbY2h2SRCxNsB5q",
     "routeType": [
@@ -1493,7 +1881,9 @@
     "routeId": [
       "reciRZMWtGbWkqveO"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 35,
     "elementId": "recc0uWhMX2HG7pEL",
     "routeType": [
@@ -1506,7 +1896,9 @@
     "routeId": [
       "recB4QxrYPlOnqBTB"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 34,
     "elementId": "recc6AU9IrQRhaAoM",
     "routeType": [
@@ -1522,7 +1914,9 @@
     "linkRouteId": [
       "reciRZMWtGbWkqveO"
     ],
-    "partOf": "listCheck",
+    "partOf": [
+      "listCheck"
+    ],
     "order": 173,
     "elementId": "reccCfNt7kL6VgCpZ",
     "routeType": [
@@ -1535,7 +1929,9 @@
     "routeId": [
       "recemOBeTquFD8Vdd"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 21,
     "elementId": "reccYopqP7Ak5MnbF",
     "routeType": [
@@ -1548,7 +1944,9 @@
     "routeId": [
       "recWdvbbSPgPUWkSc"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 91,
     "elementId": "recd1oL1T61n2xfMv",
     "routeType": [
@@ -1561,7 +1959,9 @@
     "routeId": [
       "rec8daE4lrLHstC6u"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 120,
     "elementId": "recdNd2aJdVPyB3aZ",
     "routeType": [
@@ -1574,7 +1974,9 @@
     "routeId": [
       "recwSLma6YuAxO7Pt"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 176,
     "elementId": "recdVYLeyDvvFhbfQ",
     "routeType": [
@@ -1587,7 +1989,9 @@
     "routeId": [
       "recv02YYylO77PUOI"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 7,
     "elementId": "recdcI0RSY0jFwJWV",
     "routeType": [
@@ -1600,7 +2004,9 @@
     "routeId": [
       "recmkybjDd9Wkf5hg"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 162,
     "elementId": "recdnKqQcUtENMAKl",
     "routeType": [
@@ -1613,7 +2019,9 @@
     "routeId": [
       "recWxAXxUfDlJS7q4"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 36,
     "elementId": "recdvRwRPY5ozgXBT",
     "routeType": [
@@ -1626,7 +2034,9 @@
     "routeId": [
       "recLM00uQGCtyoAHn"
     ],
-    "partOf": "listBubble",
+    "partOf": [
+      "listBubble"
+    ],
     "order": 61,
     "elementId": "rece59ycDvorbgRIl",
     "routeType": [
@@ -1639,7 +2049,9 @@
     "routeId": [
       "recR3xSpTuROzmcXP"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 109,
     "elementId": "receLULbEUTR4kgaj",
     "routeType": [
@@ -1655,7 +2067,9 @@
     "linkRouteId": [
       "recrzse37LenTq7dY"
     ],
-    "partOf": "formDocumentTypes",
+    "partOf": [
+      "formDocumentTypes"
+    ],
     "order": 97,
     "elementId": "recePDWL3tuprSaED",
     "routeType": [
@@ -1671,7 +2085,9 @@
     "linkRouteId": [
       "recB4QxrYPlOnqBTB"
     ],
-    "partOf": "formSpecificDocuments",
+    "partOf": [
+      "formSpecificDocuments"
+    ],
     "order": 85,
     "elementId": "recebeQELUwxhvotH",
     "routeType": [
@@ -1684,7 +2100,9 @@
     "routeId": [
       "reczR2gc10ApJFFBE"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 144,
     "elementId": "recem3AJHMlanY5eh",
     "routeType": [
@@ -1697,7 +2115,9 @@
     "routeId": [
       "reczR2gc10ApJFFBE"
     ],
-    "partOf": "formSpecialeDocumenten",
+    "partOf": [
+      "formSpecialeDocumenten"
+    ],
     "order": 145,
     "elementId": "recesRaD0TNJuTnIc",
     "routeType": [
@@ -1710,7 +2130,9 @@
     "routeId": [
       "recMuOYmIyWDTyzQU"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 25,
     "elementId": "recfSAhUlYrvJ9s6J",
     "routeType": [
@@ -1723,7 +2145,9 @@
     "routeId": [
       "recvllEn1RtSYTtuH"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 26,
     "elementId": "recfigDFrYY7kOlTj",
     "routeType": [
@@ -1736,7 +2160,9 @@
     "routeId": [
       "recSx2NzrOTdbxZR5"
     ],
-    "partOf": "pageHeader",
+    "partOf": [
+      "pageHeader"
+    ],
     "order": 186,
     "elementId": "rech7Yiuh13NcEX06",
     "routeType": [
@@ -1749,7 +2175,9 @@
     "routeId": [
       "rec0wsNO24WV79OwJ"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 27,
     "elementId": "rechCBoQ9jeOO0XrY",
     "routeType": [
@@ -1757,12 +2185,30 @@
     ]
   },
   {
+    "text": "verplicht",
+    "type": "error",
+    "routeId": [
+      "recXFPF4VRj3yvCLg"
+    ],
+    "partOf": [
+      "formContactDetails",
+      "formContactDetails/naam"
+    ],
+    "order": 219,
+    "routeType": [
+      "form"
+    ],
+    "elementId": "rechbBCHVCedDOgOf"
+  },
+  {
     "text": "Memo’s en notities",
     "type": "listItemCheckWhite",
     "routeId": [
       "rec8daE4lrLHstC6u"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 123,
     "elementId": "recheedJH6o6PKREQ",
     "routeType": [
@@ -1778,7 +2224,9 @@
     "linkRouteId": [
       "rec1eWCNlmdQUL8bW"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 82,
     "elementId": "rechnOtUYBFQ9FY8z",
     "routeType": [
@@ -1791,7 +2239,9 @@
     "routeId": [
       "recb0ga4MXJN4XP0N"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 139,
     "elementId": "reciFKIlPHgKCgVFd",
     "routeType": [
@@ -1804,7 +2254,9 @@
     "routeId": [
       "recXFPF4VRj3yvCLg"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 50,
     "elementId": "reciKCyRJyNVYXCAH",
     "routeType": [
@@ -1817,7 +2269,9 @@
     "routeId": [
       "reciRZMWtGbWkqveO"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 23,
     "elementId": "recirAx4o2zzM5Za7",
     "routeType": [
@@ -1830,7 +2284,9 @@
     "routeId": [
       "recrzse37LenTq7dY"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 137,
     "elementId": "recj2BI6BRtaAJPn2",
     "routeType": [
@@ -1843,7 +2299,9 @@
     "routeId": [
       "recLKYD9zDdom9Bbe"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 20,
     "elementId": "recjD5rTfqazOVTsi",
     "routeType": [
@@ -1856,7 +2314,9 @@
     "routeId": [
       "recsW8iUGWbySdl1T"
     ],
-    "partOf": "formSpecificDocuments",
+    "partOf": [
+      "formSpecificDocuments"
+    ],
     "order": 88,
     "elementId": "recjF85gspDT2OQ1j",
     "routeType": [
@@ -1864,17 +2324,23 @@
     ]
   },
   {
-    "text": "Adres",
     "type": "inputSmall",
     "routeId": [
       "recXFPF4VRj3yvCLg"
     ],
-    "partOf": "formContactDetails",
+    "partOf": [
+      "formContactDetails",
+      "formContactDetails/adres"
+    ],
     "order": 201,
     "elementId": "recjH5WT5T89a49wu",
     "routeType": [
       "form"
-    ]
+    ],
+    "details": [
+      "size75"
+    ],
+    "text": "Transparantiekade"
   },
   {
     "text": "Memo’s en notities",
@@ -1882,7 +2348,9 @@
     "routeId": [
       "rec9Dw2AnuF75GNl2"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 132,
     "elementId": "recjHmkjQvCkM2gta",
     "routeType": [
@@ -1890,16 +2358,22 @@
     ]
   },
   {
-    "text": "Naam",
+    "text": "Jon Journalist",
     "type": "inputSmall",
     "routeId": [
       "recXFPF4VRj3yvCLg"
     ],
-    "partOf": "formContactDetails",
+    "partOf": [
+      "formContactDetails",
+      "formContactDetails/naam"
+    ],
     "order": 200,
     "elementId": "recjJo4WWB7VHF9lB",
     "routeType": [
       "form"
+    ],
+    "details": [
+      "size100"
     ]
   },
   {
@@ -1911,7 +2385,9 @@
     "linkRouteId": [
       "recR3xSpTuROzmcXP"
     ],
-    "partOf": "formDocumentTypes",
+    "partOf": [
+      "formDocumentTypes"
+    ],
     "order": 92,
     "elementId": "recjlgvRsCQAK6jP3",
     "routeType": [
@@ -1919,12 +2395,30 @@
     ]
   },
   {
+    "type": "label",
+    "order": 212,
+    "elementId": "recjmnrTem3Dh4PB0",
+    "partOf": [
+      "formContactDetails",
+      "formContactDetails/naam"
+    ],
+    "routeId": [
+      "recXFPF4VRj3yvCLg"
+    ],
+    "routeType": [
+      "form"
+    ],
+    "text": "Naam"
+  },
+  {
     "text": "Hoe handig een Wob-verzoek ook is, het is natuurlijk niet slim om te gaan wobben als de stukken al ergens online staan of in stapels bij persvoorlichting liggen.\n\nEr zijn tal van opties van normale verzoeken, we hebben er een blogpost over geschreven op de VVOJ-site:",
     "type": "content",
     "routeId": [
       "recIuYOcPfLmamsMF"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 24,
     "elementId": "recjsN1eM43yf2L8c",
     "routeType": [
@@ -1936,7 +2430,9 @@
     "routeId": [
       "recmkybjDd9Wkf5hg"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 211,
     "elementId": "recjuuK9F9arT25YM",
     "routeType": [
@@ -1952,7 +2448,9 @@
     "linkRouteId": [
       "rec1eWCNlmdQUL8bW"
     ],
-    "partOf": "listCheck",
+    "partOf": [
+      "listCheck"
+    ],
     "order": 79,
     "elementId": "recjyFQuVW1NPSiwp",
     "routeType": [
@@ -1965,7 +2463,9 @@
     "routeId": [
       "rectXaEyBdDcOyeGa"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 28,
     "elementId": "reck9GoWoNsEMFUZX",
     "routeType": [
@@ -1977,7 +2477,9 @@
     "routeId": [
       "recv6iVTRTh27ylhL"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 195,
     "elementId": "reckS2JSajAFrMO1e",
     "routeType": [
@@ -1990,7 +2492,9 @@
     "routeId": [
       "rec9Dw2AnuF75GNl2"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 131,
     "elementId": "recl4cDE5FuDWLSFc",
     "routeType": [
@@ -2003,7 +2507,9 @@
     "routeId": [
       "rec8daE4lrLHstC6u"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 121,
     "elementId": "reclf4O9zmHZlXGYy",
     "routeType": [
@@ -2016,7 +2522,9 @@
     "routeId": [
       "recsW8iUGWbySdl1T"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 81,
     "elementId": "recljBLpKsQP0p0Fh",
     "routeType": [
@@ -2029,7 +2537,9 @@
     "routeId": [
       "recIuYOcPfLmamsMF"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 47,
     "elementId": "reclximFAeJ0FQkH2",
     "routeType": [
@@ -2042,7 +2552,9 @@
     "routeId": [
       "recemOBeTquFD8Vdd"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 29,
     "elementId": "recmFpOqA0XrgJZCP",
     "routeType": [
@@ -2055,7 +2567,9 @@
     "routeId": [
       "recvBgzyf1d88SkiI"
     ],
-    "partOf": "pageHeader",
+    "partOf": [
+      "pageHeader"
+    ],
     "order": 188,
     "elementId": "recmUNBtGCpwqRPdO",
     "routeType": [
@@ -2067,7 +2581,9 @@
     "routeId": [
       "recv6iVTRTh27ylhL"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 65,
     "elementId": "recmeghXlF7vaJRiX",
     "routeType": [
@@ -2080,7 +2596,9 @@
     "routeId": [
       "recNnmOiLS8wDcp6c"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 30,
     "elementId": "recmfktgBei6JXzzb",
     "routeType": [
@@ -2093,7 +2611,9 @@
     "routeId": [
       "recSx2NzrOTdbxZR5"
     ],
-    "partOf": "pageHeader",
+    "partOf": [
+      "pageHeader"
+    ],
     "order": 184,
     "elementId": "recmzCjyrCHqazcJp",
     "routeType": [
@@ -2109,7 +2629,9 @@
     "linkRouteId": [
       "recemOBeTquFD8Vdd"
     ],
-    "partOf": "listCheck",
+    "partOf": [
+      "listCheck"
+    ],
     "order": 175,
     "elementId": "recnEShKAfuXRJmY8",
     "routeType": [
@@ -2122,7 +2644,9 @@
     "routeId": [
       "recR3xSpTuROzmcXP"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 102,
     "elementId": "recnOWEt9LXAtSunf",
     "routeType": [
@@ -2130,16 +2654,22 @@
     ]
   },
   {
-    "text": "Postcode",
+    "text": "1023PR",
     "type": "inputSmall",
     "routeId": [
       "recXFPF4VRj3yvCLg"
     ],
-    "partOf": "formContactDetails",
+    "partOf": [
+      "formContactDetails",
+      "formContactDetails/postcode"
+    ],
     "order": 203,
     "elementId": "recnojywrsdvNfG6d",
     "routeType": [
       "form"
+    ],
+    "details": [
+      "size50"
     ]
   },
   {
@@ -2151,7 +2681,9 @@
     "linkRouteId": [
       "rec9Dw2AnuF75GNl2"
     ],
-    "partOf": "formDocumentTypes",
+    "partOf": [
+      "formDocumentTypes"
+    ],
     "order": 96,
     "elementId": "recoBkVhnfIWsOn4k",
     "routeType": [
@@ -2159,16 +2691,22 @@
     ]
   },
   {
-    "text": "E-mailadres",
+    "text": "jon@journalistenvoortransparantie.nl",
     "type": "inputSmall",
     "routeId": [
       "recXFPF4VRj3yvCLg"
     ],
-    "partOf": "formContactDetails",
+    "partOf": [
+      "formContactDetails",
+      "formContactDetails/email"
+    ],
     "order": 205,
     "elementId": "recoKHeB65dXV1vKe",
     "routeType": [
       "form"
+    ],
+    "details": [
+      "size100"
     ]
   },
   {
@@ -2177,7 +2715,9 @@
     "routeId": [
       "recJn1Ksk3OZIFFSK"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 90,
     "elementId": "recp4zxXYJuBe5jdA",
     "routeType": [
@@ -2190,7 +2730,9 @@
     "routeId": [
       "rec1eWCNlmdQUL8bW"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 37,
     "elementId": "recpAiGuxBRz84IUS",
     "routeType": [
@@ -2203,7 +2745,9 @@
     "routeId": [
       "rec8daE4lrLHstC6u"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 124,
     "elementId": "recpEUhf5dlgnskYa",
     "routeType": [
@@ -2216,7 +2760,9 @@
     "routeId": [
       "recwSLma6YuAxO7Pt"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 180,
     "elementId": "recpKxaGsFdK4Ryav",
     "routeType": [
@@ -2229,7 +2775,9 @@
     "routeId": [
       "recLM00uQGCtyoAHn"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 49,
     "elementId": "recpd6lOWY8TiEIEF",
     "routeType": [
@@ -2242,7 +2790,9 @@
     "routeId": [
       "recR3xSpTuROzmcXP"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 107,
     "elementId": "recqDONXTlFFXtJwz",
     "routeType": [
@@ -2255,7 +2805,9 @@
     "routeId": [
       "recb0ga4MXJN4XP0N"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 141,
     "elementId": "recqmrw6OhNjnmqNI",
     "routeType": [
@@ -2271,7 +2823,9 @@
     "linkRouteId": [
       "recPILpzPpOxU5PuR"
     ],
-    "partOf": "listInfo",
+    "partOf": [
+      "listInfo"
+    ],
     "order": 155,
     "elementId": "recrB300nj5Ad26CI",
     "routeType": [
@@ -2284,7 +2838,9 @@
     "routeId": [
       "recnVLQCE4Z3gfeQN"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 38,
     "elementId": "recrQPnZQRU4FoOlB",
     "routeType": [
@@ -2300,7 +2856,9 @@
     "linkRouteId": [
       "rec5o7VxmQtRZf5ZD"
     ],
-    "partOf": "listCheck",
+    "partOf": [
+      "listCheck"
+    ],
     "order": 166,
     "elementId": "recrRkeg2O4BHhewp",
     "routeType": [
@@ -2313,7 +2871,9 @@
     "routeId": [
       "recLM00uQGCtyoAHn"
     ],
-    "partOf": "listBubble",
+    "partOf": [
+      "listBubble"
+    ],
     "order": 52,
     "elementId": "recrmowboz8B03e92",
     "routeType": [
@@ -2329,7 +2889,9 @@
     "linkRouteId": [
       "recS1bPIRb1IMyqRJ"
     ],
-    "partOf": "formDocumentTypes",
+    "partOf": [
+      "formDocumentTypes"
+    ],
     "order": 93,
     "elementId": "recrtGiW1ITkFUIxN",
     "routeType": [
@@ -2342,7 +2904,9 @@
     "routeId": [
       "recR3xSpTuROzmcXP"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 101,
     "elementId": "recrwxByhtYHmsAGH",
     "routeType": [
@@ -2355,7 +2919,9 @@
     "routeId": [
       "recF44AQShm3vLYVT"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 9,
     "elementId": "recrxNdKU967kucj4",
     "routeType": [
@@ -2368,7 +2934,9 @@
     "routeId": [
       "recwSLma6YuAxO7Pt"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 181,
     "elementId": "recs37VyVUQ6xoWfW",
     "routeType": [
@@ -2381,7 +2949,9 @@
     "routeId": [
       "recpS5ubR52aN9sRF"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 39,
     "elementId": "recsBBknithcNoKJL",
     "routeType": [
@@ -2394,7 +2964,9 @@
     "routeId": [
       "recpS5ubR52aN9sRF"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 48,
     "elementId": "recsTrxD5D5cBMWHv",
     "routeType": [
@@ -2407,7 +2979,9 @@
     "routeId": [
       "recIkzk83HjjxfJKT"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 148,
     "elementId": "recsYCoGTnavfjOXk",
     "routeType": [
@@ -2420,7 +2994,9 @@
     "routeId": [
       "rec8daE4lrLHstC6u"
     ],
-    "partOf": "formPeople",
+    "partOf": [
+      "formPeople"
+    ],
     "order": 125,
     "elementId": "recsboy0v5frhFQim",
     "routeType": [
@@ -2433,7 +3009,9 @@
     "routeId": [
       "recR3xSpTuROzmcXP"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 104,
     "elementId": "recse7M1ti5r9r9Io",
     "routeType": [
@@ -2441,12 +3019,30 @@
     ]
   },
   {
+    "text": "verplicht",
+    "type": "error",
+    "routeId": [
+      "recXFPF4VRj3yvCLg"
+    ],
+    "partOf": [
+      "formContactDetails",
+      "formContactDetails/postcode"
+    ],
+    "order": 222,
+    "routeType": [
+      "form"
+    ],
+    "elementId": "recspRXu9V61onFsF"
+  },
+  {
     "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet",
     "type": "content",
     "routeId": [
       "rechNu7XVT6G3ByRy"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 69,
     "elementId": "rectDkURBjzAKGMSM",
     "routeType": [
@@ -2459,7 +3055,9 @@
     "routeId": [
       "recieD9WELmtn0ZQt"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 40,
     "elementId": "rectGIXYiXJcB5p7w",
     "routeType": [
@@ -2467,17 +3065,23 @@
     ]
   },
   {
-    "text": "Telefoonnummer",
     "type": "inputSmall",
     "routeId": [
       "recXFPF4VRj3yvCLg"
     ],
-    "partOf": "formContactDetails",
+    "partOf": [
+      "formContactDetails",
+      "formContactDetails/telefoonnummer"
+    ],
     "order": 207,
     "elementId": "rectHE1L3ZZdnKYNg",
     "routeType": [
       "form"
-    ]
+    ],
+    "details": [
+      "size100"
+    ],
+    "text": "06777777777"
   },
   {
     "text": "Brieven",
@@ -2485,7 +3089,9 @@
     "routeId": [
       "rec9Dw2AnuF75GNl2"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 129,
     "elementId": "rectKPnx7Fs0GwDOp",
     "routeType": [
@@ -2498,7 +3104,9 @@
     "routeId": [
       "recS1bPIRb1IMyqRJ"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 113,
     "elementId": "rectQQX41IDw8OfGM",
     "routeType": [
@@ -2511,7 +3119,9 @@
     "routeId": [
       "recLKYD9zDdom9Bbe"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 42,
     "elementId": "recuCRq4nZh2SzTsS",
     "routeType": [
@@ -2524,7 +3134,9 @@
     "routeId": [
       "recF44AQShm3vLYVT"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 41,
     "elementId": "recuZZEUZ7wFEq3nB",
     "routeType": [
@@ -2532,11 +3144,29 @@
     ]
   },
   {
+    "type": "error",
+    "routeId": [
+      "recXFPF4VRj3yvCLg"
+    ],
+    "partOf": [
+      "formContactDetails",
+      "formContactDetails/adres"
+    ],
+    "order": 220,
+    "routeType": [
+      "form"
+    ],
+    "elementId": "recubJUzAQUQ19Rnh",
+    "text": "verplicht"
+  },
+  {
     "type": "formDocumentTypes",
     "routeId": [
       "recwdo8dQw6g3RqYT"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 154,
     "elementId": "recupS5m6B0JNxOxu",
     "routeType": [
@@ -2548,7 +3178,9 @@
     "routeId": [
       "recXFPF4VRj3yvCLg"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 196,
     "elementId": "recuqy9RSPbs7Fhgm",
     "routeType": [
@@ -2561,7 +3193,9 @@
     "routeId": [
       "rec2ShlT3krqr1pVj"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 43,
     "elementId": "recvNWxwA2b4fX0p0",
     "routeType": [
@@ -2574,7 +3208,9 @@
     "routeId": [
       "recfvKGrVYxw2Y6Zl"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 57,
     "elementId": "recvjN9rQiwMLu3Ia",
     "routeType": [
@@ -2587,7 +3223,9 @@
     "routeId": [
       "recLM00uQGCtyoAHn"
     ],
-    "partOf": "listBubble",
+    "partOf": [
+      "listBubble"
+    ],
     "order": 53,
     "elementId": "recvragXApWzxw2lo",
     "routeType": [
@@ -2600,7 +3238,9 @@
     "routeId": [
       "recPILpzPpOxU5PuR"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 44,
     "elementId": "recvuRYyZ0Ycbvq1y",
     "routeType": [
@@ -2613,7 +3253,9 @@
     "routeId": [
       "recS1bPIRb1IMyqRJ"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 114,
     "elementId": "recvw8BaG0XxYOqun",
     "routeType": [
@@ -2626,7 +3268,9 @@
     "routeId": [
       "rec0wsNO24WV79OwJ"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 4,
     "elementId": "recw1Tk0xNsbkBK4G",
     "routeType": [
@@ -2642,7 +3286,9 @@
     "linkRouteId": [
       "recWxAXxUfDlJS7q4"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 64,
     "elementId": "recwEmruSWFgWHTxX",
     "routeType": [
@@ -2655,7 +3301,9 @@
     "routeId": [
       "recsW8iUGWbySdl1T"
     ],
-    "partOf": "formSpecificDocuments",
+    "partOf": [
+      "formSpecificDocuments"
+    ],
     "order": 87,
     "elementId": "recwdhhnXERjYypct",
     "routeType": [
@@ -2668,7 +3316,9 @@
     "routeId": [
       "rec9Dw2AnuF75GNl2"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 130,
     "elementId": "recwlngBryedq8U5O",
     "routeType": [
@@ -2681,7 +3331,9 @@
     "routeId": [
       "recWxAXxUfDlJS7q4"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 6,
     "elementId": "recwok75JQ1K8daGc",
     "routeType": [
@@ -2697,7 +3349,9 @@
     "linkRouteId": [
       "recb0ga4MXJN4XP0N"
     ],
-    "partOf": "formDocumentTypes",
+    "partOf": [
+      "formDocumentTypes"
+    ],
     "order": 98,
     "elementId": "recwtjFUq1FShulVw",
     "routeType": [
@@ -2710,7 +3364,9 @@
     "routeId": [
       "recrzse37LenTq7dY"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 138,
     "elementId": "recxFnzMGT8kcwLWM",
     "routeType": [
@@ -2723,7 +3379,9 @@
     "routeId": [
       "rec2ShlT3krqr1pVj"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 5,
     "elementId": "recxQxmgjjo7Udtw9",
     "routeType": [
@@ -2736,7 +3394,9 @@
     "routeId": [
       "rechNu7XVT6G3ByRy"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 68,
     "elementId": "recxSs90uCawEp2Nb",
     "routeType": [
@@ -2749,7 +3409,9 @@
     "routeId": [
       "recLM00uQGCtyoAHn"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 192,
     "elementId": "recyVqz8aezHKkKqV",
     "routeType": [
@@ -2762,7 +3424,9 @@
     "routeId": [
       "recc3iR8FvflhqhhB"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 152,
     "elementId": "recyXXIfPzu33bOBW",
     "routeType": [
@@ -2775,7 +3439,9 @@
     "routeId": [
       "recwSLma6YuAxO7Pt"
     ],
-    "partOf": "base",
+    "partOf": [
+      "base"
+    ],
     "order": 178,
     "elementId": "reczNKzbVuSXoCPDF",
     "routeType": [
@@ -2788,7 +3454,9 @@
     "routeId": [
       "recsW8iUGWbySdl1T"
     ],
-    "partOf": "formSpecificDocuments",
+    "partOf": [
+      "formSpecificDocuments"
+    ],
     "order": 83,
     "elementId": "reczSFOQss3JOYfBE",
     "routeType": [
@@ -2804,7 +3472,9 @@
     "linkRouteId": [
       "rec8daE4lrLHstC6u"
     ],
-    "partOf": "formDocumentTypes",
+    "partOf": [
+      "formDocumentTypes"
+    ],
     "order": 95,
     "elementId": "reczpjM17OFfnyZzK",
     "routeType": [

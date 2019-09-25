@@ -42,5 +42,8 @@ export const getElementsBySlug = ({ state, slug }) => {
 
 export const getGroupedElementsBySlug = ({ state, slug }) => {
   const elements = getElementsBySlug({ state, slug })
-  return groupBy(elements, 'partOf')
+  const grouper = value => {
+    return Array.isArray(value.partOf) ? value.partOf[0] : value.partOf
+  }
+  return groupBy(elements, grouper)
 }
