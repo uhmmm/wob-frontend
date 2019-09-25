@@ -15,6 +15,7 @@ import { DocumentTypes } from './DocumentTypes'
 import { ButtonMedium } from '../Button'
 import { InfoLinkRouted } from './InfoLink'
 import { FilledLinkRouted } from '../FilledLink'
+import { InputField } from './InputField'
 
 import { type, colors } from '../../styles'
 import { getGroupedElementsBySlug } from '../../reducers/elements'
@@ -24,16 +25,19 @@ const MainContainer = styled.main({
   flexDirection: 'column',
   height: '100%'
 })
+
 const LogoContainer = styled.div({
   margin: '0 0 4rem 0'
 })
 
 const Title = styled.h1({ ...type.title.medium, margin: '0 0 2rem' })
+
 const Text = styled.p({
   ...type.content.medium,
   margin: '0 0 2rem',
   color: colors.darkestGrey
 })
+
 const TextSpan = styled.span({ margin: '0 1rem 0 0' })
 
 const TextBlock = ({ text, linkRouteId }) => {
@@ -46,7 +50,6 @@ const TextBlock = ({ text, linkRouteId }) => {
 }
 
 const Main = ({ groupedElements }) => {
-  console.log(groupedElements)
   return (
     <MainContainer>
       <LogoContainer>
@@ -119,6 +122,13 @@ const Main = ({ groupedElements }) => {
                 <DateTimePicker
                   key={el.elementId}
                   elements={groupedElements.formDateTimePicker}
+                />
+              )
+            case 'formOnderwerp':
+              return (
+                <InputField
+                  key={el.elementId}
+                  elements={groupedElements.formOnderwerp}
                 />
               )
             case 'buttonMedium':

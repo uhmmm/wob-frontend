@@ -114,18 +114,18 @@
     ]
   },
   {
-    "text": "Hoofdonderwerp",
+    "text": "Ongeveer drie zinnen die je onderwerp beschrijven",
     "type": "inputLarge",
     "routeId": [
       "rechhv82awVzZNu2c"
-    ],
-    "partOf": [
-      "base"
     ],
     "order": 72,
     "elementId": "rec1YhxCT4tdUROGG",
     "routeType": [
       "form"
+    ],
+    "partOf": [
+      "formOnderwerp"
     ]
   },
   {
@@ -326,6 +326,21 @@
     "elementId": "rec4QqRQH4skCqh9L",
     "routeType": [
       "form"
+    ]
+  },
+  {
+    "text": "Hoofdonderwerp",
+    "type": "formOnderwerp",
+    "routeId": [
+      "rechhv82awVzZNu2c"
+    ],
+    "order": 72,
+    "routeType": [
+      "form"
+    ],
+    "elementId": "rec4nB1FhrvQAHBN4",
+    "partOf": [
+      "base"
     ]
   },
   {
@@ -1166,6 +1181,21 @@
     ]
   },
   {
+    "text": "verplicht",
+    "type": "required",
+    "routeId": [
+      "rechhv82awVzZNu2c"
+    ],
+    "partOf": [
+      "formOnderwerp"
+    ],
+    "order": 72,
+    "routeType": [
+      "form"
+    ],
+    "elementId": "recLublnaRbwnfKPw"
+  },
+  {
     "text": "Ik wil ook de aanvullende stukken",
     "type": "listItemCheckYellow",
     "routeId": [
@@ -1285,11 +1315,11 @@
     "partOf": [
       "base"
     ],
+    "order": 100,
     "elementId": "recNrjUOpW02Khnjq",
     "routeType": [
       "form"
-    ],
-    "order": 100
+    ]
   },
   {
     "text": "Begrotingen",
@@ -3402,6 +3432,21 @@
     "routeType": [
       "aside-info"
     ]
+  },
+  {
+    "text": "Hoofdonderwerp",
+    "type": "label",
+    "routeId": [
+      "rechhv82awVzZNu2c"
+    ],
+    "partOf": [
+      "formOnderwerp"
+    ],
+    "order": 72,
+    "routeType": [
+      "form"
+    ],
+    "elementId": "recyMrKNFDJ3yknhY"
   },
   {
     "text": "Voila!",
