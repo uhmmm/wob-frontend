@@ -351,12 +351,12 @@
   },
   {
     "type": "listCheck",
-    "order": 208,
-    "elementId": "rec6KJBxDDIJSXqHg",
-    "partOf": "base",
     "routeId": [
       "recfvKGrVYxw2Y6Zl"
     ],
+    "partOf": "base",
+    "order": 208,
+    "elementId": "rec6KJBxDDIJSXqHg",
     "routeType": [
       "form"
     ]
@@ -640,15 +640,15 @@
   },
   {
     "type": "listCheck",
-    "order": 210,
-    "elementId": "recFhMBExrdvFTKay",
     "routeId": [
       "recsXVE7yH4Go2Jds"
     ],
+    "partOf": "base",
+    "order": 210,
+    "elementId": "recFhMBExrdvFTKay",
     "routeType": [
       "form"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Wil je alles over je onderwerp of weet je al precies wat je wil hebben? Selecteer hier en weeg af. Je kan bij specifieke documenten altijd nog selecteren dat je aanvullende documenten wilt.",
@@ -1005,15 +1005,15 @@
   },
   {
     "type": "listCheck",
-    "order": 209,
-    "elementId": "recNrjUOpW02Khnjq",
     "routeId": [
       "rechhv82awVzZNu2c"
     ],
+    "partOf": "base",
+    "order": 209,
+    "elementId": "recNrjUOpW02Khnjq",
     "routeType": [
       "form"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Begrotingen",
@@ -1927,15 +1927,15 @@
   },
   {
     "type": "listCheck",
-    "order": 211,
-    "elementId": "recjuuK9F9arT25YM",
     "routeId": [
       "recmkybjDd9Wkf5hg"
     ],
+    "partOf": "base",
+    "order": 211,
+    "elementId": "recjuuK9F9arT25YM",
     "routeType": [
       "form"
-    ],
-    "partOf": "base"
+    ]
   },
   {
     "text": "Ik wil specifieke documenten opvragen",
@@ -2057,7 +2057,7 @@
     ]
   },
   {
-    "type": "buttonMedium",
+    "type": "formInstitute",
     "routeId": [
       "recv6iVTRTh27ylhL"
     ],

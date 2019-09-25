@@ -3,12 +3,15 @@ import styled from '@emotion/styled'
 import { withRouter } from 'react-router-dom'
 import { connect } from 'react-redux'
 
-import man from './man.svg'
 import { getRouteBySlug } from '../../../reducers/routes'
 import { getImageById } from '../../../reducers/images'
 
+import man from './man.png'
+import journalist from './journalist.png'
+
 const images = {
-  man
+  man,
+  journalist
 }
 
 const FormImagesContainer = styled.main({
