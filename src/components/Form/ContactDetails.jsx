@@ -3,7 +3,8 @@ import React from 'react'
 
 // import { colors, type } from '../../styles'
 
-const ContactDetails = () => {
+const ContactDetails = ({ elements }) => {
+  console.log(elements)
   return <div>Contact Form</div>
 }
 

@@ -12,6 +12,7 @@ import { InstituteCard } from './InstituteCard'
 import { ContactDetails } from './ContactDetails'
 import { DateTimePicker } from './DateTimePicker'
 import { DocumentTypes } from './DocumentTypes'
+import { ButtonMedium } from '../Button'
 
 import { type } from '../../styles'
 import { getGroupedElementsBySlug } from '../../reducers/elements'
@@ -71,14 +72,14 @@ const Main = ({ groupedElements }) => {
               return (
                 <ContactDetails
                   key={el.elementId}
-                  elements={groupedElements.formSpecificDocuments}
+                  elements={groupedElements.formContactDetails}
                 />
               )
             case 'formInstitute':
               return (
                 <InstituteCard
                   key={el.elementId}
-                  elements={groupedElements.formSpecificDocuments}
+                  elements={groupedElements.formInstitute}
                 />
               )
             case 'formSpecificDocuments':
@@ -92,17 +93,18 @@ const Main = ({ groupedElements }) => {
               return (
                 <DocumentTypes
                   key={el.elementId}
-                  elements={groupedElements.formSpecificDocuments}
+                  elements={groupedElements.formDocumentTypes}
                 />
               )
             case 'formDateTimePicker':
               return (
                 <DateTimePicker
                   key={el.elementId}
-                  elements={groupedElements.formSpecificDocuments}
+                  elements={groupedElements.formDateTimePicker}
                 />
               )
-
+            case 'buttonMedium':
+              return <ButtonMedium key={el.elementId}>{el.text}</ButtonMedium>
             default:
               return null
           }

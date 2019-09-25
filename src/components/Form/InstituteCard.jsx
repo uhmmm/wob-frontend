@@ -3,6 +3,8 @@ import styled from '@emotion/styled'
 
 import { colors, type } from '../../styles'
 
+import { ButtonSmall } from '../Button'
+
 const Border = styled.div({
   position: 'absolute',
   height: '100%',
@@ -70,23 +72,6 @@ const ButtonContainer = styled.div({
   bottom: '-1rem'
 })
 
-const Button = styled.button({
-  height: '2rem',
-  background: colors.darkestGrey,
-  border: 'unset',
-  margin: '0 0.5rem',
-  padding: '0 1rem',
-  borderRadius: '10px',
-  ...type.contentMono.small,
-  color: colors.white,
-  cursor: 'pointer',
-  outline: 'unset',
-  '&:hover': {
-    background: colors.white,
-    color: colors.darkestGrey
-  }
-})
-
 const InstituteCard = ({ elements }) => {
   return (
     <InstituteCardContainer>
@@ -109,8 +94,8 @@ const InstituteCard = ({ elements }) => {
         </Body>
       </Content>
       <ButtonContainer>
-        <Button>PAS AAN</Button>
-        <Button>MELD FOUTIEF ADRES</Button>
+        <ButtonSmall>PAS AAN</ButtonSmall>
+        <ButtonSmall>MELD FOUTIEF ADRES</ButtonSmall>
       </ButtonContainer>
     </InstituteCardContainer>
   )

@@ -3,6 +3,8 @@ import styled from '@emotion/styled'
 import { Switch, Route } from 'react-router-dom'
 import { connect } from 'react-redux'
 
+import { ButtonLarge } from '../Button'
+
 import { colors, type } from '../../styles'
 import { getElementsBySlug } from '../../reducers/elements'
 
@@ -24,8 +26,10 @@ const Title = styled.h1({
 })
 const Text = styled.p({ ...type.content.medium })
 
+const ButtonGroup = styled.div({ padding: '4rem 0' })
+
 const Aside = ({ elements }) => {
-  // console.log(elements)
+  console.log(elements)
   return (
     <AsideContainer>
       {elements &&
@@ -35,6 +39,12 @@ const Aside = ({ elements }) => {
               return <Title key={el.elementId}>{el.text}</Title>
             case 'content':
               return <Text key={el.elementId}>{el.text}</Text>
+            case 'buttonLarge':
+              return (
+                <ButtonGroup key={el.elementId}>
+                  <ButtonLarge>{el.text}</ButtonLarge>
+                </ButtonGroup>
+              )
             default:
               return null
           }
