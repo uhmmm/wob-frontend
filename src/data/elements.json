@@ -280,20 +280,20 @@
     ]
   },
   {
+    "text": "Woonplaats",
     "type": "label",
-    "order": 216,
-    "elementId": "rec3l9cWCPsjprOX4",
+    "routeId": [
+      "recXFPF4VRj3yvCLg"
+    ],
     "partOf": [
       "formContactDetails",
       "formContactDetails/plaatsnaam"
     ],
-    "routeId": [
-      "recXFPF4VRj3yvCLg"
-    ],
+    "order": 216,
+    "elementId": "rec3l9cWCPsjprOX4",
     "routeType": [
       "form"
-    ],
-    "text": "Woonplaats"
+    ]
   },
   {
     "text": "EXTRA OPTIES",
@@ -467,20 +467,20 @@
     ]
   },
   {
+    "text": "Nr.",
     "type": "label",
-    "order": 214,
-    "elementId": "rec8q2SSdu07C61l0",
+    "routeId": [
+      "recXFPF4VRj3yvCLg"
+    ],
     "partOf": [
       "formContactDetails",
       "formContactDetails/huisnummer"
     ],
-    "routeId": [
-      "recXFPF4VRj3yvCLg"
-    ],
+    "order": 214,
+    "elementId": "rec8q2SSdu07C61l0",
     "routeType": [
       "form"
-    ],
-    "text": "Nr."
+    ]
   },
   {
     "text": "Alles of specifiek?",
@@ -550,7 +550,7 @@
   },
   {
     "text": "verplicht",
-    "type": "error",
+    "type": "required",
     "routeId": [
       "recXFPF4VRj3yvCLg"
     ],
@@ -559,10 +559,10 @@
       "formContactDetails/huisnummer"
     ],
     "order": 221,
+    "elementId": "recBw9RxZt7SgygcB",
     "routeType": [
       "form"
-    ],
-    "elementId": "recBw9RxZt7SgygcB"
+    ]
   },
   {
     "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
@@ -598,8 +598,8 @@
     ]
   },
   {
-    "text": "verplicht",
-    "type": "error",
+    "text": "verstandig",
+    "type": "required",
     "routeId": [
       "recXFPF4VRj3yvCLg"
     ],
@@ -608,14 +608,14 @@
       "formContactDetails/telefoonnummer"
     ],
     "order": 225,
+    "elementId": "recCrGBwRU3xUOr35",
     "routeType": [
       "form"
-    ],
-    "elementId": "recCrGBwRU3xUOr35"
+    ]
   },
   {
     "text": "verplicht",
-    "type": "error",
+    "type": "required",
     "routeId": [
       "recXFPF4VRj3yvCLg"
     ],
@@ -624,10 +624,10 @@
       "formContactDetails/plaatsnaam"
     ],
     "order": 223,
+    "elementId": "recD0oBdMB5qQE1Jg",
     "routeType": [
       "form"
-    ],
-    "elementId": "recD0oBdMB5qQE1Jg"
+    ]
   },
   {
     "text": "Uitnodigingen",
@@ -645,6 +645,7 @@
     ]
   },
   {
+    "text": "7",
     "type": "inputSmall",
     "routeId": [
       "recXFPF4VRj3yvCLg"
@@ -654,14 +655,13 @@
       "formContactDetails/huisnummer"
     ],
     "order": 202,
-    "elementId": "recDFos2u6RQmpxWX",
-    "routeType": [
-      "form"
-    ],
     "details": [
       "size25"
     ],
-    "text": "7"
+    "elementId": "recDFos2u6RQmpxWX",
+    "routeType": [
+      "form"
+    ]
   },
   {
     "text": "Ingekomen stukken",
@@ -1121,20 +1121,20 @@
     ]
   },
   {
+    "text": "Telefoonnummer",
     "type": "label",
-    "order": 218,
-    "elementId": "recL7SNmfGbWfjx8Z",
+    "routeId": [
+      "recXFPF4VRj3yvCLg"
+    ],
     "partOf": [
       "formContactDetails",
       "formContactDetails/telefoonnummer"
     ],
-    "routeId": [
-      "recXFPF4VRj3yvCLg"
-    ],
+    "order": 218,
+    "elementId": "recL7SNmfGbWfjx8Z",
     "routeType": [
       "form"
-    ],
-    "text": "Telefoonnummer"
+    ]
   },
   {
     "text": "E-mails kunnen veel inzicht geven in het besluitvormingsproces, de toon waarin tussen bepaalde personen gecommuniceerd wordt en de frequentie van het contact. Maar e-mails kunnen ook over volstrekt irrelevante zaken gaan, zoals de hoeveelheid broodjes die bij de vergadering zijn besteld. Bedenk dus of e-mails in het geval van jouw verzoek relevant zijn.",
@@ -1238,17 +1238,17 @@
       "formContactDetails/plaatsnaam"
     ],
     "order": 204,
+    "details": [
+      "size50"
+    ],
     "elementId": "recMep7bTlJ0idWpL",
     "routeType": [
       "form"
-    ],
-    "details": [
-      "size50"
     ]
   },
   {
-    "text": "verplicht",
-    "type": "error",
+    "text": "handig",
+    "type": "required",
     "routeId": [
       "recXFPF4VRj3yvCLg"
     ],
@@ -1257,10 +1257,10 @@
       "formContactDetails/email"
     ],
     "order": 224,
+    "elementId": "recNIdhmFrjVlt8l9",
     "routeType": [
       "form"
-    ],
-    "elementId": "recNIdhmFrjVlt8l9"
+    ]
   },
   {
     "text": "Pesentaties",
@@ -1285,11 +1285,11 @@
     "partOf": [
       "base"
     ],
-    "order": 209,
     "elementId": "recNrjUOpW02Khnjq",
     "routeType": [
       "form"
-    ]
+    ],
+    "order": 100
   },
   {
     "text": "Begrotingen",
@@ -1703,20 +1703,20 @@
     ]
   },
   {
+    "text": "E-mailadres",
     "type": "label",
-    "order": 217,
-    "elementId": "recYrExKlXaZgnUzU",
+    "routeId": [
+      "recXFPF4VRj3yvCLg"
+    ],
     "partOf": [
       "formContactDetails",
       "formContactDetails/email"
     ],
-    "routeId": [
-      "recXFPF4VRj3yvCLg"
-    ],
+    "order": 217,
+    "elementId": "recYrExKlXaZgnUzU",
     "routeType": [
       "form"
-    ],
-    "text": "E-mailadres"
+    ]
   },
   {
     "text": "Onderwerp",
@@ -1734,20 +1734,20 @@
     ]
   },
   {
+    "text": "Adres",
     "type": "label",
-    "order": 213,
-    "elementId": "recZQ5ABHdhZpjGMB",
+    "routeId": [
+      "recXFPF4VRj3yvCLg"
+    ],
     "partOf": [
       "formContactDetails",
       "formContactDetails/adres"
     ],
-    "routeId": [
-      "recXFPF4VRj3yvCLg"
-    ],
+    "order": 213,
+    "elementId": "recZQ5ABHdhZpjGMB",
     "routeType": [
       "form"
-    ],
-    "text": "Adres"
+    ]
   },
   {
     "text": "Beleefdheidsconventie van de geadresseerde",
@@ -1801,20 +1801,20 @@
     ]
   },
   {
+    "text": "Postcode",
     "type": "label",
-    "order": 215,
-    "elementId": "recaB2vvGtwgOzxAy",
+    "routeId": [
+      "recXFPF4VRj3yvCLg"
+    ],
     "partOf": [
       "formContactDetails",
       "formContactDetails/postcode"
     ],
-    "routeId": [
-      "recXFPF4VRj3yvCLg"
-    ],
+    "order": 215,
+    "elementId": "recaB2vvGtwgOzxAy",
     "routeType": [
       "form"
-    ],
-    "text": "Postcode"
+    ]
   },
   {
     "text": "NEE, LIEVER NIET",
@@ -2186,7 +2186,7 @@
   },
   {
     "text": "verplicht",
-    "type": "error",
+    "type": "required",
     "routeId": [
       "recXFPF4VRj3yvCLg"
     ],
@@ -2195,10 +2195,10 @@
       "formContactDetails/naam"
     ],
     "order": 219,
+    "elementId": "rechbBCHVCedDOgOf",
     "routeType": [
       "form"
-    ],
-    "elementId": "rechbBCHVCedDOgOf"
+    ]
   },
   {
     "text": "Memo’s en notities",
@@ -2324,6 +2324,7 @@
     ]
   },
   {
+    "text": "Transparantiekade",
     "type": "inputSmall",
     "routeId": [
       "recXFPF4VRj3yvCLg"
@@ -2333,14 +2334,13 @@
       "formContactDetails/adres"
     ],
     "order": 201,
-    "elementId": "recjH5WT5T89a49wu",
-    "routeType": [
-      "form"
-    ],
     "details": [
       "size75"
     ],
-    "text": "Transparantiekade"
+    "elementId": "recjH5WT5T89a49wu",
+    "routeType": [
+      "form"
+    ]
   },
   {
     "text": "Memo’s en notities",
@@ -2368,12 +2368,12 @@
       "formContactDetails/naam"
     ],
     "order": 200,
+    "details": [
+      "size100"
+    ],
     "elementId": "recjJo4WWB7VHF9lB",
     "routeType": [
       "form"
-    ],
-    "details": [
-      "size100"
     ]
   },
   {
@@ -2395,20 +2395,20 @@
     ]
   },
   {
+    "text": "Naam",
     "type": "label",
-    "order": 212,
-    "elementId": "recjmnrTem3Dh4PB0",
+    "routeId": [
+      "recXFPF4VRj3yvCLg"
+    ],
     "partOf": [
       "formContactDetails",
       "formContactDetails/naam"
     ],
-    "routeId": [
-      "recXFPF4VRj3yvCLg"
-    ],
+    "order": 212,
+    "elementId": "recjmnrTem3Dh4PB0",
     "routeType": [
       "form"
-    ],
-    "text": "Naam"
+    ]
   },
   {
     "text": "Hoe handig een Wob-verzoek ook is, het is natuurlijk niet slim om te gaan wobben als de stukken al ergens online staan of in stapels bij persvoorlichting liggen.\n\nEr zijn tal van opties van normale verzoeken, we hebben er een blogpost over geschreven op de VVOJ-site:",
@@ -2664,12 +2664,12 @@
       "formContactDetails/postcode"
     ],
     "order": 203,
+    "details": [
+      "size50"
+    ],
     "elementId": "recnojywrsdvNfG6d",
     "routeType": [
       "form"
-    ],
-    "details": [
-      "size50"
     ]
   },
   {
@@ -2701,12 +2701,12 @@
       "formContactDetails/email"
     ],
     "order": 205,
+    "details": [
+      "size100"
+    ],
     "elementId": "recoKHeB65dXV1vKe",
     "routeType": [
       "form"
-    ],
-    "details": [
-      "size100"
     ]
   },
   {
@@ -3020,7 +3020,7 @@
   },
   {
     "text": "verplicht",
-    "type": "error",
+    "type": "required",
     "routeId": [
       "recXFPF4VRj3yvCLg"
     ],
@@ -3029,10 +3029,10 @@
       "formContactDetails/postcode"
     ],
     "order": 222,
+    "elementId": "recspRXu9V61onFsF",
     "routeType": [
       "form"
-    ],
-    "elementId": "recspRXu9V61onFsF"
+    ]
   },
   {
     "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet",
@@ -3065,6 +3065,7 @@
     ]
   },
   {
+    "text": "06777777777",
     "type": "inputSmall",
     "routeId": [
       "recXFPF4VRj3yvCLg"
@@ -3074,14 +3075,13 @@
       "formContactDetails/telefoonnummer"
     ],
     "order": 207,
-    "elementId": "rectHE1L3ZZdnKYNg",
-    "routeType": [
-      "form"
-    ],
     "details": [
       "size100"
     ],
-    "text": "06777777777"
+    "elementId": "rectHE1L3ZZdnKYNg",
+    "routeType": [
+      "form"
+    ]
   },
   {
     "text": "Brieven",
@@ -3144,7 +3144,8 @@
     ]
   },
   {
-    "type": "error",
+    "text": "verplicht",
+    "type": "required",
     "routeId": [
       "recXFPF4VRj3yvCLg"
     ],
@@ -3153,11 +3154,10 @@
       "formContactDetails/adres"
     ],
     "order": 220,
+    "elementId": "recubJUzAQUQ19Rnh",
     "routeType": [
       "form"
-    ],
-    "elementId": "recubJUzAQUQ19Rnh",
-    "text": "verplicht"
+    ]
   },
   {
     "type": "formDocumentTypes",

@@ -33,11 +33,16 @@ export const elements = combineReducers({
 
 export const getElementsBySlug = ({ state, slug }) => {
   const route = getRouteBySlug({ state, slug })
-  return route
-    ? route.elementIds.map(recordId => {
-        return state.elements.byId[recordId]
-      })
+  const selectedElements = route
+    ? route.elementIds
+        .map(recordId => {
+          return state.elements.byId[recordId]
+        })
+        .sort((a, b) => {
+          return a.order - b.order
+        })
     : null
+  return selectedElements
 }
 
 export const getGroupedElementsBySlug = ({ state, slug }) => {

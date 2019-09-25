@@ -27,13 +27,8 @@ const InstituteCardContainer = styled.div({
   position: 'relative',
   width: '100%',
   height: '12rem',
-  margin: '4rem 0',
-  cursor: 'pointer',
-  '&:hover': {
-    [Background]: {
-      // background: colors.white
-    }
-  }
+  margin: '1rem 0 4rem',
+  cursor: 'pointer'
 })
 
 const Content = styled.div({

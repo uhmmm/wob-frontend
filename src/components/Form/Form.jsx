@@ -69,10 +69,7 @@ const mapStateToProps = (state, { match }) => {
   }
 }
 
-const FormLayoutConnected = connect(
-  mapStateToProps,
-  {}
-)(FormLayout)
+const FormLayoutConnected = connect(mapStateToProps)(FormLayout)
 
 const FormRouter = () => (
   <Switch>
