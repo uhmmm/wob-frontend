@@ -6,7 +6,7 @@ import { InfoLinkRouted } from '../InfoLink'
 import { colors, type } from '../../../styles'
 
 const ListInfoContainer = styled.ul({
-  justifySelf: 'flex-end'
+  margin: 'auto 0 0 0'
 })
 
 const ListItemContainer = styled.li({
