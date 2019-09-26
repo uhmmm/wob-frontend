@@ -15,7 +15,7 @@ import { DocumentTypes } from './DocumentTypes'
 import { ButtonMedium } from '../Button'
 import { InfoLinkRouted } from './InfoLink'
 import { FilledLinkRouted } from '../FilledLink'
-import { InputField } from './InputField'
+import { TextField } from './TextField'
 
 import { type, colors } from '../../styles'
 import { getGroupedElementsBySlug } from '../../reducers/elements'
@@ -126,7 +126,7 @@ const Main = ({ groupedElements }) => {
               )
             case 'formOnderwerp':
               return (
-                <InputField
+                <TextField
                   key={el.elementId}
                   elements={groupedElements.formOnderwerp}
                 />

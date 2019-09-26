@@ -3,10 +3,11 @@ import styled from '@emotion/styled'
 
 import { type, colors } from '../../styles'
 
-const Input = styled.input({
+const TextArea = styled.textarea({
   width: '100%',
   padding: '0.5rem 1rem',
   margin: '0 0 1rem 0 ',
+  minHeight: '8rem',
   border: `1px solid ${colors.blackestTransparent16}`,
   borderRadius: '5px',
   outline: 'unset',
@@ -15,9 +16,9 @@ const Input = styled.input({
 })
 
 const Label = styled.label({})
-const InputGroup = styled.div({})
+const TextGroup = styled.div({})
 
-const InputField = ({ elements }) => {
+const TextField = ({ elements }) => {
   const label = elements.find(el => {
     return el.type === 'label'
   })
@@ -28,14 +29,14 @@ const InputField = ({ elements }) => {
     return el.type === 'inputLarge' || 'inputSmall'
   })
   return (
-    <InputGroup size={input.details && input.details[0]}>
+    <TextGroup size={input.details && input.details[0]}>
       <Label>
         <span>{label.text}</span>
         <span> - {required.text}</span>
-        <Input placeholder={input.text} />
+        <TextArea placeholder={input.text} />
       </Label>
-    </InputGroup>
+    </TextGroup>
   )
 }
 
-export { InputField }
+export { TextField }

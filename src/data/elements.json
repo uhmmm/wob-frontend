@@ -119,13 +119,13 @@
     "routeId": [
       "rechhv82awVzZNu2c"
     ],
+    "partOf": [
+      "formOnderwerp"
+    ],
     "order": 72,
     "elementId": "rec1YhxCT4tdUROGG",
     "routeType": [
       "form"
-    ],
-    "partOf": [
-      "formOnderwerp"
     ]
   },
   {
@@ -334,13 +334,13 @@
     "routeId": [
       "rechhv82awVzZNu2c"
     ],
-    "order": 72,
-    "routeType": [
-      "form"
-    ],
-    "elementId": "rec4nB1FhrvQAHBN4",
     "partOf": [
       "base"
+    ],
+    "order": 72,
+    "elementId": "rec4nB1FhrvQAHBN4",
+    "routeType": [
+      "form"
     ]
   },
   {
@@ -482,22 +482,6 @@
     ]
   },
   {
-    "text": "Nr.",
-    "type": "label",
-    "routeId": [
-      "recXFPF4VRj3yvCLg"
-    ],
-    "partOf": [
-      "formContactDetails",
-      "formContactDetails/huisnummer"
-    ],
-    "order": 214,
-    "elementId": "rec8q2SSdu07C61l0",
-    "routeType": [
-      "form"
-    ]
-  },
-  {
     "text": "Alles of specifiek?",
     "type": "title",
     "routeId": [
@@ -559,22 +543,6 @@
     ],
     "order": 165,
     "elementId": "recBe4rSZuSTzuVlx",
-    "routeType": [
-      "form"
-    ]
-  },
-  {
-    "text": "verplicht",
-    "type": "required",
-    "routeId": [
-      "recXFPF4VRj3yvCLg"
-    ],
-    "partOf": [
-      "formContactDetails",
-      "formContactDetails/huisnummer"
-    ],
-    "order": 221,
-    "elementId": "recBw9RxZt7SgygcB",
     "routeType": [
       "form"
     ]
@@ -657,25 +625,6 @@
     "elementId": "recD3h2tLdENttC9F",
     "routeType": [
       "aside-document-type"
-    ]
-  },
-  {
-    "text": "7",
-    "type": "inputSmall",
-    "routeId": [
-      "recXFPF4VRj3yvCLg"
-    ],
-    "partOf": [
-      "formContactDetails",
-      "formContactDetails/huisnummer"
-    ],
-    "order": 202,
-    "details": [
-      "size25"
-    ],
-    "elementId": "recDFos2u6RQmpxWX",
-    "routeType": [
-      "form"
     ]
   },
   {
@@ -1190,10 +1139,10 @@
       "formOnderwerp"
     ],
     "order": 72,
+    "elementId": "recLublnaRbwnfKPw",
     "routeType": [
       "form"
-    ],
-    "elementId": "recLublnaRbwnfKPw"
+    ]
   },
   {
     "text": "Ik wil ook de aanvullende stukken",
@@ -2354,7 +2303,7 @@
     ]
   },
   {
-    "text": "Transparantiekade",
+    "text": "Transparantiekade 7A",
     "type": "inputSmall",
     "routeId": [
       "recXFPF4VRj3yvCLg"
@@ -2364,12 +2313,12 @@
       "formContactDetails/adres"
     ],
     "order": 201,
-    "details": [
-      "size75"
-    ],
     "elementId": "recjH5WT5T89a49wu",
     "routeType": [
       "form"
+    ],
+    "details": [
+      "size100"
     ]
   },
   {
@@ -2388,7 +2337,7 @@
     ]
   },
   {
-    "text": "Jon Journalist",
+    "text": "Klara Journalist",
     "type": "inputSmall",
     "routeId": [
       "recXFPF4VRj3yvCLg"
@@ -3443,10 +3392,10 @@
       "formOnderwerp"
     ],
     "order": 72,
+    "elementId": "recyMrKNFDJ3yknhY",
     "routeType": [
       "form"
-    ],
-    "elementId": "recyMrKNFDJ3yknhY"
+    ]
   },
   {
     "text": "Voila!",
