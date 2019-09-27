@@ -8,10 +8,12 @@ import { getImageById } from '../../../reducers/images'
 
 import man from './man.png'
 import journalist from './journalist.png'
+import typewriter from './typewriter.png'
 
 const images = {
   man,
-  journalist
+  journalist,
+  typewriter
 }
 
 const FormImagesContainer = styled.main({
