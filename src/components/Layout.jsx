@@ -1,7 +1,7 @@
 import React from 'react'
 import { css, Global } from '@emotion/core'
 import styled from '@emotion/styled'
-import { Route, Switch } from 'react-router-dom'
+import { Route, Switch, Redirect } from 'react-router-dom'
 import { Helmet } from 'react-helmet-async'
 
 import { globalStyles } from '../styles'
@@ -37,7 +37,8 @@ const Layout = () => (
     </Helmet>
     <Switch>
       <Route path="/form" component={FormRouter} />
-      <Route path="/" component={PageRouter} />
+      <Route path="/page" component={PageRouter} />
+      <Redirect to="/page" />
     </Switch>
   </LayoutContainer>
 )

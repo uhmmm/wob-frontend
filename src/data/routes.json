@@ -87,10 +87,6 @@
     "routeId": "rec9Dw2AnuF75GNl2"
   },
   {
-    "slug": "Unnamed record",
-    "routeId": "recAONlPiDaXKYuzE"
-  },
-  {
     "slug": "hoe-en-wat-van-datasets",
     "type": "aside-info",
     "elementIds": [
@@ -192,14 +188,15 @@
       "rec2wh9Fdofd7oMbb",
       "recyVqz8aezHKkKqV"
     ],
+    "linkedByElementIds": [
+      "recF7y0BEBM0aUPv8",
+      "recJemAjiQBIQR9Pt",
+      "rech7Yiuh13NcEX06"
+    ],
     "linkedImageId": [
       "recM6dJQyPrpv1pkN"
     ],
-    "routeId": "recLM00uQGCtyoAHn",
-    "linkedByElementIds": [
-      "recF7y0BEBM0aUPv8",
-      "recJemAjiQBIQR9Pt"
-    ]
+    "routeId": "recLM00uQGCtyoAHn"
   },
   {
     "slug": "digitaal-of-niet",
@@ -303,7 +300,11 @@
       "recxqdb4WWm2SBkzm",
       "rec0Q93b8gwTR4nSF"
     ],
-    "routeId": "recSx2NzrOTdbxZR5"
+    "routeId": "recSx2NzrOTdbxZR5",
+    "linkedImageId": [
+      "recG5hVckz1Yu3sRx"
+    ],
+    "slug": "landing"
   },
   {
     "slug": "periode",
@@ -779,7 +780,10 @@
       "recKknefRjUhXBaYG",
       "rec2rA92MNMCM4L33"
     ],
-    "routeId": "recvBgzyf1d88SkiI"
+    "routeId": "recvBgzyf1d88SkiI",
+    "linkedImageId": [
+      "reclf3PLyJ4mNQDUw"
+    ]
   },
   {
     "slug": "journalist",

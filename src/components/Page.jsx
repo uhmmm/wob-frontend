@@ -6,11 +6,13 @@ import { LetterMetaList } from './LetterMetaList'
 import { HeaderConnected } from './PageHeader'
 import { FooterConnected } from './PageFooter'
 import { ContentAreaConnected } from './ContentArea'
+import { PageImagesRouted } from './Images/PageImages'
 
 const PageLayoutContainer = styled.main({})
 
-const PageLayout = ({ elements, routeId }) => (
+const PageLayout = () => (
   <PageLayoutContainer>
+    <PageImagesRouted />
     <HeaderConnected />
     <ContentAreaConnected />
     <LetterMetaList />
@@ -21,7 +23,7 @@ const PageLayout = ({ elements, routeId }) => (
 const PageRouter = () => {
   return (
     <Switch>
-      <Route to="/page/:pageSlug" component={PageLayout} />
+      <Route path="/page/:pageSlug" component={PageLayout} />
     </Switch>
   )
 }

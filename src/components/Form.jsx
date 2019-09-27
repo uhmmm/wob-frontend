@@ -9,7 +9,7 @@ import { LetterOverlay } from './LetterOverlay'
 import { ToggleBar } from './ToggleBar'
 import { PaginationRouted } from './Pagination/Pagination'
 import { MainRouter } from './Main'
-import { ImagesRouted } from './Images/Images'
+import { ImagesRouted } from './Images/FormImages'
 import { AsideRouter } from './Aside'
 
 import { colors } from '../styles'
@@ -46,7 +46,7 @@ const RightSectionHeader = styled.div({
 
 const FormLayout = ({ route }) => (
   <FormLayoutContainer>
-    <Global style={css({ overflow: 'hidden' })} />
+    <Global styles={css({ body: { overflow: 'hidden' } })} />
     <Helmet>
       <title>{`WtW - ${route && route.title}`}</title>
     </Helmet>
