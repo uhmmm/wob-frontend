@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from '@emotion/styled'
 
-import { colors } from '../../styles'
+import { colors } from '../../../styles'
 import closeArrow from './close-arrow.svg'
 
 const Button = styled.div({

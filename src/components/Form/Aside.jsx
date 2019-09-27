@@ -4,7 +4,7 @@ import { Switch, Route } from 'react-router-dom'
 import { connect } from 'react-redux'
 
 import { ButtonLarge } from '../Button'
-import { AsideCloseButton } from './AsideCloseButton'
+import { AsideCloseButton } from './AsideCloseButton/AsideCloseButton'
 
 import { colors, type } from '../../styles'
 import { getElementsBySlug } from '../../reducers/elements'

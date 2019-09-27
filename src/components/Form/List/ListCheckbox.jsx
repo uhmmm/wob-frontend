@@ -4,10 +4,14 @@ import styled from '@emotion/styled'
 import { InfoLinkRouted } from '../InfoLink'
 import { Checkbox } from '../../Checkbox/Checkbox'
 
-import { type } from '../../../styles'
+import { type, colors } from '../../../styles'
 
 const CheckboxLineContainer = styled.div({ display: 'flex' })
-const Label = styled.label({ margin: '0 0 0 1rem', ...type.content.medium })
+const Label = styled.label({
+  margin: '0 0 0 1rem',
+  ...type.content.medium,
+  color: colors.darkestGrey
+})
 const TextSpan = styled.span({ margin: ' 0 1rem 0 0' })
 
 const ListItemCheckbox = ({ text, linkRouteId }) => (

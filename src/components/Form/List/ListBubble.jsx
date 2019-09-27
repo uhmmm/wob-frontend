@@ -3,7 +3,7 @@ import styled from '@emotion/styled'
 
 import { Bubble } from '../../Bubble/Bubble'
 
-import { type } from '../../../styles'
+import { type, colors } from '../../../styles'
 
 const ListBubbleContainer = styled.ul({ margin: '0 0 2rem' })
 
@@ -16,7 +16,11 @@ const ListItemContainer = styled.li({
   }
 })
 
-const Label = styled.label({ margin: '0 0 0 1rem', ...type.content.medium })
+const Label = styled.label({
+  margin: '0 0 0 1rem',
+  ...type.content.medium,
+  color: colors.darkestGrey
+})
 
 const ListItemBubble = ({ children, number }) => (
   <ListItemContainer>
