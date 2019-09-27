@@ -11,7 +11,7 @@ import { SpecificDocuments } from './SpecificDocuments'
 import { InstituteCard } from './InstituteCard'
 import { ContactDetails } from './ContactDetails'
 import { DateTimePicker } from './DateTimePicker'
-import { DocumentTypes } from './DocumentTypes'
+import { DocumentTypesConnected } from './DocumentTypes'
 import { ButtonMedium } from '../Button'
 import { InfoLinkRouted } from './InfoLink'
 import { FilledLinkRouted } from '../FilledLink'
@@ -110,11 +110,19 @@ const Main = ({ groupedElements }) => {
                   elements={groupedElements.formSpecificDocuments}
                 />
               )
-            case 'formDocumentTypes':
+            case 'formDocumentTypesSpecific':
               return (
-                <DocumentTypes
+                <DocumentTypesConnected
                   key={el.elementId}
-                  elements={groupedElements.formDocumentTypes}
+                  multiple
+                  element={groupedElements.formDocumentTypes}
+                />
+              )
+            case 'formDocumentTypesAll':
+              return (
+                <DocumentTypesConnected
+                  key={el.elementId}
+                  element={groupedElements.formDocumentTypes}
                 />
               )
             case 'formDateTimePicker':

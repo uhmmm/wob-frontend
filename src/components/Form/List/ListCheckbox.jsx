@@ -6,7 +6,10 @@ import { Checkbox } from '../../Checkbox/Checkbox'
 
 import { type, colors } from '../../../styles'
 
-const CheckboxLineContainer = styled.div({ display: 'flex' })
+const CheckboxLineContainer = styled.div({
+  display: 'flex',
+  alignItems: 'center'
+})
 const Label = styled.label({
   margin: '0 0 0 1rem',
   ...type.content.medium,

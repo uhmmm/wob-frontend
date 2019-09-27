@@ -207,7 +207,7 @@
     ]
   },
   {
-    "type": "formDocumentTypes",
+    "type": "formDocumentTypesSpecific",
     "routeId": [
       "recWdvbbSPgPUWkSc"
     ],
@@ -3139,7 +3139,7 @@
     ]
   },
   {
-    "type": "formDocumentTypes",
+    "type": "formDocumentTypesAll",
     "routeId": [
       "recwdo8dQw6g3RqYT"
     ],
@@ -3192,10 +3192,10 @@
       "formSpecificDocuments/documentName"
     ],
     "order": 83,
+    "elementId": "recvXGsn9ug2isIJz",
     "routeType": [
       "form"
-    ],
-    "elementId": "recvXGsn9ug2isIJz"
+    ]
   },
   {
     "text": "Je hoeft geen journalist te zijn om te wobben. Je hoeft ook het (journalistieke) doel van je verzoek toe te lichten. Klik op de i’tjes voor meer informatie.",
@@ -3364,10 +3364,10 @@
       "formSpecificDocuments/documentName"
     ],
     "order": 83,
+    "elementId": "recx1GzvFcRHlLwYY",
     "routeType": [
       "form"
-    ],
-    "elementId": "recx1GzvFcRHlLwYY"
+    ]
   },
   {
     "text": "Banktransacties",

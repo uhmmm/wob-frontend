@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux'
 import { normalize, schema } from 'normalizr'
-import { groupBy } from 'lodash'
+import { groupBy, filter } from 'lodash'
 
 import { getRouteBySlug } from './routes'
 
@@ -43,6 +43,16 @@ export const getElementsBySlug = ({ state, slug }) => {
         })
     : null
   return selectedElements
+}
+
+export const getElementsByPartOf = (state, partOf) => {
+  const selectedElements = filter(state.elements.byId, { partOf: [partOf] })
+  const sortedElements = selectedElements
+    ? selectedElements.sort((a, b) => {
+        return a.order - b.order
+      })
+    : null
+  return sortedElements
 }
 
 export const getGroupedElementsBySlug = ({ state, slug }) => {

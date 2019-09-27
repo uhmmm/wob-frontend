@@ -1,10 +1,26 @@
 import React from 'react'
-// import styled from '@emotion/styled'
+import { connect } from 'react-redux'
 
-// import { colors, type } from '../../styles'
+import { Tabs } from './Tabs'
+import { ListCheckbox } from './List/ListCheckbox'
 
-const DocumentTypes = () => {
-  return <div>Doctypes</div>
+import { getElementsByPartOf } from '../../reducers/elements'
+
+const DocumentTypes = ({ elements, multiple }) => {
+  return (
+    <>
+      {multiple && <Tabs />}
+      <ListCheckbox elements={elements} />
+    </>
+  )
 }
 
-export { DocumentTypes }
+const mapStateToProps = state => {
+  return {
+    elements: getElementsByPartOf(state, 'formDocumentTypes')
+  }
+}
+
+const DocumentTypesConnected = connect(mapStateToProps)(DocumentTypes)
+
+export { DocumentTypesConnected }
