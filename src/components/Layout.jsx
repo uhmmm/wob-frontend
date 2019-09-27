@@ -7,7 +7,7 @@ import { Helmet } from 'react-helmet-async'
 import { globalStyles } from '../styles'
 
 import { FormRouter } from './Form'
-import { PageLayout } from './PageLayout'
+import { PageLayout } from './Page'
 
 const LayoutContainer = styled.div({})
 

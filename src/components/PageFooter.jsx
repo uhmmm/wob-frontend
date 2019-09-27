@@ -1,15 +1,29 @@
 import React from 'react'
 import styled from '@emotion/styled'
+import { connect } from 'react-redux'
 
-import { type } from '../styles'
+import { ElementResolver } from './ElementResolver'
+
+import { getElementsByProperty } from '../reducers/elements'
 
 const FooterContainer = styled.main({})
-const Title = styled.h1({ ...type.title.large })
 
-const Footer = () => (
+const Footer = ({ elements }) => (
   <FooterContainer>
-    <Title>Footer</Title>
+    {elements.map(el => {
+      return <ElementResolver key={el.elementId} el={el} />
+    })}
   </FooterContainer>
 )
 
-export { Footer }
+const mapStateToProps = (state, { routeId }) => {
+  return {
+    elements: getElementsByProperty(state, {
+      partOf: ['pageFooter']
+    })
+  }
+}
+
+const FooterConnected = connect(mapStateToProps)(Footer)
+
+export { FooterConnected }

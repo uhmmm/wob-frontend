@@ -3,7 +3,7 @@ import styled from '@emotion/styled'
 
 import { LetterMetaList } from './LetterMetaList'
 import { Header } from './PageHeader'
-import { Footer } from './PageFooter'
+import { FooterConnected } from './PageFooter'
 import { CallToAction } from './CallToAction'
 import { Markdown } from './Markdown'
 
@@ -24,7 +24,7 @@ const PageLayout = () => (
       </ContentColumn>
     </ContentContainer>
     <LetterMetaList />
-    <Footer />
+    <FooterConnected />
   </PageLayoutContainer>
 )
 
