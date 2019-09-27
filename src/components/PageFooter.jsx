@@ -6,7 +6,7 @@ import { ElementResolver } from './ElementResolver'
 
 import { getElementsByProperty } from '../reducers/elements'
 
-const FooterContainer = styled.main({})
+const FooterContainer = styled.div({})
 
 const Footer = ({ elements }) => (
   <FooterContainer>

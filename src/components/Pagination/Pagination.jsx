@@ -46,10 +46,10 @@ const Pagination = ({ prevRoute, nextRoute }) => {
 }
 
 const mapStateToProps = (state, { match }) => {
-  const route = getRouteBySlug({ state, slug: match.params.formSlug })
+  const route = getRouteBySlug(state, { slug: match.params.formSlug })
   return {
-    prevRoute: getRouteById({ state, routeId: route.prevRouteId }),
-    nextRoute: getRouteById({ state, routeId: route.nextRouteId })
+    prevRoute: getRouteById(state, { routeId: route.prevRouteId }),
+    nextRoute: getRouteById(state, { routeId: route.nextRouteId })
   }
 }
 

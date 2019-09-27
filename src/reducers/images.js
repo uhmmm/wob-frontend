@@ -21,6 +21,6 @@ export const images = combineReducers({
   allIds: allImages
 })
 
-export const getImageById = ({ state, imageId }) => {
+export const getImageById = (state, { imageId }) => {
   return state.images.byId[imageId]
 }

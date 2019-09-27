@@ -35,7 +35,7 @@ const Aside = ({ elements }) => {
 
 const mapStateToProps = (state, { match }) => {
   return {
-    elements: getElementsBySlug({ state, slug: match.params.asideSlug })
+    elements: getElementsBySlug(state, { slug: match.params.asideSlug })
   }
 }
 

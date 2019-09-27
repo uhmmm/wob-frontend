@@ -12,14 +12,14 @@ const images = {
   whirlwind
 }
 
-const PageImagesContainer = styled.main({
+const PageImagesContainer = styled.div({
+  position: 'relative',
   display: 'flex',
-  flexDirection: 'column',
-  justifyContent: 'center',
-  height: '100%'
+  padding: '4rem 0',
+  justifyContent: 'flex-end'
 })
 
-const Img = styled.img({ width: '100%' })
+const Img = styled.img({ width: '75%' })
 
 const PageImage = ({ image }) => {
   return (
@@ -30,9 +30,9 @@ const PageImage = ({ image }) => {
 }
 
 const mapStateToProps = (state, { match }) => {
-  let route = getRouteBySlug({ state, slug: match.params.pageSlug })
+  let route = getRouteBySlug(state, { slug: match.params.pageSlug })
   return {
-    image: getImageById({ state, imageId: route.linkedImageId[0] })
+    image: getImageById(state, { imageId: route.linkedImageId[0] })
   }
 }
 

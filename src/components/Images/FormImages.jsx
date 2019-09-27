@@ -34,9 +34,9 @@ const Image = ({ image }) => {
 }
 
 const mapStateToProps = (state, { match }) => {
-  let route = getRouteBySlug({ state, slug: match.params.formSlug })
+  let route = getRouteBySlug(state, { slug: match.params.formSlug })
   return {
-    image: getImageById({ state, imageId: route.linkedImageId[0] })
+    image: getImageById(state, { imageId: route.linkedImageId[0] })
   }
 }
 

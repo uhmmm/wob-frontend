@@ -9,7 +9,7 @@ const FilledLink = ({ children, linkPath }) => {
 }
 
 const mapStateToProps = (state, { linkRouteId }) => {
-  const route = getRouteById({ state, routeId: linkRouteId })
+  const route = getRouteById(state, { routeId: linkRouteId })
   return {
     linkPath: linkRouteId && `/${route.type}/${route.slug}`
   }

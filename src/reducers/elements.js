@@ -31,8 +31,8 @@ export const elements = combineReducers({
   allIds: allElements
 })
 
-export const getElementsBySlug = ({ state, slug }) => {
-  const route = getRouteBySlug({ state, slug })
+export const getElementsBySlug = (state, { slug }) => {
+  const route = getRouteBySlug(state, { slug })
   const selectedElements = route
     ? route.elementIds
         .map(recordId => {
@@ -59,8 +59,8 @@ export const getElementsByProperty = (state, { partOf, routeId }) => {
   return sortedElements
 }
 
-export const getGroupedElementsBySlug = ({ state, slug }) => {
-  const elements = getElementsBySlug({ state, slug })
+export const getGroupedElementsBySlug = (state, { slug }) => {
+  const elements = getElementsBySlug(state, { slug })
   const grouper = value => {
     return Array.isArray(value.partOf) ? value.partOf[0] : value.partOf
   }

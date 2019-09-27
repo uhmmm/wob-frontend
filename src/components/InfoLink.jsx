@@ -37,7 +37,7 @@ const InfoLink = ({ linkSlug }) => {
 
 const InfoLinkConnected = connect((state, { linkRouteId }) => {
   return {
-    linkSlug: linkRouteId && getRouteById({ state, routeId: linkRouteId }).slug
+    linkSlug: linkRouteId && getRouteById(state, { routeId: linkRouteId }).slug
   }
 })(InfoLink)
 

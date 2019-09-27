@@ -22,10 +22,10 @@ export const routes = combineReducers({
   allIds: allRoutes
 })
 
-export const getRouteBySlug = ({ state, slug }) => {
+export const getRouteBySlug = (state, { slug }) => {
   return find(state.routes.byId, { slug })
 }
 
-export const getRouteById = ({ state, routeId }) => {
+export const getRouteById = (state, { routeId }) => {
   return state.routes.byId[routeId]
 }

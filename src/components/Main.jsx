@@ -34,17 +34,13 @@ const Main = ({ groupedElements }) => {
 
 const mapStateToProps = (state, { match }) => {
   return {
-    groupedElements: getGroupedElementsBySlug({
-      state,
+    groupedElements: getGroupedElementsBySlug(state, {
       slug: match.params.formSlug
     })
   }
 }
 
-const MainConnected = connect(
-  mapStateToProps,
-  {}
-)(Main)
+const MainConnected = connect(mapStateToProps)(Main)
 
 const MainRouter = () => {
   return (

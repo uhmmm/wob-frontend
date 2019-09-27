@@ -67,7 +67,7 @@ const FormLayout = ({ route }) => (
 
 const mapStateToProps = (state, { match }) => {
   return {
-    route: getRouteBySlug({ state, slug: match.params.formSlug })
+    route: getRouteBySlug(state, { slug: match.params.formSlug })
   }
 }
 
