@@ -54,7 +54,7 @@ const ListInfo = ({ elements }) => (
 
 const mapStateToProps = (state, { routeId }) => {
   return {
-    elements: getElementsByProperty(state, { partOf: ['ListInfo'], routeId })
+    elements: getElementsByProperty(state, { partOf: ['listInfo'], routeId })
   }
 }
 

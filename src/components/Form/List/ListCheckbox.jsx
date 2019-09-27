@@ -12,6 +12,7 @@ const CheckboxLineContainer = styled.div({
   display: 'flex',
   alignItems: 'center'
 })
+
 const Label = styled.label({
   margin: '0 0 0 1rem',
   ...type.content.medium,
@@ -46,7 +47,7 @@ const ListCheckbox = ({ elements }) => (
 
 const mapStateToProps = (state, { routeId }) => {
   return {
-    elements: getElementsByProperty(state, { partOf: ['ListCheck'], routeId })
+    elements: getElementsByProperty(state, { partOf: ['listCheck'], routeId })
   }
 }
 

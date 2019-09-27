@@ -5,7 +5,7 @@ import { ListInfoConnected } from './List/ListInfo'
 import { ListCheckboxConnected } from './List/ListCheckbox'
 import { SpecificDocuments } from './SpecificDocuments'
 import { InstituteCard } from './InstituteCard'
-import { ContactDetails } from './ContactDetails'
+import { ContactDetailsConnected } from './ContactDetails'
 import { DateTimePicker } from './DateTimePicker'
 import { DocumentTypesConnected } from './DocumentTypes'
 import { Button } from '../Button'
@@ -26,7 +26,7 @@ const ElementResolver = ({ el }) => {
     case 'listInfo':
       return <ListInfoConnected key={el.elementId} routeId={el.routeId} />
     case 'formContactDetails':
-      return <ContactDetails key={el.elementId} />
+      return <ContactDetailsConnected key={el.elementId} />
     case 'formInstitute':
       return <InstituteCard key={el.elementId} />
     case 'formSpecificDocuments':
