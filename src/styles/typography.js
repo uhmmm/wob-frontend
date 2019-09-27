@@ -1,7 +1,7 @@
 import { fontFace } from 'polished'
 
 let type = {
-  main: '16px',
+  main: '12px',
   fonts: [
     fontFace({
       fontFamily: 'SourceSansPro',
