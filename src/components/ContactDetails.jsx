@@ -9,7 +9,6 @@ import { InputField } from './InputField'
 const ContactDetailsContainer = styled.form({})
 
 const ContactDetails = ({ elements }) => {
-  console.log(elements)
   let formElementGroups = Object.values(groupBy(elements, 'partOf'))
   return (
     <ContactDetailsContainer>
