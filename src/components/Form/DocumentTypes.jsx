@@ -4,7 +4,7 @@ import { connect } from 'react-redux'
 import { Tabs } from './Tabs'
 import { ListCheckbox } from './List/ListCheckbox'
 
-import { getElementsByPartOf } from '../../reducers/elements'
+import { getElementsByProperty } from '../../reducers/elements'
 
 const DocumentTypes = ({ elements, multiple }) => {
   return (
@@ -17,7 +17,7 @@ const DocumentTypes = ({ elements, multiple }) => {
 
 const mapStateToProps = state => {
   return {
-    elements: getElementsByPartOf(state, 'formDocumentTypes')
+    elements: getElementsByProperty(state, { partOf: ['formDocumentTypes'] })
   }
 }
 

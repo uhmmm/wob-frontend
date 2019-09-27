@@ -1,5 +1,7 @@
 import React from 'react'
 import styled from '@emotion/styled'
+import { connect } from 'react-redux'
+import { getElementsByProperty } from '../../../reducers/elements'
 
 import { Bubble } from '../../Bubble/Bubble'
 
@@ -45,4 +47,12 @@ const ListBubble = ({ elements }) => (
   </ListBubbleContainer>
 )
 
-export { ListBubble }
+const mapStateToProps = (state, { routeId }) => {
+  return {
+    elements: getElementsByProperty(state, { partOf: ['listBubble'], routeId })
+  }
+}
+
+const ListBubbleConnected = connect(mapStateToProps)(ListBubble)
+
+export { ListBubbleConnected }

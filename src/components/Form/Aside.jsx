@@ -3,11 +3,11 @@ import styled from '@emotion/styled'
 import { Switch, Route } from 'react-router-dom'
 import { connect } from 'react-redux'
 
-import { ButtonLarge } from '../Button'
 import { AsideCloseButton } from './AsideCloseButton/AsideCloseButton'
 
-import { colors, type } from '../../styles'
+import { colors } from '../../styles'
 import { getElementsBySlug } from '../../reducers/elements'
+import { ElementResolver } from './ElementResolver'
 
 const AsideContainer = styled.aside({
   position: 'absolute',
@@ -21,34 +21,13 @@ const AsideContainer = styled.aside({
   borderRadius: '0 10px 0 0'
 })
 
-const Title = styled.h1({
-  ...type.title.small,
-  padding: '0 0 2rem'
-})
-const Text = styled.p({ ...type.content.medium })
-
-const ButtonGroup = styled.div({ padding: '4rem 0' })
-
 const Aside = ({ elements }) => {
   return (
     <AsideContainer>
       <AsideCloseButton></AsideCloseButton>
       {elements &&
         elements.map(el => {
-          switch (el.type) {
-            case 'title':
-              return <Title key={el.elementId}>{el.text}</Title>
-            case 'content':
-              return <Text key={el.elementId}>{el.text}</Text>
-            case 'buttonLarge':
-              return (
-                <ButtonGroup key={el.elementId}>
-                  <ButtonLarge>{el.text}</ButtonLarge>
-                </ButtonGroup>
-              )
-            default:
-              return null
-          }
+          return <ElementResolver key={el.elementId} el={el} />
         })}
     </AsideContainer>
   )

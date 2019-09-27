@@ -1,5 +1,7 @@
 import React from 'react'
 import styled from '@emotion/styled'
+import { connect } from 'react-redux'
+import { getElementsByProperty } from '../../../reducers/elements'
 
 import { InfoLinkRouted } from '../InfoLink'
 
@@ -50,4 +52,12 @@ const ListInfo = ({ elements }) => (
   </ListInfoContainer>
 )
 
-export { ListInfo }
+const mapStateToProps = (state, { routeId }) => {
+  return {
+    elements: getElementsByProperty(state, { partOf: ['ListInfo'], routeId })
+  }
+}
+
+const ListInfoConnected = connect(mapStateToProps)(ListInfo)
+
+export { ListInfoConnected }

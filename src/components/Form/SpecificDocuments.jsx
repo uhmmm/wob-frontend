@@ -2,7 +2,7 @@ import React from 'react'
 import { groupBy } from 'lodash'
 
 import { ListItemCheckbox } from './List/ListCheckbox'
-import { ButtonMedium } from '../Button'
+import { Button } from '../Button'
 import { InputField } from './InputField'
 import { Tabs } from './Tabs'
 
@@ -29,7 +29,11 @@ const SpecificDocuments = ({ elements }) => {
                 />
               )
             case 'buttonMedium':
-              return <ButtonMedium key={el.elementId}>{el.text}</ButtonMedium>
+              return (
+                <Button btnType="buttonMedium" key={el.elementId}>
+                  {el.text}
+                </Button>
+              )
             default:
               return null
           }

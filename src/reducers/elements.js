@@ -45,13 +45,18 @@ export const getElementsBySlug = ({ state, slug }) => {
   return selectedElements
 }
 
-export const getElementsByPartOf = (state, partOf) => {
-  const selectedElements = filter(state.elements.byId, { partOf: [partOf] })
+export const getElementsByProperty = (state, { partOf, routeId }) => {
+  const selectedElements = filter(state.elements.byId, {
+    partOf,
+    routeId
+  })
+
   const sortedElements = selectedElements
     ? selectedElements.sort((a, b) => {
         return a.order - b.order
       })
     : null
+
   return sortedElements
 }
 

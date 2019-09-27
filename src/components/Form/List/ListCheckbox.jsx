@@ -1,5 +1,7 @@
 import React from 'react'
 import styled from '@emotion/styled'
+import { connect } from 'react-redux'
+import { getElementsByProperty } from '../../../reducers/elements'
 
 import { InfoLinkRouted } from '../InfoLink'
 import { Checkbox } from '../../Checkbox/Checkbox'
@@ -42,4 +44,12 @@ const ListCheckbox = ({ elements }) => (
   </ListCheckboxContainer>
 )
 
-export { ListItemCheckbox, ListCheckbox }
+const mapStateToProps = (state, { routeId }) => {
+  return {
+    elements: getElementsByProperty(state, { partOf: ['ListCheck'], routeId })
+  }
+}
+
+const ListCheckboxConnected = connect(mapStateToProps)(ListCheckbox)
+
+export { ListItemCheckbox, ListCheckbox, ListCheckboxConnected }

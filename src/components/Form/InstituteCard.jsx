@@ -3,7 +3,7 @@ import styled from '@emotion/styled'
 
 import { colors, type } from '../../styles'
 
-import { ButtonSmall } from '../Button'
+import { Button } from '../Button'
 
 const Border = styled.div({
   position: 'absolute',
@@ -89,8 +89,8 @@ const InstituteCard = ({ elements }) => {
         </Body>
       </Content>
       <ButtonContainer>
-        <ButtonSmall>PAS AAN</ButtonSmall>
-        <ButtonSmall>MELD FOUTIEF ADRES</ButtonSmall>
+        <Button btnType="buttonSmall">PAS AAN</Button>
+        <Button btnType="buttonSmall">MELD FOUTIEF ADRES</Button>
       </ButtonContainer>
     </InstituteCardContainer>
   )

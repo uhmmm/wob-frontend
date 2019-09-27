@@ -1,4 +1,7 @@
+import React from 'react'
+
 import styled from '@emotion/styled'
+import { FilledLinkRouted } from './FilledLink'
 
 import { colors, type } from '../styles'
 
@@ -49,4 +52,25 @@ const ButtonLarge = styled.button(() => ({
   }
 }))
 
-export { ButtonSmall, ButtonMedium, ButtonLarge }
+const buttonTypes = {
+  buttonSmall: ButtonSmall,
+  buttonMedium: ButtonMedium,
+  buttonLarge: ButtonLarge
+}
+
+const Button = ({ element, btnType }) => {
+  let SelectedButton = buttonTypes[btnType]
+  if (element)
+    return element.linkRouteId ? (
+      <FilledLinkRouted linkRouteId={element.linkRouteId[0]}>
+        <SelectedButton>{element.text}</SelectedButton>
+      </FilledLinkRouted>
+    ) : (
+      <SelectedButton>{element.text}</SelectedButton>
+    )
+  else {
+    return null
+  }
+}
+
+export { Button }
