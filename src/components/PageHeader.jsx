@@ -1,21 +1,32 @@
 import React from 'react'
 import styled from '@emotion/styled'
-import { Link } from 'react-router-dom'
+import { connect } from 'react-redux'
 
-import { type } from '../styles'
+import { ElementResolver } from './ElementResolver'
+
+import { getElementsByProperty } from '../reducers/elements'
 
 const HeaderContainer = styled.main({})
 
-const Title = styled.h1({ ...type.title.large })
-const StyledLink = styled(Link)({
-  ...type.content.large
-})
+const Header = ({ elements }) => {
+  console.log(elements)
+  return (
+    <HeaderContainer>
+      {elements.map(el => {
+        return <ElementResolver key={el.elementId} el={el} />
+      })}
+    </HeaderContainer>
+  )
+}
 
-const Header = () => (
-  <HeaderContainer>
-    <Title>Header</Title>
-    <StyledLink to="/form/start">Start je Wob-verzoek!</StyledLink>
-  </HeaderContainer>
-)
+const mapStateToProps = (state, { routeId }) => {
+  return {
+    elements: getElementsByProperty(state, {
+      partOf: ['pageHeader']
+    })
+  }
+}
 
-export { Header }
+const HeaderConnected = connect(mapStateToProps)(Header)
+
+export { HeaderConnected }

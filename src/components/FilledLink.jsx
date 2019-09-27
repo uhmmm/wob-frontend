@@ -4,13 +4,14 @@ import { connect } from 'react-redux'
 
 import { getRouteById } from '../reducers/routes'
 
-const FilledLink = ({ children, linkSlug }) => {
-  return <Link to={linkSlug}>{children}</Link>
+const FilledLink = ({ children, linkPath }) => {
+  return <Link to={linkPath}>{children}</Link>
 }
 
 const mapStateToProps = (state, { linkRouteId }) => {
+  const route = getRouteById({ state, routeId: linkRouteId })
   return {
-    linkSlug: linkRouteId && getRouteById({ state, routeId: linkRouteId }).slug
+    linkPath: linkRouteId && `/${route.type}/${route.slug}`
   }
 }
 

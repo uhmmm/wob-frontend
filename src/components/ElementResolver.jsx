@@ -12,12 +12,14 @@ import { Button } from './Button'
 import { TextFieldConnected } from './TextField'
 import { Title } from './Title'
 import { TextBlock } from './TextBlock'
+import { Markdown } from './Markdown'
+import { CallToAction } from './CallToAction'
 
 const ElementResolver = ({ el }) => {
   switch (el.type) {
-    case 'title':
+    case 'titleMedium':
       return <Title key={el.elementId} element={el} />
-    case 'content':
+    case 'text':
       return <TextBlock key={el.elementId} element={el} />
     case 'buttonSmall':
       return <Button key={el.elementId} btnType={'buttonSmall'} element={el} />
@@ -25,6 +27,8 @@ const ElementResolver = ({ el }) => {
       return <Button key={el.elementId} btnType={'buttonMedium'} element={el} />
     case 'buttonLarge':
       return <Button key={el.elementId} btnType={'buttonLarge'} element={el} />
+    case 'markdown':
+      return <Markdown key={el.elementId} />
     case 'listBubble':
       return <ListBubbleConnected key={el.elementId} routeId={el.routeId} />
     case 'listCheck':
@@ -45,6 +49,8 @@ const ElementResolver = ({ el }) => {
       return <DateTimePicker key={el.elementId} />
     case 'formOnderwerp':
       return <TextFieldConnected key={el.elementId} />
+    case 'callToAction':
+      return <CallToAction key={el.elementId} />
     default:
       return <div key={el.elementId}>ViewError: Element can not resolved</div>
   }

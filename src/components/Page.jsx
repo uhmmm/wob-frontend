@@ -1,31 +1,29 @@
 import React from 'react'
 import styled from '@emotion/styled'
+import { Switch, Route } from 'react-router'
 
 import { LetterMetaList } from './LetterMetaList'
-import { Header } from './PageHeader'
+import { HeaderConnected } from './PageHeader'
 import { FooterConnected } from './PageFooter'
-import { CallToAction } from './CallToAction'
-import { Markdown } from './Markdown'
+import { ContentAreaConnected } from './ContentArea'
 
 const PageLayoutContainer = styled.main({})
-const ContentContainer = styled.section({})
-const ContentColumn = styled.section({})
 
-const PageLayout = () => (
+const PageLayout = ({ elements, routeId }) => (
   <PageLayoutContainer>
-    <Header />
-    <ContentContainer>
-      <ContentColumn>
-        <Markdown />
-        <CallToAction />
-      </ContentColumn>
-      <ContentColumn>
-        <Markdown />
-      </ContentColumn>
-    </ContentContainer>
+    <HeaderConnected />
+    <ContentAreaConnected />
     <LetterMetaList />
     <FooterConnected />
   </PageLayoutContainer>
 )
 
-export { PageLayout }
+const PageRouter = () => {
+  return (
+    <Switch>
+      <Route to="/page/:pageSlug" component={PageLayout} />
+    </Switch>
+  )
+}
+
+export { PageLayout, PageRouter }

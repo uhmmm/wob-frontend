@@ -195,7 +195,11 @@
     "linkedImageId": [
       "recM6dJQyPrpv1pkN"
     ],
-    "routeId": "recLM00uQGCtyoAHn"
+    "routeId": "recLM00uQGCtyoAHn",
+    "linkedByElementIds": [
+      "recF7y0BEBM0aUPv8",
+      "recJemAjiQBIQR9Pt"
+    ]
   },
   {
     "slug": "digitaal-of-niet",
@@ -629,10 +633,10 @@
     "slug": "gebruikersvoorwaarden",
     "title": "Gebruikersvoorwaarden",
     "type": "page",
-    "routeId": "recogFzOcnJRShLKs",
     "linkedByElementIds": [
       "rec1YqLMiGU5K3E8z"
-    ]
+    ],
+    "routeId": "recogFzOcnJRShLKs"
   },
   {
     "slug": "mediaorganisatie",
@@ -804,7 +808,8 @@
       "recahZmnHZdKqCdOs"
     ],
     "linkedByElementIds": [
-      "rec2UciFBciH75aWT"
+      "rec2UciFBciH75aWT",
+      "recMQW9i6XFDzBeKe"
     ],
     "routeId": "recwSLma6YuAxO7Pt"
   },
@@ -833,10 +838,10 @@
     "slug": "privacy-verklaring",
     "title": "Privacyverklaring",
     "type": "page",
-    "routeId": "recyYZiWGCb3POOvk",
     "linkedByElementIds": [
       "rec99EpFOzLe3aj3G"
-    ]
+    ],
+    "routeId": "recyYZiWGCb3POOvk"
   },
   {
     "slug": "speciale-documenten",

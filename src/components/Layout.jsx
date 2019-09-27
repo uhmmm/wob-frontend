@@ -7,7 +7,7 @@ import { Helmet } from 'react-helmet-async'
 import { globalStyles } from '../styles'
 
 import { FormRouter } from './Form'
-import { PageLayout } from './Page'
+import { PageRouter } from './Page'
 
 const LayoutContainer = styled.div({})
 
@@ -37,7 +37,7 @@ const Layout = () => (
     </Helmet>
     <Switch>
       <Route path="/form" component={FormRouter} />
-      <Route path="/" component={PageLayout} />
+      <Route path="/" component={PageRouter} />
     </Switch>
   </LayoutContainer>
 )

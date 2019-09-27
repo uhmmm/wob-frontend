@@ -18,8 +18,7 @@ const globalStyles = {
   body: {
     margin: '0',
     height: '100%',
-    width: '100%',
-    overflow: 'hidden'
+    width: '100%'
   },
   a: {
     textDecoration: `none ${colors.day}`,

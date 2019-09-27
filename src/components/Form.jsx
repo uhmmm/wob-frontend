@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from '@emotion/styled'
+import { Global, css } from '@emotion/core'
 import { Helmet } from 'react-helmet-async'
 import { connect } from 'react-redux'
 import { Switch, Route } from 'react-router-dom'
@@ -45,6 +46,7 @@ const RightSectionHeader = styled.div({
 
 const FormLayout = ({ route }) => (
   <FormLayoutContainer>
+    <Global style={css({ overflow: 'hidden' })} />
     <Helmet>
       <title>{`WtW - ${route && route.title}`}</title>
     </Helmet>
