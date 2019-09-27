@@ -4,6 +4,7 @@ import { Switch, Route } from 'react-router-dom'
 import { connect } from 'react-redux'
 
 import { ButtonLarge } from '../Button'
+import { AsideCloseButton } from './AsideCloseButton'
 
 import { colors, type } from '../../styles'
 import { getElementsBySlug } from '../../reducers/elements'
@@ -31,6 +32,7 @@ const ButtonGroup = styled.div({ padding: '4rem 0' })
 const Aside = ({ elements }) => {
   return (
     <AsideContainer>
+      <AsideCloseButton></AsideCloseButton>
       {elements &&
         elements.map(el => {
           switch (el.type) {
