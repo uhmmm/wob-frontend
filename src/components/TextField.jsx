@@ -1,5 +1,7 @@
 import React from 'react'
 import styled from '@emotion/styled'
+import { connect } from 'react-redux'
+import { getElementsByProperty } from '../reducers/elements'
 
 import { type, colors } from '../styles'
 
@@ -43,4 +45,14 @@ const TextField = ({ elements }) => {
   }
 }
 
-export { TextField }
+const mapStateToProps = (state, { routeId }) => {
+  return {
+    elements: getElementsByProperty(state, {
+      partOf: ['formOnderwerp']
+    })
+  }
+}
+
+const TextFieldConnected = connect(mapStateToProps)(TextField)
+
+export { TextFieldConnected }

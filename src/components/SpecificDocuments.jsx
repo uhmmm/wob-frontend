@@ -1,4 +1,6 @@
 import React from 'react'
+import { connect } from 'react-redux'
+import { getElementsByProperty } from '../reducers/elements'
 import { groupBy } from 'lodash'
 
 import { ListItemCheckbox } from './ListCheckbox'
@@ -42,4 +44,14 @@ const SpecificDocuments = ({ elements }) => {
   )
 }
 
-export { SpecificDocuments }
+const mapStateToProps = (state, { routeId }) => {
+  return {
+    elements: getElementsByProperty(state, {
+      partOf: ['formSpecificDocuments']
+    })
+  }
+}
+
+const SpecificDocumentsConnected = connect(mapStateToProps)(SpecificDocuments)
+
+export { SpecificDocumentsConnected }

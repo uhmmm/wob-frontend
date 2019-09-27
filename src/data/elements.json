@@ -2939,7 +2939,7 @@
   },
   {
     "text": "Tarieven van de Wob",
-    "type": "buttonMedium",
+    "type": "buttonLarge",
     "routeId": [
       "recpS5ubR52aN9sRF"
     ],
