@@ -23,6 +23,10 @@ const ElementResolver = ({ el }) => {
       return <Title key={el.elementId} element={el} titleType="titleMedium" />
     case 'titleSmall':
       return <Title key={el.elementId} element={el} titleType="titleSmall" />
+    case 'titleXSmall':
+      return <Title key={el.elementId} element={el} titleType="titleXSmall" />
+    case 'titleContent':
+      return <Title key={el.elementId} element={el} titleType="titleContent" />
     case 'textLarge':
       return <TextBlock key={el.elementId} element={el} textType="textLarge" />
     case 'textMedium':

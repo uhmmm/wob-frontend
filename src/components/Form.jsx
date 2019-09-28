@@ -12,6 +12,7 @@ import { MainRouter } from './Main'
 import { ImagesRouted } from './Images/FormImages'
 import { AsideRouter } from './Aside'
 import { Sidebar } from './Sidebar'
+import { ReviewBoxListConnected } from './ReviewBoxList'
 
 import { getRouteBySlug } from '../reducers/routes'
 
@@ -51,6 +52,7 @@ const FormLayout = ({ route }) => (
       <AsideRouter />
       <LetterConnected />
       <PaginationRouted />
+      <ReviewBoxListConnected />
     </RightContainer>
   </FormLayoutContainer>
 )

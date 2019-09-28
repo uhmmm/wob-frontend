@@ -130,10 +130,10 @@
     "linkedImageId": [
       "reckbcMuuLroQG1FK"
     ],
-    "routeId": "recIkzk83HjjxfJKT",
     "letter": [
       "showToggle"
-    ]
+    ],
+    "routeId": "recIkzk83HjjxfJKT"
   },
   {
     "slug": "informatieverzoeken",
@@ -348,10 +348,10 @@
     "linkedImageId": [
       "recEIu2dCzufgliTV"
     ],
-    "routeId": "recWdvbbSPgPUWkSc",
     "letter": [
       "showToggle"
-    ]
+    ],
+    "routeId": "recWdvbbSPgPUWkSc"
   },
   {
     "slug": "overheidsinstanties",
@@ -403,10 +403,10 @@
     "linkedImageId": [
       "recsmL30Ig5c0gjY2"
     ],
-    "routeId": "recXFPF4VRj3yvCLg",
     "letter": [
       "showToggle"
-    ]
+    ],
+    "routeId": "recXFPF4VRj3yvCLg"
   },
   {
     "slug": "mondelinge-toelichting",
@@ -453,10 +453,10 @@
     "linkedImageId": [
       "recAq0xQV59WZ5kZR"
     ],
-    "routeId": "recb4PQRUH0aoXD6X",
     "letter": [
       "showToggle"
-    ]
+    ],
+    "routeId": "recb4PQRUH0aoXD6X"
   },
   {
     "slug": "alles-opvragen-is-niet-handig",
@@ -503,10 +503,10 @@
     "linkedImageId": [
       "rec2hpCU9LAgYkoYu"
     ],
-    "routeId": "recfvKGrVYxw2Y6Zl",
     "letter": [
       "showToggle"
-    ]
+    ],
+    "routeId": "recfvKGrVYxw2Y6Zl"
   },
   {
     "slug": "selecteer-insitutuut",
@@ -550,10 +550,10 @@
     "linkedImageId": [
       "recARf96Y8jOrWZo4"
     ],
-    "routeId": "rechhv82awVzZNu2c",
     "letter": [
       "showToggle"
-    ]
+    ],
+    "routeId": "rechhv82awVzZNu2c"
   },
   {
     "slug": "motivering-bij-verdaging",
@@ -634,10 +634,10 @@
     "linkedImageId": [
       "recZ0gFCFJEwJJ9rN"
     ],
-    "routeId": "recmkybjDd9Wkf5hg",
     "letter": [
       "showToggle"
-    ]
+    ],
+    "routeId": "recmkybjDd9Wkf5hg"
   },
   {
     "slug": "alles-over-onderwerp",
@@ -714,10 +714,10 @@
     "linkedImageId": [
       "recSEWA01CSBfaSUn"
     ],
-    "routeId": "recsW8iUGWbySdl1T",
     "letter": [
       "showToggle"
-    ]
+    ],
+    "routeId": "recsW8iUGWbySdl1T"
   },
   {
     "slug": "alles-of-specifiek",
@@ -739,10 +739,10 @@
     "linkedImageId": [
       "recNwIv02WlZMyf9J"
     ],
-    "routeId": "recsXVE7yH4Go2Jds",
     "letter": [
       "showToggle"
-    ]
+    ],
+    "routeId": "recsXVE7yH4Go2Jds"
   },
   {
     "slug": "samenvatting",
@@ -789,10 +789,10 @@
     "linkedImageId": [
       "recxU504xDr59tShU"
     ],
-    "routeId": "recv6iVTRTh27ylhL",
     "letter": [
       "showToggle"
-    ]
+    ],
+    "routeId": "recv6iVTRTh27ylhL"
   },
   {
     "slug": "afsluiting",
@@ -809,6 +809,10 @@
       "recIYUPIkE40IprLQ",
       "recKknefRjUhXBaYG",
       "rec2rA92MNMCM4L33"
+    ],
+    "linkedByElementIds": [
+      "rec2n1K49XXOamDpq",
+      "recahZmnHZdKqCdOs"
     ],
     "linkedImageId": [
       "reclf3PLyJ4mNQDUw"
@@ -848,10 +852,10 @@
       "rec2UciFBciH75aWT",
       "recMQW9i6XFDzBeKe"
     ],
-    "routeId": "recwSLma6YuAxO7Pt",
     "letter": [
       "fullScreen"
-    ]
+    ],
+    "routeId": "recwSLma6YuAxO7Pt"
   },
   {
     "slug": "alles-over-documenttypen",
@@ -872,10 +876,10 @@
     "linkedImageId": [
       "recSSK62WGbK6XDJ2"
     ],
-    "routeId": "recwdo8dQw6g3RqYT",
     "letter": [
       "showToggle"
-    ]
+    ],
+    "routeId": "recwdo8dQw6g3RqYT"
   },
   {
     "slug": "privacy-verklaring",

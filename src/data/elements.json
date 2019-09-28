@@ -230,8 +230,11 @@
     "routeId": [
       "recwSLma6YuAxO7Pt"
     ],
+    "linkRouteId": [
+      "recvBgzyf1d88SkiI"
+    ],
     "partOf": [
-      "pageBlock/2"
+      "reviewBox/2"
     ],
     "order": 188,
     "elementId": "rec2n1K49XXOamDpq",
@@ -1238,7 +1241,7 @@
       "recwSLma6YuAxO7Pt"
     ],
     "partOf": [
-      "pageBlock/1"
+      "reviewBox/1"
     ],
     "order": 183,
     "elementId": "recJxg4mw8rxSLwJU",
@@ -1423,7 +1426,7 @@
       "recwSLma6YuAxO7Pt"
     ],
     "partOf": [
-      "pageBlock/1"
+      "reviewBox/1"
     ],
     "order": 185,
     "elementId": "recMQnhMZ7CgJtKhn",
@@ -2098,8 +2101,11 @@
     "routeId": [
       "recwSLma6YuAxO7Pt"
     ],
+    "linkRouteId": [
+      "recvBgzyf1d88SkiI"
+    ],
     "partOf": [
-      "pageBlock/2"
+      "reviewBox/2"
     ],
     "order": 189,
     "elementId": "recahZmnHZdKqCdOs",
@@ -2261,12 +2267,12 @@
   },
   {
     "text": "Exporteren!",
-    "type": "titleMedium",
+    "type": "titleSmall",
     "routeId": [
       "recwSLma6YuAxO7Pt"
     ],
     "partOf": [
-      "pageBlock/1"
+      "reviewBox/1"
     ],
     "order": 182,
     "elementId": "recdVYLeyDvvFhbfQ",
@@ -3098,12 +3104,12 @@
   },
   {
     "text": "Versturen!",
-    "type": "titleMedium",
+    "type": "titleSmall",
     "routeId": [
       "recwSLma6YuAxO7Pt"
     ],
     "partOf": [
-      "pageBlock/2"
+      "reviewBox/2"
     ],
     "order": 186,
     "elementId": "recpKxaGsFdK4Ryav",
@@ -3277,7 +3283,7 @@
       "recwSLma6YuAxO7Pt"
     ],
     "partOf": [
-      "pageBlock/2"
+      "reviewBox/2"
     ],
     "order": 187,
     "elementId": "recs37VyVUQ6xoWfW",
@@ -3856,7 +3862,7 @@
       "recwSLma6YuAxO7Pt"
     ],
     "partOf": [
-      "pageBlock/1"
+      "reviewBox/1"
     ],
     "order": 184,
     "elementId": "reczNKzbVuSXoCPDF",
