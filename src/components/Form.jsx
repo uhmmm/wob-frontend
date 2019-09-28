@@ -27,7 +27,7 @@ const RightContainer = styled.section({
   flex: '1 1 50%',
   position: 'relative',
   height: '100%',
-  padding: '8rem 8rem 12rem 8rem'
+  padding: '0rem 8rem 0rem 8rem'
 })
 
 const ToggleBarContainer = styled.div({
