@@ -16,7 +16,7 @@ const images = {
   typewriter
 }
 
-const FormImagesContainer = styled.main({
+const FormImagesContainer = styled.div({
   display: 'flex',
   flexDirection: 'column',
   justifyContent: 'center',
