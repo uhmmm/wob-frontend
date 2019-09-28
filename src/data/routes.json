@@ -798,9 +798,9 @@
     "routeId": "recvllEn1RtSYTtuH"
   },
   {
-    "slug": "groot",
+    "slug": "review",
     "title": "Afgeronde brief",
-    "type": "review",
+    "type": "form",
     "elementIds": [
       "recdVYLeyDvvFhbfQ",
       "recJxg4mw8rxSLwJU",
@@ -815,7 +815,10 @@
       "rec2UciFBciH75aWT",
       "recMQW9i6XFDzBeKe"
     ],
-    "routeId": "recwSLma6YuAxO7Pt"
+    "routeId": "recwSLma6YuAxO7Pt",
+    "prevRouteId": [
+      "recb4PQRUH0aoXD6X"
+    ]
   },
   {
     "slug": "alles-over-documenttypen",

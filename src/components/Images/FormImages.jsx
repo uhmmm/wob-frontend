@@ -26,17 +26,19 @@ const FormImagesContainer = styled.main({
 const Img = styled.img({ width: '100%' })
 
 const Image = ({ image }) => {
-  return (
+  return image ? (
     <FormImagesContainer>
       <Img src={images[image.imageRef]} alt="" />
     </FormImagesContainer>
-  )
+  ) : null
 }
 
 const mapStateToProps = (state, { match }) => {
   let route = getRouteBySlug(state, { slug: match.params.formSlug })
   return {
-    image: getImageById(state, { imageId: route.linkedImageId[0] })
+    image: getImageById(state, {
+      imageId: route.linkedImageId && route.linkedImageId[0]
+    })
   }
 }
 

@@ -7,4 +7,12 @@ const Letter = ({ letterId, letter }) => (
   <LetterContainer>{letterId}</LetterContainer>
 )
 
-export { Letter }
+const OverlayContainer = styled.aside({})
+
+const LetterOverlay = () => (
+  <OverlayContainer>
+    <Letter></Letter>
+  </OverlayContainer>
+)
+
+export { Letter, LetterOverlay }

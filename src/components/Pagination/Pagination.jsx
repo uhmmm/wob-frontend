@@ -11,7 +11,7 @@ import iconRight from './icon-right.svg'
 
 const PaginationContainer = styled.div({
   position: 'absolute',
-  left: 'calc(50% - 2rem)',
+  left: '-2rem',
   bottom: '8rem',
   display: 'flex',
   flexDirection: 'column',

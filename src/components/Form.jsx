@@ -5,14 +5,14 @@ import { Helmet } from 'react-helmet-async'
 import { connect } from 'react-redux'
 import { Switch, Route } from 'react-router-dom'
 
-import { LetterOverlay } from './LetterOverlay'
+import { Letter } from './Letter/Letter'
 import { ToggleBar } from './ToggleBar'
 import { PaginationRouted } from './Pagination/Pagination'
 import { MainRouter } from './Main'
 import { ImagesRouted } from './Images/FormImages'
 import { AsideRouter } from './Aside'
+import { Sidebar } from './Sidebar'
 
-import { colors } from '../styles'
 import { getRouteBySlug } from '../reducers/routes'
 
 const FormLayoutContainer = styled.main({
@@ -22,20 +22,10 @@ const FormLayoutContainer = styled.main({
   display: 'flex'
 })
 
-const LeftContainer = styled.section({
-  width: '50%',
-  height: '100%',
-  padding: '8rem 8rem 12rem 8rem',
-  background: colors.yellow,
-  overflow: 'scroll'
-})
-
 const RightContainer = styled.section({
   position: 'relative',
-  width: '50%',
   height: '100%',
-  padding: '8rem 8rem 12rem 8rem',
-  overflow: 'hidden'
+  padding: '8rem 8rem 12rem 8rem'
 })
 
 const RightSectionHeader = styled.div({
@@ -50,18 +40,17 @@ const FormLayout = ({ route }) => (
     <Helmet>
       <title>{`WtW - ${route && route.title}`}</title>
     </Helmet>
-    <LeftContainer>
-      <MainRouter />
-    </LeftContainer>
+    <Sidebar />
+    <MainRouter />
     <RightContainer>
       <RightSectionHeader>
         <ToggleBar />
       </RightSectionHeader>
       <ImagesRouted />
       <AsideRouter />
-      <LetterOverlay />
+      <Letter />
+      <PaginationRouted />
     </RightContainer>
-    <PaginationRouted />
   </FormLayoutContainer>
 )
 

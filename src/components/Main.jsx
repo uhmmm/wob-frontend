@@ -9,10 +9,15 @@ import { ElementResolver } from './ElementResolver'
 import { getElementsByProperty } from '../reducers/elements'
 import { getRouteBySlug } from '../reducers/routes'
 
+import { colors } from '../styles'
+
 const MainContainer = styled.main({
+  flex: '0 0 calc(50vw - 4rem)',
   display: 'flex',
   flexDirection: 'column',
-  height: '100%'
+  height: '100%',
+  padding: '8rem 8rem 12rem 4rem',
+  background: colors.yellow
 })
 
 const LogoContainer = styled.div({
@@ -20,7 +25,7 @@ const LogoContainer = styled.div({
 })
 
 const Main = ({ elements }) => {
-  return (
+  return elements.length > 0 ? (
     <MainContainer>
       <LogoContainer>
         <Logo />
@@ -30,7 +35,7 @@ const Main = ({ elements }) => {
           return <ElementResolver key={el.elementId} el={el}></ElementResolver>
         })}
     </MainContainer>
-  )
+  ) : null
 }
 
 const mapStateToProps = (state, { match }) => {
@@ -38,7 +43,7 @@ const mapStateToProps = (state, { match }) => {
   return {
     elements: getElementsByProperty(state, {
       routeId: [route.routeId],
-      partOf: ['base']
+      partOf: ['main']
     })
   }
 }
