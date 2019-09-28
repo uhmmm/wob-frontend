@@ -27,7 +27,7 @@ const ReviewBox = ({ reviewBoxType, elements }) => {
 
 const ReviewBoxListContainer = styled.div({
   position: 'absolute',
-  top: '16rem',
+  top: '22rem',
   right: '10rem',
   width: '20rem'
 })
