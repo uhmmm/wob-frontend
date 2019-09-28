@@ -19,7 +19,6 @@ const ContentColumn = styled.section({
 })
 
 const PageContentArea = ({ elements }) => {
-  console.log(elements)
   return (
     <ContentContainer>
       <ContentColumn>

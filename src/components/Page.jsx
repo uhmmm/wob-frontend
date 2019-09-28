@@ -2,7 +2,7 @@ import React from 'react'
 import styled from '@emotion/styled'
 import { Switch, Route } from 'react-router'
 
-import { LetterMetaList } from './LetterMetaList'
+import { LetterMetaList } from './LetterMeta/LetterMetaList'
 import { HeaderRouted } from './PageHeader'
 import { FooterConnected } from './PageFooter'
 import { PageContentAreaConnected } from './PageContentArea'
@@ -17,11 +17,21 @@ const PageLayoutContainer = styled.main({
 const BackgroundTop = styled.div({
   position: 'absolute',
   background: colors.darkestWhite,
-  height: '140vh',
+  height: '110vh',
+  width: '37vw'
+})
+
+const BackgroundMiddle = styled.div({
+  position: 'absolute',
+  right: '0',
+  top: '10rem',
+  background: colors.darkestWhite,
+  height: '80vh',
   width: '37vw'
 })
 
 const HeaderContainer = styled.div({ position: 'relative' })
+const ContentContainer = styled.div({ position: 'relative' })
 
 const PageLayout = () => (
   <PageLayoutContainer>
@@ -30,7 +40,10 @@ const PageLayout = () => (
       <PageImagesRouted />
       <HeaderRouted />
     </HeaderContainer>
-    <PageContentAreaConnected />
+    <ContentContainer>
+      <BackgroundMiddle />
+      <PageContentAreaConnected />
+    </ContentContainer>
     <LetterMetaList />
     <FooterConnected />
   </PageLayoutContainer>

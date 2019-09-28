@@ -15,6 +15,14 @@ const Background = styled.span(({ size, bgInversed, hOrient, vOrient }) => ({
   borderRadius: '100%'
 }))
 
+const Border = styled.span(({ size }) => ({
+  position: 'absolute',
+  width: `${size}rem`,
+  height: `${size}rem`,
+  border: `1px solid ${colors.darkestYellow}`,
+  borderRadius: '100%'
+}))
+
 const BubbleContainer = styled.span(({ size, bgInversed }) => ({
   flex: `0 0 auto`,
   position: 'relative',
@@ -29,14 +37,6 @@ const BubbleContainer = styled.span(({ size, bgInversed }) => ({
       background: bgInversed ? colors.darkerYellow : colors.white
     }
   }
-}))
-
-const Border = styled.span(({ size }) => ({
-  position: 'absolute',
-  width: `${size}rem`,
-  height: `${size}rem`,
-  border: `1px solid ${colors.darkestYellow}`,
-  borderRadius: '100%'
 }))
 
 const Label = styled.span({

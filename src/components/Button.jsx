@@ -11,7 +11,7 @@ const ButtonSmall = styled.button(() => ({
   border: 'unset',
   margin: '0 0.5rem',
   padding: '0 1rem',
-  borderRadius: '10px',
+  borderRadius: '5px',
   ...type.contentMono.small,
   color: colors.white,
   cursor: 'pointer',
