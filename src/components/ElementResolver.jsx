@@ -58,7 +58,9 @@ const ElementResolver = ({ el }) => {
     case 'callToAction':
       return <CallToAction key={el.elementId} />
     default:
-      return <div key={el.elementId}>ViewError: Element can not resolved</div>
+      return (
+        <div key={el.elementId}>ViewError: Element can not be resolved</div>
+      )
   }
 }
 

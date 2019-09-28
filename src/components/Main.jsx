@@ -6,7 +6,8 @@ import { connect } from 'react-redux'
 import { Logo } from './Logo/Logo'
 import { ElementResolver } from './ElementResolver'
 
-import { getGroupedElementsBySlug } from '../reducers/elements'
+import { getElementsByProperty } from '../reducers/elements'
+import { getRouteBySlug } from '../reducers/routes'
 
 const MainContainer = styled.main({
   display: 'flex',
@@ -18,14 +19,14 @@ const LogoContainer = styled.div({
   margin: '0 0 4rem 0'
 })
 
-const Main = ({ groupedElements }) => {
+const Main = ({ elements }) => {
   return (
     <MainContainer>
       <LogoContainer>
         <Logo />
       </LogoContainer>
-      {groupedElements &&
-        groupedElements.base.map(el => {
+      {elements &&
+        elements.map(el => {
           return <ElementResolver key={el.elementId} el={el}></ElementResolver>
         })}
     </MainContainer>
@@ -33,9 +34,11 @@ const Main = ({ groupedElements }) => {
 }
 
 const mapStateToProps = (state, { match }) => {
+  let route = getRouteBySlug(state, { slug: match.params.formSlug })
   return {
-    groupedElements: getGroupedElementsBySlug(state, {
-      slug: match.params.formSlug
+    elements: getElementsByProperty(state, {
+      routeId: [route.routeId],
+      partOf: ['base']
     })
   }
 }

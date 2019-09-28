@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux'
 import { normalize, schema } from 'normalizr'
-import { groupBy, filter, includes, sortBy } from 'lodash'
+import { filter, includes, sortBy } from 'lodash'
 
 import { getRouteBySlug } from './routes'
 
@@ -57,12 +57,4 @@ export const getElementsByProperty = (state, { partOf, routeId }) => {
   const sortedElements = sortBy(partOfElements, ['order'])
 
   return sortedElements
-}
-
-export const getGroupedElementsBySlug = (state, { slug }) => {
-  const elements = getElementsBySlug(state, { slug })
-  const grouper = value => {
-    return Array.isArray(value.partOf) ? value.partOf[0] : value.partOf
-  }
-  return groupBy(elements, grouper)
 }
