@@ -5,7 +5,7 @@ import { Switch, Route } from 'react-router'
 import { LetterMetaList } from './LetterMetaList'
 import { HeaderRouted } from './PageHeader'
 import { FooterConnected } from './PageFooter'
-import { ContentAreaConnected } from './ContentArea'
+import { PageContentAreaConnected } from './PageContentArea'
 import { PageImagesRouted } from './Images/PageImages'
 
 import { colors } from '../styles/'
@@ -30,7 +30,7 @@ const PageLayout = () => (
       <PageImagesRouted />
       <HeaderRouted />
     </HeaderContainer>
-    <ContentAreaConnected />
+    <PageContentAreaConnected />
     <LetterMetaList />
     <FooterConnected />
   </PageLayoutContainer>

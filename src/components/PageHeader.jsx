@@ -18,7 +18,7 @@ const HeaderContainer = styled.div({
   margin: '10rem 0',
   height: 'calc(100% - 20rem)',
   background: colors.white,
-  width: 'calc(50% - 8rem)'
+  width: 'calc(60% - 8rem)'
 })
 
 const LogoContainer = styled.div({

@@ -273,6 +273,7 @@
     "routeId": "recS1bPIRb1IMyqRJ"
   },
   {
+    "slug": "landing",
     "title": "Dé Wobgenerator van Nederland",
     "type": "page",
     "elementIds": [
@@ -300,11 +301,10 @@
       "recxqdb4WWm2SBkzm",
       "rec0Q93b8gwTR4nSF"
     ],
-    "routeId": "recSx2NzrOTdbxZR5",
     "linkedImageId": [
       "recG5hVckz1Yu3sRx"
     ],
-    "slug": "landing"
+    "routeId": "recSx2NzrOTdbxZR5"
   },
   {
     "slug": "periode",
@@ -780,10 +780,10 @@
       "recKknefRjUhXBaYG",
       "rec2rA92MNMCM4L33"
     ],
-    "routeId": "recvBgzyf1d88SkiI",
     "linkedImageId": [
       "reclf3PLyJ4mNQDUw"
-    ]
+    ],
+    "routeId": "recvBgzyf1d88SkiI"
   },
   {
     "slug": "journalist",

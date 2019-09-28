@@ -17,18 +17,24 @@ import { CallToAction } from './CallToAction'
 
 const ElementResolver = ({ el }) => {
   switch (el.type) {
+    case 'titleLarge':
+      return <Title key={el.elementId} element={el} titleType="titleLarge" />
     case 'titleMedium':
-      return <Title key={el.elementId} element={el} />
-    case 'text':
-      return <TextBlock key={el.elementId} element={el} />
+      return <Title key={el.elementId} element={el} titleType="titleMedium" />
+    case 'titleSmall':
+      return <Title key={el.elementId} element={el} titleType="titleSmall" />
+    case 'textLarge':
+      return <TextBlock key={el.elementId} element={el} textType="textLarge" />
+    case 'textMedium':
+      return <TextBlock key={el.elementId} element={el} textType="textMedium" />
+    case 'markdown':
+      return <Markdown key={el.elementId} element={el} />
     case 'buttonSmall':
       return <Button key={el.elementId} btnType={'buttonSmall'} element={el} />
     case 'buttonMedium':
       return <Button key={el.elementId} btnType={'buttonMedium'} element={el} />
     case 'buttonLarge':
       return <Button key={el.elementId} btnType={'buttonLarge'} element={el} />
-    case 'markdown':
-      return <Markdown key={el.elementId} />
     case 'listBubble':
       return <ListBubbleConnected key={el.elementId} routeId={el.routeId} />
     case 'listCheck':

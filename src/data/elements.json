@@ -64,7 +64,7 @@
   },
   {
     "text": "Begin met het kort en bondig omschrijven van het onderwerp waarover je informatie vraagt. Let op: je kunt alleen informatie over overheidstaken opvragen.",
-    "type": "text",
+    "type": "textMedium",
     "routeId": [
       "rechhv82awVzZNu2c"
     ],
@@ -100,7 +100,7 @@
   },
   {
     "text": "Hier kun je de periode waarop je verzoek betrekking heeft begrenzen (van datum X tot datum Y). Het is niet verplicht, maar zo voorkom je dat je documenten ontvangt over een periode waar je niet in geïnteresseerd bent. Dat scheelt jou werk en het scheelt de overheid werk.",
-    "type": "text",
+    "type": "textMedium",
     "routeId": [
       "recVp99Blj0rjwYov"
     ],
@@ -314,7 +314,7 @@
   },
   {
     "text": "Phew! Je  Wob-verzoek is af. Je moet hem alleen nog even nalezen en verzenden.\n\nWe voegen nu nog een aantal alinea’s toe die altijd in een verzoek moeten zitten. Als je deze wilt selecteren, heb je die optie, maar we snappen het helemaal als je het wel goed vind zo. ",
-    "type": "text",
+    "type": "textMedium",
     "routeId": [
       "recb4PQRUH0aoXD6X"
     ],
@@ -502,7 +502,7 @@
   },
   {
     "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
-    "type": "text",
+    "type": "textMedium",
     "routeId": [
       "recb0ga4MXJN4XP0N"
     ],
@@ -630,7 +630,7 @@
   },
   {
     "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
-    "type": "text",
+    "type": "textMedium",
     "routeId": [
       "recrzse37LenTq7dY"
     ],
@@ -821,7 +821,7 @@
   },
   {
     "text": "Je kan ook vragen naar correspondentie met specifieke personen, selecteer hier met wie:",
-    "type": "text",
+    "type": "textMedium",
     "routeId": [
       "rec9Dw2AnuF75GNl2"
     ],
@@ -916,7 +916,7 @@
   },
   {
     "text": "Wil je alles over je onderwerp of weet je al precies wat je wil hebben? Selecteer hier en weeg af. Je kan bij specifieke documenten altijd nog selecteren dat je aanvullende documenten wilt.",
-    "type": "text",
+    "type": "textMedium",
     "routeId": [
       "recsXVE7yH4Go2Jds"
     ],
@@ -979,7 +979,7 @@
   },
   {
     "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
-    "type": "text",
+    "type": "textMedium",
     "routeId": [
       "recS1bPIRb1IMyqRJ"
     ],
@@ -1071,7 +1071,7 @@
   },
   {
     "text": "Hiermee geef je aan dat je open staat voor een gesprek. Het is meestal nuttig om nog eens mondeling toe te lichten welke informatie je zoekt. Dat helpt de Wob-ambtenaar en leidt hopelijk tot sneller succes van je verzoek.",
-    "type": "text",
+    "type": "textMedium",
     "routeId": [
       "recY5qsUjwzu2FKa4"
     ],
@@ -1104,7 +1104,7 @@
   },
   {
     "text": "Zo kies je de juiste overheidsinstantie:\n\nLocatie -  Vraag je af welke instantie over het onderwerp gaat? Is het een lokale, een provinciale of rijkskwestie? Bij wie kunnen documenten over het onderwerp zijn opgeslagen?\n\nGoogle - Als je er niet uitkomt, Google dan je onderwerp en kijk bij welke overheidsinstanties je uit komt.\nMeerdere instanties Als er meerdere overheidsinstanties over het onderwerp gaan, dan kun je meerdere verzoeken indienen. Probeer te vermijden dat het precies hetzelfde document op meerdere plekken vraagt.\n\nWob hoog - Als de ene instantie onder de verantwoordelijkheid van de andere instantie valt, dien je verzoek dan in bij de hoogste instantie. Denk bijvoorbeeld aan de Immigratie en Naturalisatiedienst (IND). Deze dienst valt onder het ministerie van Justitie en Veiligheid. Weet je niet zeker of de documenten bij de IND of het Ministerie liggen, wob dan het Ministerie.\n\nWel overheidstaak, geen Wob - Let op: er zijn organisaties die wel een wettelijke taak hebben, maar toch niet onder de Wob vallen en daarom niet in de lijst staan. Dat komt omdat ze ondanks hun wettelijke taak private bedrijven zijn.\n\nDoorgeleiding - Wees gerust: als je toch de verkeerde instantie hebt gekozen, is die instantie verplicht om je verzoek naar de juiste instantie door te sturen. Uiteraard gaat daar wel wat tijd overheen. \n\nNaamsverandering - Let op: overheidsinstanties veranderen regelmatig van naam. Denk aan het Ministerie van Veiligheid & Justitie dat veranderd is in Justitie & Veiligheid. We proberen dit up to date te houden maar laat het ons vooral weten als onze lijst is verouderd.",
-    "type": "text",
+    "type": "textMedium",
     "routeId": [
       "recv02YYylO77PUOI"
     ],
@@ -1134,7 +1134,7 @@
   },
   {
     "text": "Als je een Wob-verzoek verstuurt, moet de overheid weten van wie het verzoek komt en waar hun besluit op je verzoek naartoe moet worden gestuurd. Vul daarom hier je contactgegevens in. ",
-    "type": "text",
+    "type": "textMedium",
     "routeId": [
       "recXFPF4VRj3yvCLg"
     ],
@@ -1179,7 +1179,7 @@
   },
   {
     "text": "Kun je de documenten op een andere manier in handen krijgen, bijvoorbeeld door het gewoon te vragen of door ze ergens anders te zoeken? ",
-    "type": "text",
+    "type": "textMedium",
     "routeId": [
       "recLM00uQGCtyoAHn"
     ],
@@ -1233,7 +1233,7 @@
   },
   {
     "text": "Lees de brief nog een keer goed door en exporteer hem",
-    "type": "text",
+    "type": "textMedium",
     "routeId": [
       "recwSLma6YuAxO7Pt"
     ],
@@ -1309,7 +1309,7 @@
   },
   {
     "text": "E-mails kunnen veel inzicht geven in het besluitvormingsproces, de toon waarin tussen bepaalde personen gecommuniceerd wordt en de frequentie van het contact. Maar e-mails kunnen ook over volstrekt irrelevante zaken gaan, zoals de hoeveelheid broodjes die bij de vergadering zijn besteld. Bedenk dus of e-mails in het geval van jouw verzoek relevant zijn.",
-    "type": "text",
+    "type": "textMedium",
     "routeId": [
       "rec8daE4lrLHstC6u"
     ],
@@ -1539,7 +1539,7 @@
   },
   {
     "text": "Over deze generator",
-    "type": "titleMedium",
+    "type": "titleSmall",
     "routeId": [
       "recSx2NzrOTdbxZR5"
     ],
@@ -1614,7 +1614,7 @@
   },
   {
     "text": "De kern van je Wob-verzoek is nu af. Er zijn nog een paar opties die je aan of uit kunt zetten.",
-    "type": "text",
+    "type": "textMedium",
     "routeId": [
       "recmkybjDd9Wkf5hg"
     ],
@@ -1629,7 +1629,7 @@
   },
   {
     "text": "De wet verplicht overheidsinstanties een Wob-verzoek door te geleiden naar een andere instantie als de betreffende documenten niet bij haar maar bij de collega-instantie liggen. Het kan geen kwaad daar in de brief nog eens om te vragen.",
-    "type": "text",
+    "type": "textMedium",
     "routeId": [
       "reclTWVdtOxtGFAlR"
     ],
@@ -1758,7 +1758,7 @@
   },
   {
     "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet",
-    "type": "text",
+    "type": "textMedium",
     "routeId": [
       "recj307J0TzHpdEMT"
     ],
@@ -1773,7 +1773,7 @@
   },
   {
     "text": "Je bent hier omdat je informatie wilt opvragen bij een overheidsinstantie. Dat noemen we een Wob-verzoek. Met de Wob-generator is dat een koud kunstje.",
-    "type": "text",
+    "type": "textLarge",
     "routeId": [
       "recSx2NzrOTdbxZR5"
     ],
@@ -1848,7 +1848,7 @@
   },
   {
     "text": "Waarschijnlijk gaat het je meer om de interessante informatie dan om de exacte documenten zelf. Zeker als je Wob-verzoek omvangrijk is, kun je de overheidsinstantie aanbieden om gezamenlijk te kijken of ze je op een minder arbeidsintensieve manier ",
-    "type": "text",
+    "type": "textMedium",
     "routeId": [
       "rec5o7VxmQtRZf5ZD"
     ],
@@ -1937,7 +1937,7 @@
   },
   {
     "text": "E-mails kunnen veel inzicht geven in het besluitvormingsproces, de toon waarin tussen bepaalde personen gecommuniceerd wordt en de frequentie van het contact. Maar e-mails kunnen ook over volstrekt irrelevante zaken gaan, zoals de hoeveelheid broodjes die bij de vergadering zijn besteld. Bedenk dus of e-mails in het geval van jouw verzoek relevant zijn.",
-    "type": "text",
+    "type": "textMedium",
     "routeId": [
       "rec9Dw2AnuF75GNl2"
     ],
@@ -2153,7 +2153,7 @@
   },
   {
     "text": "Door dit aan te vinken verzoek je de overheidsinstantie goed te motiveren waarom ze je Wob-verzoek niet binnen de wettelijke termijn afhandelen.",
-    "type": "text",
+    "type": "textMedium",
     "routeId": [
       "reciRZMWtGbWkqveO"
     ],
@@ -2168,7 +2168,7 @@
   },
   {
     "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor",
-    "type": "text",
+    "type": "textMedium",
     "routeId": [
       "recB4QxrYPlOnqBTB"
     ],
@@ -2306,7 +2306,7 @@
   },
   {
     "text": "Gemeenten, provincies, ministeries, waterschappen, de politie, inspectiediensten en tal van zelfstandige bestuursorganen (ZBO’s) die een overheidstaak uitvoeren.  ",
-    "type": "text",
+    "type": "textMedium",
     "routeId": [
       "recWxAXxUfDlJS7q4"
     ],
@@ -2387,7 +2387,7 @@
   },
   {
     "text": "De organisatie waarbij jij wilt wobben gebruikt een bijzonder documenttype die wij niet voorzien hebben, vul hem dan hier in:",
-    "type": "text",
+    "type": "textMedium",
     "routeId": [
       "reczR2gc10ApJFFBE"
     ],
@@ -2417,7 +2417,7 @@
   },
   {
     "text": "Sommige instanties maken papieren kopieën van de documenten. Dat is slecht voor het milieu en kost je mogelijk ook geld. Je kunt aangeven dat je de documenten liefst digitaal ontvangt en dat je wilt dat de overheid met jou overlegt voor ze allerlei kopieerkosten maken en aan jou doorberekenen.",
-    "type": "text",
+    "type": "textMedium",
     "routeId": [
       "recMuOYmIyWDTyzQU"
     ],
@@ -2432,7 +2432,7 @@
   },
   {
     "text": "Je hoeft geen journalist te zijn om een Wob-verzoek te doen. Maar als je het met een journalistiek doel doet is het nuttig om dit te benoemen. Daarmee verwijs je naar een publiek belang en dat kan je verzoek versterken. Bovendien is het wel zo eerlijk om je Wob-verzoek vanaf het begin met open vizier te doen.",
-    "type": "text",
+    "type": "textMedium",
     "routeId": [
       "recvllEn1RtSYTtuH"
     ],
@@ -2465,7 +2465,7 @@
   },
   {
     "text": "Dat hoeft niet, maar het kan de overheidsinstantie helpen om beter te begrijpen welke documenten je zoekt. Overigens kan het in sommige gevallen verstandig zijn om juist níet te vertellen welk nieuws je op het spoor denkt te zijn. Weeg af wat slim is.",
-    "type": "text",
+    "type": "textMedium",
     "routeId": [
       "rec0wsNO24WV79OwJ"
     ],
@@ -2511,7 +2511,7 @@
   },
   {
     "text": "Je weet precies wat je wilt hebben! Schrijf hier kort de documentnaam en benoem of je aanvullende stukken wilt. Als je document een dataset is, geef dat dan ook aan. Daarvoor gelden namelijk net iets andere regels. ",
-    "type": "text",
+    "type": "textMedium",
     "routeId": [
       "recsW8iUGWbySdl1T"
     ],
@@ -2700,7 +2700,7 @@
   },
   {
     "text": "Hoe handig een Wob-verzoek ook is, het is natuurlijk niet slim om te gaan wobben als de stukken al ergens online staan of in stapels bij persvoorlichting liggen.\n\nEr zijn tal van opties van normale verzoeken, we hebben er een blogpost over geschreven op de VVOJ-site:",
-    "type": "text",
+    "type": "textMedium",
     "routeId": [
       "recIuYOcPfLmamsMF"
     ],
@@ -2747,7 +2747,7 @@
   },
   {
     "text": "Als je vermoedt dat je Wob-verzoek misschien wordt afgewezen omdat er (te) veel persoonlijke beleidsopvattingen van ambtenaren in staan, kun je aangeven dat je eventueel genoegen neemt met een samenvatting van de informatie.",
-    "type": "text",
+    "type": "textMedium",
     "routeId": [
       "rectXaEyBdDcOyeGa"
     ],
@@ -2851,7 +2851,7 @@
   },
   {
     "text": "Een formele afsluiting van je verzoek: je vraagt om te bevestigen dat het Wob-verzoek is ontvangen en geeft aan graag op de hoogte te worden gehouden van de voortgang. Je wijst op de wettelijke termijn waarbinnen de overheid een beslissing dient te nemen.",
-    "type": "text",
+    "type": "textMedium",
     "routeId": [
       "recemOBeTquFD8Vdd"
     ],
@@ -2866,7 +2866,7 @@
   },
   {
     "text": "Je Wob-verzoek is verzonden, je zal de bestanden ook in je download map moeten kunnen vinden!",
-    "type": "text",
+    "type": "textMedium",
     "routeId": [
       "recvBgzyf1d88SkiI"
     ],
@@ -2895,7 +2895,7 @@
   },
   {
     "text": "Als je Wob-verzoek betrekking heeft op milieu-informatie moet een overheidsinstantie daar binnen twee weken een besluit over nemen. Met dit vinkje wijs je daar extra op en vraag je om een snel besluit.",
-    "type": "text",
+    "type": "textMedium",
     "routeId": [
       "recNnmOiLS8wDcp6c"
     ],
@@ -2910,7 +2910,7 @@
   },
   {
     "text": "Wob-generator",
-    "type": "titleMedium",
+    "type": "titleLarge",
     "routeId": [
       "recSx2NzrOTdbxZR5"
     ],
@@ -2943,7 +2943,7 @@
   },
   {
     "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
-    "type": "text",
+    "type": "textMedium",
     "routeId": [
       "recR3xSpTuROzmcXP"
     ],
@@ -3053,7 +3053,7 @@
   },
   {
     "text": "Zelfs als je precies weet welk document je wil hebben, kan het nuttig zijn om ook andere documenten te vragen. Zo krijg je inzicht in de totstandkoming van het document, de personen of organisaties die daarbij betrokken zijn geweest, koerswijzigingen, enzovoort.",
-    "type": "text",
+    "type": "textMedium",
     "routeId": [
       "recJn1Ksk3OZIFFSK"
     ],
@@ -3068,7 +3068,7 @@
   },
   {
     "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor",
-    "type": "text",
+    "type": "textMedium",
     "routeId": [
       "rec1eWCNlmdQUL8bW"
     ],
@@ -3083,7 +3083,7 @@
   },
   {
     "text": "Je kan ook vragen naar correspondentie met specifieke personen, selecteer hier met wie:",
-    "type": "text",
+    "type": "textMedium",
     "routeId": [
       "rec8daE4lrLHstC6u"
     ],
@@ -3176,7 +3176,7 @@
   },
   {
     "text": "Zelfs als je precies weet welk document je wil hebben, kan het nuttig zijn om ook andere documenten te vragen. Zo krijg je inzicht in de totstandkoming van het document, de personen of organisaties die daarbij betrokken zijn geweest, koerswijzigingen, enzovoort.",
-    "type": "text",
+    "type": "textMedium",
     "routeId": [
       "recnVLQCE4Z3gfeQN"
     ],
@@ -3272,7 +3272,7 @@
   },
   {
     "text": "Verstuur je brief met de Wob-knop en hou de voortgang van je verzoek bij",
-    "type": "text",
+    "type": "textMedium",
     "routeId": [
       "recwSLma6YuAxO7Pt"
     ],
@@ -3287,7 +3287,7 @@
   },
   {
     "text": "Voor personen en organisaties gelden verschillende tarieven, mocht je later bij de rechter in beroep gaan tegen het besluit van de overheid op jouw verzoek. Als persoon procedeer je goedkoper dan als organisatie. \n\nLees hier meer over op ons blog:",
-    "type": "text",
+    "type": "textMedium",
     "routeId": [
       "recpS5ubR52aN9sRF"
     ],
@@ -3317,7 +3317,7 @@
   },
   {
     "text": "Selecteer hier de periode waarbinnen je denkt dat er voor jou interessante informatie beschikbaar is.",
-    "type": "text",
+    "type": "textMedium",
     "routeId": [
       "recIkzk83HjjxfJKT"
     ],
@@ -3378,7 +3378,7 @@
   },
   {
     "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet",
-    "type": "text",
+    "type": "textMedium",
     "routeId": [
       "rechNu7XVT6G3ByRy"
     ],
@@ -3393,7 +3393,7 @@
   },
   {
     "text": "Het kan geen kwaad om er op te wijzen dat je met ‘documenten’ niet alleen klassieke papieren documenten bedoelt, maar bijvoorbeeld ook digitale (data-)bestanden, audiofiles en whatsapp-berichten.",
-    "type": "text",
+    "type": "textMedium",
     "routeId": [
       "recieD9WELmtn0ZQt"
     ],
@@ -3454,7 +3454,7 @@
   },
   {
     "text": "Als je vermoedt dat je Wob-verzoek misschien wordt afgewezen omdat er (te) veel persoonsgegevens in voorkomen, kun je aangeven dat je eventueel genoegen neemt met een geanonimiseerde versie van de documenten.",
-    "type": "text",
+    "type": "textMedium",
     "routeId": [
       "recLKYD9zDdom9Bbe"
     ],
@@ -3469,7 +3469,7 @@
   },
   {
     "text": "Je kunt alleen informatie opvragen die voortkomt uit een overheidstaak, in de Wob wordt dat een ‘bestuurlijke aangelegenheid’ genoemd. De Wob werkt niet als je informatie zoekt over bijvoorbeeld de privé-aangelegenheden van een ambtenaar. Of informatie over jou zelf.",
-    "type": "text",
+    "type": "textMedium",
     "routeId": [
       "recF44AQShm3vLYVT"
     ],
@@ -3527,7 +3527,7 @@
     ]
   },
   {
-    "text": "Wat is de Wet openbaarheid van bestuur?\n\nIedereen heeft het recht om informatie op te vragen bij de overheid. Dat noemen we een Wob-verzoek. In de Wet openbaarheid van bestuur, afgekort: de Wob, is geregeld waar zo’n verzoek aan moet voldoen. Het doen van dit verzoek wordt vaak ‘wobben’ genoemd.\n\nHoe doe ik een Wob-verzoek?\n\nHet opstellen van een Wob-verzoek is niet moeilijk, maar het verzoek moet wel aan een aantal voorwaarden voldoen. Met de Wob-generator helpen we je een goed en geldig Wob-verzoek op te stellen. Kies welke documenten je wil opvragen en bij welke overheidsinstantie. Klaar! Je kunt nu je Wob-verzoek uitprinten en versturen via de post of digitaal verzenden via de Wob-Knop. ",
+    "text": "### Wat is de Wet openbaarheid van bestuur?\n\nIedereen heeft het recht om informatie op te vragen bij de overheid. Dat noemen we een Wob-verzoek. In de Wet openbaarheid van bestuur, afgekort: de Wob, is geregeld waar zo’n verzoek aan moet voldoen. Het doen van dit verzoek wordt vaak ‘wobben’ genoemd.\n\n### Hoe doe ik een Wob-verzoek?\n\nHet opstellen van een Wob-verzoek is niet moeilijk, maar het verzoek moet wel aan een aantal voorwaarden voldoen. Met de Wob-generator helpen we je een goed en geldig Wob-verzoek op te stellen. Kies welke documenten je wil opvragen en bij welke overheidsinstantie. Klaar! Je kunt nu je Wob-verzoek uitprinten en versturen via de post of digitaal verzenden via de Wob-Knop. ",
     "type": "markdown",
     "routeId": [
       "recSx2NzrOTdbxZR5"
@@ -3543,7 +3543,7 @@
   },
   {
     "text": "De Wob-verzoeken worden lokaal in je browser opgeslagen. Waarschijnlijk ken je het begrip “cookies”,  wij gebruiken een iets geavanceerdere variant van deze techniek. De applicatie heeft alleen simpele server die geen data kan ontvangen.\n\nDe opslag functionaliteit is bedoeld om het sluiten van een tabblad op te vangen. Het zou jammer zijn als je je Wob-verzoek onbedoeld wist. Vertrouw alleen niet teveel op deze opslagmethode. Als je de lokale data in je browser wist, wis je al je verzoeken! ",
-    "type": "text",
+    "type": "textMedium",
     "routeId": [
       "rec2ShlT3krqr1pVj"
     ],
@@ -3574,7 +3574,7 @@
   },
   {
     "text": "Je hoeft geen journalist te zijn om te wobben. Je hoeft ook het (journalistieke) doel van je verzoek toe te lichten. Klik op de i’tjes voor meer informatie.",
-    "type": "text",
+    "type": "textMedium",
     "routeId": [
       "recfvKGrVYxw2Y6Zl"
     ],
@@ -3604,7 +3604,7 @@
   },
   {
     "text": "De overheid hoeft alleen informatie openbaar te maken die in documenten of andere gegevensdragers is vastgelegd. ‘Documenten’ zijn gelukkig wel breder dan geschreven stukken alleen. Excelsheets, databestanden, audio-opnames, sms’jes en WhatsAppjes verstuurd van een werktelefoon vallen er bijvoorbeeld ook onder. \n\nNatuurlijk kun je de overheid ook om informatie vragen die niet al op een gegevensdrager staat, bijvoorbeeld wat de gemeente vindt van een bepaalde ontwikkeling of wat de gemeente van plan is daaraan te doen. Dat is dan geen Wob-verzoek, maar een gewoon informatieverzoek. Hiervoor is de Wob-generator niet bedoeld.",
-    "type": "text",
+    "type": "textMedium",
     "routeId": [
       "recPILpzPpOxU5PuR"
     ],
@@ -3649,7 +3649,7 @@
   },
   {
     "text": "Wob-verzoeken kunnen alleen bij overheidsinstanties worden ingediend. Dat zijn er vermoedelijk meer dan je denkt. ",
-    "type": "text",
+    "type": "textMedium",
     "routeId": [
       "recv6iVTRTh27ylhL"
     ],
@@ -3790,7 +3790,7 @@
     ]
   },
   {
-    "text": "1. Wobben is niet moeilijk!\n\nHet lijkt intimiderend om een goed geschreven informatieverzoek te schrijven. Maar als je een paar basisprincipes kent, dan is het een vrij simpel foefje.\n\n2. Transparantie is een samenwerking\n\nHet lijkt intimiderend om een goed geschreven informatieverzoek te schrijven. Maar als je een paar basisprincipes kent, dan is het een vrij simpel foefje.\n\n3. In Nederland wordt weinig geWobt\n\nHet lijkt intimiderend om een goed geschreven informatieverzoek te schrijven. Maar als je een paar basisprincipes kent, dan is het een vrij simpel foefje.",
+    "text": "### 1. Wobben is niet moeilijk!\n\nHet lijkt intimiderend om een goed geschreven informatieverzoek te schrijven. Maar als je een paar basisprincipes kent, dan is het een vrij simpel foefje.\n\n### 2. Transparantie is een samenwerking\n\nHet lijkt intimiderend om een goed geschreven informatieverzoek te schrijven. Maar als je een paar basisprincipes kent, dan is het een vrij simpel foefje.\n\n### 3. In Nederland wordt weinig geWobt\n\nHet lijkt intimiderend om een goed geschreven informatieverzoek te schrijven. Maar als je een paar basisprincipes kent, dan is het een vrij simpel foefje.",
     "type": "markdown",
     "routeId": [
       "recSx2NzrOTdbxZR5"
@@ -3821,7 +3821,7 @@
   },
   {
     "text": "Voila!",
-    "type": "text",
+    "type": "textMedium",
     "routeId": [
       "recLM00uQGCtyoAHn"
     ],
@@ -3836,7 +3836,7 @@
   },
   {
     "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
-    "type": "text",
+    "type": "textMedium",
     "routeId": [
       "recc3iR8FvflhqhhB"
     ],
