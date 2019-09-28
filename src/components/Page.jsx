@@ -4,7 +4,7 @@ import { Switch, Route } from 'react-router'
 
 import { LetterMetaList } from './LetterMeta/LetterMetaList'
 import { HeaderRouted } from './PageHeader'
-import { FooterConnected } from './PageFooter'
+import { FooterConnected } from './PageFooter/PageFooter'
 import { PageContentAreaConnected } from './PageContentArea'
 import { PageImagesRouted } from './Images/PageImages'
 
