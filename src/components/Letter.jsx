@@ -10,11 +10,14 @@ import { colors, type } from '../styles'
 
 const LetterArea = styled.section(({ fullScreen }) => ({
   position: fullScreen ? 'relative' : 'absolute',
-  width: !fullScreen ? 'calc(50vw + 8rem)' : '100%',
-  top: !fullScreen && '14rem',
+  top: '0',
   left: !fullScreen && '-4rem',
+  width: !fullScreen ? 'calc(50vw + 8rem)' : '100%',
+  height: '100%',
+  padding: '14rem 0',
   display: 'flex',
-  justifyContent: 'center'
+  justifyContent: 'center',
+  overflow: 'scroll'
 }))
 
 const LetterAreaInner = styled.div({})
@@ -55,10 +58,18 @@ const Letter = ({ fullScreen, visible }) => {
           </LetterHeader>
         )}
         <LetterContainer fullScreen={fullScreen}>
-          <LetterText>Ministerie van Financiën</LetterText>
-          <LetterText>t.a.v. Menno Snel</LetterText>
-          <LetterText>Korte Voorhout 7</LetterText>
-          <LetterText>2511 CW Den Haag</LetterText>
+          {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map(value => {
+            return (
+              <div key={value}>
+                <LetterText>Ministerie van Financiën</LetterText>
+                <LetterText>t.a.v. Menno Snel</LetterText>
+                <LetterText>Korte Voorhout 7</LetterText>
+                <LetterText>2511 CW Den Haag</LetterText>
+                <LetterText>.</LetterText>
+                <LetterText>.</LetterText>
+              </div>
+            )
+          })}
         </LetterContainer>
       </LetterAreaInner>
     </LetterArea>

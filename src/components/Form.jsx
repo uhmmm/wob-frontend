@@ -30,10 +30,10 @@ const RightContainer = styled.section({
   padding: '8rem 8rem 12rem 8rem'
 })
 
-const RightSectionHeader = styled.div({
-  display: 'flex',
-  justifyContent: 'flex-end',
-  width: '100%'
+const ToggleBarContainer = styled.div({
+  position: 'absolute',
+  top: '8rem',
+  right: '8rem'
 })
 
 const FormLayout = ({ route }) => (
@@ -45,14 +45,14 @@ const FormLayout = ({ route }) => (
     <Sidebar />
     <MainRouter />
     <RightContainer>
-      <RightSectionHeader>
-        <ToggleBarRouted />
-      </RightSectionHeader>
       <ImagesRouted />
       <AsideRouter />
       <LetterConnected />
-      <PaginationRouted />
       <ReviewBoxListConnected />
+      <PaginationRouted />
+      <ToggleBarContainer>
+        <ToggleBarRouted />
+      </ToggleBarContainer>
     </RightContainer>
   </FormLayoutContainer>
 )
