@@ -70,7 +70,9 @@ const mapStateToProps = (state, { match }) => {
   let fullScreen = route && includes(route.letter, 'fullScreen')
   return {
     fullScreen,
-    visible: fullScreen ? true : getLetterVisibility(state)
+    visible: fullScreen
+      ? true
+      : getLetterVisibility(state) && includes(route.letter, 'showToggle')
   }
 }
 
