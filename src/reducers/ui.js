@@ -10,3 +10,7 @@ const ui = (state = { letterIsVisible: false }, action) => {
 }
 
 export { ui }
+
+export const getLetterVisibility = state => {
+  return state.ui.letterIsVisible
+}

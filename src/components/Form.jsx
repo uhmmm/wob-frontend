@@ -5,7 +5,7 @@ import { Helmet } from 'react-helmet-async'
 import { connect } from 'react-redux'
 import { Switch, Route } from 'react-router-dom'
 
-import { LetterConnected } from './Letter/Letter'
+import { LetterConnected } from './Letter'
 import { ToggleBarRouted } from './ToggleBar'
 import { PaginationRouted } from './Pagination/Pagination'
 import { MainRouter } from './Main'

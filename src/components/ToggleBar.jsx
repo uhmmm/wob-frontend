@@ -5,6 +5,7 @@ import { connect } from 'react-redux'
 import { includes } from 'lodash'
 
 import { getRouteBySlug } from '../reducers/routes'
+import { getLetterVisibility } from '../reducers/ui'
 import { toggleLetter } from '../actions/ui'
 import { colors, type } from '../styles'
 
@@ -72,7 +73,7 @@ const mapStateToProps = (state, { match }) => {
   let route = getRouteBySlug(state, { slug: match.params.formSlug })
   return {
     visible: route && includes(route.letter, 'showToggle'),
-    letterIsVisible: state.ui.letterIsVisible
+    letterIsVisible: getLetterVisibility(state)
   }
 }
 
