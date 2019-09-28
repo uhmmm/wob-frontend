@@ -1,10 +1,11 @@
-import React, { useState } from 'react'
+import React from 'react'
 import styled from '@emotion/styled'
 import { withRouter } from 'react-router'
 import { connect } from 'react-redux'
 import { includes } from 'lodash'
 
 import { getRouteBySlug } from '../reducers/routes'
+import { toggleLetter } from '../actions/ui'
 import { colors, type } from '../styles'
 
 const ToggleBarContainer = styled.div({
@@ -58,14 +59,10 @@ const Toggle = ({ handler, active }) => {
   )
 }
 
-const ToggleBar = ({ visible }) => {
-  const [active, setActive] = useState(false)
-  const handler = () => {
-    setActive(!active)
-  }
+const ToggleBar = ({ visible, letterIsVisible, toggleLetter }) => {
   return visible ? (
     <ToggleBarContainer>
-      <Toggle handler={handler} active={active} />
+      <Toggle handler={toggleLetter} active={letterIsVisible} />
       <Label>Toon Brief</Label>
     </ToggleBarContainer>
   ) : null
@@ -74,10 +71,16 @@ const ToggleBar = ({ visible }) => {
 const mapStateToProps = (state, { match }) => {
   let route = getRouteBySlug(state, { slug: match.params.formSlug })
   return {
-    visible: route && includes(route.letter, 'showToggle')
+    visible: route && includes(route.letter, 'showToggle'),
+    letterIsVisible: state.ui.letterIsVisible
   }
 }
 
-const ToggleBarRouted = withRouter(connect(mapStateToProps)(ToggleBar))
+const ToggleBarRouted = withRouter(
+  connect(
+    mapStateToProps,
+    { toggleLetter }
+  )(ToggleBar)
+)
 
 export { ToggleBar, ToggleBarRouted }

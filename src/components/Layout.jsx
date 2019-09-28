@@ -36,8 +36,8 @@ const Layout = () => (
       <meta name="theme-color" content="#ffffff" />
     </Helmet>
     <Switch>
-      <Route path="/form" component={FormRouter} />
-      <Route path="/page" component={PageRouter} />
+      <Route path="/form/:formSlug" component={FormRouter} />
+      <Route path="/page/:pageSlug" component={PageRouter} />
       <Redirect to="/page/landing" />
     </Switch>
   </LayoutContainer>

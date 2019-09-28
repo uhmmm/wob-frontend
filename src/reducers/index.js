@@ -4,13 +4,15 @@ import { letters } from './letters'
 import { routes } from './routes'
 import { elements } from './elements'
 import { images } from './images'
+import { ui } from './ui'
 
 const reducers = combineReducers({
   organizations,
   letters,
   routes,
   elements,
-  images
+  images,
+  ui
 })
 
 export default reducers
