@@ -5,8 +5,8 @@ import { Helmet } from 'react-helmet-async'
 import { connect } from 'react-redux'
 import { Switch, Route } from 'react-router-dom'
 
-import { Letter } from './Letter/Letter'
-import { ToggleBar } from './ToggleBar'
+import { LetterConnected } from './Letter/Letter'
+import { ToggleBarRouted } from './ToggleBar'
 import { PaginationRouted } from './Pagination/Pagination'
 import { MainRouter } from './Main'
 import { ImagesRouted } from './Images/FormImages'
@@ -23,6 +23,7 @@ const FormLayoutContainer = styled.main({
 })
 
 const RightContainer = styled.section({
+  flex: '1 1 50%',
   position: 'relative',
   height: '100%',
   padding: '8rem 8rem 12rem 8rem'
@@ -44,11 +45,11 @@ const FormLayout = ({ route }) => (
     <MainRouter />
     <RightContainer>
       <RightSectionHeader>
-        <ToggleBar />
+        <ToggleBarRouted />
       </RightSectionHeader>
       <ImagesRouted />
       <AsideRouter />
-      <Letter />
+      <LetterConnected />
       <PaginationRouted />
     </RightContainer>
   </FormLayoutContainer>
