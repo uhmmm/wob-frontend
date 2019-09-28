@@ -1,12 +1,10 @@
 import React from 'react'
 import styled from '@emotion/styled'
 import { connect } from 'react-redux'
-import { withRouter } from 'react-router'
 
 import { ElementResolver } from '../ElementResolver'
 
 import { getElementsByProperty } from '../../reducers/elements'
-import { getRouteBySlug } from '../../reducers/routes'
 
 import backgroundImg from './background.png'
 import { colors } from '../../styles'
@@ -42,16 +40,14 @@ const Footer = ({ elements }) => (
   </FooterContainer>
 )
 
-const mapStateToProps = (state, { match }) => {
-  let route = getRouteBySlug(state, { slug: match.params.pageSlug })
+const mapStateToProps = state => {
   return {
     elements: getElementsByProperty(state, {
-      partOf: ['pageFooter'],
-      routeId: [route.routeId]
+      partOf: ['pageFooter']
     })
   }
 }
 
-const FooterConnected = withRouter(connect(mapStateToProps)(Footer))
+const FooterConnected = connect(mapStateToProps)(Footer)
 
 export { FooterConnected }
