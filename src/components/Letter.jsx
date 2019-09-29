@@ -14,16 +14,17 @@ const LetterArea = styled.section(({ fullScreen }) => ({
   left: !fullScreen && '-4rem',
   width: !fullScreen ? 'calc(50vw + 8rem)' : '100%',
   height: '100%',
-  padding: '14rem 0',
   display: 'flex',
   justifyContent: 'center',
   overflow: 'scroll'
 }))
 
-const LetterAreaInner = styled.div({})
+const LetterAreaInner = styled.div(({ fullScreen }) => ({
+  width: !fullScreen ? 'calc(50vw + 8rem)' : '70vw',
+  padding: '14rem 0 16rem'
+}))
 
 const LetterHeader = styled.div({
-  width: '50vw',
   padding: '0 0 3rem 4rem'
 })
 
@@ -38,11 +39,12 @@ const Label = styled.label({
 
 const LetterContainer = styled.div(({ fullScreen }) => ({
   flex: '1 1 50vw',
-  width: !fullScreen ? 'calc(50vw + 8rem)' : '70vw',
-  height: '130vh',
+  width: '100%',
+  minHeight: '130vh',
   boxShadow: '0 3px 6px 0px rgba(0, 0, 0, 0.1607843137254902)',
   background: colors.white,
-  padding: '8rem'
+  padding: '8rem',
+  margin: '0 0 80vh'
 }))
 
 const LetterText = styled.p({ ...type.content.medium, color: colors.darkGrey })
@@ -50,7 +52,7 @@ const LetterText = styled.p({ ...type.content.medium, color: colors.darkGrey })
 const Letter = ({ fullScreen, visible }) => {
   return visible ? (
     <LetterArea fullScreen={fullScreen}>
-      <LetterAreaInner>
+      <LetterAreaInner fullScreen={fullScreen}>
         {fullScreen && (
           <LetterHeader>
             <Title>Review</Title>
