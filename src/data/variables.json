@@ -1,0 +1,347 @@
+[
+  {
+    "name": "documentInternNotes",
+    "partOf": "correspondenceInside",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterCondition": [
+      "recbP5Y8jNb1iAOIz"
+    ]
+  },
+  {
+    "name": "documentPreparationPresentationList",
+    "partOf": "documentPreparation",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterCondition": [
+      "recxm1PvJZ9BFHDSP"
+    ]
+  },
+  {
+    "name": "writerEmail",
+    "placeholder": "<email schrijver>",
+    "partOf": "writer",
+    "type": "string",
+    "defaultValue": "utrecht@op.nl"
+  },
+  {
+    "name": "writerCity",
+    "placeholder": "<stad schrijver>",
+    "partOf": "writer",
+    "type": "string",
+    "defaultValue": "Utrecht"
+  },
+  {
+    "name": "documentPreparationAdvice",
+    "partOf": "documentPreparation",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterCondition": [
+      "rec9HPrDoWnsM3uoY"
+    ]
+  },
+  {
+    "name": "documentTitle",
+    "placeholder": "<titel of omschrijving document >",
+    "partOf": "document",
+    "type": "string",
+    "letterDisplay": [
+      "recO3VTlacjvq08o5"
+    ],
+    "defaultValue": "Een titel"
+  },
+  {
+    "name": "documentExternLetters",
+    "partOf": "correspondenceOutside",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterCondition": [
+      "recwkQJZVLOAXOfn5"
+    ]
+  },
+  {
+    "name": "documentExternDM",
+    "partOf": "correspondenceOutside",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterCondition": [
+      "recqRyCuB0az2xIpD"
+    ]
+  },
+  {
+    "name": "documentPreparationMeetingNotes",
+    "partOf": "documentPreparation",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterCondition": [
+      "reciD6vNCpGchdinE"
+    ]
+  },
+  {
+    "name": "governmentEmail",
+    "placeholder": "<email overheid>",
+    "partOf": "government",
+    "type": "string",
+    "defaultValue": "groningen@gemeent.nl"
+  },
+  {
+    "name": "documentDate",
+    "placeholder": "<document datum>",
+    "partOf": "document",
+    "type": "dateTime",
+    "letterDisplay": [
+      "recbqjvY2PoHnVRFF"
+    ],
+    "letterCondition": [
+      "recbqjvY2PoHnVRFF"
+    ],
+    "defaultValue": "12-11-1978"
+  },
+  {
+    "name": "letterDisplayDateTime",
+    "placeholder": "<datum brief>",
+    "partOf": "letter",
+    "type": "dateTime",
+    "letterDisplay": [
+      "recwMrZEDSxyYNP3E"
+    ],
+    "defaultValue": "11-09-1967"
+  },
+  {
+    "name": "writerIsJournalist",
+    "partOf": "writer",
+    "type": "boolean",
+    "defaultValue": "false",
+    "letterCondition": [
+      "recV1Ki51EkbP8GND",
+      "recuBqC4qVDhhBHGM",
+      "recyJYiAOq7aeXJew",
+      "recoHwJy02ZWavkwR"
+    ]
+  },
+  {
+    "name": "documentPreparationDecision",
+    "partOf": "documentPreparation",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterCondition": [
+      "reco7JycsMorXIoay"
+    ]
+  },
+  {
+    "name": "letterSubject",
+    "placeholder": "<onderwerp brief>",
+    "partOf": "letter",
+    "type": "string",
+    "letterDisplay": [
+      "rectBT638iPD1Dl8s",
+      "recUHMuHIwZ0Vm9Zf"
+    ],
+    "defaultValue": "Een onderwerp"
+  },
+  {
+    "name": "writerPostcode",
+    "placeholder": "<postcode schrijver>",
+    "partOf": "writer",
+    "type": "string",
+    "defaultValue": "2045TT"
+  },
+  {
+    "name": "documentList",
+    "partOf": "document",
+    "type": "array"
+  },
+  {
+    "name": "governmentAdress",
+    "placeholder": "<adres overheid>",
+    "partOf": "government",
+    "type": "string",
+    "letterDisplay": [
+      "recpIDfXukBbapZFZ"
+    ],
+    "defaultValue": "Een Locatie 18A"
+  },
+  {
+    "name": "governmentCity",
+    "placeholder": "<stad overheid>",
+    "partOf": "government",
+    "type": "string",
+    "letterDisplay": [
+      "recFqdAp7tWbs0RKA"
+    ],
+    "defaultValue": "Groningen"
+  },
+  {
+    "name": "documentExternNotes",
+    "partOf": "correspondenceOutside",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterCondition": [
+      "recpUZP5tJhwXAaNV"
+    ]
+  },
+  {
+    "name": "writerOrganisationName",
+    "placeholder": "<organisatie schrijver>",
+    "partOf": "writer",
+    "type": "string",
+    "letterDisplay": [
+      "recV1Ki51EkbP8GND",
+      "recuBqC4qVDhhBHGM",
+      "recoHwJy02ZWavkwR"
+    ],
+    "defaultValue": "Klaasen"
+  },
+  {
+    "name": "documentInternDM",
+    "partOf": "correspondenceInside",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterCondition": [
+      "rec5btTVR2impeNCE"
+    ]
+  },
+  {
+    "name": "writerAdress",
+    "placeholder": "<adres schrijver>",
+    "partOf": "writer",
+    "type": "string",
+    "defaultValue": "Kluns"
+  },
+  {
+    "name": "documentPreparationReceivedPiece",
+    "partOf": "documentPreparation",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterCondition": [
+      "recF3V0mJ1tef63f0"
+    ]
+  },
+  {
+    "name": "documentIsDataset",
+    "partOf": "document",
+    "type": "boolean",
+    "defaultValue": "false"
+  },
+  {
+    "name": "documentPreparationInvitation",
+    "partOf": "documentPreparation",
+    "type": "boolean",
+    "defaultValue": "true"
+  },
+  {
+    "name": "governmentAdresseeName",
+    "placeholder": "<naam bestuurder>",
+    "partOf": "government",
+    "type": "string",
+    "letterDisplay": [
+      "rec6RPcsgEZv3jozy",
+      "recu8JMvpCs67ek7R"
+    ],
+    "defaultValue": "Bestuurder"
+  },
+  {
+    "name": "documentInternEmail",
+    "partOf": "correspondenceInside",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterCondition": [
+      "recebJGnZ8FiPQYpu"
+    ]
+  },
+  {
+    "name": "documentInternLetters",
+    "partOf": "correspondenceInside",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterCondition": [
+      "reciTwYacTFzKBCrI"
+    ]
+  },
+  {
+    "name": "writerName",
+    "placeholder": "<naam schrijver>",
+    "partOf": "writer",
+    "type": "string",
+    "letterDisplay": [
+      "reccdjOg0pXsMwGqF"
+    ],
+    "defaultValue": "Klaas"
+  },
+  {},
+  {
+    "name": "documentExternEmail",
+    "partOf": "correspondenceOutside",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterCondition": [
+      "reckZj9wI7z7UTfpu"
+    ]
+  },
+  {
+    "name": "letterJounalisticRelevance",
+    "partOf": "letter",
+    "type": "boolean",
+    "defaultValue": "false",
+    "letterCondition": [
+      "reck0WYTrwB8gKjcT"
+    ]
+  },
+  {
+    "name": "letterForOrganisation",
+    "partOf": "letter",
+    "type": "boolean",
+    "defaultValue": "false",
+    "letterCondition": [
+      "recV1Ki51EkbP8GND",
+      "recuBqC4qVDhhBHGM",
+      "recyJYiAOq7aeXJew",
+      "recoHwJy02ZWavkwR"
+    ]
+  },
+  {
+    "name": "governmentName",
+    "placeholder": "<naam overheid>",
+    "partOf": "government",
+    "type": "string",
+    "letterDisplay": [
+      "recoBx1EsqlJfcYSj"
+    ],
+    "defaultValue": "Overheid"
+  },
+  {
+    "name": "governmentPostcode",
+    "placeholder": "<postcode overheid>",
+    "partOf": "government",
+    "type": "string",
+    "letterDisplay": [
+      "recYj8hutXMIFkWjY"
+    ],
+    "defaultValue": "1030YY"
+  },
+  {
+    "name": "documentPreparationDecisionList",
+    "partOf": "documentPreparation",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterCondition": [
+      "recXRppdimtKF3v2q"
+    ]
+  },
+  {
+    "name": "writerTelephone",
+    "placeholder": "<telefoon schrijver>",
+    "partOf": "writer",
+    "type": "string",
+    "defaultValue": "06-102305634534"
+  },
+  {
+    "name": "documentPreparationNotes",
+    "partOf": "documentPreparation",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterCondition": [
+      "rec5IxJnhBo9DouPx"
+    ]
+  }
+]

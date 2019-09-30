@@ -1,0 +1,636 @@
+[
+  {
+    "itemName": "documenten",
+    "before": "Notulen",
+    "partOf": [
+      "documentsNormal",
+      "documentsPreparation"
+    ],
+    "lineBreak": "inline",
+    "elementType": "listItem",
+    "conditionIds": [
+      "recvdGJ6CbZmDwNRp"
+    ]
+  },
+  {
+    "itemName": "documenten",
+    "before": "SMS-jes en WhatsApp-berichten,",
+    "partOf": [
+      "documentsNormal",
+      "documentsInternal"
+    ],
+    "lineBreak": "inline",
+    "conditionIds": [
+      "recU0eiiPmlk8w6mt"
+    ]
+  },
+  {
+    "itemName": "adressering en formaliteiten",
+    "letterDisplay": [
+      "recZfrIFSPmI9rTBV"
+    ],
+    "lineBreak": "newline",
+    "elementType": "text",
+    "routeId": [
+      "recv6iVTRTh27ylhL"
+    ],
+    "partOf": [
+      "paragraph",
+      "receiverAdress"
+    ]
+  },
+  {
+    "itemName": "documenten",
+    "before": "<document data>",
+    "partOf": [
+      "documentsData"
+    ],
+    "lineBreak": "newline",
+    "elementType": "listItem"
+  },
+  {
+    "itemName": "documenten",
+    "before": "Adviezen",
+    "partOf": [
+      "documentsNormal",
+      "documentsPreparation"
+    ],
+    "lineBreak": "inline",
+    "elementType": "listItem",
+    "conditionIds": [
+      "rec82a5ToVTfd6Q2V"
+    ]
+  },
+  {
+    "itemName": "documenten",
+    "before": "Concreet vraag ik u om:",
+    "partOf": [
+      "documentList"
+    ],
+    "lineBreak": "newline",
+    "elementType": "text"
+  },
+  {
+    "itemName": "main",
+    "partOf": [
+      "main"
+    ],
+    "elementType": "subject"
+  },
+  {
+    "itemName": "documenten",
+    "before": "Ingekomen stukken",
+    "partOf": [
+      "documentsNormal",
+      "documentsPreparation"
+    ],
+    "lineBreak": "inline",
+    "elementType": "listItem",
+    "conditionIds": [
+      "recV1YU35GNuYDlic"
+    ]
+  },
+  {
+    "itemName": "adressering en formaliteiten",
+    "letterDisplay": [
+      "recRLK9Fp2oMReIlz"
+    ],
+    "lineBreak": "inline",
+    "elementType": "text",
+    "routeId": [
+      "recv6iVTRTh27ylhL"
+    ],
+    "partOf": [
+      "paragraph",
+      "receiverAdress"
+    ]
+  },
+  {
+    "itemName": "aanhef",
+    "before": "Zeer geachte heer/mevrouw",
+    "lineBreak": "newline",
+    "elementType": "text",
+    "partOf": [
+      "paragraph",
+      "opening"
+    ]
+  },
+  {
+    "itemName": "main",
+    "partOf": [
+      "main"
+    ],
+    "elementType": "opening"
+  },
+  {
+    "itemName": "documenten",
+    "letterDisplay": [
+      "rec9TlrAZiBE98jAi"
+    ],
+    "partOf": [
+      "documentsNormal",
+      "documentsHeader"
+    ],
+    "lineBreak": "newline",
+    "elementType": "text"
+  },
+  {
+    "itemName": "openingsalinea",
+    "before": "om openbaarmaking van of inzage in hieronder nader te specificeren documenten of informatie bij of onder u over ",
+    "letterDisplay": [
+      "recNtTsesz5BufwXp"
+    ],
+    "lineBreak": "inline",
+    "elementType": "text",
+    "after": ".",
+    "partOf": [
+      "paragraph",
+      "firstAlinea"
+    ]
+  },
+  {
+    "itemName": "openingsalinea",
+    "before": "als journalist werkzaam voor o.a. ",
+    "letterDisplay": [
+      "recSis7QyiY32Egfq"
+    ],
+    "lineBreak": "inline",
+    "elementType": "text",
+    "conditionIds": [
+      "recLssr69f4Y9QlJv",
+      "reck0yQhyHjq9r7R3"
+    ],
+    "after": ", ",
+    "conditionValue": [
+      "false",
+      "true"
+    ],
+    "partOf": [
+      "paragraph",
+      "firstAlinea"
+    ]
+  },
+  {
+    "itemName": "documenten",
+    "before": "Besluitenlijsten",
+    "partOf": [
+      "documentsNormal",
+      "documentsPreparation"
+    ],
+    "lineBreak": "inline",
+    "elementType": "listItem",
+    "conditionIds": [
+      "recr3JmwBoIw1LVwT"
+    ]
+  },
+  {
+    "itemName": "adressering en formaliteiten",
+    "letterDisplay": [
+      "recpHZMDmThSywJfQ"
+    ],
+    "lineBreak": "newline",
+    "elementType": "text",
+    "routeId": [
+      "recv6iVTRTh27ylhL"
+    ],
+    "partOf": [
+      "paragraph",
+      "receiverAdress"
+    ]
+  },
+  {
+    "itemName": "documenten",
+    "before": "en derden, waaronder in ieder geval de navolgende partijen:",
+    "partOf": [
+      "documentsNormal",
+      "documentsExternal"
+    ],
+    "lineBreak": "newline",
+    "elementType": "documentPeople"
+  },
+  {
+    "itemName": "main",
+    "partOf": [
+      "main"
+    ],
+    "elementType": "receiverAdress"
+  },
+  {
+    "itemName": "main",
+    "partOf": [
+      "main"
+    ],
+    "elementType": "journalistic-relevance"
+  },
+  {
+    "itemName": "documenten",
+    "before": "externe correspondentie (incl./excl. ",
+    "partOf": [
+      "documentsNormal"
+    ],
+    "lineBreak": "newline",
+    "elementType": "documentsExternal",
+    "after": ")"
+  },
+  {
+    "itemName": "documenten",
+    "before": "Memo’s en notities,",
+    "partOf": [
+      "documentsNormal",
+      "documentsInternal"
+    ],
+    "lineBreak": "inline",
+    "conditionIds": [
+      "rec1GUDGJfM5ZGmIm"
+    ]
+  },
+  {
+    "itemName": "documenten",
+    "before": "van datum: ",
+    "letterDisplay": [
+      "recIHGfeCBwPo2srV"
+    ],
+    "partOf": [
+      "documentsNormal",
+      "documentsHeader"
+    ],
+    "lineBreak": "inline",
+    "elementType": "text",
+    "conditionIds": [
+      "recIHGfeCBwPo2srV"
+    ]
+  },
+  {
+    "itemName": "openingsalinea",
+    "before": "Met een beroep op de Wet openbaarheid van bestuur (hierna: Wob) verzoek ik, ",
+    "letterDisplay": [
+      "recc3RABaErKOmYPM"
+    ],
+    "lineBreak": "newline",
+    "elementType": "text",
+    "after": ", ",
+    "partOf": [
+      "paragraph",
+      "firstAlinea"
+    ]
+  },
+  {
+    "itemName": "adressering en formaliteiten",
+    "before": "T.a.v.",
+    "lineBreak": "newline",
+    "elementType": "text",
+    "routeId": [
+      "recv6iVTRTh27ylhL"
+    ],
+    "partOf": [
+      "paragraph",
+      "receiverAdress"
+    ]
+  },
+  {
+    "itemName": "documenten",
+    "before": "E-mails en brieven, inclusief bijlagen,",
+    "partOf": [
+      "documentsNormal",
+      "documentsInternal"
+    ],
+    "lineBreak": "inline",
+    "conditionIds": [
+      "recamgDGddLCv3qcP"
+    ]
+  },
+  {
+    "itemName": "main",
+    "partOf": [
+      "main"
+    ],
+    "elementType": "documentNormal"
+  },
+  {
+    "itemName": "onderwerp",
+    "before": "ONDERWERP:\n",
+    "lineBreak": "newline",
+    "elementType": "title",
+    "partOf": [
+      "paragraph",
+      "subject"
+    ]
+  },
+  {
+    "itemName": "main",
+    "partOf": [
+      "main"
+    ],
+    "elementType": "date"
+  },
+  {
+    "itemName": "documenten",
+    "before": ", alsmede:",
+    "partOf": [
+      "documentsNormal",
+      "documentsHeader"
+    ],
+    "lineBreak": "inline",
+    "elementType": "text"
+  },
+  {
+    "itemName": "documenten",
+    "before": "Gespreksverslagen",
+    "partOf": [
+      "documentsNormal",
+      "documentsPreparation"
+    ],
+    "lineBreak": "inline",
+    "elementType": "listItem",
+    "conditionIds": [
+      "recGTnK0sr28naWED"
+    ]
+  },
+  {
+    "itemName": "main",
+    "partOf": [
+      "main"
+    ],
+    "elementType": "firstAlinea"
+  },
+  {
+    "itemName": "documenten",
+    "before": "Brieven,",
+    "partOf": [
+      "documentsNormal",
+      "documentsInternal"
+    ],
+    "lineBreak": "inline",
+    "elementType": "listItem",
+    "conditionIds": [
+      "recapIZd8BKQgOu7S"
+    ]
+  },
+  {
+    "itemName": "journalistiek-belang",
+    "before": "In de afhandeling van dit verzoek vraag ik u rekening te houden met het publieke belang van de journalistiek als controleur van een goede en democratische bestuursvoering.",
+    "lineBreak": "newline",
+    "elementType": "text",
+    "conditionIds": [
+      "recjrzkCFobvw05e1"
+    ],
+    "partOf": [
+      "paragraph",
+      "journalistic-relevance"
+    ]
+  },
+  {
+    "itemName": "documenten",
+    "before": "E-mails en brieven, inclusief bijlagen,",
+    "partOf": [
+      "documentsNormal",
+      "documentsExternal"
+    ],
+    "lineBreak": "inline",
+    "conditionIds": [
+      "recdcUShbh698S3sw"
+    ]
+  },
+  {
+    "itemName": "documenten",
+    "partOf": [
+      "documentsNormal",
+      "documentPeople"
+    ]
+  },
+  {
+    "itemName": "documenten",
+    "before": "interne correspondentie (incl./excl.",
+    "partOf": [
+      "documentsNormal"
+    ],
+    "lineBreak": "newline",
+    "elementType": "documentsInternal",
+    "after": ")  met betrekking tot dit document"
+  },
+  {
+    "itemName": "documenten",
+    "before": "Besluiten",
+    "partOf": [
+      "documentsNormal",
+      "documentsPreparation"
+    ],
+    "lineBreak": "inline",
+    "elementType": "listItem",
+    "conditionIds": [
+      "recMqFdH7zwYVTBdw"
+    ]
+  },
+  {
+    "itemName": "adressering en formaliteiten",
+    "letterDisplay": [
+      "recoNy1jGMl93XAI7"
+    ],
+    "partOf": [
+      "paragraph",
+      "receiverAdress"
+    ],
+    "lineBreak": "newline",
+    "elementType": "text",
+    "routeId": [
+      "recv6iVTRTh27ylhL"
+    ]
+  },
+  {
+    "itemName": "openingsalinea",
+    "before": " journalist, u namens ",
+    "letterDisplay": [
+      "recSis7QyiY32Egfq"
+    ],
+    "lineBreak": "inline",
+    "elementType": "text",
+    "conditionIds": [
+      "recLssr69f4Y9QlJv",
+      "reck0yQhyHjq9r7R3"
+    ],
+    "conditionValue": [
+      "true",
+      "true"
+    ],
+    "partOf": [
+      "paragraph",
+      "firstAlinea"
+    ]
+  },
+  {
+    "itemName": "datum",
+    "before": "DATUM: ",
+    "lineBreak": "newline",
+    "elementType": "title",
+    "partOf": [
+      "paragraph",
+      "date"
+    ]
+  },
+  {
+    "itemName": "adressering en formaliteiten",
+    "letterDisplay": [
+      "recQ13uaYcfWfWBA2"
+    ],
+    "lineBreak": "newline",
+    "elementType": "text",
+    "routeId": [
+      "recv6iVTRTh27ylhL"
+    ],
+    "partOf": [
+      "paragraph",
+      "receiverAdress"
+    ]
+  },
+  {
+    "itemName": "documenten",
+    "before": "Memo’s en notities,",
+    "partOf": [
+      "documentsNormal",
+      "documentsExternal"
+    ],
+    "lineBreak": "newline",
+    "conditionIds": [
+      "recSJsWlzTnBbzgHz"
+    ]
+  },
+  {
+    "itemName": "documenten",
+    "before": "SMS-jes en WhatsApp-berichten,",
+    "partOf": [
+      "documentsNormal",
+      "documentsExternal"
+    ],
+    "lineBreak": "inline",
+    "conditionIds": [
+      "recBT0acUW1sJLqjo"
+    ]
+  },
+  {
+    "itemName": "onderwerp",
+    "letterDisplay": [
+      "recNtTsesz5BufwXp"
+    ],
+    "lineBreak": "newline",
+    "elementType": "text",
+    "partOf": [
+      "paragraph",
+      "subject"
+    ]
+  },
+  {
+    "itemName": "documenten",
+    "partOf": [
+      "documentsNormal"
+    ],
+    "elementType": "documentsHeader",
+    "lineBreak": "newline"
+  },
+  {
+    "itemName": "aanhef",
+    "letterDisplay": [
+      "recZfrIFSPmI9rTBV"
+    ],
+    "lineBreak": "inline",
+    "elementType": "text",
+    "after": ", ",
+    "partOf": [
+      "paragraph",
+      "opening"
+    ]
+  },
+  {
+    "itemName": "openingsalinea",
+    "before": "u namens ",
+    "letterDisplay": [
+      "recSis7QyiY32Egfq"
+    ],
+    "lineBreak": "inline",
+    "elementType": "text",
+    "conditionIds": [
+      "recLssr69f4Y9QlJv",
+      "reck0yQhyHjq9r7R3"
+    ],
+    "after": ", ",
+    "conditionValue": [
+      "true",
+      "false"
+    ],
+    "partOf": [
+      "paragraph",
+      "firstAlinea"
+    ]
+  },
+  {
+    "itemName": "datum",
+    "letterDisplay": [
+      "recLXsKfmlXj5KvB6"
+    ],
+    "lineBreak": "newline",
+    "elementType": "text",
+    "partOf": [
+      "paragraph",
+      "date"
+    ]
+  },
+  {
+    "itemName": "documenten",
+    "before": "Brieven,",
+    "partOf": [
+      "documentsNormal",
+      "documentsExternal"
+    ],
+    "lineBreak": "inline",
+    "elementType": "listItem",
+    "conditionIds": [
+      "recBPuL9uNkUx8Dwg"
+    ]
+  },
+  {
+    "itemName": "main",
+    "partOf": [
+      "main"
+    ],
+    "elementType": "documentsData"
+  },
+  {
+    "itemName": "documenten",
+    "before": "Presentatielijsten",
+    "partOf": [
+      "documentsNormal",
+      "documentsPreparation"
+    ],
+    "lineBreak": "inline",
+    "elementType": "listItem",
+    "conditionIds": [
+      "rec4DN45JnXEroHHa"
+    ]
+  },
+  {
+    "itemName": "openingsalinea",
+    "before": "u ",
+    "lineBreak": "inline",
+    "elementType": "text",
+    "conditionIds": [
+      "recLssr69f4Y9QlJv",
+      "reck0yQhyHjq9r7R3"
+    ],
+    "conditionValue": [
+      "false",
+      "false"
+    ],
+    "partOf": [
+      "paragraph",
+      "firstAlinea"
+    ]
+  },
+  {
+    "itemName": "documenten",
+    "before": "alle",
+    "partOf": [
+      "documentsNormal"
+    ],
+    "lineBreak": "newline",
+    "elementType": "documentsPreparation"
+  }
+]
