@@ -1,5 +1,6 @@
 import { combineReducers } from 'redux'
 import { normalize, schema } from 'normalizr'
+import { filter } from 'lodash'
 
 import letterElementsData from '../data/letterElements'
 
@@ -30,3 +31,11 @@ export const letterElements = combineReducers({
   byId: lettersById,
   allIds: allLetters
 })
+
+export const getLetterElByProperty = (state, { type }) => {
+  return filter(state.letterElements.byId, { type })
+}
+
+export const getLetterElById = (state, elementId) => {
+  return state.letterElements.byId[elementId]
+}

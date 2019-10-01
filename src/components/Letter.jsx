@@ -6,7 +6,10 @@ import { includes } from 'lodash'
 
 import { getRouteBySlug } from '../reducers/routes'
 import { getLetterVisibility } from '../reducers/ui'
+import { getLetterElByProperty } from '../reducers/letterElements'
 import { colors, type } from '../styles'
+
+import { LetterElementResolverConnected } from './LetterElementResolver'
 
 const LetterArea = styled.section(({ fullScreen }) => ({
   position: fullScreen ? 'relative' : 'absolute',
@@ -47,9 +50,9 @@ const LetterContainer = styled.div(({ fullScreen }) => ({
   margin: '0 0 80vh'
 }))
 
-const LetterText = styled.p({ ...type.content.medium, color: colors.darkGrey })
+// const LetterText = styled.p({ ...type.content.medium, color: colors.darkGrey })
 
-const Letter = ({ fullScreen, visible }) => {
+const Letter = ({ letterRootEl, fullScreen, visible }) => {
   return visible ? (
     <LetterArea fullScreen={fullScreen}>
       <LetterAreaInner fullScreen={fullScreen}>
@@ -60,23 +63,7 @@ const Letter = ({ fullScreen, visible }) => {
           </LetterHeader>
         )}
         <LetterContainer fullScreen={fullScreen}>
-          {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map(value => {
-            return (
-              <div key={value}>
-                <LetterText>Ministerie van Financiën</LetterText>
-                <LetterText>t.a.v. Menno Snel</LetterText>
-                <LetterText>Korte Voorhout 7</LetterText>
-                <LetterText>
-                  2511 CW Den Haag lahjdfkljhasdflkjhasfkjlhasf
-                  jklahsfjkhasflkjhasjklhdf aaaaaaaaaakjasdhfalskjhfal
-                  skjhflaskjhfalskjhfaslhjfalskjhfalskjhflakshjfd
-                  bbbbbbbbbbjadhflkajhfdlaj hkflkjahsfklajhsdfhksja
-                </LetterText>
-                <LetterText>.</LetterText>
-                <LetterText>.</LetterText>
-              </div>
-            )
-          })}
+          <LetterElementResolverConnected letterElId={letterRootEl.elementId} />
         </LetterContainer>
       </LetterAreaInner>
     </LetterArea>
@@ -86,7 +73,9 @@ const Letter = ({ fullScreen, visible }) => {
 const mapStateToProps = (state, { match }) => {
   let route = getRouteBySlug(state, { slug: match.params.formSlug })
   let fullScreen = route && includes(route.letter, 'fullScreen')
+  let letterRootEl = getLetterElByProperty(state, { type: 'root' })[0]
   return {
+    letterRootEl,
     fullScreen,
     visible: fullScreen
       ? true

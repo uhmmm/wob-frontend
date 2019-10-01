@@ -16,7 +16,7 @@ const letterSchema = [letterVariableSchema]
 
 const normLetterModelData = normalize(letterModelData, letterSchema)
 const letter = normLetterModelData.entities.variables
-console.log(letter)
+// console.log(letter)
 
 const FETCH_LETTERS = 'FETCH_LETTERS'
 
