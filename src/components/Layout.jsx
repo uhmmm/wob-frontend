@@ -38,6 +38,7 @@ const Layout = () => (
     <Switch>
       <Route path="/letter/:letterId/form/:formSlug" component={FormRouter} />
       <Route path="/letter/:letterId/page/:pageSlug" component={PageRouter} />
+      <Route path="/page/landing" component={PageRouter} />
       <Redirect to="/page/landing" />
     </Switch>
   </LayoutContainer>
