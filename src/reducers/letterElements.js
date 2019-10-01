@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux'
 import { normalize, schema } from 'normalizr'
-import { filter } from 'lodash'
+import { filter, sortBy } from 'lodash'
 
 import letterElementsData from '../data/letterElements'
 
@@ -12,7 +12,7 @@ const letterElementSchema = new schema.Entity(
 const letterElementsSchema = [letterElementSchema]
 
 const normLetterElementData = normalize(
-  letterElementsData,
+  sortBy(letterElementsData, 'order'),
   letterElementsSchema
 )
 

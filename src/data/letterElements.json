@@ -6,7 +6,8 @@
     "conditionIds": [
       "recZVMypnRLJj70lD"
     ],
-    "elementId": "rec1YBuh3lpJwjUjv"
+    "elementId": "rec1YBuh3lpJwjUjv",
+    "order": 33
   },
   {
     "name": "normal doc item subdoc prep 7",
@@ -15,7 +16,8 @@
     "conditionIds": [
       "recvdGJ6CbZmDwNRp"
     ],
-    "elementId": "rec5IxJnhBo9DouPx"
+    "elementId": "rec5IxJnhBo9DouPx",
+    "order": 39
   },
   {
     "name": "normal doc item subdoc internal 4",
@@ -24,13 +26,15 @@
     "conditionIds": [
       "recU0eiiPmlk8w6mt"
     ],
-    "elementId": "rec5btTVR2impeNCE"
+    "elementId": "rec5btTVR2impeNCE",
+    "order": 44
   },
   {
     "name": "data document item",
     "template": "<document data>",
     "type": "span",
-    "elementId": "rec71NWXDlXiWg0sK"
+    "elementId": "rec71NWXDlXiWg0sK",
+    "order": 55
   },
   {
     "name": "normal doc item subdoc prep 4",
@@ -39,13 +43,15 @@
     "conditionIds": [
       "rec82a5ToVTfd6Q2V"
     ],
-    "elementId": "rec9HPrDoWnsM3uoY"
+    "elementId": "rec9HPrDoWnsM3uoY",
+    "order": 36
   },
   {
     "name": "doc list header",
     "template": "Concreet vraag ik u om:",
     "type": "paragraph",
-    "elementId": "rec9yuskRttEhla3G"
+    "elementId": "rec9yuskRttEhla3G",
+    "order": 23
   },
   {
     "name": "normal doc item subdoc internal 6",
@@ -57,7 +63,8 @@
       "recU0eiiPmlk8w6mt",
       "rec1GUDGJfM5ZGmIm"
     ],
-    "elementId": "recAUnnds8BL00Rrr"
+    "elementId": "recAUnnds8BL00Rrr",
+    "order": 46
   },
   {
     "name": "subject group",
@@ -66,7 +73,8 @@
       "recf3CUooBMZLCP5B",
       "rectBT638iPD1Dl8s"
     ],
-    "elementId": "recAmgZ1kIMaZ38mr"
+    "elementId": "recAmgZ1kIMaZ38mr",
+    "order": 11
   },
   {
     "name": "normal doc item subdoc prep 3",
@@ -75,7 +83,8 @@
     "conditionIds": [
       "recV1YU35GNuYDlic"
     ],
-    "elementId": "recF3V0mJ1tef63f0"
+    "elementId": "recF3V0mJ1tef63f0",
+    "order": 35
   },
   {
     "name": "receiver city",
@@ -87,19 +96,21 @@
     "routeId": [
       "recv6iVTRTh27ylhL"
     ],
-    "elementId": "recFqdAp7tWbs0RKA"
+    "elementId": "recFqdAp7tWbs0RKA",
+    "order": 7
   },
   {
     "name": "receiver group",
     "type": "container",
+    "elementId": "recHJkuct418Totxo",
+    "order": 2,
     "children": [
       "recFqdAp7tWbs0RKA",
       "recYj8hutXMIFkWjY",
       "recpIDfXukBbapZFZ",
       "recdwYJzTElkQZbtE",
       "recoBx1EsqlJfcYSj"
-    ],
-    "elementId": "recHJkuct418Totxo"
+    ]
   },
   {
     "name": "salutation",
@@ -108,7 +119,8 @@
       "recZfrIFSPmI9rTBV"
     ],
     "type": "paragraph",
-    "elementId": "recIA2LPy1lEqhcPE"
+    "elementId": "recIA2LPy1lEqhcPE",
+    "order": 14
   },
   {
     "name": "normal doc item subdoc list",
@@ -118,7 +130,8 @@
       "recniIS2i1Uh9ZKFh",
       "recaeUWwy6vrZVjCM"
     ],
-    "elementId": "recIkhcMTkGLvQFqV"
+    "elementId": "recIkhcMTkGLvQFqV",
+    "order": 28
   },
   {
     "name": "normal doc item title",
@@ -130,7 +143,8 @@
     "children": [
       "recbqjvY2PoHnVRFF"
     ],
-    "elementId": "recO3VTlacjvq08o5"
+    "elementId": "recO3VTlacjvq08o5",
+    "order": 26
   },
   {
     "name": "first alinea line 3",
@@ -139,7 +153,8 @@
       "recNtTsesz5BufwXp"
     ],
     "type": "span",
-    "elementId": "recUHMuHIwZ0Vm9Zf"
+    "elementId": "recUHMuHIwZ0Vm9Zf",
+    "order": 21
   },
   {
     "name": "normal doc item subdoc external 6",
@@ -151,7 +166,8 @@
       "recBT0acUW1sJLqjo",
       "recSJsWlzTnBbzgHz"
     ],
-    "elementId": "recUk14CbQ3sTTIl8"
+    "elementId": "recUk14CbQ3sTTIl8",
+    "order": 52
   },
   {
     "name": "first alinea line 2 opt 3",
@@ -168,7 +184,8 @@
       "false",
       "true"
     ],
-    "elementId": "recV1Ki51EkbP8GND"
+    "elementId": "recV1Ki51EkbP8GND",
+    "order": 19
   },
   {
     "name": "normal doc item subdoc prep 6",
@@ -177,7 +194,8 @@
     "conditionIds": [
       "recr3JmwBoIw1LVwT"
     ],
-    "elementId": "recXRppdimtKF3v2q"
+    "elementId": "recXRppdimtKF3v2q",
+    "order": 38
   },
   {
     "name": "receiver postcode",
@@ -189,31 +207,34 @@
     "routeId": [
       "recv6iVTRTh27ylhL"
     ],
+    "elementId": "recYj8hutXMIFkWjY",
+    "order": 6,
     "children": [
       "recFqdAp7tWbs0RKA"
-    ],
-    "elementId": "recYj8hutXMIFkWjY"
+    ]
   },
   {
     "name": "normal doc item subdoc external people",
     "template": "en derden, waaronder in ieder geval de navolgende partijen:",
     "type": "refList",
-    "elementId": "recZ5pvWMWb6XQB8y"
+    "elementId": "recZ5pvWMWb6XQB8y",
+    "order": 53
   },
   {
     "name": "root",
     "type": "root",
     "children": [
-      "recx3xUDskpZKAU6w",
-      "recelJYIGMpoh0ix2",
-      "reck0WYTrwB8gKjcT",
-      "reciNegFc0vfLhh1R",
-      "recIA2LPy1lEqhcPE",
-      "recAmgZ1kIMaZ38mr",
       "recfSdEBkZEAC7yU2",
-      "recHJkuct418Totxo"
+      "recHJkuct418Totxo",
+      "recAmgZ1kIMaZ38mr",
+      "recIA2LPy1lEqhcPE",
+      "reciNegFc0vfLhh1R",
+      "reck0WYTrwB8gKjcT",
+      "recelJYIGMpoh0ix2",
+      "recx3xUDskpZKAU6w"
     ],
-    "elementId": "recZC3R0sduBXSuKG"
+    "elementId": "recZC3R0sduBXSuKG",
+    "order": 1
   },
   {
     "name": "normal doc item subdoc external",
@@ -226,7 +247,8 @@
       "recpUZP5tJhwXAaNV",
       "recUk14CbQ3sTTIl8"
     ],
-    "elementId": "recaeUWwy6vrZVjCM"
+    "elementId": "recaeUWwy6vrZVjCM",
+    "order": 31
   },
   {
     "name": "normal doc item subdoc internal 5",
@@ -235,7 +257,8 @@
     "conditionIds": [
       "rec1GUDGJfM5ZGmIm"
     ],
-    "elementId": "recbP5Y8jNb1iAOIz"
+    "elementId": "recbP5Y8jNb1iAOIz",
+    "order": 45
   },
   {
     "name": "normal doc item title 1",
@@ -247,7 +270,8 @@
     "conditionIds": [
       "recIHGfeCBwPo2srV"
     ],
-    "elementId": "recbqjvY2PoHnVRFF"
+    "elementId": "recbqjvY2PoHnVRFF",
+    "order": 27
   },
   {
     "name": "first alinea line 1",
@@ -256,7 +280,8 @@
       "recc3RABaErKOmYPM"
     ],
     "type": "span",
-    "elementId": "reccdjOg0pXsMwGqF"
+    "elementId": "reccdjOg0pXsMwGqF",
+    "order": 16
   },
   {
     "name": "receiver name",
@@ -268,7 +293,8 @@
     "routeId": [
       "recv6iVTRTh27ylhL"
     ],
-    "elementId": "recdwYJzTElkQZbtE"
+    "elementId": "recdwYJzTElkQZbtE",
+    "order": 4
   },
   {
     "name": "normal doc item subdoc internal 3",
@@ -277,7 +303,8 @@
     "conditionIds": [
       "recamgDGddLCv3qcP"
     ],
-    "elementId": "recebJGnZ8FiPQYpu"
+    "elementId": "recebJGnZ8FiPQYpu",
+    "order": 43
   },
   {
     "name": "normal doc list",
@@ -286,13 +313,15 @@
       "rectJcTpJSs3uUY5p"
     ],
     "refModel": "documents",
-    "elementId": "recelJYIGMpoh0ix2"
+    "elementId": "recelJYIGMpoh0ix2",
+    "order": 24
   },
   {
     "name": "subject header",
     "template": "ONDERWERP:\n",
     "type": "header",
-    "elementId": "recf3CUooBMZLCP5B"
+    "elementId": "recf3CUooBMZLCP5B",
+    "order": 12
   },
   {
     "name": "date group",
@@ -301,7 +330,8 @@
       "recwMrZEDSxyYNP3E",
       "recoIKaD8u9jMhgt6"
     ],
-    "elementId": "recfSdEBkZEAC7yU2"
+    "elementId": "recfSdEBkZEAC7yU2",
+    "order": 8
   },
   {
     "name": "normal doc item subdoc prep 2 copy",
@@ -310,7 +340,8 @@
     "conditionIds": [
       "rec4DN45JnXEroHHa"
     ],
-    "elementId": "recgjcMymIKiNOpX3"
+    "elementId": "recgjcMymIKiNOpX3",
+    "order": 34
   },
   {
     "name": "normal doc item subdoc internal 2",
@@ -319,7 +350,8 @@
     "conditionIds": [
       "recapIZd8BKQgOu7S"
     ],
-    "elementId": "rechTMndF3kackifk"
+    "elementId": "rechTMndF3kackifk",
+    "order": 42
   },
   {
     "name": "normal doc item subdoc prep 8",
@@ -328,7 +360,8 @@
     "conditionIds": [
       "recGTnK0sr28naWED"
     ],
-    "elementId": "reciD6vNCpGchdinE"
+    "elementId": "reciD6vNCpGchdinE",
+    "order": 40
   },
   {
     "name": "first alinea",
@@ -341,7 +374,8 @@
       "recoHwJy02ZWavkwR",
       "recUHMuHIwZ0Vm9Zf"
     ],
-    "elementId": "reciNegFc0vfLhh1R"
+    "elementId": "reciNegFc0vfLhh1R",
+    "order": 15
   },
   {
     "name": "normal doc item subdoc internal 1",
@@ -353,7 +387,8 @@
       "recU0eiiPmlk8w6mt",
       "rec1GUDGJfM5ZGmIm"
     ],
-    "elementId": "reciTwYacTFzKBCrI"
+    "elementId": "reciTwYacTFzKBCrI",
+    "order": 41
   },
   {
     "name": "journalistic relevance",
@@ -362,7 +397,8 @@
     "conditionIds": [
       "recjrzkCFobvw05e1"
     ],
-    "elementId": "reck0WYTrwB8gKjcT"
+    "elementId": "reck0WYTrwB8gKjcT",
+    "order": 22
   },
   {
     "name": "normal doc item subdoc external 3",
@@ -371,7 +407,8 @@
     "conditionIds": [
       "recdcUShbh698S3sw"
     ],
-    "elementId": "reckZj9wI7z7UTfpu"
+    "elementId": "reckZj9wI7z7UTfpu",
+    "order": 49
   },
   {
     "name": "normal doc item subdoc internal",
@@ -384,7 +421,8 @@
       "recbP5Y8jNb1iAOIz",
       "recAUnnds8BL00Rrr"
     ],
-    "elementId": "recniIS2i1Uh9ZKFh"
+    "elementId": "recniIS2i1Uh9ZKFh",
+    "order": 30
   },
   {
     "name": "normal doc item subdoc prep 5",
@@ -393,7 +431,8 @@
     "conditionIds": [
       "recMqFdH7zwYVTBdw"
     ],
-    "elementId": "reco7JycsMorXIoay"
+    "elementId": "reco7JycsMorXIoay",
+    "order": 37
   },
   {
     "name": "receiver organisation name",
@@ -405,7 +444,8 @@
     "routeId": [
       "recv6iVTRTh27ylhL"
     ],
-    "elementId": "recoBx1EsqlJfcYSj"
+    "elementId": "recoBx1EsqlJfcYSj",
+    "order": 3
   },
   {
     "name": "first alinea line 2 opt 4",
@@ -422,13 +462,15 @@
       "true",
       "true"
     ],
-    "elementId": "recoHwJy02ZWavkwR"
+    "elementId": "recoHwJy02ZWavkwR",
+    "order": 20
   },
   {
     "name": "date header",
     "template": "DATUM: ",
     "type": "header",
-    "elementId": "recoIKaD8u9jMhgt6"
+    "elementId": "recoIKaD8u9jMhgt6",
+    "order": 9
   },
   {
     "name": "receiver address",
@@ -440,7 +482,8 @@
     "routeId": [
       "recv6iVTRTh27ylhL"
     ],
-    "elementId": "recpIDfXukBbapZFZ"
+    "elementId": "recpIDfXukBbapZFZ",
+    "order": 5
   },
   {
     "name": "normal doc item subdoc external 5",
@@ -449,7 +492,8 @@
     "conditionIds": [
       "recSJsWlzTnBbzgHz"
     ],
-    "elementId": "recpUZP5tJhwXAaNV"
+    "elementId": "recpUZP5tJhwXAaNV",
+    "order": 51
   },
   {
     "name": "normal doc item subdoc external 4",
@@ -458,7 +502,8 @@
     "conditionIds": [
       "recBT0acUW1sJLqjo"
     ],
-    "elementId": "recqRyCuB0az2xIpD"
+    "elementId": "recqRyCuB0az2xIpD",
+    "order": 50
   },
   {
     "name": "subject",
@@ -467,7 +512,8 @@
       "recNtTsesz5BufwXp"
     ],
     "type": "span",
-    "elementId": "rectBT638iPD1Dl8s"
+    "elementId": "rectBT638iPD1Dl8s",
+    "order": 13
   },
   {
     "name": "normal doc item",
@@ -476,7 +522,8 @@
       "recO3VTlacjvq08o5",
       "recIkhcMTkGLvQFqV"
     ],
-    "elementId": "rectJcTpJSs3uUY5p"
+    "elementId": "rectJcTpJSs3uUY5p",
+    "order": 25
   },
   {
     "name": "first alinea line 2 opt 2",
@@ -493,7 +540,8 @@
       "true",
       "false"
     ],
-    "elementId": "recuBqC4qVDhhBHGM"
+    "elementId": "recuBqC4qVDhhBHGM",
+    "order": 18
   },
   {
     "name": "date",
@@ -502,7 +550,8 @@
       "recLXsKfmlXj5KvB6"
     ],
     "type": "span",
-    "elementId": "recwMrZEDSxyYNP3E"
+    "elementId": "recwMrZEDSxyYNP3E",
+    "order": 10
   },
   {
     "name": "normal doc item subdoc external 1",
@@ -514,7 +563,8 @@
       "recBT0acUW1sJLqjo",
       "recSJsWlzTnBbzgHz"
     ],
-    "elementId": "recwkQJZVLOAXOfn5"
+    "elementId": "recwkQJZVLOAXOfn5",
+    "order": 47
   },
   {
     "name": "data document",
@@ -522,7 +572,8 @@
     "children": [
       "rec71NWXDlXiWg0sK"
     ],
-    "elementId": "recx3xUDskpZKAU6w"
+    "elementId": "recx3xUDskpZKAU6w",
+    "order": 54
   },
   {
     "name": "normal doc item subdoc external 2",
@@ -531,7 +582,8 @@
     "conditionIds": [
       "recBPuL9uNkUx8Dwg"
     ],
-    "elementId": "recx5bPtBkw8qZAjf"
+    "elementId": "recx5bPtBkw8qZAjf",
+    "order": 48
   },
   {
     "name": "normal doc item subdoc prep 1",
@@ -547,7 +599,8 @@
       "recvdGJ6CbZmDwNRp",
       "recGTnK0sr28naWED"
     ],
-    "elementId": "recxm1PvJZ9BFHDSP"
+    "elementId": "recxm1PvJZ9BFHDSP",
+    "order": 32
   },
   {
     "name": "first alinea line 2 opt 1",
@@ -561,7 +614,8 @@
       "false",
       "false"
     ],
-    "elementId": "recyJYiAOq7aeXJew"
+    "elementId": "recyJYiAOq7aeXJew",
+    "order": 17
   },
   {
     "name": "normal doc item subdoc prep",
@@ -576,6 +630,7 @@
       "rec5IxJnhBo9DouPx",
       "reciD6vNCpGchdinE"
     ],
-    "elementId": "recye1kVje6dbonc2"
+    "elementId": "recye1kVje6dbonc2",
+    "order": 29
   }
 ]
