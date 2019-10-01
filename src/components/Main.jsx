@@ -53,7 +53,10 @@ const MainConnected = connect(mapStateToProps)(Main)
 const MainRouter = () => {
   return (
     <Switch>
-      <Route path="/form/:formSlug" component={MainConnected}></Route>
+      <Route
+        path="/letter/:letterId/form/:formSlug"
+        component={MainConnected}
+      ></Route>
     </Switch>
   )
 }

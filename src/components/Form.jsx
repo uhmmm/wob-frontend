@@ -67,7 +67,10 @@ const FormLayoutConnected = connect(mapStateToProps)(FormLayout)
 
 const FormRouter = () => (
   <Switch>
-    <Route path="/form/:formSlug" component={FormLayoutConnected} />
+    <Route
+      path="/letter/:letterId/form/:formSlug"
+      component={FormLayoutConnected}
+    />
   </Switch>
 )
 

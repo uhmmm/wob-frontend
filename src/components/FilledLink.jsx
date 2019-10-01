@@ -8,10 +8,15 @@ const FilledLink = ({ children, linkPath }) => {
   return <Link to={linkPath}>{children}</Link>
 }
 
-const mapStateToProps = (state, { linkRouteId }) => {
+const mapStateToProps = (state, { match, linkRouteId }) => {
   const route = getRouteById(state, { routeId: linkRouteId })
+  const firstLetter = Object.values(state.letters.byId)[0].letterId
   return {
-    linkPath: linkRouteId && `/${route.type}/${route.slug}`
+    linkPath:
+      linkRouteId &&
+      `/letter/${match.params.letterId || firstLetter}/${route.type}/${
+        route.slug
+      }`
   }
 }
 

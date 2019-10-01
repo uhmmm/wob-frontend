@@ -1,7 +1,6 @@
 import { combineReducers } from 'redux'
 import { groupBy } from 'lodash'
 import { normalize, schema } from 'normalizr'
-import uuid from 'uuid/v4'
 
 import variables from '../data/model'
 
@@ -20,9 +19,8 @@ const letter = normLetterModelData.entities.variables
 
 const FETCH_LETTERS = 'FETCH_LETTERS'
 
-let firstLetterId = uuid()
 export const lettersById = (
-  state = { [firstLetterId]: { ...letter, firstLetterId } },
+  state = { 1: { ...letter, letterId: 1 } },
   action
 ) => {
   switch (action.type) {

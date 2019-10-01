@@ -52,6 +52,7 @@ const PageLayout = () => (
 const PageRouter = () => {
   return (
     <Switch>
+      <Route path="/letter/:letterId/page/:pageSlug" component={PageLayout} />
       <Route path="/page/:pageSlug" component={PageLayout} />
     </Switch>
   )

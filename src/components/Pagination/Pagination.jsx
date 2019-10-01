@@ -20,18 +20,22 @@ const PaginationContainer = styled.div({
   height: '8rem'
 })
 
-const Pagination = ({ prevRoute, nextRoute }) => {
+const Pagination = ({ prevRoute, nextRoute, letterId }) => {
   return (
     <PaginationContainer>
       {prevRoute && (
         <Link
-          to={prevRoute.slug ? `/${prevRoute.type}/${prevRoute.slug}` : '/'}
+          to={
+            prevRoute.slug
+              ? `/letter/${letterId}/${prevRoute.type}/${prevRoute.slug}`
+              : '/'
+          }
         >
           <Bubble size="3" vOrient="negative" icon={iconLeft} />
         </Link>
       )}
       {nextRoute && (
-        <Link to={`/${nextRoute.type}/${nextRoute.slug}`}>
+        <Link to={`/letter/${letterId}/${nextRoute.type}/${nextRoute.slug}`}>
           <Bubble
             size="4"
             hOrient="negative"
@@ -49,7 +53,8 @@ const mapStateToProps = (state, { match }) => {
   const route = getRouteBySlug(state, { slug: match.params.formSlug })
   return {
     prevRoute: getRouteById(state, { routeId: route.prevRouteId }),
-    nextRoute: getRouteById(state, { routeId: route.nextRouteId })
+    nextRoute: getRouteById(state, { routeId: route.nextRouteId }),
+    letterId: match.params.letterId
   }
 }
 
