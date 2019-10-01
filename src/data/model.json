@@ -8,7 +8,8 @@
       "reciTwYacTFzKBCrI",
       "recAUnnds8BL00Rrr"
     ],
-    "variableId": "rec1GUDGJfM5ZGmIm"
+    "variableId": "rec1GUDGJfM5ZGmIm",
+    "model": "document"
   },
   {
     "name": "documentPreparationPresentationList",
@@ -18,46 +19,24 @@
       "recxm1PvJZ9BFHDSP",
       "recgjcMymIKiNOpX3"
     ],
-    "variableId": "rec4DN45JnXEroHHa"
+    "variableId": "rec4DN45JnXEroHHa",
+    "model": "document"
   },
   {
     "name": "writerEmail",
     "placeholder": "<email schrijver>",
     "type": "string",
     "defaultValue": "utrecht@op.nl",
-    "variableId": "rec5WMdkHpydPBAHR"
-  },
-  {
-    "name": "root",
-    "type": "root",
-    "children": [
-      "recoNy1jGMl93XAI7",
-      "recZfrIFSPmI9rTBV",
-      "recpHZMDmThSywJfQ",
-      "recQ13uaYcfWfWBA2",
-      "recRLK9Fp2oMReIlz",
-      "recGyJdOWEP4JmxIL",
-      "recc3RABaErKOmYPM",
-      "recULhVxwwMIj63yT",
-      "recP4gqrTXXVjh40S",
-      "rec5xNySVJlS3iuCG",
-      "rec5WMdkHpydPBAHR",
-      "recrcCszAnodIqKw6",
-      "recSis7QyiY32Egfq",
-      "recLssr69f4Y9QlJv",
-      "reck0yQhyHjq9r7R3",
-      "recLXsKfmlXj5KvB6",
-      "recNtTsesz5BufwXp",
-      "recjrzkCFobvw05e1"
-    ],
-    "variableId": "rec5noSOtUU38gVbn"
+    "variableId": "rec5WMdkHpydPBAHR",
+    "model": "letter"
   },
   {
     "name": "writerCity",
     "placeholder": "<stad schrijver>",
     "type": "string",
     "defaultValue": "Utrecht",
-    "variableId": "rec5xNySVJlS3iuCG"
+    "variableId": "rec5xNySVJlS3iuCG",
+    "model": "letter"
   },
   {
     "name": "documentPreparationAdvice",
@@ -67,7 +46,8 @@
       "rec9HPrDoWnsM3uoY",
       "recxm1PvJZ9BFHDSP"
     ],
-    "variableId": "rec82a5ToVTfd6Q2V"
+    "variableId": "rec82a5ToVTfd6Q2V",
+    "model": "document"
   },
   {
     "name": "documentTitle",
@@ -77,12 +57,14 @@
     "letterDisplay": [
       "recO3VTlacjvq08o5"
     ],
-    "variableId": "rec9TlrAZiBE98jAi"
+    "variableId": "rec9TlrAZiBE98jAi",
+    "model": "document"
   },
   {
     "name": "documentExternalPeople",
     "type": "array",
-    "variableId": "rec9tofqEQvb2Jzws"
+    "variableId": "rec9tofqEQvb2Jzws",
+    "model": "document"
   },
   {
     "name": "documentExternalLetters",
@@ -93,7 +75,8 @@
       "recwkQJZVLOAXOfn5",
       "recUk14CbQ3sTTIl8"
     ],
-    "variableId": "recBPuL9uNkUx8Dwg"
+    "variableId": "recBPuL9uNkUx8Dwg",
+    "model": "document"
   },
   {
     "name": "documentExternalDM",
@@ -104,7 +87,8 @@
       "recwkQJZVLOAXOfn5",
       "recUk14CbQ3sTTIl8"
     ],
-    "variableId": "recBT0acUW1sJLqjo"
+    "variableId": "recBT0acUW1sJLqjo",
+    "model": "document"
   },
   {
     "name": "documentPreparationMeetingNotes",
@@ -114,14 +98,16 @@
       "reciD6vNCpGchdinE",
       "recxm1PvJZ9BFHDSP"
     ],
-    "variableId": "recGTnK0sr28naWED"
+    "variableId": "recGTnK0sr28naWED",
+    "model": "document"
   },
   {
     "name": "governmentEmail",
     "placeholder": "<email overheid>",
     "type": "string",
     "defaultValue": "groningen@gemeent.nl",
-    "variableId": "recGyJdOWEP4JmxIL"
+    "variableId": "recGyJdOWEP4JmxIL",
+    "model": "letter"
   },
   {
     "name": "documentDate",
@@ -134,7 +120,8 @@
     "letterCondition": [
       "recbqjvY2PoHnVRFF"
     ],
-    "variableId": "recIHGfeCBwPo2srV"
+    "variableId": "recIHGfeCBwPo2srV",
+    "model": "document"
   },
   {
     "name": "letterDisplayDateTime",
@@ -144,7 +131,8 @@
     "letterDisplay": [
       "recwMrZEDSxyYNP3E"
     ],
-    "variableId": "recLXsKfmlXj5KvB6"
+    "variableId": "recLXsKfmlXj5KvB6",
+    "model": "letter"
   },
   {
     "name": "writerIsJournalist",
@@ -156,7 +144,8 @@
       "recyJYiAOq7aeXJew",
       "recoHwJy02ZWavkwR"
     ],
-    "variableId": "recLssr69f4Y9QlJv"
+    "variableId": "recLssr69f4Y9QlJv",
+    "model": "letter"
   },
   {
     "name": "documentPreparationDecision",
@@ -166,7 +155,8 @@
       "reco7JycsMorXIoay",
       "recxm1PvJZ9BFHDSP"
     ],
-    "variableId": "recMqFdH7zwYVTBdw"
+    "variableId": "recMqFdH7zwYVTBdw",
+    "model": "document"
   },
   {
     "name": "letterSubject",
@@ -177,41 +167,22 @@
       "rectBT638iPD1Dl8s",
       "recUHMuHIwZ0Vm9Zf"
     ],
-    "variableId": "recNtTsesz5BufwXp"
+    "variableId": "recNtTsesz5BufwXp",
+    "model": "letter"
   },
   {
     "name": "writerPostcode",
     "placeholder": "<postcode schrijver>",
     "type": "string",
     "defaultValue": "2045TT",
-    "variableId": "recP4gqrTXXVjh40S"
+    "variableId": "recP4gqrTXXVjh40S",
+    "model": "letter"
   },
   {
     "name": "documentList",
     "type": "array",
-    "children": [
-      "rec9TlrAZiBE98jAi",
-      "recIHGfeCBwPo2srV",
-      "recY5syfbiVrQnBsm",
-      "recapIZd8BKQgOu7S",
-      "recamgDGddLCv3qcP",
-      "recU0eiiPmlk8w6mt",
-      "rec1GUDGJfM5ZGmIm",
-      "recBPuL9uNkUx8Dwg",
-      "recdcUShbh698S3sw",
-      "recBT0acUW1sJLqjo",
-      "recSJsWlzTnBbzgHz",
-      "recZVMypnRLJj70lD",
-      "rec4DN45JnXEroHHa",
-      "recV1YU35GNuYDlic",
-      "rec82a5ToVTfd6Q2V",
-      "recMqFdH7zwYVTBdw",
-      "recr3JmwBoIw1LVwT",
-      "recvdGJ6CbZmDwNRp",
-      "recGTnK0sr28naWED",
-      "rec9tofqEQvb2Jzws"
-    ],
-    "variableId": "recPMxVvV3bfm9Nqy"
+    "variableId": "recPMxVvV3bfm9Nqy",
+    "model": "letter"
   },
   {
     "name": "governmentAdress",
@@ -221,7 +192,8 @@
     "letterDisplay": [
       "recpIDfXukBbapZFZ"
     ],
-    "variableId": "recQ13uaYcfWfWBA2"
+    "variableId": "recQ13uaYcfWfWBA2",
+    "model": "letter"
   },
   {
     "name": "governmentCity",
@@ -231,7 +203,8 @@
     "letterDisplay": [
       "recFqdAp7tWbs0RKA"
     ],
-    "variableId": "recRLK9Fp2oMReIlz"
+    "variableId": "recRLK9Fp2oMReIlz",
+    "model": "letter"
   },
   {
     "name": "documentExternalNotes",
@@ -242,7 +215,8 @@
       "recwkQJZVLOAXOfn5",
       "recUk14CbQ3sTTIl8"
     ],
-    "variableId": "recSJsWlzTnBbzgHz"
+    "variableId": "recSJsWlzTnBbzgHz",
+    "model": "document"
   },
   {
     "name": "writerOrganisationName",
@@ -254,7 +228,8 @@
       "recuBqC4qVDhhBHGM",
       "recoHwJy02ZWavkwR"
     ],
-    "variableId": "recSis7QyiY32Egfq"
+    "variableId": "recSis7QyiY32Egfq",
+    "model": "letter"
   },
   {
     "name": "documentInternalDM",
@@ -265,14 +240,16 @@
       "reciTwYacTFzKBCrI",
       "recAUnnds8BL00Rrr"
     ],
-    "variableId": "recU0eiiPmlk8w6mt"
+    "variableId": "recU0eiiPmlk8w6mt",
+    "model": "document"
   },
   {
     "name": "writerAdress",
     "placeholder": "<adres schrijver>",
     "type": "string",
     "defaultValue": "Kluns",
-    "variableId": "recULhVxwwMIj63yT"
+    "variableId": "recULhVxwwMIj63yT",
+    "model": "letter"
   },
   {
     "name": "documentPreparationReceivedPiece",
@@ -282,13 +259,15 @@
       "recF3V0mJ1tef63f0",
       "recxm1PvJZ9BFHDSP"
     ],
-    "variableId": "recV1YU35GNuYDlic"
+    "variableId": "recV1YU35GNuYDlic",
+    "model": "document"
   },
   {
     "name": "documentIsDataset",
     "type": "boolean",
     "defaultValue": "false",
-    "variableId": "recY5syfbiVrQnBsm"
+    "variableId": "recY5syfbiVrQnBsm",
+    "model": "document"
   },
   {
     "name": "documentPreparationInvitation",
@@ -298,7 +277,8 @@
       "recxm1PvJZ9BFHDSP",
       "rec1YBuh3lpJwjUjv"
     ],
-    "variableId": "recZVMypnRLJj70lD"
+    "variableId": "recZVMypnRLJj70lD",
+    "model": "document"
   },
   {
     "name": "governmentAdresseeName",
@@ -309,7 +289,8 @@
       "recIA2LPy1lEqhcPE",
       "recdwYJzTElkQZbtE"
     ],
-    "variableId": "recZfrIFSPmI9rTBV"
+    "variableId": "recZfrIFSPmI9rTBV",
+    "model": "letter"
   },
   {
     "name": "documentInternalEmail",
@@ -320,7 +301,8 @@
       "reciTwYacTFzKBCrI",
       "recAUnnds8BL00Rrr"
     ],
-    "variableId": "recamgDGddLCv3qcP"
+    "variableId": "recamgDGddLCv3qcP",
+    "model": "document"
   },
   {
     "name": "documentInternalLetters",
@@ -331,7 +313,8 @@
       "reciTwYacTFzKBCrI",
       "recAUnnds8BL00Rrr"
     ],
-    "variableId": "recapIZd8BKQgOu7S"
+    "variableId": "recapIZd8BKQgOu7S",
+    "model": "document"
   },
   {
     "name": "writerName",
@@ -341,7 +324,8 @@
     "letterDisplay": [
       "reccdjOg0pXsMwGqF"
     ],
-    "variableId": "recc3RABaErKOmYPM"
+    "variableId": "recc3RABaErKOmYPM",
+    "model": "letter"
   },
   {
     "name": "documentExternalEmail",
@@ -352,7 +336,8 @@
       "recwkQJZVLOAXOfn5",
       "recUk14CbQ3sTTIl8"
     ],
-    "variableId": "recdcUShbh698S3sw"
+    "variableId": "recdcUShbh698S3sw",
+    "model": "document"
   },
   {
     "name": "letterJounalisticRelevance",
@@ -361,7 +346,8 @@
     "letterCondition": [
       "reck0WYTrwB8gKjcT"
     ],
-    "variableId": "recjrzkCFobvw05e1"
+    "variableId": "recjrzkCFobvw05e1",
+    "model": "letter"
   },
   {
     "name": "letterForOrganisation",
@@ -373,7 +359,8 @@
       "recyJYiAOq7aeXJew",
       "recoHwJy02ZWavkwR"
     ],
-    "variableId": "reck0yQhyHjq9r7R3"
+    "variableId": "reck0yQhyHjq9r7R3",
+    "model": "letter"
   },
   {
     "name": "governmentName",
@@ -383,7 +370,8 @@
     "letterDisplay": [
       "recoBx1EsqlJfcYSj"
     ],
-    "variableId": "recoNy1jGMl93XAI7"
+    "variableId": "recoNy1jGMl93XAI7",
+    "model": "letter"
   },
   {
     "name": "governmentPostcode",
@@ -393,7 +381,8 @@
     "letterDisplay": [
       "recYj8hutXMIFkWjY"
     ],
-    "variableId": "recpHZMDmThSywJfQ"
+    "variableId": "recpHZMDmThSywJfQ",
+    "model": "letter"
   },
   {
     "name": "documentPreparationDecisionList",
@@ -403,14 +392,16 @@
       "recXRppdimtKF3v2q",
       "recxm1PvJZ9BFHDSP"
     ],
-    "variableId": "recr3JmwBoIw1LVwT"
+    "variableId": "recr3JmwBoIw1LVwT",
+    "model": "document"
   },
   {
     "name": "writerTelephone",
     "placeholder": "<telefoon schrijver>",
     "type": "string",
     "defaultValue": "06-102305634534",
-    "variableId": "recrcCszAnodIqKw6"
+    "variableId": "recrcCszAnodIqKw6",
+    "model": "letter"
   },
   {
     "name": "documentPreparationNotes",
@@ -420,6 +411,7 @@
       "rec5IxJnhBo9DouPx",
       "recxm1PvJZ9BFHDSP"
     ],
-    "variableId": "recvdGJ6CbZmDwNRp"
+    "variableId": "recvdGJ6CbZmDwNRp",
+    "model": "document"
   }
 ]

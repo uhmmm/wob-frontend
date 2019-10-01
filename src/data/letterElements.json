@@ -285,7 +285,8 @@
     "children": [
       "rectJcTpJSs3uUY5p"
     ],
-    "elementId": "recelJYIGMpoh0ix2"
+    "elementId": "recelJYIGMpoh0ix2",
+    "refModel": "documents"
   },
   {
     "name": "subject header",

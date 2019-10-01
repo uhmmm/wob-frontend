@@ -1,8 +1,30 @@
 import { combineReducers } from 'redux'
+import { groupBy } from 'lodash'
+import { normalize, schema } from 'normalizr'
+import uuid from 'uuid/v4'
+
+import variables from '../data/model'
+
+const letterModelData = groupBy(variables, 'model').letter
+
+const letterVariableSchema = new schema.Entity(
+  'variables',
+  {},
+  { idAttribute: 'name' }
+)
+const letterSchema = [letterVariableSchema]
+
+const normLetterModelData = normalize(letterModelData, letterSchema)
+const letter = normLetterModelData.entities.variables
+console.log(letter)
 
 const FETCH_LETTERS = 'FETCH_LETTERS'
 
-export const lettersById = (state = {}, action) => {
+let firstLetterId = uuid()
+export const lettersById = (
+  state = { [firstLetterId]: { ...letter, firstLetterId } },
+  action
+) => {
   switch (action.type) {
     case FETCH_LETTERS:
       return { ...state, ...action.payload.entities.letters }

@@ -1,10 +1,28 @@
 import { combineReducers } from 'redux'
+import { normalize, schema } from 'normalizr'
 
-export const lettersById = (state = {}, action) => {
+import letterElementsData from '../data/letterElements'
+
+const letterElementSchema = new schema.Entity(
+  'letterElements',
+  {},
+  { idAttribute: 'elementId' }
+)
+const letterElementsSchema = [letterElementSchema]
+
+const normLetterElementData = normalize(
+  letterElementsData,
+  letterElementsSchema
+)
+
+export const lettersById = (
+  state = normLetterElementData.entities.letterElements,
+  action
+) => {
   return state
 }
 
-function allLetters(state = [], action) {
+function allLetters(state = [normLetterElementData.result], action) {
   return state
 }
 
