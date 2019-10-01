@@ -5,7 +5,7 @@ import { withRouter } from 'react-router'
 
 import { ElementResolver } from './ElementResolver'
 
-import { getElementsByProperty } from '../reducers/elements'
+import { getElementsByProperty } from '../reducers/formElements'
 import { getRouteBySlug } from '../reducers/routes'
 
 const ContentContainer = styled.section({

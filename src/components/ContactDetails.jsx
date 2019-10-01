@@ -2,7 +2,7 @@ import React from 'react'
 import styled from '@emotion/styled'
 import { groupBy } from 'lodash'
 import { connect } from 'react-redux'
-import { getElementsByProperty } from '../reducers/elements'
+import { getElementsByProperty } from '../reducers/formElements'
 
 import { InputField } from './InputField'
 

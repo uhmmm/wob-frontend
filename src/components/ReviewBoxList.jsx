@@ -4,7 +4,7 @@ import { connect } from 'react-redux'
 import { withRouter } from 'react-router'
 
 import { getRouteBySlug } from '../reducers/routes'
-import { getElementsByProperty } from '../reducers/elements'
+import { getElementsByProperty } from '../reducers/formElements'
 import { colors } from '../styles'
 import { ElementResolver } from './ElementResolver'
 

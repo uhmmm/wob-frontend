@@ -8,7 +8,7 @@ import { images } from './images'
 
 import { letters } from './letters'
 import { documents } from './documents'
-import { organizations } from './organizations'
+import { organisations } from './organisations'
 
 const reducers = combineReducers({
   routes,
@@ -18,7 +18,7 @@ const reducers = combineReducers({
   images,
   letters,
   documents,
-  organizations
+  organisations
 })
 
 export default reducers

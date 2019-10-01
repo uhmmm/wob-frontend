@@ -1,6 +1,6 @@
 import React from 'react'
 import { connect } from 'react-redux'
-import { getElementsByProperty } from '../reducers/elements'
+import { getElementsByProperty } from '../reducers/formElements'
 import { groupBy } from 'lodash'
 
 import { ListItemCheckbox } from './ListCheckbox'

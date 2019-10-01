@@ -6,7 +6,7 @@ import { connect } from 'react-redux'
 import { AsideCloseButton } from './AsideCloseButton/AsideCloseButton'
 
 import { colors } from '../styles'
-import { getElementsBySlug } from '../reducers/elements'
+import { getElementsBySlug } from '../reducers/formElements'
 import { ElementResolver } from './ElementResolver'
 
 const AsideContainer = styled.aside({

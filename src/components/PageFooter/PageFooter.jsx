@@ -4,7 +4,7 @@ import { connect } from 'react-redux'
 
 import { ElementResolver } from '../ElementResolver'
 
-import { getElementsByProperty } from '../../reducers/elements'
+import { getElementsByProperty } from '../../reducers/formElements'
 
 import backgroundImg from './background.png'
 import { colors } from '../../styles'

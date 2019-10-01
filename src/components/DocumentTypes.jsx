@@ -4,7 +4,7 @@ import { connect } from 'react-redux'
 import { Tabs } from './Tabs'
 import { ListCheckbox } from './ListCheckbox'
 
-import { getElementsByProperty } from '../reducers/elements'
+import { getElementsByProperty } from '../reducers/formElements'
 
 const DocumentTypes = ({ elements, multiple }) => {
   return (

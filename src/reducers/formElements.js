@@ -4,7 +4,7 @@ import { filter, includes, sortBy } from 'lodash'
 
 import { getRouteBySlug } from './routes'
 
-import elementData from '../data/elements'
+import elementData from '../data/formElements'
 
 const elementSchema = new schema.Entity(
   'elements',
@@ -26,7 +26,7 @@ function allElements(state = [normElementData.result], action) {
   return state
 }
 
-export const elements = combineReducers({
+export const formElements = combineReducers({
   byId: elementsById,
   allIds: allElements
 })
@@ -36,7 +36,7 @@ export const getElementsBySlug = (state, { slug }) => {
   const selectedElements = route
     ? route.elementIds
         .map(recordId => {
-          return state.elements.byId[recordId]
+          return state.formElements.byId[recordId]
         })
         .sort((a, b) => {
           return a.order - b.order
@@ -46,7 +46,7 @@ export const getElementsBySlug = (state, { slug }) => {
 }
 
 export const getElementsByProperty = (state, { partOf, routeId }) => {
-  const routeElements = filter(state.elements.byId, {
+  const routeElements = filter(state.formElements.byId, {
     ...(routeId && { routeId })
   })
 

@@ -6,7 +6,7 @@ import { withRouter } from 'react-router'
 import { ElementResolver } from './ElementResolver'
 import { Logo } from './Logo/Logo'
 
-import { getElementsByProperty } from '../reducers/elements'
+import { getElementsByProperty } from '../reducers/formElements'
 import { getRouteBySlug } from '../reducers/routes'
 
 import { colors } from '../styles'

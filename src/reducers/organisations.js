@@ -2,7 +2,7 @@ import { combineReducers } from 'redux'
 
 const FETCH_ORGANIZATIONS = 'FETCH_ORGANIZATIONS'
 
-export const organizationsById = (state = {}, action) => {
+export const organisationsById = (state = {}, action) => {
   switch (action.type) {
     case FETCH_ORGANIZATIONS:
       return { ...state, ...action.payload.entities.organisations }
@@ -11,7 +11,7 @@ export const organizationsById = (state = {}, action) => {
   }
 }
 
-function allOrganizations(state = [], action) {
+function allOrganisations(state = [], action) {
   switch (action.type) {
     case FETCH_ORGANIZATIONS:
       if (action.payload && action.payload.result) {
@@ -23,7 +23,7 @@ function allOrganizations(state = [], action) {
   }
 }
 
-export const organizations = combineReducers({
-  byId: organizationsById,
-  allIds: allOrganizations
+export const organisations = combineReducers({
+  byId: organisationsById,
+  allIds: allOrganisations
 })

@@ -6,7 +6,7 @@ import { connect } from 'react-redux'
 import { Logo } from './Logo/Logo'
 import { ElementResolver } from './ElementResolver'
 
-import { getElementsByProperty } from '../reducers/elements'
+import { getElementsByProperty } from '../reducers/formElements'
 import { getRouteBySlug } from '../reducers/routes'
 
 import { colors } from '../styles'
