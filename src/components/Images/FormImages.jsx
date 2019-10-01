@@ -14,6 +14,7 @@ import journalistLicking from './journalist-licking.png'
 import civilOffice from './civil-office.png'
 import specificDocument from './specific-document.png'
 import officeWoman from './office-woman.png'
+import approved from './approved.png'
 
 const images = {
   man,
@@ -23,7 +24,8 @@ const images = {
   civilOffice,
   journalistLicking,
   specificDocument,
-  officeWoman
+  officeWoman,
+  approved
 }
 
 const FormImagesContainer = styled.div({

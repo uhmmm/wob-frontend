@@ -15,7 +15,6 @@ const letterSchema = [letterVariableSchema]
 
 const normLetterModelData = normalize(letterModelData, letterSchema)
 const letter = normLetterModelData.entities.variables
-// console.log(letter)
 
 const FETCH_LETTERS = 'FETCH_LETTERS'
 
@@ -47,3 +46,7 @@ export const letters = combineReducers({
   byId: lettersById,
   allIds: allLetters
 })
+
+export const getLetterById = (state, letterId) => {
+  return state.letters.byId[letterId]
+}

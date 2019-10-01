@@ -32,7 +32,6 @@ const LetterElementResolver = ({ letterEl }) => {
   return letterEl && letterElementTypes[letterEl.type] ? (
     <Element>
       <LetterVariableResolverConnected letterElId={letterEl.elementId} />
-      {letterEl.name}
       {letterEl.children &&
         letterEl.children.map(letterElId => {
           return (

@@ -3,7 +3,7 @@
     "name": "documentInternalNotes",
     "type": "boolean",
     "defaultValue": "true",
-    "letterCondition": [
+    "letterElementCondition": [
       "recbP5Y8jNb1iAOIz",
       "reciTwYacTFzKBCrI",
       "recAUnnds8BL00Rrr"
@@ -15,7 +15,7 @@
     "name": "documentPreparationPresentationList",
     "type": "boolean",
     "defaultValue": "true",
-    "letterCondition": [
+    "letterElementCondition": [
       "recxm1PvJZ9BFHDSP",
       "recgjcMymIKiNOpX3"
     ],
@@ -42,7 +42,7 @@
     "name": "documentPreparationAdvice",
     "type": "boolean",
     "defaultValue": "true",
-    "letterCondition": [
+    "letterElementCondition": [
       "rec9HPrDoWnsM3uoY",
       "recxm1PvJZ9BFHDSP"
     ],
@@ -54,7 +54,7 @@
     "placeholder": "<titel of omschrijving document >",
     "type": "string",
     "defaultValue": "Een titel",
-    "letterDisplay": [
+    "letterElementVariableList": [
       "recO3VTlacjvq08o5"
     ],
     "model": "document",
@@ -70,7 +70,7 @@
     "name": "documentExternalLetters",
     "type": "boolean",
     "defaultValue": "true",
-    "letterCondition": [
+    "letterElementCondition": [
       "recx5bPtBkw8qZAjf",
       "recwkQJZVLOAXOfn5",
       "recUk14CbQ3sTTIl8"
@@ -82,7 +82,7 @@
     "name": "documentExternalDM",
     "type": "boolean",
     "defaultValue": "true",
-    "letterCondition": [
+    "letterElementCondition": [
       "recqRyCuB0az2xIpD",
       "recwkQJZVLOAXOfn5",
       "recUk14CbQ3sTTIl8"
@@ -94,7 +94,7 @@
     "name": "documentPreparationMeetingNotes",
     "type": "boolean",
     "defaultValue": "true",
-    "letterCondition": [
+    "letterElementCondition": [
       "reciD6vNCpGchdinE",
       "recxm1PvJZ9BFHDSP"
     ],
@@ -114,10 +114,10 @@
     "placeholder": "<document datum>",
     "type": "dateTime",
     "defaultValue": "12-11-1978",
-    "letterDisplay": [
+    "letterElementVariableList": [
       "recbqjvY2PoHnVRFF"
     ],
-    "letterCondition": [
+    "letterElementCondition": [
       "recbqjvY2PoHnVRFF"
     ],
     "model": "document",
@@ -128,7 +128,7 @@
     "placeholder": "<datum brief>",
     "type": "dateTime",
     "defaultValue": "11-09-1967",
-    "letterDisplay": [
+    "letterElementVariableList": [
       "recwMrZEDSxyYNP3E"
     ],
     "model": "letter",
@@ -138,7 +138,7 @@
     "name": "writerIsJournalist",
     "type": "boolean",
     "defaultValue": "false",
-    "letterCondition": [
+    "letterElementCondition": [
       "recV1Ki51EkbP8GND",
       "recuBqC4qVDhhBHGM",
       "recyJYiAOq7aeXJew",
@@ -151,7 +151,7 @@
     "name": "documentPreparationDecision",
     "type": "boolean",
     "defaultValue": "true",
-    "letterCondition": [
+    "letterElementCondition": [
       "reco7JycsMorXIoay",
       "recxm1PvJZ9BFHDSP"
     ],
@@ -163,7 +163,7 @@
     "placeholder": "<onderwerp brief>",
     "type": "string",
     "defaultValue": "Een onderwerp",
-    "letterDisplay": [
+    "letterElementVariableList": [
       "rectBT638iPD1Dl8s",
       "recUHMuHIwZ0Vm9Zf"
     ],
@@ -189,7 +189,7 @@
     "placeholder": "<adres overheid>",
     "type": "string",
     "defaultValue": "Een Locatie 18A",
-    "letterDisplay": [
+    "letterElementVariableList": [
       "recpIDfXukBbapZFZ"
     ],
     "model": "letter",
@@ -200,7 +200,7 @@
     "placeholder": "<stad overheid>",
     "type": "string",
     "defaultValue": "Groningen",
-    "letterDisplay": [
+    "letterElementVariableList": [
       "recFqdAp7tWbs0RKA"
     ],
     "model": "letter",
@@ -210,7 +210,7 @@
     "name": "documentExternalNotes",
     "type": "boolean",
     "defaultValue": "true",
-    "letterCondition": [
+    "letterElementCondition": [
       "recpUZP5tJhwXAaNV",
       "recwkQJZVLOAXOfn5",
       "recUk14CbQ3sTTIl8"
@@ -223,7 +223,7 @@
     "placeholder": "<organisatie schrijver>",
     "type": "string",
     "defaultValue": "Klaasen",
-    "letterDisplay": [
+    "letterElementVariableList": [
       "recV1Ki51EkbP8GND",
       "recuBqC4qVDhhBHGM",
       "recoHwJy02ZWavkwR"
@@ -235,7 +235,7 @@
     "name": "documentInternalDM",
     "type": "boolean",
     "defaultValue": "true",
-    "letterCondition": [
+    "letterElementCondition": [
       "rec5btTVR2impeNCE",
       "reciTwYacTFzKBCrI",
       "recAUnnds8BL00Rrr"
@@ -255,7 +255,7 @@
     "name": "documentPreparationReceivedPiece",
     "type": "boolean",
     "defaultValue": "true",
-    "letterCondition": [
+    "letterElementCondition": [
       "recF3V0mJ1tef63f0",
       "recxm1PvJZ9BFHDSP"
     ],
@@ -273,7 +273,7 @@
     "name": "documentPreparationInvitation",
     "type": "boolean",
     "defaultValue": "true",
-    "letterCondition": [
+    "letterElementCondition": [
       "recxm1PvJZ9BFHDSP",
       "rec1YBuh3lpJwjUjv"
     ],
@@ -285,7 +285,7 @@
     "placeholder": "<naam bestuurder>",
     "type": "string",
     "defaultValue": "Bestuurder",
-    "letterDisplay": [
+    "letterElementVariableList": [
       "recIA2LPy1lEqhcPE",
       "recdwYJzTElkQZbtE"
     ],
@@ -296,7 +296,7 @@
     "name": "documentInternalEmail",
     "type": "boolean",
     "defaultValue": "true",
-    "letterCondition": [
+    "letterElementCondition": [
       "recebJGnZ8FiPQYpu",
       "reciTwYacTFzKBCrI",
       "recAUnnds8BL00Rrr"
@@ -308,7 +308,7 @@
     "name": "documentInternalLetters",
     "type": "boolean",
     "defaultValue": "true",
-    "letterCondition": [
+    "letterElementCondition": [
       "rechTMndF3kackifk",
       "reciTwYacTFzKBCrI",
       "recAUnnds8BL00Rrr"
@@ -321,7 +321,7 @@
     "placeholder": "<naam schrijver>",
     "type": "string",
     "defaultValue": "Klaas",
-    "letterDisplay": [
+    "letterElementVariableList": [
       "reccdjOg0pXsMwGqF"
     ],
     "model": "letter",
@@ -331,7 +331,7 @@
     "name": "documentExternalEmail",
     "type": "boolean",
     "defaultValue": "true",
-    "letterCondition": [
+    "letterElementCondition": [
       "reckZj9wI7z7UTfpu",
       "recwkQJZVLOAXOfn5",
       "recUk14CbQ3sTTIl8"
@@ -343,7 +343,7 @@
     "name": "letterJounalisticRelevance",
     "type": "boolean",
     "defaultValue": "false",
-    "letterCondition": [
+    "letterElementCondition": [
       "reck0WYTrwB8gKjcT"
     ],
     "model": "letter",
@@ -353,7 +353,7 @@
     "name": "letterForOrganisation",
     "type": "boolean",
     "defaultValue": "false",
-    "letterCondition": [
+    "letterElementCondition": [
       "recV1Ki51EkbP8GND",
       "recuBqC4qVDhhBHGM",
       "recyJYiAOq7aeXJew",
@@ -367,7 +367,7 @@
     "placeholder": "<naam overheid>",
     "type": "string",
     "defaultValue": "Overheid",
-    "letterDisplay": [
+    "letterElementVariableList": [
       "recoBx1EsqlJfcYSj"
     ],
     "model": "letter",
@@ -378,7 +378,7 @@
     "placeholder": "<postcode overheid>",
     "type": "string",
     "defaultValue": "1030YY",
-    "letterDisplay": [
+    "letterElementVariableList": [
       "recYj8hutXMIFkWjY"
     ],
     "model": "letter",
@@ -388,7 +388,7 @@
     "name": "documentPreparationDecisionList",
     "type": "boolean",
     "defaultValue": "true",
-    "letterCondition": [
+    "letterElementCondition": [
       "recXRppdimtKF3v2q",
       "recxm1PvJZ9BFHDSP"
     ],
@@ -407,7 +407,7 @@
     "name": "documentPreparationNotes",
     "type": "boolean",
     "defaultValue": "true",
-    "letterCondition": [
+    "letterElementCondition": [
       "rec5IxJnhBo9DouPx",
       "recxm1PvJZ9BFHDSP"
     ],
