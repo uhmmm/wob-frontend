@@ -1,18 +1,24 @@
 import { combineReducers } from 'redux'
-import { organizations } from './organisations'
-import { letters } from './letters'
+
 import { routes } from './routes'
-import { elements } from './elements'
-import { images } from './images'
 import { ui } from './ui'
+import { formElements } from './formElements'
+import { letterElements } from './letterElements'
+import { images } from './images'
+
+import { letters } from './letters'
+import { documents } from './documents'
+import { organizations } from './organizations'
 
 const reducers = combineReducers({
-  organizations,
-  letters,
   routes,
-  elements,
+  ui,
+  formElements,
+  letterElements,
   images,
-  ui
+  letters,
+  documents,
+  organizations
 })
 
 export default reducers

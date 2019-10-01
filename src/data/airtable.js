@@ -29,8 +29,8 @@ const fetchAirTable = type => {
     )
 }
 
-fetchAirTable('elements')
 fetchAirTable('routes')
+fetchAirTable('formElements')
+fetchAirTable('letterElements')
 fetchAirTable('images')
-fetchAirTable('letter')
-fetchAirTable('variables')
+fetchAirTable('model')
