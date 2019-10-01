@@ -9,11 +9,17 @@ import { getImageById } from '../../reducers/images'
 import man from './man.png'
 import journalist from './journalist.png'
 import typewriter from './typewriter.png'
+import typewriterLong from './typewriter-long.png'
+import journalistLicking from './journalist-licking.png'
+import civilOffice from './civil-office.png'
 
 const images = {
   man,
   journalist,
-  typewriter
+  typewriter,
+  typewriterLong,
+  civilOffice,
+  journalistLicking
 }
 
 const FormImagesContainer = styled.div({

@@ -1,13 +1,14 @@
 [
   {
-    "name": "documentInternNotes",
+    "name": "documentInternalNotes",
     "type": "boolean",
     "defaultValue": "true",
     "letterCondition": [
       "recbP5Y8jNb1iAOIz",
       "reciTwYacTFzKBCrI",
       "recAUnnds8BL00Rrr"
-    ]
+    ],
+    "variableId": "rec1GUDGJfM5ZGmIm"
   },
   {
     "name": "documentPreparationPresentationList",
@@ -16,13 +17,15 @@
     "letterCondition": [
       "recxm1PvJZ9BFHDSP",
       "recgjcMymIKiNOpX3"
-    ]
+    ],
+    "variableId": "rec4DN45JnXEroHHa"
   },
   {
     "name": "writerEmail",
     "placeholder": "<email schrijver>",
     "type": "string",
-    "defaultValue": "utrecht@op.nl"
+    "defaultValue": "utrecht@op.nl",
+    "variableId": "rec5WMdkHpydPBAHR"
   },
   {
     "name": "root",
@@ -46,13 +49,15 @@
       "recLXsKfmlXj5KvB6",
       "recNtTsesz5BufwXp",
       "recjrzkCFobvw05e1"
-    ]
+    ],
+    "variableId": "rec5noSOtUU38gVbn"
   },
   {
     "name": "writerCity",
     "placeholder": "<stad schrijver>",
     "type": "string",
-    "defaultValue": "Utrecht"
+    "defaultValue": "Utrecht",
+    "variableId": "rec5xNySVJlS3iuCG"
   },
   {
     "name": "documentPreparationAdvice",
@@ -61,7 +66,8 @@
     "letterCondition": [
       "rec9HPrDoWnsM3uoY",
       "recxm1PvJZ9BFHDSP"
-    ]
+    ],
+    "variableId": "rec82a5ToVTfd6Q2V"
   },
   {
     "name": "documentTitle",
@@ -70,31 +76,35 @@
     "defaultValue": "Een titel",
     "letterDisplay": [
       "recO3VTlacjvq08o5"
-    ]
+    ],
+    "variableId": "rec9TlrAZiBE98jAi"
   },
   {
-    "name": "documentExternPeople",
-    "type": "array"
+    "name": "documentExternalPeople",
+    "type": "array",
+    "variableId": "rec9tofqEQvb2Jzws"
   },
   {
-    "name": "documentExternLetters",
+    "name": "documentExternalLetters",
     "type": "boolean",
     "defaultValue": "true",
     "letterCondition": [
       "recx5bPtBkw8qZAjf",
       "recwkQJZVLOAXOfn5",
       "recUk14CbQ3sTTIl8"
-    ]
+    ],
+    "variableId": "recBPuL9uNkUx8Dwg"
   },
   {
-    "name": "documentExternDM",
+    "name": "documentExternalDM",
     "type": "boolean",
     "defaultValue": "true",
     "letterCondition": [
       "recqRyCuB0az2xIpD",
       "recwkQJZVLOAXOfn5",
       "recUk14CbQ3sTTIl8"
-    ]
+    ],
+    "variableId": "recBT0acUW1sJLqjo"
   },
   {
     "name": "documentPreparationMeetingNotes",
@@ -103,13 +113,15 @@
     "letterCondition": [
       "reciD6vNCpGchdinE",
       "recxm1PvJZ9BFHDSP"
-    ]
+    ],
+    "variableId": "recGTnK0sr28naWED"
   },
   {
     "name": "governmentEmail",
     "placeholder": "<email overheid>",
     "type": "string",
-    "defaultValue": "groningen@gemeent.nl"
+    "defaultValue": "groningen@gemeent.nl",
+    "variableId": "recGyJdOWEP4JmxIL"
   },
   {
     "name": "documentDate",
@@ -121,7 +133,8 @@
     ],
     "letterCondition": [
       "recbqjvY2PoHnVRFF"
-    ]
+    ],
+    "variableId": "recIHGfeCBwPo2srV"
   },
   {
     "name": "letterDisplayDateTime",
@@ -130,7 +143,8 @@
     "defaultValue": "11-09-1967",
     "letterDisplay": [
       "recwMrZEDSxyYNP3E"
-    ]
+    ],
+    "variableId": "recLXsKfmlXj5KvB6"
   },
   {
     "name": "writerIsJournalist",
@@ -141,7 +155,8 @@
       "recuBqC4qVDhhBHGM",
       "recyJYiAOq7aeXJew",
       "recoHwJy02ZWavkwR"
-    ]
+    ],
+    "variableId": "recLssr69f4Y9QlJv"
   },
   {
     "name": "documentPreparationDecision",
@@ -150,7 +165,8 @@
     "letterCondition": [
       "reco7JycsMorXIoay",
       "recxm1PvJZ9BFHDSP"
-    ]
+    ],
+    "variableId": "recMqFdH7zwYVTBdw"
   },
   {
     "name": "letterSubject",
@@ -160,13 +176,15 @@
     "letterDisplay": [
       "rectBT638iPD1Dl8s",
       "recUHMuHIwZ0Vm9Zf"
-    ]
+    ],
+    "variableId": "recNtTsesz5BufwXp"
   },
   {
     "name": "writerPostcode",
     "placeholder": "<postcode schrijver>",
     "type": "string",
-    "defaultValue": "2045TT"
+    "defaultValue": "2045TT",
+    "variableId": "recP4gqrTXXVjh40S"
   },
   {
     "name": "documentList",
@@ -192,7 +210,8 @@
       "recvdGJ6CbZmDwNRp",
       "recGTnK0sr28naWED",
       "rec9tofqEQvb2Jzws"
-    ]
+    ],
+    "variableId": "recPMxVvV3bfm9Nqy"
   },
   {
     "name": "governmentAdress",
@@ -201,7 +220,8 @@
     "defaultValue": "Een Locatie 18A",
     "letterDisplay": [
       "recpIDfXukBbapZFZ"
-    ]
+    ],
+    "variableId": "recQ13uaYcfWfWBA2"
   },
   {
     "name": "governmentCity",
@@ -210,17 +230,19 @@
     "defaultValue": "Groningen",
     "letterDisplay": [
       "recFqdAp7tWbs0RKA"
-    ]
+    ],
+    "variableId": "recRLK9Fp2oMReIlz"
   },
   {
-    "name": "documentExternNotes",
+    "name": "documentExternalNotes",
     "type": "boolean",
     "defaultValue": "true",
     "letterCondition": [
       "recpUZP5tJhwXAaNV",
       "recwkQJZVLOAXOfn5",
       "recUk14CbQ3sTTIl8"
-    ]
+    ],
+    "variableId": "recSJsWlzTnBbzgHz"
   },
   {
     "name": "writerOrganisationName",
@@ -231,23 +253,26 @@
       "recV1Ki51EkbP8GND",
       "recuBqC4qVDhhBHGM",
       "recoHwJy02ZWavkwR"
-    ]
+    ],
+    "variableId": "recSis7QyiY32Egfq"
   },
   {
-    "name": "documentInternDM",
+    "name": "documentInternalDM",
     "type": "boolean",
     "defaultValue": "true",
     "letterCondition": [
       "rec5btTVR2impeNCE",
       "reciTwYacTFzKBCrI",
       "recAUnnds8BL00Rrr"
-    ]
+    ],
+    "variableId": "recU0eiiPmlk8w6mt"
   },
   {
     "name": "writerAdress",
     "placeholder": "<adres schrijver>",
     "type": "string",
-    "defaultValue": "Kluns"
+    "defaultValue": "Kluns",
+    "variableId": "recULhVxwwMIj63yT"
   },
   {
     "name": "documentPreparationReceivedPiece",
@@ -256,12 +281,14 @@
     "letterCondition": [
       "recF3V0mJ1tef63f0",
       "recxm1PvJZ9BFHDSP"
-    ]
+    ],
+    "variableId": "recV1YU35GNuYDlic"
   },
   {
     "name": "documentIsDataset",
     "type": "boolean",
-    "defaultValue": "false"
+    "defaultValue": "false",
+    "variableId": "recY5syfbiVrQnBsm"
   },
   {
     "name": "documentPreparationInvitation",
@@ -270,7 +297,8 @@
     "letterCondition": [
       "recxm1PvJZ9BFHDSP",
       "rec1YBuh3lpJwjUjv"
-    ]
+    ],
+    "variableId": "recZVMypnRLJj70lD"
   },
   {
     "name": "governmentAdresseeName",
@@ -280,27 +308,30 @@
     "letterDisplay": [
       "recIA2LPy1lEqhcPE",
       "recdwYJzTElkQZbtE"
-    ]
+    ],
+    "variableId": "recZfrIFSPmI9rTBV"
   },
   {
-    "name": "documentInternEmail",
+    "name": "documentInternalEmail",
     "type": "boolean",
     "defaultValue": "true",
     "letterCondition": [
       "recebJGnZ8FiPQYpu",
       "reciTwYacTFzKBCrI",
       "recAUnnds8BL00Rrr"
-    ]
+    ],
+    "variableId": "recamgDGddLCv3qcP"
   },
   {
-    "name": "documentInternLetters",
+    "name": "documentInternalLetters",
     "type": "boolean",
     "defaultValue": "true",
     "letterCondition": [
       "rechTMndF3kackifk",
       "reciTwYacTFzKBCrI",
       "recAUnnds8BL00Rrr"
-    ]
+    ],
+    "variableId": "recapIZd8BKQgOu7S"
   },
   {
     "name": "writerName",
@@ -309,17 +340,19 @@
     "defaultValue": "Klaas",
     "letterDisplay": [
       "reccdjOg0pXsMwGqF"
-    ]
+    ],
+    "variableId": "recc3RABaErKOmYPM"
   },
   {
-    "name": "documentExternEmail",
+    "name": "documentExternalEmail",
     "type": "boolean",
     "defaultValue": "true",
     "letterCondition": [
       "reckZj9wI7z7UTfpu",
       "recwkQJZVLOAXOfn5",
       "recUk14CbQ3sTTIl8"
-    ]
+    ],
+    "variableId": "recdcUShbh698S3sw"
   },
   {
     "name": "letterJounalisticRelevance",
@@ -327,7 +360,8 @@
     "defaultValue": "false",
     "letterCondition": [
       "reck0WYTrwB8gKjcT"
-    ]
+    ],
+    "variableId": "recjrzkCFobvw05e1"
   },
   {
     "name": "letterForOrganisation",
@@ -338,7 +372,8 @@
       "recuBqC4qVDhhBHGM",
       "recyJYiAOq7aeXJew",
       "recoHwJy02ZWavkwR"
-    ]
+    ],
+    "variableId": "reck0yQhyHjq9r7R3"
   },
   {
     "name": "governmentName",
@@ -347,7 +382,8 @@
     "defaultValue": "Overheid",
     "letterDisplay": [
       "recoBx1EsqlJfcYSj"
-    ]
+    ],
+    "variableId": "recoNy1jGMl93XAI7"
   },
   {
     "name": "governmentPostcode",
@@ -356,7 +392,8 @@
     "defaultValue": "1030YY",
     "letterDisplay": [
       "recYj8hutXMIFkWjY"
-    ]
+    ],
+    "variableId": "recpHZMDmThSywJfQ"
   },
   {
     "name": "documentPreparationDecisionList",
@@ -365,13 +402,15 @@
     "letterCondition": [
       "recXRppdimtKF3v2q",
       "recxm1PvJZ9BFHDSP"
-    ]
+    ],
+    "variableId": "recr3JmwBoIw1LVwT"
   },
   {
     "name": "writerTelephone",
     "placeholder": "<telefoon schrijver>",
     "type": "string",
-    "defaultValue": "06-102305634534"
+    "defaultValue": "06-102305634534",
+    "variableId": "recrcCszAnodIqKw6"
   },
   {
     "name": "documentPreparationNotes",
@@ -380,6 +419,7 @@
     "letterCondition": [
       "rec5IxJnhBo9DouPx",
       "recxm1PvJZ9BFHDSP"
-    ]
+    ],
+    "variableId": "recvdGJ6CbZmDwNRp"
   }
 ]

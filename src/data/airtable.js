@@ -28,6 +28,7 @@ const fetchAirTable = type => {
       }
     )
 }
+
 fetchAirTable('elements')
 fetchAirTable('routes')
 fetchAirTable('images')

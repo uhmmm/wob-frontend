@@ -1,12 +1,12 @@
 [
   {
     "name": "normal doc item subdoc prep 2",
-    "type": "span",
-    "elementId": "rec1YBuh3lpJwjUjv",
     "template": "Uitnodigingen",
+    "type": "span",
     "conditionIds": [
       "recZVMypnRLJj70lD"
-    ]
+    ],
+    "elementId": "rec1YBuh3lpJwjUjv"
   },
   {
     "name": "normal doc item subdoc prep 7",
@@ -51,13 +51,13 @@
     "name": "normal doc item subdoc internal 6",
     "template": ")  met betrekking tot dit document",
     "type": "span",
-    "elementId": "recAUnnds8BL00Rrr",
     "conditionIds": [
       "recapIZd8BKQgOu7S",
       "recamgDGddLCv3qcP",
       "recU0eiiPmlk8w6mt",
       "rec1GUDGJfM5ZGmIm"
-    ]
+    ],
+    "elementId": "recAUnnds8BL00Rrr"
   },
   {
     "name": "subject group",
@@ -113,12 +113,12 @@
   {
     "name": "normal doc item subdoc list",
     "type": "list",
-    "elementId": "recIkhcMTkGLvQFqV",
     "children": [
       "recye1kVje6dbonc2",
       "recniIS2i1Uh9ZKFh",
       "recaeUWwy6vrZVjCM"
-    ]
+    ],
+    "elementId": "recIkhcMTkGLvQFqV"
   },
   {
     "name": "normal doc item title",
@@ -127,10 +127,10 @@
       "rec9TlrAZiBE98jAi"
     ],
     "type": "span",
-    "elementId": "recO3VTlacjvq08o5",
     "children": [
       "recbqjvY2PoHnVRFF"
-    ]
+    ],
+    "elementId": "recO3VTlacjvq08o5"
   },
   {
     "name": "first alinea line 3",
@@ -145,13 +145,13 @@
     "name": "normal doc item subdoc external 6",
     "template": ")  met betrekking tot dit document.",
     "type": "span",
-    "elementId": "recUk14CbQ3sTTIl8",
     "conditionIds": [
       "recBPuL9uNkUx8Dwg",
       "recdcUShbh698S3sw",
       "recBT0acUW1sJLqjo",
       "recSJsWlzTnBbzgHz"
-    ]
+    ],
+    "elementId": "recUk14CbQ3sTTIl8"
   },
   {
     "name": "first alinea line 2 opt 3",
@@ -218,7 +218,6 @@
   {
     "name": "normal doc item subdoc external",
     "type": "listItem",
-    "elementId": "recaeUWwy6vrZVjCM",
     "children": [
       "recwkQJZVLOAXOfn5",
       "reckZj9wI7z7UTfpu",
@@ -226,7 +225,8 @@
       "recx5bPtBkw8qZAjf",
       "recpUZP5tJhwXAaNV",
       "recUk14CbQ3sTTIl8"
-    ]
+    ],
+    "elementId": "recaeUWwy6vrZVjCM"
   },
   {
     "name": "normal doc item subdoc internal 5",
@@ -346,13 +346,13 @@
     "name": "normal doc item subdoc internal 1",
     "template": "interne correspondentie (incl./excl.",
     "type": "span",
-    "elementId": "reciTwYacTFzKBCrI",
     "conditionIds": [
       "recapIZd8BKQgOu7S",
       "recamgDGddLCv3qcP",
       "recU0eiiPmlk8w6mt",
       "rec1GUDGJfM5ZGmIm"
-    ]
+    ],
+    "elementId": "reciTwYacTFzKBCrI"
   },
   {
     "name": "journalistic relevance",
@@ -375,7 +375,6 @@
   {
     "name": "normal doc item subdoc internal",
     "type": "listItem",
-    "elementId": "recniIS2i1Uh9ZKFh",
     "children": [
       "reciTwYacTFzKBCrI",
       "rechTMndF3kackifk",
@@ -383,7 +382,8 @@
       "rec5btTVR2impeNCE",
       "recbP5Y8jNb1iAOIz",
       "recAUnnds8BL00Rrr"
-    ]
+    ],
+    "elementId": "recniIS2i1Uh9ZKFh"
   },
   {
     "name": "normal doc item subdoc prep 5",
@@ -471,11 +471,11 @@
   {
     "name": "normal doc item",
     "type": "listItem",
-    "elementId": "rectJcTpJSs3uUY5p",
     "children": [
       "recO3VTlacjvq08o5",
       "recIkhcMTkGLvQFqV"
-    ]
+    ],
+    "elementId": "rectJcTpJSs3uUY5p"
   },
   {
     "name": "first alinea line 2 opt 2",
@@ -507,13 +507,13 @@
     "name": "normal doc item subdoc external 1",
     "template": "externe correspondentie (incl./excl. ",
     "type": "span",
-    "elementId": "recwkQJZVLOAXOfn5",
     "conditionIds": [
       "recBPuL9uNkUx8Dwg",
       "recdcUShbh698S3sw",
       "recBT0acUW1sJLqjo",
       "recSJsWlzTnBbzgHz"
-    ]
+    ],
+    "elementId": "recwkQJZVLOAXOfn5"
   },
   {
     "name": "data document",
@@ -536,7 +536,6 @@
     "name": "normal doc item subdoc prep 1",
     "template": "alle",
     "type": "span",
-    "elementId": "recxm1PvJZ9BFHDSP",
     "conditionIds": [
       "recZVMypnRLJj70lD",
       "rec4DN45JnXEroHHa",
@@ -546,7 +545,8 @@
       "recr3JmwBoIw1LVwT",
       "recvdGJ6CbZmDwNRp",
       "recGTnK0sr28naWED"
-    ]
+    ],
+    "elementId": "recxm1PvJZ9BFHDSP"
   },
   {
     "name": "first alinea line 2 opt 1",
@@ -565,7 +565,6 @@
   {
     "name": "normal doc item subdoc prep",
     "type": "listItem",
-    "elementId": "recye1kVje6dbonc2",
     "children": [
       "recxm1PvJZ9BFHDSP",
       "recF3V0mJ1tef63f0",
@@ -575,6 +574,7 @@
       "recXRppdimtKF3v2q",
       "rec5IxJnhBo9DouPx",
       "reciD6vNCpGchdinE"
-    ]
+    ],
+    "elementId": "recye1kVje6dbonc2"
   }
 ]
