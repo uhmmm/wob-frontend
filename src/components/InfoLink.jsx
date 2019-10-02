@@ -9,9 +9,9 @@ const InfoLink = ({ linkSlug }) => {
   return (
     <Switch>
       <Route
-        path={`/form/:formSlug/aside/${linkSlug}`}
+        path={`/letter/:letterId/form/:formSlug/aside/${linkSlug}`}
         render={({ match }) => {
-          let path = `/form/${match.params.formSlug}`
+          let path = `/letter/${match.params.letterId}/form/${match.params.formSlug}`
           return (
             <Link to={path}>
               <InfoBubble />
@@ -21,9 +21,9 @@ const InfoLink = ({ linkSlug }) => {
       />
 
       <Route
-        path="/form/:formSlug"
+        path="/letter/:letterId/form/:formSlug"
         render={({ match }) => {
-          let path = `${match.url}/aside/${linkSlug}`
+          let path = `/letter/${match.params.letterId}/form/${match.params.formSlug}/aside/${linkSlug}`
           return (
             <Link to={path}>
               <InfoBubble />

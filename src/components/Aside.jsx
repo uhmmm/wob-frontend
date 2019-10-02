@@ -48,7 +48,7 @@ const AsideRouter = () => {
   return (
     <Switch>
       <Route
-        path="/form/:formStep/aside/:asideSlug"
+        path="/letter/:letterId/form/:formSlug/aside/:asideSlug"
         component={AsideConnected}
       ></Route>
     </Switch>

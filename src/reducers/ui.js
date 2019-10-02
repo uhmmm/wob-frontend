@@ -1,6 +1,6 @@
 import { TOGGLE_LETTER } from '../actions/ui'
 
-const ui = (state = { letterIsVisible: true }, action) => {
+const ui = (state = { letterIsVisible: false }, action) => {
   switch (action.type) {
     case TOGGLE_LETTER:
       return { ...state, letterIsVisible: !state.letterIsVisible }
