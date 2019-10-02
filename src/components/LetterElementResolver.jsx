@@ -37,10 +37,8 @@ const letterElementTypes = {
 
 const LetterElementResolver = ({ letterEl, isVisisble }) => {
   let Element = letterElementTypes[letterEl.type]
-  console.log(letterEl.name, isVisisble)
-  return letterEl && letterElementTypes[letterEl.type] ? (
+  return letterEl && isVisisble && letterElementTypes[letterEl.type] ? (
     <Element>
-      {/* {letterEl.name}: */}
       <LetterVariableResolverConnected letterElId={letterEl.elementId} />
       {letterEl.children &&
         letterEl.children.map(letterElId => {
@@ -55,8 +53,8 @@ const LetterElementResolver = ({ letterEl, isVisisble }) => {
   ) : null
 }
 
-// TODO: Any next to all
-// TODO: Document els are parsing to true, refList should behave differently
+// TODO Any next to all
+// TODO Document els are parsing to true, refList should behave differently
 const compareVisibilityConditions = ({ letter, letterEl }) => {
   let letterVars = filter(letter, prop => {
     return includes(letterEl.letterConditionIds, prop.variableId)
@@ -67,17 +65,6 @@ const compareVisibilityConditions = ({ letter, letterEl }) => {
   let comparison = letterEl.conditionValues
     ? isEqual(letterVarValues, letterEl.conditionValues)
     : every(letterVarValues, true)
-
-  console.log(
-    'comp: ',
-    comparison,
-    '\n every:',
-    every(letterVarValues, true),
-    '\n var : ',
-    letterVars,
-    '\n cond:',
-    letterEl.letterConditionIds
-  )
 
   return comparison
 }
