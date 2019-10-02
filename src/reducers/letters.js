@@ -4,42 +4,26 @@ import { normalize, schema } from 'normalizr'
 
 import variables from '../data/model'
 
-const letterModelData = groupBy(variables, 'model').letter
-
-const letterVariableSchema = new schema.Entity(
+const variableSchema = new schema.Entity(
   'variables',
   {},
   { idAttribute: 'name' }
 )
-const letterSchema = [letterVariableSchema]
+const variablesSchema = [variableSchema]
 
-const normLetterModelData = normalize(letterModelData, letterSchema)
+const letterModelData = groupBy(variables, 'model').letter
+const normLetterModelData = normalize(letterModelData, variablesSchema)
 const letter = normLetterModelData.entities.variables
-
-const FETCH_LETTERS = 'FETCH_LETTERS'
 
 export const lettersById = (
   state = { 1: { ...letter, letterId: 1 } },
   action
 ) => {
-  switch (action.type) {
-    case FETCH_LETTERS:
-      return { ...state, ...action.payload.entities.letters }
-    default:
-      return state
-  }
+  return state
 }
 
 function allLetters(state = [], action) {
-  switch (action.type) {
-    case FETCH_LETTERS:
-      if (action.payload && action.payload.result) {
-        return [...new Set([...state, ...action.payload.result])]
-      }
-      return state
-    default:
-      return state
-  }
+  return state
 }
 
 export const letters = combineReducers({
