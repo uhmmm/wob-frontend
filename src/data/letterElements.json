@@ -9,7 +9,10 @@
     "elementId": "rec1YBuh3lpJwjUjv"
   },
   {
-    "elementId": "rec2LK7ATgaB3xk4u"
+    "elementId": "rec2LK7ATgaB3xk4u",
+    "name": "signature",
+    "type": "container",
+    "template": "<handtekening afzender>"
   },
   {
     "name": "normal doc item subdoc prep 7",
@@ -30,16 +33,37 @@
     "elementId": "rec5btTVR2impeNCE"
   },
   {
-    "elementId": "rec6Lwtk8W3ftR3WO",
-    "template": "Ik begrijp dat mijn verzoek omvangrijk is. Wellicht kunnen we in goed onderling overleg een selectie maken van documenten die ik daadwerkelijk wens in te zien, en andere documenten die wel onder de reikwijdte van dit verzoek vallen maar die, wat mij betreft, niet verstrekt hoeven te worden. Om die reden stel ik voor dat u een index of overzicht maakt van de gevraagde documenten, zonder nog te beslissen over openbaarmaking van die documenten. Met deze handreiking hoop ik u onnodig werk te besparen.",
     "name": "index of documents",
-    "type": "paragraph"
+    "template": "Ik begrijp dat mijn verzoek omvangrijk is. Wellicht kunnen we in goed onderling overleg een selectie maken van documenten die ik daadwerkelijk wens in te zien, en andere documenten die wel onder de reikwijdte van dit verzoek vallen maar die, wat mij betreft, niet verstrekt hoeven te worden. Om die reden stel ik voor dat u een index of overzicht maakt van de gevraagde documenten, zonder nog te beslissen over openbaarmaking van die documenten. Met deze handreiking hoop ik u onnodig werk te besparen.",
+    "type": "paragraph",
+    "elementId": "rec6Lwtk8W3ftR3WO"
   },
   {
     "name": "data document item",
     "template": "<document data>",
     "type": "span",
     "elementId": "rec71NWXDlXiWg0sK"
+  },
+  {
+    "elementId": "rec7dlXGSWI3F0UHk",
+    "name": "writer organisation",
+    "type": "listItem",
+    "letterVariableId": [
+      "recSis7QyiY32Egfq"
+    ],
+    "letterConditionIds": [
+      "reck0yQhyHjq9r7R3"
+    ],
+    "template": "{variable}"
+  },
+  {
+    "elementId": "rec8SbcryiGF2OGH1",
+    "name": "writer telephone number",
+    "type": "listItem",
+    "letterVariableId": [
+      "recrcCszAnodIqKw6"
+    ],
+    "template": "{variable}"
   },
   {
     "name": "normal doc item subdoc prep 4",
@@ -78,10 +102,10 @@
     "elementId": "recAmgZ1kIMaZ38mr"
   },
   {
-    "elementId": "recDZEoGiI4k6o5hf",
     "name": "other documents",
+    "template": "Mocht u beschikken over andere documenten die – aanvullend of in plaats van gevraagde documenten - inzicht in deze bestuurlijke aangelegenheid te kunnen geven, dan verzoek ik u die documenten ook te verstrekken.",
     "type": "paragraph",
-    "template": "Mocht u beschikken over andere documenten die – aanvullend of in plaats van gevraagde documenten - inzicht in deze bestuurlijke aangelegenheid te kunnen geven, dan verzoek ik u die documenten ook te verstrekken."
+    "elementId": "recDZEoGiI4k6o5hf"
   },
   {
     "name": "normal doc item subdoc prep 3",
@@ -93,10 +117,10 @@
     "elementId": "recF3V0mJ1tef63f0"
   },
   {
-    "elementId": "recFkOImZg3G3vWCe",
-    "template": "Met documenten bedoel ik vastlegging ongeacht de gegevensdrager: dus naast klassieke papieren documenten bijvoorbeeld ook digitale (data-)bestanden, sms'jes, WhatsApp-berichten en audio- en videobestanden.",
     "name": "include all formats",
-    "type": "paragraph"
+    "template": "Met documenten bedoel ik vastlegging ongeacht de gegevensdrager: dus naast klassieke papieren documenten bijvoorbeeld ook digitale (data-)bestanden, sms'jes, WhatsApp-berichten en audio- en videobestanden.",
+    "type": "paragraph",
+    "elementId": "recFkOImZg3G3vWCe"
   },
   {
     "name": "receiver city",
@@ -109,6 +133,15 @@
       "recv6iVTRTh27ylhL"
     ],
     "elementId": "recFqdAp7tWbs0RKA"
+  },
+  {
+    "elementId": "recGZ24PTNFFcUpMU",
+    "name": "writer name",
+    "type": "listItem",
+    "letterVariableId": [
+      "recc3RABaErKOmYPM"
+    ],
+    "template": "{variable}"
   },
   {
     "name": "receiver group",
@@ -141,28 +174,37 @@
     "elementId": "recIkhcMTkGLvQFqV"
   },
   {
-    "elementId": "recJBF8iEdB4vzrig",
-    "template": "Subsidiair verzoek ik om een geanonimiseerde versie van alle documenten gevraagd onder bovengenoemde punten.",
     "name": "anonimized",
-    "type": "paragraph"
-  },
-  {
-    "elementId": "recJLuoevjsbKkq0l",
-    "name": "greeting",
+    "template": "Subsidiair verzoek ik om een geanonimiseerde versie van alle documenten gevraagd onder bovengenoemde punten.",
     "type": "paragraph",
-    "template": "Met vriendelijke groet,"
+    "elementId": "recJBF8iEdB4vzrig"
   },
   {
-    "elementId": "recJc5QYoUHmmhPsf",
-    "template": "Mocht u menen documenten of correspondentie zoals bedoeld in dit verzoek te moeten weigeren, dan vraag ik subsidiair om een zakelijke weergave van de inhoud of een samenvatting. Indien u van oordeel bent dat persoonlijke beleidsopvattingen in documenten bestemd voor intern beraad integrale openbaarmaking van de documenten in de weg staan, verzoek ik subsidiair om openbaarmaking van de informatie voor zover die geen persoonlijke beleidsopvatting is, en meer subsidiair om een samenvatting van de informatie.",
+    "name": "greeting",
+    "template": "Met vriendelijke groet,",
+    "type": "paragraph",
+    "elementId": "recJLuoevjsbKkq0l"
+  },
+  {
+    "elementId": "recJZOV89XFy341j6",
+    "name": "writer email",
+    "type": "listItem",
+    "letterVariableId": [
+      "rec5WMdkHpydPBAHR"
+    ],
+    "template": "{variable}"
+  },
+  {
     "name": "summery",
-    "type": "paragraph"
+    "template": "Mocht u menen documenten of correspondentie zoals bedoeld in dit verzoek te moeten weigeren, dan vraag ik subsidiair om een zakelijke weergave van de inhoud of een samenvatting. Indien u van oordeel bent dat persoonlijke beleidsopvattingen in documenten bestemd voor intern beraad integrale openbaarmaking van de documenten in de weg staan, verzoek ik subsidiair om openbaarmaking van de informatie voor zover die geen persoonlijke beleidsopvatting is, en meer subsidiair om een samenvatting van de informatie.",
+    "type": "paragraph",
+    "elementId": "recJc5QYoUHmmhPsf"
   },
   {
-    "elementId": "recM0wCONHNgzN6C9",
     "name": "passtrough",
     "template": "Daar waar documenten zich niet onder u bevinden en/of u er mee bekend bent dat tevens bij één of meer andere bestuursorganen informatie berust met betrekking tot dit onderwerp, verzoek ik u zonder oprekken van termijnen doorgeleiding van dit verzoek naar het juiste orgaan. Mocht dat inderdaad gebeuren, dan ontvang ik daarover graag bericht.",
-    "type": "paragraph"
+    "type": "paragraph",
+    "elementId": "recM0wCONHNgzN6C9"
   },
   {
     "name": "normal doc item title",
@@ -177,6 +219,15 @@
     "elementId": "recO3VTlacjvq08o5"
   },
   {
+    "elementId": "recQdZUU2r3lsoAGX",
+    "name": "writer city",
+    "type": "span",
+    "letterVariableId": [
+      "rec5xNySVJlS3iuCG"
+    ],
+    "template": "{variable}"
+  },
+  {
     "name": "first alinea line 3",
     "template": "om openbaarmaking van of inzage in hieronder nader te specificeren documenten of informatie bij of onder u over {variable}.",
     "letterVariableId": [
@@ -186,10 +237,10 @@
     "elementId": "recUHMuHIwZ0Vm9Zf"
   },
   {
-    "elementId": "recUfvCecCHEBJdgE",
-    "template": "Ik verzoek u de gevraagde informatie die digitaal bij u aanwezig is in digitale vorm te verstrekken. Van de informatie die alleen analoog (‘hard copy’) in uw archief aanwezig is, ontvang ik graag een kopie. Indien u voornemens bent om hiervoor kopieerkosten in rekening te brengen, verzoek ik u vooraf hierover contact met mij op te nemen.",
     "name": "receive digitally",
-    "type": "paragraph"
+    "template": "Ik verzoek u de gevraagde informatie die digitaal bij u aanwezig is in digitale vorm te verstrekken. Van de informatie die alleen analoog (‘hard copy’) in uw archief aanwezig is, ontvang ik graag een kopie. Indien u voornemens bent om hiervoor kopieerkosten in rekening te brengen, verzoek ik u vooraf hierover contact met mij op te nemen.",
+    "type": "paragraph",
+    "elementId": "recUfvCecCHEBJdgE"
   },
   {
     "name": "normal doc item subdoc external 6",
@@ -221,10 +272,10 @@
     "elementId": "recV1Ki51EkbP8GND"
   },
   {
-    "elementId": "recVPVaazIHkRer0n",
+    "name": "clarification meeting",
     "template": "Mocht u vragen hebben over de precieze interpretatie of de gewenste afhandeling van dit verzoek, dan ben ik graag bereid een nadere toelichting te geven. Ik verzoek u hierover binnen twee weken na ontvangst van mijn Wob-verzoek contact op te nemen.",
     "type": "paragraph",
-    "name": "clarification meeting"
+    "elementId": "recVPVaazIHkRer0n"
   },
   {
     "name": "normal doc item subdoc prep 6",
@@ -234,6 +285,19 @@
       "recr3JmwBoIw1LVwT"
     ],
     "elementId": "recXRppdimtKF3v2q"
+  },
+  {
+    "elementId": "recXSE7G19s9dFOkA",
+    "name": "writer group",
+    "type": "container",
+    "children": [
+      "recGZ24PTNFFcUpMU",
+      "rec7dlXGSWI3F0UHk",
+      "recdrQE0ijOE3sQC2",
+      "recpeJsBI2Voc4Jzy",
+      "recJZOV89XFy341j6",
+      "rec8SbcryiGF2OGH1"
+    ]
   },
   {
     "name": "receiver postcode",
@@ -281,7 +345,9 @@
       "rechWLxMbMZLAc2oq",
       "recVPVaazIHkRer0n",
       "recyKpzGrPeZazmkY",
-      "recJLuoevjsbKkq0l"
+      "recJLuoevjsbKkq0l",
+      "rec2LK7ATgaB3xk4u",
+      "recXSE7G19s9dFOkA"
     ],
     "elementId": "recZC3R0sduBXSuKG"
   },
@@ -324,6 +390,15 @@
     ],
     "type": "span",
     "elementId": "reccdjOg0pXsMwGqF"
+  },
+  {
+    "elementId": "recdrQE0ijOE3sQC2",
+    "name": "writer adress",
+    "type": "listItem",
+    "letterVariableId": [
+      "recULhVxwwMIj63yT"
+    ],
+    "template": "{variable}"
   },
   {
     "name": "receiver name",
@@ -389,10 +464,10 @@
     "elementId": "rechTMndF3kackifk"
   },
   {
-    "elementId": "rechWLxMbMZLAc2oq",
+    "name": "motivation for denial",
     "template": "Bij gehele of gedeeltelijke weigering van een document verzoek ik u de weigering per document respectievelijk per alinea te motiveren. Niet alleen met verwijzing naar het betreffende Wob-artikel, maar tevens met onderbouwing waarom die weigeringsgrond zwaarder weegt dan het algemeen belang van openbaarheid.",
     "type": "paragraph",
-    "name": "motivation for denial"
+    "elementId": "rechWLxMbMZLAc2oq"
   },
   {
     "name": "normal doc item subdoc prep 8",
@@ -404,10 +479,10 @@
     "elementId": "reciD6vNCpGchdinE"
   },
   {
-    "elementId": "reciHSyqxrF8cy7uO",
-    "template": "Omdat dit verzoek betrekking heeft op milieu-informatie wijs ik u voor de goede orde op de verkorte beslistermijn van twee weken.",
     "name": "term with environment",
-    "type": "paragraph"
+    "template": "Omdat dit verzoek betrekking heeft op milieu-informatie wijs ik u voor de goede orde op de verkorte beslistermijn van twee weken.",
+    "type": "paragraph",
+    "elementId": "reciHSyqxrF8cy7uO"
   },
   {
     "name": "first alinea",
@@ -423,10 +498,10 @@
     "elementId": "reciNegFc0vfLhh1R"
   },
   {
-    "elementId": "reciPlnL2c9hbJCOq",
     "name": "all documents item",
+    "template": "<document all>",
     "type": "span",
-    "template": "<document all>"
+    "elementId": "reciPlnL2c9hbJCOq"
   },
   {
     "name": "normal doc item subdoc internal 1",
@@ -516,10 +591,10 @@
     "elementId": "recoIKaD8u9jMhgt6"
   },
   {
-    "elementId": "recoyb3upBkColUnV",
     "name": "term of delivery",
     "template": "Dit verzoek wordt gedaan op basis van de Wet openbaarheid van bestuur. Daaruit vloeit voort dat u binnen 4 weken een besluit moet nemen op dit verzoek. ",
-    "type": "paragraph"
+    "type": "paragraph",
+    "elementId": "recoyb3upBkColUnV"
   },
   {
     "name": "receiver address",
@@ -543,6 +618,18 @@
     "elementId": "recpUZP5tJhwXAaNV"
   },
   {
+    "elementId": "recpeJsBI2Voc4Jzy",
+    "name": "writer postcode",
+    "type": "listItem",
+    "children": [
+      "recQdZUU2r3lsoAGX"
+    ],
+    "letterVariableId": [
+      "recP4gqrTXXVjh40S"
+    ],
+    "template": "{variable} "
+  },
+  {
     "name": "normal doc item subdoc external 4",
     "template": "SMS-jes en WhatsApp-berichten,",
     "type": "span",
@@ -552,12 +639,12 @@
     "elementId": "recqRyCuB0az2xIpD"
   },
   {
-    "elementId": "recrdglVYtC4U79Yz",
     "name": "all doc list",
     "type": "refList",
     "children": [
       "reciPlnL2c9hbJCOq"
-    ]
+    ],
+    "elementId": "recrdglVYtC4U79Yz"
   },
   {
     "name": "subject",
@@ -663,10 +750,10 @@
     "elementId": "recyJYiAOq7aeXJew"
   },
   {
-    "elementId": "recyKpzGrPeZazmkY",
     "name": "receipt of reception",
     "template": "Ik verzoek u de ontvangst van dit verzoek schriftelijk per email of brief aan mij te bevestigen. ",
-    "type": "paragraph"
+    "type": "paragraph",
+    "elementId": "recyKpzGrPeZazmkY"
   },
   {
     "name": "normal doc item subdoc prep",

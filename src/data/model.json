@@ -28,7 +28,10 @@
     "type": "string",
     "defaultValue": "rjkorteschiel@gmail.com",
     "model": "letter",
-    "variableId": "rec5WMdkHpydPBAHR"
+    "variableId": "rec5WMdkHpydPBAHR",
+    "letterElementVariableList": [
+      "recJZOV89XFy341j6"
+    ]
   },
   {
     "name": "writerCity",
@@ -36,7 +39,10 @@
     "type": "string",
     "defaultValue": "Amsterdam",
     "model": "letter",
-    "variableId": "rec5xNySVJlS3iuCG"
+    "variableId": "rec5xNySVJlS3iuCG",
+    "letterElementVariableList": [
+      "recQdZUU2r3lsoAGX"
+    ]
   },
   {
     "name": "documentPreparationAdvice",
@@ -173,7 +179,10 @@
     "type": "string",
     "defaultValue": "1057AA",
     "model": "letter",
-    "variableId": "recP4gqrTXXVjh40S"
+    "variableId": "recP4gqrTXXVjh40S",
+    "letterElementVariableList": [
+      "recpeJsBI2Voc4Jzy"
+    ]
   },
   {
     "name": "documentList",
@@ -223,7 +232,8 @@
     "letterElementVariableList": [
       "recV1Ki51EkbP8GND",
       "recuBqC4qVDhhBHGM",
-      "recoHwJy02ZWavkwR"
+      "recoHwJy02ZWavkwR",
+      "rec7dlXGSWI3F0UHk"
     ],
     "model": "letter",
     "variableId": "recSis7QyiY32Egfq"
@@ -246,7 +256,10 @@
     "type": "string",
     "defaultValue": "Orteliuskade 4G",
     "model": "letter",
-    "variableId": "recULhVxwwMIj63yT"
+    "variableId": "recULhVxwwMIj63yT",
+    "letterElementVariableList": [
+      "recdrQE0ijOE3sQC2"
+    ]
   },
   {
     "name": "documentPreparationReceivedPiece",
@@ -319,7 +332,8 @@
     "type": "string",
     "defaultValue": "Robert-Jan Korteschiel",
     "letterElementVariableList": [
-      "reccdjOg0pXsMwGqF"
+      "reccdjOg0pXsMwGqF",
+      "recGZ24PTNFFcUpMU"
     ],
     "model": "letter",
     "variableId": "recc3RABaErKOmYPM"
@@ -354,7 +368,8 @@
       "recV1Ki51EkbP8GND",
       "recuBqC4qVDhhBHGM",
       "recyJYiAOq7aeXJew",
-      "recoHwJy02ZWavkwR"
+      "recoHwJy02ZWavkwR",
+      "rec7dlXGSWI3F0UHk"
     ],
     "model": "letter",
     "variableId": "reck0yQhyHjq9r7R3"
@@ -398,7 +413,10 @@
     "type": "string",
     "defaultValue": "0614441410",
     "model": "letter",
-    "variableId": "recrcCszAnodIqKw6"
+    "variableId": "recrcCszAnodIqKw6",
+    "letterElementVariableList": [
+      "rec8SbcryiGF2OGH1"
+    ]
   },
   {
     "name": "documentPreparationNotes",
