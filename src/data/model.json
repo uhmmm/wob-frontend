@@ -26,7 +26,7 @@
     "name": "writerEmail",
     "placeholder": "<email schrijver>",
     "type": "string",
-    "defaultValue": "utrecht@op.nl",
+    "defaultValue": "rjkorteschiel@gmail.com",
     "model": "letter",
     "variableId": "rec5WMdkHpydPBAHR"
   },
@@ -34,14 +34,14 @@
     "name": "writerCity",
     "placeholder": "<stad schrijver>",
     "type": "string",
-    "defaultValue": "Utrecht",
+    "defaultValue": "Amsterdam",
     "model": "letter",
     "variableId": "rec5xNySVJlS3iuCG"
   },
   {
     "name": "documentPreparationAdvice",
     "type": "boolean",
-    "defaultValue": "true",
+    "defaultValue": "false",
     "letterElementCondition": [
       "rec9HPrDoWnsM3uoY",
       "recxm1PvJZ9BFHDSP"
@@ -53,7 +53,7 @@
     "name": "documentTitle",
     "placeholder": "<titel of omschrijving document >",
     "type": "string",
-    "defaultValue": "Een titel",
+    "defaultValue": "Lijst van ontslagen werknemers",
     "letterElementVariableList": [
       "recO3VTlacjvq08o5"
     ],
@@ -105,7 +105,7 @@
     "name": "governmentEmail",
     "placeholder": "<email overheid>",
     "type": "string",
-    "defaultValue": "groningen@gemeent.nl",
+    "defaultValue": "stadhuis@enkhuizen.nl",
     "model": "letter",
     "variableId": "recGyJdOWEP4JmxIL"
   },
@@ -113,11 +113,8 @@
     "name": "documentDate",
     "placeholder": "<document datum>",
     "type": "dateTime",
-    "defaultValue": "12-11-1978",
+    "defaultValue": "12-11-2016",
     "letterElementVariableList": [
-      "recbqjvY2PoHnVRFF"
-    ],
-    "letterElementCondition": [
       "recbqjvY2PoHnVRFF"
     ],
     "model": "document",
@@ -162,7 +159,7 @@
     "name": "letterSubject",
     "placeholder": "<onderwerp brief>",
     "type": "string",
-    "defaultValue": "Een onderwerp",
+    "defaultValue": "Ontslagregeling Belastingdienst",
     "letterElementVariableList": [
       "rectBT638iPD1Dl8s",
       "recUHMuHIwZ0Vm9Zf"
@@ -174,7 +171,7 @@
     "name": "writerPostcode",
     "placeholder": "<postcode schrijver>",
     "type": "string",
-    "defaultValue": "2045TT",
+    "defaultValue": "1057AA",
     "model": "letter",
     "variableId": "recP4gqrTXXVjh40S"
   },
@@ -188,7 +185,7 @@
     "name": "governmentAdress",
     "placeholder": "<adres overheid>",
     "type": "string",
-    "defaultValue": "Een Locatie 18A",
+    "defaultValue": "Hoogstraat 11",
     "letterElementVariableList": [
       "recpIDfXukBbapZFZ"
     ],
@@ -199,7 +196,7 @@
     "name": "governmentCity",
     "placeholder": "<stad overheid>",
     "type": "string",
-    "defaultValue": "Groningen",
+    "defaultValue": "Enkhuizen",
     "letterElementVariableList": [
       "recFqdAp7tWbs0RKA"
     ],
@@ -222,7 +219,7 @@
     "name": "writerOrganisationName",
     "placeholder": "<organisatie schrijver>",
     "type": "string",
-    "defaultValue": "Klaasen",
+    "defaultValue": "Research Assistant",
     "letterElementVariableList": [
       "recV1Ki51EkbP8GND",
       "recuBqC4qVDhhBHGM",
@@ -247,7 +244,7 @@
     "name": "writerAdress",
     "placeholder": "<adres schrijver>",
     "type": "string",
-    "defaultValue": "Kluns",
+    "defaultValue": "Orteliuskade 4G",
     "model": "letter",
     "variableId": "recULhVxwwMIj63yT"
   },
@@ -284,7 +281,7 @@
     "name": "governmentAdresseeName",
     "placeholder": "<naam bestuurder>",
     "type": "string",
-    "defaultValue": "Bestuurder",
+    "defaultValue": "Dhr. E.A. van Zuilen",
     "letterElementVariableList": [
       "recIA2LPy1lEqhcPE",
       "recdwYJzTElkQZbtE"
@@ -295,7 +292,7 @@
   {
     "name": "documentInternalEmail",
     "type": "boolean",
-    "defaultValue": "true",
+    "defaultValue": "false",
     "letterElementCondition": [
       "recebJGnZ8FiPQYpu",
       "reciTwYacTFzKBCrI",
@@ -320,7 +317,7 @@
     "name": "writerName",
     "placeholder": "<naam schrijver>",
     "type": "string",
-    "defaultValue": "Klaas",
+    "defaultValue": "Robert-Jan Korteschiel",
     "letterElementVariableList": [
       "reccdjOg0pXsMwGqF"
     ],
@@ -330,7 +327,7 @@
   {
     "name": "documentExternalEmail",
     "type": "boolean",
-    "defaultValue": "true",
+    "defaultValue": "false",
     "letterElementCondition": [
       "reckZj9wI7z7UTfpu",
       "recwkQJZVLOAXOfn5",
@@ -366,7 +363,7 @@
     "name": "governmentName",
     "placeholder": "<naam overheid>",
     "type": "string",
-    "defaultValue": "Overheid",
+    "defaultValue": "Gemeente Enkhuizen",
     "letterElementVariableList": [
       "recoBx1EsqlJfcYSj"
     ],
@@ -377,7 +374,7 @@
     "name": "governmentPostcode",
     "placeholder": "<postcode overheid>",
     "type": "string",
-    "defaultValue": "1030YY",
+    "defaultValue": "1600AA",
     "letterElementVariableList": [
       "recYj8hutXMIFkWjY"
     ],
@@ -399,7 +396,7 @@
     "name": "writerTelephone",
     "placeholder": "<telefoon schrijver>",
     "type": "string",
-    "defaultValue": "06-102305634534",
+    "defaultValue": "0614441410",
     "model": "letter",
     "variableId": "recrcCszAnodIqKw6"
   },

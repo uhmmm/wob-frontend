@@ -93,11 +93,10 @@
     "name": "receiver group",
     "type": "container",
     "children": [
-      "recFqdAp7tWbs0RKA",
-      "recYj8hutXMIFkWjY",
-      "recpIDfXukBbapZFZ",
+      "recoBx1EsqlJfcYSj",
       "recdwYJzTElkQZbtE",
-      "recoBx1EsqlJfcYSj"
+      "recpIDfXukBbapZFZ",
+      "recYj8hutXMIFkWjY"
     ],
     "elementId": "recHJkuct418Totxo"
   },
@@ -164,7 +163,7 @@
       "recLssr69f4Y9QlJv",
       "reck0yQhyHjq9r7R3"
     ],
-    "conditionValue": [
+    "conditionValues": [
       "false",
       "true"
     ],
@@ -204,8 +203,8 @@
     "name": "root",
     "type": "root",
     "children": [
-      "recfSdEBkZEAC7yU2",
       "recHJkuct418Totxo",
+      "recfSdEBkZEAC7yU2",
       "recAmgZ1kIMaZ38mr",
       "recIA2LPy1lEqhcPE",
       "reciNegFc0vfLhh1R",
@@ -244,9 +243,6 @@
       "recIHGfeCBwPo2srV"
     ],
     "type": "span",
-    "letterConditionIds": [
-      "recIHGfeCBwPo2srV"
-    ],
     "elementId": "recbqjvY2PoHnVRFF"
   },
   {
@@ -298,8 +294,8 @@
     "name": "date group",
     "type": "date",
     "children": [
-      "recwMrZEDSxyYNP3E",
-      "recoIKaD8u9jMhgt6"
+      "recoIKaD8u9jMhgt6",
+      "recwMrZEDSxyYNP3E"
     ],
     "elementId": "recfSdEBkZEAC7yU2"
   },
@@ -418,7 +414,7 @@
       "recLssr69f4Y9QlJv",
       "reck0yQhyHjq9r7R3"
     ],
-    "conditionValue": [
+    "conditionValues": [
       "true",
       "true"
     ],
@@ -466,7 +462,7 @@
     "letterVariableId": [
       "recNtTsesz5BufwXp"
     ],
-    "type": "span",
+    "type": "paragraph",
     "elementId": "rectBT638iPD1Dl8s"
   },
   {
@@ -489,7 +485,7 @@
       "recLssr69f4Y9QlJv",
       "reck0yQhyHjq9r7R3"
     ],
-    "conditionValue": [
+    "conditionValues": [
       "true",
       "false"
     ],
@@ -557,7 +553,7 @@
       "recLssr69f4Y9QlJv",
       "reck0yQhyHjq9r7R3"
     ],
-    "conditionValue": [
+    "conditionValues": [
       "false",
       "false"
     ],
