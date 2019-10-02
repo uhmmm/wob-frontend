@@ -1,29 +1,39 @@
 import { combineReducers } from 'redux'
-import { groupBy } from 'lodash'
-import { normalize, schema } from 'normalizr'
 
-import variables from '../data/model'
+import { CREATE_LETTER } from '../actions/letters'
+import { CREATE_DOCUMENT } from '../actions/documents'
 
-const variableSchema = new schema.Entity(
-  'variables',
-  {},
-  { idAttribute: 'name' }
-)
-const variablesSchema = [variableSchema]
-
-const letterModelData = groupBy(variables, 'model').letter
-const normLetterModelData = normalize(letterModelData, variablesSchema)
-const letter = normLetterModelData.entities.variables
-
-export const lettersById = (
-  state = { 1: { ...letter, letterId: 1 } },
-  action
-) => {
-  return state
+export const lettersById = (state = {}, action) => {
+  switch (action.type) {
+    case CREATE_LETTER:
+      let nextId = (Math.max(Object.keys(state)) || 0) + 1
+      return { ...state, [nextId]: { ...action.payload, letterId: nextId } }
+    case CREATE_DOCUMENT:
+      let letterId = action.payload.letterId
+      let documentId = action.payload.documentId
+      return {
+        ...state,
+        [letterId]: {
+          ...state[letterId],
+          documentList: {
+            ...state[letterId].documentList,
+            value: [...(state[letterId].documentList.value || []), documentId]
+          }
+        }
+      }
+    default:
+      return state
+  }
 }
 
 function allLetters(state = [], action) {
-  return state
+  switch (action.type) {
+    case CREATE_LETTER:
+      let nextId = (Math.max(Object.keys(state)) || 0) + 1
+      return [...new Set([...state, nextId])]
+    default:
+      return state
+  }
 }
 
 export const letters = combineReducers({

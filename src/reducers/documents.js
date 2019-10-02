@@ -1,31 +1,23 @@
 import { combineReducers } from 'redux'
-import { groupBy } from 'lodash'
-import { normalize, schema } from 'normalizr'
-import uuid from 'uuid/v4'
 
-import variables from '../data/model'
+import { CREATE_DOCUMENT } from '../actions/documents'
 
-const variableSchema = new schema.Entity(
-  'variables',
-  {},
-  { idAttribute: 'name' }
-)
-const variablesSchema = [variableSchema]
-
-const documentModelData = groupBy(variables, 'model').document
-const normLetterModelData = normalize(documentModelData, variablesSchema)
-const document = normLetterModelData.entities.variables
-
-const defaultDocId = uuid()
-export const documentsById = (
-  state = { [defaultDocId]: { ...document, documentId: defaultDocId } },
-  action
-) => {
-  return state
+export const documentsById = (state = {}, action) => {
+  switch (action.type) {
+    case CREATE_DOCUMENT:
+      return { ...state, [action.payload.documentId]: action.payload }
+    default:
+      return state
+  }
 }
 
 function allDocuments(state = [], action) {
-  return state
+  switch (action.type) {
+    case CREATE_DOCUMENT:
+      return [...new Set([...state, action.payload.documentId])]
+    default:
+      return state
+  }
 }
 
 export const documents = combineReducers({
