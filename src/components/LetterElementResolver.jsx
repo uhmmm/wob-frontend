@@ -46,14 +46,17 @@ const LetterElementResolver = ({ letterEl, entity, entityId, isVisible }) => {
       {letterEl.children &&
         letterEl.children.map((letterElId, key) => {
           if (letterEl.type === 'refList') {
-            let childEntityId = entity[letterEl.refEntityType].value[0]
-            return (
-              <LetterElementResolverConnected
-                key={letterElId}
-                letterElId={letterElId}
-                entityId={childEntityId}
-                entityType={letterEl.refEntityType}
-              />
+            return entity[letterEl.refEntityType].value.map(
+              (childEntityId, key) => {
+                return (
+                  <LetterElementResolverConnected
+                    key={letterElId + childEntityId}
+                    letterElId={letterElId}
+                    entityId={childEntityId}
+                    entityType={letterEl.refEntityType}
+                  />
+                )
+              }
             )
           }
 
@@ -85,7 +88,8 @@ const mapStateToProps = (state, { letterElId, entityId, entityType }) => {
       break
   }
 
-  console.log(letterElId, entityId, entityType, entity)
+  // console.log(letterElId, entityId, entityType, entity)
+  console.log(entityType, entityId)
 
   return {
     letterEl,

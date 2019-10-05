@@ -27,5 +27,6 @@ if (typeof window.__REACT_DEVTOOLS_GLOBAL_HOOK__ === 'object') {
 // setup initial store:
 store.dispatch(createLetter())
 store.dispatch(createDocument(1))
+store.dispatch(createDocument(1))
 
 export { store }
