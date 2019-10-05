@@ -25,6 +25,6 @@ export const documents = combineReducers({
   allIds: allDocuments
 })
 
-export const getDocumentById = (state, letterId) => {
-  return state.letters.byId[letterId]
+export const getDocumentById = (state, documentId) => {
+  return state.documents.byId[documentId]
 }

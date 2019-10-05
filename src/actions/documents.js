@@ -13,7 +13,7 @@ const variableSchema = new schema.Entity(
 )
 const variablesSchema = [variableSchema]
 
-const documentModelData = groupBy(variables, 'model').document
+const documentModelData = groupBy(variables, 'model').documents
 const normLetterModelData = normalize(documentModelData, variablesSchema)
 const document = normLetterModelData.entities.variables
 

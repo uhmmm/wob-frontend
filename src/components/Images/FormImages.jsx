@@ -12,8 +12,8 @@ import typewriter from './typewriter.png'
 import typewriterLong from './typewriter-long.png'
 import journalistLicking from './journalist-licking.png'
 import civilOffice from './civil-office.png'
-import specificDocument from './specific-document.png'
-import officeWoman from './office-woman.png'
+import checking from './checking.png'
+import archive from './archive.png'
 import approved from './approved.png'
 
 const images = {
@@ -23,8 +23,8 @@ const images = {
   typewriterLong,
   civilOffice,
   journalistLicking,
-  specificDocument,
-  officeWoman,
+  checking,
+  archive,
   approved
 }
 

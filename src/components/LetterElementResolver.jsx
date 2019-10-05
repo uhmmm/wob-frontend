@@ -1,17 +1,17 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import styled from '@emotion/styled'
-import { withRouter } from 'react-router'
-import { filter, isEqual, includes, every } from 'lodash'
-import { getLetterById } from '../reducers/letters'
+import { computeElementVisibility } from './letterElementVisibility'
 
 import { LetterVariableResolverConnected } from './LetterVariableResolver'
 
+import { getLetterById } from '../reducers/letters'
+import { getDocumentById } from '../reducers/documents'
 import { getLetterElById } from '../reducers/letterElements'
 
 import { type } from '../styles'
 
-let LetterElSection = styled.section({})
+let LetterElSection = styled.div({})
 let LetterElContainer = styled.div({ padding: '0 0 1rem 0' })
 let LetterElParagraph = styled.p({
   ...type.content.medium,
@@ -35,17 +35,34 @@ const letterElementTypes = {
   span: LetterElSpan
 }
 
-const LetterElementResolver = ({ letterEl, isVisisble }) => {
+const LetterElementResolver = ({ letterEl, entity, entityId, isVisible }) => {
   let Element = letterElementTypes[letterEl.type]
-  return letterEl && isVisisble && letterElementTypes[letterEl.type] ? (
+  return isVisible ? (
     <Element>
-      <LetterVariableResolverConnected letterElId={letterEl.elementId} />
+      <LetterVariableResolverConnected
+        letterElId={letterEl.elementId}
+        entityId={entity}
+      />
       {letterEl.children &&
-        letterEl.children.map(letterElId => {
+        letterEl.children.map((letterElId, key) => {
+          if (letterEl.type === 'refList') {
+            let childEntityId = entity[letterEl.refEntityType].value[0]
+            return (
+              <LetterElementResolverConnected
+                key={letterElId}
+                letterElId={letterElId}
+                entityId={childEntityId}
+                entityType={letterEl.refEntityType}
+              />
+            )
+          }
+
           return (
             <LetterElementResolverConnected
               key={letterElId}
               letterElId={letterElId}
+              entityId={entityId}
+              entityType={letterEl.refEntityType}
             />
           )
         })}
@@ -53,39 +70,33 @@ const LetterElementResolver = ({ letterEl, isVisisble }) => {
   ) : null
 }
 
-// TODO Any next to all
-// TODO Document els are parsing to true, refList should behave differently
-const compareVisibilityConditions = ({ letter, letterEl }) => {
-  let letterVars = filter(letter, prop => {
-    return includes(letterEl.letterConditionIds, prop.variableId)
-  })
-
-  let letterVarValues = letterVars.map(variable => variable.defaultValue)
-
-  let comparison = letterEl.conditionValues
-    ? isEqual(letterVarValues, letterEl.conditionValues)
-    : every(letterVarValues, true)
-
-  return comparison
-}
-
-const computeVisibility = ({ letter, letterEl }) =>
-  letterEl.letterConditionIds
-    ? compareVisibilityConditions({ letter, letterEl })
-    : true
-
-const mapStateToProps = (state, { letterElId, match }) => {
-  let letter = getLetterById(state, match.params.letterId)
+const mapStateToProps = (state, { letterElId, entityId, entityType }) => {
   let letterEl = getLetterElById(state, letterElId)
+
+  let entity
+  switch (entityType) {
+    case 'letters':
+      entity = getLetterById(state, entityId)
+      break
+    case 'documents':
+      entity = getDocumentById(state, entityId)
+      break
+    default:
+      break
+  }
+
+  console.log(letterElId, entityId, entityType, entity)
 
   return {
     letterEl,
-    isVisisble: computeVisibility({ letter, letterEl })
+    entity,
+    entityId,
+    isVisible: computeElementVisibility({ entity, letterEl })
   }
 }
 
-const LetterElementResolverConnected = withRouter(
-  connect(mapStateToProps)(LetterElementResolver)
+const LetterElementResolverConnected = connect(mapStateToProps)(
+  LetterElementResolver
 )
 
 export { LetterElementResolverConnected }

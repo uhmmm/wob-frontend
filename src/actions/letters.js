@@ -12,7 +12,7 @@ const variableSchema = new schema.Entity(
 )
 const variablesSchema = [variableSchema]
 
-const letterModelData = groupBy(variables, 'model').letter
+const letterModelData = groupBy(variables, 'model').letters
 const normLetterModelData = normalize(letterModelData, variablesSchema)
 const letter = normLetterModelData.entities.variables
 

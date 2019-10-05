@@ -8,7 +8,7 @@
       "reciTwYacTFzKBCrI",
       "recAUnnds8BL00Rrr"
     ],
-    "model": "document",
+    "model": "documents",
     "variableId": "rec1GUDGJfM5ZGmIm"
   },
   {
@@ -19,7 +19,7 @@
       "recxm1PvJZ9BFHDSP",
       "recgjcMymIKiNOpX3"
     ],
-    "model": "document",
+    "model": "documents",
     "variableId": "rec4DN45JnXEroHHa"
   },
   {
@@ -27,22 +27,22 @@
     "placeholder": "<email schrijver>",
     "type": "string",
     "defaultValue": "rjkorteschiel@gmail.com",
-    "model": "letter",
-    "variableId": "rec5WMdkHpydPBAHR",
     "letterElementVariableList": [
       "recJZOV89XFy341j6"
-    ]
+    ],
+    "model": "letters",
+    "variableId": "rec5WMdkHpydPBAHR"
   },
   {
     "name": "writerCity",
     "placeholder": "<stad schrijver>",
     "type": "string",
     "defaultValue": "Amsterdam",
-    "model": "letter",
-    "variableId": "rec5xNySVJlS3iuCG",
     "letterElementVariableList": [
       "recQdZUU2r3lsoAGX"
-    ]
+    ],
+    "model": "letters",
+    "variableId": "rec5xNySVJlS3iuCG"
   },
   {
     "name": "documentPreparationAdvice",
@@ -52,7 +52,7 @@
       "rec9HPrDoWnsM3uoY",
       "recxm1PvJZ9BFHDSP"
     ],
-    "model": "document",
+    "model": "documents",
     "variableId": "rec82a5ToVTfd6Q2V"
   },
   {
@@ -63,13 +63,13 @@
     "letterElementVariableList": [
       "recO3VTlacjvq08o5"
     ],
-    "model": "document",
+    "model": "documents",
     "variableId": "rec9TlrAZiBE98jAi"
   },
   {
     "name": "documentExternalPeople",
     "type": "array",
-    "model": "document",
+    "model": "documents",
     "variableId": "rec9tofqEQvb2Jzws"
   },
   {
@@ -81,7 +81,7 @@
       "recwkQJZVLOAXOfn5",
       "recUk14CbQ3sTTIl8"
     ],
-    "model": "document",
+    "model": "documents",
     "variableId": "recBPuL9uNkUx8Dwg"
   },
   {
@@ -93,7 +93,7 @@
       "recwkQJZVLOAXOfn5",
       "recUk14CbQ3sTTIl8"
     ],
-    "model": "document",
+    "model": "documents",
     "variableId": "recBT0acUW1sJLqjo"
   },
   {
@@ -104,7 +104,7 @@
       "reciD6vNCpGchdinE",
       "recxm1PvJZ9BFHDSP"
     ],
-    "model": "document",
+    "model": "documents",
     "variableId": "recGTnK0sr28naWED"
   },
   {
@@ -112,7 +112,7 @@
     "placeholder": "<email overheid>",
     "type": "string",
     "defaultValue": "stadhuis@enkhuizen.nl",
-    "model": "letter",
+    "model": "letters",
     "variableId": "recGyJdOWEP4JmxIL"
   },
   {
@@ -123,7 +123,7 @@
     "letterElementVariableList": [
       "recbqjvY2PoHnVRFF"
     ],
-    "model": "document",
+    "model": "documents",
     "variableId": "recIHGfeCBwPo2srV"
   },
   {
@@ -134,7 +134,7 @@
     "letterElementVariableList": [
       "recwMrZEDSxyYNP3E"
     ],
-    "model": "letter",
+    "model": "letters",
     "variableId": "recLXsKfmlXj5KvB6"
   },
   {
@@ -147,7 +147,7 @@
       "recyJYiAOq7aeXJew",
       "recoHwJy02ZWavkwR"
     ],
-    "model": "letter",
+    "model": "letters",
     "variableId": "recLssr69f4Y9QlJv"
   },
   {
@@ -158,7 +158,7 @@
       "reco7JycsMorXIoay",
       "recxm1PvJZ9BFHDSP"
     ],
-    "model": "document",
+    "model": "documents",
     "variableId": "recMqFdH7zwYVTBdw"
   },
   {
@@ -170,7 +170,7 @@
       "rectBT638iPD1Dl8s",
       "recUHMuHIwZ0Vm9Zf"
     ],
-    "model": "letter",
+    "model": "letters",
     "variableId": "recNtTsesz5BufwXp"
   },
   {
@@ -178,16 +178,16 @@
     "placeholder": "<postcode schrijver>",
     "type": "string",
     "defaultValue": "1057AA",
-    "model": "letter",
-    "variableId": "recP4gqrTXXVjh40S",
     "letterElementVariableList": [
       "recpeJsBI2Voc4Jzy"
-    ]
+    ],
+    "model": "letters",
+    "variableId": "recP4gqrTXXVjh40S"
   },
   {
-    "name": "documentList",
+    "name": "documents",
     "type": "array",
-    "model": "letter",
+    "model": "letters",
     "variableId": "recPMxVvV3bfm9Nqy"
   },
   {
@@ -198,7 +198,7 @@
     "letterElementVariableList": [
       "recpIDfXukBbapZFZ"
     ],
-    "model": "letter",
+    "model": "letters",
     "variableId": "recQ13uaYcfWfWBA2"
   },
   {
@@ -209,7 +209,7 @@
     "letterElementVariableList": [
       "recFqdAp7tWbs0RKA"
     ],
-    "model": "letter",
+    "model": "letters",
     "variableId": "recRLK9Fp2oMReIlz"
   },
   {
@@ -221,7 +221,7 @@
       "recwkQJZVLOAXOfn5",
       "recUk14CbQ3sTTIl8"
     ],
-    "model": "document",
+    "model": "documents",
     "variableId": "recSJsWlzTnBbzgHz"
   },
   {
@@ -235,7 +235,7 @@
       "recoHwJy02ZWavkwR",
       "rec7dlXGSWI3F0UHk"
     ],
-    "model": "letter",
+    "model": "letters",
     "variableId": "recSis7QyiY32Egfq"
   },
   {
@@ -247,7 +247,7 @@
       "reciTwYacTFzKBCrI",
       "recAUnnds8BL00Rrr"
     ],
-    "model": "document",
+    "model": "documents",
     "variableId": "recU0eiiPmlk8w6mt"
   },
   {
@@ -255,11 +255,11 @@
     "placeholder": "<adres schrijver>",
     "type": "string",
     "defaultValue": "Orteliuskade 4G",
-    "model": "letter",
-    "variableId": "recULhVxwwMIj63yT",
     "letterElementVariableList": [
       "recdrQE0ijOE3sQC2"
-    ]
+    ],
+    "model": "letters",
+    "variableId": "recULhVxwwMIj63yT"
   },
   {
     "name": "documentPreparationReceivedPiece",
@@ -269,14 +269,14 @@
       "recF3V0mJ1tef63f0",
       "recxm1PvJZ9BFHDSP"
     ],
-    "model": "document",
+    "model": "documents",
     "variableId": "recV1YU35GNuYDlic"
   },
   {
     "name": "documentIsDataset",
     "type": "boolean",
     "defaultValue": "false",
-    "model": "document",
+    "model": "documents",
     "variableId": "recY5syfbiVrQnBsm"
   },
   {
@@ -287,7 +287,7 @@
       "recxm1PvJZ9BFHDSP",
       "rec1YBuh3lpJwjUjv"
     ],
-    "model": "document",
+    "model": "documents",
     "variableId": "recZVMypnRLJj70lD"
   },
   {
@@ -299,7 +299,7 @@
       "recIA2LPy1lEqhcPE",
       "recdwYJzTElkQZbtE"
     ],
-    "model": "letter",
+    "model": "letters",
     "variableId": "recZfrIFSPmI9rTBV"
   },
   {
@@ -311,7 +311,7 @@
       "reciTwYacTFzKBCrI",
       "recAUnnds8BL00Rrr"
     ],
-    "model": "document",
+    "model": "documents",
     "variableId": "recamgDGddLCv3qcP"
   },
   {
@@ -323,7 +323,7 @@
       "reciTwYacTFzKBCrI",
       "recAUnnds8BL00Rrr"
     ],
-    "model": "document",
+    "model": "documents",
     "variableId": "recapIZd8BKQgOu7S"
   },
   {
@@ -335,7 +335,7 @@
       "reccdjOg0pXsMwGqF",
       "recGZ24PTNFFcUpMU"
     ],
-    "model": "letter",
+    "model": "letters",
     "variableId": "recc3RABaErKOmYPM"
   },
   {
@@ -347,7 +347,7 @@
       "recwkQJZVLOAXOfn5",
       "recUk14CbQ3sTTIl8"
     ],
-    "model": "document",
+    "model": "documents",
     "variableId": "recdcUShbh698S3sw"
   },
   {
@@ -357,7 +357,7 @@
     "letterElementCondition": [
       "reck0WYTrwB8gKjcT"
     ],
-    "model": "letter",
+    "model": "letters",
     "variableId": "recjrzkCFobvw05e1"
   },
   {
@@ -371,7 +371,7 @@
       "recoHwJy02ZWavkwR",
       "rec7dlXGSWI3F0UHk"
     ],
-    "model": "letter",
+    "model": "letters",
     "variableId": "reck0yQhyHjq9r7R3"
   },
   {
@@ -382,7 +382,7 @@
     "letterElementVariableList": [
       "recoBx1EsqlJfcYSj"
     ],
-    "model": "letter",
+    "model": "letters",
     "variableId": "recoNy1jGMl93XAI7"
   },
   {
@@ -393,7 +393,7 @@
     "letterElementVariableList": [
       "recYj8hutXMIFkWjY"
     ],
-    "model": "letter",
+    "model": "letters",
     "variableId": "recpHZMDmThSywJfQ"
   },
   {
@@ -404,7 +404,7 @@
       "recXRppdimtKF3v2q",
       "recxm1PvJZ9BFHDSP"
     ],
-    "model": "document",
+    "model": "documents",
     "variableId": "recr3JmwBoIw1LVwT"
   },
   {
@@ -412,11 +412,11 @@
     "placeholder": "<telefoon schrijver>",
     "type": "string",
     "defaultValue": "0614441410",
-    "model": "letter",
-    "variableId": "recrcCszAnodIqKw6",
     "letterElementVariableList": [
       "rec8SbcryiGF2OGH1"
-    ]
+    ],
+    "model": "letters",
+    "variableId": "recrcCszAnodIqKw6"
   },
   {
     "name": "documentPreparationNotes",
@@ -426,7 +426,7 @@
       "rec5IxJnhBo9DouPx",
       "recxm1PvJZ9BFHDSP"
     ],
-    "model": "document",
+    "model": "documents",
     "variableId": "recvdGJ6CbZmDwNRp"
   }
 ]

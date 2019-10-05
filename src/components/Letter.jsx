@@ -52,7 +52,7 @@ const LetterContainer = styled.div(({ fullScreen }) => ({
 
 // const LetterText = styled.p({ ...type.content.medium, color: colors.darkGrey })
 
-const Letter = ({ letterRootEl, fullScreen, visible }) => {
+const Letter = ({ letterRootEl, entityId, fullScreen, visible }) => {
   return visible ? (
     <LetterArea fullScreen={fullScreen}>
       <LetterAreaInner fullScreen={fullScreen}>
@@ -63,7 +63,11 @@ const Letter = ({ letterRootEl, fullScreen, visible }) => {
           </LetterHeader>
         )}
         <LetterContainer fullScreen={fullScreen}>
-          <LetterElementResolverConnected letterElId={letterRootEl.elementId} />
+          <LetterElementResolverConnected
+            letterElId={letterRootEl.elementId}
+            entityId={entityId}
+            entityType="letters"
+          />
         </LetterContainer>
       </LetterAreaInner>
     </LetterArea>
@@ -76,6 +80,7 @@ const mapStateToProps = (state, { match }) => {
   let letterRootEl = getLetterElByProperty(state, { type: 'root' })[0]
   return {
     letterRootEl,
+    entityId: match.params.letterId,
     fullScreen,
     visible: fullScreen
       ? true

@@ -15,9 +15,9 @@ export const lettersById = (state = {}, action) => {
         ...state,
         [letterId]: {
           ...state[letterId],
-          documentList: {
-            ...state[letterId].documentList,
-            value: [...(state[letterId].documentList.value || []), documentId]
+          documents: {
+            ...state[letterId].documents,
+            value: [...(state[letterId].documents.value || []), documentId]
           }
         }
       }
