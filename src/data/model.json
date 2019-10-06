@@ -6,7 +6,10 @@
     "letterElementCondition": [
       "recbP5Y8jNb1iAOIz",
       "reciTwYacTFzKBCrI",
-      "recAUnnds8BL00Rrr"
+      "recAUnnds8BL00Rrr",
+      "recDJbyv7JQXUoNzd",
+      "rec7hSZGbhPtLm4pp",
+      "rec6jxTUdLfOhnklm"
     ],
     "model": "documents",
     "variableId": "rec1GUDGJfM5ZGmIm"
@@ -17,7 +20,9 @@
     "defaultValue": "true",
     "letterElementCondition": [
       "recxm1PvJZ9BFHDSP",
-      "recgjcMymIKiNOpX3"
+      "recgjcMymIKiNOpX3",
+      "reck0fh2FF3r7U0y5",
+      "recJ7RI7BMxsPCt0r"
     ],
     "model": "documents",
     "variableId": "rec4DN45JnXEroHHa"
@@ -50,7 +55,9 @@
     "defaultValue": "false",
     "letterElementCondition": [
       "rec9HPrDoWnsM3uoY",
-      "recxm1PvJZ9BFHDSP"
+      "recxm1PvJZ9BFHDSP",
+      "reck0fh2FF3r7U0y5",
+      "rec2OaOq0UhfcKGzB"
     ],
     "model": "documents",
     "variableId": "rec82a5ToVTfd6Q2V"
@@ -61,7 +68,9 @@
     "type": "string",
     "defaultValue": "Lijst van ontslagen werknemers",
     "letterElementVariableList": [
-      "recO3VTlacjvq08o5"
+      "recO3VTlacjvq08o5",
+      "reciPlnL2c9hbJCOq",
+      "recUjux43fPwKvsYg"
     ],
     "model": "documents",
     "variableId": "rec9TlrAZiBE98jAi"
@@ -80,7 +89,10 @@
     "letterElementCondition": [
       "recx5bPtBkw8qZAjf",
       "recwkQJZVLOAXOfn5",
-      "recUk14CbQ3sTTIl8"
+      "recUk14CbQ3sTTIl8",
+      "recZ89rx1RbjmoPjv",
+      "rec18F7toaQkL3Xem",
+      "rectEQincwKhFzmFm"
     ],
     "model": "documents",
     "variableId": "recBPuL9uNkUx8Dwg"
@@ -92,7 +104,10 @@
     "letterElementCondition": [
       "recqRyCuB0az2xIpD",
       "recwkQJZVLOAXOfn5",
-      "recUk14CbQ3sTTIl8"
+      "recUk14CbQ3sTTIl8",
+      "recZ89rx1RbjmoPjv",
+      "recBNfeppgUrIlJZE",
+      "rectEQincwKhFzmFm"
     ],
     "model": "documents",
     "variableId": "recBT0acUW1sJLqjo"
@@ -103,7 +118,9 @@
     "defaultValue": "true",
     "letterElementCondition": [
       "reciD6vNCpGchdinE",
-      "recxm1PvJZ9BFHDSP"
+      "recxm1PvJZ9BFHDSP",
+      "reck0fh2FF3r7U0y5",
+      "recl6zMnhBCb7o4Fy"
     ],
     "model": "documents",
     "variableId": "recGTnK0sr28naWED"
@@ -122,7 +139,9 @@
     "type": "dateTime",
     "defaultValue": "12-11-2016",
     "letterElementVariableList": [
-      "recbqjvY2PoHnVRFF"
+      "recbqjvY2PoHnVRFF",
+      "recb2Ow9eyrgqQhxU",
+      "recoOWA9oDSUf9CgT"
     ],
     "model": "documents",
     "variableId": "recIHGfeCBwPo2srV"
@@ -157,7 +176,9 @@
     "defaultValue": "true",
     "letterElementCondition": [
       "reco7JycsMorXIoay",
-      "recxm1PvJZ9BFHDSP"
+      "recxm1PvJZ9BFHDSP",
+      "reck0fh2FF3r7U0y5",
+      "recUaZNPmb8v778xO"
     ],
     "model": "documents",
     "variableId": "recMqFdH7zwYVTBdw"
@@ -221,7 +242,10 @@
     "letterElementCondition": [
       "recpUZP5tJhwXAaNV",
       "recwkQJZVLOAXOfn5",
-      "recUk14CbQ3sTTIl8"
+      "recUk14CbQ3sTTIl8",
+      "recZ89rx1RbjmoPjv",
+      "recLed3GLcsRxog9C",
+      "rectEQincwKhFzmFm"
     ],
     "model": "documents",
     "variableId": "recSJsWlzTnBbzgHz"
@@ -247,7 +271,10 @@
     "letterElementCondition": [
       "rec5btTVR2impeNCE",
       "reciTwYacTFzKBCrI",
-      "recAUnnds8BL00Rrr"
+      "recAUnnds8BL00Rrr",
+      "recDJbyv7JQXUoNzd",
+      "recs9erGVKiaRrpPC",
+      "rec6jxTUdLfOhnklm"
     ],
     "model": "documents",
     "variableId": "recU0eiiPmlk8w6mt"
@@ -269,7 +296,9 @@
     "defaultValue": "true",
     "letterElementCondition": [
       "recF3V0mJ1tef63f0",
-      "recxm1PvJZ9BFHDSP"
+      "recxm1PvJZ9BFHDSP",
+      "reck0fh2FF3r7U0y5",
+      "recFzdN6zRu1dYCiZ"
     ],
     "model": "documents",
     "variableId": "recV1YU35GNuYDlic"
@@ -279,7 +308,10 @@
     "type": "boolean",
     "defaultValue": "false",
     "model": "documents",
-    "variableId": "recY5syfbiVrQnBsm"
+    "variableId": "recY5syfbiVrQnBsm",
+    "letterElementCondition": [
+      "recx3xUDskpZKAU6w"
+    ]
   },
   {
     "name": "documentPreparationInvitation",
@@ -287,7 +319,9 @@
     "defaultValue": "true",
     "letterElementCondition": [
       "recxm1PvJZ9BFHDSP",
-      "rec1YBuh3lpJwjUjv"
+      "rec1YBuh3lpJwjUjv",
+      "reck0fh2FF3r7U0y5",
+      "recOBIkAaJgj1fB2Q"
     ],
     "model": "documents",
     "variableId": "recZVMypnRLJj70lD"
@@ -311,7 +345,10 @@
     "letterElementCondition": [
       "recebJGnZ8FiPQYpu",
       "reciTwYacTFzKBCrI",
-      "recAUnnds8BL00Rrr"
+      "recAUnnds8BL00Rrr",
+      "recDJbyv7JQXUoNzd",
+      "rectyuJHdLdkiy0QK",
+      "rec6jxTUdLfOhnklm"
     ],
     "model": "documents",
     "variableId": "recamgDGddLCv3qcP"
@@ -323,7 +360,10 @@
     "letterElementCondition": [
       "rechTMndF3kackifk",
       "reciTwYacTFzKBCrI",
-      "recAUnnds8BL00Rrr"
+      "recAUnnds8BL00Rrr",
+      "recDJbyv7JQXUoNzd",
+      "rec5rHx64VRgBqiuC",
+      "rec6jxTUdLfOhnklm"
     ],
     "model": "documents",
     "variableId": "recapIZd8BKQgOu7S"
@@ -347,7 +387,10 @@
     "letterElementCondition": [
       "reckZj9wI7z7UTfpu",
       "recwkQJZVLOAXOfn5",
-      "recUk14CbQ3sTTIl8"
+      "recUk14CbQ3sTTIl8",
+      "recZ89rx1RbjmoPjv",
+      "recsn7tV3SpEJOMGo",
+      "rectEQincwKhFzmFm"
     ],
     "model": "documents",
     "variableId": "recdcUShbh698S3sw"
@@ -404,7 +447,9 @@
     "defaultValue": "true",
     "letterElementCondition": [
       "recXRppdimtKF3v2q",
-      "recxm1PvJZ9BFHDSP"
+      "recxm1PvJZ9BFHDSP",
+      "reck0fh2FF3r7U0y5",
+      "recCgjROsp1lDR5ln"
     ],
     "model": "documents",
     "variableId": "recr3JmwBoIw1LVwT"
@@ -426,7 +471,9 @@
     "defaultValue": "true",
     "letterElementCondition": [
       "rec5IxJnhBo9DouPx",
-      "recxm1PvJZ9BFHDSP"
+      "recxm1PvJZ9BFHDSP",
+      "reck0fh2FF3r7U0y5",
+      "recgbumrfjqhPK7pc"
     ],
     "model": "documents",
     "variableId": "recvdGJ6CbZmDwNRp"

@@ -19,7 +19,7 @@ let LetterElParagraph = styled.p({
 })
 let LetterElList = styled.ul({ padding: '0 0 1rem 0', listStyle: 'none' })
 let LetterElOrderedList = styled.ol({
-  padding: '0 0 1rem 1rem'
+  padding: '0 0 1rem 2rem'
 })
 let LetterElListItem = styled.li({
   display: 'list-item',
@@ -67,38 +67,29 @@ const LetterElementResolver = ({ letterEl, entity, entityId, isVisible }) => {
                 />
               )
             })
+          } else {
+            return (
+              <LetterElementResolverConnected
+                key={letterElId}
+                letterElId={letterElId}
+                entityId={entityId}
+                entityType={letterEl.refEntityType}
+              />
+            )
           }
-
-          return (
-            <LetterElementResolverConnected
-              key={letterElId}
-              letterElId={letterElId}
-              entityId={entityId}
-              entityType={letterEl.refEntityType}
-            />
-          )
         })}
     </Element>
   ) : null
 }
 
+const entityTypeSelector = {
+  letters: getLetterById,
+  documents: getDocumentById
+}
+
 const mapStateToProps = (state, { letterElId, entityId, entityType }) => {
   let letterEl = getLetterElById(state, letterElId)
-
-  let entity
-  switch (entityType) {
-    case 'letters':
-      entity = getLetterById(state, entityId)
-      break
-    case 'documents':
-      entity = getDocumentById(state, entityId)
-      break
-    default:
-      break
-  }
-
-  // console.log(letterElId, entityId, entityType, entity)
-  // console.log(entityType, entityId)
+  let entity = entityTypeSelector[entityType](state, entityId)
 
   return {
     letterEl,

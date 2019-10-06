@@ -1,5 +1,15 @@
 [
   {
+    "elementId": "rec18F7toaQkL3Xem",
+    "name": "all documents  item subdoc external 2",
+    "template": "brieven, ",
+    "refEntityType": "documents",
+    "type": "span",
+    "letterConditionIds": [
+      "recBPuL9uNkUx8Dwg"
+    ]
+  },
+  {
     "name": "normal doc item subdoc prep 2",
     "template": "uitnodigingen, ",
     "type": "span",
@@ -15,6 +25,22 @@
     "type": "container",
     "refEntityType": "letters",
     "elementId": "rec2LK7ATgaB3xk4u"
+  },
+  {
+    "elementId": "rec2OaOq0UhfcKGzB",
+    "name": "all documents  item subdoc prep 5",
+    "template": "adviezen, ",
+    "refEntityType": "documents",
+    "type": "span",
+    "letterConditionIds": [
+      "rec82a5ToVTfd6Q2V"
+    ]
+  },
+  {
+    "elementId": "rec4GOtiWTvLrm6zi",
+    "refEntityType": "fields",
+    "type": "refList",
+    "name": "data document item data fields"
   },
   {
     "name": "normal doc item subdoc prep 8",
@@ -37,6 +63,16 @@
     "elementId": "rec5btTVR2impeNCE"
   },
   {
+    "elementId": "rec5rHx64VRgBqiuC",
+    "name": "all documents item subdoc internal 2",
+    "template": "brieven, ",
+    "refEntityType": "documents",
+    "type": "span",
+    "letterConditionIds": [
+      "recapIZd8BKQgOu7S"
+    ]
+  },
+  {
     "name": "index of documents",
     "template": "Ik begrijp dat mijn verzoek omvangrijk is. Wellicht kunnen we in goed onderling overleg een selectie maken van documenten die ik daadwerkelijk wens in te zien, en andere documenten die wel onder de reikwijdte van dit verzoek vallen maar die, wat mij betreft, niet verstrekt hoeven te worden. Om die reden stel ik voor dat u een index of overzicht maakt van de gevraagde documenten, zonder nog te beslissen over openbaarmaking van die documenten. Met deze handreiking hoop ik u onnodig werk te besparen.",
     "type": "paragraph",
@@ -44,11 +80,42 @@
     "elementId": "rec6Lwtk8W3ftR3WO"
   },
   {
-    "name": "data document item",
-    "template": "<document data>",
+    "elementId": "rec6jxTUdLfOhnklm",
+    "name": "all documents item subdoc internal 6",
+    "template": ")  met betrekking tot dit document.",
+    "refEntityType": "documents",
+    "type": "span",
+    "letterConditionIds": [
+      "recapIZd8BKQgOu7S",
+      "recamgDGddLCv3qcP",
+      "recU0eiiPmlk8w6mt",
+      "rec1GUDGJfM5ZGmIm"
+    ]
+  },
+  {
+    "name": "data document item title",
     "type": "span",
     "refEntityType": "documents",
-    "elementId": "rec71NWXDlXiWg0sK"
+    "elementId": "rec71NWXDlXiWg0sK",
+    "children": [
+      "recUjux43fPwKvsYg",
+      "recb2Ow9eyrgqQhxU",
+      "recsCltlIItJpUAsD"
+    ]
+  },
+  {
+    "elementId": "rec7ECXDfxWAs3ENb",
+    "name": "all documents item subdoc internal",
+    "type": "listItem",
+    "refEntityType": "documents",
+    "children": [
+      "recDJbyv7JQXUoNzd",
+      "rec5rHx64VRgBqiuC",
+      "rectyuJHdLdkiy0QK",
+      "recs9erGVKiaRrpPC",
+      "rec7hSZGbhPtLm4pp",
+      "rec6jxTUdLfOhnklm"
+    ]
   },
   {
     "name": "writer organisation",
@@ -62,6 +129,16 @@
     ],
     "refEntityType": "letters",
     "elementId": "rec7dlXGSWI3F0UHk"
+  },
+  {
+    "elementId": "rec7hSZGbhPtLm4pp",
+    "name": "all documents item subdoc internal 5",
+    "template": "memo’s en notities, ",
+    "refEntityType": "documents",
+    "type": "span",
+    "letterConditionIds": [
+      "rec1GUDGJfM5ZGmIm"
+    ]
   },
   {
     "name": "writer telephone number",
@@ -114,6 +191,49 @@
     "elementId": "recAmgZ1kIMaZ38mr"
   },
   {
+    "elementId": "recBNfeppgUrIlJZE",
+    "name": "all documents  item subdoc external 4",
+    "template": "SMS-jes en WhatsApp-berichten, ",
+    "refEntityType": "documents",
+    "type": "span",
+    "letterConditionIds": [
+      "recBT0acUW1sJLqjo"
+    ]
+  },
+  {
+    "elementId": "recCgjROsp1lDR5ln",
+    "name": "all documents item subdoc prep 7",
+    "template": "besluitenlijsten, ",
+    "refEntityType": "documents",
+    "type": "span",
+    "letterConditionIds": [
+      "recr3JmwBoIw1LVwT"
+    ]
+  },
+  {
+    "elementId": "recCglApU4IHeAW1s",
+    "name": "all documents item title",
+    "type": "span",
+    "refEntityType": "documents",
+    "children": [
+      "reciPlnL2c9hbJCOq",
+      "recoOWA9oDSUf9CgT"
+    ]
+  },
+  {
+    "elementId": "recDJbyv7JQXUoNzd",
+    "name": "all documents item subdoc internal 1",
+    "template": "interne correspondentie (incl./excl. ",
+    "refEntityType": "documents",
+    "type": "span",
+    "letterConditionIds": [
+      "recapIZd8BKQgOu7S",
+      "recamgDGddLCv3qcP",
+      "recU0eiiPmlk8w6mt",
+      "rec1GUDGJfM5ZGmIm"
+    ]
+  },
+  {
     "name": "other documents",
     "template": "Mocht u beschikken over andere documenten die – aanvullend of in plaats van gevraagde documenten - inzicht in deze bestuurlijke aangelegenheid te kunnen geven, dan verzoek ik u die documenten ook te verstrekken.",
     "type": "paragraph",
@@ -122,7 +242,7 @@
   },
   {
     "name": "normal doc item subdoc prep 4",
-    "template": "ingekomen stukken,",
+    "template": "ingekomen stukken, ",
     "type": "span",
     "letterConditionIds": [
       "recV1YU35GNuYDlic"
@@ -151,6 +271,16 @@
     "elementId": "recFqdAp7tWbs0RKA"
   },
   {
+    "elementId": "recFzdN6zRu1dYCiZ",
+    "name": "all documents item subdoc prep 4",
+    "template": "ingekomen stukken, ",
+    "refEntityType": "documents",
+    "type": "span",
+    "letterConditionIds": [
+      "recV1YU35GNuYDlic"
+    ]
+  },
+  {
     "name": "writer name",
     "template": "{variable}",
     "letterVariableId": [
@@ -173,6 +303,23 @@
     "elementId": "recHJkuct418Totxo"
   },
   {
+    "elementId": "recHPFLYIkBvxIYm0",
+    "name": "all documents item subdoc prep",
+    "type": "listItem",
+    "refEntityType": "documents",
+    "children": [
+      "reck0fh2FF3r7U0y5",
+      "recOBIkAaJgj1fB2Q",
+      "recJ7RI7BMxsPCt0r",
+      "recFzdN6zRu1dYCiZ",
+      "rec2OaOq0UhfcKGzB",
+      "recUaZNPmb8v778xO",
+      "recCgjROsp1lDR5ln",
+      "recgbumrfjqhPK7pc",
+      "recl6zMnhBCb7o4Fy"
+    ]
+  },
+  {
     "name": "salutation",
     "template": "Zeer geachte heer/mevrouw {variable}, ",
     "letterVariableId": [
@@ -192,6 +339,16 @@
     ],
     "refEntityType": "documents",
     "elementId": "recIkhcMTkGLvQFqV"
+  },
+  {
+    "elementId": "recJ7RI7BMxsPCt0r",
+    "name": "all documents  item subdoc prep 3",
+    "template": "presentatielijsten, ",
+    "refEntityType": "documents",
+    "type": "span",
+    "letterConditionIds": [
+      "rec4DN45JnXEroHHa"
+    ]
   },
   {
     "name": "anonimized",
@@ -225,11 +382,30 @@
     "elementId": "recJc5QYoUHmmhPsf"
   },
   {
+    "elementId": "recLed3GLcsRxog9C",
+    "name": "all documents item subdoc external 5",
+    "template": "memo’s en notities, ",
+    "refEntityType": "documents",
+    "type": "span",
+    "letterConditionIds": [
+      "recSJsWlzTnBbzgHz"
+    ]
+  },
+  {
     "name": "passtrough",
     "template": "Daar waar documenten zich niet onder u bevinden en/of u er mee bekend bent dat tevens bij één of meer andere bestuursorganen informatie berust met betrekking tot dit onderwerp, verzoek ik u zonder oprekken van termijnen doorgeleiding van dit verzoek naar het juiste orgaan. Mocht dat inderdaad gebeuren, dan ontvang ik daarover graag bericht.",
     "type": "paragraph",
     "refEntityType": "letters",
     "elementId": "recM0wCONHNgzN6C9"
+  },
+  {
+    "elementId": "recMXw2f9gjee8BxW",
+    "name": "data document item",
+    "children": [
+      "rec71NWXDlXiWg0sK"
+    ],
+    "type": "listItem",
+    "refEntityType": "documents"
   },
   {
     "name": "normal doc item title",
@@ -243,6 +419,16 @@
     ],
     "refEntityType": "documents",
     "elementId": "recO3VTlacjvq08o5"
+  },
+  {
+    "elementId": "recOBIkAaJgj1fB2Q",
+    "name": "all documents  item subdoc prep 2",
+    "template": "uitnodigingen, ",
+    "refEntityType": "documents",
+    "type": "span",
+    "letterConditionIds": [
+      "recZVMypnRLJj70lD"
+    ]
   },
   {
     "name": "writer city",
@@ -265,11 +451,31 @@
     "elementId": "recUHMuHIwZ0Vm9Zf"
   },
   {
+    "elementId": "recUaZNPmb8v778xO",
+    "name": "all documents  item subdoc prep 6",
+    "template": "besluiten, ",
+    "refEntityType": "documents",
+    "type": "span",
+    "letterConditionIds": [
+      "recMqFdH7zwYVTBdw"
+    ]
+  },
+  {
     "name": "receive digitally",
     "template": "Ik verzoek u de gevraagde informatie die digitaal bij u aanwezig is in digitale vorm te verstrekken. Van de informatie die alleen analoog (‘hard copy’) in uw archief aanwezig is, ontvang ik graag een kopie. Indien u voornemens bent om hiervoor kopieerkosten in rekening te brengen, verzoek ik u vooraf hierover contact met mij op te nemen.",
     "type": "paragraph",
     "refEntityType": "letters",
     "elementId": "recUfvCecCHEBJdgE"
+  },
+  {
+    "elementId": "recUjux43fPwKvsYg",
+    "name": "data document item title 1",
+    "refEntityType": "documents",
+    "type": "span",
+    "template": "Een overzicht van {variabele) ",
+    "letterVariableId": [
+      "rec9TlrAZiBE98jAi"
+    ]
   },
   {
     "name": "normal doc item subdoc external 6",
@@ -308,6 +514,13 @@
     "type": "paragraph",
     "refEntityType": "letters",
     "elementId": "recVPVaazIHkRer0n"
+  },
+  {
+    "elementId": "recWYijhmFdzB4uJ8",
+    "name": "all documents item subdoc external people",
+    "template": "en derden, waaronder in ieder geval de navolgende partijen: ",
+    "refEntityType": "people",
+    "type": "refList"
   },
   {
     "name": "normal doc item subdoc prep 7",
@@ -350,11 +563,34 @@
     "elementId": "recYj8hutXMIFkWjY"
   },
   {
+    "elementId": "recYjLc0pcYnjOca1",
+    "name": "all documents item",
+    "type": "listItem",
+    "refEntityType": "documents",
+    "children": [
+      "recCglApU4IHeAW1s",
+      "recoRf7LkWNFnyqPl"
+    ]
+  },
+  {
     "name": "normal doc item subdoc external people",
     "template": "en derden, waaronder in ieder geval de navolgende partijen: ",
     "type": "refList",
-    "refEntityType": "documents",
+    "refEntityType": "people",
     "elementId": "recZ5pvWMWb6XQB8y"
+  },
+  {
+    "elementId": "recZ89rx1RbjmoPjv",
+    "name": "all documents item subdoc external 1",
+    "template": "Externe correspondentie (incl./excl. ",
+    "refEntityType": "documents",
+    "type": "span",
+    "letterConditionIds": [
+      "recBPuL9uNkUx8Dwg",
+      "recdcUShbh698S3sw",
+      "recBT0acUW1sJLqjo",
+      "recSJsWlzTnBbzgHz"
+    ]
   },
   {
     "name": "root",
@@ -401,6 +637,16 @@
     ],
     "refEntityType": "documents",
     "elementId": "recaeUWwy6vrZVjCM"
+  },
+  {
+    "elementId": "recb2Ow9eyrgqQhxU",
+    "template": " in de periode {variabele}. ",
+    "letterVariableId": [
+      "recIHGfeCBwPo2srV"
+    ],
+    "refEntityType": "documents",
+    "type": "span",
+    "name": "data document item title 2"
   },
   {
     "name": "normal doc item subdoc internal 5",
@@ -492,6 +738,16 @@
     "elementId": "recfSdEBkZEAC7yU2"
   },
   {
+    "elementId": "recgbumrfjqhPK7pc",
+    "name": "all documents item subdoc prep 8",
+    "template": "notulen, ",
+    "refEntityType": "documents",
+    "type": "span",
+    "letterConditionIds": [
+      "recvdGJ6CbZmDwNRp"
+    ]
+  },
+  {
     "name": "normal doc item subdoc prep 3",
     "template": "presentatielijsten, ",
     "type": "span",
@@ -550,11 +806,14 @@
     "elementId": "reciNegFc0vfLhh1R"
   },
   {
-    "name": "all documents item",
-    "template": "<document all>",
+    "name": "all documents item title 1",
     "type": "span",
     "refEntityType": "documents",
-    "elementId": "reciPlnL2c9hbJCOq"
+    "elementId": "reciPlnL2c9hbJCOq",
+    "template": "Alle bij of onder u rustende documenten inzake {variable} ",
+    "letterVariableId": [
+      "rec9TlrAZiBE98jAi"
+    ]
   },
   {
     "name": "normal doc item subdoc internal 1",
@@ -580,6 +839,23 @@
     "elementId": "reck0WYTrwB8gKjcT"
   },
   {
+    "elementId": "reck0fh2FF3r7U0y5",
+    "name": "all documents item subdoc prep 1",
+    "template": "alle ",
+    "refEntityType": "documents",
+    "type": "span",
+    "letterConditionIds": [
+      "recZVMypnRLJj70lD",
+      "rec4DN45JnXEroHHa",
+      "recV1YU35GNuYDlic",
+      "rec82a5ToVTfd6Q2V",
+      "recMqFdH7zwYVTBdw",
+      "recr3JmwBoIw1LVwT",
+      "recvdGJ6CbZmDwNRp",
+      "recGTnK0sr28naWED"
+    ]
+  },
+  {
     "name": "normal doc item subdoc external 3",
     "template": "E-mails en brieven, inclusief bijlagen, ",
     "type": "span",
@@ -588,6 +864,16 @@
     ],
     "refEntityType": "documents",
     "elementId": "reckZj9wI7z7UTfpu"
+  },
+  {
+    "elementId": "recl6zMnhBCb7o4Fy",
+    "name": "all documents item subdoc prep 9",
+    "template": "gespreksverslagen.",
+    "refEntityType": "documents",
+    "type": "span",
+    "letterConditionIds": [
+      "recGTnK0sr28naWED"
+    ]
   },
   {
     "name": "normal doc item subdoc internal",
@@ -652,6 +938,27 @@
     "elementId": "recoIKaD8u9jMhgt6"
   },
   {
+    "elementId": "recoOWA9oDSUf9CgT",
+    "name": "all documents item title 2",
+    "refEntityType": "documents",
+    "template": "over de periode {variable} waaronder:",
+    "type": "span",
+    "letterVariableId": [
+      "recIHGfeCBwPo2srV"
+    ]
+  },
+  {
+    "elementId": "recoRf7LkWNFnyqPl",
+    "name": "all documents item subdoc list",
+    "type": "orderedList",
+    "refEntityType": "documents",
+    "children": [
+      "recHPFLYIkBvxIYm0",
+      "rec7ECXDfxWAs3ENb",
+      "recrCxisV2vo91Cdf"
+    ]
+  },
+  {
     "name": "term of delivery",
     "template": "Dit verzoek wordt gedaan op basis van de Wet openbaarheid van bestuur. Daaruit vloeit voort dat u binnen 4 weken een besluit moet nemen op dit verzoek. ",
     "type": "paragraph",
@@ -705,13 +1012,54 @@
     "elementId": "recqRyCuB0az2xIpD"
   },
   {
-    "name": "all doc list",
-    "type": "refList",
-    "children": [
-      "reciPlnL2c9hbJCOq"
-    ],
+    "elementId": "recrCxisV2vo91Cdf",
+    "name": "all documents item subdoc external",
+    "type": "listItem",
     "refEntityType": "documents",
-    "elementId": "recrdglVYtC4U79Yz"
+    "children": [
+      "recZ89rx1RbjmoPjv",
+      "rec18F7toaQkL3Xem",
+      "recsn7tV3SpEJOMGo",
+      "recBNfeppgUrIlJZE",
+      "recLed3GLcsRxog9C",
+      "rectEQincwKhFzmFm"
+    ]
+  },
+  {
+    "name": "all documents list",
+    "type": "refList",
+    "refEntityType": "documents",
+    "elementId": "recrdglVYtC4U79Yz",
+    "children": [
+      "recYjLc0pcYnjOca1"
+    ]
+  },
+  {
+    "elementId": "recs9erGVKiaRrpPC",
+    "name": "all documents item subdoc internal 4",
+    "template": "SMS-jes en WhatsApp-berichten, ",
+    "refEntityType": "documents",
+    "type": "span",
+    "letterConditionIds": [
+      "recU0eiiPmlk8w6mt"
+    ]
+  },
+  {
+    "elementId": "recsCltlIItJpUAsD",
+    "template": "Een overzicht zou minstens de volgende velden moeten bevatten:",
+    "refEntityType": "documents",
+    "type": "span",
+    "name": "data document item title 3"
+  },
+  {
+    "elementId": "recsn7tV3SpEJOMGo",
+    "name": "all documents  item subdoc external 3",
+    "template": "E-mails en brieven, inclusief bijlagen, ",
+    "refEntityType": "documents",
+    "type": "span",
+    "letterConditionIds": [
+      "recdcUShbh698S3sw"
+    ]
   },
   {
     "name": "subject",
@@ -724,6 +1072,19 @@
     "elementId": "rectBT638iPD1Dl8s"
   },
   {
+    "elementId": "rectEQincwKhFzmFm",
+    "name": "all documents  item subdoc external 6",
+    "template": ")  met betrekking tot dit document,",
+    "refEntityType": "documents",
+    "letterConditionIds": [
+      "recBPuL9uNkUx8Dwg",
+      "recdcUShbh698S3sw",
+      "recBT0acUW1sJLqjo",
+      "recSJsWlzTnBbzgHz"
+    ],
+    "type": "span"
+  },
+  {
     "name": "normal doc item",
     "type": "listItem",
     "children": [
@@ -732,6 +1093,16 @@
     ],
     "refEntityType": "documents",
     "elementId": "rectJcTpJSs3uUY5p"
+  },
+  {
+    "elementId": "rectyuJHdLdkiy0QK",
+    "name": "all documents item subdoc internal 3",
+    "template": "E-mails en brieven, inclusief bijlagen, ",
+    "refEntityType": "documents",
+    "type": "span",
+    "letterConditionIds": [
+      "recamgDGddLCv3qcP"
+    ]
   },
   {
     "name": "first alinea line 2 opt 2",
@@ -777,11 +1148,14 @@
   {
     "name": "data doc list",
     "type": "refList",
-    "children": [
-      "rec71NWXDlXiWg0sK"
-    ],
     "refEntityType": "documents",
-    "elementId": "recx3xUDskpZKAU6w"
+    "elementId": "recx3xUDskpZKAU6w",
+    "letterConditionIds": [
+      "recY5syfbiVrQnBsm"
+    ],
+    "children": [
+      "recMXw2f9gjee8BxW"
+    ]
   },
   {
     "name": "normal doc item subdoc external 2",
