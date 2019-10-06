@@ -32,9 +32,6 @@ const mapStateToProps = (state, { letterElId, entityId, entityType }) => {
     return elemVarId && prop.variableId === elemVarId
   })
 
-  letterEl.refEntityType === 'people' &&
-    console.log(letterEl, entity, entityVarKey, entity[entityVarKey])
-
   return {
     letterEl,
     variable: entity[entityVarKey]

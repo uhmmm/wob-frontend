@@ -39,7 +39,10 @@
     "name": "data document item data fields",
     "type": "refList",
     "refEntityType": "fields",
-    "elementId": "rec4GOtiWTvLrm6zi"
+    "elementId": "rec4GOtiWTvLrm6zi",
+    "children": [
+      "recykfCTJhfNFJFsT"
+    ]
   },
   {
     "name": "normal doc item subdoc prep 8",
@@ -426,6 +429,7 @@
     "type": "listItem",
     "children": [
       "rec71NWXDlXiWg0sK",
+      "rec4GOtiWTvLrm6zi",
       "rec6qNC1QD5KMy8xC"
     ],
     "refEntityType": "documents",
@@ -1251,5 +1255,15 @@
     ],
     "refEntityType": "documents",
     "elementId": "recye1kVje6dbonc2"
+  },
+  {
+    "elementId": "recykfCTJhfNFJFsT",
+    "name": "data document item data fields item",
+    "type": "listItem",
+    "refEntityType": "fields",
+    "template": "{variable} ",
+    "letterVariableId": [
+      "rec6iuOieQ6zN9ec7"
+    ]
   }
 ]

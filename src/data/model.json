@@ -55,7 +55,10 @@
     "type": "string",
     "model": "fields",
     "variableId": "rec6iuOieQ6zN9ec7",
-    "defaultValue": "Uitgaven"
+    "defaultValue": "Uitgaven",
+    "letterElementVariableList": [
+      "recykfCTJhfNFJFsT"
+    ]
   },
   {
     "name": "documentPreparationAdvice",
