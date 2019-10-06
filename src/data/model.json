@@ -15,6 +15,13 @@
     "variableId": "rec1GUDGJfM5ZGmIm"
   },
   {
+    "variableId": "rec2bRtqSVi9qIUbh",
+    "name": "allDocumentInternalEmail",
+    "model": "letters",
+    "defaultValue": "true",
+    "type": "boolean"
+  },
+  {
     "name": "documentPreparationPresentationList",
     "type": "boolean",
     "defaultValue": "true",
@@ -26,6 +33,13 @@
     ],
     "model": "documents",
     "variableId": "rec4DN45JnXEroHHa"
+  },
+  {
+    "variableId": "rec4pO8ecqoUi3pyq",
+    "name": "allDocumentPreparationPresentationList",
+    "model": "letters",
+    "defaultValue": "true",
+    "type": "boolean"
   },
   {
     "name": "writerEmail",
@@ -74,6 +88,13 @@
     "variableId": "rec82a5ToVTfd6Q2V"
   },
   {
+    "variableId": "rec8jvd33PRAkXuEO",
+    "name": "allDocumentPreparationReceivedPiece",
+    "model": "letters",
+    "defaultValue": "true",
+    "type": "boolean"
+  },
+  {
     "name": "documentTitle",
     "placeholder": "<titel of omschrijving document >",
     "type": "string",
@@ -89,7 +110,6 @@
   {
     "name": "people",
     "type": "array",
-    "defaultValue": "<people>",
     "model": "documents",
     "variableId": "rec9tofqEQvb2Jzws"
   },
@@ -122,6 +142,20 @@
     ],
     "model": "documents",
     "variableId": "recBT0acUW1sJLqjo"
+  },
+  {
+    "variableId": "recCpBGP3EPFA784Z",
+    "name": "allDocumentPreparationDecisionList",
+    "model": "letters",
+    "defaultValue": "true",
+    "type": "boolean"
+  },
+  {
+    "variableId": "recDqqPIxZQl3GOP4",
+    "name": "allDocumentExternalEmail",
+    "model": "letters",
+    "defaultValue": "true",
+    "type": "boolean"
   },
   {
     "name": "documentPreparationMeetingNotes",
@@ -158,6 +192,13 @@
     "variableId": "recIHGfeCBwPo2srV"
   },
   {
+    "variableId": "recKOhvJQ141WS0qm",
+    "name": "allDocumentPreparationMeetingNotes",
+    "model": "letters",
+    "defaultValue": "true",
+    "type": "boolean"
+  },
+  {
     "name": "letterDisplayDateTime",
     "placeholder": "<datum brief>",
     "type": "dateTime",
@@ -167,6 +208,14 @@
     ],
     "model": "letters",
     "variableId": "recLXsKfmlXj5KvB6"
+  },
+  {
+    "name": "periodEnd",
+    "placeholder": "<eind periode>",
+    "type": "dateTime",
+    "defaultValue": "18-12-1988",
+    "model": "periods",
+    "variableId": "recLimOccLeDzWNO5"
   },
   {
     "name": "writerIsJournalist",
@@ -182,6 +231,13 @@
     "variableId": "recLssr69f4Y9QlJv"
   },
   {
+    "variableId": "recM7fASAJY9v6TT6",
+    "name": "allDocumentExternalLetters",
+    "model": "letters",
+    "defaultValue": "true",
+    "type": "boolean"
+  },
+  {
     "name": "documentPreparationDecision",
     "type": "boolean",
     "defaultValue": "true",
@@ -193,6 +249,13 @@
     ],
     "model": "documents",
     "variableId": "recMqFdH7zwYVTBdw"
+  },
+  {
+    "variableId": "recNEalRqitgir7DI",
+    "name": "allDocumentExternalNotes",
+    "model": "letters",
+    "defaultValue": "true",
+    "type": "boolean"
   },
   {
     "name": "letterSubject",
@@ -227,7 +290,6 @@
   {
     "name": "fields",
     "type": "array",
-    "defaultValue": "<fields>",
     "model": "documents",
     "variableId": "recPPWHAia2YexJL3"
   },
@@ -322,6 +384,13 @@
     "variableId": "recV1YU35GNuYDlic"
   },
   {
+    "variableId": "recWV1Ye6OlRWUP7C",
+    "name": "allDocumentPreparationInvitation",
+    "model": "letters",
+    "defaultValue": "true",
+    "type": "boolean"
+  },
+  {
     "name": "documentIsDataset",
     "type": "boolean",
     "defaultValue": "true",
@@ -387,6 +456,13 @@
     "variableId": "recapIZd8BKQgOu7S"
   },
   {
+    "variableId": "recbbGDlkzymQry69",
+    "name": "allDocumentPreparationAdvice",
+    "model": "letters",
+    "defaultValue": "true",
+    "type": "boolean"
+  },
+  {
     "name": "writerName",
     "placeholder": "<naam schrijver>",
     "type": "string",
@@ -397,6 +473,20 @@
     ],
     "model": "letters",
     "variableId": "recc3RABaErKOmYPM"
+  },
+  {
+    "variableId": "reccsjQTk0nsHRj0V",
+    "name": "allDocumentPreparationDecision",
+    "model": "letters",
+    "defaultValue": "true",
+    "type": "boolean"
+  },
+  {
+    "variableId": "recdOpND33lY5oubX",
+    "name": "allDocumentExternalDM",
+    "model": "letters",
+    "defaultValue": "true",
+    "type": "boolean"
   },
   {
     "name": "documentExternalEmail",
@@ -412,6 +502,26 @@
     ],
     "model": "documents",
     "variableId": "recdcUShbh698S3sw"
+  },
+  {
+    "variableId": "recfUGvHaqWEt6PTt",
+    "name": "allDocumentInternalDM",
+    "model": "letters",
+    "defaultValue": "true",
+    "type": "boolean"
+  },
+  {
+    "variableId": "rechO0MV4FB4eE0qO",
+    "name": "allDocumentInternalNotes",
+    "model": "letters",
+    "defaultValue": "true",
+    "type": "boolean"
+  },
+  {
+    "variableId": "rechlobXLn1fDUkB5",
+    "name": "people",
+    "model": "letters",
+    "type": "array"
   },
   {
     "name": "letterJounalisticRelevance",
@@ -438,6 +548,20 @@
     "variableId": "reck0yQhyHjq9r7R3"
   },
   {
+    "variableId": "reclz9B4gbk02Hu9W",
+    "name": "allDocumentPreparationNotes",
+    "model": "letters",
+    "defaultValue": "true",
+    "type": "boolean"
+  },
+  {
+    "variableId": "recnr9KrtbUb8sFyE",
+    "name": "allDocumentInternalLetters",
+    "model": "letters",
+    "defaultValue": "true",
+    "type": "boolean"
+  },
+  {
     "name": "governmentName",
     "placeholder": "<naam overheid>",
     "type": "string",
@@ -458,6 +582,12 @@
     ],
     "model": "letters",
     "variableId": "recpHZMDmThSywJfQ"
+  },
+  {
+    "name": "periods",
+    "type": "array",
+    "model": "letters",
+    "variableId": "recqtCxD8KXLpCd0z"
   },
   {
     "name": "documentPreparationDecisionList",
@@ -506,5 +636,13 @@
     ],
     "model": "documents",
     "variableId": "recvdGJ6CbZmDwNRp"
+  },
+  {
+    "variableId": "recx1yddA58KsdT2a",
+    "name": "periodStart",
+    "model": "periods",
+    "placeholder": "<begin periode>",
+    "defaultValue": "18-12-1988",
+    "type": "dateTime"
   }
 ]

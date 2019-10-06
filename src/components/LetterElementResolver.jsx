@@ -28,7 +28,11 @@ let LetterElListItem = styled.li({
   ...type.content.medium,
   listStyle: 'inherit'
 })
-let LetterElHeader = styled.h3({ ...type.contentMono.medium })
+let LetterElHeader = styled.h3({
+  ...type.contentMono.medium,
+
+  padding: '0 0 1rem 0'
+})
 let LetterElDate = styled.div({ ...type.content.medium, padding: '0 0 1rem 0' })
 let LetterElSpan = styled.span({})
 let LetterSignature = styled.div({ padding: '4rem 0rem' })
@@ -96,9 +100,6 @@ const entityTypeSelector = {
 const mapStateToProps = (state, { letterElId, entityId, entityType }) => {
   let letterEl = getLetterElById(state, letterElId)
   let entity = entityTypeSelector[entityType](state, entityId)
-
-  letterEl.refEntityType === 'fields' &&
-    console.log(letterEl.refEntityType, entity)
 
   return {
     letterEl,
