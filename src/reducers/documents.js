@@ -26,16 +26,20 @@ export const documentsById = (state = {}, action) => {
 
     case CREATE_PERSON:
       documentId = action.payload.documentId
-      let personId = action.payload.personId
-      return {
-        ...state,
-        [documentId]: {
-          ...state[documentId],
-          people: {
-            ...state[documentId].people,
-            value: [...(state[documentId].people.value || []), personId]
+      if (documentId) {
+        let personId = action.payload.personId
+        return {
+          ...state,
+          [documentId]: {
+            ...state[documentId],
+            people: {
+              ...state[documentId].people,
+              value: [...(state[documentId].people.value || []), personId]
+            }
           }
         }
+      } else {
+        return state
       }
 
     default:

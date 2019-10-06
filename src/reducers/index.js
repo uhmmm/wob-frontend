@@ -11,6 +11,7 @@ import { documents } from './documents'
 import { organisations } from './organisations'
 import { people } from './people'
 import { fields } from './fields'
+import { periods } from './periods'
 
 const reducers = combineReducers({
   routes,
@@ -22,7 +23,8 @@ const reducers = combineReducers({
   documents,
   organisations,
   people,
-  fields
+  fields,
+  periods
 })
 
 export default reducers

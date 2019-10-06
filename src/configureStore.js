@@ -7,6 +7,7 @@ import { createLetter } from './actions/letters.js'
 import { createDocument } from './actions/documents.js'
 import { createPerson } from './actions/people'
 import { createField } from './actions/fields'
+import { createPeriod } from './actions/periods'
 
 const logger = createLogger({
   diff: true,
@@ -33,17 +34,23 @@ store.dispatch(createDocument(letterId))
 store.dispatch(createDocument(letterId))
 const documentId = store.getState().documents.allIds[0]
 const documentId2 = store.getState().documents.allIds[1]
-store.dispatch(createPerson(documentId))
-store.dispatch(createPerson(documentId))
-store.dispatch(createPerson(documentId))
+store.dispatch(createPerson({ documentId }))
+store.dispatch(createPerson({ documentId }))
+store.dispatch(createPerson({ documentId }))
 store.dispatch(createField(documentId))
 store.dispatch(createField(documentId))
 store.dispatch(createField(documentId))
-store.dispatch(createPerson(documentId2))
-store.dispatch(createPerson(documentId2))
-store.dispatch(createPerson(documentId2))
+store.dispatch(createPerson({ documentId: documentId2 }))
+store.dispatch(createPerson({ documentId: documentId2 }))
+store.dispatch(createPerson({ documentId: documentId2 }))
 store.dispatch(createField(documentId2))
 store.dispatch(createField(documentId2))
 store.dispatch(createField(documentId2))
+store.dispatch(createPeriod(letterId))
+store.dispatch(createPeriod(letterId))
+store.dispatch(createPeriod(letterId))
+store.dispatch(createPerson({ letterId }))
+store.dispatch(createPerson({ letterId }))
+store.dispatch(createPerson({ letterId }))
 
 export { store }

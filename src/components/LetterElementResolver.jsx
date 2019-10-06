@@ -10,6 +10,7 @@ import { getDocumentById } from '../reducers/documents'
 import { getLetterElById } from '../reducers/letterElements'
 import { getFieldById } from '../reducers/fields'
 import { getPersonById } from '../reducers/people'
+import { getPeriodById } from '../reducers/periods'
 
 import { type } from '../styles'
 
@@ -30,7 +31,6 @@ let LetterElListItem = styled.li({
 })
 let LetterElHeader = styled.h3({
   ...type.contentMono.medium,
-
   padding: '0 0 1rem 0'
 })
 let LetterElDate = styled.div({ ...type.content.medium, padding: '0 0 1rem 0' })
@@ -94,7 +94,8 @@ const entityTypeSelector = {
   letters: getLetterById,
   documents: getDocumentById,
   fields: getFieldById,
-  people: getPersonById
+  people: getPersonById,
+  periods: getPeriodById
 }
 
 const mapStateToProps = (state, { letterElId, entityId, entityType }) => {

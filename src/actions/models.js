@@ -3,7 +3,7 @@ import { normalize, schema } from 'normalizr'
 
 import variables from '../data/model'
 
-// Schema
+// schema
 const variableSchema = new schema.Entity(
   'variables',
   {},
@@ -11,9 +11,17 @@ const variableSchema = new schema.Entity(
 )
 const variablesSchema = [variableSchema]
 
-// Splitter
+// parse to correct type
+const variablesParsed = variables.map(variable => {
+  return {
+    ...variable,
+    value: variable.type === 'array' ? [] : ''
+  }
+})
+
+// splitter
 const splitter = dataType => {
-  const documentModelData = groupBy(variables, 'model')[dataType]
+  const documentModelData = groupBy(variablesParsed, 'model')[dataType]
   const normLetterModelData = normalize(documentModelData, variablesSchema)
   return normLetterModelData.entities.variables
 }
@@ -22,7 +30,8 @@ const models = {
   documents: splitter('documents'),
   letters: splitter('letters'),
   people: splitter('people'),
-  fields: splitter('fields')
+  fields: splitter('fields'),
+  periods: splitter('periods')
 }
 
 export default models

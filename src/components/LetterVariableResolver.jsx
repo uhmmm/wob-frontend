@@ -8,6 +8,7 @@ import { getLetterById } from '../reducers/letters'
 import { getDocumentById } from '../reducers/documents'
 import { getFieldById } from '../reducers/fields'
 import { getPersonById } from '../reducers/people'
+import { getPeriodById } from '../reducers/periods'
 
 const LetterVariableResolver = ({ variable, letterEl }) => {
   let defaultValue = variable && variable.defaultValue
@@ -20,7 +21,8 @@ const entityTypeSelector = {
   letters: getLetterById,
   documents: getDocumentById,
   fields: getFieldById,
-  people: getPersonById
+  people: getPersonById,
+  periods: getPeriodById
 }
 
 const mapStateToProps = (state, { letterElId, entityId, entityType }) => {
@@ -31,6 +33,9 @@ const mapStateToProps = (state, { letterElId, entityId, entityType }) => {
     let elemVarId = letterEl.letterVariableId && letterEl.letterVariableId[0]
     return elemVarId && prop.variableId === elemVarId
   })
+
+  entityType === 'periods' &&
+    console.log(letterEl, entityType, entity, entityVarKey)
 
   return {
     letterEl,
