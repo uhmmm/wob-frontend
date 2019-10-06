@@ -6,32 +6,46 @@ import format from 'string-template'
 
 import { getLetterElById } from '../reducers/letterElements'
 import { getLetterById } from '../reducers/letters'
+import { getDocumentById } from '../reducers/documents'
 
-const LetterVariableResolver = ({ letterVar, letterEl }) => {
+const LetterVariableResolver = ({ variable, letterEl }) => {
   let formattedTemplate =
-    letterVar &&
-    letterVar.defaultValue &&
+    variable &&
+    variable.defaultValue &&
     format(letterEl.template, {
-      variable: letterVar.defaultValue || ''
+      variable: variable.defaultValue || ''
     })
   return <>{formattedTemplate || letterEl.template}</>
 }
 
-const mapStateToProps = (state, { letterElId, match }) => {
-  let letter = getLetterById(state, match.params.letterId)
+const mapStateToProps = (state, { letterElId, entityId, entityType }) => {
   let letterEl = getLetterElById(state, letterElId)
 
+  // select letter or document
+  let entity
+  switch (entityType) {
+    case 'letters':
+      entity = getLetterById(state, entityId)
+      break
+    case 'documents':
+      entity = getDocumentById(state, entityId)
+      break
+    default:
+      break
+  }
+
+  console.log(entityType, entityId)
   // resolve the variable that fills the format string
-  let letterVarKey = findKey(letter, prop => {
+  let entityVarKey = findKey(entity, prop => {
     let varId = prop.variableId && prop.variableId
     let elemVarId = letterEl.letterVariableId && letterEl.letterVariableId[0]
     return varId && elemVarId && varId === elemVarId
   })
-  let letterVar = letter[letterVarKey]
+  let variable = entity[entityVarKey]
 
   return {
     letterEl,
-    letterVar
+    variable
   }
 }
 

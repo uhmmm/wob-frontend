@@ -87,7 +87,7 @@
     "name": "doc list header",
     "template": "Concreet vraag ik u om:",
     "type": "paragraph",
-    "refEntityType": "documents",
+    "refEntityType": "letters",
     "elementId": "rec9yuskRttEhla3G"
   },
   {

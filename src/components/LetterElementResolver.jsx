@@ -39,25 +39,26 @@ const LetterElementResolver = ({ letterEl, entity, entityId, isVisible }) => {
   let Element = letterElementTypes[letterEl.type]
   return isVisible ? (
     <Element>
-      <LetterVariableResolverConnected
-        letterElId={letterEl.elementId}
-        entityId={entity}
-      />
+      {letterEl.type !== 'refList' && (
+        <LetterVariableResolverConnected
+          letterElId={letterEl.elementId}
+          entityId={entityId}
+          entityType={letterEl.refEntityType}
+        />
+      )}
       {letterEl.children &&
         letterEl.children.map((letterElId, key) => {
           if (letterEl.type === 'refList') {
-            return entity[letterEl.refEntityType].value.map(
-              (childEntityId, key) => {
-                return (
-                  <LetterElementResolverConnected
-                    key={letterElId + childEntityId}
-                    letterElId={letterElId}
-                    entityId={childEntityId}
-                    entityType={letterEl.refEntityType}
-                  />
-                )
-              }
-            )
+            return entity[letterEl.refEntityType].value.map(childEntityId => {
+              return (
+                <LetterElementResolverConnected
+                  key={letterElId + childEntityId}
+                  letterElId={letterElId}
+                  entityId={childEntityId}
+                  entityType={letterEl.refEntityType}
+                />
+              )
+            })
           }
 
           return (
@@ -89,7 +90,7 @@ const mapStateToProps = (state, { letterElId, entityId, entityType }) => {
   }
 
   // console.log(letterElId, entityId, entityType, entity)
-  console.log(entityType, entityId)
+  // console.log(entityType, entityId)
 
   return {
     letterEl,
