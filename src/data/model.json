@@ -84,7 +84,7 @@
     "variableId": "rec9TlrAZiBE98jAi"
   },
   {
-    "name": "documentExternalPeople",
+    "name": "people",
     "type": "array",
     "defaultValue": "<people>",
     "model": "documents",
@@ -220,6 +220,13 @@
     "defaultValue": "<documents>",
     "model": "letters",
     "variableId": "recPMxVvV3bfm9Nqy"
+  },
+  {
+    "variableId": "recPPWHAia2YexJL3",
+    "name": "fields",
+    "model": "documents",
+    "defaultValue": "<fields>",
+    "type": "array"
   },
   {
     "name": "governmentAdress",
@@ -468,7 +475,11 @@
     "type": "string",
     "defaultValue": "naam",
     "model": "people",
-    "variableId": "recrLm1uJ2VP5Jtwx"
+    "variableId": "recrLm1uJ2VP5Jtwx",
+    "letterElementVariableList": [
+      "rec8PrTMHQ6uw8ygj",
+      "recB9y7mdEo3Ga5Xy"
+    ]
   },
   {
     "name": "writerTelephone",

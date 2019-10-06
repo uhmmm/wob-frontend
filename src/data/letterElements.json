@@ -147,6 +147,16 @@
     "elementId": "rec7hSZGbhPtLm4pp"
   },
   {
+    "elementId": "rec8PrTMHQ6uw8ygj",
+    "name": "all documents item subdoc people item",
+    "type": "listItem",
+    "refEntityType": "people",
+    "template": "{variable}, ",
+    "letterVariableId": [
+      "recrLm1uJ2VP5Jtwx"
+    ]
+  },
+  {
     "name": "writer telephone number",
     "template": "{variable}",
     "letterVariableId": [
@@ -195,6 +205,16 @@
     ],
     "refEntityType": "letters",
     "elementId": "recAmgZ1kIMaZ38mr"
+  },
+  {
+    "elementId": "recB9y7mdEo3Ga5Xy",
+    "name": "normal doc item subdoc external people item",
+    "type": "listItem",
+    "refEntityType": "people",
+    "template": "{variable}, ",
+    "letterVariableId": [
+      "recrLm1uJ2VP5Jtwx"
+    ]
   },
   {
     "name": "all documents  item subdoc external 4",
@@ -523,11 +543,14 @@
     "elementId": "recVPVaazIHkRer0n"
   },
   {
-    "name": "all documents item subdoc external people",
+    "name": "all documents item subdoc people list",
     "template": "en derden, waaronder in ieder geval de navolgende partijen: ",
     "type": "refList",
     "refEntityType": "people",
-    "elementId": "recWYijhmFdzB4uJ8"
+    "elementId": "recWYijhmFdzB4uJ8",
+    "children": [
+      "rec8PrTMHQ6uw8ygj"
+    ]
   },
   {
     "name": "normal doc item subdoc prep 7",
@@ -580,11 +603,14 @@
     "elementId": "recYjLc0pcYnjOca1"
   },
   {
-    "name": "normal doc item subdoc external people",
+    "name": "normal doc item subdoc external people list",
     "template": "en derden, waaronder in ieder geval de navolgende partijen: ",
     "type": "refList",
     "refEntityType": "people",
-    "elementId": "recZ5pvWMWb6XQB8y"
+    "elementId": "recZ5pvWMWb6XQB8y",
+    "children": [
+      "recB9y7mdEo3Ga5Xy"
+    ]
   },
   {
     "name": "all documents item subdoc external 1",
@@ -611,7 +637,6 @@
       "reck0WYTrwB8gKjcT",
       "recelJYIGMpoh0ix2",
       "recx3xUDskpZKAU6w",
-      "recrdglVYtC4U79Yz",
       "recDZEoGiI4k6o5hf",
       "recJBF8iEdB4vzrig",
       "recJc5QYoUHmmhPsf",
@@ -640,7 +665,8 @@
       "recqRyCuB0az2xIpD",
       "recx5bPtBkw8qZAjf",
       "recpUZP5tJhwXAaNV",
-      "recUk14CbQ3sTTIl8"
+      "recUk14CbQ3sTTIl8",
+      "recZ5pvWMWb6XQB8y"
     ],
     "refEntityType": "documents",
     "elementId": "recaeUWwy6vrZVjCM"

@@ -8,6 +8,8 @@ import { LetterVariableResolverConnected } from './LetterVariableResolver'
 import { getLetterById } from '../reducers/letters'
 import { getDocumentById } from '../reducers/documents'
 import { getLetterElById } from '../reducers/letterElements'
+import { getFieldById } from '../reducers/fields'
+import { getPersonById } from '../reducers/people'
 
 import { type } from '../styles'
 
@@ -86,13 +88,16 @@ const LetterElementResolver = ({ letterEl, entity, entityId, isVisible }) => {
 
 const entityTypeSelector = {
   letters: getLetterById,
-  documents: getDocumentById
+  documents: getDocumentById,
+  fields: getFieldById,
+  people: getPersonById
 }
 
 const mapStateToProps = (state, { letterElId, entityId, entityType }) => {
   let letterEl = getLetterElById(state, letterElId)
   let entity = entityTypeSelector[entityType](state, entityId)
 
+  console.log(letterEl, entityType, entityId, entity)
   return {
     letterEl,
     entity,

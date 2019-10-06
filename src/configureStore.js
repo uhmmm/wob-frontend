@@ -32,11 +32,18 @@ const letterId = store.getState().letters.allIds[0]
 store.dispatch(createDocument(letterId))
 store.dispatch(createDocument(letterId))
 const documentId = store.getState().documents.allIds[0]
+const documentId2 = store.getState().documents.allIds[1]
 store.dispatch(createPerson(documentId))
 store.dispatch(createPerson(documentId))
 store.dispatch(createPerson(documentId))
 store.dispatch(createField(documentId))
 store.dispatch(createField(documentId))
 store.dispatch(createField(documentId))
+store.dispatch(createPerson(documentId2))
+store.dispatch(createPerson(documentId2))
+store.dispatch(createPerson(documentId2))
+store.dispatch(createField(documentId2))
+store.dispatch(createField(documentId2))
+store.dispatch(createField(documentId2))
 
 export { store }

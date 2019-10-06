@@ -6,6 +6,8 @@ import format from 'string-template'
 import { getLetterElById } from '../reducers/letterElements'
 import { getLetterById } from '../reducers/letters'
 import { getDocumentById } from '../reducers/documents'
+import { getFieldById } from '../reducers/fields'
+import { getPersonById } from '../reducers/people'
 
 const LetterVariableResolver = ({ variable, letterEl }) => {
   let defaultValue = variable && variable.defaultValue
@@ -16,7 +18,9 @@ const LetterVariableResolver = ({ variable, letterEl }) => {
 
 const entityTypeSelector = {
   letters: getLetterById,
-  documents: getDocumentById
+  documents: getDocumentById,
+  fields: getFieldById,
+  people: getPersonById
 }
 
 const mapStateToProps = (state, { letterElId, entityId, entityType }) => {
