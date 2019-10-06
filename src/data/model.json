@@ -69,9 +69,9 @@
   {
     "name": "documentExternalPeople",
     "type": "array",
+    "defaultValue": "<people>",
     "model": "documents",
-    "variableId": "rec9tofqEQvb2Jzws",
-    "defaultValue": "<people>"
+    "variableId": "rec9tofqEQvb2Jzws"
   },
   {
     "name": "documentExternalLetters",
@@ -188,9 +188,9 @@
   {
     "name": "documents",
     "type": "array",
+    "defaultValue": "<documents>",
     "model": "letters",
-    "variableId": "recPMxVvV3bfm9Nqy",
-    "defaultValue": "<documents>"
+    "variableId": "recPMxVvV3bfm9Nqy"
   },
   {
     "name": "governmentAdress",

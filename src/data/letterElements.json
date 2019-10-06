@@ -1,7 +1,7 @@
 [
   {
     "name": "normal doc item subdoc prep 2",
-    "template": "Uitnodigingen",
+    "template": "uitnodigingen, ",
     "type": "span",
     "letterConditionIds": [
       "recZVMypnRLJj70lD"
@@ -17,8 +17,8 @@
     "elementId": "rec2LK7ATgaB3xk4u"
   },
   {
-    "name": "normal doc item subdoc prep 7",
-    "template": "Notulen",
+    "name": "normal doc item subdoc prep 8",
+    "template": "notulen, ",
     "type": "span",
     "letterConditionIds": [
       "recvdGJ6CbZmDwNRp"
@@ -28,7 +28,7 @@
   },
   {
     "name": "normal doc item subdoc internal 4",
-    "template": "SMS-jes en WhatsApp-berichten,",
+    "template": "SMS-jes en WhatsApp-berichten, ",
     "type": "span",
     "letterConditionIds": [
       "recU0eiiPmlk8w6mt"
@@ -74,8 +74,8 @@
     "elementId": "rec8SbcryiGF2OGH1"
   },
   {
-    "name": "normal doc item subdoc prep 4",
-    "template": "Adviezen",
+    "name": "normal doc item subdoc prep 5",
+    "template": "adviezen, ",
     "type": "span",
     "letterConditionIds": [
       "rec82a5ToVTfd6Q2V"
@@ -92,7 +92,7 @@
   },
   {
     "name": "normal doc item subdoc internal 6",
-    "template": ")  met betrekking tot dit document",
+    "template": ")  met betrekking tot dit document.",
     "type": "span",
     "letterConditionIds": [
       "recapIZd8BKQgOu7S",
@@ -121,8 +121,8 @@
     "elementId": "recDZEoGiI4k6o5hf"
   },
   {
-    "name": "normal doc item subdoc prep 3",
-    "template": "Ingekomen stukken",
+    "name": "normal doc item subdoc prep 4",
+    "template": "ingekomen stukken,",
     "type": "span",
     "letterConditionIds": [
       "recV1YU35GNuYDlic"
@@ -162,7 +162,7 @@
   },
   {
     "name": "receiver group",
-    "type": "container",
+    "type": "list",
     "children": [
       "recoBx1EsqlJfcYSj",
       "recdwYJzTElkQZbtE",
@@ -184,7 +184,7 @@
   },
   {
     "name": "normal doc item subdoc list",
-    "type": "list",
+    "type": "orderedList",
     "children": [
       "recye1kVje6dbonc2",
       "recniIS2i1Uh9ZKFh",
@@ -233,7 +233,7 @@
   },
   {
     "name": "normal doc item title",
-    "template": "{variable}",
+    "template": "{variable} ",
     "letterVariableId": [
       "rec9TlrAZiBE98jAi"
     ],
@@ -273,7 +273,7 @@
   },
   {
     "name": "normal doc item subdoc external 6",
-    "template": ")  met betrekking tot dit document.",
+    "template": ")  met betrekking tot dit document,",
     "type": "span",
     "letterConditionIds": [
       "recBPuL9uNkUx8Dwg",
@@ -310,8 +310,8 @@
     "elementId": "recVPVaazIHkRer0n"
   },
   {
-    "name": "normal doc item subdoc prep 6",
-    "template": "Besluitenlijsten",
+    "name": "normal doc item subdoc prep 7",
+    "template": "besluitenlijsten, ",
     "type": "span",
     "letterConditionIds": [
       "recr3JmwBoIw1LVwT"
@@ -321,7 +321,7 @@
   },
   {
     "name": "writer group",
-    "type": "container",
+    "type": "list",
     "children": [
       "recGZ24PTNFFcUpMU",
       "rec7dlXGSWI3F0UHk",
@@ -351,7 +351,7 @@
   },
   {
     "name": "normal doc item subdoc external people",
-    "template": "en derden, waaronder in ieder geval de navolgende partijen:",
+    "template": "en derden, waaronder in ieder geval de navolgende partijen: ",
     "type": "refList",
     "refEntityType": "documents",
     "elementId": "recZ5pvWMWb6XQB8y"
@@ -404,7 +404,7 @@
   },
   {
     "name": "normal doc item subdoc internal 5",
-    "template": "Memo’s en notities,",
+    "template": "memo’s en notities, ",
     "type": "span",
     "letterConditionIds": [
       "rec1GUDGJfM5ZGmIm"
@@ -457,7 +457,7 @@
   },
   {
     "name": "normal doc item subdoc internal 3",
-    "template": "E-mails en brieven, inclusief bijlagen,",
+    "template": "E-mails en brieven, inclusief bijlagen, ",
     "type": "span",
     "letterConditionIds": [
       "recamgDGddLCv3qcP"
@@ -492,8 +492,8 @@
     "elementId": "recfSdEBkZEAC7yU2"
   },
   {
-    "name": "normal doc item subdoc prep 2 copy",
-    "template": "Presentatielijsten",
+    "name": "normal doc item subdoc prep 3",
+    "template": "presentatielijsten, ",
     "type": "span",
     "letterConditionIds": [
       "rec4DN45JnXEroHHa"
@@ -503,7 +503,7 @@
   },
   {
     "name": "normal doc item subdoc internal 2",
-    "template": "Brieven,",
+    "template": "brieven, ",
     "type": "span",
     "letterConditionIds": [
       "recapIZd8BKQgOu7S"
@@ -519,8 +519,8 @@
     "elementId": "rechWLxMbMZLAc2oq"
   },
   {
-    "name": "normal doc item subdoc prep 8",
-    "template": "Gespreksverslagen",
+    "name": "normal doc item subdoc prep 9",
+    "template": "gespreksverslagen.",
     "type": "span",
     "letterConditionIds": [
       "recGTnK0sr28naWED"
@@ -558,7 +558,7 @@
   },
   {
     "name": "normal doc item subdoc internal 1",
-    "template": "interne correspondentie (incl./excl.",
+    "template": "interne correspondentie (incl./excl. ",
     "type": "span",
     "letterConditionIds": [
       "recapIZd8BKQgOu7S",
@@ -581,7 +581,7 @@
   },
   {
     "name": "normal doc item subdoc external 3",
-    "template": "E-mails en brieven, inclusief bijlagen,",
+    "template": "E-mails en brieven, inclusief bijlagen, ",
     "type": "span",
     "letterConditionIds": [
       "recdcUShbh698S3sw"
@@ -604,8 +604,8 @@
     "elementId": "recniIS2i1Uh9ZKFh"
   },
   {
-    "name": "normal doc item subdoc prep 5",
-    "template": "Besluiten",
+    "name": "normal doc item subdoc prep 6",
+    "template": "besluiten, ",
     "type": "span",
     "letterConditionIds": [
       "recMqFdH7zwYVTBdw"
@@ -673,7 +673,7 @@
   },
   {
     "name": "normal doc item subdoc external 5",
-    "template": "Memo’s en notities,",
+    "template": "memo’s en notities, ",
     "type": "span",
     "letterConditionIds": [
       "recSJsWlzTnBbzgHz"
@@ -696,7 +696,7 @@
   },
   {
     "name": "normal doc item subdoc external 4",
-    "template": "SMS-jes en WhatsApp-berichten,",
+    "template": "SMS-jes en WhatsApp-berichten, ",
     "type": "span",
     "letterConditionIds": [
       "recBT0acUW1sJLqjo"
@@ -763,7 +763,7 @@
   },
   {
     "name": "normal doc item subdoc external 1",
-    "template": "externe correspondentie (incl./excl. ",
+    "template": "Externe correspondentie (incl./excl. ",
     "type": "span",
     "letterConditionIds": [
       "recBPuL9uNkUx8Dwg",
@@ -785,7 +785,7 @@
   },
   {
     "name": "normal doc item subdoc external 2",
-    "template": "Brieven,",
+    "template": "brieven, ",
     "type": "span",
     "letterConditionIds": [
       "recBPuL9uNkUx8Dwg"
@@ -795,7 +795,7 @@
   },
   {
     "name": "normal doc item subdoc prep 1",
-    "template": "alle",
+    "template": "alle ",
     "type": "span",
     "letterConditionIds": [
       "recZVMypnRLJj70lD",

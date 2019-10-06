@@ -34,8 +34,6 @@ const mapStateToProps = (state, { letterElId, entityId, entityType }) => {
       break
   }
 
-  console.log(entityType, entityId)
-  // resolve the variable that fills the format string
   let entityVarKey = findKey(entity, prop => {
     let varId = prop.variableId && prop.variableId
     let elemVarId = letterEl.letterVariableId && letterEl.letterVariableId[0]

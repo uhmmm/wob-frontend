@@ -17,8 +17,15 @@ let LetterElParagraph = styled.p({
   ...type.content.medium,
   padding: '0 0 1rem 0'
 })
-let LetterElList = styled.ul({ padding: '0 0 1rem 0' })
-let LetterElListItem = styled.li({ ...type.content.medium, listStyle: 'none' })
+let LetterElList = styled.ul({ padding: '0 0 1rem 0', listStyle: 'none' })
+let LetterElOrderedList = styled.ol({
+  padding: '0 0 1rem 1rem'
+})
+let LetterElListItem = styled.li({
+  display: 'list-item',
+  ...type.content.medium,
+  listStyle: 'inherit'
+})
 let LetterElHeader = styled.h3({ ...type.contentMono.medium })
 let LetterElDate = styled.div({ ...type.content.medium, padding: '0 0 1rem 0' })
 let LetterElSpan = styled.span({})
@@ -28,7 +35,8 @@ const letterElementTypes = {
   container: LetterElContainer,
   paragraph: LetterElParagraph,
   list: LetterElList,
-  refList: LetterElList,
+  orderedList: LetterElOrderedList,
+  refList: LetterElOrderedList,
   listItem: LetterElListItem,
   header: LetterElHeader,
   date: LetterElDate,
