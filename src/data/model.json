@@ -50,9 +50,17 @@
     "variableId": "rec5xNySVJlS3iuCG"
   },
   {
+    "name": "fieldName",
+    "placeholder": "<naam van dataveld>",
+    "type": "string",
+    "defaultValue": "naam",
+    "model": "fields",
+    "variableId": "rec6iuOieQ6zN9ec7"
+  },
+  {
     "name": "documentPreparationAdvice",
     "type": "boolean",
-    "defaultValue": "false",
+    "defaultValue": "true",
     "letterElementCondition": [
       "rec9HPrDoWnsM3uoY",
       "recxm1PvJZ9BFHDSP",
@@ -306,12 +314,12 @@
   {
     "name": "documentIsDataset",
     "type": "boolean",
-    "defaultValue": "false",
-    "model": "documents",
-    "variableId": "recY5syfbiVrQnBsm",
+    "defaultValue": "true",
     "letterElementCondition": [
       "recx3xUDskpZKAU6w"
-    ]
+    ],
+    "model": "documents",
+    "variableId": "recY5syfbiVrQnBsm"
   },
   {
     "name": "documentPreparationInvitation",
@@ -341,7 +349,7 @@
   {
     "name": "documentInternalEmail",
     "type": "boolean",
-    "defaultValue": "false",
+    "defaultValue": "true",
     "letterElementCondition": [
       "recebJGnZ8FiPQYpu",
       "reciTwYacTFzKBCrI",
@@ -383,7 +391,7 @@
   {
     "name": "documentExternalEmail",
     "type": "boolean",
-    "defaultValue": "false",
+    "defaultValue": "true",
     "letterElementCondition": [
       "reckZj9wI7z7UTfpu",
       "recwkQJZVLOAXOfn5",
@@ -453,6 +461,14 @@
     ],
     "model": "documents",
     "variableId": "recr3JmwBoIw1LVwT"
+  },
+  {
+    "name": "personName",
+    "placeholder": "<naam van persoon>",
+    "type": "string",
+    "defaultValue": "naam",
+    "model": "people",
+    "variableId": "recrLm1uJ2VP5Jtwx"
   },
   {
     "name": "writerTelephone",

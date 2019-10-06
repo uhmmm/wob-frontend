@@ -29,6 +29,7 @@ let LetterElListItem = styled.li({
 let LetterElHeader = styled.h3({ ...type.contentMono.medium })
 let LetterElDate = styled.div({ ...type.content.medium, padding: '0 0 1rem 0' })
 let LetterElSpan = styled.span({})
+let LetterSignature = styled.div({ padding: '4rem 0rem' })
 
 const letterElementTypes = {
   root: LetterElSection,
@@ -40,7 +41,8 @@ const letterElementTypes = {
   listItem: LetterElListItem,
   header: LetterElHeader,
   date: LetterElDate,
-  span: LetterElSpan
+  span: LetterElSpan,
+  signature: LetterSignature
 }
 
 const LetterElementResolver = ({ letterEl, entity, entityId, isVisible }) => {

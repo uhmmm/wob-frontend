@@ -1,13 +1,13 @@
 [
   {
-    "elementId": "rec18F7toaQkL3Xem",
     "name": "all documents  item subdoc external 2",
     "template": "brieven, ",
-    "refEntityType": "documents",
     "type": "span",
     "letterConditionIds": [
       "recBPuL9uNkUx8Dwg"
-    ]
+    ],
+    "refEntityType": "documents",
+    "elementId": "rec18F7toaQkL3Xem"
   },
   {
     "name": "normal doc item subdoc prep 2",
@@ -21,26 +21,25 @@
   },
   {
     "name": "signature",
-    "template": "<handtekening afzender>",
-    "type": "container",
+    "type": "signature",
     "refEntityType": "letters",
     "elementId": "rec2LK7ATgaB3xk4u"
   },
   {
-    "elementId": "rec2OaOq0UhfcKGzB",
     "name": "all documents  item subdoc prep 5",
     "template": "adviezen, ",
-    "refEntityType": "documents",
     "type": "span",
     "letterConditionIds": [
       "rec82a5ToVTfd6Q2V"
-    ]
+    ],
+    "refEntityType": "documents",
+    "elementId": "rec2OaOq0UhfcKGzB"
   },
   {
-    "elementId": "rec4GOtiWTvLrm6zi",
-    "refEntityType": "fields",
+    "name": "data document item data fields",
     "type": "refList",
-    "name": "data document item data fields"
+    "refEntityType": "fields",
+    "elementId": "rec4GOtiWTvLrm6zi"
   },
   {
     "name": "normal doc item subdoc prep 8",
@@ -63,14 +62,14 @@
     "elementId": "rec5btTVR2impeNCE"
   },
   {
-    "elementId": "rec5rHx64VRgBqiuC",
     "name": "all documents item subdoc internal 2",
     "template": "brieven, ",
-    "refEntityType": "documents",
     "type": "span",
     "letterConditionIds": [
       "recapIZd8BKQgOu7S"
-    ]
+    ],
+    "refEntityType": "documents",
+    "elementId": "rec5rHx64VRgBqiuC"
   },
   {
     "name": "index of documents",
@@ -80,34 +79,39 @@
     "elementId": "rec6Lwtk8W3ftR3WO"
   },
   {
-    "elementId": "rec6jxTUdLfOhnklm",
     "name": "all documents item subdoc internal 6",
     "template": ")  met betrekking tot dit document.",
-    "refEntityType": "documents",
     "type": "span",
     "letterConditionIds": [
       "recapIZd8BKQgOu7S",
       "recamgDGddLCv3qcP",
       "recU0eiiPmlk8w6mt",
       "rec1GUDGJfM5ZGmIm"
-    ]
+    ],
+    "refEntityType": "documents",
+    "elementId": "rec6jxTUdLfOhnklm"
+  },
+  {
+    "name": "data document item footer",
+    "template": "Indien zo’n overzicht niet bestaat dan zou ik graag kopieën willen ontvangen van brondocumenten zodat ik zelf een overzicht kan maken.",
+    "type": "span",
+    "refEntityType": "documents",
+    "elementId": "rec6qNC1QD5KMy8xC"
   },
   {
     "name": "data document item title",
     "type": "span",
-    "refEntityType": "documents",
-    "elementId": "rec71NWXDlXiWg0sK",
     "children": [
       "recUjux43fPwKvsYg",
       "recb2Ow9eyrgqQhxU",
       "recsCltlIItJpUAsD"
-    ]
+    ],
+    "refEntityType": "documents",
+    "elementId": "rec71NWXDlXiWg0sK"
   },
   {
-    "elementId": "rec7ECXDfxWAs3ENb",
     "name": "all documents item subdoc internal",
     "type": "listItem",
-    "refEntityType": "documents",
     "children": [
       "recDJbyv7JQXUoNzd",
       "rec5rHx64VRgBqiuC",
@@ -115,7 +119,9 @@
       "recs9erGVKiaRrpPC",
       "rec7hSZGbhPtLm4pp",
       "rec6jxTUdLfOhnklm"
-    ]
+    ],
+    "refEntityType": "documents",
+    "elementId": "rec7ECXDfxWAs3ENb"
   },
   {
     "name": "writer organisation",
@@ -131,14 +137,14 @@
     "elementId": "rec7dlXGSWI3F0UHk"
   },
   {
-    "elementId": "rec7hSZGbhPtLm4pp",
     "name": "all documents item subdoc internal 5",
     "template": "memo’s en notities, ",
-    "refEntityType": "documents",
     "type": "span",
     "letterConditionIds": [
       "rec1GUDGJfM5ZGmIm"
-    ]
+    ],
+    "refEntityType": "documents",
+    "elementId": "rec7hSZGbhPtLm4pp"
   },
   {
     "name": "writer telephone number",
@@ -191,47 +197,47 @@
     "elementId": "recAmgZ1kIMaZ38mr"
   },
   {
-    "elementId": "recBNfeppgUrIlJZE",
     "name": "all documents  item subdoc external 4",
     "template": "SMS-jes en WhatsApp-berichten, ",
-    "refEntityType": "documents",
     "type": "span",
     "letterConditionIds": [
       "recBT0acUW1sJLqjo"
-    ]
+    ],
+    "refEntityType": "documents",
+    "elementId": "recBNfeppgUrIlJZE"
   },
   {
-    "elementId": "recCgjROsp1lDR5ln",
     "name": "all documents item subdoc prep 7",
     "template": "besluitenlijsten, ",
-    "refEntityType": "documents",
     "type": "span",
     "letterConditionIds": [
       "recr3JmwBoIw1LVwT"
-    ]
+    ],
+    "refEntityType": "documents",
+    "elementId": "recCgjROsp1lDR5ln"
   },
   {
-    "elementId": "recCglApU4IHeAW1s",
     "name": "all documents item title",
     "type": "span",
-    "refEntityType": "documents",
     "children": [
       "reciPlnL2c9hbJCOq",
       "recoOWA9oDSUf9CgT"
-    ]
+    ],
+    "refEntityType": "documents",
+    "elementId": "recCglApU4IHeAW1s"
   },
   {
-    "elementId": "recDJbyv7JQXUoNzd",
     "name": "all documents item subdoc internal 1",
     "template": "interne correspondentie (incl./excl. ",
-    "refEntityType": "documents",
     "type": "span",
     "letterConditionIds": [
       "recapIZd8BKQgOu7S",
       "recamgDGddLCv3qcP",
       "recU0eiiPmlk8w6mt",
       "rec1GUDGJfM5ZGmIm"
-    ]
+    ],
+    "refEntityType": "documents",
+    "elementId": "recDJbyv7JQXUoNzd"
   },
   {
     "name": "other documents",
@@ -271,14 +277,14 @@
     "elementId": "recFqdAp7tWbs0RKA"
   },
   {
-    "elementId": "recFzdN6zRu1dYCiZ",
     "name": "all documents item subdoc prep 4",
     "template": "ingekomen stukken, ",
-    "refEntityType": "documents",
     "type": "span",
     "letterConditionIds": [
       "recV1YU35GNuYDlic"
-    ]
+    ],
+    "refEntityType": "documents",
+    "elementId": "recFzdN6zRu1dYCiZ"
   },
   {
     "name": "writer name",
@@ -303,10 +309,8 @@
     "elementId": "recHJkuct418Totxo"
   },
   {
-    "elementId": "recHPFLYIkBvxIYm0",
     "name": "all documents item subdoc prep",
     "type": "listItem",
-    "refEntityType": "documents",
     "children": [
       "reck0fh2FF3r7U0y5",
       "recOBIkAaJgj1fB2Q",
@@ -317,7 +321,9 @@
       "recCgjROsp1lDR5ln",
       "recgbumrfjqhPK7pc",
       "recl6zMnhBCb7o4Fy"
-    ]
+    ],
+    "refEntityType": "documents",
+    "elementId": "recHPFLYIkBvxIYm0"
   },
   {
     "name": "salutation",
@@ -341,14 +347,14 @@
     "elementId": "recIkhcMTkGLvQFqV"
   },
   {
-    "elementId": "recJ7RI7BMxsPCt0r",
     "name": "all documents  item subdoc prep 3",
     "template": "presentatielijsten, ",
-    "refEntityType": "documents",
     "type": "span",
     "letterConditionIds": [
       "rec4DN45JnXEroHHa"
-    ]
+    ],
+    "refEntityType": "documents",
+    "elementId": "recJ7RI7BMxsPCt0r"
   },
   {
     "name": "anonimized",
@@ -382,14 +388,14 @@
     "elementId": "recJc5QYoUHmmhPsf"
   },
   {
-    "elementId": "recLed3GLcsRxog9C",
     "name": "all documents item subdoc external 5",
     "template": "memo’s en notities, ",
-    "refEntityType": "documents",
     "type": "span",
     "letterConditionIds": [
       "recSJsWlzTnBbzgHz"
-    ]
+    ],
+    "refEntityType": "documents",
+    "elementId": "recLed3GLcsRxog9C"
   },
   {
     "name": "passtrough",
@@ -399,13 +405,14 @@
     "elementId": "recM0wCONHNgzN6C9"
   },
   {
-    "elementId": "recMXw2f9gjee8BxW",
     "name": "data document item",
-    "children": [
-      "rec71NWXDlXiWg0sK"
-    ],
     "type": "listItem",
-    "refEntityType": "documents"
+    "children": [
+      "rec71NWXDlXiWg0sK",
+      "rec6qNC1QD5KMy8xC"
+    ],
+    "refEntityType": "documents",
+    "elementId": "recMXw2f9gjee8BxW"
   },
   {
     "name": "normal doc item title",
@@ -421,14 +428,14 @@
     "elementId": "recO3VTlacjvq08o5"
   },
   {
-    "elementId": "recOBIkAaJgj1fB2Q",
     "name": "all documents  item subdoc prep 2",
     "template": "uitnodigingen, ",
-    "refEntityType": "documents",
     "type": "span",
     "letterConditionIds": [
       "recZVMypnRLJj70lD"
-    ]
+    ],
+    "refEntityType": "documents",
+    "elementId": "recOBIkAaJgj1fB2Q"
   },
   {
     "name": "writer city",
@@ -451,14 +458,14 @@
     "elementId": "recUHMuHIwZ0Vm9Zf"
   },
   {
-    "elementId": "recUaZNPmb8v778xO",
     "name": "all documents  item subdoc prep 6",
     "template": "besluiten, ",
-    "refEntityType": "documents",
     "type": "span",
     "letterConditionIds": [
       "recMqFdH7zwYVTBdw"
-    ]
+    ],
+    "refEntityType": "documents",
+    "elementId": "recUaZNPmb8v778xO"
   },
   {
     "name": "receive digitally",
@@ -468,14 +475,14 @@
     "elementId": "recUfvCecCHEBJdgE"
   },
   {
-    "elementId": "recUjux43fPwKvsYg",
     "name": "data document item title 1",
-    "refEntityType": "documents",
-    "type": "span",
-    "template": "Een overzicht van {variabele) ",
+    "template": "Een overzicht van {variable} ",
     "letterVariableId": [
       "rec9TlrAZiBE98jAi"
-    ]
+    ],
+    "type": "span",
+    "refEntityType": "documents",
+    "elementId": "recUjux43fPwKvsYg"
   },
   {
     "name": "normal doc item subdoc external 6",
@@ -516,11 +523,11 @@
     "elementId": "recVPVaazIHkRer0n"
   },
   {
-    "elementId": "recWYijhmFdzB4uJ8",
     "name": "all documents item subdoc external people",
     "template": "en derden, waaronder in ieder geval de navolgende partijen: ",
+    "type": "refList",
     "refEntityType": "people",
-    "type": "refList"
+    "elementId": "recWYijhmFdzB4uJ8"
   },
   {
     "name": "normal doc item subdoc prep 7",
@@ -563,14 +570,14 @@
     "elementId": "recYj8hutXMIFkWjY"
   },
   {
-    "elementId": "recYjLc0pcYnjOca1",
     "name": "all documents item",
     "type": "listItem",
-    "refEntityType": "documents",
     "children": [
       "recCglApU4IHeAW1s",
       "recoRf7LkWNFnyqPl"
-    ]
+    ],
+    "refEntityType": "documents",
+    "elementId": "recYjLc0pcYnjOca1"
   },
   {
     "name": "normal doc item subdoc external people",
@@ -580,17 +587,17 @@
     "elementId": "recZ5pvWMWb6XQB8y"
   },
   {
-    "elementId": "recZ89rx1RbjmoPjv",
     "name": "all documents item subdoc external 1",
     "template": "Externe correspondentie (incl./excl. ",
-    "refEntityType": "documents",
     "type": "span",
     "letterConditionIds": [
       "recBPuL9uNkUx8Dwg",
       "recdcUShbh698S3sw",
       "recBT0acUW1sJLqjo",
       "recSJsWlzTnBbzgHz"
-    ]
+    ],
+    "refEntityType": "documents",
+    "elementId": "recZ89rx1RbjmoPjv"
   },
   {
     "name": "root",
@@ -639,14 +646,14 @@
     "elementId": "recaeUWwy6vrZVjCM"
   },
   {
-    "elementId": "recb2Ow9eyrgqQhxU",
-    "template": " in de periode {variabele}. ",
+    "name": "data document item title 2",
+    "template": " in de periode {variable}. ",
     "letterVariableId": [
       "recIHGfeCBwPo2srV"
     ],
-    "refEntityType": "documents",
     "type": "span",
-    "name": "data document item title 2"
+    "refEntityType": "documents",
+    "elementId": "recb2Ow9eyrgqQhxU"
   },
   {
     "name": "normal doc item subdoc internal 5",
@@ -738,14 +745,14 @@
     "elementId": "recfSdEBkZEAC7yU2"
   },
   {
-    "elementId": "recgbumrfjqhPK7pc",
     "name": "all documents item subdoc prep 8",
     "template": "notulen, ",
-    "refEntityType": "documents",
     "type": "span",
     "letterConditionIds": [
       "recvdGJ6CbZmDwNRp"
-    ]
+    ],
+    "refEntityType": "documents",
+    "elementId": "recgbumrfjqhPK7pc"
   },
   {
     "name": "normal doc item subdoc prep 3",
@@ -807,13 +814,13 @@
   },
   {
     "name": "all documents item title 1",
-    "type": "span",
-    "refEntityType": "documents",
-    "elementId": "reciPlnL2c9hbJCOq",
     "template": "Alle bij of onder u rustende documenten inzake {variable} ",
     "letterVariableId": [
       "rec9TlrAZiBE98jAi"
-    ]
+    ],
+    "type": "span",
+    "refEntityType": "documents",
+    "elementId": "reciPlnL2c9hbJCOq"
   },
   {
     "name": "normal doc item subdoc internal 1",
@@ -839,10 +846,8 @@
     "elementId": "reck0WYTrwB8gKjcT"
   },
   {
-    "elementId": "reck0fh2FF3r7U0y5",
     "name": "all documents item subdoc prep 1",
     "template": "alle ",
-    "refEntityType": "documents",
     "type": "span",
     "letterConditionIds": [
       "recZVMypnRLJj70lD",
@@ -853,7 +858,9 @@
       "recr3JmwBoIw1LVwT",
       "recvdGJ6CbZmDwNRp",
       "recGTnK0sr28naWED"
-    ]
+    ],
+    "refEntityType": "documents",
+    "elementId": "reck0fh2FF3r7U0y5"
   },
   {
     "name": "normal doc item subdoc external 3",
@@ -866,14 +873,14 @@
     "elementId": "reckZj9wI7z7UTfpu"
   },
   {
-    "elementId": "recl6zMnhBCb7o4Fy",
     "name": "all documents item subdoc prep 9",
     "template": "gespreksverslagen.",
-    "refEntityType": "documents",
     "type": "span",
     "letterConditionIds": [
       "recGTnK0sr28naWED"
-    ]
+    ],
+    "refEntityType": "documents",
+    "elementId": "recl6zMnhBCb7o4Fy"
   },
   {
     "name": "normal doc item subdoc internal",
@@ -938,25 +945,25 @@
     "elementId": "recoIKaD8u9jMhgt6"
   },
   {
-    "elementId": "recoOWA9oDSUf9CgT",
     "name": "all documents item title 2",
-    "refEntityType": "documents",
     "template": "over de periode {variable} waaronder:",
-    "type": "span",
     "letterVariableId": [
       "recIHGfeCBwPo2srV"
-    ]
+    ],
+    "type": "span",
+    "refEntityType": "documents",
+    "elementId": "recoOWA9oDSUf9CgT"
   },
   {
-    "elementId": "recoRf7LkWNFnyqPl",
     "name": "all documents item subdoc list",
     "type": "orderedList",
-    "refEntityType": "documents",
     "children": [
       "recHPFLYIkBvxIYm0",
       "rec7ECXDfxWAs3ENb",
       "recrCxisV2vo91Cdf"
-    ]
+    ],
+    "refEntityType": "documents",
+    "elementId": "recoRf7LkWNFnyqPl"
   },
   {
     "name": "term of delivery",
@@ -1012,10 +1019,8 @@
     "elementId": "recqRyCuB0az2xIpD"
   },
   {
-    "elementId": "recrCxisV2vo91Cdf",
     "name": "all documents item subdoc external",
     "type": "listItem",
-    "refEntityType": "documents",
     "children": [
       "recZ89rx1RbjmoPjv",
       "rec18F7toaQkL3Xem",
@@ -1023,43 +1028,45 @@
       "recBNfeppgUrIlJZE",
       "recLed3GLcsRxog9C",
       "rectEQincwKhFzmFm"
-    ]
+    ],
+    "refEntityType": "documents",
+    "elementId": "recrCxisV2vo91Cdf"
   },
   {
     "name": "all documents list",
     "type": "refList",
-    "refEntityType": "documents",
-    "elementId": "recrdglVYtC4U79Yz",
     "children": [
       "recYjLc0pcYnjOca1"
-    ]
+    ],
+    "refEntityType": "documents",
+    "elementId": "recrdglVYtC4U79Yz"
   },
   {
-    "elementId": "recs9erGVKiaRrpPC",
     "name": "all documents item subdoc internal 4",
     "template": "SMS-jes en WhatsApp-berichten, ",
-    "refEntityType": "documents",
     "type": "span",
     "letterConditionIds": [
       "recU0eiiPmlk8w6mt"
-    ]
-  },
-  {
-    "elementId": "recsCltlIItJpUAsD",
-    "template": "Een overzicht zou minstens de volgende velden moeten bevatten:",
+    ],
     "refEntityType": "documents",
-    "type": "span",
-    "name": "data document item title 3"
+    "elementId": "recs9erGVKiaRrpPC"
   },
   {
-    "elementId": "recsn7tV3SpEJOMGo",
+    "name": "data document item title 3",
+    "template": "Een overzicht zou minstens de volgende velden moeten bevatten:",
+    "type": "span",
+    "refEntityType": "documents",
+    "elementId": "recsCltlIItJpUAsD"
+  },
+  {
     "name": "all documents  item subdoc external 3",
     "template": "E-mails en brieven, inclusief bijlagen, ",
-    "refEntityType": "documents",
     "type": "span",
     "letterConditionIds": [
       "recdcUShbh698S3sw"
-    ]
+    ],
+    "refEntityType": "documents",
+    "elementId": "recsn7tV3SpEJOMGo"
   },
   {
     "name": "subject",
@@ -1072,17 +1079,17 @@
     "elementId": "rectBT638iPD1Dl8s"
   },
   {
-    "elementId": "rectEQincwKhFzmFm",
     "name": "all documents  item subdoc external 6",
     "template": ")  met betrekking tot dit document,",
-    "refEntityType": "documents",
+    "type": "span",
     "letterConditionIds": [
       "recBPuL9uNkUx8Dwg",
       "recdcUShbh698S3sw",
       "recBT0acUW1sJLqjo",
       "recSJsWlzTnBbzgHz"
     ],
-    "type": "span"
+    "refEntityType": "documents",
+    "elementId": "rectEQincwKhFzmFm"
   },
   {
     "name": "normal doc item",
@@ -1095,14 +1102,14 @@
     "elementId": "rectJcTpJSs3uUY5p"
   },
   {
-    "elementId": "rectyuJHdLdkiy0QK",
     "name": "all documents item subdoc internal 3",
     "template": "E-mails en brieven, inclusief bijlagen, ",
-    "refEntityType": "documents",
     "type": "span",
     "letterConditionIds": [
       "recamgDGddLCv3qcP"
-    ]
+    ],
+    "refEntityType": "documents",
+    "elementId": "rectyuJHdLdkiy0QK"
   },
   {
     "name": "first alinea line 2 opt 2",
@@ -1146,16 +1153,16 @@
     "elementId": "recwkQJZVLOAXOfn5"
   },
   {
-    "name": "data doc list",
+    "name": "normal doc item subdoc data list",
     "type": "refList",
-    "refEntityType": "documents",
-    "elementId": "recx3xUDskpZKAU6w",
     "letterConditionIds": [
       "recY5syfbiVrQnBsm"
     ],
     "children": [
       "recMXw2f9gjee8BxW"
-    ]
+    ],
+    "refEntityType": "documents",
+    "elementId": "recx3xUDskpZKAU6w"
   },
   {
     "name": "normal doc item subdoc external 2",
