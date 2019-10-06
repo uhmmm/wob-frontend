@@ -5,6 +5,8 @@ import { composeWithDevTools } from 'redux-devtools-extension'
 import reducers from './reducers/index.js'
 import { createLetter } from './actions/letters.js'
 import { createDocument } from './actions/documents.js'
+import { createPerson } from './actions/people'
+import { createField } from './actions/fields'
 
 const logger = createLogger({
   diff: true,
@@ -26,7 +28,15 @@ if (typeof window.__REACT_DEVTOOLS_GLOBAL_HOOK__ === 'object') {
 
 // setup initial store:
 store.dispatch(createLetter())
-store.dispatch(createDocument(1))
-store.dispatch(createDocument(1))
+const letterId = store.getState().letters.allIds[0]
+store.dispatch(createDocument(letterId))
+store.dispatch(createDocument(letterId))
+const documentId = store.getState().documents.allIds[0]
+store.dispatch(createPerson(documentId))
+store.dispatch(createPerson(documentId))
+store.dispatch(createPerson(documentId))
+store.dispatch(createField(documentId))
+store.dispatch(createField(documentId))
+store.dispatch(createField(documentId))
 
 export { store }

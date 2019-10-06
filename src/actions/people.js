@@ -3,7 +3,7 @@ import models from './models'
 
 export const CREATE_PERSON = 'CREATE_PERSON'
 
-export const createField = documentId => {
+export const createPerson = documentId => {
   return {
     type: CREATE_PERSON,
     payload: {
