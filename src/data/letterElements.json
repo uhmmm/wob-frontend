@@ -147,14 +147,11 @@
     "elementId": "rec7hSZGbhPtLm4pp"
   },
   {
-    "elementId": "rec8PrTMHQ6uw8ygj",
     "name": "all documents item subdoc people item",
+    "template": "{variable}, ",
     "type": "listItem",
     "refEntityType": "people",
-    "template": "{variable}, ",
-    "letterVariableId": [
-      "recrLm1uJ2VP5Jtwx"
-    ]
+    "elementId": "rec8PrTMHQ6uw8ygj"
   },
   {
     "name": "writer telephone number",
@@ -207,14 +204,14 @@
     "elementId": "recAmgZ1kIMaZ38mr"
   },
   {
-    "elementId": "recB9y7mdEo3Ga5Xy",
     "name": "normal doc item subdoc external people item",
-    "type": "listItem",
-    "refEntityType": "people",
-    "template": "{variable}, ",
+    "template": "{variable} ",
     "letterVariableId": [
       "recrLm1uJ2VP5Jtwx"
-    ]
+    ],
+    "type": "listItem",
+    "refEntityType": "people",
+    "elementId": "recB9y7mdEo3Ga5Xy"
   },
   {
     "name": "all documents  item subdoc external 4",
@@ -546,11 +543,11 @@
     "name": "all documents item subdoc people list",
     "template": "en derden, waaronder in ieder geval de navolgende partijen: ",
     "type": "refList",
-    "refEntityType": "people",
-    "elementId": "recWYijhmFdzB4uJ8",
     "children": [
       "rec8PrTMHQ6uw8ygj"
-    ]
+    ],
+    "refEntityType": "people",
+    "elementId": "recWYijhmFdzB4uJ8"
   },
   {
     "name": "normal doc item subdoc prep 7",
@@ -606,11 +603,11 @@
     "name": "normal doc item subdoc external people list",
     "template": "en derden, waaronder in ieder geval de navolgende partijen: ",
     "type": "refList",
-    "refEntityType": "people",
-    "elementId": "recZ5pvWMWb6XQB8y",
     "children": [
       "recB9y7mdEo3Ga5Xy"
-    ]
+    ],
+    "refEntityType": "people",
+    "elementId": "recZ5pvWMWb6XQB8y"
   },
   {
     "name": "all documents item subdoc external 1",

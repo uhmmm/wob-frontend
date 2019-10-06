@@ -53,9 +53,9 @@
     "name": "fieldName",
     "placeholder": "<naam van dataveld>",
     "type": "string",
-    "defaultValue": "naam",
     "model": "fields",
-    "variableId": "rec6iuOieQ6zN9ec7"
+    "variableId": "rec6iuOieQ6zN9ec7",
+    "defaultValue": "Uitgaven"
   },
   {
     "name": "documentPreparationAdvice",
@@ -222,11 +222,11 @@
     "variableId": "recPMxVvV3bfm9Nqy"
   },
   {
-    "variableId": "recPPWHAia2YexJL3",
     "name": "fields",
-    "model": "documents",
+    "type": "array",
     "defaultValue": "<fields>",
-    "type": "array"
+    "model": "documents",
+    "variableId": "recPPWHAia2YexJL3"
   },
   {
     "name": "governmentAdress",
@@ -473,13 +473,12 @@
     "name": "personName",
     "placeholder": "<naam van persoon>",
     "type": "string",
-    "defaultValue": "naam",
+    "letterElementVariableList": [
+      "recB9y7mdEo3Ga5Xy"
+    ],
     "model": "people",
     "variableId": "recrLm1uJ2VP5Jtwx",
-    "letterElementVariableList": [
-      "rec8PrTMHQ6uw8ygj",
-      "recB9y7mdEo3Ga5Xy"
-    ]
+    "defaultValue": "Mark Rutte"
   },
   {
     "name": "writerTelephone",

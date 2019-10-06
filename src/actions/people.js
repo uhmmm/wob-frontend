@@ -7,7 +7,7 @@ export const createPerson = documentId => {
   return {
     type: CREATE_PERSON,
     payload: {
-      ...models.fields,
+      ...models.people,
       personId: uuid(),
       documentId
     }
