@@ -46,7 +46,7 @@ const LetterContainer = styled.div(({ fullScreen }) => ({
   minHeight: '130vh',
   boxShadow: '0 3px 6px 0px rgba(0, 0, 0, 0.1607843137254902)',
   background: colors.white,
-  padding: '8rem 8rem 24rem',
+  padding: '8rem 8rem 16rem',
   margin: '0 0 80vh'
 }))
 
