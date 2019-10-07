@@ -102,6 +102,8 @@ const mapStateToProps = (state, { letterElId, entityId, entityType }) => {
   let letterEl = getLetterElById(state, letterElId)
   let entity = entityTypeSelector[entityType](state, entityId)
 
+  console.log(entityType)
+
   return {
     letterEl,
     entity,

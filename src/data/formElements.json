@@ -9,10 +9,10 @@
       "main"
     ],
     "order": 94,
-    "elementId": "rec0ExWBoWLuHkGfj",
     "routeType": [
       "aside-info"
-    ]
+    ],
+    "elementId": "rec0ExWBoWLuHkGfj"
   },
   {
     "text": "Waarom een Wob-verzoek",
@@ -24,10 +24,10 @@
       "pageBlock/1"
     ],
     "order": 225,
-    "elementId": "rec0Q93b8gwTR4nSF",
     "routeType": [
       "page"
-    ]
+    ],
+    "elementId": "rec0Q93b8gwTR4nSF"
   },
   {
     "text": "Andere documenten",
@@ -39,10 +39,10 @@
       "main"
     ],
     "order": 149,
-    "elementId": "rec0dIWiLykRcEZJQ",
     "routeType": [
       "aside-document-type"
-    ]
+    ],
+    "elementId": "rec0dIWiLykRcEZJQ"
   },
   {
     "text": "Hoe kies ik de juiste overheidsinstantie?",
@@ -57,10 +57,10 @@
       "listInfo"
     ],
     "order": 66,
-    "elementId": "rec0eJ8ro96nm3QWC",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "rec0eJ8ro96nm3QWC"
   },
   {
     "text": "Begin met het kort en bondig omschrijven van het onderwerp waarover je informatie vraagt. Let op: je kunt alleen informatie over overheidstaken opvragen.",
@@ -75,10 +75,10 @@
       "main"
     ],
     "order": 71,
-    "elementId": "rec0tMoPiwNKVtkXT",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "rec0tMoPiwNKVtkXT"
   },
   {
     "text": "Waarom niet alles?",
@@ -93,10 +93,10 @@
       "listInfo"
     ],
     "order": 156,
-    "elementId": "rec138n01NQ9fh31R",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "rec138n01NQ9fh31R"
   },
   {
     "text": "Hier kun je de periode waarop je verzoek betrekking heeft begrenzen (van datum X tot datum Y). Het is niet verplicht, maar zo voorkom je dat je documenten ontvangt over een periode waar je niet in geïnteresseerd bent. Dat scheelt jou werk en het scheelt de overheid werk.",
@@ -108,10 +108,10 @@
       "main"
     ],
     "order": 33,
-    "elementId": "rec1Foyd0JQWGJyZU",
     "routeType": [
       "aside-info"
-    ]
+    ],
+    "elementId": "rec1Foyd0JQWGJyZU"
   },
   {
     "text": "Alles opvragen is niet handig",
@@ -123,10 +123,10 @@
       "main"
     ],
     "order": 157,
-    "elementId": "rec1HQVQ9FYaRvzmn",
     "routeType": [
       "aside-info"
-    ]
+    ],
+    "elementId": "rec1HQVQ9FYaRvzmn"
   },
   {
     "text": "Ongeveer drie zinnen die je onderwerp beschrijven",
@@ -138,10 +138,10 @@
       "formOnderwerp"
     ],
     "order": 72,
-    "elementId": "rec1YhxCT4tdUROGG",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "rec1YhxCT4tdUROGG"
   },
   {
     "text": "Algemene voorwaarden",
@@ -156,10 +156,10 @@
       "pageFooter"
     ],
     "order": 246,
-    "elementId": "rec1YqLMiGU5K3E8z",
     "routeType": [
       "page"
-    ]
+    ],
+    "elementId": "rec1YqLMiGU5K3E8z"
   },
   {
     "text": "Bedankt",
@@ -171,10 +171,10 @@
       "pageHeader"
     ],
     "order": 193,
-    "elementId": "rec1dE18cqjjk5ObN",
     "routeType": [
       "page"
-    ]
+    ],
+    "elementId": "rec1dE18cqjjk5ObN"
   },
   {
     "text": "Informatie of documenten?",
@@ -186,10 +186,10 @@
       "main"
     ],
     "order": 19,
-    "elementId": "rec1fIZ0VFJNp28WS",
     "routeType": [
       "aside-info"
-    ]
+    ],
+    "elementId": "rec1fIZ0VFJNp28WS"
   },
   {
     "text": "Correspondentie",
@@ -201,10 +201,10 @@
       "formDocumentTypes"
     ],
     "order": 99,
-    "elementId": "rec2CWNnWuqdes3l9",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "rec2CWNnWuqdes3l9"
   },
   {
     "text": "LEES & VERSTUUR",
@@ -219,10 +219,10 @@
       "main"
     ],
     "order": 165,
-    "elementId": "rec2UciFBciH75aWT",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "rec2UciFBciH75aWT"
   },
   {
     "text": "JA, KLINKT GOED",
@@ -237,10 +237,10 @@
       "reviewBox/2"
     ],
     "order": 188,
-    "elementId": "rec2n1K49XXOamDpq",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "rec2n1K49XXOamDpq"
   },
   {
     "text": "Vul het feedback formulier in",
@@ -252,10 +252,10 @@
       "pageBlock/2"
     ],
     "order": 254,
-    "elementId": "rec2rA92MNMCM4L33",
     "routeType": [
       "page"
-    ]
+    ],
+    "elementId": "rec2rA92MNMCM4L33"
   },
   {
     "type": "formDocumentTypesSpecific",
@@ -266,10 +266,10 @@
       "main"
     ],
     "order": 174,
-    "elementId": "rec2sqmTYU1eTyYNf",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "rec2sqmTYU1eTyYNf"
   },
   {
     "type": "listBubble",
@@ -280,10 +280,10 @@
       "main"
     ],
     "order": 197,
-    "elementId": "rec2wh9Fdofd7oMbb",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "rec2wh9Fdofd7oMbb"
   },
   {
     "text": "Alles over je onderwerp",
@@ -295,10 +295,10 @@
       "main"
     ],
     "order": 153,
-    "elementId": "rec3UCgOMwowIzdzI",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "rec3UCgOMwowIzdzI"
   },
   {
     "text": "Besluitenlijsten",
@@ -310,10 +310,10 @@
       "main"
     ],
     "order": 114,
-    "elementId": "rec3d0CW6ORDaoiqR",
     "routeType": [
       "aside-document-type"
-    ]
+    ],
+    "elementId": "rec3d0CW6ORDaoiqR"
   },
   {
     "text": "Phew! Je  Wob-verzoek is af. Je moet hem alleen nog even nalezen en verzenden.\n\nWe voegen nu nog een aantal alinea’s toe die altijd in een verzoek moeten zitten. Als je deze wilt selecteren, heb je die optie, maar we snappen het helemaal als je het wel goed vind zo. ",
@@ -325,10 +325,10 @@
       "main"
     ],
     "order": 163,
-    "elementId": "rec3hk8uoZfhxRRw5",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "rec3hk8uoZfhxRRw5"
   },
   {
     "text": "Woonplaats",
@@ -341,10 +341,10 @@
       "formContactDetails/plaatsnaam"
     ],
     "order": 217,
-    "elementId": "rec3l9cWCPsjprOX4",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "rec3l9cWCPsjprOX4"
   },
   {
     "text": "EXTRA OPTIES",
@@ -359,10 +359,10 @@
       "main"
     ],
     "order": 164,
-    "elementId": "rec4PQtcBtAiC5aVq",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "rec4PQtcBtAiC5aVq"
   },
   {
     "text": "Extra opties",
@@ -374,10 +374,10 @@
       "main"
     ],
     "order": 166,
-    "elementId": "rec4QqRQH4skCqh9L",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "rec4QqRQH4skCqh9L"
   },
   {
     "text": "Hoofdonderwerp",
@@ -389,10 +389,10 @@
       "main"
     ],
     "order": 75,
-    "elementId": "rec4nB1FhrvQAHBN4",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "rec4nB1FhrvQAHBN4"
   },
   {
     "text": "Milieu?",
@@ -404,10 +404,10 @@
       "main"
     ],
     "order": 10,
-    "elementId": "rec4ttx1ZgNHUUBKJ",
     "routeType": [
       "aside-info"
-    ]
+    ],
+    "elementId": "rec4ttx1ZgNHUUBKJ"
   },
   {
     "text": "Voortgangsrapportages en evaluaties",
@@ -419,10 +419,10 @@
       "main"
     ],
     "order": 122,
-    "elementId": "rec4zBalyaZM5MUqC",
     "routeType": [
       "aside-document-type"
-    ]
+    ],
+    "elementId": "rec4zBalyaZM5MUqC"
   },
   {
     "text": "Onderzoeksrapporten en \nauditrapportages",
@@ -434,10 +434,10 @@
       "main"
     ],
     "order": 121,
-    "elementId": "rec5PzIMsMJhyWSj7",
     "routeType": [
       "aside-document-type"
-    ]
+    ],
+    "elementId": "rec5PzIMsMJhyWSj7"
   },
   {
     "text": "Samenvattingen van documenten",
@@ -452,10 +452,10 @@
       "listCheck"
     ],
     "order": 170,
-    "elementId": "rec5hz2p6HMPnqlGs",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "rec5hz2p6HMPnqlGs"
   },
   {
     "text": "Dit onderwerp gaat over het milieu",
@@ -470,10 +470,10 @@
       "listCheck"
     ],
     "order": 76,
-    "elementId": "rec5ra3ua4vhEd7EB",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "rec5ra3ua4vhEd7EB"
   },
   {
     "type": "listInfo",
@@ -484,10 +484,10 @@
       "main"
     ],
     "order": 204,
-    "elementId": "rec5xIAU7YSqaarPX",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "rec5xIAU7YSqaarPX"
   },
   {
     "type": "listCheck",
@@ -498,10 +498,10 @@
       "main"
     ],
     "order": 211,
-    "elementId": "rec6KJBxDDIJSXqHg",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "rec6KJBxDDIJSXqHg"
   },
   {
     "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
@@ -513,10 +513,10 @@
       "main"
     ],
     "order": 146,
-    "elementId": "rec8ZLUFszgk1jEMw",
     "routeType": [
       "aside-document-type"
-    ]
+    ],
+    "elementId": "rec8ZLUFszgk1jEMw"
   },
   {
     "type": "formDateTimePicker",
@@ -527,10 +527,10 @@
       "main"
     ],
     "order": 155,
-    "elementId": "rec8f8OiEuJ0ivmtd",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "rec8f8OiEuJ0ivmtd"
   },
   {
     "text": "Privacy Policy",
@@ -545,10 +545,10 @@
       "pageFooter"
     ],
     "order": 245,
-    "elementId": "rec99EpFOzLe3aj3G",
     "routeType": [
       "page"
-    ]
+    ],
+    "elementId": "rec99EpFOzLe3aj3G"
   },
   {
     "text": "Alles of specifiek?",
@@ -560,10 +560,10 @@
       "main"
     ],
     "order": 80,
-    "elementId": "recAklG1ZcF4bZsne",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recAklG1ZcF4bZsne"
   },
   {
     "text": "Overzicht",
@@ -575,10 +575,10 @@
       "main"
     ],
     "order": 148,
-    "elementId": "recAnb7JAg4u4zbl4",
     "routeType": [
       "aside-document-type"
-    ]
+    ],
+    "elementId": "recAnb7JAg4u4zbl4"
   },
   {
     "text": "Geanonimiseerde documenten",
@@ -593,10 +593,10 @@
       "listCheck"
     ],
     "order": 169,
-    "elementId": "recAq6PLfRb1fjwLy",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recAq6PLfRb1fjwLy"
   },
   {
     "text": "Digitaal toezenden heeft mijn voorkeur",
@@ -611,10 +611,10 @@
       "listCheck"
     ],
     "order": 171,
-    "elementId": "recBe4rSZuSTzuVlx",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recBe4rSZuSTzuVlx"
   },
   {
     "text": "Tim Staal",
@@ -626,10 +626,10 @@
       "pageFooter"
     ],
     "order": 237,
-    "elementId": "recBruqTe46698KQa",
     "routeType": [
       "page"
-    ]
+    ],
+    "elementId": "recBruqTe46698KQa"
   },
   {
     "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
@@ -641,10 +641,10 @@
       "main"
     ],
     "order": 141,
-    "elementId": "recBwFRLuEuE9uU6C",
     "routeType": [
       "aside-document-type"
-    ]
+    ],
+    "elementId": "recBwFRLuEuE9uU6C"
   },
   {
     "text": "Wat is allemaal een “document”?",
@@ -659,10 +659,10 @@
       "listInfo"
     ],
     "order": 105,
-    "elementId": "recCK9BacPd0yLQfh",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recCK9BacPd0yLQfh"
   },
   {
     "text": "verstandig",
@@ -675,10 +675,10 @@
       "formContactDetails/telefoonnummer"
     ],
     "order": 225,
-    "elementId": "recCrGBwRU3xUOr35",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recCrGBwRU3xUOr35"
   },
   {
     "text": "verplicht",
@@ -691,10 +691,10 @@
       "formContactDetails/plaatsnaam"
     ],
     "order": 223,
-    "elementId": "recD0oBdMB5qQE1Jg",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recD0oBdMB5qQE1Jg"
   },
   {
     "text": "Uitnodigingen",
@@ -706,10 +706,10 @@
       "main"
     ],
     "order": 109,
-    "elementId": "recD3h2tLdENttC9F",
     "routeType": [
       "aside-document-type"
-    ]
+    ],
+    "elementId": "recD3h2tLdENttC9F"
   },
   {
     "text": "Ingekomen stukken",
@@ -721,10 +721,10 @@
       "main"
     ],
     "order": 111,
-    "elementId": "recDJUzaibjJk1Q0Z",
     "routeType": [
       "aside-document-type"
-    ]
+    ],
+    "elementId": "recDJUzaibjJk1Q0Z"
   },
   {
     "text": "Je bent klaar!",
@@ -736,10 +736,10 @@
       "main"
     ],
     "order": 162,
-    "elementId": "recDMcEhYi0uJCdub",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recDMcEhYi0uJCdub"
   },
   {
     "text": "Externe Correspondentie",
@@ -751,10 +751,10 @@
       "main"
     ],
     "order": 133,
-    "elementId": "recDPIjq5jAJfoMP5",
     "routeType": [
       "aside-document-type"
-    ]
+    ],
+    "elementId": "recDPIjq5jAJfoMP5"
   },
   {
     "text": "Wat is allemaal een overheidstaak?",
@@ -769,10 +769,10 @@
       "listInfo"
     ],
     "order": 77,
-    "elementId": "recDaSEc0a5VN3dJc",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recDaSEc0a5VN3dJc"
   },
   {
     "text": "Doorgeleiding",
@@ -784,10 +784,10 @@
       "main"
     ],
     "order": 17,
-    "elementId": "recDwVXLLLcObMGgB",
     "routeType": [
       "aside-info"
-    ]
+    ],
+    "elementId": "recDwVXLLLcObMGgB"
   },
   {
     "text": "Rol en doel",
@@ -799,10 +799,10 @@
       "main"
     ],
     "order": 56,
-    "elementId": "recE2EzvkMlVnUSvW",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recE2EzvkMlVnUSvW"
   },
   {
     "text": "Mondelinge toelichting",
@@ -817,10 +817,10 @@
       "listCheck"
     ],
     "order": 180,
-    "elementId": "recEJoJ2Scp6OXXNJ",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recEJoJ2Scp6OXXNJ"
   },
   {
     "text": "Je kan ook vragen naar correspondentie met specifieke personen, selecteer hier met wie:",
@@ -832,10 +832,10 @@
       "main"
     ],
     "order": 139,
-    "elementId": "recEf4vGmb2VUn8wP",
     "routeType": [
       "aside-document-type"
-    ]
+    ],
+    "elementId": "recEf4vGmb2VUn8wP"
   },
   {
     "text": "Hoe gaat deze app om met mijn gegevens?",
@@ -850,10 +850,10 @@
       "listInfo"
     ],
     "order": 55,
-    "elementId": "recEhIE7WgfBtFJ9l",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recEhIE7WgfBtFJ9l"
   },
   {
     "text": "Tove Oegema ",
@@ -865,10 +865,10 @@
       "pageFooter"
     ],
     "order": 240,
-    "elementId": "recEzz8n4McBuzlpm",
     "routeType": [
       "page"
-    ]
+    ],
+    "elementId": "recEzz8n4McBuzlpm"
   },
   {
     "text": "VOEG PERSOON TOE",
@@ -880,10 +880,10 @@
       "formPeople"
     ],
     "order": 132,
-    "elementId": "recF7fpJjYTE6D2xR",
     "routeType": [
       "aside-document-type"
-    ]
+    ],
+    "elementId": "recF7fpJjYTE6D2xR"
   },
   {
     "text": "Start je Wob-verzoek!",
@@ -898,10 +898,10 @@
       "pageCallToAction"
     ],
     "order": 231,
-    "elementId": "recF7y0BEBM0aUPv8",
     "routeType": [
       "page"
-    ]
+    ],
+    "elementId": "recF7y0BEBM0aUPv8"
   },
   {
     "type": "listCheck",
@@ -912,10 +912,10 @@
       "main"
     ],
     "order": 212,
-    "elementId": "recFhMBExrdvFTKay",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recFhMBExrdvFTKay"
   },
   {
     "text": "Wil je alles over je onderwerp of weet je al precies wat je wil hebben? Selecteer hier en weeg af. Je kan bij specifieke documenten altijd nog selecteren dat je aanvullende documenten wilt.",
@@ -927,10 +927,10 @@
       "main"
     ],
     "order": 81,
-    "elementId": "recFizYOd0uVuX7ox",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recFizYOd0uVuX7ox"
   },
   {
     "text": "Periode",
@@ -942,10 +942,10 @@
       "main"
     ],
     "order": 13,
-    "elementId": "recG0tAtjt14kvtLu",
     "routeType": [
       "aside-info"
-    ]
+    ],
+    "elementId": "recG0tAtjt14kvtLu"
   },
   {
     "text": "Welke overheidsinstantie\nwil je om informatie vragen?",
@@ -957,10 +957,10 @@
       "main"
     ],
     "order": 63,
-    "elementId": "recGOiiZ4IqEouKbK",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recGOiiZ4IqEouKbK"
   },
   {
     "text": "Doorgeleiding",
@@ -975,10 +975,10 @@
       "listCheck"
     ],
     "order": 178,
-    "elementId": "recH5nH9yTVb5ZHSY",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recH5nH9yTVb5ZHSY"
   },
   {
     "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
@@ -990,10 +990,10 @@
       "main"
     ],
     "order": 118,
-    "elementId": "recH9C20mHWHgQxhI",
     "routeType": [
       "aside-document-type"
-    ]
+    ],
+    "elementId": "recH9C20mHWHgQxhI"
   },
   {
     "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.\n\n Meer weten? Check de VVOJ website voor ons Wob-blog:",
@@ -1005,10 +1005,10 @@
       "pageBlock/1"
     ],
     "order": 248,
-    "elementId": "recHFJMpPIRR32Bdr",
     "routeType": [
       "page"
-    ]
+    ],
+    "elementId": "recHFJMpPIRR32Bdr"
   },
   {
     "text": "Ik ben een journalist",
@@ -1023,10 +1023,10 @@
       "listCheck"
     ],
     "order": 58,
-    "elementId": "recHPwQPFyvuhSN7D",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recHPwQPFyvuhSN7D"
   },
   {
     "text": "Waarom deze tool?",
@@ -1038,10 +1038,10 @@
       "pageBlock/2"
     ],
     "order": 230,
-    "elementId": "recHSj1Q66DPs69Lj",
     "routeType": [
       "page"
-    ]
+    ],
+    "elementId": "recHSj1Q66DPs69Lj"
   },
   {
     "type": "formSpecificDocuments",
@@ -1052,10 +1052,10 @@
       "main"
     ],
     "order": 177,
-    "elementId": "recHTRDKG6kBsj8Qp",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recHTRDKG6kBsj8Qp"
   },
   {
     "text": "Digitaal of niet?",
@@ -1067,10 +1067,10 @@
       "main"
     ],
     "order": 18,
-    "elementId": "recHTtLjH0X1bJPnE",
     "routeType": [
       "aside-info"
-    ]
+    ],
+    "elementId": "recHTtLjH0X1bJPnE"
   },
   {
     "text": "Hiermee geef je aan dat je open staat voor een gesprek. Het is meestal nuttig om nog eens mondeling toe te lichten welke informatie je zoekt. Dat helpt de Wob-ambtenaar en leidt hopelijk tot sneller succes van je verzoek.",
@@ -1082,10 +1082,10 @@
       "main"
     ],
     "order": 45,
-    "elementId": "recHzVNarMIZanGnh",
     "routeType": [
       "aside-info"
-    ]
+    ],
+    "elementId": "recHzVNarMIZanGnh"
   },
   {
     "text": "Anders",
@@ -1100,10 +1100,10 @@
       "formDocumentTypes"
     ],
     "order": 104,
-    "elementId": "recHzYcXvYImJiLJv",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recHzYcXvYImJiLJv"
   },
   {
     "text": "Zo kies je de juiste overheidsinstantie:\n\nLocatie -  Vraag je af welke instantie over het onderwerp gaat? Is het een lokale, een provinciale of rijkskwestie? Bij wie kunnen documenten over het onderwerp zijn opgeslagen?\n\nGoogle - Als je er niet uitkomt, Google dan je onderwerp en kijk bij welke overheidsinstanties je uit komt.\nMeerdere instanties Als er meerdere overheidsinstanties over het onderwerp gaan, dan kun je meerdere verzoeken indienen. Probeer te vermijden dat het precies hetzelfde document op meerdere plekken vraagt.\n\nWob hoog - Als de ene instantie onder de verantwoordelijkheid van de andere instantie valt, dien je verzoek dan in bij de hoogste instantie. Denk bijvoorbeeld aan de Immigratie en Naturalisatiedienst (IND). Deze dienst valt onder het ministerie van Justitie en Veiligheid. Weet je niet zeker of de documenten bij de IND of het Ministerie liggen, wob dan het Ministerie.\n\nWel overheidstaak, geen Wob - Let op: er zijn organisaties die wel een wettelijke taak hebben, maar toch niet onder de Wob vallen en daarom niet in de lijst staan. Dat komt omdat ze ondanks hun wettelijke taak private bedrijven zijn.\n\nDoorgeleiding - Wees gerust: als je toch de verkeerde instantie hebt gekozen, is die instantie verplicht om je verzoek naar de juiste instantie door te sturen. Uiteraard gaat daar wel wat tijd overheen. \n\nNaamsverandering - Let op: overheidsinstanties veranderen regelmatig van naam. Denk aan het Ministerie van Veiligheid & Justitie dat veranderd is in Justitie & Veiligheid. We proberen dit up to date te houden maar laat het ons vooral weten als onze lijst is verouderd.",
@@ -1115,10 +1115,10 @@
       "main"
     ],
     "order": 46,
-    "elementId": "recISsJXWInsdXKPA",
     "routeType": [
       "aside-info"
-    ]
+    ],
+    "elementId": "recISsJXWInsdXKPA"
   },
   {
     "text": "Feedback op de Wob-generator",
@@ -1130,10 +1130,10 @@
       "pageBlock/2"
     ],
     "order": 252,
-    "elementId": "recIYUPIkE40IprLQ",
     "routeType": [
       "page"
-    ]
+    ],
+    "elementId": "recIYUPIkE40IprLQ"
   },
   {
     "text": "Als je een Wob-verzoek verstuurt, moet de overheid weten van wie het verzoek komt en waar hun besluit op je verzoek naartoe moet worden gestuurd. Vul daarom hier je contactgegevens in. ",
@@ -1145,10 +1145,10 @@
       "main"
     ],
     "order": 54,
-    "elementId": "recIk4nnJVf8jaF1d",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recIk4nnJVf8jaF1d"
   },
   {
     "text": "Robert-Jan Korteschiel",
@@ -1160,10 +1160,10 @@
       "pageFooter"
     ],
     "order": 242,
-    "elementId": "recIwKlWEnazde2aA",
     "routeType": [
       "page"
-    ]
+    ],
+    "elementId": "recIwKlWEnazde2aA"
   },
   {
     "text": "Liset Hamming",
@@ -1175,10 +1175,10 @@
       "pageFooter"
     ],
     "order": 236,
-    "elementId": "recJCaZiYSdifCRvc",
     "routeType": [
       "page"
-    ]
+    ],
+    "elementId": "recJCaZiYSdifCRvc"
   },
   {
     "text": "Kun je de documenten op een andere manier in handen krijgen, bijvoorbeeld door het gewoon te vragen of door ze ergens anders te zoeken? ",
@@ -1193,10 +1193,10 @@
       "main"
     ],
     "order": 51,
-    "elementId": "recJMFiPIBtkx5Ro5",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recJMFiPIBtkx5Ro5"
   },
   {
     "text": "Start een ander Wob-verzoek!",
@@ -1211,10 +1211,10 @@
       "pageHeader"
     ],
     "order": 196,
-    "elementId": "recJemAjiQBIQR9Pt",
     "routeType": [
       "page"
-    ]
+    ],
+    "elementId": "recJemAjiQBIQR9Pt"
   },
   {
     "text": "Ik wil mijn (journalistieke) doel toelichten",
@@ -1229,10 +1229,10 @@
       "listCheck"
     ],
     "order": 60,
-    "elementId": "recJhS0LioudP6Rwl",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recJhS0LioudP6Rwl"
   },
   {
     "text": "Lees de brief nog een keer goed door en exporteer hem",
@@ -1244,10 +1244,10 @@
       "reviewBox/1"
     ],
     "order": 183,
-    "elementId": "recJxg4mw8rxSLwJU",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recJxg4mw8rxSLwJU"
   },
   {
     "text": "Adviezen",
@@ -1259,10 +1259,10 @@
       "main"
     ],
     "order": 112,
-    "elementId": "recKE3Nr6VcImBoTk",
     "routeType": [
       "aside-document-type"
-    ]
+    ],
+    "elementId": "recKE3Nr6VcImBoTk"
   },
   {
     "text": "Begrotingen en andere \nfinanciële documenten",
@@ -1274,10 +1274,10 @@
       "main"
     ],
     "order": 140,
-    "elementId": "recKi9S1MYQv9iF9c",
     "routeType": [
       "aside-document-type"
-    ]
+    ],
+    "elementId": "recKi9S1MYQv9iF9c"
   },
   {
     "text": "We hebben een poging gewaagd het Wob-proces te vangen in deze app, maar op punten zullen ongetwijfeld dingen iets minder lekker werken of hebben we een keuze gemaakt waarmee jij het niet eens bent.  Daarover willen we graag feedback!\n\nWe hebben hiervoor een mooi formulier gemaakt:",
@@ -1289,10 +1289,10 @@
       "pageBlock/2"
     ],
     "order": 253,
-    "elementId": "recKknefRjUhXBaYG",
     "routeType": [
       "page"
-    ]
+    ],
+    "elementId": "recKknefRjUhXBaYG"
   },
   {
     "text": "Telefoonnummer",
@@ -1305,10 +1305,10 @@
       "formContactDetails/telefoonnummer"
     ],
     "order": 219,
-    "elementId": "recL7SNmfGbWfjx8Z",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recL7SNmfGbWfjx8Z"
   },
   {
     "text": "E-mails kunnen veel inzicht geven in het besluitvormingsproces, de toon waarin tussen bepaalde personen gecommuniceerd wordt en de frequentie van het contact. Maar e-mails kunnen ook over volstrekt irrelevante zaken gaan, zoals de hoeveelheid broodjes die bij de vergadering zijn besteld. Bedenk dus of e-mails in het geval van jouw verzoek relevant zijn.",
@@ -1320,10 +1320,10 @@
       "main"
     ],
     "order": 125,
-    "elementId": "recLIShbCfLyZpU6j",
     "routeType": [
       "aside-document-type"
-    ]
+    ],
+    "elementId": "recLIShbCfLyZpU6j"
   },
   {
     "type": "formContactDetails",
@@ -1334,10 +1334,10 @@
       "main"
     ],
     "order": 62,
-    "elementId": "recLXKmdr5Nty5gH6",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recLXKmdr5Nty5gH6"
   },
   {
     "text": "Projectteam RA",
@@ -1349,10 +1349,10 @@
       "pageFooter"
     ],
     "order": 239,
-    "elementId": "recLkp1z3tno7kdSK",
     "routeType": [
       "page"
-    ]
+    ],
+    "elementId": "recLkp1z3tno7kdSK"
   },
   {
     "text": "verplicht",
@@ -1364,10 +1364,10 @@
       "formOnderwerp"
     ],
     "order": 74,
-    "elementId": "recLublnaRbwnfKPw",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recLublnaRbwnfKPw"
   },
   {
     "text": "Ik wil ook de aanvullende stukken",
@@ -1382,10 +1382,10 @@
       "formSpecificDocuments"
     ],
     "order": 89,
-    "elementId": "recM6OBiPPogQ6x85",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recM6OBiPPogQ6x85"
   },
   {
     "type": "listInfo",
@@ -1396,10 +1396,10 @@
       "main"
     ],
     "order": 203,
-    "elementId": "recMAu2ygO4PpKxYy",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recMAu2ygO4PpKxYy"
   },
   {
     "text": "Ga terug",
@@ -1414,10 +1414,10 @@
       "pageHeader"
     ],
     "order": 195,
-    "elementId": "recMQW9i6XFDzBeKe",
     "routeType": [
       "page"
-    ]
+    ],
+    "elementId": "recMQW9i6XFDzBeKe"
   },
   {
     "text": "OPSLAAN ALS PDF",
@@ -1429,10 +1429,10 @@
       "reviewBox/1"
     ],
     "order": 185,
-    "elementId": "recMQnhMZ7CgJtKhn",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recMQnhMZ7CgJtKhn"
   },
   {
     "text": "Amsterdam",
@@ -1445,10 +1445,10 @@
       "formContactDetails/plaatsnaam"
     ],
     "order": 208,
-    "elementId": "recMep7bTlJ0idWpL",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recMep7bTlJ0idWpL"
   },
   {
     "text": "handig",
@@ -1461,10 +1461,10 @@
       "formContactDetails/email"
     ],
     "order": 224,
-    "elementId": "recNIdhmFrjVlt8l9",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recNIdhmFrjVlt8l9"
   },
   {
     "text": "Pesentaties",
@@ -1476,10 +1476,10 @@
       "main"
     ],
     "order": 123,
-    "elementId": "recNUbSmKvq8omWEK",
     "routeType": [
       "aside-document-type"
-    ]
+    ],
+    "elementId": "recNUbSmKvq8omWEK"
   },
   {
     "type": "listCheck",
@@ -1490,10 +1490,10 @@
       "main"
     ],
     "order": 106,
-    "elementId": "recNrjUOpW02Khnjq",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recNrjUOpW02Khnjq"
   },
   {
     "text": "Begrotingen",
@@ -1505,10 +1505,10 @@
       "main"
     ],
     "order": 142,
-    "elementId": "recODhJCVre31aegr",
     "routeType": [
       "aside-document-type"
-    ]
+    ],
+    "elementId": "recODhJCVre31aegr"
   },
   {
     "text": "Interne Correspondentie",
@@ -1520,10 +1520,10 @@
       "main"
     ],
     "order": 124,
-    "elementId": "recOUKno83Z2AjMzo",
     "routeType": [
       "aside-document-type"
-    ]
+    ],
+    "elementId": "recOUKno83Z2AjMzo"
   },
   {
     "text": "Specifieke Docs",
@@ -1535,10 +1535,10 @@
       "main"
     ],
     "order": 8,
-    "elementId": "recP30ie4eTXRE6Ej",
     "routeType": [
       "aside-info"
-    ]
+    ],
+    "elementId": "recP30ie4eTXRE6Ej"
   },
   {
     "text": "Over deze generator",
@@ -1550,10 +1550,10 @@
       "pageFooter"
     ],
     "order": 232,
-    "elementId": "recP84jZt40EAh3UG",
     "routeType": [
       "page"
-    ]
+    ],
+    "elementId": "recP84jZt40EAh3UG"
   },
   {
     "text": "Mondelinge toelichting",
@@ -1565,10 +1565,10 @@
       "main"
     ],
     "order": 16,
-    "elementId": "recPEPcO5ci6FvuHB",
     "routeType": [
       "aside-info"
-    ]
+    ],
+    "elementId": "recPEPcO5ci6FvuHB"
   },
   {
     "text": "Welke informatie zoek je?",
@@ -1580,10 +1580,10 @@
       "main"
     ],
     "order": 70,
-    "elementId": "recPYQ3m6s9PrrqiX",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recPYQ3m6s9PrrqiX"
   },
   {
     "text": "Gespreksverslagen",
@@ -1595,10 +1595,10 @@
       "main"
     ],
     "order": 116,
-    "elementId": "recPhsQOZnvnSVaGJ",
     "routeType": [
       "aside-document-type"
-    ]
+    ],
+    "elementId": "recPhsQOZnvnSVaGJ"
   },
   {
     "text": "Ben je journalist?",
@@ -1610,10 +1610,10 @@
       "main"
     ],
     "order": 1,
-    "elementId": "recQK7hU3XyS1pBrc",
     "routeType": [
       "aside-info"
-    ]
+    ],
+    "elementId": "recQK7hU3XyS1pBrc"
   },
   {
     "text": "De kern van je Wob-verzoek is nu af. Er zijn nog een paar opties die je aan of uit kunt zetten.",
@@ -1625,10 +1625,10 @@
       "main"
     ],
     "order": 167,
-    "elementId": "recR7Dwpyu8nHsc68",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recR7Dwpyu8nHsc68"
   },
   {
     "text": "De wet verplicht overheidsinstanties een Wob-verzoek door te geleiden naar een andere instantie als de betreffende documenten niet bij haar maar bij de collega-instantie liggen. Het kan geen kwaad daar in de brief nog eens om te vragen.",
@@ -1640,10 +1640,10 @@
       "main"
     ],
     "order": 31,
-    "elementId": "recRCISLfMgTYpKW9",
     "routeType": [
       "aside-info"
-    ]
+    ],
+    "elementId": "recRCISLfMgTYpKW9"
   },
   {
     "text": "Informatieverzoeken",
@@ -1655,10 +1655,10 @@
       "main"
     ],
     "order": 2,
-    "elementId": "recRdBbNWMUvbyWoj",
     "routeType": [
       "aside-info"
-    ]
+    ],
+    "elementId": "recRdBbNWMUvbyWoj"
   },
   {
     "text": "Insluiting alle formaten",
@@ -1673,10 +1673,10 @@
       "listCheck"
     ],
     "order": 173,
-    "elementId": "recRtqJLnPK3Ds67C",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recRtqJLnPK3Ds67C"
   },
   {
     "text": "Insluiting alle formaten",
@@ -1688,10 +1688,10 @@
       "main"
     ],
     "order": 22,
-    "elementId": "recRtxCR2iH9xfnDe",
     "routeType": [
       "aside-info"
-    ]
+    ],
+    "elementId": "recRtxCR2iH9xfnDe"
   },
   {
     "text": "Mediaorganisatie?",
@@ -1703,10 +1703,10 @@
       "main"
     ],
     "order": 3,
-    "elementId": "recSSI2Rw6njpCRlL",
     "routeType": [
       "aside-info"
-    ]
+    ],
+    "elementId": "recSSI2Rw6njpCRlL"
   },
   {
     "text": "Ik wil alles over het onderwerp",
@@ -1721,10 +1721,10 @@
       "listCheck"
     ],
     "order": 83,
-    "elementId": "recSYdmoT7ViIZadZ",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recSYdmoT7ViIZadZ"
   },
   {
     "text": "Ik weet de datum van dit document",
@@ -1739,10 +1739,10 @@
       "formSpecificDocuments"
     ],
     "order": 91,
-    "elementId": "recTGupDyhM1gghh4",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recTGupDyhM1gghh4"
   },
   {
     "text": "Documenten",
@@ -1754,10 +1754,10 @@
       "main"
     ],
     "order": 14,
-    "elementId": "recTXVjRm8zmKMBEN",
     "routeType": [
       "aside-info"
-    ]
+    ],
+    "elementId": "recTXVjRm8zmKMBEN"
   },
   {
     "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet",
@@ -1769,10 +1769,10 @@
       "main"
     ],
     "order": 79,
-    "elementId": "recTZrAACb9Ii0KQ1",
     "routeType": [
       "aside-info"
-    ]
+    ],
+    "elementId": "recTZrAACb9Ii0KQ1"
   },
   {
     "text": "Je bent hier omdat je informatie wilt opvragen bij een overheidsinstantie. Dat noemen we een Wob-verzoek. Met de Wob-generator is dat een koud kunstje.",
@@ -1784,10 +1784,10 @@
       "pageHeader"
     ],
     "order": 191,
-    "elementId": "recUcCT0qWsIHa8mq",
     "routeType": [
       "page"
-    ]
+    ],
+    "elementId": "recUcCT0qWsIHa8mq"
   },
   {
     "text": "Samenvatting",
@@ -1799,10 +1799,10 @@
       "main"
     ],
     "order": 15,
-    "elementId": "recUp4l9ni3iquTxh",
     "routeType": [
       "aside-info"
-    ]
+    ],
+    "elementId": "recUp4l9ni3iquTxh"
   },
   {
     "text": "Hugo van der Parre ",
@@ -1814,10 +1814,10 @@
       "pageFooter"
     ],
     "order": 238,
-    "elementId": "recVejM6LMmDkRWV8",
     "routeType": [
       "page"
-    ]
+    ],
+    "elementId": "recVejM6LMmDkRWV8"
   },
   {
     "text": "De Wob-generator is een project van de Wob-werkgroep van de Vlaams-Nederlandse Vereniging van Onderzoeksjournalisten (VVOJ) en  financieel mogelijk gemaakt door Stichting Lira.\n\nDe Wob-werkgroep van de VVOJ beheert de website. De website is op geen enkele manier verbonden aan de Nederlandse overheid. Zij opereert volstrekt onafhankelijk.",
@@ -1829,10 +1829,10 @@
       "pageFooter"
     ],
     "order": 233,
-    "elementId": "recW3bg27iKKAFPV0",
     "routeType": [
       "page"
-    ]
+    ],
+    "elementId": "recW3bg27iKKAFPV0"
   },
   {
     "text": "Datasets",
@@ -1844,10 +1844,10 @@
       "main"
     ],
     "order": 12,
-    "elementId": "recWLAfhZlfiYmMda",
     "routeType": [
       "aside-info"
-    ]
+    ],
+    "elementId": "recWLAfhZlfiYmMda"
   },
   {
     "text": "Waarschijnlijk gaat het je meer om de interessante informatie dan om de exacte documenten zelf. Zeker als je Wob-verzoek omvangrijk is, kun je de overheidsinstantie aanbieden om gezamenlijk te kijken of ze je op een minder arbeidsintensieve manier ",
@@ -1859,10 +1859,10 @@
       "main"
     ],
     "order": 32,
-    "elementId": "recWTySpTyV8zT4y5",
     "routeType": [
       "aside-info"
-    ]
+    ],
+    "elementId": "recWTySpTyV8zT4y5"
   },
   {
     "text": "SMS-jes en WhatsApp-berichten",
@@ -1874,10 +1874,10 @@
       "main"
     ],
     "order": 128,
-    "elementId": "recWVbAgi4WrDRBRX",
     "routeType": [
       "aside-document-type"
-    ]
+    ],
+    "elementId": "recWVbAgi4WrDRBRX"
   },
   {
     "text": "Erik van Zummeren",
@@ -1889,10 +1889,10 @@
       "pageFooter"
     ],
     "order": 241,
-    "elementId": "recWgOgHJSGd1FzFq",
     "routeType": [
       "page"
-    ]
+    ],
+    "elementId": "recWgOgHJSGd1FzFq"
   },
   {
     "text": "Ga naar de VVOJ-site",
@@ -1904,10 +1904,10 @@
       "pageBlock/1"
     ],
     "order": 249,
-    "elementId": "recWjMU9gjgADuJnH",
     "routeType": [
       "page"
-    ]
+    ],
+    "elementId": "recWjMU9gjgADuJnH"
   },
   {
     "type": "listInfo",
@@ -1918,10 +1918,10 @@
       "main"
     ],
     "order": 199,
-    "elementId": "recWypac9YgPycqlZ",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recWypac9YgPycqlZ"
   },
   {
     "text": "Rapporten & \nPresentaties",
@@ -1933,10 +1933,10 @@
       "main"
     ],
     "order": 117,
-    "elementId": "recX1IezQdvVzJFyA",
     "routeType": [
       "aside-document-type"
-    ]
+    ],
+    "elementId": "recX1IezQdvVzJFyA"
   },
   {
     "text": "E-mails kunnen veel inzicht geven in het besluitvormingsproces, de toon waarin tussen bepaalde personen gecommuniceerd wordt en de frequentie van het contact. Maar e-mails kunnen ook over volstrekt irrelevante zaken gaan, zoals de hoeveelheid broodjes die bij de vergadering zijn besteld. Bedenk dus of e-mails in het geval van jouw verzoek relevant zijn.",
@@ -1948,10 +1948,10 @@
       "main"
     ],
     "order": 134,
-    "elementId": "recX9yVVEKhNoxe0Y",
     "routeType": [
       "aside-document-type"
-    ]
+    ],
+    "elementId": "recX9yVVEKhNoxe0Y"
   },
   {
     "type": "formPeople",
@@ -1962,10 +1962,10 @@
       "main"
     ],
     "order": 176,
-    "elementId": "recXDaR2z38KLxVnk",
     "routeType": [
       "aside-document-type"
-    ]
+    ],
+    "elementId": "recXDaR2z38KLxVnk"
   },
   {
     "type": "formPeople",
@@ -1976,10 +1976,10 @@
       "main"
     ],
     "order": 175,
-    "elementId": "recXtzL17tou3KdUW",
     "routeType": [
       "aside-document-type"
-    ]
+    ],
+    "elementId": "recXtzL17tou3KdUW"
   },
   {
     "text": "E-mailadres",
@@ -1992,10 +1992,10 @@
       "formContactDetails/email"
     ],
     "order": 218,
-    "elementId": "recYrExKlXaZgnUzU",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recYrExKlXaZgnUzU"
   },
   {
     "text": "Onderwerp",
@@ -2007,10 +2007,10 @@
       "main"
     ],
     "order": 78,
-    "elementId": "recYzPGw0obqlvv0r",
     "routeType": [
       "aside-info"
-    ]
+    ],
+    "elementId": "recYzPGw0obqlvv0r"
   },
   {
     "text": "Adres",
@@ -2023,10 +2023,10 @@
       "formContactDetails/adres"
     ],
     "order": 215,
-    "elementId": "recZQ5ABHdhZpjGMB",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recZQ5ABHdhZpjGMB"
   },
   {
     "text": "Beleefdheidsconventie van de geadresseerde",
@@ -2041,10 +2041,10 @@
       "listInfo"
     ],
     "order": 67,
-    "elementId": "recZX4P9yqUJuOlcl",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recZX4P9yqUJuOlcl"
   },
   {
     "text": "VOEG DOCUMENT TOE",
@@ -2056,10 +2056,10 @@
       "formSpecialeDocumenten"
     ],
     "order": 152,
-    "elementId": "recZZGDtVDAFtxq6B",
     "routeType": [
       "aside-document-type"
-    ]
+    ],
+    "elementId": "recZZGDtVDAFtxq6B"
   },
   {
     "text": "Ik Wob namens een (media-) organisatie",
@@ -2074,10 +2074,10 @@
       "listCheck"
     ],
     "order": 59,
-    "elementId": "recZuJsos4ZyxOFHL",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recZuJsos4ZyxOFHL"
   },
   {
     "text": "Postcode",
@@ -2090,10 +2090,10 @@
       "formContactDetails/postcode"
     ],
     "order": 216,
-    "elementId": "recaB2vvGtwgOzxAy",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recaB2vvGtwgOzxAy"
   },
   {
     "text": "NEE, LIEVER NIET",
@@ -2108,10 +2108,10 @@
       "reviewBox/2"
     ],
     "order": 189,
-    "elementId": "recahZmnHZdKqCdOs",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recahZmnHZdKqCdOs"
   },
   {
     "text": "Welke documenttypes?",
@@ -2123,10 +2123,10 @@
       "main"
     ],
     "order": 159,
-    "elementId": "recaxVwUwVScRVfDw",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recaxVwUwVScRVfDw"
   },
   {
     "type": "listInfo",
@@ -2137,10 +2137,10 @@
       "main"
     ],
     "order": 200,
-    "elementId": "recb4AG0ARJCuMCYh",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recb4AG0ARJCuMCYh"
   },
   {
     "text": "Aanvullende docs",
@@ -2152,10 +2152,10 @@
       "main"
     ],
     "order": 11,
-    "elementId": "recbY2h2SRCxNsB5q",
     "routeType": [
       "aside-info"
-    ]
+    ],
+    "elementId": "recbY2h2SRCxNsB5q"
   },
   {
     "text": "Door dit aan te vinken verzoek je de overheidsinstantie goed te motiveren waarom ze je Wob-verzoek niet binnen de wettelijke termijn afhandelen.",
@@ -2167,10 +2167,10 @@
       "main"
     ],
     "order": 35,
-    "elementId": "recc0uWhMX2HG7pEL",
     "routeType": [
       "aside-info"
-    ]
+    ],
+    "elementId": "recc0uWhMX2HG7pEL"
   },
   {
     "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor",
@@ -2182,10 +2182,10 @@
       "main"
     ],
     "order": 34,
-    "elementId": "recc6AU9IrQRhaAoM",
     "routeType": [
       "aside-info"
-    ]
+    ],
+    "elementId": "recc6AU9IrQRhaAoM"
   },
   {
     "text": "Motivering bij verdaging",
@@ -2200,10 +2200,10 @@
       "listCheck"
     ],
     "order": 179,
-    "elementId": "reccCfNt7kL6VgCpZ",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "reccCfNt7kL6VgCpZ"
   },
   {
     "text": "Bevestiging  & beslistermijn",
@@ -2215,10 +2215,10 @@
       "main"
     ],
     "order": 21,
-    "elementId": "reccYopqP7Ak5MnbF",
     "routeType": [
       "aside-info"
-    ]
+    ],
+    "elementId": "reccYopqP7Ak5MnbF"
   },
   {
     "text": "Aanvullende documenten?",
@@ -2230,10 +2230,10 @@
       "main"
     ],
     "order": 96,
-    "elementId": "recd1oL1T61n2xfMv",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recd1oL1T61n2xfMv"
   },
   {
     "text": "Verzoek afgerond, wat nu?",
@@ -2245,10 +2245,10 @@
       "pageBlock/1"
     ],
     "order": 247,
-    "elementId": "recd9gGyTOknJPoRd",
     "routeType": [
       "page"
-    ]
+    ],
+    "elementId": "recd9gGyTOknJPoRd"
   },
   {
     "text": "Brieven",
@@ -2260,10 +2260,10 @@
       "main"
     ],
     "order": 126,
-    "elementId": "recdNd2aJdVPyB3aZ",
     "routeType": [
       "aside-document-type"
-    ]
+    ],
+    "elementId": "recdNd2aJdVPyB3aZ"
   },
   {
     "text": "Exporteren!",
@@ -2275,10 +2275,10 @@
       "reviewBox/1"
     ],
     "order": 182,
-    "elementId": "recdVYLeyDvvFhbfQ",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recdVYLeyDvvFhbfQ"
   },
   {
     "text": "Juiste overheid?",
@@ -2290,10 +2290,10 @@
       "main"
     ],
     "order": 7,
-    "elementId": "recdcI0RSY0jFwJWV",
     "routeType": [
       "aside-info"
-    ]
+    ],
+    "elementId": "recdcI0RSY0jFwJWV"
   },
   {
     "text": "HERSTEL STANDAARD",
@@ -2305,10 +2305,10 @@
       "main"
     ],
     "order": 168,
-    "elementId": "recdnKqQcUtENMAKl",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recdnKqQcUtENMAKl"
   },
   {
     "text": "Gemeenten, provincies, ministeries, waterschappen, de politie, inspectiediensten en tal van zelfstandige bestuursorganen (ZBO’s) die een overheidstaak uitvoeren.  ",
@@ -2320,10 +2320,10 @@
       "main"
     ],
     "order": 36,
-    "elementId": "recdvRwRPY5ozgXBT",
     "routeType": [
       "aside-info"
-    ]
+    ],
+    "elementId": "recdvRwRPY5ozgXBT"
   },
   {
     "text": "Je kiest wat voor documenten of informatie je zoekt.",
@@ -2335,10 +2335,10 @@
       "listBubble"
     ],
     "order": 61,
-    "elementId": "rece59ycDvorbgRIl",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "rece59ycDvorbgRIl"
   },
   {
     "text": "Notulen",
@@ -2350,10 +2350,10 @@
       "main"
     ],
     "order": 115,
-    "elementId": "receLULbEUTR4kgaj",
     "routeType": [
       "aside-document-type"
-    ]
+    ],
+    "elementId": "receLULbEUTR4kgaj"
   },
   {
     "text": "Begrotingen en financiële documenten",
@@ -2368,10 +2368,10 @@
       "formDocumentTypes"
     ],
     "order": 102,
-    "elementId": "recePDWL3tuprSaED",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recePDWL3tuprSaED"
   },
   {
     "text": "Dit is een dataset",
@@ -2386,10 +2386,10 @@
       "formSpecificDocuments"
     ],
     "order": 90,
-    "elementId": "recebeQELUwxhvotH",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recebeQELUwxhvotH"
   },
   {
     "text": "De organisatie waarbij jij wilt wobben gebruikt een bijzonder documenttype die wij niet voorzien hebben, vul hem dan hier in:",
@@ -2401,10 +2401,10 @@
       "main"
     ],
     "order": 150,
-    "elementId": "recem3AJHMlanY5eh",
     "routeType": [
       "aside-document-type"
-    ]
+    ],
+    "elementId": "recem3AJHMlanY5eh"
   },
   {
     "text": "Vul hier de documentnaam in",
@@ -2416,10 +2416,10 @@
       "formSpecialeDocumenten"
     ],
     "order": 151,
-    "elementId": "recesRaD0TNJuTnIc",
     "routeType": [
       "aside-document-type"
-    ]
+    ],
+    "elementId": "recesRaD0TNJuTnIc"
   },
   {
     "text": "Sommige instanties maken papieren kopieën van de documenten. Dat is slecht voor het milieu en kost je mogelijk ook geld. Je kunt aangeven dat je de documenten liefst digitaal ontvangt en dat je wilt dat de overheid met jou overlegt voor ze allerlei kopieerkosten maken en aan jou doorberekenen.",
@@ -2431,10 +2431,10 @@
       "main"
     ],
     "order": 25,
-    "elementId": "recfSAhUlYrvJ9s6J",
     "routeType": [
       "aside-info"
-    ]
+    ],
+    "elementId": "recfSAhUlYrvJ9s6J"
   },
   {
     "text": "Je hoeft geen journalist te zijn om een Wob-verzoek te doen. Maar als je het met een journalistiek doel doet is het nuttig om dit te benoemen. Daarmee verwijs je naar een publiek belang en dat kan je verzoek versterken. Bovendien is het wel zo eerlijk om je Wob-verzoek vanaf het begin met open vizier te doen.",
@@ -2446,10 +2446,10 @@
       "main"
     ],
     "order": 26,
-    "elementId": "recfigDFrYY7kOlTj",
     "routeType": [
       "aside-info"
-    ]
+    ],
+    "elementId": "recfigDFrYY7kOlTj"
   },
   {
     "text": "Start je Wob-verzoek!",
@@ -2464,10 +2464,10 @@
       "pageHeader"
     ],
     "order": 192,
-    "elementId": "rech7Yiuh13NcEX06",
     "routeType": [
       "page"
-    ]
+    ],
+    "elementId": "rech7Yiuh13NcEX06"
   },
   {
     "text": "Dat hoeft niet, maar het kan de overheidsinstantie helpen om beter te begrijpen welke documenten je zoekt. Overigens kan het in sommige gevallen verstandig zijn om juist níet te vertellen welk nieuws je op het spoor denkt te zijn. Weeg af wat slim is.",
@@ -2479,10 +2479,10 @@
       "main"
     ],
     "order": 27,
-    "elementId": "rechCBoQ9jeOO0XrY",
     "routeType": [
       "aside-info"
-    ]
+    ],
+    "elementId": "rechCBoQ9jeOO0XrY"
   },
   {
     "text": "verplicht",
@@ -2495,10 +2495,10 @@
       "formContactDetails/naam"
     ],
     "order": 220,
-    "elementId": "rechbBCHVCedDOgOf",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "rechbBCHVCedDOgOf"
   },
   {
     "text": "Memo’s en notities",
@@ -2510,10 +2510,10 @@
       "main"
     ],
     "order": 129,
-    "elementId": "recheedJH6o6PKREQ",
     "routeType": [
       "aside-document-type"
-    ]
+    ],
+    "elementId": "recheedJH6o6PKREQ"
   },
   {
     "text": "Je weet precies wat je wilt hebben! Schrijf hier kort de documentnaam en benoem of je aanvullende stukken wilt. Als je document een dataset is, geef dat dan ook aan. Daarvoor gelden namelijk net iets andere regels. ",
@@ -2528,10 +2528,10 @@
       "main"
     ],
     "order": 85,
-    "elementId": "rechnOtUYBFQ9FY8z",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "rechnOtUYBFQ9FY8z"
   },
   {
     "text": "Datasets",
@@ -2543,10 +2543,10 @@
       "main"
     ],
     "order": 145,
-    "elementId": "reciFKIlPHgKCgVFd",
     "routeType": [
       "aside-document-type"
-    ]
+    ],
+    "elementId": "reciFKIlPHgKCgVFd"
   },
   {
     "text": "Contactgegevens",
@@ -2558,10 +2558,10 @@
       "main"
     ],
     "order": 50,
-    "elementId": "reciKCyRJyNVYXCAH",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "reciKCyRJyNVYXCAH"
   },
   {
     "text": "Motivering bij verdaging",
@@ -2573,10 +2573,10 @@
       "main"
     ],
     "order": 23,
-    "elementId": "recirAx4o2zzM5Za7",
     "routeType": [
       "aside-info"
-    ]
+    ],
+    "elementId": "recirAx4o2zzM5Za7"
   },
   {
     "text": "Jaarverslagen",
@@ -2588,10 +2588,10 @@
       "main"
     ],
     "order": 143,
-    "elementId": "recj2BI6BRtaAJPn2",
     "routeType": [
       "aside-document-type"
-    ]
+    ],
+    "elementId": "recj2BI6BRtaAJPn2"
   },
   {
     "text": "Anonimisering",
@@ -2603,10 +2603,10 @@
       "main"
     ],
     "order": 20,
-    "elementId": "recjD5rTfqazOVTsi",
     "routeType": [
       "aside-info"
-    ]
+    ],
+    "elementId": "recjD5rTfqazOVTsi"
   },
   {
     "text": "VOEG DOCUMENT TOE",
@@ -2618,10 +2618,10 @@
       "formSpecificDocuments"
     ],
     "order": 93,
-    "elementId": "recjF85gspDT2OQ1j",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recjF85gspDT2OQ1j"
   },
   {
     "text": "Transparantiekade 7A",
@@ -2634,10 +2634,10 @@
       "formContactDetails/adres"
     ],
     "order": 206,
-    "elementId": "recjH5WT5T89a49wu",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recjH5WT5T89a49wu"
   },
   {
     "text": "Memo’s en notities",
@@ -2649,10 +2649,10 @@
       "main"
     ],
     "order": 138,
-    "elementId": "recjHmkjQvCkM2gta",
     "routeType": [
       "aside-document-type"
-    ]
+    ],
+    "elementId": "recjHmkjQvCkM2gta"
   },
   {
     "text": "Klara Journalist",
@@ -2665,10 +2665,10 @@
       "formContactDetails/naam"
     ],
     "order": 205,
-    "elementId": "recjJo4WWB7VHF9lB",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recjJo4WWB7VHF9lB"
   },
   {
     "text": "Vergaderstukken & gespreksverslagen",
@@ -2683,10 +2683,10 @@
       "formDocumentTypes"
     ],
     "order": 97,
-    "elementId": "recjlgvRsCQAK6jP3",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recjlgvRsCQAK6jP3"
   },
   {
     "text": "Naam",
@@ -2699,10 +2699,10 @@
       "formContactDetails/naam"
     ],
     "order": 214,
-    "elementId": "recjmnrTem3Dh4PB0",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recjmnrTem3Dh4PB0"
   },
   {
     "text": "Hoe handig een Wob-verzoek ook is, het is natuurlijk niet slim om te gaan wobben als de stukken al ergens online staan of in stapels bij persvoorlichting liggen.\n\nEr zijn tal van opties van normale verzoeken, we hebben er een blogpost over geschreven op de VVOJ-site:",
@@ -2714,10 +2714,10 @@
       "main"
     ],
     "order": 24,
-    "elementId": "recjsN1eM43yf2L8c",
     "routeType": [
       "aside-info"
-    ]
+    ],
+    "elementId": "recjsN1eM43yf2L8c"
   },
   {
     "type": "listCheck",
@@ -2728,10 +2728,10 @@
       "main"
     ],
     "order": 213,
-    "elementId": "recjuuK9F9arT25YM",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recjuuK9F9arT25YM"
   },
   {
     "text": "Ik wil specifieke documenten opvragen",
@@ -2746,10 +2746,10 @@
       "listCheck"
     ],
     "order": 82,
-    "elementId": "recjyFQuVW1NPSiwp",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recjyFQuVW1NPSiwp"
   },
   {
     "text": "Als je vermoedt dat je Wob-verzoek misschien wordt afgewezen omdat er (te) veel persoonlijke beleidsopvattingen van ambtenaren in staan, kun je aangeven dat je eventueel genoegen neemt met een samenvatting van de informatie.",
@@ -2761,10 +2761,10 @@
       "main"
     ],
     "order": 28,
-    "elementId": "reck9GoWoNsEMFUZX",
     "routeType": [
       "aside-info"
-    ]
+    ],
+    "elementId": "reck9GoWoNsEMFUZX"
   },
   {
     "type": "listInfo",
@@ -2775,10 +2775,10 @@
       "main"
     ],
     "order": 201,
-    "elementId": "reckS2JSajAFrMO1e",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "reckS2JSajAFrMO1e"
   },
   {
     "text": "Een pakkende zin voor deze CTA",
@@ -2790,10 +2790,10 @@
       "pageCallToAction"
     ],
     "order": 237,
-    "elementId": "reckYVuQlrsfp8b2N",
     "routeType": [
       "page"
-    ]
+    ],
+    "elementId": "reckYVuQlrsfp8b2N"
   },
   {
     "text": "SMS-jes en WhatsApp-berichten",
@@ -2805,10 +2805,10 @@
       "main"
     ],
     "order": 137,
-    "elementId": "recl4cDE5FuDWLSFc",
     "routeType": [
       "aside-document-type"
-    ]
+    ],
+    "elementId": "recl4cDE5FuDWLSFc"
   },
   {
     "text": "E-mails en brieven, inclusief bijlagen",
@@ -2820,10 +2820,10 @@
       "main"
     ],
     "order": 127,
-    "elementId": "reclf4O9zmHZlXGYy",
     "routeType": [
       "aside-document-type"
-    ]
+    ],
+    "elementId": "reclf4O9zmHZlXGYy"
   },
   {
     "text": "Welk document zoek je?",
@@ -2835,10 +2835,10 @@
       "main"
     ],
     "order": 84,
-    "elementId": "recljBLpKsQP0p0Fh",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recljBLpKsQP0p0Fh"
   },
   {
     "text": "Ga naar de VVOJ site",
@@ -2850,10 +2850,10 @@
       "main"
     ],
     "order": 47,
-    "elementId": "reclximFAeJ0FQkH2",
     "routeType": [
       "aside-info"
-    ]
+    ],
+    "elementId": "reclximFAeJ0FQkH2"
   },
   {
     "text": "Een formele afsluiting van je verzoek: je vraagt om te bevestigen dat het Wob-verzoek is ontvangen en geeft aan graag op de hoogte te worden gehouden van de voortgang. Je wijst op de wettelijke termijn waarbinnen de overheid een beslissing dient te nemen.",
@@ -2865,10 +2865,10 @@
       "main"
     ],
     "order": 29,
-    "elementId": "recmFpOqA0XrgJZCP",
     "routeType": [
       "aside-info"
-    ]
+    ],
+    "elementId": "recmFpOqA0XrgJZCP"
   },
   {
     "text": "Je Wob-verzoek is verzonden, je zal de bestanden ook in je download map moeten kunnen vinden!",
@@ -2880,10 +2880,10 @@
       "pageHeader"
     ],
     "order": 194,
-    "elementId": "recmUNBtGCpwqRPdO",
     "routeType": [
       "page"
-    ]
+    ],
+    "elementId": "recmUNBtGCpwqRPdO"
   },
   {
     "type": "formInstitute",
@@ -2894,10 +2894,10 @@
       "main"
     ],
     "order": 65,
-    "elementId": "recmeghXlF7vaJRiX",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recmeghXlF7vaJRiX"
   },
   {
     "text": "Als je Wob-verzoek betrekking heeft op milieu-informatie moet een overheidsinstantie daar binnen twee weken een besluit over nemen. Met dit vinkje wijs je daar extra op en vraag je om een snel besluit.",
@@ -2909,10 +2909,10 @@
       "main"
     ],
     "order": 30,
-    "elementId": "recmfktgBei6JXzzb",
     "routeType": [
       "aside-info"
-    ]
+    ],
+    "elementId": "recmfktgBei6JXzzb"
   },
   {
     "text": "Wob-generator",
@@ -2924,10 +2924,10 @@
       "pageHeader"
     ],
     "order": 190,
-    "elementId": "recmzCjyrCHqazcJp",
     "routeType": [
       "page"
-    ]
+    ],
+    "elementId": "recmzCjyrCHqazcJp"
   },
   {
     "text": "Bevestiging beslistermijn",
@@ -2942,10 +2942,10 @@
       "listCheck"
     ],
     "order": 181,
-    "elementId": "recnEShKAfuXRJmY8",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recnEShKAfuXRJmY8"
   },
   {
     "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
@@ -2957,10 +2957,10 @@
       "main"
     ],
     "order": 108,
-    "elementId": "recnOWEt9LXAtSunf",
     "routeType": [
       "aside-document-type"
-    ]
+    ],
+    "elementId": "recnOWEt9LXAtSunf"
   },
   {
     "text": "vvoj",
@@ -2972,10 +2972,10 @@
       "pageFooter"
     ],
     "order": 243,
-    "elementId": "recnjeoA5aWGwlBgj",
     "routeType": [
       "page"
-    ]
+    ],
+    "elementId": "recnjeoA5aWGwlBgj"
   },
   {
     "text": "1023PR",
@@ -2988,10 +2988,10 @@
       "formContactDetails/postcode"
     ],
     "order": 207,
-    "elementId": "recnojywrsdvNfG6d",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recnojywrsdvNfG6d"
   },
   {
     "text": "ra",
@@ -3003,10 +3003,10 @@
       "pageFooter"
     ],
     "order": 244,
-    "elementId": "recnsJ4UYIJY9n2TP",
     "routeType": [
       "page"
-    ]
+    ],
+    "elementId": "recnsJ4UYIJY9n2TP"
   },
   {
     "text": "Tussen overheidsorganen",
@@ -3021,10 +3021,10 @@
       "formDocumentTypes"
     ],
     "order": 101,
-    "elementId": "recoBkVhnfIWsOn4k",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recoBkVhnfIWsOn4k"
   },
   {
     "text": "jon@journalistenvoortransparantie.nl",
@@ -3037,10 +3037,10 @@
       "formContactDetails/email"
     ],
     "order": 209,
-    "elementId": "recoKHeB65dXV1vKe",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recoKHeB65dXV1vKe"
   },
   {
     "text": "Projectteam VVOJ",
@@ -3052,10 +3052,10 @@
       "pageFooter"
     ],
     "order": 235,
-    "elementId": "recowhPc5l7h3I75l",
     "routeType": [
       "page"
-    ]
+    ],
+    "elementId": "recowhPc5l7h3I75l"
   },
   {
     "text": "Zelfs als je precies weet welk document je wil hebben, kan het nuttig zijn om ook andere documenten te vragen. Zo krijg je inzicht in de totstandkoming van het document, de personen of organisaties die daarbij betrokken zijn geweest, koerswijzigingen, enzovoort.",
@@ -3067,10 +3067,10 @@
       "main"
     ],
     "order": 95,
-    "elementId": "recp4zxXYJuBe5jdA",
     "routeType": [
       "aside-info"
-    ]
+    ],
+    "elementId": "recp4zxXYJuBe5jdA"
   },
   {
     "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor",
@@ -3082,10 +3082,10 @@
       "main"
     ],
     "order": 37,
-    "elementId": "recpAiGuxBRz84IUS",
     "routeType": [
       "aside-info"
-    ]
+    ],
+    "elementId": "recpAiGuxBRz84IUS"
   },
   {
     "text": "Je kan ook vragen naar correspondentie met specifieke personen, selecteer hier met wie:",
@@ -3097,10 +3097,10 @@
       "main"
     ],
     "order": 130,
-    "elementId": "recpEUhf5dlgnskYa",
     "routeType": [
       "aside-document-type"
-    ]
+    ],
+    "elementId": "recpEUhf5dlgnskYa"
   },
   {
     "text": "Versturen!",
@@ -3112,10 +3112,10 @@
       "reviewBox/2"
     ],
     "order": 186,
-    "elementId": "recpKxaGsFdK4Ryav",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recpKxaGsFdK4Ryav"
   },
   {
     "text": "In 3 stappen naar je Wob-verzoek",
@@ -3127,10 +3127,10 @@
       "main"
     ],
     "order": 49,
-    "elementId": "recpd6lOWY8TiEIEF",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recpd6lOWY8TiEIEF"
   },
   {
     "text": "Besluiten",
@@ -3142,10 +3142,10 @@
       "main"
     ],
     "order": 113,
-    "elementId": "recqDONXTlFFXtJwz",
     "routeType": [
       "aside-document-type"
-    ]
+    ],
+    "elementId": "recqDONXTlFFXtJwz"
   },
   {
     "text": "Ruwe data",
@@ -3157,10 +3157,10 @@
       "main"
     ],
     "order": 147,
-    "elementId": "recqmrw6OhNjnmqNI",
     "routeType": [
       "aside-document-type"
-    ]
+    ],
+    "elementId": "recqmrw6OhNjnmqNI"
   },
   {
     "text": "Wat is allemaal een “document”?",
@@ -3175,10 +3175,10 @@
       "listInfo"
     ],
     "order": 161,
-    "elementId": "recrB300nj5Ad26CI",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recrB300nj5Ad26CI"
   },
   {
     "text": "Zelfs als je precies weet welk document je wil hebben, kan het nuttig zijn om ook andere documenten te vragen. Zo krijg je inzicht in de totstandkoming van het document, de personen of organisaties die daarbij betrokken zijn geweest, koerswijzigingen, enzovoort.",
@@ -3190,10 +3190,10 @@
       "main"
     ],
     "order": 38,
-    "elementId": "recrQPnZQRU4FoOlB",
     "routeType": [
       "aside-info"
-    ]
+    ],
+    "elementId": "recrQPnZQRU4FoOlB"
   },
   {
     "text": "Informatie i.p.v. documenten",
@@ -3208,10 +3208,10 @@
       "listCheck"
     ],
     "order": 172,
-    "elementId": "recrRkeg2O4BHhewp",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recrRkeg2O4BHhewp"
   },
   {
     "text": "Je selecteert een overheidsinstantie.",
@@ -3223,10 +3223,10 @@
       "listBubble"
     ],
     "order": 52,
-    "elementId": "recrmowboz8B03e92",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recrmowboz8B03e92"
   },
   {
     "text": "Rapporten & presentaties",
@@ -3241,10 +3241,10 @@
       "formDocumentTypes"
     ],
     "order": 98,
-    "elementId": "recrtGiW1ITkFUIxN",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recrtGiW1ITkFUIxN"
   },
   {
     "text": "Vergaderstukken & \ngespreksverslagen",
@@ -3256,10 +3256,10 @@
       "main"
     ],
     "order": 107,
-    "elementId": "recrwxByhtYHmsAGH",
     "routeType": [
       "aside-document-type"
-    ]
+    ],
+    "elementId": "recrwxByhtYHmsAGH"
   },
   {
     "text": "Overheidstaak",
@@ -3271,10 +3271,10 @@
       "main"
     ],
     "order": 9,
-    "elementId": "recrxNdKU967kucj4",
     "routeType": [
       "aside-info"
-    ]
+    ],
+    "elementId": "recrxNdKU967kucj4"
   },
   {
     "text": "Verstuur je brief met de Wob-knop en hou de voortgang van je verzoek bij",
@@ -3286,10 +3286,10 @@
       "reviewBox/2"
     ],
     "order": 187,
-    "elementId": "recs37VyVUQ6xoWfW",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recs37VyVUQ6xoWfW"
   },
   {
     "text": "Voor personen en organisaties gelden verschillende tarieven, mocht je later bij de rechter in beroep gaan tegen het besluit van de overheid op jouw verzoek. Als persoon procedeer je goedkoper dan als organisatie. \n\nLees hier meer over op ons blog:",
@@ -3301,10 +3301,10 @@
       "main"
     ],
     "order": 39,
-    "elementId": "recsBBknithcNoKJL",
     "routeType": [
       "aside-info"
-    ]
+    ],
+    "elementId": "recsBBknithcNoKJL"
   },
   {
     "text": "Tarieven van de Wob",
@@ -3316,10 +3316,10 @@
       "main"
     ],
     "order": 48,
-    "elementId": "recsTrxD5D5cBMWHv",
     "routeType": [
       "aside-info"
-    ]
+    ],
+    "elementId": "recsTrxD5D5cBMWHv"
   },
   {
     "text": "Selecteer hier de periode waarbinnen je denkt dat er voor jou interessante informatie beschikbaar is.",
@@ -3331,10 +3331,10 @@
       "main"
     ],
     "order": 154,
-    "elementId": "recsYCoGTnavfjOXk",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recsYCoGTnavfjOXk"
   },
   {
     "text": "Typ hier de naam van de ambtenaar",
@@ -3346,10 +3346,10 @@
       "formPeople"
     ],
     "order": 131,
-    "elementId": "recsboy0v5frhFQim",
     "routeType": [
       "aside-document-type"
-    ]
+    ],
+    "elementId": "recsboy0v5frhFQim"
   },
   {
     "text": "Presentatielijsten",
@@ -3361,10 +3361,10 @@
       "main"
     ],
     "order": 110,
-    "elementId": "recse7M1ti5r9r9Io",
     "routeType": [
       "aside-document-type"
-    ]
+    ],
+    "elementId": "recse7M1ti5r9r9Io"
   },
   {
     "text": "verplicht",
@@ -3377,10 +3377,10 @@
       "formContactDetails/postcode"
     ],
     "order": 222,
-    "elementId": "recspRXu9V61onFsF",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recspRXu9V61onFsF"
   },
   {
     "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet",
@@ -3392,10 +3392,10 @@
       "main"
     ],
     "order": 69,
-    "elementId": "rectDkURBjzAKGMSM",
     "routeType": [
       "aside-info"
-    ]
+    ],
+    "elementId": "rectDkURBjzAKGMSM"
   },
   {
     "text": "Het kan geen kwaad om er op te wijzen dat je met ‘documenten’ niet alleen klassieke papieren documenten bedoelt, maar bijvoorbeeld ook digitale (data-)bestanden, audiofiles en whatsapp-berichten.",
@@ -3407,10 +3407,10 @@
       "main"
     ],
     "order": 40,
-    "elementId": "rectGIXYiXJcB5p7w",
     "routeType": [
       "aside-info"
-    ]
+    ],
+    "elementId": "rectGIXYiXJcB5p7w"
   },
   {
     "text": "06777777777",
@@ -3423,10 +3423,10 @@
       "formContactDetails/telefoonnummer"
     ],
     "order": 210,
-    "elementId": "rectHE1L3ZZdnKYNg",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "rectHE1L3ZZdnKYNg"
   },
   {
     "text": "Brieven",
@@ -3438,10 +3438,10 @@
       "main"
     ],
     "order": 135,
-    "elementId": "rectKPnx7Fs0GwDOp",
     "routeType": [
       "aside-document-type"
-    ]
+    ],
+    "elementId": "rectKPnx7Fs0GwDOp"
   },
   {
     "text": "Project- en programmaplannen",
@@ -3453,10 +3453,10 @@
       "main"
     ],
     "order": 119,
-    "elementId": "rectQQX41IDw8OfGM",
     "routeType": [
       "aside-document-type"
-    ]
+    ],
+    "elementId": "rectQQX41IDw8OfGM"
   },
   {
     "text": "Als je vermoedt dat je Wob-verzoek misschien wordt afgewezen omdat er (te) veel persoonsgegevens in voorkomen, kun je aangeven dat je eventueel genoegen neemt met een geanonimiseerde versie van de documenten.",
@@ -3468,10 +3468,10 @@
       "main"
     ],
     "order": 42,
-    "elementId": "recuCRq4nZh2SzTsS",
     "routeType": [
       "aside-info"
-    ]
+    ],
+    "elementId": "recuCRq4nZh2SzTsS"
   },
   {
     "text": "Je kunt alleen informatie opvragen die voortkomt uit een overheidstaak, in de Wob wordt dat een ‘bestuurlijke aangelegenheid’ genoemd. De Wob werkt niet als je informatie zoekt over bijvoorbeeld de privé-aangelegenheden van een ambtenaar. Of informatie over jou zelf.",
@@ -3483,10 +3483,10 @@
       "main"
     ],
     "order": 41,
-    "elementId": "recuZZEUZ7wFEq3nB",
     "routeType": [
       "aside-info"
-    ]
+    ],
+    "elementId": "recuZZEUZ7wFEq3nB"
   },
   {
     "text": "verplicht",
@@ -3499,10 +3499,10 @@
       "formContactDetails/adres"
     ],
     "order": 221,
-    "elementId": "recubJUzAQUQ19Rnh",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recubJUzAQUQ19Rnh"
   },
   {
     "type": "formDocumentTypesAll",
@@ -3513,10 +3513,10 @@
       "main"
     ],
     "order": 160,
-    "elementId": "recupS5m6B0JNxOxu",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recupS5m6B0JNxOxu"
   },
   {
     "type": "listInfo",
@@ -3527,10 +3527,10 @@
       "main"
     ],
     "order": 202,
-    "elementId": "recuqy9RSPbs7Fhgm",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recuqy9RSPbs7Fhgm"
   },
   {
     "text": "#### Wat is de Wet openbaarheid van bestuur?\n\nIedereen heeft het recht om informatie op te vragen bij de overheid. Dat noemen we een Wob-verzoek. In de Wet openbaarheid van bestuur, afgekort: de Wob, is geregeld waar zo’n verzoek aan moet voldoen. Het doen van dit verzoek wordt vaak ‘wobben’ genoemd.\n\n#### Hoe doe ik een Wob-verzoek?\n\nHet opstellen van een Wob-verzoek is niet moeilijk, maar het verzoek moet wel aan een aantal voorwaarden voldoen. Met de Wob-generator helpen we je een goed en geldig Wob-verzoek op te stellen. Kies welke documenten je wil opvragen en bij welke overheidsinstantie. Klaar! Je kunt nu je Wob-verzoek uitprinten en versturen via de post of digitaal verzenden via de Wob-Knop. ",
@@ -3542,10 +3542,10 @@
       "pageBlock/1"
     ],
     "order": 226,
-    "elementId": "recuxTOfKKGvVUjcd",
     "routeType": [
       "page"
-    ]
+    ],
+    "elementId": "recuxTOfKKGvVUjcd"
   },
   {
     "text": "De Wob-verzoeken worden lokaal in je browser opgeslagen. Waarschijnlijk ken je het begrip “cookies”,  wij gebruiken een iets geavanceerdere variant van deze techniek. De applicatie heeft alleen simpele server die geen data kan ontvangen.\n\nDe opslag functionaliteit is bedoeld om het sluiten van een tabblad op te vangen. Het zou jammer zijn als je je Wob-verzoek onbedoeld wist. Vertrouw alleen niet teveel op deze opslagmethode. Als je de lokale data in je browser wist, wis je al je verzoeken! ",
@@ -3557,10 +3557,10 @@
       "main"
     ],
     "order": 43,
-    "elementId": "recvNWxwA2b4fX0p0",
     "routeType": [
       "aside-info"
-    ]
+    ],
+    "elementId": "recvNWxwA2b4fX0p0"
   },
   {
     "text": "Documentnaam",
@@ -3573,10 +3573,10 @@
       "formSpecificDocuments/documentName"
     ],
     "order": 87,
-    "elementId": "recvXGsn9ug2isIJz",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recvXGsn9ug2isIJz"
   },
   {
     "text": "Je hoeft geen journalist te zijn om te wobben. Je hoeft ook het (journalistieke) doel van je verzoek toe te lichten. Klik op de i’tjes voor meer informatie.",
@@ -3588,10 +3588,10 @@
       "main"
     ],
     "order": 57,
-    "elementId": "recvjN9rQiwMLu3Ia",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recvjN9rQiwMLu3Ia"
   },
   {
     "text": "Je vult een aantal (contact)gegevens over jezelf in.",
@@ -3603,10 +3603,10 @@
       "listBubble"
     ],
     "order": 53,
-    "elementId": "recvragXApWzxw2lo",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recvragXApWzxw2lo"
   },
   {
     "text": "De overheid hoeft alleen informatie openbaar te maken die in documenten of andere gegevensdragers is vastgelegd. ‘Documenten’ zijn gelukkig wel breder dan geschreven stukken alleen. Excelsheets, databestanden, audio-opnames, sms’jes en WhatsAppjes verstuurd van een werktelefoon vallen er bijvoorbeeld ook onder. \n\nNatuurlijk kun je de overheid ook om informatie vragen die niet al op een gegevensdrager staat, bijvoorbeeld wat de gemeente vindt van een bepaalde ontwikkeling of wat de gemeente van plan is daaraan te doen. Dat is dan geen Wob-verzoek, maar een gewoon informatieverzoek. Hiervoor is de Wob-generator niet bedoeld.",
@@ -3618,10 +3618,10 @@
       "main"
     ],
     "order": 44,
-    "elementId": "recvuRYyZ0Ycbvq1y",
     "routeType": [
       "aside-info"
-    ]
+    ],
+    "elementId": "recvuRYyZ0Ycbvq1y"
   },
   {
     "text": "Adviezen, zowel extern als intern",
@@ -3633,10 +3633,10 @@
       "main"
     ],
     "order": 120,
-    "elementId": "recvw8BaG0XxYOqun",
     "routeType": [
       "aside-document-type"
-    ]
+    ],
+    "elementId": "recvw8BaG0XxYOqun"
   },
   {
     "text": "Journalistieke doel?",
@@ -3648,10 +3648,10 @@
       "main"
     ],
     "order": 4,
-    "elementId": "recw1Tk0xNsbkBK4G",
     "routeType": [
       "aside-info"
-    ]
+    ],
+    "elementId": "recw1Tk0xNsbkBK4G"
   },
   {
     "text": "Wob-verzoeken kunnen alleen bij overheidsinstanties worden ingediend. Dat zijn er vermoedelijk meer dan je denkt. ",
@@ -3666,10 +3666,10 @@
       "main"
     ],
     "order": 64,
-    "elementId": "recwEmruSWFgWHTxX",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recwEmruSWFgWHTxX"
   },
   {
     "text": "VERWIJDER DOCUMENT",
@@ -3681,10 +3681,10 @@
       "formSpecificDocuments"
     ],
     "order": 92,
-    "elementId": "recwdhhnXERjYypct",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recwdhhnXERjYypct"
   },
   {
     "text": "E-mails en brieven,\ninclusief bijlagen",
@@ -3696,10 +3696,10 @@
       "main"
     ],
     "order": 136,
-    "elementId": "recwlngBryedq8U5O",
     "routeType": [
       "aside-document-type"
-    ]
+    ],
+    "elementId": "recwlngBryedq8U5O"
   },
   {
     "text": "Overheidsinstanties",
@@ -3711,10 +3711,10 @@
       "main"
     ],
     "order": 6,
-    "elementId": "recwok75JQ1K8daGc",
     "routeType": [
       "aside-info"
-    ]
+    ],
+    "elementId": "recwok75JQ1K8daGc"
   },
   {
     "text": "Dataset",
@@ -3729,10 +3729,10 @@
       "formDocumentTypes"
     ],
     "order": 103,
-    "elementId": "recwtjFUq1FShulVw",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recwtjFUq1FShulVw"
   },
   {
     "text": "verstandig",
@@ -3745,10 +3745,10 @@
       "formSpecificDocuments/documentName"
     ],
     "order": 88,
-    "elementId": "recx1GzvFcRHlLwYY",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recx1GzvFcRHlLwYY"
   },
   {
     "text": "Banktransacties",
@@ -3760,10 +3760,10 @@
       "main"
     ],
     "order": 144,
-    "elementId": "recxFnzMGT8kcwLWM",
     "routeType": [
       "aside-document-type"
-    ]
+    ],
+    "elementId": "recxFnzMGT8kcwLWM"
   },
   {
     "text": "Privacy & opslag",
@@ -3775,10 +3775,10 @@
       "main"
     ],
     "order": 5,
-    "elementId": "recxQxmgjjo7Udtw9",
     "routeType": [
       "aside-info"
-    ]
+    ],
+    "elementId": "recxQxmgjjo7Udtw9"
   },
   {
     "text": "Geadresseerde",
@@ -3790,10 +3790,10 @@
       "main"
     ],
     "order": 68,
-    "elementId": "recxSs90uCawEp2Nb",
     "routeType": [
       "aside-info"
-    ]
+    ],
+    "elementId": "recxSs90uCawEp2Nb"
   },
   {
     "text": "#### 1. Wobben is niet moeilijk!\n\nHet lijkt intimiderend om een goed geschreven informatieverzoek te schrijven. Maar als je een paar basisprincipes kent, dan is het een vrij simpel foefje.\n\n#### 2. Transparantie is een samenwerking\n\nHet lijkt intimiderend om een goed geschreven informatieverzoek te schrijven. Maar als je een paar basisprincipes kent, dan is het een vrij simpel foefje.\n\n#### 3. In Nederland wordt weinig geWobt\n\nHet lijkt intimiderend om een goed geschreven informatieverzoek te schrijven. Maar als je een paar basisprincipes kent, dan is het een vrij simpel foefje.",
@@ -3805,10 +3805,10 @@
       "pageBlock/2"
     ],
     "order": 231,
-    "elementId": "recxqdb4WWm2SBkzm",
     "routeType": [
       "page"
-    ]
+    ],
+    "elementId": "recxqdb4WWm2SBkzm"
   },
   {
     "text": "Hoofdonderwerp",
@@ -3820,10 +3820,10 @@
       "formOnderwerp"
     ],
     "order": 73,
-    "elementId": "recyMrKNFDJ3yknhY",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recyMrKNFDJ3yknhY"
   },
   {
     "text": "Voila!",
@@ -3835,10 +3835,10 @@
       "main"
     ],
     "order": 198,
-    "elementId": "recyVqz8aezHKkKqV",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "recyVqz8aezHKkKqV"
   },
   {
     "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
@@ -3850,10 +3850,10 @@
       "main"
     ],
     "order": 158,
-    "elementId": "recyXXIfPzu33bOBW",
     "routeType": [
       "aside-info"
-    ]
+    ],
+    "elementId": "recyXXIfPzu33bOBW"
   },
   {
     "text": "OPSLAAN ALS DOC",
@@ -3865,10 +3865,10 @@
       "reviewBox/1"
     ],
     "order": 184,
-    "elementId": "reczNKzbVuSXoCPDF",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "reczNKzbVuSXoCPDF"
   },
   {
     "text": "Typ hier de documentnaam",
@@ -3881,10 +3881,10 @@
       "formSpecificDocuments/documentName"
     ],
     "order": 86,
-    "elementId": "reczSFOQss3JOYfBE",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "reczSFOQss3JOYfBE"
   },
   {
     "text": "Binnen overheidsorgaan",
@@ -3899,9 +3899,9 @@
       "formDocumentTypes"
     ],
     "order": 100,
-    "elementId": "reczpjM17OFfnyZzK",
     "routeType": [
       "form"
-    ]
+    ],
+    "elementId": "reczpjM17OFfnyZzK"
   }
 ]
