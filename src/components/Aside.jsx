@@ -8,7 +8,7 @@ import { AsideCloseButton } from './AsideCloseButton/AsideCloseButton'
 import { colors } from '../styles'
 import { getElementsBySlug } from '../reducers/formElements'
 import { ElementResolver } from './ElementResolver'
-import { toggleLetter } from '../actions/ui'
+import { closeLetter } from '../actions/ui'
 
 const AsideContainer = styled.aside({
   position: 'absolute',
@@ -22,10 +22,10 @@ const AsideContainer = styled.aside({
   borderRadius: '0 10px 0 0'
 })
 
-const Aside = ({ elements, toggleLetter }) => {
+const Aside = ({ elements, closeLetter }) => {
   useEffect(() => {
-    toggleLetter()
-  }, [toggleLetter])
+    closeLetter()
+  }, [closeLetter])
   return (
     <AsideContainer>
       <AsideCloseButton></AsideCloseButton>
@@ -45,7 +45,7 @@ const mapStateToProps = (state, { match }) => {
 
 const AsideConnected = connect(
   mapStateToProps,
-  { toggleLetter }
+  { closeLetter }
 )(Aside)
 
 const AsideRouter = () => {

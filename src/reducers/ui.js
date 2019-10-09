@@ -1,9 +1,11 @@
-import { TOGGLE_LETTER } from '../actions/ui'
+import { TOGGLE_LETTER, CLOSE_LETTER } from '../actions/ui'
 
 const ui = (state = { letterIsVisible: false }, action) => {
   switch (action.type) {
     case TOGGLE_LETTER:
       return { ...state, letterIsVisible: !state.letterIsVisible }
+    case CLOSE_LETTER:
+      return { ...state, letterIsVisible: false }
     default:
       return state
   }
