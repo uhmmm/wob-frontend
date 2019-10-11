@@ -2,7 +2,7 @@ import React from 'react'
 import styled from '@emotion/styled'
 import { connect } from 'react-redux'
 
-import { ElementResolver } from '../ElementResolver'
+import { FormElementResolver } from '../FormElementResolver'
 
 import { getElementsByProperty } from '../../reducers/formElements'
 
@@ -33,7 +33,7 @@ const Footer = ({ elements }) => (
   <FooterContainer>
     <DetailsContainer>
       {elements.map(el => {
-        return <ElementResolver key={el.elementId} el={el} />
+        return <FormElementResolver key={el.elementId} el={el} />
       })}
     </DetailsContainer>
     <Background src={backgroundImg} />

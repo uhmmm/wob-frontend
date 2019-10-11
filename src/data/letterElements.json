@@ -55,11 +55,11 @@
     "name": "all documents item subdoc report 5",
     "template": "Evaluaties",
     "type": "span",
-    "refEntityType": "letters",
-    "elementId": "rec4sfNuW0P0vOgcr",
     "letterConditionIds": [
       "recUyuASBMcX9lhCN"
-    ]
+    ],
+    "refEntityType": "letters",
+    "elementId": "rec4sfNuW0P0vOgcr"
   },
   {
     "name": "normal doc item subdoc prep 8",
@@ -305,8 +305,8 @@
     "elementId": "recEYQSPutuwsfKcH"
   },
   {
-    "elementId": "recEwYXyzOoYdlQJC",
     "name": "all documents item subdoc report",
+    "type": "listItem",
     "children": [
       "recJfM4WWMZceVV2p",
       "recwo6ZOs35WQ4nsB",
@@ -315,8 +315,8 @@
       "rec4sfNuW0P0vOgcr",
       "recpXAZ2i2yGCl40i"
     ],
-    "type": "listItem",
-    "refEntityType": "letters"
+    "refEntityType": "letters",
+    "elementId": "recEwYXyzOoYdlQJC"
   },
   {
     "name": "normal doc item subdoc prep 4",
@@ -432,11 +432,11 @@
     "name": "all documents item subdoc report 4",
     "template": "Voortgangsrapportages",
     "type": "span",
-    "refEntityType": "letters",
-    "elementId": "recJ2Mi3Z6ygaS8SJ",
     "letterConditionIds": [
       "recoZUuK5Z88RDoJh"
-    ]
+    ],
+    "refEntityType": "letters",
+    "elementId": "recJ2Mi3Z6ygaS8SJ"
   },
   {
     "name": "all documents  item subdoc meeting 3",
@@ -483,11 +483,11 @@
     "name": "all documents item subdoc report 1",
     "template": "Project- en programmaplannen",
     "type": "span",
-    "refEntityType": "letters",
-    "elementId": "recJfM4WWMZceVV2p",
     "letterConditionIds": [
       "reczpStFOxp70nwm7"
-    ]
+    ],
+    "refEntityType": "letters",
+    "elementId": "recJfM4WWMZceVV2p"
   },
   {
     "name": "all documents item subdoc external 5",
@@ -554,11 +554,11 @@
     "name": "all documents item subdoc financial 1",
     "template": "Begrotingen",
     "type": "span",
-    "refEntityType": "letters",
-    "elementId": "recQFd4Nlqi9yWxCP",
     "letterConditionIds": [
       "rechahRTqLSklm00r"
-    ]
+    ],
+    "refEntityType": "letters",
+    "elementId": "recQFd4Nlqi9yWxCP"
   },
   {
     "name": "writer city",
@@ -574,32 +574,32 @@
     "name": "all documents item subdoc report 3",
     "template": "Onderzoeksrapporten en auditrapportages",
     "type": "span",
-    "refEntityType": "letters",
-    "elementId": "recRC7cw9brLMjrmR",
     "letterConditionIds": [
       "recGlrLhWRvdDT8Th"
-    ]
+    ],
+    "refEntityType": "letters",
+    "elementId": "recRC7cw9brLMjrmR"
   },
   {
-    "elementId": "recTcvuY0RPzlnLh5",
     "name": "all documents item subdoc financial",
+    "type": "listItem",
     "children": [
       "recQFd4Nlqi9yWxCP",
       "recU9KfWo1Ni7dfHS",
       "reczXre9uD9ky9cZF"
     ],
-    "type": "listItem",
-    "refEntityType": "letters"
+    "refEntityType": "letters",
+    "elementId": "recTcvuY0RPzlnLh5"
   },
   {
     "name": "all documents item subdoc financial 2",
     "template": "Jaarverslagen",
     "type": "span",
-    "refEntityType": "letters",
-    "elementId": "recU9KfWo1Ni7dfHS",
     "letterConditionIds": [
       "rech2FeiwrSXXONRo"
-    ]
+    ],
+    "refEntityType": "letters",
+    "elementId": "recU9KfWo1Ni7dfHS"
   },
   {
     "name": "first alinea line 3",
@@ -1188,11 +1188,11 @@
     "name": "all documents item subdoc report 6",
     "template": "Pesentaties",
     "type": "span",
-    "refEntityType": "letters",
-    "elementId": "recpXAZ2i2yGCl40i",
     "letterConditionIds": [
       "rechO5kiPe4CECCgR"
-    ]
+    ],
+    "refEntityType": "letters",
+    "elementId": "recpXAZ2i2yGCl40i"
   },
   {
     "name": "writer postcode",
@@ -1366,11 +1366,11 @@
     "name": "all documents item subdoc report 2",
     "template": "Adviezen, zowel extern als intern",
     "type": "span",
-    "refEntityType": "letters",
-    "elementId": "recwo6ZOs35WQ4nsB",
     "letterConditionIds": [
       "recPfDAsBCpLvMr2v"
-    ]
+    ],
+    "refEntityType": "letters",
+    "elementId": "recwo6ZOs35WQ4nsB"
   },
   {
     "name": "data document list",
@@ -1463,10 +1463,10 @@
     "name": "all documents item subdoc financial 3",
     "template": "andere financiële documentatie",
     "type": "span",
-    "refEntityType": "letters",
-    "elementId": "reczXre9uD9ky9cZF",
     "letterConditionIds": [
       "reciqZKJP6fYOhDmi"
-    ]
+    ],
+    "refEntityType": "letters",
+    "elementId": "reczXre9uD9ky9cZF"
   }
 ]

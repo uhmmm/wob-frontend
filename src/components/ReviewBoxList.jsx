@@ -6,7 +6,7 @@ import { withRouter } from 'react-router'
 import { getRouteBySlug } from '../reducers/routes'
 import { getElementsByProperty } from '../reducers/formElements'
 import { colors } from '../styles'
-import { ElementResolver } from './ElementResolver'
+import { FormElementResolver } from './FormElementResolver'
 
 const ReviewBoxContainer = styled.div({
   background: colors.yellow,
@@ -15,12 +15,10 @@ const ReviewBoxContainer = styled.div({
   padding: '2rem'
 })
 
-const ReviewBox = ({ reviewBoxType, elements }) => {
+const ReviewBox = ({ rootElementId }) => {
   return (
     <ReviewBoxContainer>
-      {elements.map(el => {
-        return <ElementResolver key={el.elementId} el={el} />
-      })}
+      <FormElementResolver elementId={rootElementId} />
     </ReviewBoxContainer>
   )
 }

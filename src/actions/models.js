@@ -1,7 +1,7 @@
 import { groupBy } from 'lodash'
 import { normalize, schema } from 'normalizr'
 
-import variables from '../data/model'
+import variables from '../data/models'
 
 // schema
 const variableSchema = new schema.Entity(

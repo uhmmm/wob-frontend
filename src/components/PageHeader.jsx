@@ -3,7 +3,7 @@ import styled from '@emotion/styled'
 import { connect } from 'react-redux'
 import { withRouter } from 'react-router'
 
-import { ElementResolver } from './ElementResolver'
+import { FormElementResolver } from './FormElementResolver'
 import { Logo } from './Logo/Logo'
 
 import { getElementsByProperty } from '../reducers/formElements'
@@ -34,7 +34,7 @@ const Header = ({ elements }) => {
         <Logo />
       </LogoContainer>
       {elements.map(el => {
-        return <ElementResolver key={el.elementId} el={el} />
+        return <FormElementResolver key={el.elementId} el={el} />
       })}
     </HeaderContainer>
   )

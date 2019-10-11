@@ -3,7 +3,7 @@ import styled from '@emotion/styled'
 import { connect } from 'react-redux'
 import { withRouter } from 'react-router'
 
-import { ElementResolver } from './ElementResolver'
+import { FormElementResolver } from './FormElementResolver'
 
 import { getElementsByProperty } from '../reducers/formElements'
 import { getRouteBySlug } from '../reducers/routes'
@@ -23,12 +23,12 @@ const PageContentArea = ({ elements }) => {
     <ContentContainer>
       <ContentColumn>
         {elements[0].map(el => {
-          return <ElementResolver key={el.elementId} el={el} />
+          return <FormElementResolver key={el.elementId} el={el} />
         })}
       </ContentColumn>
       <ContentColumn>
         {elements[1].map(el => {
-          return <ElementResolver key={el.elementId} el={el} />
+          return <FormElementResolver key={el.elementId} el={el} />
         })}
       </ContentColumn>
     </ContentContainer>

@@ -4,7 +4,7 @@ import { Switch, Route } from 'react-router-dom'
 import { connect } from 'react-redux'
 
 import { Logo } from './Logo/Logo'
-import { ElementResolver } from './ElementResolver'
+import { FormElementResolverConnected } from './FormElementResolver'
 
 import { getElementsByProperty } from '../reducers/formElements'
 import { getRouteBySlug } from '../reducers/routes'
@@ -24,27 +24,28 @@ const LogoContainer = styled.div({
   margin: '0 0 4rem 0'
 })
 
-const Main = ({ elements }) => {
-  return elements.length > 0 ? (
+const Main = ({ rootElementId }) => {
+  return rootElementId ? (
     <MainContainer>
       <LogoContainer>
         <Logo />
       </LogoContainer>
-      {elements &&
-        elements.map(el => {
-          return <ElementResolver key={el.elementId} el={el}></ElementResolver>
-        })}
+      <FormElementResolverConnected elementId={rootElementId} />
     </MainContainer>
   ) : null
 }
 
 const mapStateToProps = (state, { match }) => {
   let route = getRouteBySlug(state, { slug: match.params.formSlug })
+
+  let rootElement = getElementsByProperty(state, {
+    routeId: [route.routeId],
+    partOf: ['main'],
+    type: 'root'
+  })[0]
+
   return {
-    elements: getElementsByProperty(state, {
-      routeId: [route.routeId],
-      partOf: ['main']
-    })
+    rootElementId: rootElement && rootElement.elementId
   }
 }
 

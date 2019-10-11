@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux'
 import { normalize, schema } from 'normalizr'
-import { filter, includes, sortBy } from 'lodash'
+import { filter, includes } from 'lodash'
 
 import { getRouteBySlug } from './routes'
 
@@ -45,16 +45,15 @@ export const getElementsBySlug = (state, { slug }) => {
   return selectedElements
 }
 
-export const getElementsByProperty = (state, { partOf, routeId }) => {
-  const routeElements = filter(state.formElements.byId, {
-    ...(routeId && { routeId })
+export const getElementsByProperty = (state, { partOf, type, routeId }) => {
+  return filter(state.formElements.byId, value => {
+    let routeFilter = routeId ? value.routeId[0] === routeId[0] : true
+    let partOfFilter = partOf ? includes(value.partOf, partOf[0]) : true
+    let typeFilter = type ? includes(value.type, type) : true
+    return routeFilter && partOfFilter && typeFilter
   })
+}
 
-  const partOfElements = filter(routeElements, value => {
-    return includes(value.partOf, partOf[0])
-  })
-
-  const sortedElements = sortBy(partOfElements, ['order'])
-
-  return sortedElements
+export const getElementById = (state, elementId) => {
+  return state.formElements.byId[elementId]
 }

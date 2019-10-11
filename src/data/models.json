@@ -1,0 +1,776 @@
+[
+  {
+    "name": "internalNotes",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterElementCondition": [
+      "recbP5Y8jNb1iAOIz",
+      "reciTwYacTFzKBCrI",
+      "recAUnnds8BL00Rrr"
+    ],
+    "model": "documents",
+    "variableId": "rec1GUDGJfM5ZGmIm"
+  },
+  {
+    "name": "allDocumentInternalEmail",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterElementCondition": [
+      "rectyuJHdLdkiy0QK",
+      "recDJbyv7JQXUoNzd",
+      "rec6jxTUdLfOhnklm"
+    ],
+    "model": "letters",
+    "variableId": "rec2bRtqSVi9qIUbh"
+  },
+  {
+    "name": "preparationPresentationList",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterElementCondition": [
+      "recxm1PvJZ9BFHDSP",
+      "recgjcMymIKiNOpX3"
+    ],
+    "model": "documents",
+    "variableId": "rec4DN45JnXEroHHa"
+  },
+  {
+    "name": "allDocumentMeetingPresentationList",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterElementCondition": [
+      "recJ7RI7BMxsPCt0r",
+      "reck0fh2FF3r7U0y5"
+    ],
+    "model": "letters",
+    "variableId": "rec4pO8ecqoUi3pyq"
+  },
+  {
+    "name": "writerEmail",
+    "placeholder": "<email schrijver>",
+    "type": "string",
+    "defaultValue": "rjkorteschiel@gmail.com",
+    "letterElementVariableList": [
+      "recJZOV89XFy341j6"
+    ],
+    "model": "letters",
+    "variableId": "rec5WMdkHpydPBAHR"
+  },
+  {
+    "name": "writerCity",
+    "placeholder": "<stad schrijver>",
+    "type": "string",
+    "defaultValue": "Amsterdam",
+    "letterElementVariableList": [
+      "recQdZUU2r3lsoAGX"
+    ],
+    "model": "letters",
+    "variableId": "rec5xNySVJlS3iuCG"
+  },
+  {
+    "name": "fieldName",
+    "placeholder": "<naam van dataveld>",
+    "type": "string",
+    "defaultValue": "Uitgaven",
+    "letterElementVariableList": [
+      "recykfCTJhfNFJFsT"
+    ],
+    "model": "fields",
+    "variableId": "rec6iuOieQ6zN9ec7"
+  },
+  {
+    "name": "preparationAdvice",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterElementCondition": [
+      "rec9HPrDoWnsM3uoY",
+      "recxm1PvJZ9BFHDSP"
+    ],
+    "model": "documents",
+    "variableId": "rec82a5ToVTfd6Q2V"
+  },
+  {
+    "name": "allDocumentMeetingReceivedPiece",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterElementCondition": [
+      "recFzdN6zRu1dYCiZ",
+      "reck0fh2FF3r7U0y5"
+    ],
+    "model": "letters",
+    "variableId": "rec8jvd33PRAkXuEO"
+  },
+  {
+    "name": "title",
+    "placeholder": "<titel of omschrijving document >",
+    "type": "string",
+    "defaultValue": "Lijst van ontslagen werknemers",
+    "letterElementVariableList": [
+      "recO3VTlacjvq08o5",
+      "recUjux43fPwKvsYg"
+    ],
+    "model": "documents",
+    "variableId": "rec9TlrAZiBE98jAi"
+  },
+  {
+    "name": "people",
+    "type": "array",
+    "model": "documents",
+    "variableId": "rec9tofqEQvb2Jzws"
+  },
+  {
+    "name": "externalLetters",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterElementCondition": [
+      "recx5bPtBkw8qZAjf",
+      "recwkQJZVLOAXOfn5",
+      "recUk14CbQ3sTTIl8"
+    ],
+    "model": "documents",
+    "variableId": "recBPuL9uNkUx8Dwg"
+  },
+  {
+    "name": "externalDM",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterElementCondition": [
+      "recqRyCuB0az2xIpD",
+      "recwkQJZVLOAXOfn5",
+      "recUk14CbQ3sTTIl8"
+    ],
+    "model": "documents",
+    "variableId": "recBT0acUW1sJLqjo"
+  },
+  {
+    "name": "allDocumentMeetingDecisionList",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterElementCondition": [
+      "recCgjROsp1lDR5ln",
+      "reck0fh2FF3r7U0y5"
+    ],
+    "model": "letters",
+    "variableId": "recCpBGP3EPFA784Z"
+  },
+  {
+    "name": "allDocumentExternalEmail",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterElementCondition": [
+      "recZ89rx1RbjmoPjv",
+      "rectEQincwKhFzmFm"
+    ],
+    "model": "letters",
+    "variableId": "recDqqPIxZQl3GOP4"
+  },
+  {
+    "name": "preparationMeetingNotes",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterElementCondition": [
+      "reciD6vNCpGchdinE",
+      "recxm1PvJZ9BFHDSP"
+    ],
+    "model": "documents",
+    "variableId": "recGTnK0sr28naWED"
+  },
+  {
+    "name": "allDocumentReportResearch",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterElementCondition": [
+      "recRC7cw9brLMjrmR"
+    ],
+    "model": "letters",
+    "variableId": "recGlrLhWRvdDT8Th"
+  },
+  {
+    "name": "governmentEmail",
+    "placeholder": "<email overheid>",
+    "type": "string",
+    "defaultValue": "stadhuis@enkhuizen.nl",
+    "model": "letters",
+    "variableId": "recGyJdOWEP4JmxIL"
+  },
+  {
+    "name": "date",
+    "placeholder": "<document datum>",
+    "type": "dateTime",
+    "defaultValue": "12-11-2016",
+    "letterElementVariableList": [
+      "recbqjvY2PoHnVRFF",
+      "recb2Ow9eyrgqQhxU"
+    ],
+    "model": "documents",
+    "variableId": "recIHGfeCBwPo2srV"
+  },
+  {
+    "name": "allDocumentMeetingMeetingNotes",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterElementCondition": [
+      "recl6zMnhBCb7o4Fy",
+      "reck0fh2FF3r7U0y5"
+    ],
+    "model": "letters",
+    "variableId": "recKOhvJQ141WS0qm"
+  },
+  {
+    "name": "letterDisplayDateTime",
+    "placeholder": "<datum brief>",
+    "type": "dateTime",
+    "defaultValue": "11-09-1967",
+    "letterElementVariableList": [
+      "recwMrZEDSxyYNP3E"
+    ],
+    "model": "letters",
+    "variableId": "recLXsKfmlXj5KvB6"
+  },
+  {
+    "name": "periodEnd",
+    "placeholder": "<eind periode>",
+    "type": "dateTime",
+    "defaultValue": "18-12-2018",
+    "letterElementVariableList": [
+      "recNumn3wYDGD9kEN"
+    ],
+    "model": "periods",
+    "variableId": "recLimOccLeDzWNO5"
+  },
+  {
+    "name": "writerIsJournalist",
+    "type": "boolean",
+    "defaultValue": "false",
+    "letterElementCondition": [
+      "recV1Ki51EkbP8GND",
+      "recuBqC4qVDhhBHGM",
+      "recyJYiAOq7aeXJew",
+      "recoHwJy02ZWavkwR"
+    ],
+    "model": "letters",
+    "variableId": "recLssr69f4Y9QlJv"
+  },
+  {
+    "name": "allDocumentExternalLetters",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterElementCondition": [
+      "recZ89rx1RbjmoPjv",
+      "rec18F7toaQkL3Xem",
+      "recsn7tV3SpEJOMGo",
+      "recLed3GLcsRxog9C",
+      "rectEQincwKhFzmFm"
+    ],
+    "model": "letters",
+    "variableId": "recM7fASAJY9v6TT6"
+  },
+  {
+    "name": "preparationDecision",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterElementCondition": [
+      "reco7JycsMorXIoay",
+      "recxm1PvJZ9BFHDSP"
+    ],
+    "model": "documents",
+    "variableId": "recMqFdH7zwYVTBdw"
+  },
+  {
+    "name": "allDocumentExternalNotes",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterElementCondition": [
+      "recZ89rx1RbjmoPjv",
+      "rectEQincwKhFzmFm"
+    ],
+    "model": "letters",
+    "variableId": "recNEalRqitgir7DI"
+  },
+  {
+    "name": "letterSubject",
+    "placeholder": "<onderwerp brief>",
+    "type": "string",
+    "defaultValue": "Ontslagregeling Belastingdienst",
+    "letterElementVariableList": [
+      "rectBT638iPD1Dl8s",
+      "recUHMuHIwZ0Vm9Zf",
+      "reciPlnL2c9hbJCOq"
+    ],
+    "model": "letters",
+    "variableId": "recNtTsesz5BufwXp"
+  },
+  {
+    "name": "writerPostcode",
+    "placeholder": "<postcode schrijver>",
+    "type": "string",
+    "defaultValue": "1057AA",
+    "letterElementVariableList": [
+      "recpeJsBI2Voc4Jzy"
+    ],
+    "model": "letters",
+    "variableId": "recP4gqrTXXVjh40S"
+  },
+  {
+    "name": "documents",
+    "type": "array",
+    "defaultValue": "<documents>",
+    "model": "letters",
+    "variableId": "recPMxVvV3bfm9Nqy"
+  },
+  {
+    "name": "fields",
+    "type": "array",
+    "model": "documents",
+    "variableId": "recPPWHAia2YexJL3"
+  },
+  {
+    "name": "allDocumentReportAdvice",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterElementCondition": [
+      "recwo6ZOs35WQ4nsB"
+    ],
+    "model": "letters",
+    "variableId": "recPfDAsBCpLvMr2v"
+  },
+  {
+    "name": "governmentAdress",
+    "placeholder": "<adres overheid>",
+    "type": "string",
+    "defaultValue": "Hoogstraat 11",
+    "letterElementVariableList": [
+      "recpIDfXukBbapZFZ"
+    ],
+    "model": "letters",
+    "variableId": "recQ13uaYcfWfWBA2"
+  },
+  {
+    "name": "governmentCity",
+    "placeholder": "<stad overheid>",
+    "type": "string",
+    "defaultValue": "Enkhuizen",
+    "letterElementVariableList": [
+      "recFqdAp7tWbs0RKA"
+    ],
+    "model": "letters",
+    "variableId": "recRLK9Fp2oMReIlz"
+  },
+  {
+    "name": "externalNotes",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterElementCondition": [
+      "recpUZP5tJhwXAaNV",
+      "recwkQJZVLOAXOfn5",
+      "recUk14CbQ3sTTIl8"
+    ],
+    "model": "documents",
+    "variableId": "recSJsWlzTnBbzgHz"
+  },
+  {
+    "name": "writerOrganisationName",
+    "placeholder": "<organisatie schrijver>",
+    "type": "string",
+    "defaultValue": "Research Assistant",
+    "letterElementVariableList": [
+      "recV1Ki51EkbP8GND",
+      "recuBqC4qVDhhBHGM",
+      "recoHwJy02ZWavkwR",
+      "rec7dlXGSWI3F0UHk"
+    ],
+    "model": "letters",
+    "variableId": "recSis7QyiY32Egfq"
+  },
+  {
+    "name": "internalDM",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterElementCondition": [
+      "rec5btTVR2impeNCE",
+      "reciTwYacTFzKBCrI",
+      "recAUnnds8BL00Rrr"
+    ],
+    "model": "documents",
+    "variableId": "recU0eiiPmlk8w6mt"
+  },
+  {
+    "name": "writerAdress",
+    "placeholder": "<adres schrijver>",
+    "type": "string",
+    "defaultValue": "Orteliuskade 4G",
+    "letterElementVariableList": [
+      "recdrQE0ijOE3sQC2"
+    ],
+    "model": "letters",
+    "variableId": "recULhVxwwMIj63yT"
+  },
+  {
+    "name": "allDocumentReportEvaluations",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterElementCondition": [
+      "rec4sfNuW0P0vOgcr"
+    ],
+    "model": "letters",
+    "variableId": "recUyuASBMcX9lhCN"
+  },
+  {
+    "name": "preparationReceivedPiece",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterElementCondition": [
+      "recF3V0mJ1tef63f0",
+      "recxm1PvJZ9BFHDSP"
+    ],
+    "model": "documents",
+    "variableId": "recV1YU35GNuYDlic"
+  },
+  {
+    "name": "allDocumentMeetingInvitation",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterElementCondition": [
+      "recOBIkAaJgj1fB2Q",
+      "reck0fh2FF3r7U0y5"
+    ],
+    "model": "letters",
+    "variableId": "recWV1Ye6OlRWUP7C"
+  },
+  {
+    "name": "IsDataset",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterElementCondition": [
+      "recx3xUDskpZKAU6w"
+    ],
+    "model": "documents",
+    "variableId": "recY5syfbiVrQnBsm"
+  },
+  {
+    "name": "preparationInvitation",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterElementCondition": [
+      "recxm1PvJZ9BFHDSP",
+      "rec1YBuh3lpJwjUjv"
+    ],
+    "model": "documents",
+    "variableId": "recZVMypnRLJj70lD"
+  },
+  {
+    "name": "governmentAdresseeName",
+    "placeholder": "<naam bestuurder>",
+    "type": "string",
+    "defaultValue": "Dhr. E.A. van Zuilen",
+    "letterElementVariableList": [
+      "recIA2LPy1lEqhcPE",
+      "recdwYJzTElkQZbtE"
+    ],
+    "model": "letters",
+    "variableId": "recZfrIFSPmI9rTBV"
+  },
+  {
+    "name": "internalEmail",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterElementCondition": [
+      "recebJGnZ8FiPQYpu",
+      "reciTwYacTFzKBCrI",
+      "recAUnnds8BL00Rrr"
+    ],
+    "model": "documents",
+    "variableId": "recamgDGddLCv3qcP"
+  },
+  {
+    "name": "internalLetters",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterElementCondition": [
+      "rechTMndF3kackifk",
+      "reciTwYacTFzKBCrI",
+      "recAUnnds8BL00Rrr"
+    ],
+    "model": "documents",
+    "variableId": "recapIZd8BKQgOu7S"
+  },
+  {
+    "name": "allDocumentMeetingAdvice",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterElementCondition": [
+      "rec2OaOq0UhfcKGzB",
+      "reck0fh2FF3r7U0y5"
+    ],
+    "model": "letters",
+    "variableId": "recbbGDlkzymQry69"
+  },
+  {
+    "name": "writerName",
+    "placeholder": "<naam schrijver>",
+    "type": "string",
+    "defaultValue": "Robert-Jan Korteschiel",
+    "letterElementVariableList": [
+      "reccdjOg0pXsMwGqF",
+      "recGZ24PTNFFcUpMU"
+    ],
+    "model": "letters",
+    "variableId": "recc3RABaErKOmYPM"
+  },
+  {
+    "name": "allDocumentMeetingDecision",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterElementCondition": [
+      "recUaZNPmb8v778xO",
+      "reck0fh2FF3r7U0y5"
+    ],
+    "model": "letters",
+    "variableId": "reccsjQTk0nsHRj0V"
+  },
+  {
+    "name": "allDocumentExternalDM",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterElementCondition": [
+      "recZ89rx1RbjmoPjv",
+      "recBNfeppgUrIlJZE",
+      "rectEQincwKhFzmFm"
+    ],
+    "model": "letters",
+    "variableId": "recdOpND33lY5oubX"
+  },
+  {
+    "name": "externalEmail",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterElementCondition": [
+      "reckZj9wI7z7UTfpu",
+      "recwkQJZVLOAXOfn5",
+      "recUk14CbQ3sTTIl8"
+    ],
+    "model": "documents",
+    "variableId": "recdcUShbh698S3sw"
+  },
+  {
+    "name": "allDocumentInternalDM",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterElementCondition": [
+      "recs9erGVKiaRrpPC",
+      "recDJbyv7JQXUoNzd",
+      "rec6jxTUdLfOhnklm"
+    ],
+    "model": "letters",
+    "variableId": "recfUGvHaqWEt6PTt"
+  },
+  {
+    "name": "allDocumentFinancialYearReports",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterElementCondition": [
+      "recU9KfWo1Ni7dfHS"
+    ],
+    "model": "letters",
+    "variableId": "rech2FeiwrSXXONRo"
+  },
+  {
+    "name": "allDocumentInternalNotes",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterElementCondition": [
+      "rec7hSZGbhPtLm4pp",
+      "recDJbyv7JQXUoNzd",
+      "rec6jxTUdLfOhnklm"
+    ],
+    "model": "letters",
+    "variableId": "rechO0MV4FB4eE0qO"
+  },
+  {
+    "name": "allDocumentReportPresentations",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterElementCondition": [
+      "recpXAZ2i2yGCl40i"
+    ],
+    "model": "letters",
+    "variableId": "rechO5kiPe4CECCgR"
+  },
+  {
+    "name": "allDocumentFinancialBudgets",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterElementCondition": [
+      "recQFd4Nlqi9yWxCP"
+    ],
+    "model": "letters",
+    "variableId": "rechahRTqLSklm00r"
+  },
+  {
+    "name": "people",
+    "type": "array",
+    "model": "letters",
+    "variableId": "rechlobXLn1fDUkB5"
+  },
+  {
+    "name": "allDocumentFinancialOther",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterElementCondition": [
+      "reczXre9uD9ky9cZF"
+    ],
+    "model": "letters",
+    "variableId": "reciqZKJP6fYOhDmi"
+  },
+  {
+    "name": "letterJounalisticRelevance",
+    "type": "boolean",
+    "defaultValue": "false",
+    "letterElementCondition": [
+      "reck0WYTrwB8gKjcT"
+    ],
+    "model": "letters",
+    "variableId": "recjrzkCFobvw05e1"
+  },
+  {
+    "name": "letterForOrganisation",
+    "type": "boolean",
+    "defaultValue": "false",
+    "letterElementCondition": [
+      "recV1Ki51EkbP8GND",
+      "recuBqC4qVDhhBHGM",
+      "recyJYiAOq7aeXJew",
+      "recoHwJy02ZWavkwR",
+      "rec7dlXGSWI3F0UHk"
+    ],
+    "model": "letters",
+    "variableId": "reck0yQhyHjq9r7R3"
+  },
+  {
+    "name": "allDocumentMeetingNotes",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterElementCondition": [
+      "recgbumrfjqhPK7pc",
+      "reck0fh2FF3r7U0y5"
+    ],
+    "model": "letters",
+    "variableId": "reclz9B4gbk02Hu9W"
+  },
+  {
+    "name": "allDocumentInternalLetters",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterElementCondition": [
+      "rec5rHx64VRgBqiuC",
+      "recDJbyv7JQXUoNzd",
+      "rec6jxTUdLfOhnklm"
+    ],
+    "model": "letters",
+    "variableId": "recnr9KrtbUb8sFyE"
+  },
+  {
+    "name": "governmentName",
+    "placeholder": "<naam overheid>",
+    "type": "string",
+    "defaultValue": "Gemeente Enkhuizen",
+    "letterElementVariableList": [
+      "recoBx1EsqlJfcYSj"
+    ],
+    "model": "letters",
+    "variableId": "recoNy1jGMl93XAI7"
+  },
+  {
+    "name": "allDocumentReportProgress",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterElementCondition": [
+      "recJ2Mi3Z6ygaS8SJ"
+    ],
+    "model": "letters",
+    "variableId": "recoZUuK5Z88RDoJh"
+  },
+  {
+    "name": "governmentPostcode",
+    "placeholder": "<postcode overheid>",
+    "type": "string",
+    "defaultValue": "1600AA",
+    "letterElementVariableList": [
+      "recYj8hutXMIFkWjY"
+    ],
+    "model": "letters",
+    "variableId": "recpHZMDmThSywJfQ"
+  },
+  {
+    "name": "periods",
+    "type": "array",
+    "model": "letters",
+    "variableId": "recqtCxD8KXLpCd0z"
+  },
+  {
+    "name": "preparationDecisionList",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterElementCondition": [
+      "recXRppdimtKF3v2q",
+      "recxm1PvJZ9BFHDSP"
+    ],
+    "model": "documents",
+    "variableId": "recr3JmwBoIw1LVwT"
+  },
+  {
+    "name": "personName",
+    "placeholder": "<naam van persoon>",
+    "type": "string",
+    "defaultValue": "Mark Rutte",
+    "letterElementVariableList": [
+      "recB9y7mdEo3Ga5Xy",
+      "rec8PrTMHQ6uw8ygj"
+    ],
+    "model": "people",
+    "variableId": "recrLm1uJ2VP5Jtwx"
+  },
+  {
+    "name": "writerTelephone",
+    "placeholder": "<telefoon schrijver>",
+    "type": "string",
+    "defaultValue": "0614441410",
+    "letterElementVariableList": [
+      "rec8SbcryiGF2OGH1"
+    ],
+    "model": "letters",
+    "variableId": "recrcCszAnodIqKw6"
+  },
+  {
+    "name": "preparationNotes",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterElementCondition": [
+      "rec5IxJnhBo9DouPx",
+      "recxm1PvJZ9BFHDSP"
+    ],
+    "model": "documents",
+    "variableId": "recvdGJ6CbZmDwNRp"
+  },
+  {
+    "name": "periodStart",
+    "placeholder": "<begin periode>",
+    "type": "dateTime",
+    "defaultValue": "18-12-1988",
+    "letterElementVariableList": [
+      "recdAFc8UJsHzfsG8"
+    ],
+    "model": "periods",
+    "variableId": "recx1yddA58KsdT2a"
+  },
+  {
+    "name": "allDocumentReportProjectPlans",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterElementCondition": [
+      "recJfM4WWMZceVV2p"
+    ],
+    "model": "letters",
+    "variableId": "reczpStFOxp70nwm7"
+  }
+]
