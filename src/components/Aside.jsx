@@ -7,7 +7,7 @@ import { AsideCloseButton } from './AsideCloseButton/AsideCloseButton'
 
 import { colors } from '../styles'
 import { getElementsBySlug } from '../reducers/formElements'
-import { FormElementResolver } from './FormElementResolver'
+import { FormElementResolverConnected } from './FormElementResolver'
 import { closeLetter } from '../actions/ui'
 
 const AsideContainer = styled.aside({
@@ -31,7 +31,7 @@ const Aside = ({ elements, closeLetter }) => {
       <AsideCloseButton></AsideCloseButton>
       {elements &&
         elements.map(el => {
-          return <FormElementResolver key={el.elementId} el={el} />
+          return <FormElementResolverConnected key={el.elementId} el={el} />
         })}
     </AsideContainer>
   )

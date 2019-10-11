@@ -3,7 +3,7 @@ import styled from '@emotion/styled'
 import { connect } from 'react-redux'
 import { withRouter } from 'react-router'
 
-import { FormElementResolver } from './FormElementResolver'
+import { FormElementResolverConnected } from './FormElementResolver'
 import { Logo } from './Logo/Logo'
 
 import { getElementsByProperty } from '../reducers/formElements'
@@ -27,26 +27,26 @@ const LogoContainer = styled.div({
   margin: '0 0 0rem 0'
 })
 
-const Header = ({ elements }) => {
+const Header = ({ rootElementId }) => {
   return (
     <HeaderContainer>
       <LogoContainer>
         <Logo />
       </LogoContainer>
-      {elements.map(el => {
-        return <FormElementResolver key={el.elementId} el={el} />
-      })}
+      <FormElementResolverConnected elementId={rootElementId} />
     </HeaderContainer>
   )
 }
 
 const mapStateToProps = (state, { match }) => {
   let route = getRouteBySlug(state, { slug: match.params.pageSlug })
+  let rootElement = getElementsByProperty(state, {
+    routeId: [route.routeId],
+    partOf: ['pageHeader'],
+    type: 'root'
+  })
   return {
-    elements: getElementsByProperty(state, {
-      partOf: ['pageHeader'],
-      routeId: [route.routeId]
-    })
+    rootElementId: rootElement && rootElement[0].elementId
   }
 }
 

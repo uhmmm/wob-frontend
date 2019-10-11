@@ -46,10 +46,12 @@ export const getElementsBySlug = (state, { slug }) => {
 }
 
 export const getElementsByProperty = (state, { partOf, type, routeId }) => {
-  return filter(state.formElements.byId, value => {
-    let routeFilter = routeId ? value.routeId[0] === routeId[0] : true
-    let partOfFilter = partOf ? includes(value.partOf, partOf[0]) : true
-    let typeFilter = type ? includes(value.type, type) : true
+  return filter(state.formElements.byId, filterValue => {
+    let routeFilter = routeId ? filterValue.routeId[0] === routeId[0] : true
+    let partOfFilter = partOf
+      ? partOf.some(mapValue => includes(filterValue.partOf, mapValue))
+      : true
+    let typeFilter = type ? includes(filterValue.type, type) : true
     return routeFilter && partOfFilter && typeFilter
   })
 }

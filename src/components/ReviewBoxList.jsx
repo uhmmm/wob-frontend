@@ -6,7 +6,7 @@ import { withRouter } from 'react-router'
 import { getRouteBySlug } from '../reducers/routes'
 import { getElementsByProperty } from '../reducers/formElements'
 import { colors } from '../styles'
-import { FormElementResolver } from './FormElementResolver'
+import { FormElementResolverConnected } from './FormElementResolver'
 
 const ReviewBoxContainer = styled.div({
   background: colors.yellow,
@@ -18,7 +18,7 @@ const ReviewBoxContainer = styled.div({
 const ReviewBox = ({ rootElementId }) => {
   return (
     <ReviewBoxContainer>
-      <FormElementResolver elementId={rootElementId} />
+      <FormElementResolverConnected elementId={rootElementId} />
     </ReviewBoxContainer>
   )
 }
@@ -30,28 +30,30 @@ const ReviewBoxListContainer = styled.div({
   width: '20rem'
 })
 
-const ReviewBoxList = ({ elementsList }) => {
-  return elementsList[0].length > 0 ? (
+const ReviewBoxList = ({ rootElementIds }) => {
+  return rootElementIds.length > 0 ? (
     <ReviewBoxListContainer>
-      <ReviewBox elements={elementsList[0]} />
-      <ReviewBox elements={elementsList[1]} wobKnop />
+      <ReviewBox rootElementId={rootElementIds[0]} />
+      <ReviewBox rootElementId={rootElementIds[1]} wobKnop />
     </ReviewBoxListContainer>
   ) : null
 }
 
 const mapStateToProps = (state, { match }) => {
   let route = getRouteBySlug(state, { slug: match.params.formSlug })
+
+  let rootElementIds = getElementsByProperty(state, {
+    partOf: ['reviewBox/1', 'reviewBox/2'],
+    routeId: [route.routeId],
+    type: 'root'
+  }).map(value => {
+    return value && value.elementId
+  })
+
+  console.log(rootElementIds)
+
   return {
-    elementsList: [
-      getElementsByProperty(state, {
-        partOf: ['reviewBox/1'],
-        routeId: [route.routeId]
-      }),
-      getElementsByProperty(state, {
-        partOf: ['reviewBox/2'],
-        routeId: [route.routeId]
-      })
-    ]
+    rootElementIds
   }
 }
 

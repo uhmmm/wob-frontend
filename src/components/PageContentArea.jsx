@@ -3,7 +3,7 @@ import styled from '@emotion/styled'
 import { connect } from 'react-redux'
 import { withRouter } from 'react-router'
 
-import { FormElementResolver } from './FormElementResolver'
+import { FormElementResolverConnected } from './FormElementResolver'
 
 import { getElementsByProperty } from '../reducers/formElements'
 import { getRouteBySlug } from '../reducers/routes'
@@ -18,18 +18,14 @@ const ContentColumn = styled.section({
   '&:last-of-type': { padding: '16rem 8rem 8rem 8rem' }
 })
 
-const PageContentArea = ({ elements }) => {
+const PageContentArea = ({ rootElementIds }) => {
   return (
     <ContentContainer>
       <ContentColumn>
-        {elements[0].map(el => {
-          return <FormElementResolver key={el.elementId} el={el} />
-        })}
+        <FormElementResolverConnected elementId={rootElementIds[0]} />
       </ContentColumn>
       <ContentColumn>
-        {elements[1].map(el => {
-          return <FormElementResolver key={el.elementId} el={el} />
-        })}
+        <FormElementResolverConnected elementId={rootElementIds[1]} />
       </ContentColumn>
     </ContentContainer>
   )
@@ -37,17 +33,15 @@ const PageContentArea = ({ elements }) => {
 
 const mapStateToProps = (state, { match }) => {
   let route = getRouteBySlug(state, { slug: match.params.pageSlug })
+  let rootElementIds = getElementsByProperty(state, {
+    partOf: ['pageBlock/1', 'pageBlock/2'],
+    routeId: [route.routeId],
+    type: 'root'
+  })
   return {
-    elements: [
-      getElementsByProperty(state, {
-        partOf: ['pageBlock/1'],
-        routeId: [route.routeId]
-      }),
-      getElementsByProperty(state, {
-        partOf: ['pageBlock/2'],
-        routeId: [route.routeId]
-      })
-    ]
+    rootElementIds: rootElementIds.map(value => {
+      return value && value.elementId
+    })
   }
 }
 

@@ -2,7 +2,7 @@ import React from 'react'
 import styled from '@emotion/styled'
 import { connect } from 'react-redux'
 
-import { FormElementResolver } from '../FormElementResolver'
+import { FormElementResolverConnected } from '../FormElementResolver'
 
 import { getElementsByProperty } from '../../reducers/formElements'
 
@@ -29,22 +29,24 @@ const DetailsContainer = styled.div({
   background: colors.white
 })
 
-const Footer = ({ elements }) => (
-  <FooterContainer>
-    <DetailsContainer>
-      {elements.map(el => {
-        return <FormElementResolver key={el.elementId} el={el} />
-      })}
-    </DetailsContainer>
-    <Background src={backgroundImg} />
-  </FooterContainer>
-)
+const Footer = ({ rootElementId }) => {
+  return (
+    <FooterContainer>
+      <DetailsContainer>
+        <FormElementResolverConnected elementId={rootElementId} />
+      </DetailsContainer>
+      <Background src={backgroundImg} />
+    </FooterContainer>
+  )
+}
 
 const mapStateToProps = state => {
+  let rootElement = getElementsByProperty(state, {
+    partOf: ['pageFooter'],
+    type: 'root'
+  })
   return {
-    elements: getElementsByProperty(state, {
-      partOf: ['pageFooter']
-    })
+    rootElementId: rootElement && rootElement[0].elementId
   }
 }
 

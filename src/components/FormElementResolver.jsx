@@ -39,4 +39,4 @@ const FormElementResolverConnected = connect(mapStateToProps)(
   FormElementResolver
 )
 
-export { FormElementResolver, FormElementResolverConnected }
+export { FormElementResolverConnected }

@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from '@emotion/styled'
-import { colors } from '../styles'
 
 import { ListBubbleConnected } from './ListBubble'
 import { ListInfoConnected } from './ListInfo'
@@ -33,9 +32,9 @@ export const elements = {
 
   markdown: Markdown,
 
-  buttonLarge: props => <Button btnType="buttonSmall" {...props} />,
+  buttonLarge: props => <Button btnType="buttonLarge" {...props} />,
   buttonMedium: props => <Button btnType="buttonMedium" {...props} />,
-  buttonSmall: props => <Button btnType="buttonLarge" {...props} />,
+  buttonSmall: props => <Button btnType="buttonSmall" {...props} />,
 
   listBubble: ListBubbleConnected,
   listCheck: ListCheckboxConnected,
