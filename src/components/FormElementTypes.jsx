@@ -6,7 +6,6 @@ import { ListItemInfo, ListInfoContainer } from './ListInfo'
 import { ListItemCheckbox } from './ListCheckbox'
 import { SpecificDocumentsConnected } from './SpecificDocuments'
 import { InstituteCard } from './InstituteCard'
-import { ContactDetailsConnected } from './ContactDetails'
 import { DateTimePicker } from './DateTimePicker'
 import { DocumentTypesConnected } from './DocumentTypes'
 import { Button } from './Button'
@@ -15,10 +14,12 @@ import { Title } from './Title'
 import { TextBlock } from './TextBlock'
 import { Markdown } from './Markdown'
 import { CallToAction } from './CallToAction'
+import { Input } from './Input'
 
 const Container = styled.div({})
 const List = styled.ul({})
 const ListItem = styled.li({})
+const Label = styled.label({})
 
 export const elements = {
   root: Container,
@@ -48,10 +49,13 @@ export const elements = {
   listItemInfo: ListItemInfo,
   listParticipant: List,
   listItemParticipant: ListItem,
+  listForm: List,
+
+  inputSmall: props => <Input {...props} />,
+  label: Label,
 
   SpecificDocumentsConnected,
   instituteCard: InstituteCard,
-  ContactDetailsConnected,
   dateTimePicker: DateTimePicker,
   DocumentTypesConnected,
 

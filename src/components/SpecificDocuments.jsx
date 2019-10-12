@@ -1,19 +1,17 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import { getElementsByProperty } from '../reducers/formElements'
-import { groupBy } from 'lodash'
 
 import { ListItemCheckbox } from './ListCheckbox'
 import { Button } from './Button'
-import { InputField } from './InputField'
 import { Tabs } from './Tabs'
 
 const SpecificDocuments = ({ elements }) => {
-  let formElementGroups = groupBy(elements, 'partOf')
-  let inputEls =
-    formElementGroups[
-      'formSpecificDocuments,formSpecificDocuments/documentName'
-    ]
+  // let formElementGroups = groupBy(elements, 'partOf')
+  // let inputEls =
+  //   formElementGroups[
+  //     'formSpecificDocuments,formSpecificDocuments/documentName'
+  //   ]
   return (
     <>
       <Tabs />
@@ -21,7 +19,9 @@ const SpecificDocuments = ({ elements }) => {
         elements.map((el, elKey) => {
           switch (el.type) {
             case 'inputSmall':
-              return <InputField key={elKey} elements={inputEls} />
+              console.log('TODO')
+              return ''
+            // return <InputField key={elKey} elements={inputEls} />
             case 'listItemCheckYellow':
               return (
                 <ListItemCheckbox
