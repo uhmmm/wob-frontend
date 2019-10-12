@@ -1260,16 +1260,16 @@
     "name": "correspondentieTussen/peopleForm/button",
     "text": "VOEG PERSOON TOE",
     "type": "buttonMedium",
-    "routeType": [
-      "aside-document-type"
-    ],
-    "elementId": "recF7fpJjYTE6D2xR",
     "routeId": [
       "rec9Dw2AnuF75GNl2"
     ],
     "partOf": [
       "main"
-    ]
+    ],
+    "routeType": [
+      "aside-document-type"
+    ],
+    "elementId": "recF7fpJjYTE6D2xR"
   },
   {
     "name": "landing/cta/button",
@@ -1360,19 +1360,19 @@
   {
     "name": "correspondentieTussen/peopleForm/list",
     "type": "refList",
+    "routeId": [
+      "rec9Dw2AnuF75GNl2"
+    ],
+    "partOf": [
+      "main"
+    ],
     "children": [
       "recsboy0v5frhFQim"
     ],
     "routeType": [
       "aside-document-type"
     ],
-    "elementId": "recG5OElEeK54XKq7",
-    "routeId": [
-      "rec9Dw2AnuF75GNl2"
-    ],
-    "partOf": [
-      "main"
-    ]
+    "elementId": "recG5OElEeK54XKq7"
   },
   {
     "name": "form/institute/title",
@@ -2458,22 +2458,22 @@
     "elementId": "recQNu3YNEhDHS4Jr"
   },
   {
+    "name": "correspondentieTussen/peopleForm/listContainer",
+    "type": "container",
     "routeId": [
       "rec9Dw2AnuF75GNl2"
     ],
     "partOf": [
       "main"
     ],
-    "routeType": [
-      "aside-document-type"
-    ],
-    "elementId": "recQjZFlhayTQ0Qyt",
-    "name": "correspondentieTussen/peopleForm/listContainer",
-    "type": "container",
     "children": [
       "recG5OElEeK54XKq7",
       "recF7fpJjYTE6D2xR"
-    ]
+    ],
+    "routeType": [
+      "aside-document-type"
+    ],
+    "elementId": "recQjZFlhayTQ0Qyt"
   },
   {
     "name": "form/aanvullend/text",
@@ -4247,7 +4247,7 @@
   },
   {
     "name": "form/institute/instituteBlock",
-    "type": "instituteBlock",
+    "type": "instituteCard",
     "routeId": [
       "recv6iVTRTh27ylhL"
     ],
@@ -4797,16 +4797,16 @@
     "name": "correspondentieTussen/peopleForm/list/item",
     "text": "Typ hier de naam van de ambtenaar",
     "type": "inputSmallCancellable",
-    "routeType": [
-      "aside-document-type"
-    ],
-    "elementId": "recsboy0v5frhFQim",
     "routeId": [
       "rec9Dw2AnuF75GNl2"
     ],
     "partOf": [
       "main"
-    ]
+    ],
+    "routeType": [
+      "aside-document-type"
+    ],
+    "elementId": "recsboy0v5frhFQim"
   },
   {
     "name": "meetingNotes/check/2",

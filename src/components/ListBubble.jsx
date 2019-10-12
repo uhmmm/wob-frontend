@@ -1,13 +1,11 @@
 import React from 'react'
 import styled from '@emotion/styled'
-import { connect } from 'react-redux'
-import { getElementsByProperty } from '../reducers/formElements'
 
 import { Bubble } from './Bubble/Bubble'
 
 import { type, colors } from '../styles'
 
-const ListBubbleContainer = styled.ul({ margin: '0 0 2rem' })
+const ListItemBubbleContainer = styled.ul({ margin: '0 0 2rem' })
 
 const ListItemContainer = styled.li({
   ...type.content.medium,
@@ -24,35 +22,11 @@ const Label = styled.label({
   color: colors.darkestGrey
 })
 
-const ListItemBubble = ({ children, number }) => (
+const ListItemBubble = ({ children, number = 1 }) => (
   <ListItemContainer>
     <Bubble number={number} />
     <Label>{children}</Label>
   </ListItemContainer>
 )
 
-const ListBubble = ({ elements }) => (
-  <ListBubbleContainer>
-    {elements.map((el, key) => {
-      return (
-        <ListItemBubble
-          key={el.elementId}
-          number={key + 1}
-          linkRouteId={el.linkRouteId}
-        >
-          {el.text}
-        </ListItemBubble>
-      )
-    })}
-  </ListBubbleContainer>
-)
-
-const mapStateToProps = (state, { routeId }) => {
-  return {
-    elements: getElementsByProperty(state, { partOf: ['listBubble'], routeId })
-  }
-}
-
-const ListBubbleConnected = connect(mapStateToProps)(ListBubble)
-
-export { ListBubbleConnected }
+export { ListItemBubble, ListItemBubbleContainer }

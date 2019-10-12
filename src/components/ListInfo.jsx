@@ -1,7 +1,5 @@
 import React from 'react'
 import styled from '@emotion/styled'
-import { connect } from 'react-redux'
-import { getElementsByProperty } from '../reducers/formElements'
 
 import { InfoLinkRouted } from './InfoLink'
 
@@ -29,35 +27,15 @@ const TextSpan = styled.span({
   margin: '0 1rem 0 0'
 })
 
-const ListItemInfo = ({ linkRouteId, text }) => (
+const ListItemInfo = ({ element, children }) => (
   <ListItemContainer>
     <Label>
-      <TextSpan>{text}</TextSpan>
-      {linkRouteId && <InfoLinkRouted linkRouteId={linkRouteId} />}
+      <TextSpan>{children}</TextSpan>
+      {element.linkRouteId && (
+        <InfoLinkRouted linkRouteId={element.linkRouteId} />
+      )}
     </Label>
   </ListItemContainer>
 )
 
-const ListInfo = ({ elements }) => (
-  <ListInfoContainer>
-    {elements.map((el, key) => {
-      return (
-        <ListItemInfo
-          key={el.elementId}
-          linkRouteId={el.linkRouteId}
-          text={el.text}
-        />
-      )
-    })}
-  </ListInfoContainer>
-)
-
-const mapStateToProps = (state, { routeId }) => {
-  return {
-    elements: getElementsByProperty(state, { partOf: ['listInfo'], routeId })
-  }
-}
-
-const ListInfoConnected = connect(mapStateToProps)(ListInfo)
-
-export { ListInfoConnected }
+export { ListInfoContainer, ListItemInfo }

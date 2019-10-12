@@ -50,8 +50,6 @@ const mapStateToProps = (state, { match }) => {
     return value && value.elementId
   })
 
-  console.log(rootElementIds)
-
   return {
     rootElementIds
   }

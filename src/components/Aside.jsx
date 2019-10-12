@@ -4,11 +4,13 @@ import { Switch, Route } from 'react-router-dom'
 import { connect } from 'react-redux'
 
 import { AsideCloseButton } from './AsideCloseButton/AsideCloseButton'
+import { FormElementResolverConnected } from './FormElementResolver'
+
+import { getElementsByProperty } from '../reducers/formElements'
+import { getRouteBySlug } from '../reducers/routes'
+import { closeLetter } from '../actions/ui'
 
 import { colors } from '../styles'
-import { getElementsBySlug } from '../reducers/formElements'
-import { FormElementResolverConnected } from './FormElementResolver'
-import { closeLetter } from '../actions/ui'
 
 const AsideContainer = styled.aside({
   position: 'absolute',
@@ -22,24 +24,27 @@ const AsideContainer = styled.aside({
   borderRadius: '0 10px 0 0'
 })
 
-const Aside = ({ elements, closeLetter }) => {
+const Aside = ({ elementId, closeLetter }) => {
   useEffect(() => {
     closeLetter()
   }, [closeLetter])
   return (
     <AsideContainer>
       <AsideCloseButton></AsideCloseButton>
-      {elements &&
-        elements.map(el => {
-          return <FormElementResolverConnected key={el.elementId} el={el} />
-        })}
+      <FormElementResolverConnected elementId={elementId} />
     </AsideContainer>
   )
 }
 
 const mapStateToProps = (state, { match }) => {
+  let route = getRouteBySlug(state, { slug: match.params.asideSlug })
+  let rootElement = getElementsByProperty(state, {
+    routeId: [route.routeId],
+    partOf: ['main'],
+    type: 'root'
+  })[0]
   return {
-    elements: getElementsBySlug(state, { slug: match.params.asideSlug })
+    elementId: rootElement && rootElement.elementId
   }
 }
 

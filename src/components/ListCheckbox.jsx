@@ -1,7 +1,5 @@
 import React from 'react'
 import styled from '@emotion/styled'
-import { connect } from 'react-redux'
-import { getElementsByProperty } from '../reducers/formElements'
 
 import { InfoLinkRouted } from './InfoLink'
 import { Checkbox } from './Checkbox/Checkbox'
@@ -20,37 +18,16 @@ const Label = styled.label({
 })
 const TextSpan = styled.span({ margin: ' 0 1rem 0 0' })
 
-const ListItemCheckbox = ({ text, linkRouteId }) => (
+const ListItemCheckbox = ({ children, element }) => (
   <CheckboxLineContainer>
     <Checkbox />
     <Label>
-      <TextSpan>{text}</TextSpan>
-      {linkRouteId && <InfoLinkRouted linkRouteId={linkRouteId} />}
+      <TextSpan>{children}</TextSpan>
+      {element.linkRouteId && (
+        <InfoLinkRouted linkRouteId={element.linkRouteId} />
+      )}
     </Label>
   </CheckboxLineContainer>
 )
 
-const ListCheckboxContainer = styled.ul({})
-const ListCheckbox = ({ elements }) => (
-  <ListCheckboxContainer>
-    {elements.map(el => {
-      return (
-        <ListItemCheckbox
-          key={el.elementId}
-          text={el.text}
-          linkRouteId={el.linkRouteId}
-        />
-      )
-    })}
-  </ListCheckboxContainer>
-)
-
-const mapStateToProps = (state, { routeId }) => {
-  return {
-    elements: getElementsByProperty(state, { partOf: ['listCheck'], routeId })
-  }
-}
-
-const ListCheckboxConnected = connect(mapStateToProps)(ListCheckbox)
-
-export { ListItemCheckbox, ListCheckbox, ListCheckboxConnected }
+export { ListItemCheckbox }

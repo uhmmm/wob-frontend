@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from '@emotion/styled'
 
-import { ListBubbleConnected } from './ListBubble'
-import { ListInfoConnected } from './ListInfo'
-import { ListCheckboxConnected } from './ListCheckbox'
+import { ListItemBubble, ListItemBubbleContainer } from './ListBubble'
+import { ListItemInfo, ListInfoContainer } from './ListInfo'
+import { ListItemCheckbox } from './ListCheckbox'
 import { SpecificDocumentsConnected } from './SpecificDocuments'
 import { InstituteCard } from './InstituteCard'
 import { ContactDetailsConnected } from './ContactDetails'
@@ -17,9 +17,13 @@ import { Markdown } from './Markdown'
 import { CallToAction } from './CallToAction'
 
 const Container = styled.div({})
+const List = styled.ul({})
+const ListItem = styled.li({})
 
 export const elements = {
   root: Container,
+  container: Container,
+  field: Container,
 
   titleLarge: props => <Title titleType="titleLarge" {...props} />,
   titleMedium: props => <Title titleType="titleMedium" {...props} />,
@@ -36,14 +40,19 @@ export const elements = {
   buttonMedium: props => <Button btnType="buttonMedium" {...props} />,
   buttonSmall: props => <Button btnType="buttonSmall" {...props} />,
 
-  listBubble: ListBubbleConnected,
-  listCheck: ListCheckboxConnected,
-  listInfo: ListInfoConnected,
+  listBubble: ListItemBubbleContainer,
+  listItemBubble: ListItemBubble,
+  listCheck: List,
+  listItemCheckYellow: ListItemCheckbox,
+  listInfo: ListInfoContainer,
+  listItemInfo: ListItemInfo,
+  listParticipant: List,
+  listItemParticipant: ListItem,
 
   SpecificDocumentsConnected,
-  InstituteCard,
+  instituteCard: InstituteCard,
   ContactDetailsConnected,
-  DateTimePicker,
+  dateTimePicker: DateTimePicker,
   DocumentTypesConnected,
 
   TextFieldConnected,
