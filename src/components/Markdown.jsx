@@ -4,14 +4,22 @@ import ReactMarkdown from 'react-markdown'
 
 import { type } from '../styles'
 
-const MarkdownContainer = styled.div({
+const MarkdownContainer = styled.div(({ spacing }) => ({
   h4: { ...type.title.xsmall, margin: '0 0 2rem' },
-  h5: { ...type.content.mediumSpacedHead, margin: '0 0 2rem' },
-  p: { ...type.content.mediumSpaced, margin: '0 0 2rem' }
-})
+  h5: {
+    ...(spacing === 'wide'
+      ? type.content.mediumSpacedHead
+      : type.content.mediumHead),
+    margin: '0 0 2rem'
+  },
+  p: {
+    ...(spacing === 'wide' ? type.content.mediumSpaced : type.content.medium),
+    margin: '0 0 2rem'
+  }
+}))
 
-const Markdown = ({ element }) => (
-  <MarkdownContainer>
+const Markdown = ({ element, spacing = 'wide' }) => (
+  <MarkdownContainer spacing={spacing}>
     <ReactMarkdown source={element.text} />
   </MarkdownContainer>
 )

@@ -16,10 +16,16 @@ import { Markdown } from './Markdown'
 import { CallToAction } from './CallToAction'
 import { Input } from './Input'
 
+import { type, colors } from '../styles'
+
 const Container = styled.div({})
 const List = styled.ul({})
 const ListItem = styled.li({})
-const Label = styled.label({})
+const Label = styled.label({
+  ...type.contentMono.medium,
+  color: colors.darkestGrey
+})
+const Span = styled.span({})
 
 export const elements = {
   root: Container,
@@ -35,7 +41,8 @@ export const elements = {
   textLarge: props => <TextBlock textType="textLarge" {...props} />,
   textMedium: props => <TextBlock textType="textMedium" {...props} />,
 
-  markdown: Markdown,
+  markdownWide: props => <Markdown spacing="wide" {...props} />,
+  markdownNormal: props => <Markdown spacing="normal" {...props} />,
 
   buttonLarge: props => <Button btnType="buttonLarge" {...props} />,
   buttonMedium: props => <Button btnType="buttonMedium" {...props} />,
@@ -53,6 +60,7 @@ export const elements = {
 
   inputSmall: props => <Input {...props} />,
   label: Label,
+  required: Span,
 
   SpecificDocumentsConnected,
   instituteCard: InstituteCard,

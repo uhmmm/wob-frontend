@@ -18,10 +18,11 @@ const AsideContainer = styled.aside({
   left: 0,
   width: '40rem',
   padding: '4rem',
-  minHeight: '100vh',
+  height: 'calc(100vh - 16rem)',
   background: colors.darkestWhite,
   boxShadow: '1px 1p',
-  borderRadius: '0 10px 0 0'
+  borderRadius: '0 10px 0 0',
+  overflow: 'scroll'
 })
 
 const Aside = ({ elementId, closeLetter }) => {

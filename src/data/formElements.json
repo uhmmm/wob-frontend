@@ -489,6 +489,10 @@
     "partOf": [
       "main"
     ],
+    "children": [
+      "recD0oBdMB5qQE1Jg",
+      "recMep7bTlJ0idWpL"
+    ],
     "routeType": [
       "form"
     ],
@@ -1067,7 +1071,7 @@
   },
   {
     "name": "contactGegevens/field/phone/required",
-    "text": "verstandig",
+    "text": " - verstandig",
     "type": "required",
     "routeId": [
       "recXFPF4VRj3yvCLg"
@@ -1082,7 +1086,7 @@
   },
   {
     "name": "contactGegevens/field/city/required",
-    "text": "verplicht",
+    "text": " - verplicht",
     "type": "required",
     "routeId": [
       "recXFPF4VRj3yvCLg"
@@ -1463,7 +1467,7 @@
   {
     "name": "afsluiting/pageBlock1/markdown",
     "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.\n\n Meer weten? Check de VVOJ website voor ons Wob-blog:",
-    "type": "markdown",
+    "type": "markdownWide",
     "routeId": [
       "recvBgzyf1d88SkiI"
     ],
@@ -1645,7 +1649,7 @@
   {
     "name": "juisteOverheid/text",
     "text": "Zo kies je de juiste overheidsinstantie:\n\nLocatie -  Vraag je af welke instantie over het onderwerp gaat? Is het een lokale, een provinciale of rijkskwestie? Bij wie kunnen documenten over het onderwerp zijn opgeslagen?\n\nGoogle - Als je er niet uitkomt, Google dan je onderwerp en kijk bij welke overheidsinstanties je uit komt.\nMeerdere instanties Als er meerdere overheidsinstanties over het onderwerp gaan, dan kun je meerdere verzoeken indienen. Probeer te vermijden dat het precies hetzelfde document op meerdere plekken vraagt.\n\nWob hoog - Als de ene instantie onder de verantwoordelijkheid van de andere instantie valt, dien je verzoek dan in bij de hoogste instantie. Denk bijvoorbeeld aan de Immigratie en Naturalisatiedienst (IND). Deze dienst valt onder het ministerie van Justitie en Veiligheid. Weet je niet zeker of de documenten bij de IND of het Ministerie liggen, wob dan het Ministerie.\n\nWel overheidstaak, geen Wob - Let op: er zijn organisaties die wel een wettelijke taak hebben, maar toch niet onder de Wob vallen en daarom niet in de lijst staan. Dat komt omdat ze ondanks hun wettelijke taak private bedrijven zijn.\n\nDoorgeleiding - Wees gerust: als je toch de verkeerde instantie hebt gekozen, is die instantie verplicht om je verzoek naar de juiste instantie door te sturen. Uiteraard gaat daar wel wat tijd overheen. \n\nNaamsverandering - Let op: overheidsinstanties veranderen regelmatig van naam. Denk aan het Ministerie van Veiligheid & Justitie dat veranderd is in Justitie & Veiligheid. We proberen dit up to date te houden maar laat het ons vooral weten als onze lijst is verouderd.",
-    "type": "textMedium",
+    "type": "markdownNormal",
     "routeId": [
       "recv02YYylO77PUOI"
     ],
@@ -1861,7 +1865,7 @@
   {
     "name": "afsluiting/pageBlock2/markdown",
     "text": "We hebben een poging gewaagd het Wob-proces te vangen in deze app, maar op punten zullen ongetwijfeld dingen iets minder lekker werken of hebben we een keuze gemaakt waarmee jij het niet eens bent.  Daarover willen we graag feedback!\n\nWe hebben hiervoor een mooi formulier gemaakt:",
-    "type": "markdown",
+    "type": "markdownWide",
     "routeId": [
       "recvBgzyf1d88SkiI"
     ],
@@ -1900,6 +1904,10 @@
     ],
     "partOf": [
       "main"
+    ],
+    "children": [
+      "recCrGBwRU3xUOr35",
+      "rectHE1L3ZZdnKYNg"
     ],
     "routeType": [
       "form"
@@ -2101,7 +2109,7 @@
   },
   {
     "name": "contactGegevens/field/email/required",
-    "text": "handig",
+    "text": " - handig",
     "type": "required",
     "routeId": [
       "recXFPF4VRj3yvCLg"
@@ -2230,9 +2238,7 @@
       "main"
     ],
     "children": [
-      "recjH5WT5T89a49wu",
-      "recZQ5ABHdhZpjGMB",
-      "recubJUzAQUQ19Rnh"
+      "recZQ5ABHdhZpjGMB"
     ],
     "routeType": [
       "form"
@@ -2378,9 +2384,7 @@
       "main"
     ],
     "children": [
-      "recjJo4WWB7VHF9lB",
-      "recjmnrTem3Dh4PB0",
-      "rechbBCHVCedDOgOf"
+      "recjmnrTem3Dh4PB0"
     ],
     "routeType": [
       "form"
@@ -2785,7 +2789,7 @@
   {
     "name": "landing/footer/markdown",
     "text": "De Wob-generator is een project van de Wob-werkgroep van de Vlaams-Nederlandse Vereniging van Onderzoeksjournalisten (VVOJ) en  financieel mogelijk gemaakt door Stichting Lira.\n\nDe Wob-werkgroep van de VVOJ beheert de website. De website is op geen enkele manier verbonden aan de Nederlandse overheid. Zij opereert volstrekt onafhankelijk.",
-    "type": "markdown",
+    "type": "markdownWide",
     "routeId": [
       "recSx2NzrOTdbxZR5",
       "recvBgzyf1d88SkiI"
@@ -3033,6 +3037,10 @@
     "partOf": [
       "main"
     ],
+    "children": [
+      "recNIdhmFrjVlt8l9",
+      "recoKHeB65dXV1vKe"
+    ],
     "routeType": [
       "form"
     ],
@@ -3062,6 +3070,10 @@
     ],
     "partOf": [
       "main"
+    ],
+    "children": [
+      "recubJUzAQUQ19Rnh",
+      "recjH5WT5T89a49wu"
     ],
     "routeType": [
       "form"
@@ -3146,6 +3158,10 @@
     ],
     "partOf": [
       "main"
+    ],
+    "children": [
+      "recspRXu9V61onFsF",
+      "recnojywrsdvNfG6d"
     ],
     "routeType": [
       "form"
@@ -3367,15 +3383,13 @@
     "partOf": [
       "main"
     ],
-    "children": [
-      "rectHE1L3ZZdnKYNg",
-      "recL7SNmfGbWfjx8Z",
-      "recCrGBwRU3xUOr35"
-    ],
     "routeType": [
       "form"
     ],
-    "elementId": "recclpgJmQSUzUWU0"
+    "elementId": "recclpgJmQSUzUWU0",
+    "children": [
+      "recL7SNmfGbWfjx8Z"
+    ]
   },
   {
     "name": "form/supplementalDocs/title",
@@ -3726,7 +3740,7 @@
   },
   {
     "name": "contactGegevens/field/name/required",
-    "text": "verplicht",
+    "text": " - verplicht",
     "type": "required",
     "routeId": [
       "recXFPF4VRj3yvCLg"
@@ -3989,9 +4003,7 @@
       "main"
     ],
     "children": [
-      "recoKHeB65dXV1vKe",
-      "recYrExKlXaZgnUzU",
-      "recNIdhmFrjVlt8l9"
+      "recYrExKlXaZgnUzU"
     ],
     "routeType": [
       "form"
@@ -4029,7 +4041,11 @@
     "routeType": [
       "form"
     ],
-    "elementId": "recjmnrTem3Dh4PB0"
+    "elementId": "recjmnrTem3Dh4PB0",
+    "children": [
+      "rechbBCHVCedDOgOf",
+      "recjJo4WWB7VHF9lB"
+    ]
   },
   {
     "name": "informatieverzoeken/text",
@@ -4610,9 +4626,7 @@
       "main"
     ],
     "children": [
-      "recnojywrsdvNfG6d",
-      "recaB2vvGtwgOzxAy",
-      "recspRXu9V61onFsF"
+      "recaB2vvGtwgOzxAy"
     ],
     "routeType": [
       "form"
@@ -4825,7 +4839,7 @@
   },
   {
     "name": "contactGegevens/field/postcode/required",
-    "text": "verplicht",
+    "text": " - verplicht",
     "type": "required",
     "routeId": [
       "recXFPF4VRj3yvCLg"
@@ -4945,7 +4959,7 @@
   },
   {
     "name": "contactGegevens/field/adress/required",
-    "text": "verplicht",
+    "text": " - verplicht",
     "type": "required",
     "routeId": [
       "recXFPF4VRj3yvCLg"
@@ -4997,7 +5011,7 @@
   {
     "name": "landing/pageblock1/markdown",
     "text": "#### Wat is de Wet openbaarheid van bestuur?\n\nIedereen heeft het recht om informatie op te vragen bij de overheid. Dat noemen we een Wob-verzoek. In de Wet openbaarheid van bestuur, afgekort: de Wob, is geregeld waar zo’n verzoek aan moet voldoen. Het doen van dit verzoek wordt vaak ‘wobben’ genoemd.\n\n#### Hoe doe ik een Wob-verzoek?\n\nHet opstellen van een Wob-verzoek is niet moeilijk, maar het verzoek moet wel aan een aantal voorwaarden voldoen. Met de Wob-generator helpen we je een goed en geldig Wob-verzoek op te stellen. Kies welke documenten je wil opvragen en bij welke overheidsinstantie. Klaar! Je kunt nu je Wob-verzoek uitprinten en versturen via de post of digitaal verzenden via de Wob-Knop. ",
-    "type": "markdown",
+    "type": "markdownWide",
     "routeId": [
       "recSx2NzrOTdbxZR5"
     ],
@@ -5049,9 +5063,7 @@
       "main"
     ],
     "children": [
-      "recMep7bTlJ0idWpL",
-      "rec3l9cWCPsjprOX4",
-      "recD0oBdMB5qQE1Jg"
+      "rec3l9cWCPsjprOX4"
     ],
     "routeType": [
       "form"
@@ -5253,7 +5265,7 @@
   },
   {
     "name": "form/specificDocs/documentsComponent/document/field/required",
-    "text": "verstandig",
+    "text": "- verstandig",
     "type": "required",
     "routeId": [
       "recsW8iUGWbySdl1T"
@@ -5314,7 +5326,7 @@
   {
     "name": "landing/pageblock2/markdown",
     "text": "#### 1. Wobben is niet moeilijk!\n\nHet lijkt intimiderend om een goed geschreven informatieverzoek te schrijven. Maar als je een paar basisprincipes kent, dan is het een vrij simpel foefje.\n\n#### 2. Transparantie is een samenwerking\n\nHet lijkt intimiderend om een goed geschreven informatieverzoek te schrijven. Maar als je een paar basisprincipes kent, dan is het een vrij simpel foefje.\n\n#### 3. In Nederland wordt weinig geWobt\n\nHet lijkt intimiderend om een goed geschreven informatieverzoek te schrijven. Maar als je een paar basisprincipes kent, dan is het een vrij simpel foefje.",
-    "type": "markdown",
+    "type": "markdownWide",
     "routeId": [
       "recSx2NzrOTdbxZR5"
     ],
