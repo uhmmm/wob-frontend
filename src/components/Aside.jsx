@@ -20,7 +20,6 @@ const AsideContainer = styled.aside({
   padding: '4rem',
   height: 'calc(100vh - 16rem)',
   background: colors.darkestWhite,
-  boxShadow: '1px 1p',
   borderRadius: '0 10px 0 0',
   overflow: 'scroll'
 })

@@ -9,7 +9,7 @@ import { InstituteCard } from './InstituteCard'
 import { DateTimePicker } from './DateTimePicker'
 import { DocumentTypesConnected } from './DocumentTypes'
 import { Button } from './Button'
-import { TextFieldConnected } from './TextField'
+import { TextField } from './TextField'
 import { Title } from './Title'
 import { TextBlock } from './TextBlock'
 import { Markdown } from './Markdown'
@@ -18,6 +18,7 @@ import { Input } from './Input'
 
 import { type, colors } from '../styles'
 
+const RootContainer = styled.div({ height: '100%' })
 const Container = styled.div({})
 const List = styled.ul({})
 const ListItem = styled.li({})
@@ -28,7 +29,7 @@ const Label = styled.label({
 const Span = styled.span({})
 
 export const elements = {
-  root: Container,
+  root: RootContainer,
   container: Container,
   field: Container,
 
@@ -52,22 +53,30 @@ export const elements = {
   listItemBubble: ListItemBubble,
   listCheck: List,
   listItemCheckYellow: ListItemCheckbox,
+  listItemCheckYellowIndent: props => (
+    <ListItemCheckbox indented={true} {...props} />
+  ),
+  listItemCheckWhite: ListItemCheckbox,
+  listItemCheckWhiteIndent: props => (
+    <ListItemCheckbox indented={true} {...props} />
+  ),
   listInfo: ListInfoContainer,
   listItemInfo: ListItemInfo,
   listParticipant: List,
   listItemParticipant: ListItem,
   listForm: List,
 
-  inputSmall: props => <Input {...props} />,
+  inputSmall: Input,
+  inputLarge: TextField,
   label: Label,
   required: Span,
+
+  refTab: Container,
 
   SpecificDocumentsConnected,
   instituteCard: InstituteCard,
   dateTimePicker: DateTimePicker,
   DocumentTypesConnected,
-
-  TextFieldConnected,
 
   CallToAction
 }

@@ -47,7 +47,7 @@
   },
   {
     "name": "writerEmail",
-    "placeholder": "<email schrijver>",
+    "letterPlaceholder": "<email schrijver>",
     "type": "string",
     "defaultValue": "rjkorteschiel@gmail.com",
     "letterElementVariableList": [
@@ -58,7 +58,7 @@
   },
   {
     "name": "writerCity",
-    "placeholder": "<stad schrijver>",
+    "letterPlaceholder": "<stad schrijver>",
     "type": "string",
     "defaultValue": "Amsterdam",
     "letterElementVariableList": [
@@ -69,7 +69,7 @@
   },
   {
     "name": "fieldName",
-    "placeholder": "<naam van dataveld>",
+    "letterPlaceholder": "<naam van dataveld>",
     "type": "string",
     "defaultValue": "Uitgaven",
     "letterElementVariableList": [
@@ -102,7 +102,7 @@
   },
   {
     "name": "title",
-    "placeholder": "<titel of omschrijving document >",
+    "letterPlaceholder": "<titel of omschrijving document >",
     "type": "string",
     "defaultValue": "Lijst van ontslagen werknemers",
     "letterElementVariableList": [
@@ -187,7 +187,7 @@
   },
   {
     "name": "governmentEmail",
-    "placeholder": "<email overheid>",
+    "letterPlaceholder": "<email overheid>",
     "type": "string",
     "defaultValue": "stadhuis@enkhuizen.nl",
     "model": "letters",
@@ -195,7 +195,7 @@
   },
   {
     "name": "date",
-    "placeholder": "<document datum>",
+    "letterPlaceholder": "<document datum>",
     "type": "dateTime",
     "defaultValue": "12-11-2016",
     "letterElementVariableList": [
@@ -218,7 +218,7 @@
   },
   {
     "name": "letterDisplayDateTime",
-    "placeholder": "<datum brief>",
+    "letterPlaceholder": "<datum brief>",
     "type": "dateTime",
     "defaultValue": "11-09-1967",
     "letterElementVariableList": [
@@ -229,7 +229,7 @@
   },
   {
     "name": "periodEnd",
-    "placeholder": "<eind periode>",
+    "letterPlaceholder": "<eind periode>",
     "type": "dateTime",
     "defaultValue": "18-12-2018",
     "letterElementVariableList": [
@@ -289,7 +289,7 @@
   },
   {
     "name": "letterSubject",
-    "placeholder": "<onderwerp brief>",
+    "letterPlaceholder": "<onderwerp brief>",
     "type": "string",
     "defaultValue": "Ontslagregeling Belastingdienst",
     "letterElementVariableList": [
@@ -302,7 +302,7 @@
   },
   {
     "name": "writerPostcode",
-    "placeholder": "<postcode schrijver>",
+    "letterPlaceholder": "<postcode schrijver>",
     "type": "string",
     "defaultValue": "1057AA",
     "letterElementVariableList": [
@@ -314,7 +314,6 @@
   {
     "name": "documents",
     "type": "array",
-    "defaultValue": "<documents>",
     "model": "letters",
     "variableId": "recPMxVvV3bfm9Nqy"
   },
@@ -336,7 +335,7 @@
   },
   {
     "name": "governmentAdress",
-    "placeholder": "<adres overheid>",
+    "letterPlaceholder": "<adres overheid>",
     "type": "string",
     "defaultValue": "Hoogstraat 11",
     "letterElementVariableList": [
@@ -347,7 +346,7 @@
   },
   {
     "name": "governmentCity",
-    "placeholder": "<stad overheid>",
+    "letterPlaceholder": "<stad overheid>",
     "type": "string",
     "defaultValue": "Enkhuizen",
     "letterElementVariableList": [
@@ -370,7 +369,7 @@
   },
   {
     "name": "writerOrganisationName",
-    "placeholder": "<organisatie schrijver>",
+    "letterPlaceholder": "<organisatie schrijver>",
     "type": "string",
     "defaultValue": "Research Assistant",
     "letterElementVariableList": [
@@ -396,7 +395,7 @@
   },
   {
     "name": "writerAdress",
-    "placeholder": "<adres schrijver>",
+    "letterPlaceholder": "<adres schrijver>",
     "type": "string",
     "defaultValue": "Orteliuskade 4G",
     "letterElementVariableList": [
@@ -460,7 +459,7 @@
   },
   {
     "name": "governmentAdresseeName",
-    "placeholder": "<naam bestuurder>",
+    "letterPlaceholder": "<naam bestuurder>",
     "type": "string",
     "defaultValue": "Dhr. E.A. van Zuilen",
     "letterElementVariableList": [
@@ -507,7 +506,7 @@
   },
   {
     "name": "writerName",
-    "placeholder": "<naam schrijver>",
+    "letterPlaceholder": "<naam schrijver>",
     "type": "string",
     "defaultValue": "Robert-Jan Korteschiel",
     "letterElementVariableList": [
@@ -671,7 +670,7 @@
   },
   {
     "name": "governmentName",
-    "placeholder": "<naam overheid>",
+    "letterPlaceholder": "<naam overheid>",
     "type": "string",
     "defaultValue": "Gemeente Enkhuizen",
     "letterElementVariableList": [
@@ -692,7 +691,7 @@
   },
   {
     "name": "governmentPostcode",
-    "placeholder": "<postcode overheid>",
+    "letterPlaceholder": "<postcode overheid>",
     "type": "string",
     "defaultValue": "1600AA",
     "letterElementVariableList": [
@@ -720,7 +719,7 @@
   },
   {
     "name": "personName",
-    "placeholder": "<naam van persoon>",
+    "letterPlaceholder": "<naam van persoon>",
     "type": "string",
     "defaultValue": "Mark Rutte",
     "letterElementVariableList": [
@@ -732,7 +731,7 @@
   },
   {
     "name": "writerTelephone",
-    "placeholder": "<telefoon schrijver>",
+    "letterPlaceholder": "<telefoon schrijver>",
     "type": "string",
     "defaultValue": "0614441410",
     "letterElementVariableList": [
@@ -754,7 +753,7 @@
   },
   {
     "name": "periodStart",
-    "placeholder": "<begin periode>",
+    "letterPlaceholder": "<begin periode>",
     "type": "dateTime",
     "defaultValue": "18-12-1988",
     "letterElementVariableList": [

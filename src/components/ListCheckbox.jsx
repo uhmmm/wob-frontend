@@ -6,10 +6,11 @@ import { Checkbox } from './Checkbox/Checkbox'
 
 import { type, colors } from '../styles'
 
-const CheckboxLineContainer = styled.div({
+const CheckboxLineContainer = styled.div(({ indented }) => ({
   display: 'flex',
-  alignItems: 'center'
-})
+  alignItems: 'center',
+  padding: indented ? '0 0 0 3rem' : '0 0 0 0 '
+}))
 
 const Label = styled.label({
   margin: '0 0 0 1rem',
@@ -18,8 +19,8 @@ const Label = styled.label({
 })
 const TextSpan = styled.span({ margin: ' 0 1rem 0 0' })
 
-const ListItemCheckbox = ({ children, element }) => (
-  <CheckboxLineContainer>
+const ListItemCheckbox = ({ children, element, indented }) => (
+  <CheckboxLineContainer indented={indented}>
     <Checkbox />
     <Label>
       <TextSpan>{children}</TextSpan>

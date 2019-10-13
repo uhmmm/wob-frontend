@@ -324,7 +324,25 @@
     "elementId": "rec2ZkoFazkw2cgfq"
   },
   {
-    "name": "form/specificDocs/documentsComponent/document/checklist",
+    "routeId": [
+      "recwdo8dQw6g3RqYT"
+    ],
+    "partOf": [
+      "main"
+    ],
+    "routeType": [
+      "form"
+    ],
+    "elementId": "rec2dWA4X2TemDBYG",
+    "name": "form/allesOverDocumentTypen/types/check/5",
+    "type": "listItemCheckYellow",
+    "text": "Dataset",
+    "linkRouteId": [
+      "recb0ga4MXJN4XP0N"
+    ]
+  },
+  {
+    "name": "form/specificDocs/documentsComponent/checklist",
     "type": "listCheck",
     "routeId": [
       "recsW8iUGWbySdl1T"
@@ -569,7 +587,6 @@
   },
   {
     "name": "form/subject/subjectInputGroup/",
-    "text": "Hoofdonderwerp",
     "type": "container",
     "routeId": [
       "rechhv82awVzZNu2c"
@@ -578,28 +595,13 @@
       "main"
     ],
     "children": [
-      "rec1YhxCT4tdUROGG",
       "recyMrKNFDJ3yknhY",
-      "recLublnaRbwnfKPw"
+      "rec1YhxCT4tdUROGG"
     ],
     "routeType": [
       "form"
     ],
     "elementId": "rec4nB1FhrvQAHBN4"
-  },
-  {
-    "name": "allesOverDocumentTypen/documents",
-    "type": "refList",
-    "routeId": [
-      "recwdo8dQw6g3RqYT"
-    ],
-    "partOf": [
-      "main"
-    ],
-    "routeType": [
-      "form"
-    ],
-    "elementId": "rec4s7hzrbNK3VvJc"
   },
   {
     "name": "milieu/title",
@@ -1532,20 +1534,6 @@
     "elementId": "recHSj1Q66DPs69Lj"
   },
   {
-    "name": "form/specificDocs/documentsComponent/tabs",
-    "type": "refTab",
-    "routeId": [
-      "recsW8iUGWbySdl1T"
-    ],
-    "partOf": [
-      "main"
-    ],
-    "routeType": [
-      "form"
-    ],
-    "elementId": "recHTRDKG6kBsj8Qp"
-  },
-  {
     "name": "digitaalOfNiet/title",
     "text": "Digitaal of niet?",
     "type": "titleMedium",
@@ -1798,6 +1786,28 @@
     "elementId": "recJhS0LioudP6Rwl"
   },
   {
+    "routeId": [
+      "recwdo8dQw6g3RqYT"
+    ],
+    "partOf": [
+      "main"
+    ],
+    "routeType": [
+      "form"
+    ],
+    "elementId": "recJlS3oghr14N1rV",
+    "name": "form/allesOverDocumentTypen/types",
+    "type": "listCheck",
+    "children": [
+      "recW15QjBWAIdtlfG",
+      "recMw7lOaE4UaTSFw",
+      "recMiG0ZKUy5SAe9s",
+      "recW23iTxL9zXwipf",
+      "rec2dWA4X2TemDBYG",
+      "recohHHfScf03SMiV"
+    ]
+  },
+  {
     "name": "form/review/box/1/text",
     "text": "Lees de brief nog een keer goed door en exporteer hem",
     "type": "textMedium",
@@ -1970,7 +1980,7 @@
   },
   {
     "name": "form/subject/subjectInputGroup/required",
-    "text": "verplicht",
+    "text": " - verplicht",
     "type": "required",
     "routeId": [
       "rechhv82awVzZNu2c"
@@ -2002,7 +2012,7 @@
     "elementId": "recM4K92QEeUH9T8M"
   },
   {
-    "name": "form/specificDocs/documentsComponent/document/checklist/item/1",
+    "name": "form/specificDocs/documentsComponent/checklist/item/1",
     "text": "Ik wil ook de aanvullende stukken",
     "type": "listItemCheckYellow",
     "routeId": [
@@ -2083,6 +2093,42 @@
       "form"
     ],
     "elementId": "recMep7bTlJ0idWpL"
+  },
+  {
+    "routeId": [
+      "recwdo8dQw6g3RqYT"
+    ],
+    "partOf": [
+      "main"
+    ],
+    "routeType": [
+      "form"
+    ],
+    "elementId": "recMiG0ZKUy5SAe9s",
+    "name": "form/allesOverDocumentTypen/types/check/3",
+    "type": "container",
+    "children": [
+      "recemOVQnbqOmSe2j",
+      "recV6sh6dUEqemKSi"
+    ]
+  },
+  {
+    "routeId": [
+      "recwdo8dQw6g3RqYT"
+    ],
+    "partOf": [
+      "main"
+    ],
+    "routeType": [
+      "form"
+    ],
+    "elementId": "recMw7lOaE4UaTSFw",
+    "name": "form/allesOverDocumentTypen/types/check/2",
+    "type": "listItemCheckYellow",
+    "text": "Rapporten & presentaties",
+    "linkRouteId": [
+      "recS1bPIRb1IMyqRJ"
+    ]
   },
   {
     "name": "rapports/root",
@@ -2261,6 +2307,24 @@
     "elementId": "recOUKno83Z2AjMzo"
   },
   {
+    "routeId": [
+      "recwdo8dQw6g3RqYT"
+    ],
+    "partOf": [
+      "main"
+    ],
+    "routeType": [
+      "form"
+    ],
+    "elementId": "recOVv7mYonRWaBi5",
+    "name": "form/allesOverDocumentTypen/types/check/3/subcheck/2",
+    "type": "listItemCheckYellowIndent",
+    "text": "Tussen overheidsorganen",
+    "linkRouteId": [
+      "rec9Dw2AnuF75GNl2"
+    ]
+  },
+  {
     "name": "specifiekeDocs/title",
     "text": "Specifieke Docs",
     "type": "titleMedium",
@@ -2308,7 +2372,7 @@
     "elementId": "recPEPcO5ci6FvuHB"
   },
   {
-    "name": "form/specificDocs/documentsComponent/document/field",
+    "name": "form/specificDocs/documentsComponent/field",
     "type": "container",
     "routeId": [
       "recsW8iUGWbySdl1T"
@@ -2317,9 +2381,8 @@
       "main"
     ],
     "children": [
-      "reczSFOQss3JOYfBE",
       "recvXGsn9ug2isIJz",
-      "recx1GzvFcRHlLwYY"
+      "reczSFOQss3JOYfBE"
     ],
     "routeType": [
       "form"
@@ -2650,7 +2713,7 @@
     "elementId": "recT3gpjt7azvIkad"
   },
   {
-    "name": "form/specificDocs/documentsComponent/document/checklist/item/3",
+    "name": "form/specificDocs/documentsComponent/checklist/item/3",
     "text": "Ik weet de datum van dit document",
     "type": "listItemCheckYellow",
     "routeId": [
@@ -2770,6 +2833,24 @@
     "elementId": "recUp4l9ni3iquTxh"
   },
   {
+    "routeId": [
+      "recwdo8dQw6g3RqYT"
+    ],
+    "partOf": [
+      "main"
+    ],
+    "routeType": [
+      "form"
+    ],
+    "elementId": "recV6sh6dUEqemKSi",
+    "name": "form/allesOverDocumentTypen/types/check/3/subcheck",
+    "type": "listCheck",
+    "children": [
+      "reclIjpbGNGyHr7mb",
+      "recOVv7mYonRWaBi5"
+    ]
+  },
+  {
     "name": "landing/footer/team/vvoj/person1",
     "text": "Hugo van der Parre ",
     "type": "listItemParticipant",
@@ -2785,6 +2866,42 @@
       "page"
     ],
     "elementId": "recVejM6LMmDkRWV8"
+  },
+  {
+    "routeId": [
+      "recwdo8dQw6g3RqYT"
+    ],
+    "partOf": [
+      "main"
+    ],
+    "routeType": [
+      "form"
+    ],
+    "elementId": "recW15QjBWAIdtlfG",
+    "name": "form/allesOverDocumentTypen/types/check/1",
+    "type": "listItemCheckYellow",
+    "text": "Vergaderstukken & gespreksverslagen",
+    "linkRouteId": [
+      "recR3xSpTuROzmcXP"
+    ]
+  },
+  {
+    "routeId": [
+      "recwdo8dQw6g3RqYT"
+    ],
+    "partOf": [
+      "main"
+    ],
+    "routeType": [
+      "form"
+    ],
+    "elementId": "recW23iTxL9zXwipf",
+    "name": "form/allesOverDocumentTypen/types/check/4",
+    "type": "listItemCheckYellow",
+    "text": "Begrotingen en financiële documenten",
+    "linkRouteId": [
+      "recrzse37LenTq7dY"
+    ]
   },
   {
     "name": "landing/footer/markdown",
@@ -2881,7 +2998,7 @@
     "elementId": "recWjMU9gjgADuJnH"
   },
   {
-    "name": "allesOverDocumentTypen/infoList",
+    "name": "form/allesOverDocumentTypen/infoList",
     "type": "listInfo",
     "routeId": [
       "recwdo8dQw6g3RqYT"
@@ -2889,13 +3006,13 @@
     "partOf": [
       "main"
     ],
-    "children": [
-      "recrB300nj5Ad26CI"
-    ],
     "routeType": [
       "form"
     ],
-    "elementId": "recWypac9YgPycqlZ"
+    "elementId": "recWypac9YgPycqlZ",
+    "children": [
+      "recrB300nj5Ad26CI"
+    ]
   },
   {
     "name": "rapports/title",
@@ -3010,7 +3127,7 @@
     "elementId": "recXy47cnztqzQdUJ"
   },
   {
-    "name": "form/specificDocs/documentsComponent/document/buttonGroup",
+    "name": "form/specificDocs/documentsComponent/buttonGroup",
     "type": "container",
     "routeId": [
       "recsW8iUGWbySdl1T"
@@ -3180,7 +3297,6 @@
     "children": [
       "recljBLpKsQP0p0Fh",
       "rechnOtUYBFQ9FY8z",
-      "recHTRDKG6kBsj8Qp",
       "reciUM2uSv4n9vLIq"
     ],
     "routeType": [
@@ -3227,7 +3343,7 @@
     "elementId": "recahZmnHZdKqCdOs"
   },
   {
-    "name": "allesOverDocumentTypen/title",
+    "name": "form/allesOverDocumentTypen/title",
     "text": "Welke documenttypes?",
     "type": "titleMedium",
     "routeId": [
@@ -3383,13 +3499,13 @@
     "partOf": [
       "main"
     ],
+    "children": [
+      "recL7SNmfGbWfjx8Z"
+    ],
     "routeType": [
       "form"
     ],
-    "elementId": "recclpgJmQSUzUWU0",
-    "children": [
-      "recL7SNmfGbWfjx8Z"
-    ]
+    "elementId": "recclpgJmQSUzUWU0"
   },
   {
     "name": "form/supplementalDocs/title",
@@ -3591,7 +3707,7 @@
     "elementId": "recePDWL3tuprSaED"
   },
   {
-    "name": "form/specificDocs/documentsComponent/document/checklist/item/2",
+    "name": "form/specificDocs/documentsComponent/checklist/item/2",
     "text": "Dit is een dataset",
     "type": "listItemCheckYellow",
     "routeId": [
@@ -3622,6 +3738,21 @@
       "aside-document-type"
     ],
     "elementId": "recem3AJHMlanY5eh"
+  },
+  {
+    "routeId": [
+      "recwdo8dQw6g3RqYT"
+    ],
+    "partOf": [
+      "main"
+    ],
+    "routeType": [
+      "form"
+    ],
+    "elementId": "recemOVQnbqOmSe2j",
+    "name": "form/allesOverDocumentTypen/types/check/3/check",
+    "type": "listItemCheckYellow",
+    "text": "Correspondentie"
   },
   {
     "name": "specialDocsForm/input",
@@ -3836,7 +3967,7 @@
   },
   {
     "name": "form/specificDocs/documentsComponent",
-    "type": "refList",
+    "type": "refTab",
     "routeId": [
       "recsW8iUGWbySdl1T"
     ],
@@ -3844,8 +3975,9 @@
       "main"
     ],
     "children": [
-      "recHTRDKG6kBsj8Qp",
-      "recPMfMYaGtG9w2pT"
+      "recPMfMYaGtG9w2pT",
+      "rec2flLiWIjxRjkQ7",
+      "recYmYHdP4WYdbg9G"
     ],
     "routeType": [
       "form"
@@ -3934,7 +4066,7 @@
     "elementId": "recjD5rTfqazOVTsi"
   },
   {
-    "name": "form/specificDocs/documentsComponent/document/buttonGroup/button/2",
+    "name": "form/specificDocs/documentsComponent/buttonGroup/button/2",
     "text": "VOEG DOCUMENT TOE",
     "type": "buttonMedium",
     "routeId": [
@@ -4038,14 +4170,14 @@
     "partOf": [
       "main"
     ],
-    "routeType": [
-      "form"
-    ],
-    "elementId": "recjmnrTem3Dh4PB0",
     "children": [
       "rechbBCHVCedDOgOf",
       "recjJo4WWB7VHF9lB"
-    ]
+    ],
+    "routeType": [
+      "form"
+    ],
+    "elementId": "recjmnrTem3Dh4PB0"
   },
   {
     "name": "informatieverzoeken/text",
@@ -4185,6 +4317,24 @@
       "aside-document-type"
     ],
     "elementId": "recl4cDE5FuDWLSFc"
+  },
+  {
+    "routeId": [
+      "recwdo8dQw6g3RqYT"
+    ],
+    "partOf": [
+      "main"
+    ],
+    "routeType": [
+      "form"
+    ],
+    "elementId": "reclIjpbGNGyHr7mb",
+    "name": "form/allesOverDocumentTypen/types/check/3/subcheck/1",
+    "type": "listItemCheckYellowIndent",
+    "text": "Binnen overheidsorgaan",
+    "linkRouteId": [
+      "rec8daE4lrLHstC6u"
+    ]
   },
   {
     "name": "correspondentieBinnen/check/1",
@@ -4439,6 +4589,24 @@
     "elementId": "recoKHeB65dXV1vKe"
   },
   {
+    "routeId": [
+      "recwdo8dQw6g3RqYT"
+    ],
+    "partOf": [
+      "main"
+    ],
+    "routeType": [
+      "form"
+    ],
+    "elementId": "recohHHfScf03SMiV",
+    "name": "form/allesOverDocumentTypen/types/check/6",
+    "type": "listItemCheckYellow",
+    "text": "Anders",
+    "linkRouteId": [
+      "reczR2gc10ApJFFBE"
+    ]
+  },
+  {
     "name": "landing/footer/team/vvoj/title",
     "text": "Projectteam VVOJ",
     "type": "titleContent",
@@ -4634,7 +4802,7 @@
     "elementId": "recr7wSCsPZIuPoBc"
   },
   {
-    "name": "allesOverDocumentTypen/infoList/Item/1",
+    "name": "form/allesOverDocumentTypen/infoList/Item/1",
     "text": "Wat is allemaal een “document”?",
     "type": "listItemInfo",
     "routeId": [
@@ -4973,7 +5141,7 @@
     "elementId": "recubJUzAQUQ19Rnh"
   },
   {
-    "name": "allesOverDocumentTypen/root",
+    "name": "form/allesOverDocumentTypen/root",
     "type": "root",
     "routeId": [
       "recwdo8dQw6g3RqYT"
@@ -4983,7 +5151,7 @@
     ],
     "children": [
       "recaxVwUwVScRVfDw",
-      "rec4s7hzrbNK3VvJc",
+      "recJlS3oghr14N1rV",
       "recWypac9YgPycqlZ"
     ],
     "routeType": [
@@ -5039,7 +5207,7 @@
     "elementId": "recvNWxwA2b4fX0p0"
   },
   {
-    "name": "form/specificDocs/documentsComponent/document/field/label",
+    "name": "form/specificDocs/documentsComponent/field/label",
     "text": "Documentnaam",
     "type": "label",
     "routeId": [
@@ -5047,6 +5215,9 @@
     ],
     "partOf": [
       "main"
+    ],
+    "children": [
+      "recx1GzvFcRHlLwYY"
     ],
     "routeType": [
       "form"
@@ -5201,7 +5372,7 @@
     "elementId": "recwEmruSWFgWHTxX"
   },
   {
-    "name": "form/specificDocs/documentsComponent/document/buttonGroup/button/1",
+    "name": "form/specificDocs/documentsComponent/buttonGroup/button/1",
     "text": "VERWIJDER DOCUMENT",
     "type": "buttonMedium",
     "routeId": [
@@ -5264,8 +5435,8 @@
     "elementId": "recwtjFUq1FShulVw"
   },
   {
-    "name": "form/specificDocs/documentsComponent/document/field/required",
-    "text": "- verstandig",
+    "name": "form/specificDocs/documentsComponent/field/required",
+    "text": " - verstandig",
     "type": "required",
     "routeId": [
       "recsW8iUGWbySdl1T"
@@ -5370,6 +5541,9 @@
     "partOf": [
       "main"
     ],
+    "children": [
+      "recLublnaRbwnfKPw"
+    ],
     "routeType": [
       "form"
     ],
@@ -5421,7 +5595,7 @@
     "elementId": "reczNKzbVuSXoCPDF"
   },
   {
-    "name": "form/specificDocs/documentsComponent/document/field/input",
+    "name": "form/specificDocs/documentsComponent/field/input",
     "text": "Typ hier de documentnaam",
     "type": "inputSmall",
     "routeId": [
