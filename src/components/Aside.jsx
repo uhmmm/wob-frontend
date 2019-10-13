@@ -24,14 +24,19 @@ const AsideContainer = styled.aside({
   overflow: 'scroll'
 })
 
-const Aside = ({ elementId, closeLetter }) => {
+const Aside = ({ elementId, entityId, closeLetter }) => {
   useEffect(() => {
     closeLetter()
   }, [closeLetter])
   return (
     <AsideContainer>
       <AsideCloseButton></AsideCloseButton>
-      <FormElementResolverConnected elementId={elementId} />
+
+      <FormElementResolverConnected
+        formElId={elementId}
+        entityId={entityId}
+        entityType="letters"
+      />
     </AsideContainer>
   )
 }
@@ -44,7 +49,8 @@ const mapStateToProps = (state, { match }) => {
     type: 'root'
   })[0]
   return {
-    elementId: rootElement && rootElement.elementId
+    elementId: rootElement && rootElement.elementId,
+    entityId: match.params.letterId
   }
 }
 

@@ -24,6 +24,19 @@
     "variableId": "rec2bRtqSVi9qIUbh"
   },
   {
+    "name": "summery",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterElementCondition": [
+      "recJc5QYoUHmmhPsf"
+    ],
+    "model": "letters",
+    "formElements": [
+      "rec5hz2p6HMPnqlGs"
+    ],
+    "variableId": "rec3SYmpkF3P6lcOR"
+  },
+  {
     "name": "preparationPresentationList",
     "type": "boolean",
     "defaultValue": "true",
@@ -88,6 +101,19 @@
     ],
     "model": "documents",
     "variableId": "rec82a5ToVTfd6Q2V"
+  },
+  {
+    "name": "passtroughRequested",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterElementCondition": [
+      "recM0wCONHNgzN6C9"
+    ],
+    "model": "letters",
+    "formElements": [
+      "recH5nH9yTVb5ZHSY"
+    ],
+    "variableId": "rec8VPRhuY7Oz3KHz"
   },
   {
     "name": "allDocumentMeetingReceivedPiece",
@@ -165,6 +191,19 @@
     "variableId": "recDqqPIxZQl3GOP4"
   },
   {
+    "name": "receiveDocsDigitally",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterElementCondition": [
+      "recUfvCecCHEBJdgE"
+    ],
+    "model": "letters",
+    "formElements": [
+      "recBe4rSZuSTzuVlx"
+    ],
+    "variableId": "recEIRNrraq6E4aZr"
+  },
+  {
     "name": "preparationMeetingNotes",
     "type": "boolean",
     "defaultValue": "true",
@@ -184,6 +223,20 @@
     ],
     "model": "letters",
     "variableId": "recGlrLhWRvdDT8Th"
+  },
+  {
+    "name": "termOfDelivery",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterElementCondition": [
+      "recoyb3upBkColUnV",
+      "reciHSyqxrF8cy7uO"
+    ],
+    "model": "letters",
+    "formElements": [
+      "recnEShKAfuXRJmY8"
+    ],
+    "variableId": "recGxn7zTcOYhrsyr"
   },
   {
     "name": "governmentEmail",
@@ -217,7 +270,20 @@
     "variableId": "recKOhvJQ141WS0qm"
   },
   {
-    "name": "letterDisplayDateTime",
+    "name": "clarificationMeeting",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterElementCondition": [
+      "recVPVaazIHkRer0n"
+    ],
+    "model": "letters",
+    "formElements": [
+      "recEJoJ2Scp6OXXNJ"
+    ],
+    "variableId": "recL8khBxUrwRRYjn"
+  },
+  {
+    "name": "displayDateTime",
     "letterPlaceholder": "<datum brief>",
     "type": "dateTime",
     "defaultValue": "11-09-1967",
@@ -288,7 +354,7 @@
     "variableId": "recNEalRqitgir7DI"
   },
   {
-    "name": "letterSubject",
+    "name": "subject",
     "letterPlaceholder": "<onderwerp brief>",
     "type": "string",
     "defaultValue": "Ontslagregeling Belastingdienst",
@@ -470,6 +536,19 @@
     "variableId": "recZfrIFSPmI9rTBV"
   },
   {
+    "name": "motivationForDenial",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterElementCondition": [
+      "rechWLxMbMZLAc2oq"
+    ],
+    "model": "letters",
+    "formElements": [
+      "reccCfNt7kL6VgCpZ"
+    ],
+    "variableId": "recZyTucEkSiF4MqT"
+  },
+  {
     "name": "internalEmail",
     "type": "boolean",
     "defaultValue": "true",
@@ -517,6 +596,19 @@
     "variableId": "recc3RABaErKOmYPM"
   },
   {
+    "name": "anonimisation",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterElementCondition": [
+      "recJBF8iEdB4vzrig"
+    ],
+    "model": "letters",
+    "formElements": [
+      "recAq6PLfRb1fjwLy"
+    ],
+    "variableId": "reccJ6mxMqYSuhNa1"
+  },
+  {
     "name": "allDocumentMeetingDecision",
     "type": "boolean",
     "defaultValue": "true",
@@ -562,6 +654,16 @@
     ],
     "model": "letters",
     "variableId": "recfUGvHaqWEt6PTt"
+  },
+  {
+    "name": "subjectIsEnvironmental",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterElementCondition": [
+      "reciHSyqxrF8cy7uO"
+    ],
+    "model": "letters",
+    "variableId": "recgdZB8loRLHsg1G"
   },
   {
     "name": "allDocumentFinancialYearReports",
@@ -657,6 +759,19 @@
     "variableId": "reclz9B4gbk02Hu9W"
   },
   {
+    "name": "indexDocuments",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterElementCondition": [
+      "rec6Lwtk8W3ftR3WO"
+    ],
+    "model": "letters",
+    "formElements": [
+      "recrRkeg2O4BHhewp"
+    ],
+    "variableId": "recmtTSTPAJLHeVuC"
+  },
+  {
     "name": "allDocumentInternalLetters",
     "type": "boolean",
     "defaultValue": "true",
@@ -688,6 +803,19 @@
     ],
     "model": "letters",
     "variableId": "recoZUuK5Z88RDoJh"
+  },
+  {
+    "name": "includeAllFormats",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterElementCondition": [
+      "recFkOImZg3G3vWCe"
+    ],
+    "model": "letters",
+    "formElements": [
+      "recRtqJLnPK3Ds67C"
+    ],
+    "variableId": "recobKuNOzUfv9Zvq"
   },
   {
     "name": "governmentPostcode",
@@ -761,6 +889,16 @@
     ],
     "model": "periods",
     "variableId": "recx1yddA58KsdT2a"
+  },
+  {
+    "name": "receiptOfReception",
+    "type": "boolean",
+    "defaultValue": "true",
+    "letterElementCondition": [
+      "recyKpzGrPeZazmkY"
+    ],
+    "model": "letters",
+    "variableId": "recz1v1WGe91TCALG"
   },
   {
     "name": "allDocumentReportProjectPlans",

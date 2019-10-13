@@ -18,7 +18,7 @@ const ReviewBoxContainer = styled.div({
 const ReviewBox = ({ rootElementId }) => {
   return (
     <ReviewBoxContainer>
-      <FormElementResolverConnected elementId={rootElementId} />
+      <FormElementResolverConnected formElId={rootElementId} />
     </ReviewBoxContainer>
   )
 }

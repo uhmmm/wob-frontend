@@ -22,10 +22,10 @@ const PageContentArea = ({ rootElementIds }) => {
   return (
     <ContentContainer>
       <ContentColumn>
-        <FormElementResolverConnected elementId={rootElementIds[0]} />
+        <FormElementResolverConnected formElId={rootElementIds[0]} />
       </ContentColumn>
       <ContentColumn>
-        <FormElementResolverConnected elementId={rootElementIds[1]} />
+        <FormElementResolverConnected formElId={rootElementIds[1]} />
       </ContentColumn>
     </ContentContainer>
   )

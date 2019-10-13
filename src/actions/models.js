@@ -15,7 +15,7 @@ const variablesSchema = [variableSchema]
 const variablesParsed = variables.map(variable => {
   return {
     ...variable,
-    value: variable.type === 'array' ? [] : ''
+    value: variable.type === 'array' ? [] : variable.defaultValue
   }
 })
 

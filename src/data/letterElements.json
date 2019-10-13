@@ -95,6 +95,9 @@
     "name": "index of documents",
     "template": "Ik begrijp dat mijn verzoek omvangrijk is. Wellicht kunnen we in goed onderling overleg een selectie maken van documenten die ik daadwerkelijk wens in te zien, en andere documenten die wel onder de reikwijdte van dit verzoek vallen maar die, wat mij betreft, niet verstrekt hoeven te worden. Om die reden stel ik voor dat u een index of overzicht maakt van de gevraagde documenten, zonder nog te beslissen over openbaarmaking van die documenten. Met deze handreiking hoop ik u onnodig werk te besparen.",
     "type": "paragraph",
+    "letterConditionIds": [
+      "recmtTSTPAJLHeVuC"
+    ],
     "refEntityType": "letters",
     "elementId": "rec6Lwtk8W3ftR3WO"
   },
@@ -332,6 +335,9 @@
     "name": "include all formats",
     "template": "Met documenten bedoel ik vastlegging ongeacht de gegevensdrager: dus naast klassieke papieren documenten bijvoorbeeld ook digitale (data-)bestanden, sms'jes, WhatsApp-berichten en audio- en videobestanden.",
     "type": "paragraph",
+    "letterConditionIds": [
+      "recobKuNOzUfv9Zvq"
+    ],
     "refEntityType": "letters",
     "elementId": "recFkOImZg3G3vWCe"
   },
@@ -452,6 +458,9 @@
     "name": "anonimized",
     "template": "Subsidiair verzoek ik om een geanonimiseerde versie van alle documenten gevraagd onder bovengenoemde punten.",
     "type": "paragraph",
+    "letterConditionIds": [
+      "reccJ6mxMqYSuhNa1"
+    ],
     "refEntityType": "letters",
     "elementId": "recJBF8iEdB4vzrig"
   },
@@ -476,6 +485,9 @@
     "name": "summery",
     "template": "Mocht u menen documenten of correspondentie zoals bedoeld in dit verzoek te moeten weigeren, dan vraag ik subsidiair om een zakelijke weergave van de inhoud of een samenvatting. Indien u van oordeel bent dat persoonlijke beleidsopvattingen in documenten bestemd voor intern beraad integrale openbaarmaking van de documenten in de weg staan, verzoek ik subsidiair om openbaarmaking van de informatie voor zover die geen persoonlijke beleidsopvatting is, en meer subsidiair om een samenvatting van de informatie.",
     "type": "paragraph",
+    "letterConditionIds": [
+      "rec3SYmpkF3P6lcOR"
+    ],
     "refEntityType": "letters",
     "elementId": "recJc5QYoUHmmhPsf"
   },
@@ -503,6 +515,9 @@
     "name": "passtrough",
     "template": "Daar waar documenten zich niet onder u bevinden en/of u er mee bekend bent dat tevens bij één of meer andere bestuursorganen informatie berust met betrekking tot dit onderwerp, verzoek ik u zonder oprekken van termijnen doorgeleiding van dit verzoek naar het juiste orgaan. Mocht dat inderdaad gebeuren, dan ontvang ik daarover graag bericht.",
     "type": "paragraph",
+    "letterConditionIds": [
+      "rec8VPRhuY7Oz3KHz"
+    ],
     "refEntityType": "letters",
     "elementId": "recM0wCONHNgzN6C9"
   },
@@ -634,6 +649,9 @@
     "name": "receive digitally",
     "template": "Ik verzoek u de gevraagde informatie die digitaal bij u aanwezig is in digitale vorm te verstrekken. Van de informatie die alleen analoog (‘hard copy’) in uw archief aanwezig is, ontvang ik graag een kopie. Indien u voornemens bent om hiervoor kopieerkosten in rekening te brengen, verzoek ik u vooraf hierover contact met mij op te nemen.",
     "type": "paragraph",
+    "letterConditionIds": [
+      "recEIRNrraq6E4aZr"
+    ],
     "refEntityType": "letters",
     "elementId": "recUfvCecCHEBJdgE"
   },
@@ -682,6 +700,9 @@
     "name": "clarification meeting",
     "template": "Mocht u vragen hebben over de precieze interpretatie of de gewenste afhandeling van dit verzoek, dan ben ik graag bereid een nadere toelichting te geven. Ik verzoek u hierover binnen twee weken na ontvangst van mijn Wob-verzoek contact op te nemen.",
     "type": "paragraph",
+    "letterConditionIds": [
+      "recL8khBxUrwRRYjn"
+    ],
     "refEntityType": "letters",
     "elementId": "recVPVaazIHkRer0n"
   },
@@ -965,6 +986,9 @@
     "name": "motivation for denial",
     "template": "Bij gehele of gedeeltelijke weigering van een document verzoek ik u de weigering per document respectievelijk per alinea te motiveren. Niet alleen met verwijzing naar het betreffende Wob-artikel, maar tevens met onderbouwing waarom die weigeringsgrond zwaarder weegt dan het algemeen belang van openbaarheid.",
     "type": "paragraph",
+    "letterConditionIds": [
+      "recZyTucEkSiF4MqT"
+    ],
     "refEntityType": "letters",
     "elementId": "rechWLxMbMZLAc2oq"
   },
@@ -982,6 +1006,14 @@
     "name": "term with environment",
     "template": "Omdat dit verzoek betrekking heeft op milieu-informatie wijs ik u voor de goede orde op de verkorte beslistermijn van twee weken.",
     "type": "paragraph",
+    "letterConditionIds": [
+      "recgdZB8loRLHsg1G",
+      "recGxn7zTcOYhrsyr"
+    ],
+    "conditionValues": [
+      "true",
+      "true"
+    ],
     "refEntityType": "letters",
     "elementId": "reciHSyqxrF8cy7uO"
   },
@@ -1158,6 +1190,9 @@
     "name": "term of delivery",
     "template": "Dit verzoek wordt gedaan op basis van de Wet openbaarheid van bestuur. Daaruit vloeit voort dat u binnen 4 weken een besluit moet nemen op dit verzoek. ",
     "type": "paragraph",
+    "letterConditionIds": [
+      "recGxn7zTcOYhrsyr"
+    ],
     "refEntityType": "letters",
     "elementId": "recoyb3upBkColUnV"
   },
@@ -1430,6 +1465,9 @@
     "name": "receipt of reception",
     "template": "Ik verzoek u de ontvangst van dit verzoek schriftelijk per email of brief aan mij te bevestigen. ",
     "type": "paragraph",
+    "letterConditionIds": [
+      "recz1v1WGe91TCALG"
+    ],
     "refEntityType": "letters",
     "elementId": "recyKpzGrPeZazmkY"
   },

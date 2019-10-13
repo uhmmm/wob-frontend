@@ -24,13 +24,17 @@ const LogoContainer = styled.div({
   margin: '0 0 4rem 0'
 })
 
-const Main = ({ rootElementId }) => {
+const Main = ({ rootElementId, entityId }) => {
   return rootElementId ? (
     <MainContainer>
       <LogoContainer>
         <Logo />
       </LogoContainer>
-      <FormElementResolverConnected elementId={rootElementId} />
+      <FormElementResolverConnected
+        formElId={rootElementId}
+        entityId={entityId}
+        entityType="letters"
+      />
     </MainContainer>
   ) : null
 }
@@ -45,7 +49,8 @@ const mapStateToProps = (state, { match }) => {
   })[0]
 
   return {
-    rootElementId: rootElement && rootElement.elementId
+    rootElementId: rootElement && rootElement.elementId,
+    entityId: match.params.letterId
   }
 }
 

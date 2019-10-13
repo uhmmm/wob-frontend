@@ -1,13 +1,11 @@
 import React from 'react'
 import styled from '@emotion/styled'
 
-import { ListItemBubble, ListItemBubbleContainer } from './ListBubble'
-import { ListItemInfo, ListInfoContainer } from './ListInfo'
-import { ListItemCheckbox } from './ListCheckbox'
-import { SpecificDocumentsConnected } from './SpecificDocuments'
-import { InstituteCard } from './InstituteCard'
+import { ListItemBubble } from './ListBubble'
+import { ListItemInfo } from './ListInfo'
+import { ListItemCheckboxConnected } from './ListCheckbox'
 import { DateTimePicker } from './DateTimePicker'
-import { DocumentTypesConnected } from './DocumentTypes'
+
 import { Button } from './Button'
 import { TextField } from './TextField'
 import { Title } from './Title'
@@ -15,6 +13,10 @@ import { TextBlock } from './TextBlock'
 import { Markdown } from './Markdown'
 import { CallToAction } from './CallToAction'
 import { Input } from './Input'
+
+import { InstituteCard } from './InstituteCard'
+// import { SpecificDocumentsConnected } from './SpecificDocuments'
+// import { DocumentTypesConnected } from './DocumentTypes'
 
 import { type, colors } from '../styles'
 
@@ -49,18 +51,18 @@ export const elements = {
   buttonMedium: props => <Button btnType="buttonMedium" {...props} />,
   buttonSmall: props => <Button btnType="buttonSmall" {...props} />,
 
-  listBubble: ListItemBubbleContainer,
+  listBubble: List,
   listItemBubble: ListItemBubble,
   listCheck: List,
-  listItemCheckYellow: ListItemCheckbox,
+  listItemCheckYellow: ListItemCheckboxConnected,
   listItemCheckYellowIndent: props => (
-    <ListItemCheckbox indented={true} {...props} />
+    <ListItemCheckboxConnected indented={true} {...props} />
   ),
-  listItemCheckWhite: ListItemCheckbox,
+  listItemCheckWhite: ListItemCheckboxConnected,
   listItemCheckWhiteIndent: props => (
-    <ListItemCheckbox indented={true} {...props} />
+    <ListItemCheckboxConnected indented={true} {...props} />
   ),
-  listInfo: ListInfoContainer,
+  listInfo: List,
   listItemInfo: ListItemInfo,
   listParticipant: List,
   listItemParticipant: ListItem,
@@ -73,10 +75,8 @@ export const elements = {
 
   refTab: Container,
 
-  SpecificDocumentsConnected,
   instituteCard: InstituteCard,
   dateTimePicker: DateTimePicker,
-  DocumentTypesConnected,
 
   CallToAction
 }

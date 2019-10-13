@@ -33,7 +33,7 @@ const Footer = ({ rootElementId }) => {
   return (
     <FooterContainer>
       <DetailsContainer>
-        <FormElementResolverConnected elementId={rootElementId} />
+        <FormElementResolverConnected formElId={rootElementId} />
       </DetailsContainer>
       <Background src={backgroundImg} />
     </FooterContainer>

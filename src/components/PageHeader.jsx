@@ -33,7 +33,7 @@ const Header = ({ rootElementId }) => {
       <LogoContainer>
         <Logo />
       </LogoContainer>
-      <FormElementResolverConnected elementId={rootElementId} />
+      <FormElementResolverConnected formElId={rootElementId} />
     </HeaderContainer>
   )
 }
