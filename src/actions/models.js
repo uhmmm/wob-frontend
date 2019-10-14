@@ -11,11 +11,22 @@ const variableSchema = new schema.Entity(
 )
 const variablesSchema = [variableSchema]
 
-// parse to correct type
+// parse value to default and correct type
+const parseType = variable => {
+  switch (variable.type) {
+    case 'array':
+      return []
+    case 'boolean':
+      return variable.defaultValue === 'true'
+    default:
+      return variable.defaultValue
+  }
+}
+
 const variablesParsed = variables.map(variable => {
   return {
     ...variable,
-    value: variable.type === 'array' ? [] : variable.defaultValue
+    value: parseType(variable)
   }
 })
 

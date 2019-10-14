@@ -10,7 +10,7 @@ const compareVisibilityConditions = ({ entity, letterEl }) => {
   // TODO - ANY: Every is not logically sufficient
   let comparison = letterEl.conditionValues
     ? isEqual(entityVarValues, letterEl.conditionValues)
-    : every(entityVarValues, item => item === 'true')
+    : every(entityVarValues, item => item === true)
 
   return comparison
 }

@@ -48,12 +48,13 @@ const Checkbox = ({ variable, setEntityVariable }) => {
   return (
     <CheckboxContainer
       onClick={() =>
+        variable &&
         setEntityVariable(variable.name, variable && !variable.value)
       }
     >
       <Background />
       <Border />
-      {variable && <CheckMarkIcon src={checkMarkIcon} />}
+      {variable && variable.value && <CheckMarkIcon src={checkMarkIcon} />}
     </CheckboxContainer>
   )
 }
