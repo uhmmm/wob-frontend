@@ -15,11 +15,12 @@ import { getPeriodById } from '../reducers/periods'
 // THEN: Check Asides for root typing (prolly requires tab state)
 // THEN: Input variables and placeholders
 
-const FormElementResolver = ({ entityId, formEl }) => {
+const FormElementResolver = ({ entityId, formEl, variable }) => {
+  console.log(variable)
   if (formEl) {
     let Element = elements[formEl.type]
     return Element ? (
-      <Element key={formEl.elementId} element={formEl}>
+      <Element key={formEl.elementId} element={formEl} variable={variable}>
         {formEl.text}
         {formEl.children &&
           formEl.children.map(childElementId => {
@@ -55,7 +56,7 @@ const mapStateToProps = (state, { formElId, entityType, entityId }) => {
   let formEl = getElementById(state, formElId)
 
   let entityVarKey = findKey(entity, prop => {
-    let elemVarId = formEl.letterVariableId && formEl.letterVariableId[0]
+    let elemVarId = formEl.variableId && formEl.variableId[0]
     return elemVarId && prop.variableId === elemVarId
   })
 

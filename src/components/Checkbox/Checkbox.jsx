@@ -44,8 +44,9 @@ const CheckMarkIcon = styled.img({
   width: 'auto'
 })
 
-const Checkbox = () => {
-  let [checked, setChecked] = useState(false)
+const Checkbox = ({ variable }) => {
+  console.log(variable)
+  let [checked, setChecked] = useState(variable.defaultValue)
   return (
     <CheckboxContainer onClick={() => setChecked(!checked)}>
       <Background />

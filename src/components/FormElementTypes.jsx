@@ -3,7 +3,7 @@ import styled from '@emotion/styled'
 
 import { ListItemBubble } from './ListBubble'
 import { ListItemInfo } from './ListInfo'
-import { ListItemCheckboxConnected } from './ListCheckbox'
+import { ListItemCheckbox } from './ListCheckbox'
 import { DateTimePicker } from './DateTimePicker'
 
 import { Button } from './Button'
@@ -54,13 +54,13 @@ export const elements = {
   listBubble: List,
   listItemBubble: ListItemBubble,
   listCheck: List,
-  listItemCheckYellow: ListItemCheckboxConnected,
+  listItemCheckYellow: ListItemCheckbox,
   listItemCheckYellowIndent: props => (
-    <ListItemCheckboxConnected indented={true} {...props} />
+    <ListItemCheckbox indented={true} {...props} />
   ),
-  listItemCheckWhite: ListItemCheckboxConnected,
+  listItemCheckWhite: ListItemCheckbox,
   listItemCheckWhiteIndent: props => (
-    <ListItemCheckboxConnected indented={true} {...props} />
+    <ListItemCheckbox indented={true} {...props} />
   ),
   listInfo: List,
   listItemInfo: ListItemInfo,

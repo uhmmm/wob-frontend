@@ -2,7 +2,7 @@ import { filter, isEqual, includes, every } from 'lodash'
 
 const compareVisibilityConditions = ({ letter, letterEl }) => {
   let letterVars = filter(letter, prop => {
-    return includes(letterEl.letterConditionIds, prop.variableId)
+    return includes(letterEl.conditionIds, prop.variableId)
   })
 
   let letterVarValues = letterVars.map(variable => variable.defaultValue)
@@ -16,6 +16,6 @@ const compareVisibilityConditions = ({ letter, letterEl }) => {
 }
 
 export const computeElementVisibility = ({ letter, letterEl }) =>
-  letterEl.letterConditionIds
+  letterEl.conditionIds
     ? compareVisibilityConditions({ letter, letterEl })
     : true

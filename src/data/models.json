@@ -62,7 +62,7 @@
     "name": "writerEmail",
     "letterPlaceholder": "<email schrijver>",
     "type": "string",
-    "defaultValue": "rjkorteschiel@gmail.com",
+    "defaultValue": "email@adres.nl",
     "letterElementVariableList": [
       "recJZOV89XFy341j6"
     ],
@@ -73,7 +73,7 @@
     "name": "writerCity",
     "letterPlaceholder": "<stad schrijver>",
     "type": "string",
-    "defaultValue": "Amsterdam",
+    "defaultValue": "Plaatsnaam",
     "letterElementVariableList": [
       "recQdZUU2r3lsoAGX"
     ],
@@ -242,7 +242,7 @@
     "name": "governmentEmail",
     "letterPlaceholder": "<email overheid>",
     "type": "string",
-    "defaultValue": "stadhuis@enkhuizen.nl",
+    "defaultValue": "email@adres.nl",
     "model": "letters",
     "variableId": "recGyJdOWEP4JmxIL"
   },
@@ -286,7 +286,7 @@
     "name": "displayDateTime",
     "letterPlaceholder": "<datum brief>",
     "type": "dateTime",
-    "defaultValue": "11-09-1967",
+    "defaultValue": "01-01-2019",
     "letterElementVariableList": [
       "recwMrZEDSxyYNP3E"
     ],
@@ -357,7 +357,7 @@
     "name": "subject",
     "letterPlaceholder": "<onderwerp brief>",
     "type": "string",
-    "defaultValue": "Ontslagregeling Belastingdienst",
+    "defaultValue": "Onderwerp",
     "letterElementVariableList": [
       "rectBT638iPD1Dl8s",
       "recUHMuHIwZ0Vm9Zf",
@@ -370,7 +370,7 @@
     "name": "writerPostcode",
     "letterPlaceholder": "<postcode schrijver>",
     "type": "string",
-    "defaultValue": "1057AA",
+    "defaultValue": "1234AB",
     "letterElementVariableList": [
       "recpeJsBI2Voc4Jzy"
     ],
@@ -403,7 +403,7 @@
     "name": "governmentAdress",
     "letterPlaceholder": "<adres overheid>",
     "type": "string",
-    "defaultValue": "Hoogstraat 11",
+    "defaultValue": "Straatnaam 1",
     "letterElementVariableList": [
       "recpIDfXukBbapZFZ"
     ],
@@ -414,7 +414,7 @@
     "name": "governmentCity",
     "letterPlaceholder": "<stad overheid>",
     "type": "string",
-    "defaultValue": "Enkhuizen",
+    "defaultValue": "Plaatsnaam",
     "letterElementVariableList": [
       "recFqdAp7tWbs0RKA"
     ],
@@ -437,7 +437,7 @@
     "name": "writerOrganisationName",
     "letterPlaceholder": "<organisatie schrijver>",
     "type": "string",
-    "defaultValue": "Research Assistant",
+    "defaultValue": "Organisatie",
     "letterElementVariableList": [
       "recV1Ki51EkbP8GND",
       "recuBqC4qVDhhBHGM",
@@ -463,7 +463,7 @@
     "name": "writerAdress",
     "letterPlaceholder": "<adres schrijver>",
     "type": "string",
-    "defaultValue": "Orteliuskade 4G",
+    "defaultValue": "Straatnaam 1",
     "letterElementVariableList": [
       "recdrQE0ijOE3sQC2"
     ],
@@ -527,7 +527,7 @@
     "name": "governmentAdresseeName",
     "letterPlaceholder": "<naam bestuurder>",
     "type": "string",
-    "defaultValue": "Dhr. E.A. van Zuilen",
+    "defaultValue": "Dhr. Jansen",
     "letterElementVariableList": [
       "recIA2LPy1lEqhcPE",
       "recdwYJzTElkQZbtE"
@@ -587,7 +587,7 @@
     "name": "writerName",
     "letterPlaceholder": "<naam schrijver>",
     "type": "string",
-    "defaultValue": "Robert-Jan Korteschiel",
+    "defaultValue": "Voornaam Achternaam",
     "letterElementVariableList": [
       "reccdjOg0pXsMwGqF",
       "recGZ24PTNFFcUpMU"
@@ -787,7 +787,7 @@
     "name": "governmentName",
     "letterPlaceholder": "<naam overheid>",
     "type": "string",
-    "defaultValue": "Gemeente Enkhuizen",
+    "defaultValue": "Gemeente",
     "letterElementVariableList": [
       "recoBx1EsqlJfcYSj"
     ],
@@ -821,7 +821,7 @@
     "name": "governmentPostcode",
     "letterPlaceholder": "<postcode overheid>",
     "type": "string",
-    "defaultValue": "1600AA",
+    "defaultValue": "1234AB",
     "letterElementVariableList": [
       "recYj8hutXMIFkWjY"
     ],
@@ -861,7 +861,7 @@
     "name": "writerTelephone",
     "letterPlaceholder": "<telefoon schrijver>",
     "type": "string",
-    "defaultValue": "0614441410",
+    "defaultValue": "0612345678",
     "letterElementVariableList": [
       "rec8SbcryiGF2OGH1"
     ],

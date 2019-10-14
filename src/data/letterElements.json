@@ -3,7 +3,7 @@
     "name": "all documents  item subdoc external 2",
     "template": "brieven, ",
     "type": "span",
-    "letterConditionIds": [
+    "conditionIds": [
       "recM7fASAJY9v6TT6"
     ],
     "refEntityType": "letters",
@@ -13,7 +13,7 @@
     "name": "normal doc item subdoc prep 2",
     "template": "uitnodigingen, ",
     "type": "span",
-    "letterConditionIds": [
+    "conditionIds": [
       "recZVMypnRLJj70lD"
     ],
     "refEntityType": "documents",
@@ -29,7 +29,7 @@
     "name": "all documents  item subdoc meeting 5",
     "template": "adviezen, ",
     "type": "span",
-    "letterConditionIds": [
+    "conditionIds": [
       "recbbGDlkzymQry69"
     ],
     "refEntityType": "letters",
@@ -55,7 +55,7 @@
     "name": "all documents item subdoc report 5",
     "template": "Evaluaties",
     "type": "span",
-    "letterConditionIds": [
+    "conditionIds": [
       "recUyuASBMcX9lhCN"
     ],
     "refEntityType": "letters",
@@ -65,7 +65,7 @@
     "name": "normal doc item subdoc prep 8",
     "template": "notulen, ",
     "type": "span",
-    "letterConditionIds": [
+    "conditionIds": [
       "recvdGJ6CbZmDwNRp"
     ],
     "refEntityType": "documents",
@@ -75,7 +75,7 @@
     "name": "normal doc item subdoc internal 4",
     "template": "SMS-jes en WhatsApp-berichten, ",
     "type": "span",
-    "letterConditionIds": [
+    "conditionIds": [
       "recU0eiiPmlk8w6mt"
     ],
     "refEntityType": "documents",
@@ -85,7 +85,7 @@
     "name": "all documents item subdoc internal 2",
     "template": "brieven, ",
     "type": "span",
-    "letterConditionIds": [
+    "conditionIds": [
       "recnr9KrtbUb8sFyE"
     ],
     "refEntityType": "letters",
@@ -95,7 +95,7 @@
     "name": "index of documents",
     "template": "Ik begrijp dat mijn verzoek omvangrijk is. Wellicht kunnen we in goed onderling overleg een selectie maken van documenten die ik daadwerkelijk wens in te zien, en andere documenten die wel onder de reikwijdte van dit verzoek vallen maar die, wat mij betreft, niet verstrekt hoeven te worden. Om die reden stel ik voor dat u een index of overzicht maakt van de gevraagde documenten, zonder nog te beslissen over openbaarmaking van die documenten. Met deze handreiking hoop ik u onnodig werk te besparen.",
     "type": "paragraph",
-    "letterConditionIds": [
+    "conditionIds": [
       "recmtTSTPAJLHeVuC"
     ],
     "refEntityType": "letters",
@@ -105,7 +105,7 @@
     "name": "all documents item subdoc internal 6",
     "template": ")  met betrekking tot dit document.",
     "type": "span",
-    "letterConditionIds": [
+    "conditionIds": [
       "recnr9KrtbUb8sFyE",
       "rec2bRtqSVi9qIUbh",
       "recfUGvHaqWEt6PTt",
@@ -149,11 +149,11 @@
   {
     "name": "writer organisation",
     "template": "{variable}",
-    "letterVariableId": [
+    "variableId": [
       "recSis7QyiY32Egfq"
     ],
     "type": "listItem",
-    "letterConditionIds": [
+    "conditionIds": [
       "reck0yQhyHjq9r7R3"
     ],
     "refEntityType": "letters",
@@ -163,7 +163,7 @@
     "name": "all documents item subdoc internal 5",
     "template": "memo’s en notities, ",
     "type": "span",
-    "letterConditionIds": [
+    "conditionIds": [
       "rechO0MV4FB4eE0qO"
     ],
     "refEntityType": "letters",
@@ -172,7 +172,7 @@
   {
     "name": "all documents item subdoc external people item",
     "template": "{variable}",
-    "letterVariableId": [
+    "variableId": [
       "recrLm1uJ2VP5Jtwx"
     ],
     "type": "listItem",
@@ -182,7 +182,7 @@
   {
     "name": "writer telephone number",
     "template": "{variable}",
-    "letterVariableId": [
+    "variableId": [
       "recrcCszAnodIqKw6"
     ],
     "type": "listItem",
@@ -193,7 +193,7 @@
     "name": "normal doc item subdoc prep 5",
     "template": "adviezen, ",
     "type": "span",
-    "letterConditionIds": [
+    "conditionIds": [
       "rec82a5ToVTfd6Q2V"
     ],
     "refEntityType": "documents",
@@ -220,7 +220,7 @@
     "name": "normal doc item subdoc internal 6",
     "template": ")  met betrekking tot dit document.",
     "type": "span",
-    "letterConditionIds": [
+    "conditionIds": [
       "recapIZd8BKQgOu7S",
       "recamgDGddLCv3qcP",
       "recU0eiiPmlk8w6mt",
@@ -242,7 +242,7 @@
   {
     "name": "normal doc item subdoc external people item",
     "template": "{variable} ",
-    "letterVariableId": [
+    "variableId": [
       "recrLm1uJ2VP5Jtwx"
     ],
     "type": "listItem",
@@ -253,7 +253,7 @@
     "name": "all documents  item subdoc external 4",
     "template": "SMS-jes en WhatsApp-berichten, ",
     "type": "span",
-    "letterConditionIds": [
+    "conditionIds": [
       "recdOpND33lY5oubX"
     ],
     "refEntityType": "letters",
@@ -263,7 +263,7 @@
     "name": "all documents item subdoc meeting 7",
     "template": "besluitenlijsten, ",
     "type": "span",
-    "letterConditionIds": [
+    "conditionIds": [
       "recCpBGP3EPFA784Z"
     ],
     "refEntityType": "letters",
@@ -284,7 +284,7 @@
     "name": "all documents item subdoc internal 1",
     "template": "interne correspondentie (incl./excl. ",
     "type": "span",
-    "letterConditionIds": [
+    "conditionIds": [
       "recnr9KrtbUb8sFyE",
       "rec2bRtqSVi9qIUbh",
       "recfUGvHaqWEt6PTt",
@@ -325,7 +325,7 @@
     "name": "normal doc item subdoc prep 4",
     "template": "ingekomen stukken, ",
     "type": "span",
-    "letterConditionIds": [
+    "conditionIds": [
       "recV1YU35GNuYDlic"
     ],
     "refEntityType": "documents",
@@ -335,7 +335,7 @@
     "name": "include all formats",
     "template": "Met documenten bedoel ik vastlegging ongeacht de gegevensdrager: dus naast klassieke papieren documenten bijvoorbeeld ook digitale (data-)bestanden, sms'jes, WhatsApp-berichten en audio- en videobestanden.",
     "type": "paragraph",
-    "letterConditionIds": [
+    "conditionIds": [
       "recobKuNOzUfv9Zvq"
     ],
     "refEntityType": "letters",
@@ -344,7 +344,7 @@
   {
     "name": "receiver city",
     "template": "{variable}",
-    "letterVariableId": [
+    "variableId": [
       "recRLK9Fp2oMReIlz"
     ],
     "type": "span",
@@ -358,7 +358,7 @@
     "name": "all documents item subdoc meeting 4",
     "template": "ingekomen stukken, ",
     "type": "span",
-    "letterConditionIds": [
+    "conditionIds": [
       "rec8jvd33PRAkXuEO"
     ],
     "refEntityType": "letters",
@@ -377,7 +377,7 @@
   {
     "name": "writer name",
     "template": "{variable}",
-    "letterVariableId": [
+    "variableId": [
       "recc3RABaErKOmYPM"
     ],
     "type": "listItem",
@@ -416,7 +416,7 @@
   {
     "name": "salutation",
     "template": "Zeer geachte heer/mevrouw {variable}, ",
-    "letterVariableId": [
+    "variableId": [
       "recZfrIFSPmI9rTBV"
     ],
     "type": "paragraph",
@@ -438,7 +438,7 @@
     "name": "all documents item subdoc report 4",
     "template": "Voortgangsrapportages",
     "type": "span",
-    "letterConditionIds": [
+    "conditionIds": [
       "recoZUuK5Z88RDoJh"
     ],
     "refEntityType": "letters",
@@ -448,7 +448,7 @@
     "name": "all documents  item subdoc meeting 3",
     "template": "presentatielijsten, ",
     "type": "span",
-    "letterConditionIds": [
+    "conditionIds": [
       "rec4pO8ecqoUi3pyq"
     ],
     "refEntityType": "letters",
@@ -458,7 +458,7 @@
     "name": "anonimized",
     "template": "Subsidiair verzoek ik om een geanonimiseerde versie van alle documenten gevraagd onder bovengenoemde punten.",
     "type": "paragraph",
-    "letterConditionIds": [
+    "conditionIds": [
       "reccJ6mxMqYSuhNa1"
     ],
     "refEntityType": "letters",
@@ -474,7 +474,7 @@
   {
     "name": "writer email",
     "template": "{variable}",
-    "letterVariableId": [
+    "variableId": [
       "rec5WMdkHpydPBAHR"
     ],
     "type": "listItem",
@@ -485,7 +485,7 @@
     "name": "summery",
     "template": "Mocht u menen documenten of correspondentie zoals bedoeld in dit verzoek te moeten weigeren, dan vraag ik subsidiair om een zakelijke weergave van de inhoud of een samenvatting. Indien u van oordeel bent dat persoonlijke beleidsopvattingen in documenten bestemd voor intern beraad integrale openbaarmaking van de documenten in de weg staan, verzoek ik subsidiair om openbaarmaking van de informatie voor zover die geen persoonlijke beleidsopvatting is, en meer subsidiair om een samenvatting van de informatie.",
     "type": "paragraph",
-    "letterConditionIds": [
+    "conditionIds": [
       "rec3SYmpkF3P6lcOR"
     ],
     "refEntityType": "letters",
@@ -495,7 +495,7 @@
     "name": "all documents item subdoc report 1",
     "template": "Project- en programmaplannen",
     "type": "span",
-    "letterConditionIds": [
+    "conditionIds": [
       "reczpStFOxp70nwm7"
     ],
     "refEntityType": "letters",
@@ -505,7 +505,7 @@
     "name": "all documents item subdoc external 5",
     "template": "memo’s en notities, ",
     "type": "span",
-    "letterConditionIds": [
+    "conditionIds": [
       "recM7fASAJY9v6TT6"
     ],
     "refEntityType": "letters",
@@ -515,7 +515,7 @@
     "name": "passtrough",
     "template": "Daar waar documenten zich niet onder u bevinden en/of u er mee bekend bent dat tevens bij één of meer andere bestuursorganen informatie berust met betrekking tot dit onderwerp, verzoek ik u zonder oprekken van termijnen doorgeleiding van dit verzoek naar het juiste orgaan. Mocht dat inderdaad gebeuren, dan ontvang ik daarover graag bericht.",
     "type": "paragraph",
-    "letterConditionIds": [
+    "conditionIds": [
       "rec8VPRhuY7Oz3KHz"
     ],
     "refEntityType": "letters",
@@ -535,7 +535,7 @@
   {
     "name": "all documents item title 2 end",
     "template": "{variable} ",
-    "letterVariableId": [
+    "variableId": [
       "recLimOccLeDzWNO5"
     ],
     "type": "span",
@@ -545,7 +545,7 @@
   {
     "name": "normal doc item title",
     "template": "{variable} ",
-    "letterVariableId": [
+    "variableId": [
       "rec9TlrAZiBE98jAi"
     ],
     "type": "span",
@@ -559,7 +559,7 @@
     "name": "all documents  item subdoc meeting 2",
     "template": "uitnodigingen, ",
     "type": "span",
-    "letterConditionIds": [
+    "conditionIds": [
       "recWV1Ye6OlRWUP7C"
     ],
     "refEntityType": "letters",
@@ -569,7 +569,7 @@
     "name": "all documents item subdoc financial 1",
     "template": "Begrotingen",
     "type": "span",
-    "letterConditionIds": [
+    "conditionIds": [
       "rechahRTqLSklm00r"
     ],
     "refEntityType": "letters",
@@ -578,7 +578,7 @@
   {
     "name": "writer city",
     "template": "{variable}",
-    "letterVariableId": [
+    "variableId": [
       "rec5xNySVJlS3iuCG"
     ],
     "type": "span",
@@ -589,7 +589,7 @@
     "name": "all documents item subdoc report 3",
     "template": "Onderzoeksrapporten en auditrapportages",
     "type": "span",
-    "letterConditionIds": [
+    "conditionIds": [
       "recGlrLhWRvdDT8Th"
     ],
     "refEntityType": "letters",
@@ -610,7 +610,7 @@
     "name": "all documents item subdoc financial 2",
     "template": "Jaarverslagen",
     "type": "span",
-    "letterConditionIds": [
+    "conditionIds": [
       "rech2FeiwrSXXONRo"
     ],
     "refEntityType": "letters",
@@ -619,7 +619,7 @@
   {
     "name": "first alinea line 3",
     "template": "om openbaarmaking van of inzage in hieronder nader te specificeren documenten of informatie bij of onder u over {variable}.",
-    "letterVariableId": [
+    "variableId": [
       "recNtTsesz5BufwXp"
     ],
     "type": "span",
@@ -639,7 +639,7 @@
     "name": "all documents  item subdoc meeting 6",
     "template": "besluiten, ",
     "type": "span",
-    "letterConditionIds": [
+    "conditionIds": [
       "reccsjQTk0nsHRj0V"
     ],
     "refEntityType": "letters",
@@ -649,7 +649,7 @@
     "name": "receive digitally",
     "template": "Ik verzoek u de gevraagde informatie die digitaal bij u aanwezig is in digitale vorm te verstrekken. Van de informatie die alleen analoog (‘hard copy’) in uw archief aanwezig is, ontvang ik graag een kopie. Indien u voornemens bent om hiervoor kopieerkosten in rekening te brengen, verzoek ik u vooraf hierover contact met mij op te nemen.",
     "type": "paragraph",
-    "letterConditionIds": [
+    "conditionIds": [
       "recEIRNrraq6E4aZr"
     ],
     "refEntityType": "letters",
@@ -658,7 +658,7 @@
   {
     "name": "data document item title 1",
     "template": "Een overzicht van {variable} ",
-    "letterVariableId": [
+    "variableId": [
       "rec9TlrAZiBE98jAi"
     ],
     "type": "span",
@@ -669,7 +669,7 @@
     "name": "normal doc item subdoc external 6",
     "template": ")  met betrekking tot dit document,",
     "type": "span",
-    "letterConditionIds": [
+    "conditionIds": [
       "recBPuL9uNkUx8Dwg",
       "recdcUShbh698S3sw",
       "recBT0acUW1sJLqjo",
@@ -681,11 +681,11 @@
   {
     "name": "first alinea line 2 opt 3",
     "template": "als journalist werkzaam voor o.a. {variable}, ",
-    "letterVariableId": [
+    "variableId": [
       "recSis7QyiY32Egfq"
     ],
     "type": "span",
-    "letterConditionIds": [
+    "conditionIds": [
       "recLssr69f4Y9QlJv",
       "reck0yQhyHjq9r7R3"
     ],
@@ -700,7 +700,7 @@
     "name": "clarification meeting",
     "template": "Mocht u vragen hebben over de precieze interpretatie of de gewenste afhandeling van dit verzoek, dan ben ik graag bereid een nadere toelichting te geven. Ik verzoek u hierover binnen twee weken na ontvangst van mijn Wob-verzoek contact op te nemen.",
     "type": "paragraph",
-    "letterConditionIds": [
+    "conditionIds": [
       "recL8khBxUrwRRYjn"
     ],
     "refEntityType": "letters",
@@ -720,7 +720,7 @@
     "name": "normal doc item subdoc prep 7",
     "template": "besluitenlijsten, ",
     "type": "span",
-    "letterConditionIds": [
+    "conditionIds": [
       "recr3JmwBoIw1LVwT"
     ],
     "refEntityType": "documents",
@@ -743,7 +743,7 @@
   {
     "name": "receiver postcode",
     "template": "{variable} ",
-    "letterVariableId": [
+    "variableId": [
       "recpHZMDmThSywJfQ"
     ],
     "type": "listItem",
@@ -780,7 +780,7 @@
     "name": "all documents item subdoc external 1",
     "template": "Externe correspondentie (incl./excl. ",
     "type": "span",
-    "letterConditionIds": [
+    "conditionIds": [
       "recM7fASAJY9v6TT6",
       "recDqqPIxZQl3GOP4",
       "recdOpND33lY5oubX",
@@ -839,7 +839,7 @@
   {
     "name": "data document item title 2",
     "template": " in de periode {variable}. ",
-    "letterVariableId": [
+    "variableId": [
       "recIHGfeCBwPo2srV"
     ],
     "type": "span",
@@ -850,7 +850,7 @@
     "name": "normal doc item subdoc internal 5",
     "template": "memo’s en notities, ",
     "type": "span",
-    "letterConditionIds": [
+    "conditionIds": [
       "rec1GUDGJfM5ZGmIm"
     ],
     "refEntityType": "documents",
@@ -859,7 +859,7 @@
   {
     "name": "normal doc item title 1",
     "template": "van datum: {variable}, alsmede:",
-    "letterVariableId": [
+    "variableId": [
       "recIHGfeCBwPo2srV"
     ],
     "type": "span",
@@ -869,7 +869,7 @@
   {
     "name": "first alinea line 1",
     "template": "Met een beroep op de Wet openbaarheid van bestuur (hierna: Wob) verzoek ik, {variable}, ",
-    "letterVariableId": [
+    "variableId": [
       "recc3RABaErKOmYPM"
     ],
     "type": "span",
@@ -879,7 +879,7 @@
   {
     "name": "all documents item title 2 start",
     "template": "{variable} - ",
-    "letterVariableId": [
+    "variableId": [
       "recx1yddA58KsdT2a"
     ],
     "type": "span",
@@ -896,7 +896,7 @@
   {
     "name": "writer adress",
     "template": "{variable}",
-    "letterVariableId": [
+    "variableId": [
       "recULhVxwwMIj63yT"
     ],
     "type": "listItem",
@@ -906,7 +906,7 @@
   {
     "name": "receiver name",
     "template": "T.a.v. {variable}",
-    "letterVariableId": [
+    "variableId": [
       "recZfrIFSPmI9rTBV"
     ],
     "type": "listItem",
@@ -920,7 +920,7 @@
     "name": "normal doc item subdoc internal 3",
     "template": "E-mails en brieven, inclusief bijlagen, ",
     "type": "span",
-    "letterConditionIds": [
+    "conditionIds": [
       "recamgDGddLCv3qcP"
     ],
     "refEntityType": "documents",
@@ -956,7 +956,7 @@
     "name": "all documents item subdoc meeting 8",
     "template": "notulen, ",
     "type": "span",
-    "letterConditionIds": [
+    "conditionIds": [
       "reclz9B4gbk02Hu9W"
     ],
     "refEntityType": "letters",
@@ -966,7 +966,7 @@
     "name": "normal doc item subdoc prep 3",
     "template": "presentatielijsten, ",
     "type": "span",
-    "letterConditionIds": [
+    "conditionIds": [
       "rec4DN45JnXEroHHa"
     ],
     "refEntityType": "documents",
@@ -976,7 +976,7 @@
     "name": "normal doc item subdoc internal 2",
     "template": "brieven, ",
     "type": "span",
-    "letterConditionIds": [
+    "conditionIds": [
       "recapIZd8BKQgOu7S"
     ],
     "refEntityType": "documents",
@@ -986,7 +986,7 @@
     "name": "motivation for denial",
     "template": "Bij gehele of gedeeltelijke weigering van een document verzoek ik u de weigering per document respectievelijk per alinea te motiveren. Niet alleen met verwijzing naar het betreffende Wob-artikel, maar tevens met onderbouwing waarom die weigeringsgrond zwaarder weegt dan het algemeen belang van openbaarheid.",
     "type": "paragraph",
-    "letterConditionIds": [
+    "conditionIds": [
       "recZyTucEkSiF4MqT"
     ],
     "refEntityType": "letters",
@@ -996,7 +996,7 @@
     "name": "normal doc item subdoc prep 9",
     "template": "gespreksverslagen.",
     "type": "span",
-    "letterConditionIds": [
+    "conditionIds": [
       "recGTnK0sr28naWED"
     ],
     "refEntityType": "documents",
@@ -1006,7 +1006,7 @@
     "name": "term with environment",
     "template": "Omdat dit verzoek betrekking heeft op milieu-informatie wijs ik u voor de goede orde op de verkorte beslistermijn van twee weken.",
     "type": "paragraph",
-    "letterConditionIds": [
+    "conditionIds": [
       "recgdZB8loRLHsg1G",
       "recGxn7zTcOYhrsyr"
     ],
@@ -1034,7 +1034,7 @@
   {
     "name": "all documents item title 1",
     "template": "Alle bij of onder u rustende documenten inzake {variable}, over de periode:",
-    "letterVariableId": [
+    "variableId": [
       "recNtTsesz5BufwXp"
     ],
     "type": "paragraph",
@@ -1045,7 +1045,7 @@
     "name": "normal doc item subdoc internal 1",
     "template": "interne correspondentie (incl./excl. ",
     "type": "span",
-    "letterConditionIds": [
+    "conditionIds": [
       "recapIZd8BKQgOu7S",
       "recamgDGddLCv3qcP",
       "recU0eiiPmlk8w6mt",
@@ -1068,7 +1068,7 @@
     "name": "journalistic relevance",
     "template": "In de afhandeling van dit verzoek vraag ik u rekening te houden met het publieke belang van de journalistiek als controleur van een goede en democratische bestuursvoering.",
     "type": "paragraph",
-    "letterConditionIds": [
+    "conditionIds": [
       "recjrzkCFobvw05e1"
     ],
     "refEntityType": "letters",
@@ -1078,7 +1078,7 @@
     "name": "all documents item subdoc meeting 1",
     "template": "alle ",
     "type": "span",
-    "letterConditionIds": [
+    "conditionIds": [
       "recWV1Ye6OlRWUP7C",
       "rec4pO8ecqoUi3pyq",
       "rec8jvd33PRAkXuEO",
@@ -1095,7 +1095,7 @@
     "name": "normal doc item subdoc external 3",
     "template": "E-mails en brieven, inclusief bijlagen, ",
     "type": "span",
-    "letterConditionIds": [
+    "conditionIds": [
       "recdcUShbh698S3sw"
     ],
     "refEntityType": "documents",
@@ -1105,7 +1105,7 @@
     "name": "all documents item subdoc meeting 9",
     "template": "gespreksverslagen.",
     "type": "span",
-    "letterConditionIds": [
+    "conditionIds": [
       "recKOhvJQ141WS0qm"
     ],
     "refEntityType": "letters",
@@ -1129,7 +1129,7 @@
     "name": "normal doc item subdoc prep 6",
     "template": "besluiten, ",
     "type": "span",
-    "letterConditionIds": [
+    "conditionIds": [
       "recMqFdH7zwYVTBdw"
     ],
     "refEntityType": "documents",
@@ -1138,7 +1138,7 @@
   {
     "name": "receiver organisation name",
     "template": "{variable}",
-    "letterVariableId": [
+    "variableId": [
       "recoNy1jGMl93XAI7"
     ],
     "type": "listItem",
@@ -1151,11 +1151,11 @@
   {
     "name": "first alinea line 2 opt 4",
     "template": " journalist, u namens {variable}, ",
-    "letterVariableId": [
+    "variableId": [
       "recSis7QyiY32Egfq"
     ],
     "type": "span",
-    "letterConditionIds": [
+    "conditionIds": [
       "recLssr69f4Y9QlJv",
       "reck0yQhyHjq9r7R3"
     ],
@@ -1190,7 +1190,7 @@
     "name": "term of delivery",
     "template": "Dit verzoek wordt gedaan op basis van de Wet openbaarheid van bestuur. Daaruit vloeit voort dat u binnen 4 weken een besluit moet nemen op dit verzoek. ",
     "type": "paragraph",
-    "letterConditionIds": [
+    "conditionIds": [
       "recGxn7zTcOYhrsyr"
     ],
     "refEntityType": "letters",
@@ -1199,7 +1199,7 @@
   {
     "name": "receiver address",
     "template": "{variable}",
-    "letterVariableId": [
+    "variableId": [
       "recQ13uaYcfWfWBA2"
     ],
     "type": "listItem",
@@ -1213,7 +1213,7 @@
     "name": "normal doc item subdoc external 5",
     "template": "memo’s en notities, ",
     "type": "span",
-    "letterConditionIds": [
+    "conditionIds": [
       "recSJsWlzTnBbzgHz"
     ],
     "refEntityType": "documents",
@@ -1223,7 +1223,7 @@
     "name": "all documents item subdoc report 6",
     "template": "Pesentaties",
     "type": "span",
-    "letterConditionIds": [
+    "conditionIds": [
       "rechO5kiPe4CECCgR"
     ],
     "refEntityType": "letters",
@@ -1232,7 +1232,7 @@
   {
     "name": "writer postcode",
     "template": "{variable} ",
-    "letterVariableId": [
+    "variableId": [
       "recP4gqrTXXVjh40S"
     ],
     "type": "listItem",
@@ -1246,7 +1246,7 @@
     "name": "normal doc item subdoc external 4",
     "template": "SMS-jes en WhatsApp-berichten, ",
     "type": "span",
-    "letterConditionIds": [
+    "conditionIds": [
       "recBT0acUW1sJLqjo"
     ],
     "refEntityType": "documents",
@@ -1280,7 +1280,7 @@
     "name": "all documents item subdoc internal 4",
     "template": "SMS-jes en WhatsApp-berichten, ",
     "type": "span",
-    "letterConditionIds": [
+    "conditionIds": [
       "recfUGvHaqWEt6PTt"
     ],
     "refEntityType": "letters",
@@ -1297,7 +1297,7 @@
     "name": "all documents  item subdoc external 3",
     "template": "E-mails en brieven, inclusief bijlagen, ",
     "type": "span",
-    "letterConditionIds": [
+    "conditionIds": [
       "recM7fASAJY9v6TT6"
     ],
     "refEntityType": "letters",
@@ -1306,7 +1306,7 @@
   {
     "name": "subject",
     "template": "{variable}",
-    "letterVariableId": [
+    "variableId": [
       "recNtTsesz5BufwXp"
     ],
     "type": "paragraph",
@@ -1317,7 +1317,7 @@
     "name": "all documents  item subdoc external 6",
     "template": ")  met betrekking tot dit document,",
     "type": "span",
-    "letterConditionIds": [
+    "conditionIds": [
       "recM7fASAJY9v6TT6",
       "recDqqPIxZQl3GOP4",
       "recdOpND33lY5oubX",
@@ -1350,7 +1350,7 @@
     "name": "all documents item subdoc internal 3",
     "template": "E-mails en brieven, inclusief bijlagen, ",
     "type": "span",
-    "letterConditionIds": [
+    "conditionIds": [
       "rec2bRtqSVi9qIUbh"
     ],
     "refEntityType": "letters",
@@ -1359,11 +1359,11 @@
   {
     "name": "first alinea line 2 opt 2",
     "template": "u namens {variable}, ",
-    "letterVariableId": [
+    "variableId": [
       "recSis7QyiY32Egfq"
     ],
     "type": "span",
-    "letterConditionIds": [
+    "conditionIds": [
       "recLssr69f4Y9QlJv",
       "reck0yQhyHjq9r7R3"
     ],
@@ -1377,7 +1377,7 @@
   {
     "name": "date",
     "template": "{variable}",
-    "letterVariableId": [
+    "variableId": [
       "recLXsKfmlXj5KvB6"
     ],
     "type": "span",
@@ -1388,7 +1388,7 @@
     "name": "normal doc item subdoc external 1",
     "template": "Externe correspondentie (incl./excl. ",
     "type": "span",
-    "letterConditionIds": [
+    "conditionIds": [
       "recBPuL9uNkUx8Dwg",
       "recdcUShbh698S3sw",
       "recBT0acUW1sJLqjo",
@@ -1401,7 +1401,7 @@
     "name": "all documents item subdoc report 2",
     "template": "Adviezen, zowel extern als intern",
     "type": "span",
-    "letterConditionIds": [
+    "conditionIds": [
       "recPfDAsBCpLvMr2v"
     ],
     "refEntityType": "letters",
@@ -1410,7 +1410,7 @@
   {
     "name": "data document list",
     "type": "refList",
-    "letterConditionIds": [
+    "conditionIds": [
       "recY5syfbiVrQnBsm"
     ],
     "children": [
@@ -1423,7 +1423,7 @@
     "name": "normal doc item subdoc external 2",
     "template": "brieven, ",
     "type": "span",
-    "letterConditionIds": [
+    "conditionIds": [
       "recBPuL9uNkUx8Dwg"
     ],
     "refEntityType": "documents",
@@ -1433,7 +1433,7 @@
     "name": "normal doc item subdoc prep 1",
     "template": "alle ",
     "type": "span",
-    "letterConditionIds": [
+    "conditionIds": [
       "recZVMypnRLJj70lD",
       "rec4DN45JnXEroHHa",
       "recV1YU35GNuYDlic",
@@ -1450,7 +1450,7 @@
     "name": "first alinea line 2 opt 1",
     "template": "u ",
     "type": "span",
-    "letterConditionIds": [
+    "conditionIds": [
       "recLssr69f4Y9QlJv",
       "reck0yQhyHjq9r7R3"
     ],
@@ -1465,7 +1465,7 @@
     "name": "receipt of reception",
     "template": "Ik verzoek u de ontvangst van dit verzoek schriftelijk per email of brief aan mij te bevestigen. ",
     "type": "paragraph",
-    "letterConditionIds": [
+    "conditionIds": [
       "recz1v1WGe91TCALG"
     ],
     "refEntityType": "letters",
@@ -1490,7 +1490,7 @@
   {
     "name": "data document item data fields item",
     "template": "{variable} ",
-    "letterVariableId": [
+    "variableId": [
       "rec6iuOieQ6zN9ec7"
     ],
     "type": "listItem",
@@ -1501,7 +1501,7 @@
     "name": "all documents item subdoc financial 3",
     "template": "andere financiële documentatie",
     "type": "span",
-    "letterConditionIds": [
+    "conditionIds": [
       "reciqZKJP6fYOhDmi"
     ],
     "refEntityType": "letters",

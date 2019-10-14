@@ -72,7 +72,7 @@ const mapStateToProps = (state, { letterElId, entityId, entityType }) => {
   let entity = entityTypeSelector[entityType](state, entityId)
 
   let entityVarKey = findKey(entity, prop => {
-    let elemVarId = letterEl.letterVariableId && letterEl.letterVariableId[0]
+    let elemVarId = letterEl.variableId && letterEl.variableId[0]
     return elemVarId && prop.variableId === elemVarId
   })
 
