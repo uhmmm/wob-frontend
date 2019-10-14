@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { memo } from 'react'
 import { connect } from 'react-redux'
 import { computeElementVisibility } from './letterElementVisibility'
 import format from 'string-template'
@@ -17,50 +17,46 @@ const LetterTemplate = ({ template, value }) => {
   return value ? format(template, { variable: value || '' }) : template || ''
 }
 
-const LetterElementResolver = ({
-  letterEl,
-  entityId,
-  entity,
-  variable,
-  isVisible
-}) => {
-  let Element = letterElementTypes[letterEl.type]
-  return isVisible ? (
-    <Element>
-      <LetterTemplate
-        template={letterEl.template}
-        value={
-          variable &&
-          (variable.value !== '' ? variable.value : variable.placeholder)
-        }
-      />
-      {letterEl.children &&
-        letterEl.children.map((childLetterElId, key) => {
-          if (letterEl.type === 'refList') {
-            return entity[letterEl.refEntityType].value.map(childEntityId => {
+const LetterElementResolver = memo(
+  ({ letterEl, entityId, entity, variable, isVisible }) => {
+    let Element = letterElementTypes[letterEl.type]
+    return isVisible ? (
+      <Element>
+        <LetterTemplate
+          template={letterEl.template}
+          value={
+            variable &&
+            (variable.value !== '' ? variable.value : variable.placeholder)
+          }
+        />
+        {letterEl.children &&
+          letterEl.children.map((childLetterElId, key) => {
+            if (letterEl.type === 'refList') {
+              return entity[letterEl.refEntityType].value.map(childEntityId => {
+                return (
+                  <LetterElementResolverConnected
+                    key={childLetterElId + childEntityId}
+                    letterElId={childLetterElId}
+                    entityId={childEntityId}
+                    entityType={letterEl.refEntityType}
+                  />
+                )
+              })
+            } else {
               return (
                 <LetterElementResolverConnected
-                  key={childLetterElId + childEntityId}
+                  key={childLetterElId}
                   letterElId={childLetterElId}
-                  entityId={childEntityId}
+                  entityId={entityId}
                   entityType={letterEl.refEntityType}
                 />
               )
-            })
-          } else {
-            return (
-              <LetterElementResolverConnected
-                key={childLetterElId}
-                letterElId={childLetterElId}
-                entityId={entityId}
-                entityType={letterEl.refEntityType}
-              />
-            )
-          }
-        })}
-    </Element>
-  ) : null
-}
+            }
+          })}
+      </Element>
+    ) : null
+  }
+)
 
 const entityTypeSelector = {
   letters: getLetterById,

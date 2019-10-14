@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { memo } from 'react'
 import { connect } from 'react-redux'
 import { findKey } from 'lodash'
 
@@ -23,41 +23,38 @@ import { setPeriodVariable } from '../actions/periods'
 // THEN: Check Asides for root typing (prolly requires tab state)
 // THEN: Input variables and placeholders
 
-const FormElementResolver = ({
-  entityId,
-  formEl,
-  variable,
-  setEntityVariable
-}) => {
-  if (formEl) {
-    let Element = elements[formEl.type]
-    return Element ? (
-      <Element
-        key={formEl.elementId}
-        element={formEl}
-        variable={variable}
-        setEntityVariable={setEntityVariable}
-      >
-        {formEl.text}
-        {formEl.children &&
-          formEl.children.map(childElementId => {
-            return (
-              <FormElementResolverConnected
-                key={childElementId}
-                formElId={childElementId}
-                entityId={entityId}
-                entityType={formEl.refEntityType}
-              />
-            )
-          })}
-      </Element>
-    ) : (
-      <div>ViewError: ViewModel cannot be found</div>
-    )
-  } else {
-    return <div>ViewError: ElementId cannot be found</div>
+const FormElementResolver = memo(
+  ({ entityId, formEl, variable, setEntityVariable }) => {
+    if (formEl) {
+      let Element = elements[formEl.type]
+      return Element ? (
+        <Element
+          key={formEl.elementId}
+          element={formEl}
+          variable={variable}
+          setEntityVariable={setEntityVariable}
+        >
+          {formEl.text}
+          {formEl.children &&
+            formEl.children.map(childElementId => {
+              return (
+                <FormElementResolverConnected
+                  key={childElementId}
+                  formElId={childElementId}
+                  entityId={entityId}
+                  entityType={formEl.refEntityType}
+                />
+              )
+            })}
+        </Element>
+      ) : (
+        <div>ViewError: ViewModel cannot be found</div>
+      )
+    } else {
+      return <div>ViewError: ElementId cannot be found</div>
+    }
   }
-}
+)
 
 const entityTypeSelectors = {
   letters: getLetterById,
