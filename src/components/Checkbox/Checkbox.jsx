@@ -47,11 +47,13 @@ const CheckMarkIcon = styled.img({
 const Checkbox = ({ variable, setEntityVariable }) => {
   return (
     <CheckboxContainer
-      onClick={() => setEntityVariable(variable.name, !variable.value)}
+      onClick={() =>
+        setEntityVariable(variable.name, variable && !variable.value)
+      }
     >
       <Background />
       <Border />
-      {variable.value && <CheckMarkIcon src={checkMarkIcon} />}
+      {variable && <CheckMarkIcon src={checkMarkIcon} />}
     </CheckboxContainer>
   )
 }
