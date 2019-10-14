@@ -9,11 +9,11 @@
       "recAUnnds8BL00Rrr"
     ],
     "model": "documents",
-    "variableId": "rec1GUDGJfM5ZGmIm",
     "formElements": [
       "reczpjM17OFfnyZzK",
       "rec2CWNnWuqdes3l9"
-    ]
+    ],
+    "variableId": "rec1GUDGJfM5ZGmIm"
   },
   {
     "name": "allDocumentInternalEmail",
@@ -25,11 +25,11 @@
       "rec6jxTUdLfOhnklm"
     ],
     "model": "letters",
-    "variableId": "rec2bRtqSVi9qIUbh",
     "formElements": [
       "recOVv7mYonRWaBi5",
       "recV6sh6dUEqemKSi"
-    ]
+    ],
+    "variableId": "rec2bRtqSVi9qIUbh"
   },
   {
     "name": "summery",
@@ -53,10 +53,10 @@
       "recgjcMymIKiNOpX3"
     ],
     "model": "documents",
-    "variableId": "rec4DN45JnXEroHHa",
     "formElements": [
       "recjlgvRsCQAK6jP3"
-    ]
+    ],
+    "variableId": "rec4DN45JnXEroHHa"
   },
   {
     "name": "allDocumentMeetingPresentationList",
@@ -67,44 +67,41 @@
       "reck0fh2FF3r7U0y5"
     ],
     "model": "letters",
-    "variableId": "rec4pO8ecqoUi3pyq",
     "formElements": [
       "recW15QjBWAIdtlfG"
-    ]
+    ],
+    "variableId": "rec4pO8ecqoUi3pyq"
   },
   {
     "name": "writerEmail",
-    "letterPlaceholder": "<email schrijver>",
+    "placeholder": "<email schrijver>",
     "type": "string",
-    "defaultValue": "<email schrijver>",
     "variableForLetterElements": [
       "recJZOV89XFy341j6"
     ],
     "model": "letters",
-    "variableId": "rec5WMdkHpydPBAHR",
     "formElements": [
       "recoKHeB65dXV1vKe"
-    ]
+    ],
+    "variableId": "rec5WMdkHpydPBAHR"
   },
   {
     "name": "writerCity",
-    "letterPlaceholder": "<stad schrijver>",
+    "placeholder": "<stad schrijver>",
     "type": "string",
     "variableForLetterElements": [
       "recQdZUU2r3lsoAGX"
     ],
     "model": "letters",
-    "variableId": "rec5xNySVJlS3iuCG",
     "formElements": [
       "recMep7bTlJ0idWpL"
     ],
-    "defaultValue": "<stad schrijver>"
+    "variableId": "rec5xNySVJlS3iuCG"
   },
   {
     "name": "fieldName",
-    "letterPlaceholder": "<naam van dataveld>",
+    "placeholder": "<naam van dataveld>",
     "type": "string",
-    "defaultValue": "Uitgaven",
     "variableForLetterElements": [
       "recykfCTJhfNFJFsT"
     ],
@@ -120,10 +117,10 @@
       "recxm1PvJZ9BFHDSP"
     ],
     "model": "documents",
-    "variableId": "rec82a5ToVTfd6Q2V",
     "formElements": [
       "recjlgvRsCQAK6jP3"
-    ]
+    ],
+    "variableId": "rec82a5ToVTfd6Q2V"
   },
   {
     "name": "passtroughRequested",
@@ -147,25 +144,24 @@
       "reck0fh2FF3r7U0y5"
     ],
     "model": "letters",
-    "variableId": "rec8jvd33PRAkXuEO",
     "formElements": [
       "recW15QjBWAIdtlfG"
-    ]
+    ],
+    "variableId": "rec8jvd33PRAkXuEO"
   },
   {
     "name": "title",
-    "letterPlaceholder": "<titel of omschrijving document >",
+    "placeholder": "<titel of omschrijving document >",
     "type": "string",
-    "defaultValue": "Lijst van ontslagen werknemers",
     "variableForLetterElements": [
       "recO3VTlacjvq08o5",
       "recUjux43fPwKvsYg"
     ],
     "model": "documents",
-    "variableId": "rec9TlrAZiBE98jAi",
     "formElements": [
       "reczSFOQss3JOYfBE"
-    ]
+    ],
+    "variableId": "rec9TlrAZiBE98jAi"
   },
   {
     "name": "people",
@@ -183,11 +179,11 @@
       "recUk14CbQ3sTTIl8"
     ],
     "model": "documents",
-    "variableId": "recBPuL9uNkUx8Dwg",
     "formElements": [
       "recoBkVhnfIWsOn4k",
       "rec2CWNnWuqdes3l9"
-    ]
+    ],
+    "variableId": "recBPuL9uNkUx8Dwg"
   },
   {
     "name": "externalDM",
@@ -199,11 +195,11 @@
       "recUk14CbQ3sTTIl8"
     ],
     "model": "documents",
-    "variableId": "recBT0acUW1sJLqjo",
     "formElements": [
       "recoBkVhnfIWsOn4k",
       "rec2CWNnWuqdes3l9"
-    ]
+    ],
+    "variableId": "recBT0acUW1sJLqjo"
   },
   {
     "name": "allDocumentMeetingDecisionList",
@@ -214,10 +210,10 @@
       "reck0fh2FF3r7U0y5"
     ],
     "model": "letters",
-    "variableId": "recCpBGP3EPFA784Z",
     "formElements": [
       "recW15QjBWAIdtlfG"
-    ]
+    ],
+    "variableId": "recCpBGP3EPFA784Z"
   },
   {
     "name": "allDocumentExternalEmail",
@@ -228,11 +224,11 @@
       "rectEQincwKhFzmFm"
     ],
     "model": "letters",
-    "variableId": "recDqqPIxZQl3GOP4",
     "formElements": [
       "reclIjpbGNGyHr7mb",
       "recV6sh6dUEqemKSi"
-    ]
+    ],
+    "variableId": "recDqqPIxZQl3GOP4"
   },
   {
     "name": "receiveDocsDigitally",
@@ -256,10 +252,10 @@
       "recxm1PvJZ9BFHDSP"
     ],
     "model": "documents",
-    "variableId": "recGTnK0sr28naWED",
     "formElements": [
       "recjlgvRsCQAK6jP3"
-    ]
+    ],
+    "variableId": "recGTnK0sr28naWED"
   },
   {
     "name": "allDocumentReportResearch",
@@ -269,10 +265,10 @@
       "recRC7cw9brLMjrmR"
     ],
     "model": "letters",
-    "variableId": "recGlrLhWRvdDT8Th",
     "formElements": [
       "recMw7lOaE4UaTSFw"
-    ]
+    ],
+    "variableId": "recGlrLhWRvdDT8Th"
   },
   {
     "name": "termOfDelivery",
@@ -290,17 +286,16 @@
   },
   {
     "name": "governmentEmail",
-    "letterPlaceholder": "<email overheid>",
+    "placeholder": "<email overheid>",
     "type": "string",
-    "defaultValue": "<email overheid>",
     "model": "letters",
     "variableId": "recGyJdOWEP4JmxIL"
   },
   {
     "name": "date",
-    "letterPlaceholder": "<document datum>",
+    "placeholder": "<document datum>",
     "type": "dateTime",
-    "defaultValue": "12-11-2016",
+    "defaultValue": "01-01-2019",
     "variableForLetterElements": [
       "recbqjvY2PoHnVRFF",
       "recb2Ow9eyrgqQhxU"
@@ -309,14 +304,14 @@
     "variableId": "recIHGfeCBwPo2srV"
   },
   {
-    "model": "documents",
-    "variableId": "recJXjZax109kKsu9",
     "name": "hasDate",
+    "type": "boolean",
+    "defaultValue": "false",
+    "model": "documents",
     "formElements": [
       "recTGupDyhM1gghh4"
     ],
-    "defaultValue": "false",
-    "type": "boolean"
+    "variableId": "recJXjZax109kKsu9"
   },
   {
     "name": "allDocumentMeetingMeetingNotes",
@@ -327,10 +322,10 @@
       "reck0fh2FF3r7U0y5"
     ],
     "model": "letters",
-    "variableId": "recKOhvJQ141WS0qm",
     "formElements": [
       "recW15QjBWAIdtlfG"
-    ]
+    ],
+    "variableId": "recKOhvJQ141WS0qm"
   },
   {
     "name": "clarificationMeeting",
@@ -347,23 +342,23 @@
   },
   {
     "name": "displayDateTime",
-    "letterPlaceholder": "<datum brief>",
+    "placeholder": "<datum brief>",
     "type": "dateTime",
-    "defaultValue": "<datum brief>",
     "variableForLetterElements": [
       "recwMrZEDSxyYNP3E"
     ],
     "model": "letters",
-    "variableId": "recLXsKfmlXj5KvB6",
     "formElements": [
       "rec8f8OiEuJ0ivmtd"
-    ]
+    ],
+    "variableId": "recLXsKfmlXj5KvB6",
+    "defaultValue": "01-01-2019"
   },
   {
     "name": "periodEnd",
-    "letterPlaceholder": "<eind periode>",
+    "placeholder": "<eind periode>",
     "type": "dateTime",
-    "defaultValue": "18-12-2018",
+    "defaultValue": "31-12-2019",
     "variableForLetterElements": [
       "recNumn3wYDGD9kEN"
     ],
@@ -381,10 +376,10 @@
       "recoHwJy02ZWavkwR"
     ],
     "model": "letters",
-    "variableId": "recLssr69f4Y9QlJv",
     "formElements": [
       "recHPwQPFyvuhSN7D"
-    ]
+    ],
+    "variableId": "recLssr69f4Y9QlJv"
   },
   {
     "name": "allDocumentExternalLetters",
@@ -398,11 +393,11 @@
       "rectEQincwKhFzmFm"
     ],
     "model": "letters",
-    "variableId": "recM7fASAJY9v6TT6",
     "formElements": [
       "reclIjpbGNGyHr7mb",
       "recV6sh6dUEqemKSi"
-    ]
+    ],
+    "variableId": "recM7fASAJY9v6TT6"
   },
   {
     "name": "preparationDecision",
@@ -413,10 +408,10 @@
       "recxm1PvJZ9BFHDSP"
     ],
     "model": "documents",
-    "variableId": "recMqFdH7zwYVTBdw",
     "formElements": [
       "recjlgvRsCQAK6jP3"
-    ]
+    ],
+    "variableId": "recMqFdH7zwYVTBdw"
   },
   {
     "name": "allDocumentExternalNotes",
@@ -427,41 +422,39 @@
       "rectEQincwKhFzmFm"
     ],
     "model": "letters",
-    "variableId": "recNEalRqitgir7DI",
     "formElements": [
       "reclIjpbGNGyHr7mb",
       "recV6sh6dUEqemKSi"
-    ]
+    ],
+    "variableId": "recNEalRqitgir7DI"
   },
   {
     "name": "subject",
-    "letterPlaceholder": "<onderwerp brief>",
+    "placeholder": "<onderwerp brief>",
     "type": "string",
-    "defaultValue": "<onderwerp>",
     "variableForLetterElements": [
       "rectBT638iPD1Dl8s",
       "recUHMuHIwZ0Vm9Zf",
       "reciPlnL2c9hbJCOq"
     ],
     "model": "letters",
-    "variableId": "recNtTsesz5BufwXp",
     "formElements": [
       "rec1YhxCT4tdUROGG"
-    ]
+    ],
+    "variableId": "recNtTsesz5BufwXp"
   },
   {
     "name": "writerPostcode",
-    "letterPlaceholder": "<postcode schrijver>",
+    "placeholder": "<postcode schrijver>",
     "type": "string",
-    "defaultValue": "<postcode schrijver>",
     "variableForLetterElements": [
       "recpeJsBI2Voc4Jzy"
     ],
     "model": "letters",
-    "variableId": "recP4gqrTXXVjh40S",
     "formElements": [
       "recnojywrsdvNfG6d"
-    ]
+    ],
+    "variableId": "recP4gqrTXXVjh40S"
   },
   {
     "name": "documents",
@@ -483,16 +476,15 @@
       "recwo6ZOs35WQ4nsB"
     ],
     "model": "letters",
-    "variableId": "recPfDAsBCpLvMr2v",
     "formElements": [
       "recMw7lOaE4UaTSFw"
-    ]
+    ],
+    "variableId": "recPfDAsBCpLvMr2v"
   },
   {
     "name": "governmentAdress",
-    "letterPlaceholder": "<adres overheid>",
+    "placeholder": "<adres overheid>",
     "type": "string",
-    "defaultValue": "<adres overheid>",
     "variableForLetterElements": [
       "recpIDfXukBbapZFZ"
     ],
@@ -501,9 +493,8 @@
   },
   {
     "name": "governmentCity",
-    "letterPlaceholder": "<stad overheid>",
+    "placeholder": "<stad overheid>",
     "type": "string",
-    "defaultValue": "<stad overheid>",
     "variableForLetterElements": [
       "recFqdAp7tWbs0RKA"
     ],
@@ -520,17 +511,16 @@
       "recUk14CbQ3sTTIl8"
     ],
     "model": "documents",
-    "variableId": "recSJsWlzTnBbzgHz",
     "formElements": [
       "recoBkVhnfIWsOn4k",
       "rec2CWNnWuqdes3l9"
-    ]
+    ],
+    "variableId": "recSJsWlzTnBbzgHz"
   },
   {
     "name": "writerOrganisationName",
-    "letterPlaceholder": "<organisatie schrijver>",
+    "placeholder": "<organisatie schrijver>",
     "type": "string",
-    "defaultValue": "<organisatie schrijver>",
     "variableForLetterElements": [
       "recV1Ki51EkbP8GND",
       "recuBqC4qVDhhBHGM",
@@ -550,25 +540,24 @@
       "recAUnnds8BL00Rrr"
     ],
     "model": "documents",
-    "variableId": "recU0eiiPmlk8w6mt",
     "formElements": [
       "reczpjM17OFfnyZzK",
       "rec2CWNnWuqdes3l9"
-    ]
+    ],
+    "variableId": "recU0eiiPmlk8w6mt"
   },
   {
     "name": "writerAdress",
-    "letterPlaceholder": "<adres schrijver>",
+    "placeholder": "<adres schrijver>",
     "type": "string",
-    "defaultValue": "<adres schrijver>",
     "variableForLetterElements": [
       "recdrQE0ijOE3sQC2"
     ],
     "model": "letters",
-    "variableId": "recULhVxwwMIj63yT",
     "formElements": [
       "recjH5WT5T89a49wu"
-    ]
+    ],
+    "variableId": "recULhVxwwMIj63yT"
   },
   {
     "name": "allDocumentReportEvaluations",
@@ -578,10 +567,10 @@
       "rec4sfNuW0P0vOgcr"
     ],
     "model": "letters",
-    "variableId": "recUyuASBMcX9lhCN",
     "formElements": [
       "recMw7lOaE4UaTSFw"
-    ]
+    ],
+    "variableId": "recUyuASBMcX9lhCN"
   },
   {
     "name": "preparationReceivedPiece",
@@ -592,10 +581,10 @@
       "recxm1PvJZ9BFHDSP"
     ],
     "model": "documents",
-    "variableId": "recV1YU35GNuYDlic",
     "formElements": [
       "recjlgvRsCQAK6jP3"
-    ]
+    ],
+    "variableId": "recV1YU35GNuYDlic"
   },
   {
     "name": "letterHasAllDocument",
@@ -616,10 +605,10 @@
       "reck0fh2FF3r7U0y5"
     ],
     "model": "letters",
-    "variableId": "recWV1Ye6OlRWUP7C",
     "formElements": [
       "recW15QjBWAIdtlfG"
-    ]
+    ],
+    "variableId": "recWV1Ye6OlRWUP7C"
   },
   {
     "name": "IsDataset",
@@ -629,10 +618,10 @@
       "recx3xUDskpZKAU6w"
     ],
     "model": "documents",
-    "variableId": "recY5syfbiVrQnBsm",
     "formElements": [
       "recebeQELUwxhvotH"
-    ]
+    ],
+    "variableId": "recY5syfbiVrQnBsm"
   },
   {
     "name": "preparationInvitation",
@@ -643,16 +632,15 @@
       "rec1YBuh3lpJwjUjv"
     ],
     "model": "documents",
-    "variableId": "recZVMypnRLJj70lD",
     "formElements": [
       "recjlgvRsCQAK6jP3"
-    ]
+    ],
+    "variableId": "recZVMypnRLJj70lD"
   },
   {
     "name": "governmentAdresseeName",
-    "letterPlaceholder": "<naam bestuurder>",
+    "placeholder": "<naam bestuurder>",
     "type": "string",
-    "defaultValue": "<naam bestuurder>",
     "variableForLetterElements": [
       "recIA2LPy1lEqhcPE",
       "recdwYJzTElkQZbtE"
@@ -683,11 +671,11 @@
       "recAUnnds8BL00Rrr"
     ],
     "model": "documents",
-    "variableId": "recamgDGddLCv3qcP",
     "formElements": [
       "reczpjM17OFfnyZzK",
       "rec2CWNnWuqdes3l9"
-    ]
+    ],
+    "variableId": "recamgDGddLCv3qcP"
   },
   {
     "name": "internalLetters",
@@ -699,11 +687,11 @@
       "recAUnnds8BL00Rrr"
     ],
     "model": "documents",
-    "variableId": "recapIZd8BKQgOu7S",
     "formElements": [
       "reczpjM17OFfnyZzK",
       "rec2CWNnWuqdes3l9"
-    ]
+    ],
+    "variableId": "recapIZd8BKQgOu7S"
   },
   {
     "name": "allDocumentMeetingAdvice",
@@ -714,25 +702,24 @@
       "reck0fh2FF3r7U0y5"
     ],
     "model": "letters",
-    "variableId": "recbbGDlkzymQry69",
     "formElements": [
       "recW15QjBWAIdtlfG"
-    ]
+    ],
+    "variableId": "recbbGDlkzymQry69"
   },
   {
     "name": "writerName",
-    "letterPlaceholder": "<naam schrijver>",
+    "placeholder": "<naam schrijver>",
     "type": "string",
-    "defaultValue": "<naam schrijver>",
     "variableForLetterElements": [
       "reccdjOg0pXsMwGqF",
       "recGZ24PTNFFcUpMU"
     ],
     "model": "letters",
-    "variableId": "recc3RABaErKOmYPM",
     "formElements": [
       "recjJo4WWB7VHF9lB"
-    ]
+    ],
+    "variableId": "recc3RABaErKOmYPM"
   },
   {
     "name": "anonimisation",
@@ -756,10 +743,10 @@
       "reck0fh2FF3r7U0y5"
     ],
     "model": "letters",
-    "variableId": "reccsjQTk0nsHRj0V",
     "formElements": [
       "recW15QjBWAIdtlfG"
-    ]
+    ],
+    "variableId": "reccsjQTk0nsHRj0V"
   },
   {
     "name": "allDocumentExternalDM",
@@ -771,11 +758,11 @@
       "rectEQincwKhFzmFm"
     ],
     "model": "letters",
-    "variableId": "recdOpND33lY5oubX",
     "formElements": [
       "reclIjpbGNGyHr7mb",
       "recV6sh6dUEqemKSi"
-    ]
+    ],
+    "variableId": "recdOpND33lY5oubX"
   },
   {
     "name": "externalEmail",
@@ -787,11 +774,11 @@
       "recUk14CbQ3sTTIl8"
     ],
     "model": "documents",
-    "variableId": "recdcUShbh698S3sw",
     "formElements": [
       "recoBkVhnfIWsOn4k",
       "rec2CWNnWuqdes3l9"
-    ]
+    ],
+    "variableId": "recdcUShbh698S3sw"
   },
   {
     "name": "allDocumentInternalDM",
@@ -803,24 +790,24 @@
       "rec6jxTUdLfOhnklm"
     ],
     "model": "letters",
-    "variableId": "recfUGvHaqWEt6PTt",
     "formElements": [
       "recOVv7mYonRWaBi5",
       "recV6sh6dUEqemKSi"
-    ]
+    ],
+    "variableId": "recfUGvHaqWEt6PTt"
   },
   {
     "name": "subjectIsEnvironmental",
     "type": "boolean",
+    "defaultValue": "false",
     "conditionForLetterElements": [
       "reciHSyqxrF8cy7uO"
     ],
     "model": "letters",
-    "variableId": "recgdZB8loRLHsg1G",
     "formElements": [
       "rec5ra3ua4vhEd7EB"
     ],
-    "defaultValue": "false"
+    "variableId": "recgdZB8loRLHsg1G"
   },
   {
     "name": "allDocumentFinancialYearReports",
@@ -830,10 +817,10 @@
       "recU9KfWo1Ni7dfHS"
     ],
     "model": "letters",
-    "variableId": "rech2FeiwrSXXONRo",
     "formElements": [
       "recW23iTxL9zXwipf"
-    ]
+    ],
+    "variableId": "rech2FeiwrSXXONRo"
   },
   {
     "name": "allDocumentInternalNotes",
@@ -845,11 +832,11 @@
       "rec6jxTUdLfOhnklm"
     ],
     "model": "letters",
-    "variableId": "rechO0MV4FB4eE0qO",
     "formElements": [
       "recOVv7mYonRWaBi5",
       "recV6sh6dUEqemKSi"
-    ]
+    ],
+    "variableId": "rechO0MV4FB4eE0qO"
   },
   {
     "name": "allDocumentReportPresentations",
@@ -859,10 +846,10 @@
       "recpXAZ2i2yGCl40i"
     ],
     "model": "letters",
-    "variableId": "rechO5kiPe4CECCgR",
     "formElements": [
       "recMw7lOaE4UaTSFw"
-    ]
+    ],
+    "variableId": "rechO5kiPe4CECCgR"
   },
   {
     "name": "allDocumentFinancialBudgets",
@@ -872,10 +859,10 @@
       "recQFd4Nlqi9yWxCP"
     ],
     "model": "letters",
-    "variableId": "rechahRTqLSklm00r",
     "formElements": [
       "recW23iTxL9zXwipf"
-    ]
+    ],
+    "variableId": "rechahRTqLSklm00r"
   },
   {
     "name": "people",
@@ -891,10 +878,10 @@
       "reczXre9uD9ky9cZF"
     ],
     "model": "letters",
-    "variableId": "reciqZKJP6fYOhDmi",
     "formElements": [
       "recW23iTxL9zXwipf"
-    ]
+    ],
+    "variableId": "reciqZKJP6fYOhDmi"
   },
   {
     "name": "letterJounalisticRelevance",
@@ -904,10 +891,10 @@
       "reck0WYTrwB8gKjcT"
     ],
     "model": "letters",
-    "variableId": "recjrzkCFobvw05e1",
     "formElements": [
       "recJhS0LioudP6Rwl"
-    ]
+    ],
+    "variableId": "recjrzkCFobvw05e1"
   },
   {
     "name": "letterForOrganisation",
@@ -921,20 +908,20 @@
       "rec7dlXGSWI3F0UHk"
     ],
     "model": "letters",
-    "variableId": "reck0yQhyHjq9r7R3",
     "formElements": [
       "recZuJsos4ZyxOFHL"
-    ]
+    ],
+    "variableId": "reck0yQhyHjq9r7R3"
   },
   {
-    "model": "documents",
-    "variableId": "reclaA1OanjxOBynr",
     "name": "hasSupplementalDocs",
-    "defaultValue": "false",
     "type": "boolean",
+    "defaultValue": "false",
+    "model": "documents",
     "formElements": [
       "recM6OBiPPogQ6x85"
-    ]
+    ],
+    "variableId": "reclaA1OanjxOBynr"
   },
   {
     "name": "allDocumentMeetingNotes",
@@ -945,10 +932,10 @@
       "reck0fh2FF3r7U0y5"
     ],
     "model": "letters",
-    "variableId": "reclz9B4gbk02Hu9W",
     "formElements": [
       "recW15QjBWAIdtlfG"
-    ]
+    ],
+    "variableId": "reclz9B4gbk02Hu9W"
   },
   {
     "name": "indexDocuments",
@@ -973,17 +960,16 @@
       "rec6jxTUdLfOhnklm"
     ],
     "model": "letters",
-    "variableId": "recnr9KrtbUb8sFyE",
     "formElements": [
       "recOVv7mYonRWaBi5",
       "recV6sh6dUEqemKSi"
-    ]
+    ],
+    "variableId": "recnr9KrtbUb8sFyE"
   },
   {
     "name": "governmentName",
-    "letterPlaceholder": "<naam overheid>",
+    "placeholder": "<naam overheid>",
     "type": "string",
-    "defaultValue": "<naam overheid>",
     "variableForLetterElements": [
       "recoBx1EsqlJfcYSj"
     ],
@@ -998,10 +984,10 @@
       "recJ2Mi3Z6ygaS8SJ"
     ],
     "model": "letters",
-    "variableId": "recoZUuK5Z88RDoJh",
     "formElements": [
       "recMw7lOaE4UaTSFw"
-    ]
+    ],
+    "variableId": "recoZUuK5Z88RDoJh"
   },
   {
     "name": "includeAllFormats",
@@ -1018,9 +1004,8 @@
   },
   {
     "name": "governmentPostcode",
-    "letterPlaceholder": "<postcode overheid>",
+    "placeholder": "<postcode overheid>",
     "type": "string",
-    "defaultValue": "<postcode overheid>",
     "variableForLetterElements": [
       "recYj8hutXMIFkWjY"
     ],
@@ -1042,16 +1027,15 @@
       "recxm1PvJZ9BFHDSP"
     ],
     "model": "documents",
-    "variableId": "recr3JmwBoIw1LVwT",
     "formElements": [
       "recjlgvRsCQAK6jP3"
-    ]
+    ],
+    "variableId": "recr3JmwBoIw1LVwT"
   },
   {
     "name": "personName",
-    "letterPlaceholder": "<naam van persoon>",
+    "placeholder": "<naam van persoon>",
     "type": "string",
-    "defaultValue": "Mark Rutte",
     "variableForLetterElements": [
       "recB9y7mdEo3Ga5Xy",
       "rec8PrTMHQ6uw8ygj"
@@ -1061,17 +1045,16 @@
   },
   {
     "name": "writerTelephone",
-    "letterPlaceholder": "<telefoon schrijver>",
+    "placeholder": "<telefoon schrijver>",
     "type": "string",
-    "defaultValue": "<telefoon schrijver>",
     "variableForLetterElements": [
       "rec8SbcryiGF2OGH1"
     ],
     "model": "letters",
-    "variableId": "recrcCszAnodIqKw6",
     "formElements": [
       "rectHE1L3ZZdnKYNg"
-    ]
+    ],
+    "variableId": "recrcCszAnodIqKw6"
   },
   {
     "name": "letterHasSpecificDocuments",
@@ -1092,16 +1075,16 @@
       "recxm1PvJZ9BFHDSP"
     ],
     "model": "documents",
-    "variableId": "recvdGJ6CbZmDwNRp",
     "formElements": [
       "recjlgvRsCQAK6jP3"
-    ]
+    ],
+    "variableId": "recvdGJ6CbZmDwNRp"
   },
   {
     "name": "periodStart",
-    "letterPlaceholder": "<begin periode>",
+    "placeholder": "<begin periode>",
     "type": "dateTime",
-    "defaultValue": "18-12-1988",
+    "defaultValue": "01-01-2019",
     "variableForLetterElements": [
       "recdAFc8UJsHzfsG8"
     ],
@@ -1126,9 +1109,9 @@
       "recJfM4WWMZceVV2p"
     ],
     "model": "letters",
-    "variableId": "reczpStFOxp70nwm7",
     "formElements": [
       "recMw7lOaE4UaTSFw"
-    ]
+    ],
+    "variableId": "reczpStFOxp70nwm7"
   }
 ]

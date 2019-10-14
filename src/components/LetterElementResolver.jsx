@@ -31,7 +31,7 @@ const LetterElementResolver = ({
         template={letterEl.template}
         value={
           variable &&
-          (variable.value !== '' ? variable.value : variable.defaultValue)
+          (variable.value !== '' ? variable.value : variable.placeholder)
         }
       />
       {letterEl.children &&
