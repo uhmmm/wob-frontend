@@ -29,7 +29,10 @@ const LetterElementResolver = ({
     <Element>
       <LetterTemplate
         template={letterEl.template}
-        value={variable && variable.defaultValue}
+        value={
+          variable &&
+          (variable.value !== '' ? variable.value : variable.defaultValue)
+        }
       />
       {letterEl.children &&
         letterEl.children.map((childLetterElId, key) => {

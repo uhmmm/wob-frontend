@@ -18,6 +18,8 @@ const parseType = variable => {
       return []
     case 'boolean':
       return variable.defaultValue === 'true'
+    case 'string':
+      return ''
     default:
       return variable.defaultValue
   }

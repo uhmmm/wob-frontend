@@ -16,8 +16,17 @@ const InputElement = styled.input({
 
 const Label = styled.label({})
 
-const Input = ({ element }) => {
-  return <InputElement placeholder={element.text} />
+const Input = ({ element, variable, setEntityVariable }) => {
+  return (
+    <InputElement
+      placeholder={element.text}
+      value={variable && variable.value}
+      onChange={event =>
+        variable &&
+        setEntityVariable(variable.name, variable && event.target.value)
+      }
+    />
+  )
 }
 
 export { Input, Label }
