@@ -12,12 +12,12 @@ export const createLetter = () => {
   }
 }
 
-export const setLetterVariable = (letterId, variableId, variableValue) => {
+export const setLetterVariable = (letterId, variableName, variableValue) => {
   return {
     type: SET_LETTER_VARIABLE,
     payload: {
-      letterId, 
-      variableId,
+      letterId,
+      variableName,
       variableValue
     }
   }

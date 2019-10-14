@@ -16,12 +16,12 @@ export const createPerson = ({ documentId, letterId }) => {
   }
 }
 
-export const setPersonVariable = (personId, variableId, variableValue) => {
+export const setPersonVariable = (personId, variableName, variableValue) => {
   return {
     type: SET_PERSON_VARIABLE,
     payload: {
       personId,
-      variableId,
+      variableName,
       variableValue
     }
   }

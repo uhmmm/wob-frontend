@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux'
 
-import { CREATE_LETTER } from '../actions/letters'
+import { CREATE_LETTER, SET_LETTER_VARIABLE } from '../actions/letters'
 import { CREATE_DOCUMENT } from '../actions/documents'
 import { CREATE_PERIOD } from '../actions/periods'
 import { CREATE_PERSON } from '../actions/people'
@@ -57,6 +57,18 @@ export const lettersById = (state = {}, action) => {
         return state
       }
 
+    case SET_LETTER_VARIABLE:
+      letterId = action.payload.letterId
+      return {
+        ...state,
+        [letterId]: {
+          ...state[letterId],
+          [action.payload.variableName]: {
+            ...state[letterId][action.payload.variableName],
+            value: action.payload.variableValue
+          }
+        }
+      }
     default:
       return state
   }

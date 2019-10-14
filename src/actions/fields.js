@@ -15,12 +15,12 @@ export const createField = documentId => {
   }
 }
 
-export const setFieldVariable = (fieldId, variableId, variableValue) => {
+export const setFieldVariable = (fieldId, variableName, variableValue) => {
   return {
     type: SET_FIELD_VARIABLE,
     payload: {
       fieldId,
-      variableId,
+      variableName,
       variableValue
     }
   }

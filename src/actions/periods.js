@@ -15,12 +15,12 @@ export const createPeriod = letterId => {
   }
 }
 
-export const setPeriodVariable = (periodId, variableId, variableValue) => {
+export const setPeriodVariable = (periodId, variableName, variableValue) => {
   return {
     type: SET_PERIOD_VARIABLE,
     payload: {
       periodId,
-      variableId,
+      variableName,
       variableValue
     }
   }

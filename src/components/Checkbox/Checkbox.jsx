@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import styled from '@emotion/styled'
 
 import checkMarkIcon from './checkMark.svg'
@@ -47,7 +47,7 @@ const CheckMarkIcon = styled.img({
 const Checkbox = ({ variable, setEntityVariable }) => {
   return (
     <CheckboxContainer
-      onClick={() => setEntityVariable(variable.variableId, !variable.value)}
+      onClick={() => setEntityVariable(variable.name, !variable.value)}
     >
       <Background />
       <Border />
@@ -55,4 +55,5 @@ const Checkbox = ({ variable, setEntityVariable }) => {
     </CheckboxContainer>
   )
 }
+
 export { Checkbox }

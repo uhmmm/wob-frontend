@@ -95,9 +95,9 @@ const entityTypeActions = {
 
 const mapDispatchToProps = (dispatch, { entityType, entityId }) => {
   return {
-    setEntityVariable: (variableId, variableValue) =>
+    setEntityVariable: (variableName, variableValue) =>
       dispatch(
-        entityTypeActions[entityType](entityId, variableId, variableValue)
+        entityTypeActions[entityType](entityId, variableName, variableValue)
       )
   }
 }

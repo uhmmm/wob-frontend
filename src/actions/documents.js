@@ -15,12 +15,16 @@ export const createDocument = letterId => {
   }
 }
 
-export const setDocumentVariable = (documentId, variableId, variableValue) => {
+export const setDocumentVariable = (
+  documentId,
+  variableName,
+  variableValue
+) => {
   return {
     type: SET_DOCUMENT_VARIABLE,
     payload: {
       documentId,
-      variableId,
+      variableName,
       variableValue
     }
   }
