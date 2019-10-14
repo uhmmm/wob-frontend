@@ -10,6 +10,11 @@ import { getFieldById } from '../reducers/fields'
 import { getPersonById } from '../reducers/people'
 import { getPeriodById } from '../reducers/periods'
 
+// NEXT: Display initial variables
+// THEN: Tablooping, tabs and ui state
+// THEN: Check Asides for root typing (prolly requires tab state)
+// THEN: Input variables and placeholders
+
 const FormElementResolver = ({ entityId, formEl }) => {
   if (formEl) {
     let Element = elements[formEl.type]
@@ -45,7 +50,8 @@ const entityTypeSelector = {
 }
 
 const mapStateToProps = (state, { formElId, entityType, entityId }) => {
-  let entity = entityId && entityTypeSelector[entityType](state, entityId)
+  let entity =
+    entityId && entityType && entityTypeSelector[entityType](state, entityId)
   let formEl = getElementById(state, formElId)
 
   let entityVarKey = findKey(entity, prop => {
