@@ -50,8 +50,6 @@ const LetterContainer = styled.div(({ fullScreen }) => ({
   margin: '0 0 80vh'
 }))
 
-// const LetterText = styled.p({ ...type.content.medium, color: colors.darkGrey })
-
 const Letter = ({ letterRootEl, entityId, fullScreen, visible }) => {
   return visible ? (
     <LetterArea fullScreen={fullScreen}>

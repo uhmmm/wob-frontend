@@ -1,21 +1,21 @@
 import { filter, isEqual, includes, every } from 'lodash'
 
-const compareVisibilityConditions = ({ letter, letterEl }) => {
-  let letterVars = filter(letter, prop => {
+const compareVisibilityConditions = ({ entity, letterEl }) => {
+  let entityVars = filter(entity, prop => {
     return includes(letterEl.conditionIds, prop.variableId)
   })
 
-  let letterVarValues = letterVars.map(variable => variable.defaultValue)
+  let entityVarValues = entityVars.map(variable => variable.value)
 
   // TODO - ANY: Every is not logically sufficient
   let comparison = letterEl.conditionValues
-    ? isEqual(letterVarValues, letterEl.conditionValues)
-    : every(letterVarValues, true)
+    ? isEqual(entityVarValues, letterEl.conditionValues)
+    : every(entityVarValues, item => item === 'true')
 
   return comparison
 }
 
-export const computeElementVisibility = ({ letter, letterEl }) =>
+export const computeElementVisibility = ({ entity, letterEl }) =>
   letterEl.conditionIds
-    ? compareVisibilityConditions({ letter, letterEl })
+    ? compareVisibilityConditions({ entity, letterEl })
     : true
