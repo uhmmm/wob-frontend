@@ -2,6 +2,7 @@ import uuid from 'uuid/v4'
 import models from './models'
 
 export const CREATE_DOCUMENT = 'CREATE_DOCUMENT'
+export const SET_DOCUMENT_VARIABLE = 'SET_DOCUMENT_VARIABLE'
 
 export const createDocument = letterId => {
   return {
@@ -10,6 +11,17 @@ export const createDocument = letterId => {
       ...models.documents,
       documentId: uuid(),
       letterId
+    }
+  }
+}
+
+export const setDocumentVariable = (documentId, variableId, variableValue) => {
+  return {
+    type: SET_DOCUMENT_VARIABLE,
+    payload: {
+      documentId,
+      variableId,
+      variableValue
     }
   }
 }

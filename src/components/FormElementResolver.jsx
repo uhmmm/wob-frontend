@@ -2,25 +2,42 @@ import React from 'react'
 import { connect } from 'react-redux'
 import { findKey } from 'lodash'
 
-import { getElementById } from '../reducers/formElements'
 import { elements } from './FormElementTypes'
+
+import { getElementById } from '../reducers/formElements'
+
 import { getLetterById } from '../reducers/letters'
 import { getDocumentById } from '../reducers/documents'
 import { getFieldById } from '../reducers/fields'
 import { getPersonById } from '../reducers/people'
 import { getPeriodById } from '../reducers/periods'
 
+import { setLetterVariable } from '../actions/letters'
+import { setDocumentVariable } from '../actions/documents'
+import { setFieldVariable } from '../actions/fields'
+import { setPersonVariable } from '../actions/people'
+import { setPeriodVariable } from '../actions/periods'
+
 // NEXT: Display initial variables
 // THEN: Tablooping, tabs and ui state
 // THEN: Check Asides for root typing (prolly requires tab state)
 // THEN: Input variables and placeholders
 
-const FormElementResolver = ({ entityId, formEl, variable }) => {
-  console.log(variable)
+const FormElementResolver = ({
+  entityId,
+  formEl,
+  variable,
+  setEntityVariable
+}) => {
   if (formEl) {
     let Element = elements[formEl.type]
     return Element ? (
-      <Element key={formEl.elementId} element={formEl} variable={variable}>
+      <Element
+        key={formEl.elementId}
+        element={formEl}
+        variable={variable}
+        setEntityVariable={setEntityVariable}
+      >
         {formEl.text}
         {formEl.children &&
           formEl.children.map(childElementId => {
@@ -42,7 +59,7 @@ const FormElementResolver = ({ entityId, formEl, variable }) => {
   }
 }
 
-const entityTypeSelector = {
+const entityTypeSelectors = {
   letters: getLetterById,
   documents: getDocumentById,
   fields: getFieldById,
@@ -52,7 +69,7 @@ const entityTypeSelector = {
 
 const mapStateToProps = (state, { formElId, entityType, entityId }) => {
   let entity =
-    entityId && entityType && entityTypeSelector[entityType](state, entityId)
+    entityId && entityType && entityTypeSelectors[entityType](state, entityId)
   let formEl = getElementById(state, formElId)
 
   let entityVarKey = findKey(entity, prop => {
@@ -68,8 +85,26 @@ const mapStateToProps = (state, { formElId, entityType, entityId }) => {
   }
 }
 
-const FormElementResolverConnected = connect(mapStateToProps)(
-  FormElementResolver
-)
+const entityTypeActions = {
+  letters: setLetterVariable,
+  documents: setDocumentVariable,
+  fields: setFieldVariable,
+  people: setPersonVariable,
+  periods: setPeriodVariable
+}
+
+const mapDispatchToProps = (dispatch, { entityType, entityId }) => {
+  return {
+    setEntityVariable: (variableId, variableValue) =>
+      dispatch(
+        entityTypeActions[entityType](entityId, variableId, variableValue)
+      )
+  }
+}
+
+const FormElementResolverConnected = connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(FormElementResolver)
 
 export { FormElementResolverConnected }

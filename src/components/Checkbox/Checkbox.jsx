@@ -44,14 +44,14 @@ const CheckMarkIcon = styled.img({
   width: 'auto'
 })
 
-const Checkbox = ({ variable }) => {
-  console.log(variable)
-  let [checked, setChecked] = useState(variable.defaultValue)
+const Checkbox = ({ variable, setEntityVariable }) => {
   return (
-    <CheckboxContainer onClick={() => setChecked(!checked)}>
+    <CheckboxContainer
+      onClick={() => setEntityVariable(variable.variableId, !variable.value)}
+    >
       <Background />
       <Border />
-      {checked && <CheckMarkIcon src={checkMarkIcon} />}
+      {variable.value && <CheckMarkIcon src={checkMarkIcon} />}
     </CheckboxContainer>
   )
 }

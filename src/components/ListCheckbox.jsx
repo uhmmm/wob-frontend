@@ -19,11 +19,16 @@ const Label = styled.label({
 })
 const TextSpan = styled.span({ margin: ' 0 1rem 0 0' })
 
-const ListItemCheckbox = ({ children, element, indented, variable }) => {
-  console.log(variable)
+const ListItemCheckbox = ({
+  children,
+  element,
+  indented,
+  variable,
+  setEntityVariable
+}) => {
   return (
     <CheckboxLineContainer indented={indented}>
-      <Checkbox variable={variable} />
+      <Checkbox variable={variable} setEntityVariable={setEntityVariable} />
       <Label>
         <TextSpan>{children}</TextSpan>
         {element.linkRouteId && (
