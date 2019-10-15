@@ -344,6 +344,7 @@
     "name": "displayDateTime",
     "placeholder": "<datum brief>",
     "type": "dateTime",
+    "defaultValue": "01-01-2019",
     "variableForLetterElements": [
       "recwMrZEDSxyYNP3E"
     ],
@@ -351,8 +352,7 @@
     "formElements": [
       "rec8f8OiEuJ0ivmtd"
     ],
-    "variableId": "recLXsKfmlXj5KvB6",
-    "defaultValue": "01-01-2019"
+    "variableId": "recLXsKfmlXj5KvB6"
   },
   {
     "name": "periodEnd",

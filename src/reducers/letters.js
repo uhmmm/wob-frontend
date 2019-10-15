@@ -69,6 +69,7 @@ export const lettersById = (state = {}, action) => {
           }
         }
       }
+
     default:
       return state
   }

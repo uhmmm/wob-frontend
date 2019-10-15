@@ -7,9 +7,13 @@ import { getRouteBySlug } from '../../reducers/routes'
 import { getImageById } from '../../reducers/images'
 
 import whirlwind from './whirlwind.png'
+import machine from './machine.png'
+import train from './train.png'
 
 const images = {
-  whirlwind
+  whirlwind,
+  machine,
+  train
 }
 
 const PageImagesContainer = styled.div({
@@ -22,6 +26,7 @@ const PageImagesContainer = styled.div({
 const Img = styled.img({ width: '75%' })
 
 const PageImage = ({ image }) => {
+  console.log(image)
   return (
     <PageImagesContainer>
       <Img src={images[image.imageRef]} alt="" />
