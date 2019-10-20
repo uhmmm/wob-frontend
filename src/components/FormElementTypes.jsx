@@ -20,8 +20,11 @@ import { InstituteCard } from './InstituteCard'
 
 import { type, colors } from '../styles'
 
+import { ContainerWithTabs } from './Tabs'
+
 const RootContainer = styled.div({ height: '100%' })
 const Container = styled.div({})
+
 const List = styled.ul({})
 const ListItem = styled.li({})
 const Label = styled.label({
@@ -73,7 +76,7 @@ export const elements = {
   label: Label,
   required: Span,
 
-  refTab: Container,
+  refTab: ContainerWithTabs,
 
   instituteCard: InstituteCard,
   dateTimePicker: DateTimePicker,

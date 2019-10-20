@@ -24,7 +24,14 @@ import { setPeriodVariable } from '../actions/periods'
 // THEN: Input variables and placeholders
 
 const FormElementResolver = memo(
-  ({ entityId, formEl, variable, setEntityVariable }) => {
+  ({
+    entityId,
+    entity,
+    formEl,
+    variable,
+    setEntityVariable,
+    activeTab = 'haflkjahsflkajh'
+  }) => {
     if (formEl) {
       let Element = elements[formEl.type]
       return Element ? (
@@ -36,16 +43,27 @@ const FormElementResolver = memo(
         >
           {formEl.text}
           {formEl.children &&
-            formEl.children.map(childElementId => {
-              return (
-                <FormElementResolverConnected
-                  key={childElementId}
-                  formElId={childElementId}
-                  entityId={entityId}
-                  entityType={formEl.refEntityType}
-                />
-              )
-            })}
+            (formEl.type === 'refTab'
+              ? formEl.children.map(childElementId => {
+                  return (
+                    <FormElementResolverConnected
+                      key={childElementId}
+                      formElId={childElementId}
+                      entityId={entity[formEl.refEntityType].value[activeTab]}
+                      entityType={formEl.refEntityType}
+                    />
+                  )
+                })
+              : formEl.children.map(childElementId => {
+                  return (
+                    <FormElementResolverConnected
+                      key={childElementId}
+                      formElId={childElementId}
+                      entityId={entityId}
+                      entityType={formEl.refEntityType}
+                    />
+                  )
+                }))}
         </Element>
       ) : (
         <div>ViewError: ViewModel cannot be found</div>

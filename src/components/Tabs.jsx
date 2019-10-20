@@ -19,7 +19,8 @@ const TabContainer = styled.div(({ active }) => ({
 }))
 
 const Label = styled.div({
-  ...type.content.medium
+  ...type.content.medium,
+  cursor: 'pointer'
 })
 
 const Tab = ({ text, active, handler }) => {
@@ -55,4 +56,15 @@ const Tabs = ({ tabs = [1, 2, 3] }) => {
   )
 }
 
-export { Tabs }
+const ContainerWithTabsContainer = styled.div({})
+
+const ContainerWithTabs = ({ children }) => {
+  return (
+    <ContainerWithTabsContainer>
+      <Tabs />
+      {children}
+    </ContainerWithTabsContainer>
+  )
+}
+
+export { Tabs, ContainerWithTabs }
