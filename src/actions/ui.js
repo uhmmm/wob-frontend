@@ -1,6 +1,6 @@
 export const TOGGLE_LETTER = 'TOGGLE_LETTER'
 export const CLOSE_LETTER = 'CLOSE_LETTER'
-export const SET_TAB = 'SET_TAB'
+export const SET_ACTIVE_TAB = 'SET_ACTIVE_TAB'
 
 export const toggleLetter = () => {
   return {
@@ -14,9 +14,9 @@ export const closeLetter = () => {
   }
 }
 
-export const setTab = tabIndex => {
+export const setActiveTab = tabIndex => {
   return {
-    type: SET_TAB,
+    type: SET_ACTIVE_TAB,
     payload: {
       tabIndex
     }

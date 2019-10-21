@@ -1,7 +1,11 @@
-import React, { useState } from 'react'
+import React from 'react'
+import { connect } from 'react-redux'
 import styled from '@emotion/styled'
 
 import { colors, type } from '../styles'
+
+import { setActiveTab } from '../actions/ui'
+import { getActiveTab } from '../reducers/ui'
 
 const TabContainer = styled.div(({ active }) => ({
   flex: '1 1 auto',
@@ -33,13 +37,7 @@ const Tab = ({ text, active, handler }) => {
 
 const TabsContainer = styled.div({ display: 'flex', width: '100%' })
 
-const Tabs = ({ tabs = [1, 2, 3] }) => {
-  let [activeTab, setActiveTab] = useState(1)
-
-  let tabHandler = elementId => {
-    return setActiveTab(elementId)
-  }
-
+const Tabs = ({ tabs = [0, 1, 2], activeTab, setActiveTab }) => {
   return (
     <TabsContainer>
       {tabs.map((tab, key) => {
@@ -48,7 +46,7 @@ const Tabs = ({ tabs = [1, 2, 3] }) => {
             key={tab}
             text={`Document ${tab}`}
             active={tab === activeTab}
-            handler={() => tabHandler(tab)}
+            handler={() => setActiveTab(key)}
           />
         )
       })}
@@ -56,15 +54,24 @@ const Tabs = ({ tabs = [1, 2, 3] }) => {
   )
 }
 
+const mapStateToProps = state => {
+  return { activeTab: getActiveTab(state) }
+}
+
+const TabsConnected = connect(
+  mapStateToProps,
+  { setActiveTab }
+)(Tabs)
+
 const ContainerWithTabsContainer = styled.div({})
 
 const ContainerWithTabs = ({ children }) => {
   return (
     <ContainerWithTabsContainer>
-      <Tabs />
+      <TabsConnected />
       {children}
     </ContainerWithTabsContainer>
   )
 }
 
-export { Tabs, ContainerWithTabs }
+export { ContainerWithTabs }
