@@ -30,7 +30,7 @@ const FormElementResolver = memo(
     formEl,
     variable,
     setEntityVariable,
-    activeTab = 'haflkjahsflkajh'
+    activeTab = 0
   }) => {
     if (formEl) {
       let Element = elements[formEl.type]
