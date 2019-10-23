@@ -17,6 +17,7 @@ import { setDocumentVariable } from '../actions/documents'
 import { setFieldVariable } from '../actions/fields'
 import { setPersonVariable } from '../actions/people'
 import { setPeriodVariable } from '../actions/periods'
+import { getActiveTab } from '../reducers/ui'
 
 // NEXT: Display initial variables
 // THEN: Tablooping, tabs and ui state
@@ -24,14 +25,7 @@ import { setPeriodVariable } from '../actions/periods'
 // THEN: Input variables and placeholders
 
 const FormElementResolver = memo(
-  ({
-    entityId,
-    entity,
-    formEl,
-    variable,
-    setEntityVariable,
-    activeTab = 0
-  }) => {
+  ({ entityId, entity, formEl, variable, setEntityVariable, activeTab }) => {
     if (formEl) {
       let Element = elements[formEl.type]
       return Element ? (
@@ -96,7 +90,8 @@ const mapStateToProps = (state, { formElId, entityType, entityId }) => {
     formEl,
     entity,
     entityId,
-    variable: entity && entity[entityVarKey]
+    variable: entity && entity[entityVarKey],
+    activeTab: getActiveTab(state)
   }
 }
 

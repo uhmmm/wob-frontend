@@ -1,13 +1,17 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import styled from '@emotion/styled'
+import { withRouter } from 'react-router-dom'
 
 import { colors, type } from '../styles'
 
 import { setActiveTab } from '../actions/ui'
 import { getActiveTab } from '../reducers/ui'
+import { getDocumentsByLetterId } from '../reducers/documents'
 
 const TabContainer = styled.div(({ active }) => ({
+  width: '100%',
+  minHeight: '2rem',
   flex: '1 1 auto',
   display: 'flex',
   justifyContent: 'center',
@@ -37,31 +41,38 @@ const Tab = ({ text, active, handler }) => {
 
 const TabsContainer = styled.div({ display: 'flex', width: '100%' })
 
-const Tabs = ({ tabs = [0, 1, 2], activeTab, setActiveTab }) => {
+const Tabs = ({ documents = [], activeTab, setActiveTab }) => {
   return (
     <TabsContainer>
-      {tabs.map((tab, key) => {
-        return (
-          <Tab
-            key={tab}
-            text={`Document ${tab}`}
-            active={tab === activeTab}
-            handler={() => setActiveTab(key)}
-          />
-        )
-      })}
+      {documents.length > 0 &&
+        documents.map((document, key) => {
+          return (
+            <Tab
+              key={document.documentId}
+              text={`Document ${key + 1}`}
+              active={document.documentId === activeTab.documentId}
+              handler={() => setActiveTab(document.documentId)}
+            />
+          )
+        })}
     </TabsContainer>
   )
 }
 
-const mapStateToProps = state => {
-  return { activeTab: getActiveTab(state) }
+const mapStateToProps = (state, { match }) => {
+  let documents = getDocumentsByLetterId(state, {
+    letterId: parseInt(match.params.letterId)
+  })
+  console.log(match.params.letterId, documents)
+  return { activeTab: getActiveTab(state), documents }
 }
 
-const TabsConnected = connect(
-  mapStateToProps,
-  { setActiveTab }
-)(Tabs)
+const TabsConnected = withRouter(
+  connect(
+    mapStateToProps,
+    { setActiveTab }
+  )(Tabs)
+)
 
 const ContainerWithTabsContainer = styled.div({})
 

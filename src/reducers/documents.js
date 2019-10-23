@@ -1,4 +1,5 @@
 import { combineReducers } from 'redux'
+import { filter } from 'lodash'
 
 import { CREATE_DOCUMENT } from '../actions/documents'
 import { CREATE_FIELD } from '../actions/fields'
@@ -63,4 +64,8 @@ export const documents = combineReducers({
 
 export const getDocumentById = (state, documentId) => {
   return state.documents.byId[documentId]
+}
+
+export const getDocumentsByLetterId = (state, { letterId }) => {
+  return filter(state.documents.byId, { letterId })
 }
