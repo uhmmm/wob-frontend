@@ -63,7 +63,6 @@ const mapStateToProps = (state, { match }) => {
   let documents = getDocumentsByLetterId(state, {
     letterId: parseInt(match.params.letterId)
   })
-  console.log(match.params.letterId, documents)
   return { activeTab: getActiveTab(state), documents }
 }
 

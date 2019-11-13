@@ -1,6 +1,6 @@
 [
   {
-    "slug": "journalistiek-doel",
+    "slug": "doel-van-verzoek",
     "type": "aside-info",
     "formElementIds": [
       "recw1Tk0xNsbkBK4G",
@@ -13,7 +13,7 @@
     "routeId": "rec0wsNO24WV79OwJ"
   },
   {
-    "slug": "welke-specifieke-documenten",
+    "slug": "specifieke-documenten-info",
     "type": "aside-info",
     "formElementIds": [
       "recP30ie4eTXRE6Ej",
@@ -534,7 +534,7 @@
     "routeId": "recemOBeTquFD8Vdd"
   },
   {
-    "slug": "rol-en-doel",
+    "slug": "wie-en-waarom",
     "title": "Rol en doel",
     "type": "form",
     "nextRouteId": [
@@ -599,7 +599,12 @@
       "recyMrKNFDJ3yknhY",
       "recLublnaRbwnfKPw",
       "rec4nB1FhrvQAHBN4",
-      "rec0Utz8p8ZPCRD5s"
+      "rec0Utz8p8ZPCRD5s",
+      "rec3jUnicRdzDDErv",
+      "recE6nXCXFAUtLLBR",
+      "rec6f1DMkUX9dktQv",
+      "recHHl4DKS6w6iHXU",
+      "recuPMjtfNVWmg2q4"
     ],
     "linkedImageId": [
       "recARf96Y8jOrWZo4"
