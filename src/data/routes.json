@@ -60,10 +60,11 @@
       "recLIShbCfLyZpU6j",
       "recdNd2aJdVPyB3aZ",
       "reclf4O9zmHZlXGYy",
-      "recWVbAgi4WrDRBRX",
       "recheedJH6o6PKREQ",
       "recpEUhf5dlgnskYa",
-      "recXtzL17tou3KdUW"
+      "recXtzL17tou3KdUW",
+      "recSkz5Xxe4jfC2ur",
+      "rec9RYoivmuzb2mDD"
     ],
     "LinkedByFormElementIds": [
       "reczpjM17OFfnyZzK",
@@ -79,13 +80,14 @@
       "recX9yVVEKhNoxe0Y",
       "rectKPnx7Fs0GwDOp",
       "recwlngBryedq8U5O",
-      "recl4cDE5FuDWLSFc",
       "recjHmkjQvCkM2gta",
       "recXDaR2z38KLxVnk",
       "recG5OElEeK54XKq7",
       "recsboy0v5frhFQim",
       "recF7fpJjYTE6D2xR",
-      "recQjZFlhayTQ0Qyt"
+      "recQjZFlhayTQ0Qyt",
+      "recL5nCVa8K3uyX7S",
+      "recjNIjT3GcdrkhSf"
     ],
     "LinkedByFormElementIds": [
       "recoBkVhnfIWsOn4k",
@@ -242,7 +244,7 @@
     "routeId": "recNnmOiLS8wDcp6c"
   },
   {
-    "slug": "documenten",
+    "slug": "wat-is-een-document",
     "type": "aside-info",
     "formElementIds": [
       "recTXVjRm8zmKMBEN",
@@ -260,15 +262,9 @@
     "type": "aside-document-type",
     "formElementIds": [
       "recrwxByhtYHmsAGH",
-      "recnOWEt9LXAtSunf",
       "recD3h2tLdENttC9F",
-      "recse7M1ti5r9r9Io",
       "recDJUzaibjJk1Q0Z",
-      "recKE3Nr6VcImBoTk",
-      "recqDONXTlFFXtJwz",
-      "rec3d0CW6ORDaoiqR",
       "receLULbEUTR4kgaj",
-      "recPhsQOZnvnSVaGJ",
       "rece0GeL7UjamyvXg"
     ],
     "LinkedByFormElementIds": [
@@ -280,20 +276,6 @@
   {
     "slug": "rapporten-en-presentaties",
     "type": "aside-document-type",
-    "formElementIds": [
-      "recX1IezQdvVzJFyA",
-      "recH9C20mHWHgQxhI",
-      "rectQQX41IDw8OfGM",
-      "recvw8BaG0XxYOqun",
-      "rec5PzIMsMJhyWSj7",
-      "rec4zBalyaZM5MUqC",
-      "recNUbSmKvq8omWEK",
-      "recNEyxhCXUrTuGPH"
-    ],
-    "LinkedByFormElementIds": [
-      "recrtGiW1ITkFUIxN",
-      "recMw7lOaE4UaTSFw"
-    ],
     "routeId": "recS1bPIRb1IMyqRJ"
   },
   {
@@ -379,7 +361,8 @@
       "rec5xIAU7YSqaarPX",
       "recI131w23h8koKGD",
       "recKxbRCR6MhXp3z9",
-      "recf5kC2MlD7RTCsW"
+      "recf5kC2MlD7RTCsW",
+      "recn2WJlDSLVdo0ed"
     ],
     "linkedImageId": [
       "recEIu2dCzufgliTV"
@@ -470,10 +453,13 @@
     "type": "aside-document-type",
     "formElementIds": [
       "reciFKIlPHgKCgVFd",
-      "rec8ZLUFszgk1jEMw",
       "recqmrw6OhNjnmqNI",
       "recAnb7JAg4u4zbl4",
-      "recNqGLzHNMdyyA7t"
+      "recNqGLzHNMdyyA7t",
+      "recYJ78TfNVCCowrT",
+      "recTEwQQgkQw3zl57",
+      "recAkTrlzQ0l6y64s",
+      "reconYOqFCTGfK68u"
     ],
     "LinkedByFormElementIds": [
       "recwtjFUq1FShulVw",
@@ -667,7 +653,7 @@
     "routeId": "reclTWVdtOxtGFAlR"
   },
   {
-    "slug": "aanvullende-opties",
+    "slug": "extra-opties",
     "title": "Aanvullende opties",
     "type": "form",
     "nextRouteId": [
@@ -745,11 +731,11 @@
     "type": "aside-document-type",
     "formElementIds": [
       "recKi9S1MYQv9iF9c",
-      "recBwFRLuEuE9uU6C",
       "recODhJCVre31aegr",
       "recj2BI6BRtaAJPn2",
       "recxFnzMGT8kcwLWM",
-      "recO1eKsyd1QhOVd7"
+      "recO1eKsyd1QhOVd7",
+      "recEsJqqvQ8vJ2zjw"
     ],
     "LinkedByFormElementIds": [
       "recePDWL3tuprSaED",
@@ -994,7 +980,8 @@
       "recOVv7mYonRWaBi5",
       "recW23iTxL9zXwipf",
       "rec2dWA4X2TemDBYG",
-      "recohHHfScf03SMiV"
+      "recohHHfScf03SMiV",
+      "recZNPzNnEvpMI1Nw"
     ],
     "linkedImageId": [
       "recSSK62WGbK6XDJ2"
