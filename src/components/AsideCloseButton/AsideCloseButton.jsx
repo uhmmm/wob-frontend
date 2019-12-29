@@ -3,6 +3,7 @@ import styled from '@emotion/styled'
 
 import { colors } from '../../styles'
 import closeArrow from './close-arrow.svg'
+import closeArrowHover from './close-arrow-hover.svg'
 
 const Button = styled.div({
   position: 'absolute',
@@ -13,20 +14,20 @@ const Button = styled.div({
   alignItems: 'center',
   width: '4rem',
   height: '4rem',
-  background: colors.yellow,
+  background: 'url(' + closeArrow + ') center center no-repeat ' + colors.yellow,
+  backgroundSize: '1.5rem',
+  cursor: 'pointer',
   outline: 'unset',
-  borderRadius: '0 10px 0 10px'
-})
-
-const Img = styled.img({
-  width: '1.5rem'
+  borderRadius: '0 10px 0 10px',
+  "&:hover": {
+    background: 'url(' + closeArrowHover + ') center center no-repeat ' + colors.yellow,
+    backgroundSize: '1.5rem',
+  }
 })
 
 const AsideCloseButton = () => {
   return (
-    <Button>
-      <Img src={closeArrow}></Img>
-    </Button>
+    <Button></Button>
   )
 }
 
