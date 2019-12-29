@@ -15,6 +15,7 @@ const ToggleBarContainer = styled.div({
   alignItems: 'center',
   height: '3rem',
   padding: '0.75rem 1.5rem',
+  cursor: 'pointer',
   background: colors.yellow,
   borderRadius: '10px',
   boxShadow: `${colors.blackestTransparent16} 1px 1px 2px`
