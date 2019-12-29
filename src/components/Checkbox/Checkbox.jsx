@@ -42,7 +42,8 @@ const CheckboxContainer = styled.div({
 const CheckMarkIcon = styled.img({
   position: 'relative',
   height: '1rem',
-  width: 'auto'
+  width: 'auto',
+  marginTop: '7px',
 })
 
 const Checkbox = ({ variable, setEntityVariable }) => {
