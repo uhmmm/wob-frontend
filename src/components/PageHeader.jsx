@@ -11,7 +11,6 @@ import { getElementsByProperty } from "../reducers/formElements";
 import { getRouteBySlug } from "../reducers/routes";
 
 import { colors } from "../styles";
-import { relative } from "upath";
 
 const HeaderContainer = styled.div({
   position: "relative",
@@ -34,7 +33,8 @@ const BorderVertical = styled.div({
 
 const Content = styled.div({
   padding: "8rem 8rem",
-  width: "50%"
+  width: "50%",
+  minWidth: "50rem"
 });
 
 const LogoContainer = styled.div({
