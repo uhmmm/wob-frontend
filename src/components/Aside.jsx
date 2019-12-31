@@ -3,7 +3,7 @@ import styled from "@emotion/styled";
 import { Switch, Route } from "react-router-dom";
 import { connect } from "react-redux";
 
-import { AsideCloseButton } from "./AsideCloseButton/AsideCloseButton";
+import { AsideCloseButtonRouted } from "./AsideCloseButton/AsideCloseButton";
 import { FormElementResolverConnected } from "./FormElementResolver";
 
 import { getElementsByProperty } from "../reducers/formElements";
@@ -30,7 +30,7 @@ const Aside = ({ elementId, entityId, closeLetter }) => {
   }, [closeLetter]);
   return (
     <AsideContainer>
-      <AsideCloseButton />
+      <AsideCloseButtonRouted />
       <FormElementResolverConnected
         formElId={elementId}
         entityId={entityId}

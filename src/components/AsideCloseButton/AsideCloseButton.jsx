@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "@emotion/styled";
+import { withRouter, Link } from "react-router-dom";
 
 import { colors } from "../../styles";
 import closeArrow from "./close-arrow.svg";
@@ -23,8 +24,15 @@ const Button = styled.div({
   }
 });
 
-const AsideCloseButton = () => {
-  return <Button></Button>;
+const AsideCloseButton = ({ match }) => {
+  let formPath = `/letter/${match.params.letterId}/form/${match.params.formSlug}`;
+  return (
+    <Link to={formPath}>
+      <Button></Button>
+    </Link>
+  );
 };
 
-export { AsideCloseButton };
+const AsideCloseButtonRouted = withRouter(AsideCloseButton);
+
+export { AsideCloseButton, AsideCloseButtonRouted };
