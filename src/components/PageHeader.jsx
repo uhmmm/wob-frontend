@@ -1,57 +1,76 @@
-import React from 'react'
-import styled from '@emotion/styled'
-import { connect } from 'react-redux'
-import { withRouter } from 'react-router'
+import React from "react";
+import styled from "@emotion/styled";
+import { connect } from "react-redux";
+import { withRouter } from "react-router";
 
-import { FormElementResolverConnected } from './FormElementResolver'
-import { Logo } from './Logo/Logo'
+import { FormElementResolverConnected } from "./FormElementResolver";
+import { Logo } from "./Logo/Logo";
+import { PageImagesRouted } from "./Images/PageImages";
 
-import { getElementsByProperty } from '../reducers/formElements'
-import { getRouteBySlug } from '../reducers/routes'
+import { getElementsByProperty } from "../reducers/formElements";
+import { getRouteBySlug } from "../reducers/routes";
 
-import { colors } from '../styles'
+import { colors } from "../styles";
+import { relative } from "upath";
 
 const HeaderContainer = styled.div({
-  position: 'absolute',
-  padding: '8rem',
+  position: "relative",
   top: 0,
-  margin: '10rem 0',
-  height: 'calc(100% - 20rem)',
-  background: colors.white,
-  width: 'calc(60% - 8rem)'
-})
+  height: "90%",
+  width: "100%"
+});
+
+const BorderHorizontal = styled.div({
+  position: "absolute",
+  borderRight: "100vw solid transparent",
+  borderTop: `2rem solid ${colors.yellow}`
+});
+
+const BorderVertical = styled.div({
+  position: "absolute",
+  borderRight: `2rem solid ${colors.yellow}`,
+  borderTop: `100vh solid ${colors.yellow}`
+});
+
+const Content = styled.div({
+  padding: "8rem 8rem",
+  width: "50%"
+});
 
 const LogoContainer = styled.div({
-  position: 'absolute',
-  top: '-2rem',
-  margin: '0 0 0rem 0'
-})
+  paddingBottom: "8rem"
+});
 
 const Header = ({ rootElementId }) => {
   return (
     <HeaderContainer>
-      <LogoContainer>
-        <Logo />
-      </LogoContainer>
-      <FormElementResolverConnected formElId={rootElementId} />
+      <PageImagesRouted />
+      <BorderHorizontal />
+      <BorderVertical />
+      <Content>
+        <LogoContainer>
+          <Logo />
+        </LogoContainer>
+        <FormElementResolverConnected formElId={rootElementId} />
+      </Content>
     </HeaderContainer>
-  )
-}
+  );
+};
 
 const mapStateToProps = (state, { match }) => {
-  let route = getRouteBySlug(state, { slug: match.params.pageSlug })
+  let route = getRouteBySlug(state, { slug: match.params.pageSlug });
   let rootElement = getElementsByProperty(state, {
     routeId: [route.routeId],
-    partOf: ['pageHeader'],
-    type: 'root'
-  })
+    partOf: ["pageHeader"],
+    type: "root"
+  });
   return {
     rootElementId: rootElement && rootElement[0].elementId
-  }
-}
+  };
+};
 
-const HeaderConnected = connect(mapStateToProps)(Header)
+const HeaderConnected = connect(mapStateToProps)(Header);
 
-const HeaderRouted = withRouter(HeaderConnected)
+const HeaderRouted = withRouter(HeaderConnected);
 
-export { HeaderRouted }
+export { HeaderRouted };

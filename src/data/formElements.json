@@ -1829,6 +1829,12 @@
     "partOf": [
       "main"
     ],
+    "children": [
+      "rec4QqRQH4skCqh9L",
+      "recR7Dwpyu8nHsc68",
+      "recdnKqQcUtENMAKl",
+      "recjuuK9F9arT25YM"
+    ],
     "refEntityType": "letters",
     "routeType": [
       "form"
@@ -1837,12 +1843,6 @@
     "url": "https://wobgen.netlify.com/letter/1/form/extra-opties",
     "slug": [
       "extra-opties"
-    ],
-    "children": [
-      "rec4QqRQH4skCqh9L",
-      "recR7Dwpyu8nHsc68",
-      "recdnKqQcUtENMAKl",
-      "recjuuK9F9arT25YM"
     ]
   },
   {
@@ -5698,8 +5698,8 @@
   },
   {
     "name": "landing/header/title",
-    "text": "Wob-generator",
-    "type": "titleLarge",
+    "text": "Schrijf in drie simpele stappen je eigen Wob-verzoek",
+    "type": "titleMedium",
     "routeId": [
       "recSx2NzrOTdbxZR5"
     ],
