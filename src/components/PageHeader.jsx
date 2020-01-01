@@ -16,7 +16,8 @@ const HeaderContainer = styled.div({
   position: "relative",
   top: 0,
   height: "90%",
-  width: "100%"
+  width: "100%",
+  overflow: "hidden"
 });
 
 const BorderHorizontal = styled.div({
